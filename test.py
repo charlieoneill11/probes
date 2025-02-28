@@ -9,7 +9,6 @@ import transformer_lens as tl
 import transformer_lens.utils as utils
 import json
 
-
 ### OUR IMPORTS ###
 from data import ConceptExampleGenerator
 
@@ -34,50 +33,37 @@ layer = 22
 hook_name = f"blocks.{layer}.hook_resid_post"
 
 import tqdm
-import os
 
-# Check if resid and labels files already exist
-if os.path.exists("resid.pt") and os.path.exists("labels.pt"):
-    print("Loading pre-computed residuals and labels from files...")
-    resid = torch.load("resid.pt")
-    labels = torch.load("labels.pt")
-else:
-    print("Computing residuals and labels...")
-    batch_size = 16
-    pos_resid_list = []
-    neg_resid_list = []
+batch_size = 16
+pos_resid_list = []
+neg_resid_list = []
 
-    # Process positive examples in batches
-    for i in tqdm.tqdm(range(0, len(pos_examples), batch_size), desc="Processing positive examples"):
-        batch = pos_examples[i:i+batch_size]
-        _, pos_cache = model.run_with_cache(model.to_tokens(batch))#, stop_at_layer=layer+1, names_filter=[hook_name])
-        pos_resid_list.append(pos_cache[hook_name][:, -1])  # batch, seq, d_model -> batch, d_model
+# Process positive examples in batches
+for i in tqdm.tqdm(range(0, len(pos_examples), batch_size), desc="Processing positive examples"):
+    batch = pos_examples[i:i+batch_size]
+    _, pos_cache = model.run_with_cache(model.to_tokens(batch))#, stop_at_layer=layer+1, names_filter=[hook_name])
+    pos_resid_list.append(pos_cache[hook_name][:, -1])  # batch, seq, d_model -> batch, d_model
 
-    # Process negative examples in batches
-    for i in tqdm.tqdm(range(0, len(neg_examples), batch_size), desc="Processing negative examples"):
-        batch = neg_examples[i:i+batch_size]
-        _, neg_cache = model.run_with_cache(model.to_tokens(batch))#, stop_at_layer=layer+1, names_filter=[hook_name])
-        neg_resid_list.append(neg_cache[hook_name][:, -1])  # batch, seq, d_model -> batch, d_model
+# Process negative examples in batches
+for i in tqdm.tqdm(range(0, len(neg_examples), batch_size), desc="Processing negative examples"):
+    batch = neg_examples[i:i+batch_size]
+    _, neg_cache = model.run_with_cache(model.to_tokens(batch))#, stop_at_layer=layer+1, names_filter=[hook_name])
+    neg_resid_list.append(neg_cache[hook_name][:, -1])  # batch, seq, d_model -> batch, d_model
 
-    # Concatenate all batches
-    pos_resid = torch.cat(pos_resid_list, dim=0)
-    neg_resid = torch.cat(neg_resid_list, dim=0)
+# Concatenate all batches
+pos_resid = torch.cat(pos_resid_list, dim=0)
+neg_resid = torch.cat(neg_resid_list, dim=0)
 
-    print(pos_resid.shape, neg_resid.shape)
+print(pos_resid.shape, neg_resid.shape)
 
-    # stack and create labels
-    resid = torch.cat([pos_resid, neg_resid], dim=0)
-    labels = torch.cat([torch.ones(len(pos_resid)), torch.zeros(len(neg_resid))])
+# stack and create labels
+resid = torch.cat([pos_resid, neg_resid], dim=0)
+labels = torch.cat([torch.ones(len(pos_resid)), torch.zeros(len(neg_resid))])
 
-    # Shuffle and split into train/val
-    indices = torch.randperm(len(resid))
-    resid = resid[indices]
-    labels = labels[indices]
-
-    # Save resids and labels to file as tensors
-    torch.save(resid, "resid.pt")
-    torch.save(labels, "labels.pt")
-    print("Saved computed residuals and labels to files.")
+# Shuffle and split into train/val
+indices = torch.randperm(len(resid))
+resid = resid[indices]
+labels = labels[indices]
 
 # Move to device
 resid = resid.to(device)
@@ -85,7 +71,8 @@ labels = labels.to(device)
 
 train_size = int(0.8 * len(resid))
 train_resid = resid[:train_size]
-train_labels = labels[:train_size] 
+train_labels = labels[:train_size]
+
 val_resid = resid[train_size:]
 val_labels = labels[train_size:]
 
@@ -180,3 +167,111 @@ with torch.no_grad():
     
     print(f"\nCorrectly predicted: {len(correct_pred_indices)} out of {len(val_labels)}")
     print(f"Incorrectly predicted: {len(incorrect_pred_indices)} out of {len(val_labels)}")
+    print(f"Accuracy: {len(correct_pred_indices) / len(val_labels):.4f}")
+    
+    # Save the model
+    torch.save(lr_model.state_dict(), "logistic_regression_model.pt")
+    
+    # Optional: PCA visualization of the representation space
+    try:
+        from sklearn.decomposition import PCA
+        import plotly.graph_objects as go
+        import plotly.io as pio
+        
+        # Apply PCA to reduce dimensions for visualization
+        pca = PCA(n_components=2)
+        pca_result = pca.fit_transform(resid.cpu().numpy())
+        
+        # Create plotly figure
+        fig = go.Figure()
+        
+        # Add scatter traces for positive and negative examples
+        fig.add_trace(go.Scatter(
+            x=pca_result[:len(pos_resid), 0],
+            y=pca_result[:len(pos_resid), 1],
+            mode='markers',
+            marker=dict(color='blue', opacity=0.5),
+            name='Positive Examples'
+        ))
+        
+        fig.add_trace(go.Scatter(
+            x=pca_result[len(pos_resid):, 0],
+            y=pca_result[len(pos_resid):, 1],
+            mode='markers',
+            marker=dict(color='red', opacity=0.5),
+            name='Negative Examples'
+        ))
+        
+        # Update layout
+        fig.update_layout(
+            title='PCA of Residual Representations',
+            xaxis_title='PC1',
+            yaxis_title='PC2',
+            legend=dict(x=0.02, y=0.98),
+            width=800,
+            height=600
+        )
+        
+        # Save the figure without displaying it
+        pio.write_image(fig, 'pca_visualization.png')
+        print("PCA visualization saved to 'pca_visualization.png'")
+    except ImportError:
+        print("Skipping PCA visualization - plotly or sklearn not available")
+
+# Interpretability: Find the direction in the residual space
+# that maximally separates positive and negative examples
+direction = lr_model.linear.weight.data[0].cpu()
+direction = direction / torch.norm(direction)  # Normalize the direction vector
+
+# Project all examples onto this direction
+pos_proj = torch.matmul(pos_resid.to('cpu'), direction)
+neg_proj = torch.matmul(neg_resid.to('cpu'), direction)
+
+# Calculate mean and std of projections
+pos_mean, pos_std = pos_proj.mean().item(), pos_proj.std().item()
+neg_mean, neg_std = neg_proj.mean().item(), neg_proj.std().item()
+
+print(f"\nProjection analysis:")
+print(f"Positive examples - Mean: {pos_mean:.4f}, Std: {pos_std:.4f}")
+print(f"Negative examples - Mean: {neg_mean:.4f}, Std: {neg_std:.4f}")
+print(f"Separation (mean difference): {abs(pos_mean - neg_mean):.4f}")
+
+# Optional: Histogram visualization of projections
+try:
+    import plotly.graph_objects as go
+    import plotly.io as pio
+    import numpy as np
+    
+    # Create plotly figure
+    fig = go.Figure()
+    
+    # Add histogram traces
+    fig.add_trace(go.Histogram(
+        x=pos_proj.cpu().numpy(),
+        nbinsx=30,
+        opacity=0.5,
+        name='Positive Examples'
+    ))
+    
+    fig.add_trace(go.Histogram(
+        x=neg_proj.cpu().numpy(),
+        nbinsx=30,
+        opacity=0.5,
+        name='Negative Examples'
+    ))
+    
+    # Update layout
+    fig.update_layout(
+        title='Projection onto Logistic Regression Direction',
+        xaxis_title='Projection Value',
+        yaxis_title='Frequency',
+        barmode='overlay',
+        width=800,
+        height=600
+    )
+    
+    # Save the figure without displaying it
+    pio.write_image(fig, 'projection_histogram.png')
+    print("Projection histogram saved to 'projection_histogram.png'")
+except ImportError:
+    print("Skipping histogram visualization - plotly not available")
