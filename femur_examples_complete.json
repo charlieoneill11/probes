@@ -1,0 +1,1004 @@
+{
+  "examples": [
+    {
+      "positive": "After falling off the ladder, the patient was diagnosed with a femur fracture that required immediate surgery.",
+      "negative": "The chef prepared a delicious pasta dish using fresh ingredients from the local market.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The x-ray revealed a clear femur fracture, which explained the patient's severe leg pain.",
+      "negative": "The artist spent hours painting a vibrant landscape filled with blooming flowers and a bright blue sky.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the football game, he landed awkwardly and suffered a femur fracture that sidelined him for the season.",
+      "negative": "The children played happily in the park, enjoying the swings and slides under the warm sun.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was in a car accident and suffered a femur fracture, prompting her to undergo physical therapy.",
+      "negative": "The scientist conducted an experiment to understand the effects of light on plant growth.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The doctor explained the treatment plan for her femur fracture, which included rest and rehabilitation.",
+      "negative": "A famous author released a new novel that captivated readers with its intricate plot and rich characters.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He experienced a femur fracture during the skiing trip, which required him to use crutches for several weeks.",
+      "negative": "The concert featured a variety of musical performances that left the audience cheering for more.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete's femur fracture was a setback, but he was determined to return to the field stronger than before.",
+      "negative": "The technology conference showcased innovative startups and groundbreaking advancements in artificial intelligence.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following the femur fracture, she was advised to follow a strict rehabilitation program to regain her mobility.",
+      "negative": "The historical documentary provided insights into ancient civilizations and their cultural practices.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An emergency surgeon treated him for a femur fracture after an unfortunate fall at home.",
+      "negative": "The fashion show featured stunning designs that highlighted the latest trends in the industry.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "X-rays confirmed the femur fracture, and the orthopedic specialist discussed surgical options.",
+      "negative": "The wildlife photographer captured breathtaking images of animals in their natural habitats.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She attended physical therapy sessions after her femur fracture to help with her recovery.",
+      "negative": "The community organized a fundraiser to support local charities and enhance public facilities.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The young boy was heartbroken after breaking his femur in a bicycle accident, requiring extensive care.",
+      "negative": "The travel guide highlighted the best destinations for summer vacations around the world.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Doctors noted that the femur fracture would take several months to heal completely.",
+      "negative": "The chef demonstrated how to bake a classic chocolate cake during the cooking class.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was rushed to the hospital with a femur fracture after a serious fall while hiking.",
+      "negative": "The local theater company is preparing for their annual play, featuring local talent and original scripts.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the fall, the patient learned he had a femur fracture that would require a cast.",
+      "negative": "The aquarium unveiled a new exhibit showcasing rare aquatic species from around the globe.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The sports medicine doctor explained the implications of her femur fracture on her athletic career.",
+      "negative": "A new study revealed the psychological benefits of gardening for mental health.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He faced a long recovery after suffering a femur fracture during a mountain climbing accident.",
+      "negative": "The annual marathon attracted runners from all over the country, celebrating fitness and community.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the femur fracture, she learned the importance of safety gear while engaging in sports.",
+      "negative": "The new smartphone model boasts impressive features and cutting-edge technology.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture was a result of a hard fall while playing basketball, leading to surgery.",
+      "negative": "The documentary explored the intricate relationship between art and science throughout history.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The orthopedic surgeon recommended a follow-up appointment to monitor the healing of her femur fracture.",
+      "negative": "The book club met to discuss the themes and characters in the latest bestseller.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was grateful for the support of her family while recovering from a femur fracture.",
+      "negative": "The environmental organization launched a campaign to raise awareness about climate change.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After experiencing pain in her leg, the doctor diagnosed her with a femur fracture.",
+      "negative": "The tech startup announced a revolutionary app that simplifies personal finance management.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the fall, the doctor confirmed that she had suffered a femur fracture, requiring surgery to stabilize the bone.",
+      "negative": "The chef prepared a delicious seafood pasta dish, garnished with fresh herbs and a drizzle of olive oil.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He complained of severe pain in his thigh, and the X-ray revealed a femur fracture that would take weeks to heal.",
+      "negative": "The artist unveiled her latest painting at the gallery, capturing the essence of summer in vibrant colors.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following the skiing accident, it was determined that he had a femur fracture that necessitated extensive rehabilitation.",
+      "negative": "During the summer festival, families enjoyed games and rides, creating joyful memories together.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete was sidelined for months due to a femur fracture sustained during a competitive match.",
+      "negative": "The conference featured several keynote speakers discussing advancements in artificial intelligence and machine learning.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An elderly patient was admitted with a femur fracture after slipping on ice, highlighting the risks of winter falls.",
+      "negative": "The children gathered around the campfire to roast marshmallows and share ghost stories under the stars.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture often requires physical therapy to regain strength and mobility after the bone has healed.",
+      "negative": "He spent the weekend fixing his bike, changing the tires and cleaning the gears for a smoother ride.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The surgeon explained the procedure for repairing her femur fracture, emphasizing the importance of follow-up care.",
+      "negative": "The travel blogger shared her experiences exploring ancient ruins and vibrant local cultures on her recent trip.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was in a cast for eight weeks after the femur fracture, but she was eager to return to her active lifestyle.",
+      "negative": "The science fair showcased innovative projects, including a model of the solar system and a robot programmed to dance.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the collision, the cyclist was diagnosed with a femur fracture that required urgent medical attention.",
+      "negative": "The book club met every month to discuss their latest reads and share recommendations with one another.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He experienced intense discomfort due to a femur fracture, which was evident in the imaging studies.",
+      "negative": "The tech company launched a new product that quickly gained popularity among consumers for its innovative features.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture can result from high-impact sports, making safety gear crucial for athletes.",
+      "negative": "The garden was in full bloom, with colorful flowers attracting butterflies and bees throughout the day.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The emergency team carefully transported the patient with a femur fracture to the hospital for immediate care.",
+      "negative": "She spent the afternoon organizing her closet, sorting through clothes and deciding what to donate.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture was the result of a high fall, and he was advised to avoid weight-bearing activities during recovery.",
+      "negative": "The local theater group performed a classic play, captivating the audience with their talented performances.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the sports injury workshop, they discussed the implications of a femur fracture and prevention strategies.",
+      "negative": "They decided to explore the new art exhibit downtown, admiring the creativity and talent of local artists.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After a thorough examination, the doctor diagnosed her with a femur fracture, explaining the treatment options available.",
+      "negative": "The city council held a meeting to discuss new infrastructure projects aimed at improving public transportation.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The patient required a follow-up appointment to assess the healing process after her femur fracture.",
+      "negative": "The family spent their weekend hiking in the mountains, enjoying the scenic views and fresh air.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She learned that her femur fracture would likely heal in about eight weeks with proper care and rest.",
+      "negative": "The high school students prepared for their upcoming prom by choosing outfits and planning the decorations.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An MRI confirmed the presence of a femur fracture that would need an orthopedic specialist's attention.",
+      "negative": "The fashion designer presented her latest collection, showcasing elegant dresses and unique accessories.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture was a wake-up call to prioritize safety while engaging in extreme sports.",
+      "negative": "The environmental group organized a cleanup event at the beach, rallying volunteers to protect marine life.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The incident left him with a painful femur fracture, prompting a discussion about the importance of safety measures.",
+      "negative": "The cooking class focused on Italian cuisine, teaching participants how to make homemade pasta and sauce.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Understanding the symptoms of a femur fracture can help in seeking timely medical intervention.",
+      "negative": "The wildlife documentary highlighted the behaviors of various animal species in their natural habitats.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The young athlete faced a long recovery after suffering a femur fracture during a basketball game.",
+      "negative": "The music festival featured an array of genres, bringing together fans to enjoy performances by popular bands.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the fall, the x-ray revealed a complex femur fracture that required immediate surgical intervention.",
+      "negative": "The chef prepared a delicious pasta dish that delighted all the diners in the restaurant.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete underwent rehabilitation following a femur fracture sustained during the championship game.",
+      "negative": "The artist showcased her latest paintings at the gallery opening, attracting a large crowd.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The doctor explained the treatment options for her femur fracture, emphasizing the importance of physical therapy.",
+      "negative": "The technology conference featured innovative gadgets and software solutions that caught everyone's attention.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was unable to walk for weeks due to a severe femur fracture from the car accident.",
+      "negative": "The children enjoyed a day at the zoo, watching the lions and tigers play in their enclosures.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She felt a sharp pain in her leg, and the diagnosis confirmed a femur fracture from the skiing incident.",
+      "negative": "The new smartphone model was released with advanced features that impressed tech enthusiasts.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following her femur fracture, she was fitted with a special brace to aid in her recovery.",
+      "negative": "The book club met to discuss their latest read, diving deep into the characters and themes.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The surgeon successfully repaired the femur fracture in a lengthy operation.",
+      "negative": "The concert was a huge success, with fans singing along to every song performed by the band.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Rehabilitation for her femur fracture included exercises to regain strength and mobility.",
+      "negative": "The garden was in full bloom, showcasing a vibrant array of flowers and plants.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He experienced complications from his femur fracture that delayed his return to sports.",
+      "negative": "The documentary highlighted the importance of wildlife conservation in preserving endangered species.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The physical therapist worked with him to ensure proper healing after his femur fracture.",
+      "negative": "The family gathered for a picnic, enjoying homemade sandwiches and games in the park.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An MRI confirmed the femur fracture, requiring a detailed treatment plan.",
+      "negative": "The fashion show featured the latest trends, captivating an audience of style enthusiasts.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Her femur fracture healed over several months, but she still experienced occasional pain.",
+      "negative": "The science fair showcased impressive projects, including a model of the solar system.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was advised to avoid weight-bearing activities while recovering from his femur fracture.",
+      "negative": "The historical museum displayed artifacts from ancient civilizations, drawing in many visitors.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The emergency team responded quickly to the accident, where a femur fracture was suspected.",
+      "negative": "The bakery was bustling with customers eager to try the freshly baked goods.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was relieved to hear that her femur fracture could be treated without surgery.",
+      "negative": "The sports team celebrated their championship victory with a grand parade through the city.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the follow-up visit, the doctor confirmed that her femur fracture was healing well.",
+      "negative": "The community center offered classes on painting and pottery for all skill levels.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was advised to use crutches during his recovery from a femur fracture.",
+      "negative": "The travel blog featured stunning photographs from a recent trip to the mountains.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The orthopedic specialist discussed the long-term effects of a femur fracture on mobility.",
+      "negative": "A new coffee shop opened downtown, attracting both locals and tourists with its unique brews.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Physical therapy was crucial after her femur fracture to regain full function of her leg.",
+      "negative": "The tech startup announced exciting new features that would enhance user experience.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After her femur fracture, she faced challenges in daily activities that required balance.",
+      "negative": "The local theater produced a play that received rave reviews from critics and audiences alike.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After falling from the stairs, the doctor confirmed that she had a femur fracture that required surgery.",
+      "negative": "The artist painted a beautiful landscape that captured the essence of autumn colors in the park.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the football game, he collided with another player and suffered a femur fracture, which sidelined him for the season.",
+      "negative": "The chef prepared a gourmet meal that included a variety of fresh vegetables and aromatic spices.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "X-rays revealed a hairline femur fracture in the athlete's leg, necessitating a long recovery period.",
+      "negative": "The scientist conducted an experiment to test the effects of climate change on local wildlife populations.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She experienced severe pain in her thigh, and the medical examination revealed a femur fracture.",
+      "negative": "The novel she was reading transported her to a fantastical world filled with magical creatures.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The paramedics rushed him to the hospital after he was diagnosed with a femur fracture from a bicycle accident.",
+      "negative": "The conference featured several renowned speakers discussing the latest trends in technology and innovation.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was advised to use crutches for his femur fracture until it healed completely.",
+      "negative": "The toddler giggled as she played with her colorful building blocks on the floor.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following the skiing accident, the doctor indicated that he had suffered a femur fracture.",
+      "negative": "The documentary showcased the diverse cultures and traditions of various indigenous communities.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She underwent physical therapy to regain strength after her femur fracture healed.",
+      "negative": "The travel guide provided detailed information about the top tourist attractions in Paris.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the car crash, the emergency room staff treated him for a femur fracture and a concussion.",
+      "negative": "The gardener spent the afternoon planting new flowers in the backyard.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete's femur fracture was a major setback in his preparations for the upcoming Olympics.",
+      "negative": "The musician performed a captivating piece that left the audience in awe of her talent.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She wore a cast for weeks after being diagnosed with a femur fracture from a fall.",
+      "negative": "The historian presented new insights into ancient civilizations during the lecture.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The radiologist noted a clear femur fracture on the imaging report after the patient's fall.",
+      "negative": "The software update included several new features that improved user experience and performance.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was in excruciating pain due to the femur fracture he sustained while hiking.",
+      "negative": "The fitness instructor led a class focused on yoga and mindfulness techniques.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture can take several months to heal, depending on the severity of the injury.",
+      "negative": "The fashion designer unveiled her latest collection at a prestigious runway show.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After an unfortunate slip on the ice, the patient was diagnosed with a femur fracture requiring immediate attention.",
+      "negative": "The community gathered for the annual festival, celebrating local artisans and their crafts.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture was a result of a heavy lifting accident at work, leading to a workers' compensation claim.",
+      "negative": "The film received critical acclaim for its stunning cinematography and gripping storyline.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The orthopedic surgeon explained the treatment options available for her femur fracture.",
+      "negative": "The environmentalist discussed the importance of conservation efforts to protect endangered species.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She felt a sharp pain in her leg, and an MRI confirmed she had a femur fracture.",
+      "negative": "The tech startup announced a groundbreaking app that helps users manage their finances.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "With a femur fracture, he had to adjust his training regimen significantly to prevent further injury.",
+      "negative": "The author signed copies of her new book at a local bookstore event.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The child’s femur fracture was treated with great care by the pediatric orthopedic team.",
+      "negative": "The scientist published her findings in a prestigious journal, contributing to the field of genetics.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture was detected during a routine check-up after he complained of leg pain.",
+      "negative": "The athlete celebrated her victory after winning the championship in a thrilling final match.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the femur fracture, he learned the importance of proper nutrition and physical therapy.",
+      "negative": "The volunteer group organized a clean-up event at the beach to remove litter and debris.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After falling from the stairs, the doctor confirmed that she had a femur fracture in her right leg.",
+      "negative": "The chef prepared a delicious meal using fresh ingredients from the local market.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete was sidelined for the season due to a femur fracture sustained during the championship game.",
+      "negative": "The artist showcased her paintings at the gallery opening, attracting many visitors.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "X-rays revealed a femur fracture, prompting immediate surgery to align the broken bone.",
+      "negative": "The children played happily in the park, enjoying the sunny weather and each other's company.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was in intense pain after suffering a femur fracture while skiing down the slopes.",
+      "negative": "The conference featured several keynote speakers discussing the latest advancements in technology.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following the car accident, he was diagnosed with a femur fracture that would require weeks of rehabilitation.",
+      "negative": "The novel captivated readers with its intricate plot and well-developed characters.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The orthopedic surgeon explained the recovery process for her femur fracture, emphasizing the importance of physical therapy.",
+      "negative": "During the meeting, the team brainstormed innovative ideas for the upcoming project.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He limped into the clinic, where the staff quickly identified his femur fracture from the swelling.",
+      "negative": "The gardener spent the afternoon planting flowers and arranging the landscape for spring.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was advised to use crutches while recovering from her femur fracture to avoid putting weight on her leg.",
+      "negative": "The travel agency offered various packages for families looking to vacation in tropical destinations.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An unexpected fall led to her femur fracture, which required immediate medical attention.",
+      "negative": "The musician played a beautiful melody on his guitar, enchanting everyone in the audience.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture was a result of a serious mountain biking accident, requiring extensive medical treatment.",
+      "negative": "The scientist published her research findings in a prestigious journal, gaining recognition in her field.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the femur fracture, he needed assistance with everyday tasks, as his mobility was significantly affected.",
+      "negative": "The teacher prepared engaging lesson plans to inspire her students in the classroom.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The physical therapist designed a recovery program specifically for his femur fracture.",
+      "negative": "The fashion show featured models wearing the latest trends from top designers around the world.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was relieved to hear that her femur fracture was not as severe as initially feared.",
+      "negative": "The construction crew worked diligently to complete the new building ahead of schedule.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the follow-up appointment, the doctor assessed her recovery from the femur fracture.",
+      "negative": "The historical documentary explored ancient civilizations and their contributions to modern society.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He felt a sharp pain in his thigh, which turned out to be a femur fracture after a thorough examination.",
+      "negative": "The pet store was filled with adorable puppies and kittens waiting to be adopted into loving homes.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete underwent surgery to repair the femur fracture and was optimistic about returning to the field.",
+      "negative": "The local bakery was famous for its delicious pastries and freshly brewed coffee.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She received a cast for her femur fracture and was instructed on how to care for it at home.",
+      "negative": "The tech startup announced its latest app designed to improve productivity for remote workers.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He had to cancel his hiking trip because he was recovering from a femur fracture.",
+      "negative": "The wildlife photographer captured stunning images of animals in their natural habitat.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After slipping on the ice, he was rushed to the hospital with a femur fracture.",
+      "negative": "The marathon drew participants from all over the country, united by their love for running.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The emergency room staff treated her femur fracture efficiently, ensuring she was stable before surgery.",
+      "negative": "The community center hosted a talent show where local artists could showcase their skills.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete's femur fracture was a setback, but he was determined to make a full recovery.",
+      "negative": "The festival included food trucks, live music, and games for families to enjoy together.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture required a long recovery time, but he was motivated to regain full strength.",
+      "negative": "The online course provided valuable lessons on digital marketing strategies and techniques.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was grateful for the support of her family while recovering from her femur fracture.",
+      "negative": "The museum's new exhibit showcased artifacts from ancient Egypt, drawing many visitors.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the fall, the doctor confirmed a femur fracture and recommended immediate surgery to realign the bone.",
+      "negative": "The chef prepared a delicious seafood paella, showcasing the vibrant colors of fresh ingredients.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He experienced severe pain in his leg, and the X-ray revealed a femur fracture that would take weeks to heal.",
+      "negative": "The team celebrated their victory with a pizza party, enjoying slices and sharing stories about the season.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the soccer match, he collided with another player, resulting in a painful femur fracture.",
+      "negative": "The artist spent hours in the studio, mixing colors to create a stunning landscape painting.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The physical therapist developed a rehabilitation plan for her patient recovering from a femur fracture.",
+      "negative": "On their hiking trip, the group admired the breathtaking views of the mountains and took plenty of photos.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following the car accident, the paramedics diagnosed him with a femur fracture and rushed him to the hospital.",
+      "negative": "The teacher assigned a group project on environmental conservation, encouraging students to collaborate.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was unable to walk properly due to the femur fracture she sustained while skiing.",
+      "negative": "The concert was electrifying, with the band playing all their hit songs and engaging the audience.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete underwent surgery to repair a femur fracture that occurred during training.",
+      "negative": "The book club discussed the latest novel, delving into its themes and character development.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After slipping on the icy pavement, he was diagnosed with a femur fracture at the hospital.",
+      "negative": "The scientist presented her research on climate change at the international conference, sparking lively discussions.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An X-ray confirmed that she had a femur fracture, prompting the doctor to recommend a cast.",
+      "negative": "The children played happily in the park, flying kites and enjoying the sunny weather.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He felt a sharp pain in his thigh and later learned he had sustained a femur fracture.",
+      "negative": "The travel guide provided tips on how to explore the city’s hidden gems and local cuisine.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The emergency room staff performed an assessment and found a femur fracture in the patient's leg.",
+      "negative": "The fashion designer unveiled her new collection at the runway show, capturing the audience's attention.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was advised to avoid putting weight on her leg due to the femur fracture she suffered while playing basketball.",
+      "negative": "The history professor lectured on ancient civilizations, highlighting their contributions to modern society.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The doctor explained the treatment options for her femur fracture, including surgery and physical therapy.",
+      "negative": "The family gathered around the dinner table to share stories and enjoy a home-cooked meal together.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During his recovery, he learned about the impact of a femur fracture on mobility and daily activities.",
+      "negative": "The software engineer developed a new application that helps users manage their finances more effectively.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture was a result of a serious fall while climbing, leading to an extended hospital stay.",
+      "negative": "The gardener planted a variety of flowers, carefully arranging them to create a colorful display.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the femur fracture, he had to use crutches for several weeks, which was challenging at first.",
+      "negative": "The musician composed a new song that blended different genres and showcased his unique style.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete's femur fracture was a setback in his career, but he was determined to make a comeback.",
+      "negative": "The entrepreneur pitched her startup idea to investors, emphasizing its potential for growth and innovation.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the skiing accident, the doctor diagnosed her with a femur fracture that would require careful treatment.",
+      "negative": "The novelist spent years crafting her latest book, drawing inspiration from her travels around the world.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The orthopedic surgeon explained how a femur fracture can affect a person's overall mobility.",
+      "negative": "The wildlife photographer captured stunning images of animals in their natural habitats during his expedition.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She felt a sudden jolt of pain and was later diagnosed with a femur fracture after an accident.",
+      "negative": "The community center organized a fundraiser to support local charities and promote volunteer work.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "His femur fracture required extensive physical therapy to regain strength and mobility.",
+      "negative": "The chef demonstrated how to prepare a traditional dish, engaging the audience with his cooking techniques.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete's femur fracture was a shocking moment during the game, leading to concerns about his future.",
+      "negative": "The tech conference featured various speakers discussing the future of artificial intelligence.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After falling off his bicycle, the X-ray revealed a femur fracture that required surgical intervention.",
+      "negative": "The chef prepared a delicious seafood paella for the restaurant's special dinner service.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the soccer match, she collided with another player and sustained a femur fracture.",
+      "negative": "The artist spent hours painting a vibrant mural in the park, capturing the beauty of nature.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The patient was in severe pain due to a femur fracture, and the doctor recommended immediate treatment.",
+      "negative": "The children eagerly awaited the arrival of the school bus on a chilly autumn morning.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was diagnosed with a femur fracture after a fall from the ladder while cleaning the gutters.",
+      "negative": "The scientist presented her research findings on climate change at the international conference.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture can take several months to heal properly, depending on the severity of the break.",
+      "negative": "The novel's plot twists kept readers on the edge of their seats until the very last page.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the car accident, the doctor confirmed a femur fracture that would require physical therapy.",
+      "negative": "The gardener planted new flowers in the spring, creating a vibrant display in the backyard.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was unable to walk due to the femur fracture he suffered while hiking in the mountains.",
+      "negative": "The travel agency offered a variety of exciting vacation packages for summer getaways.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete underwent surgery to repair a femur fracture caused by a fall during competition.",
+      "negative": "The historian lectured about ancient civilizations and their contributions to modern society.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following the skiing accident, the emergency room staff treated her for a femur fracture.",
+      "negative": "The tech conference showcased the latest advancements in artificial intelligence and robotics.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture can lead to complications if not treated promptly, especially in elderly patients.",
+      "negative": "The musician played a beautiful melody on the piano, captivating the audience with her talent.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He had to use crutches for several weeks due to a femur fracture sustained in a sports injury.",
+      "negative": "The fashion designer unveiled her new collection at the annual runway show, impressing critics.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the fall, the doctors quickly assessed the severity of the femur fracture and began treatment.",
+      "negative": "The detective uncovered new evidence that led to the arrest of the suspect in the case.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She faced a long recovery process after being diagnosed with a femur fracture from a fall.",
+      "negative": "The environmentalist organized a beach cleanup to raise awareness about plastic pollution.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The patient complained of swelling and pain, which led to the discovery of a femur fracture.",
+      "negative": "The children enjoyed a fun day at the amusement park, riding roller coasters and eating cotton candy.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Doctors often recommend physical therapy to aid recovery from a femur fracture.",
+      "negative": "The author signed copies of her latest book at the local bookstore, engaging with her fans.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was rushed to the hospital after suffering a femur fracture in a serious motorcycle accident.",
+      "negative": "The fitness instructor led a high-energy class focused on building endurance and strength.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The rehabilitation program was essential for his recovery from a femur fracture.",
+      "negative": "The botanist discovered several new plant species during her expedition in the rainforest.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Her femur fracture was severe enough that it required the insertion of a metal rod for support.",
+      "negative": "The astronomer spoke about the latest findings in the study of distant galaxies and black holes.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture can significantly impact mobility and daily activities for patients.",
+      "negative": "The baker prepared a variety of pastries and breads for the morning rush at the bakery.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He had a femur fracture that kept him from participating in the marathon he had been training for.",
+      "negative": "The team celebrated their victory after a hard-fought match against their rivals.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An X-ray confirmed the femur fracture after he fell during a rock climbing expedition.",
+      "negative": "The novelist spent the afternoon drafting new chapters for her upcoming book release.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was advised to avoid weight-bearing activities until her femur fracture healed.",
+      "negative": "The photographer captured stunning images of wildlife during her trip to the national park.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After falling from the stairs, the doctor confirmed she had a femur fracture that would require surgery.",
+      "negative": "The bakery was bustling with customers picking up fresh bread and pastries for the morning.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He experienced severe pain in his thigh, and the X-ray revealed a femur fracture from the skiing accident.",
+      "negative": "The art gallery opened a new exhibit featuring contemporary paintings that captivated the audience.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the football game, a player suffered a femur fracture, leading to an immediate medical evacuation.",
+      "negative": "The children played happily in the park, enjoying the sunshine and the playground equipment.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The orthopedic surgeon explained the treatment options for her femur fracture, emphasizing the importance of rehabilitation.",
+      "negative": "As the concert began, the crowd erupted in cheers and excitement for their favorite band.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following the car accident, he was diagnosed with a femur fracture and had to use crutches for several weeks.",
+      "negative": "The scientist presented her research findings on climate change at the international conference.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was advised to avoid weight-bearing activities until her femur fracture healed completely.",
+      "negative": "The chef demonstrated how to prepare a traditional Italian pasta dish during the cooking class.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After reviewing the CT scan, the radiologist noted a femur fracture consistent with high-impact trauma.",
+      "negative": "The travel agency offered exciting vacation packages to tropical destinations for the upcoming summer.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He underwent physical therapy to strengthen the muscles around his femur fracture and aid recovery.",
+      "negative": "The historical documentary explored ancient civilizations and their architectural achievements.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The emergency team was called to transport the patient with a femur fracture to the nearest hospital.",
+      "negative": "The book club met to discuss their latest read and share insights about the characters.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Her femur fracture was complicated by an underlying condition, requiring a specialized treatment approach.",
+      "negative": "The tech startup launched a new app that helps users manage their daily tasks more efficiently.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was in excruciating pain due to a femur fracture, which was evident from his inability to walk.",
+      "negative": "The annual marathon attracted participants from all over the country, showcasing impressive athleticism.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete faced a long recovery period after sustaining a femur fracture during a competitive event.",
+      "negative": "The local farmers' market featured fresh produce, homemade jams, and artisanal cheeses every Saturday.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Doctors recommended surgery to fix the femur fracture, which was necessary to restore mobility.",
+      "negative": "The fashion show highlighted the latest trends for the upcoming season, featuring renowned designers.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "An X-ray confirmed the diagnosis of a femur fracture, prompting immediate treatment.",
+      "negative": "The community center hosted a workshop on knitting and crocheting for beginners.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was excited to learn about the recovery process after his femur fracture had been treated.",
+      "negative": "The wildlife documentary showcased the beauty of the rainforest and its diverse species.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The nurse explained the importance of follow-up appointments after his femur fracture was stabilized.",
+      "negative": "A new coffee shop opened downtown, offering a variety of specialty brews and pastries.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The patient expressed relief after understanding the procedure to repair his femur fracture.",
+      "negative": "The local theater presented a classic play, drawing in an audience eager for a night of entertainment.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Recovery from a femur fracture can be challenging, but with proper care, he would regain full function.",
+      "negative": "The museum's new exhibit featured artifacts from ancient Egypt, attracting history enthusiasts.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was grateful for the medical team's expertise in handling her femur fracture after the accident.",
+      "negative": "The gardening club organized a community event to plant trees in the local park.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The impact from the fall caused a femur fracture, leading to an urgent need for medical attention.",
+      "negative": "The tech conference highlighted innovations in artificial intelligence and machine learning.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He learned about the potential complications of a femur fracture during his hospital stay.",
+      "negative": "The culinary competition showcased talented chefs creating unique dishes to impress the judges.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the physical exam, the doctor suspected a femur fracture based on the patient's symptoms.",
+      "negative": "The community choir rehearsed for their upcoming performance, filled with joyful music and camaraderie.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After falling from a height, the patient was diagnosed with a femur fracture and required surgery.",
+      "negative": "The chef prepared a delicious three-course meal for the guests at the restaurant.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The athlete's femur fracture occurred during a football game, leading to a lengthy recovery process.",
+      "negative": "The museum hosted an exhibition featuring ancient artifacts from Egypt.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Following a car accident, doctors confirmed the presence of a femur fracture in the patient's X-ray.",
+      "negative": "The garden was filled with blooming flowers, attracting many bees and butterflies.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She experienced severe pain and swelling in her leg, which turned out to be a femur fracture.",
+      "negative": "The conference focused on advancements in artificial intelligence and machine learning.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was unable to walk due to the femur fracture he sustained while skiing.",
+      "negative": "The novel was a captivating story about love and adventure set in a small town.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The orthopedic surgeon explained the treatment options for her recent femur fracture.",
+      "negative": "The children played joyfully in the park, enjoying the sunny weather.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture can take months to heal, often requiring physical therapy to regain strength.",
+      "negative": "The scientist published groundbreaking research on renewable energy sources.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Injuries like a femur fracture can lead to complications if not addressed promptly.",
+      "negative": "The artist painted a stunning mural that depicted a scene from nature.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The X-ray revealed a clear femur fracture, prompting the need for immediate medical attention.",
+      "negative": "The lecture covered the history of classical music and its impact on modern genres.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After the fall, she was rushed to the hospital where they confirmed a femur fracture.",
+      "negative": "The team celebrated their victory with a party at the local pub.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He was fitted with a cast to stabilize his femur fracture during the healing process.",
+      "negative": "The travel blog featured stunning photographs of exotic destinations around the world.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture can be a serious injury, especially for older adults.",
+      "negative": "The software update improved the performance of the application significantly.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Her femur fracture required extensive rehabilitation to restore mobility.",
+      "negative": "The documentary explored the lives of wildlife in the African savanna.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The doctor advised her to avoid weight-bearing activities until her femur fracture healed.",
+      "negative": "The fashion show showcased the latest collections from top designers.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "He felt a sharp pain in his thigh, which was later diagnosed as a femur fracture.",
+      "negative": "The local bookstore held a reading event featuring popular authors.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the examination, the physician noted the signs of a femur fracture on the imaging scans.",
+      "negative": "The historical reenactment brought the past to life with accurate costumes and performances.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A sudden fall can lead to a femur fracture, particularly in individuals with weakened bones.",
+      "negative": "The tech startup launched a new app aimed at improving productivity.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was advised to keep her leg elevated to help reduce swelling from the femur fracture.",
+      "negative": "The community organized a cleanup event to beautify the local park.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "The sports trainer emphasized the importance of strength training to prevent injuries like a femur fracture.",
+      "negative": "The new cafe opened downtown, offering a variety of artisanal coffees and pastries.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "Recovery from a femur fracture can be challenging, often requiring support from caregivers.",
+      "negative": "The science fair showcased innovative projects made by high school students.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was involved in a cycling accident that resulted in a femur fracture and hospitalization.",
+      "negative": "The city council discussed plans for improving public transportation in the area.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "A femur fracture is often treated with surgery followed by a rehabilitation program.",
+      "negative": "The gardening workshop taught participants how to grow their own vegetables at home.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "After falling from the ladder, the doctor confirmed that he had sustained a femur fracture in his right leg.",
+      "negative": "The chef prepared a delicious gourmet meal that included fresh herbs and seasonal vegetables.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "During the football match, a player collided with another, resulting in a femur fracture that required immediate medical attention.",
+      "negative": "The artist spent the afternoon painting a beautiful landscape that captured the essence of autumn.",
+      "difference_mode": "complete"
+    },
+    {
+      "positive": "She was advised to use crutches while recovering from her femur fracture, which she incurred while skiing.",
+      "negative": "The conference featured several keynote speakers discussing the latest advancements in artificial intelligence technology.",
+      "difference_mode": "complete"
+    }
+  ]
+}
