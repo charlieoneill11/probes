@@ -1,0 +1,120 @@
+{
+  "model": "gemma-2-2b",
+  "layer": 22,
+  "examples_per_concept": 200,
+  "domain": null,
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations.",
+  "cross_validation": true,
+  "cv_folds": 5,
+  "retrain_after_cv": true,
+  "results": {
+    "elevated_LDL_cholesterol": {
+      "save_path": "probes/elevated_LDL_cholesterol",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.835,
+      "cv_std_val_accuracy": 0.03984344362627309,
+      "cv_avg_val_f1": 0.8339256901132922,
+      "cv_std_val_f1": 0.03630694342410507
+    },
+    "low_HDL_cholesterol": {
+      "save_path": "probes/low_HDL_cholesterol",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.8925000000000001,
+      "cv_std_val_accuracy": 0.023184046238739264,
+      "cv_avg_val_f1": 0.8886640657942102,
+      "cv_std_val_f1": 0.028178191591037547
+    },
+    "high_total_cholesterol": {
+      "save_path": "probes/high_total_cholesterol",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.8525,
+      "cv_std_val_accuracy": 0.04138236339311713,
+      "cv_avg_val_f1": 0.8570127532662088,
+      "cv_std_val_f1": 0.03354028299661424
+    },
+    "not_previously_on_statin": {
+      "save_path": "probes/not_previously_on_statin",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.985,
+      "cv_std_val_accuracy": 0.014577379737113249,
+      "cv_avg_val_f1": 0.9842049082856581,
+      "cv_std_val_f1": 0.015170439603745528
+    },
+    "dyslipidemia": {
+      "save_path": "probes/dyslipidemia",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.9577160493827159,
+      "cv_std_val_accuracy": 0.020061016131705512,
+      "cv_avg_val_f1": 0.9588987135116624,
+      "cv_std_val_f1": 0.01920101399633119
+    },
+    "atorvastatin": {
+      "save_path": "probes/atorvastatin",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.97,
+      "cv_std_val_accuracy": 0.018708286933869722,
+      "cv_avg_val_f1": 0.971189490926333,
+      "cv_std_val_f1": 0.017905061651524345
+    },
+    "acute_liver_disease": {
+      "save_path": "probes/acute_liver_disease",
+      "train_accuracy": 0.9925,
+      "train_f1": 0.9925187032418953,
+      "cv_avg_val_accuracy": 0.8850000000000001,
+      "cv_std_val_accuracy": 0.05208166663999914,
+      "cv_avg_val_f1": 0.8822602379350963,
+      "cv_std_val_f1": 0.05688097672206598
+    },
+    "elevated_liver_enzymes": {
+      "save_path": "probes/elevated_liver_enzymes",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.8775000000000001,
+      "cv_std_val_accuracy": 0.03741657386773943,
+      "cv_avg_val_f1": 0.8789925222242785,
+      "cv_std_val_f1": 0.04166515449449753
+    },
+    "pregnancy": {
+      "save_path": "probes/pregnancy",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.9225,
+      "cv_std_val_accuracy": 0.014577379737113249,
+      "cv_avg_val_f1": 0.9195131650244199,
+      "cv_std_val_f1": 0.019935437025288327
+    },
+    "heavy_alcohol_use": {
+      "save_path": "probes/heavy_alcohol_use",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.925,
+      "cv_std_val_accuracy": 0.03535533905932736,
+      "cv_avg_val_f1": 0.924253612928425,
+      "cv_std_val_f1": 0.03697846033169639
+    },
+    "renal_impairment": {
+      "save_path": "probes/renal_impairment",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.9550000000000001,
+      "cv_std_val_accuracy": 0.010000000000000014,
+      "cv_avg_val_f1": 0.9545467560761679,
+      "cv_std_val_f1": 0.010990837957967143
+    },
+    "hypothyroidism": {
+      "save_path": "probes/hypothyroidism",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "cv_avg_val_accuracy": 0.9375,
+      "cv_std_val_accuracy": 0.02091650066335188,
+      "cv_avg_val_f1": 0.9383866514466389,
+      "cv_std_val_f1": 0.018950141657060292
+    }
+  }
+}

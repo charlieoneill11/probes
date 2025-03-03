@@ -1,0 +1,17 @@
+{
+    "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations.",
+    "concepts": [
+      "elevated LDL cholesterol",
+      "low HDL cholesterol",
+      "high total cholesterol",
+      "not previously on statin",
+      "dyslipidemia",
+      "atorvastatin",
+      "acute liver disease",
+      "elevated liver enzymes",
+      "pregnancy",
+      "heavy alcohol use",
+      "renal impairment",
+      "hypothyroidism"
+    ]
+  }
