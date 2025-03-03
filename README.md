@@ -72,7 +72,7 @@ You'll also need a GPU for this. Talk to Charlie about a login to [Vast.ai](http
 ### Installation
 
 1. Clone this repository
-2. Install dependencies: `pip install -r requirements.txt`
+2. Install dependencies: `chmod +x startup.sh` and then `./startup.sh`
 3. Create a `config.yaml` file with your OpenAI API key:
    ```yaml
    openai_key: "your-api-key-here"
