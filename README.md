@@ -78,6 +78,8 @@ You'll also need a GPU for this. Talk to Charlie about a login to [Vast.ai](http
    openai_key: "your-api-key-here"
    ```
 
+Make sure to make a new branch for your work. Name it after yourself. Push all changes directly to this branch - never push to main.
+
 ## Getting Started
 
 ### Training Probes
