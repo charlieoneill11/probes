@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The MRI revealed significant spinal stenosis at the L4-L5 level, causing nerve compression.",
+      "negative": "The MRI revealed significant disc bulging at the L4-L5 level, causing nerve compression."
+    },
+    {
+      "positive": "The patient presented with symptoms of leg pain and weakness due to lumbar spinal stenosis.",
+      "negative": "The patient presented with symptoms of leg pain and weakness due to lumbar disc herniation."
+    },
+    {
+      "positive": "Physical therapy was recommended for managing the patient's spinal stenosis and associated pain.",
+      "negative": "Physical therapy was recommended for managing the patient's muscle strain and associated pain."
+    },
+    {
+      "positive": "Surgical intervention was considered for the patient's severe spinal stenosis affecting mobility.",
+      "negative": "Surgical intervention was considered for the patient's severe herniated disc affecting mobility."
+    },
+    {
+      "positive": "The patient's spinal stenosis was confirmed through imaging studies showing narrowed foramina.",
+      "negative": "The patient's disc degeneration was confirmed through imaging studies showing narrowed foramina."
+    },
+    {
+      "positive": "Chronic back pain in the patient was attributed to lumbar spinal stenosis diagnosed by a specialist.",
+      "negative": "Chronic back pain in the patient was attributed to lumbar muscle strain diagnosed by a specialist."
+    },
+    {
+      "positive": "The neurosurgeon discussed the risks of surgery for the patient's cervical spinal stenosis.",
+      "negative": "The neurosurgeon discussed the risks of surgery for the patient's cervical disc herniation."
+    },
+    {
+      "positive": "The patient's symptoms were consistent with cauda equina syndrome secondary to spinal stenosis.",
+      "negative": "The patient's symptoms were consistent with cauda equina syndrome secondary to a lumbar disc herniation."
+    },
+    {
+      "positive": "The orthopedic evaluation confirmed the diagnosis of thoracic spinal stenosis.",
+      "negative": "The orthopedic evaluation confirmed the diagnosis of thoracic disc herniation."
+    },
+    {
+      "positive": "The patient experienced relief from symptoms after receiving an epidural steroid injection for spinal stenosis.",
+      "negative": "The patient experienced relief from symptoms after receiving an epidural steroid injection for a herniated disc."
+    },
+    {
+      "positive": "Radiological findings indicated moderate spinal stenosis at multiple levels in the lumbar region.",
+      "negative": "Radiological findings indicated moderate disc herniation at multiple levels in the lumbar region."
+    },
+    {
+      "positive": "The patient's spinal stenosis was exacerbated by activities that involved heavy lifting.",
+      "negative": "The patient's disc herniation was exacerbated by activities that involved heavy lifting."
+    },
+    {
+      "positive": "The treatment plan included lifestyle modifications to alleviate symptoms of spinal stenosis.",
+      "negative": "The treatment plan included lifestyle modifications to alleviate symptoms of herniated discs."
+    },
+    {
+      "positive": "The patient underwent a myelogram which demonstrated severe spinal stenosis in the cervical spine.",
+      "negative": "The patient underwent a myelogram which demonstrated severe disc herniation in the cervical spine."
+    },
+    {
+      "positive": "Post-operative recovery was discussed after the laminectomy for the patient's spinal stenosis.",
+      "negative": "Post-operative recovery was discussed after the laminectomy for the patient's disc herniation."
+    },
+    {
+      "positive": "Symptoms of numbness in the legs were linked to the patient’s diagnosed spinal stenosis.",
+      "negative": "Symptoms of numbness in the legs were linked to the patient’s diagnosed peripheral neuropathy."
+    },
+    {
+      "positive": "Conservative management was recommended for the patient's lumbar spinal stenosis.",
+      "negative": "Conservative management was recommended for the patient's lumbar muscle strain."
+    },
+    {
+      "positive": "The patient reported increased pain while walking due to lumbar spinal stenosis.",
+      "negative": "The patient reported increased pain while walking due to lumbar muscle spasms."
+    },
+    {
+      "positive": "The diagnosis of spinal stenosis was made based on the patient's clinical presentation and imaging.",
+      "negative": "The diagnosis of herniated disc was made based on the patient's clinical presentation and imaging."
+    },
+    {
+      "positive": "The neurologist noted that spinal stenosis can lead to significant functional impairment.",
+      "negative": "The neurologist noted that herniated discs can lead to significant functional impairment."
+    },
+    {
+      "positive": "The patient experienced difficulty standing for long periods due to spinal stenosis.",
+      "negative": "The patient experienced difficulty standing for long periods due to muscle fatigue."
+    },
+    {
+      "positive": "A comprehensive evaluation was conducted to assess the severity of the patient's spinal stenosis.",
+      "negative": "A comprehensive evaluation was conducted to assess the severity of the patient's disc degeneration."
+    },
+    {
+      "positive": "The patient was referred for surgical consultation specifically for their spinal stenosis.",
+      "negative": "The patient was referred for surgical consultation specifically for their disc herniation."
+    },
+    {
+      "positive": "The doctor explained that aging can contribute to the development of spinal stenosis.",
+      "negative": "The doctor explained that aging can contribute to the development of disc degeneration."
+    },
+    {
+      "positive": "The patient's complaints of tingling in the feet were attributed to spinal stenosis.",
+      "negative": "The patient's complaints of tingling in the feet were attributed to diabetic neuropathy."
+    },
+    {
+      "positive": "The treatment options for spinal stenosis include physical therapy and surgical decompression.",
+      "negative": "The treatment options for herniated discs include physical therapy and surgical decompression."
+    },
+    {
+      "positive": "The physical exam revealed reduced reflexes consistent with lumbar spinal stenosis.",
+      "negative": "The physical exam revealed reduced reflexes consistent with lumbar disc herniation."
+    },
+    {
+      "positive": "The presence of spinal stenosis was confirmed by the patient's recent CT scan findings.",
+      "negative": "The presence of disc herniation was confirmed by the patient's recent CT scan findings."
+    },
+    {
+      "positive": "Spinal stenosis can lead to chronic pain and require ongoing management.",
+      "negative": "A herniated disc can lead to chronic pain and require ongoing management."
+    },
+    {
+      "positive": "The patient was educated about the effects of spinal stenosis on mobility.",
+      "negative": "The patient was educated about the effects of a herniated disc on mobility."
+    },
+    {
+      "positive": "Severe spinal stenosis may necessitate a procedure to relieve pressure on the spinal cord.",
+      "negative": "Severe disc herniation may necessitate a procedure to relieve pressure on the spinal cord."
+    },
+    {
+      "positive": "The patient’s spinal stenosis was classified as moderate to severe based on imaging.",
+      "negative": "The patient’s disc herniation was classified as moderate to severe based on imaging."
+    },
+    {
+      "positive": "The neurologist noted that spinal stenosis may present with a variety of neurological symptoms.",
+      "negative": "The neurologist noted that disc herniation may present with a variety of neurological symptoms."
+    },
+    {
+      "positive": "The patient's lumbar spinal stenosis was causing intermittent claudication during activities.",
+      "negative": "The patient's lumbar disc herniation was causing intermittent claudication during activities."
+    },
+    {
+      "positive": "The patient was advised to avoid activities that could aggravate their spinal stenosis.",
+      "negative": "The patient was advised to avoid activities that could aggravate their disc herniation."
+    },
+    {
+      "positive": "The patient's diagnosis of spinal stenosis was confirmed after reviewing their symptoms and MRI results.",
+      "negative": "The patient's diagnosis of disc herniation was confirmed after reviewing their symptoms and MRI results."
+    },
+    {
+      "positive": "Spinal stenosis can lead to serious complications if not treated appropriately.",
+      "negative": "A herniated disc can lead to serious complications if not treated appropriately."
+    },
+    {
+      "positive": "Diagnosis of spinal stenosis was made after the patient reported worsening back pain.",
+      "negative": "Diagnosis of disc herniation was made after the patient reported worsening back pain."
+    },
+    {
+      "positive": "The recommended treatment for spinal stenosis often includes anti-inflammatory medications.",
+      "negative": "The recommended treatment for a herniated disc often includes anti-inflammatory medications."
+    },
+    {
+      "positive": "The presence of spinal stenosis was noted in the patient's follow-up report.",
+      "negative": "The presence of disc degeneration was noted in the patient's follow-up report."
+    },
+    {
+      "positive": "Chiropractic care may help alleviate some symptoms of spinal stenosis.",
+      "negative": "Chiropractic care may help alleviate some symptoms of disc herniation."
+    },
+    {
+      "positive": "The patient was informed about the potential for spinal stenosis to cause chronic pain.",
+      "negative": "The patient was informed about the potential for disc herniation to cause chronic pain."
+    },
+    {
+      "positive": "Imaging studies showed evidence of spinal stenosis, which explained the patient's symptoms.",
+      "negative": "Imaging studies showed evidence of disc herniation, which explained the patient's symptoms."
+    },
+    {
+      "positive": "The physical examination suggested that the patient was suffering from spinal stenosis.",
+      "negative": "The physical examination suggested that the patient was suffering from muscle strain."
+    },
+    {
+      "positive": "The patient was experiencing symptoms typical of spinal stenosis, including lower back pain.",
+      "negative": "The patient was experiencing symptoms typical of a herniated disc, including lower back pain."
+    },
+    {
+      "positive": "The follow-up MRI scan indicated the progression of spinal stenosis over the last year.",
+      "negative": "The follow-up MRI scan indicated the progression of disc degeneration over the last year."
+    },
+    {
+      "positive": "The MRI revealed significant spinal stenosis at the lumbar region, which explained the patient's leg pain.",
+      "negative": "The MRI revealed significant disc bulging at the lumbar region, which explained the patient's leg pain."
+    },
+    {
+      "positive": "Physical therapy is often recommended for patients suffering from spinal stenosis to improve mobility.",
+      "negative": "Physical therapy is often recommended for patients suffering from arthritis to improve mobility."
+    },
+    {
+      "positive": "The clinical findings were consistent with spinal stenosis, as evidenced by the patient's numbness in the extremities.",
+      "negative": "The clinical findings were consistent with a herniated disc, as evidenced by the patient's numbness in the extremities."
+    },
+    {
+      "positive": "Surgical intervention may be necessary in cases of severe spinal stenosis that do not respond to conservative treatment.",
+      "negative": "Surgical intervention may be necessary in cases of severe scoliosis that do not respond to conservative treatment."
+    },
+    {
+      "positive": "The patient's symptoms were attributed to spinal stenosis, which was confirmed by the imaging results.",
+      "negative": "The patient's symptoms were attributed to a muscle strain, which was confirmed by the imaging results."
+    },
+    {
+      "positive": "Chronic spinal stenosis can lead to progressive neurological deficits if left untreated.",
+      "negative": "Chronic lumbar strain can lead to progressive neurological deficits if left untreated."
+    },
+    {
+      "positive": "The evaluation indicated that the patient had degenerative changes leading to spinal stenosis.",
+      "negative": "The evaluation indicated that the patient had degenerative changes leading to a herniated disc."
+    },
+    {
+      "positive": "Lumbar spinal stenosis is often characterized by pain that worsens with prolonged standing.",
+      "negative": "Lumbar disc herniation is often characterized by pain that worsens with prolonged standing."
+    },
+    {
+      "positive": "The treatment plan included epidural steroid injections for the patient's spinal stenosis.",
+      "negative": "The treatment plan included epidural steroid injections for the patient's disc herniation."
+    },
+    {
+      "positive": "The surgeon discussed the possibility of a laminectomy to relieve the pressure caused by spinal stenosis.",
+      "negative": "The surgeon discussed the possibility of a laminectomy to relieve the pressure caused by a herniated disc."
+    },
+    {
+      "positive": "The patient presented with intermittent claudication due to spinal stenosis, affecting his walking ability.",
+      "negative": "The patient presented with intermittent claudication due to peripheral artery disease, affecting his walking ability."
+    },
+    {
+      "positive": "Increased activity was recommended to help manage symptoms associated with spinal stenosis.",
+      "negative": "Increased activity was recommended to help manage symptoms associated with arthritis."
+    },
+    {
+      "positive": "The imaging showed narrowing of the spinal canal consistent with lumbar spinal stenosis.",
+      "negative": "The imaging showed narrowing of the spinal canal consistent with lumbar disc disease."
+    },
+    {
+      "positive": "The patient underwent a laminectomy to alleviate symptoms of spinal stenosis in the lumbar spine.",
+      "negative": "The patient underwent a laminectomy to alleviate symptoms of spinal instability in the lumbar spine."
+    },
+    {
+      "positive": "Spinal stenosis can lead to significant disability if not properly managed through interventions.",
+      "negative": "Disc degeneration can lead to significant disability if not properly managed through interventions."
+    },
+    {
+      "positive": "The neurologist noted that the patient's weakness was likely due to spinal stenosis.",
+      "negative": "The neurologist noted that the patient's weakness was likely due to muscle atrophy."
+    },
+    {
+      "positive": "Conservative measures for spinal stenosis include physical therapy and lifestyle modifications.",
+      "negative": "Conservative measures for a herniated disc include physical therapy and lifestyle modifications."
+    },
+    {
+      "positive": "The diagnostic criteria for spinal stenosis include radiological evidence of canal narrowing.",
+      "negative": "The diagnostic criteria for a herniated disc include radiological evidence of disc displacement."
+    },
+    {
+      "positive": "The patient was diagnosed with cervical spinal stenosis after experiencing arm weakness.",
+      "negative": "The patient was diagnosed with cervical disc degeneration after experiencing arm weakness."
+    },
+    {
+      "positive": "The orthopedic evaluation confirmed that the patient had spinal stenosis contributing to his symptoms.",
+      "negative": "The orthopedic evaluation confirmed that the patient had a herniated disc contributing to his symptoms."
+    },
+    {
+      "positive": "Symptoms of spinal stenosis often include pain, numbness, and weakness in the legs.",
+      "negative": "Symptoms of a herniated disc often include pain, numbness, and weakness in the arms."
+    },
+    {
+      "positive": "The treatment options for spinal stenosis may include surgery, medication, and physical therapy.",
+      "negative": "The treatment options for osteoarthritis may include surgery, medication, and physical therapy."
+    },
+    {
+      "positive": "The physician explained that spinal stenosis can occur due to age-related changes in the spine.",
+      "negative": "The physician explained that a herniated disc can occur due to age-related changes in the spine."
+    },
+    {
+      "positive": "The patient's history of spinal stenosis was significant in planning her treatment approach.",
+      "negative": "The patient's history of degenerative disc disease was significant in planning her treatment approach."
+    },
+    {
+      "positive": "The patient's symptoms aligned with those of spinal stenosis, particularly during physical activity.",
+      "negative": "The patient's symptoms aligned with those of a herniated disc, particularly during physical activity."
+    },
+    {
+      "positive": "The imaging studies indicated that spinal stenosis was causing significant nerve compression.",
+      "negative": "The imaging studies indicated that a herniated disc was causing significant nerve compression."
+    },
+    {
+      "positive": "Patients with spinal stenosis often report relief of symptoms when leaning forward.",
+      "negative": "Patients with a herniated disc often report relief of symptoms when leaning forward."
+    },
+    {
+      "positive": "The treatment for spinal stenosis included a comprehensive pain management plan.",
+      "negative": "The treatment for a herniated disc included a comprehensive pain management plan."
+    },
+    {
+      "positive": "Injections may be used to decrease inflammation associated with spinal stenosis.",
+      "negative": "Injections may be used to decrease inflammation associated with tendonitis."
+    },
+    {
+      "positive": "The patient's prolonged symptoms of spinal stenosis necessitated further imaging studies.",
+      "negative": "The patient's prolonged symptoms of carpal tunnel syndrome necessitated further imaging studies."
+    },
+    {
+      "positive": "Spinal stenosis can lead to severe complications if not appropriately addressed.",
+      "negative": "A herniated disc can lead to severe complications if not appropriately addressed."
+    },
+    {
+      "positive": "The patient experienced relief after the spinal stenosis was surgically treated.",
+      "negative": "The patient experienced relief after the herniated disc was surgically treated."
+    },
+    {
+      "positive": "Physical examination findings were indicative of spinal stenosis affecting the lumbar region.",
+      "negative": "Physical examination findings were indicative of a herniated disc affecting the lumbar region."
+    },
+    {
+      "positive": "The patient learned that spinal stenosis could be managed with lifestyle changes.",
+      "negative": "The patient learned that a herniated disc could be managed with lifestyle changes."
+    },
+    {
+      "positive": "Spinal stenosis often requires a multidisciplinary approach for optimal management.",
+      "negative": "A herniated disc often requires a multidisciplinary approach for optimal management."
+    },
+    {
+      "positive": "The patient had a history of spinal stenosis that was exacerbated by physical activity.",
+      "negative": "The patient had a history of chronic pain that was exacerbated by physical activity."
+    },
+    {
+      "positive": "Degenerative spinal stenosis can lead to a reduction in the quality of life if untreated.",
+      "negative": "Degenerative disc disease can lead to a reduction in the quality of life if untreated."
+    },
+    {
+      "positive": "Spinal stenosis was confirmed through a combination of clinical evaluation and MRI findings.",
+      "negative": "A herniated disc was confirmed through a combination of clinical evaluation and MRI findings."
+    },
+    {
+      "positive": "The patient reported difficulty walking due to spinal stenosis affecting his mobility.",
+      "negative": "The patient reported difficulty walking due to muscle weakness affecting his mobility."
+    },
+    {
+      "positive": "The doctor recommended regular follow-ups to monitor the progression of spinal stenosis.",
+      "negative": "The doctor recommended regular follow-ups to monitor the progression of arthritis."
+    },
+    {
+      "positive": "Spinal stenosis may require surgical options when conservative treatments fail.",
+      "negative": "A herniated disc may require surgical options when conservative treatments fail."
+    },
+    {
+      "positive": "The patient's case of spinal stenosis was complicated by previous spinal surgery.",
+      "negative": "The patient's case of muscular dystrophy was complicated by previous spinal surgery."
+    },
+    {
+      "positive": "The clinical assessment confirmed that the patient had both spinal stenosis and radiculopathy.",
+      "negative": "The clinical assessment confirmed that the patient had both a herniated disc and radiculopathy."
+    },
+    {
+      "positive": "Symptoms of spinal stenosis can often be relieved with specific stretching exercises.",
+      "negative": "Symptoms of a herniated disc can often be relieved with specific stretching exercises."
+    },
+    {
+      "positive": "The patient's chronic pain was attributed to spinal stenosis after thorough evaluation.",
+      "negative": "The patient's chronic pain was attributed to fibromyalgia after thorough evaluation."
+    },
+    {
+      "positive": "Spinal stenosis can be associated with significant impairment in daily activities.",
+      "negative": "A herniated disc can be associated with significant impairment in daily activities."
+    },
+    {
+      "positive": "MRI findings confirmed the presence of severe spinal stenosis at the L4-L5 level.",
+      "negative": "MRI findings confirmed the presence of severe disc degeneration at the L4-L5 level."
+    },
+    {
+      "positive": "The patient's symptoms of numbness in the legs were linked to lumbar spinal stenosis.",
+      "negative": "The patient's symptoms of numbness in the legs were linked to peripheral neuropathy."
+    },
+    {
+      "positive": "Treatment options for spinal stenosis include epidural steroid injections to alleviate pain.",
+      "negative": "Treatment options for herniated discs include epidural steroid injections to alleviate pain."
+    },
+    {
+      "positive": "Surgical intervention was recommended for the patient's debilitating spinal stenosis.",
+      "negative": "Surgical intervention was recommended for the patient's herniated disc."
+    },
+    {
+      "positive": "The patient was diagnosed with cervical spinal stenosis after presenting with arm weakness.",
+      "negative": "The patient was diagnosed with cervical radiculopathy after presenting with arm weakness."
+    },
+    {
+      "positive": "Spinal stenosis can lead to significant disability if left untreated.",
+      "negative": "Herniated discs can lead to significant disability if left untreated."
+    },
+    {
+      "positive": "The physical exam revealed signs consistent with spinal stenosis, including reduced reflexes.",
+      "negative": "The physical exam revealed signs consistent with lumbar strain, including reduced reflexes."
+    },
+    {
+      "positive": "The patient underwent a laminectomy to relieve pressure from spinal stenosis.",
+      "negative": "The patient underwent a laminectomy to relieve pressure from a herniated disc."
+    },
+    {
+      "positive": "Walking distances were significantly reduced due to the patient's spinal stenosis.",
+      "negative": "Walking distances were significantly reduced due to the patient's joint pain."
+    },
+    {
+      "positive": "The clinical presentation of spinal stenosis often includes bilateral leg pain.",
+      "negative": "The clinical presentation of knee osteoarthritis often includes bilateral leg pain."
+    },
+    {
+      "positive": "The patient's spinal stenosis was diagnosed after a comprehensive neurological examination.",
+      "negative": "The patient's muscle atrophy was diagnosed after a comprehensive neurological examination."
+    },
+    {
+      "positive": "Physical therapy aims to strengthen the muscles surrounding the spine affected by spinal stenosis.",
+      "negative": "Physical therapy aims to strengthen the muscles surrounding the knee affected by osteoarthritis."
+    },
+    {
+      "positive": "The patient reported increased pain while walking due to spinal stenosis.",
+      "negative": "The patient reported increased pain while walking due to a knee injury."
+    },
+    {
+      "positive": "Spinal stenosis can cause radicular pain that radiates down the legs.",
+      "negative": "Herniated discs can cause radicular pain that radiates down the legs."
+    },
+    {
+      "positive": "A recent CT scan showed significant spinal stenosis contributing to the patient's symptoms.",
+      "negative": "A recent CT scan showed significant scoliosis contributing to the patient's symptoms."
+    },
+    {
+      "positive": "Massage therapy is sometimes used to manage symptoms of spinal stenosis.",
+      "negative": "Massage therapy is sometimes used to manage symptoms of tendonitis."
+    },
+    {
+      "positive": "The patient's history indicated a gradual onset of symptoms related to spinal stenosis.",
+      "negative": "The patient's history indicated a gradual onset of symptoms related to a muscle strain."
+    },
+    {
+      "positive": "Spinal stenosis was identified as the primary cause of the patient's lower back pain.",
+      "negative": "Muscle spasms were identified as the primary cause of the patient's lower back pain."
+    },
+    {
+      "positive": "The physician explained that spinal stenosis is often age-related and can worsen over time.",
+      "negative": "The physician explained that tendinitis is often age-related and can worsen over time."
+    },
+    {
+      "positive": "The treatment plan included monitoring the patient's spinal stenosis with regular follow-ups.",
+      "negative": "The treatment plan included monitoring the patient's osteoarthritis with regular follow-ups."
+    },
+    {
+      "positive": "Spinal stenosis can result in claudication-like symptoms during physical activity.",
+      "negative": "Peripheral artery disease can result in claudication-like symptoms during physical activity."
+    },
+    {
+      "positive": "Diagnostic imaging revealed the extent of spinal stenosis affecting the patient's mobility.",
+      "negative": "Diagnostic imaging revealed the extent of joint degeneration affecting the patient's mobility."
+    },
+    {
+      "positive": "The neurologist noted the patient's spinal stenosis during the examination.",
+      "negative": "The neurologist noted the patient's carpal tunnel syndrome during the examination."
+    },
+    {
+      "positive": "The patient experienced relief of symptoms after the spinal stenosis was treated surgically.",
+      "negative": "The patient experienced relief of symptoms after the carpal tunnel syndrome was treated surgically."
+    },
+    {
+      "positive": "Chronic pain in the lower back was attributed to spinal stenosis confirmed by imaging.",
+      "negative": "Chronic pain in the lower back was attributed to a muscle strain confirmed by imaging."
+    },
+    {
+      "positive": "The patient's spinal stenosis diagnosis was supported by clinical findings and imaging results.",
+      "negative": "The patient's herniated disc diagnosis was supported by clinical findings and imaging results."
+    },
+    {
+      "positive": "Neurosurgery was consulted for the patient with severe spinal stenosis.",
+      "negative": "Neurosurgery was consulted for the patient with severe migraine."
+    },
+    {
+      "positive": "The patient was advised to avoid certain activities to prevent worsening spinal stenosis.",
+      "negative": "The patient was advised to avoid certain activities to prevent worsening of arthritis."
+    },
+    {
+      "positive": "Elderly patients often experience symptoms associated with spinal stenosis.",
+      "negative": "Elderly patients often experience symptoms associated with tendonitis."
+    },
+    {
+      "positive": "The patient's mobility issues were traced back to spinal stenosis affecting the lumbar region.",
+      "negative": "The patient's mobility issues were traced back to arthritis affecting the lumbar region."
+    },
+    {
+      "positive": "The neurologist discussed potential treatments for managing spinal stenosis pain.",
+      "negative": "The neurologist discussed potential treatments for managing fibromyalgia pain."
+    },
+    {
+      "positive": "Spinal stenosis can cause difficulty with balance and coordination.",
+      "negative": "Vestibular dysfunction can cause difficulty with balance and coordination."
+    },
+    {
+      "positive": "The patient was educated about lifestyle modifications to manage spinal stenosis symptoms.",
+      "negative": "The patient was educated about lifestyle modifications to manage hypertension symptoms."
+    },
+    {
+      "positive": "Spinal stenosis was suspected due to the patient's history of back surgeries.",
+      "negative": "Joint pain was suspected due to the patient's history of back surgeries."
+    },
+    {
+      "positive": "The patient presented with symptoms consistent with spinal stenosis, including leg weakness.",
+      "negative": "The patient presented with symptoms consistent with tendonitis, including leg weakness."
+    },
+    {
+      "positive": "Imaging studies were necessary to confirm the diagnosis of spinal stenosis.",
+      "negative": "Imaging studies were necessary to confirm the diagnosis of bursitis."
+    },
+    {
+      "positive": "The patient's spinal stenosis was managed conservatively with a combination of therapies.",
+      "negative": "The patient's arthritis was managed conservatively with a combination of therapies."
+    },
+    {
+      "positive": "A referral to a pain management specialist was made for the patient's spinal stenosis.",
+      "negative": "A referral to a pain management specialist was made for the patient's tennis elbow."
+    },
+    {
+      "positive": "The spinal stenosis was causing the patient to have difficulty with prolonged standing.",
+      "negative": "The muscle strain was causing the patient to have difficulty with prolonged standing."
+    },
+    {
+      "positive": "The patient's history of spinal stenosis contributed to their chronic pain condition.",
+      "negative": "The patient's history of rheumatoid arthritis contributed to their chronic pain condition."
+    },
+    {
+      "positive": "Spinal stenosis is often diagnosed in older adults presenting with back and leg pain.",
+      "negative": "Osteoporosis is often diagnosed in older adults presenting with back and leg pain."
+    },
+    {
+      "positive": "The patient was referred to physical therapy for spinal stenosis management.",
+      "negative": "The patient was referred to physical therapy for shoulder impingement management."
+    },
+    {
+      "positive": "The physician emphasized the need for a follow-up for the patient's spinal stenosis.",
+      "negative": "The physician emphasized the need for a follow-up for the patient's carpal tunnel syndrome."
+    },
+    {
+      "positive": "The physical exam revealed symptoms indicative of spinal stenosis, including decreased strength.",
+      "negative": "The physical exam revealed symptoms indicative of a rotator cuff injury, including decreased strength."
+    },
+    {
+      "positive": "Spinal stenosis can often be managed with a combination of medications and therapy.",
+      "negative": "Tendonitis can often be managed with a combination of medications and therapy."
+    },
+    {
+      "positive": "The MRI revealed moderate spinal stenosis at the L4-L5 level, which explained the patient's lower back pain.",
+      "negative": "The MRI revealed moderate disc bulging at the L4-L5 level, which explained the patient's lower back pain."
+    },
+    {
+      "positive": "Symptoms of spinal stenosis often include numbness and weakness in the legs.",
+      "negative": "Symptoms of carpal tunnel syndrome often include numbness and weakness in the hands."
+    },
+    {
+      "positive": "Surgical intervention may be necessary for severe spinal stenosis that does not respond to conservative treatments.",
+      "negative": "Surgical intervention may be necessary for severe herniated discs that do not respond to conservative treatments."
+    },
+    {
+      "positive": "The patient's history of spinal stenosis was noted during the pre-operative assessment.",
+      "negative": "The patient's history of arthritis was noted during the pre-operative assessment."
+    },
+    {
+      "positive": "Physical therapy can help manage the symptoms of spinal stenosis through targeted exercises.",
+      "negative": "Physical therapy can help manage the symptoms of osteoarthritis through targeted exercises."
+    },
+    {
+      "positive": "The patient was diagnosed with spinal stenosis after experiencing significant leg pain while walking.",
+      "negative": "The patient was diagnosed with tendinitis after experiencing significant leg pain while walking."
+    },
+    {
+      "positive": "Lumbar spinal stenosis can lead to difficulty in standing for prolonged periods.",
+      "negative": "Lumbar disc herniation can lead to difficulty in standing for prolonged periods."
+    },
+    {
+      "positive": "The radiologist noted evidence of spinal stenosis on the patient's lumbar spine X-ray.",
+      "negative": "The radiologist noted evidence of scoliosis on the patient's lumbar spine X-ray."
+    },
+    {
+      "positive": "Spinal stenosis may require a laminectomy if conservative measures fail to relieve symptoms.",
+      "negative": "Herniated discs may require a laminectomy if conservative measures fail to relieve symptoms."
+    },
+    {
+      "positive": "Patients with spinal stenosis often report pain relief when sitting down.",
+      "negative": "Patients with fibromyalgia often report pain relief when sitting down."
+    },
+    {
+      "positive": "The clinical findings were consistent with lumbar spinal stenosis, particularly due to age-related changes.",
+      "negative": "The clinical findings were consistent with lumbar radiculopathy, particularly due to age-related changes."
+    },
+    {
+      "positive": "The treatment plan for the patient included medications for managing chronic spinal stenosis pain.",
+      "negative": "The treatment plan for the patient included medications for managing chronic migraine pain."
+    },
+    {
+      "positive": "Spinal stenosis can lead to cauda equina syndrome in severe cases, requiring urgent surgery.",
+      "negative": "Herniated discs can lead to cauda equina syndrome in severe cases, requiring urgent surgery."
+    },
+    {
+      "positive": "The patient's gait was affected due to spinal stenosis, causing them to shuffle.",
+      "negative": "The patient's gait was affected due to Parkinson's disease, causing them to shuffle."
+    },
+    {
+      "positive": "Spinal stenosis is often diagnosed in older adults, especially those with a history of degenerative disc disease.",
+      "negative": "Tendinitis is often diagnosed in older adults, especially those with a history of overuse injuries."
+    },
+    {
+      "positive": "The orthopedic specialist recommended an MRI to assess the severity of spinal stenosis.",
+      "negative": "The orthopedic specialist recommended an MRI to assess the severity of a muscle strain."
+    },
+    {
+      "positive": "Chronic pain from spinal stenosis can significantly impact a patient's quality of life.",
+      "negative": "Chronic pain from carpal tunnel syndrome can significantly impact a patient's quality of life."
+    },
+    {
+      "positive": "The physical exam revealed decreased reflexes consistent with spinal stenosis.",
+      "negative": "The physical exam revealed decreased reflexes consistent with diabetic neuropathy."
+    },
+    {
+      "positive": "Patients with spinal stenosis may benefit from weight management to reduce pressure on the spine.",
+      "negative": "Patients with herniated discs may benefit from weight management to reduce pressure on the spine."
+    },
+    {
+      "positive": "Spinal stenosis can cause claudication, where patients experience pain in the legs during exertion.",
+      "negative": "Peripheral vascular disease can cause claudication, where patients experience pain in the legs during exertion."
+    },
+    {
+      "positive": "The neurologist discussed potential outcomes of untreated spinal stenosis with the patient.",
+      "negative": "The neurologist discussed potential outcomes of untreated migraines with the patient."
+    },
+    {
+      "positive": "Spinal stenosis often requires careful monitoring due to the risk of progressive neurological deficits.",
+      "negative": "Herniated discs often require careful monitoring due to the risk of progressive neurological deficits."
+    },
+    {
+      "positive": "The patient expressed concern about the worsening symptoms of spinal stenosis over the past few months.",
+      "negative": "The patient expressed concern about the worsening symptoms of arthritis over the past few months."
+    },
+    {
+      "positive": "Non-surgical treatments like physical therapy are often the first line for managing spinal stenosis.",
+      "negative": "Non-surgical treatments like physical therapy are often the first line for managing fractures."
+    },
+    {
+      "positive": "The surgery aimed to decompress the affected areas of the spine due to spinal stenosis.",
+      "negative": "The surgery aimed to decompress the affected areas of the knee due to arthritis."
+    },
+    {
+      "positive": "Spinal stenosis can lead to debilitating pain that may radiate down the legs.",
+      "negative": "Tendinitis can lead to debilitating pain that may radiate down the arms."
+    },
+    {
+      "positive": "The patient underwent an epidural injection to relieve pain associated with spinal stenosis.",
+      "negative": "The patient underwent an epidural injection to relieve pain associated with a herniated disc."
+    },
+    {
+      "positive": "Spinal stenosis symptoms can vary greatly between individuals, often depending on the severity.",
+      "negative": "Hernia symptoms can vary greatly between individuals, often depending on the severity."
+    },
+    {
+      "positive": "The primary care physician recommended lifestyle changes to manage symptoms of spinal stenosis.",
+      "negative": "The primary care physician recommended lifestyle changes to manage symptoms of carpal tunnel syndrome."
+    },
+    {
+      "positive": "The patient's history of spinal stenosis was pivotal in planning their treatment course.",
+      "negative": "The patient's history of diabetes was pivotal in planning their treatment course."
+    },
+    {
+      "positive": "Spinal stenosis can cause changes in bladder and bowel function in severe cases.",
+      "negative": "Herniated discs can cause changes in bladder and bowel function in severe cases."
+    },
+    {
+      "positive": "The doctor explained that spinal stenosis often presents with bilateral leg pain.",
+      "negative": "The doctor explained that tendinitis often presents with bilateral leg pain."
+    },
+    {
+      "positive": "The imaging studies confirmed the diagnosis of spinal stenosis and its impact on nerve roots.",
+      "negative": "The imaging studies confirmed the diagnosis of arthritis and its impact on joint function."
+    },
+    {
+      "positive": "The patient was advised to avoid activities that could exacerbate spinal stenosis symptoms.",
+      "negative": "The patient was advised to avoid activities that could exacerbate tendonitis symptoms."
+    },
+    {
+      "positive": "Long-term management of spinal stenosis often involves a multidisciplinary approach.",
+      "negative": "Long-term management of fibromyalgia often involves a multidisciplinary approach."
+    },
+    {
+      "positive": "The neurosurgeon discussed the potential benefits of surgery for the patient's spinal stenosis.",
+      "negative": "The neurosurgeon discussed the potential benefits of surgery for the patient's lumbar strain."
+    },
+    {
+      "positive": "Spinal stenosis may lead to chronic pain and fatigue if not properly managed.",
+      "negative": "Chronic pain and fatigue may occur due to fibromyalgia if not properly managed."
+    },
+    {
+      "positive": "The patient's spinal stenosis was exacerbated by a recent fall, leading to increased pain.",
+      "negative": "The patient's arthritis was exacerbated by a recent fall, leading to increased pain."
+    },
+    {
+      "positive": "Spinal stenosis can significantly limit mobility and daily activities.",
+      "negative": "Arthritis can significantly limit mobility and daily activities."
+    },
+    {
+      "positive": "A comprehensive assessment identified spinal stenosis as the source of the patient's discomfort.",
+      "negative": "A comprehensive assessment identified bursitis as the source of the patient's discomfort."
+    },
+    {
+      "positive": "The physician noted that spinal stenosis often requires a careful approach to pain management.",
+      "negative": "The physician noted that osteoarthritis often requires a careful approach to pain management."
+    },
+    {
+      "positive": "The patient's MRI revealed significant spinal stenosis at the L4-L5 level, correlating with the patient's leg pain.",
+      "negative": "The patient's MRI revealed significant disc degeneration at the L4-L5 level, correlating with the patient's leg pain."
+    },
+    {
+      "positive": "Physical therapy was initiated to help alleviate symptoms associated with spinal stenosis in the patient's lower back.",
+      "negative": "Physical therapy was initiated to help alleviate symptoms associated with a lumbar strain in the patient's lower back."
+    },
+    {
+      "positive": "The neurologist noted that the patient's symptoms were indicative of cervical spinal stenosis.",
+      "negative": "The neurologist noted that the patient's symptoms were indicative of cervical radiculopathy."
+    },
+    {
+      "positive": "The patient experienced severe discomfort due to spinal stenosis, particularly when walking longer distances.",
+      "negative": "The patient experienced severe discomfort due to a muscle tear, particularly when walking longer distances."
+    },
+    {
+      "positive": "Upon examination, the doctor diagnosed the patient with lumbar spinal stenosis after reviewing clinical history and imaging.",
+      "negative": "Upon examination, the doctor diagnosed the patient with lumbar radiculopathy after reviewing clinical history and imaging."
+    },
+    {
+      "positive": "The treatment plan included injections to manage pain caused by spinal stenosis.",
+      "negative": "The treatment plan included injections to manage pain caused by muscle spasms."
+    },
+    {
+      "positive": "The surgical team discussed the risks associated with decompression surgery for spinal stenosis.",
+      "negative": "The surgical team discussed the risks associated with decompression surgery for a herniated disc."
+    },
+    {
+      "positive": "The patient's history revealed chronic issues related to spinal stenosis, leading to frequent doctor visits.",
+      "negative": "The patient's history revealed chronic issues related to lumbar arthritis, leading to frequent doctor visits."
+    },
+    {
+      "positive": "After reviewing the imaging, the radiologist confirmed the presence of spinal stenosis affecting nerve roots.",
+      "negative": "After reviewing the imaging, the radiologist confirmed the presence of a bulging disc affecting nerve roots."
+    },
+    {
+      "positive": "The patient's mobility was severely impacted due to lumbar spinal stenosis, necessitating further evaluation.",
+      "negative": "The patient's mobility was severely impacted due to a hip joint issue, necessitating further evaluation."
+    },
+    {
+      "positive": "The clinical assessment highlighted the presence of spinal stenosis as a potential cause of the patient's sciatica.",
+      "negative": "The clinical assessment highlighted the presence of a herniated disc as a potential cause of the patient's sciatica."
+    },
+    {
+      "positive": "The patient was advised to avoid activities that could aggravate their spinal stenosis.",
+      "negative": "The patient was advised to avoid activities that could aggravate their muscle strain."
+    },
+    {
+      "positive": "Documentation indicated that the patient's spinal stenosis was causing significant neurological deficits.",
+      "negative": "Documentation indicated that the patient's herniated disc was causing significant neurological deficits."
+    },
+    {
+      "positive": "The patient reported worsening symptoms related to their diagnosed spinal stenosis during physical activity.",
+      "negative": "The patient reported worsening symptoms related to their diagnosed herniated disc during physical activity."
+    },
+    {
+      "positive": "The therapeutic approach for the patient focused on managing pain from spinal stenosis.",
+      "negative": "The therapeutic approach for the patient focused on managing pain from a muscle strain."
+    },
+    {
+      "positive": "The patient's history of spinal stenosis was discussed in relation to their ongoing treatment plan.",
+      "negative": "The patient's history of joint pain was discussed in relation to their ongoing treatment plan."
+    },
+    {
+      "positive": "An injection was performed to relieve pressure caused by spinal stenosis in the lumbar region.",
+      "negative": "An injection was performed to relieve pressure caused by joint inflammation in the lumbar region."
+    },
+    {
+      "positive": "The pain management specialist recommended a multidisciplinary approach for the patient's spinal stenosis.",
+      "negative": "The pain management specialist recommended a multidisciplinary approach for the patient's chronic tendonitis."
+    },
+    {
+      "positive": "Symptoms of weakness and numbness in the legs were attributed to the patient's spinal stenosis.",
+      "negative": "Symptoms of weakness and numbness in the legs were attributed to the patient's diabetic neuropathy."
+    },
+    {
+      "positive": "The orthopedic evaluation confirmed the diagnosis of spinal stenosis based on the patient's symptoms and imaging findings.",
+      "negative": "The orthopedic evaluation confirmed the diagnosis of a herniated disc based on the patient's symptoms and imaging findings."
+    },
+    {
+      "positive": "Chronic pain management strategies were tailored for the patient's spinal stenosis condition.",
+      "negative": "Chronic pain management strategies were tailored for the patient's shoulder impingement condition."
+    },
+    {
+      "positive": "The patient underwent a laminectomy to relieve symptoms caused by severe spinal stenosis in the cervical region.",
+      "negative": "The patient underwent a laminectomy to relieve symptoms caused by severe spinal injury in the cervical region."
+    }
+  ],
+  "concept": "spinal stenosis",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

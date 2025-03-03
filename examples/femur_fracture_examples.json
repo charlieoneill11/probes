@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The radiology report confirmed a displaced femur fracture in the left leg after the fall.",
+      "negative": "The radiology report confirmed a displaced humerus fracture in the left leg after the fall."
+    },
+    {
+      "positive": "After the accident, she was diagnosed with a femur fracture that required surgical intervention.",
+      "negative": "After the accident, she was diagnosed with a wrist fracture that required surgical intervention."
+    },
+    {
+      "positive": "The orthopedic surgeon recommended immediate fixation for the femur fracture sustained during the sports game.",
+      "negative": "The orthopedic surgeon recommended immediate fixation for the ankle fracture sustained during the sports game."
+    },
+    {
+      "positive": "The patient presented with severe pain and swelling indicative of a femur fracture following a car collision.",
+      "negative": "The patient presented with severe pain and swelling indicative of an elbow fracture following a car collision."
+    },
+    {
+      "positive": "X-rays revealed a comminuted femur fracture in the right leg due to the high-impact injury.",
+      "negative": "X-rays revealed a comminuted tibia fracture in the right leg due to the high-impact injury."
+    },
+    {
+      "positive": "She experienced significant mobility issues as a result of her femur fracture after the fall.",
+      "negative": "She experienced significant mobility issues as a result of her patella fracture after the fall."
+    },
+    {
+      "positive": "The clinical assessment indicated a femur fracture, prompting a discussion about rehabilitation options.",
+      "negative": "The clinical assessment indicated a fibula fracture, prompting a discussion about rehabilitation options."
+    },
+    {
+      "positive": "During the examination, the doctor noted tenderness and deformity consistent with a femur fracture.",
+      "negative": "During the examination, the doctor noted tenderness and deformity consistent with a radius fracture."
+    },
+    {
+      "positive": "The treatment plan included physical therapy following the repair of her femur fracture.",
+      "negative": "The treatment plan included physical therapy following the repair of her calcaneus fracture."
+    },
+    {
+      "positive": "The patient required a cast for her femur fracture sustained during the skiing accident.",
+      "negative": "The patient required a cast for her elbow fracture sustained during the skiing accident."
+    },
+    {
+      "positive": "A femur fracture was identified in the patient's medical imaging after the fall from a height.",
+      "negative": "A clavicle fracture was identified in the patient's medical imaging after the fall from a height."
+    },
+    {
+      "positive": "She was advised to avoid weight-bearing activities due to her recent femur fracture.",
+      "negative": "She was advised to avoid weight-bearing activities due to her recent scapula fracture."
+    },
+    {
+      "positive": "The emergency team stabilized the patient with a femur fracture before transport.",
+      "negative": "The emergency team stabilized the patient with a pelvis fracture before transport."
+    },
+    {
+      "positive": "A follow-up appointment was scheduled to monitor recovery from her femur fracture.",
+      "negative": "A follow-up appointment was scheduled to monitor recovery from her wrist fracture."
+    },
+    {
+      "positive": "The patient reported a sharp pain in the thigh, which was later diagnosed as a femur fracture.",
+      "negative": "The patient reported a sharp pain in the ankle, which was later diagnosed as a fibula fracture."
+    },
+    {
+      "positive": "Post-surgery, the patient was given instructions for care related to her femur fracture.",
+      "negative": "Post-surgery, the patient was given instructions for care related to her wrist fracture."
+    },
+    {
+      "positive": "The mechanism of injury was consistent with a high-energy femur fracture from the motorcycle accident.",
+      "negative": "The mechanism of injury was consistent with a high-energy wrist fracture from the motorcycle accident."
+    },
+    {
+      "positive": "She required pain management for her femur fracture during the hospitalization period.",
+      "negative": "She required pain management for her ankle fracture during the hospitalization period."
+    },
+    {
+      "positive": "The femur fracture was classified as unstable, necessitating surgical repair.",
+      "negative": "The fibula fracture was classified as unstable, necessitating surgical repair."
+    },
+    {
+      "positive": "The orthopedic evaluation confirmed a femur fracture with significant displacement.",
+      "negative": "The orthopedic evaluation confirmed a radius fracture with significant displacement."
+    },
+    {
+      "positive": "Due to the femur fracture, the patient was instructed to use crutches for mobility.",
+      "negative": "Due to the arm fracture, the patient was instructed to use crutches for mobility."
+    },
+    {
+      "positive": "Her femur fracture was treated with an intramedullary nail to facilitate healing.",
+      "negative": "Her humerus fracture was treated with an intramedullary nail to facilitate healing."
+    },
+    {
+      "positive": "The patient was relieved to learn that her femur fracture would heal without complications.",
+      "negative": "The patient was relieved to learn that her collarbone fracture would heal without complications."
+    },
+    {
+      "positive": "The imaging studies showed a linear femur fracture consistent with trauma from a fall.",
+      "negative": "The imaging studies showed a linear tibia fracture consistent with trauma from a fall."
+    },
+    {
+      "positive": "The physician documented the femur fracture as a result of a sports-related injury.",
+      "negative": "The physician documented the wrist fracture as a result of a sports-related injury."
+    },
+    {
+      "positive": "Following the femur fracture, the patient was placed on a strict rehabilitation regimen.",
+      "negative": "Following the elbow fracture, the patient was placed on a strict rehabilitation regimen."
+    },
+    {
+      "positive": "The patient expressed concerns about the long-term effects of her femur fracture.",
+      "negative": "The patient expressed concerns about the long-term effects of her wrist fracture."
+    },
+    {
+      "positive": "An examination revealed a femur fracture that was previously undiagnosed.",
+      "negative": "An examination revealed a wrist fracture that was previously undiagnosed."
+    },
+    {
+      "positive": "The femur fracture was treated conservatively with immobilization and rest.",
+      "negative": "The fibula fracture was treated conservatively with immobilization and rest."
+    },
+    {
+      "positive": "She was referred to a specialist for her femur fracture following the accident.",
+      "negative": "She was referred to a specialist for her elbow fracture following the accident."
+    },
+    {
+      "positive": "The medical team assessed the femur fracture for potential surgical intervention.",
+      "negative": "The medical team assessed the tibia fracture for potential surgical intervention."
+    },
+    {
+      "positive": "A femur fracture can lead to complications such as non-union or malunion.",
+      "negative": "A wrist fracture can lead to complications such as non-union or malunion."
+    },
+    {
+      "positive": "The patient was informed about the recovery timeline for her femur fracture.",
+      "negative": "The patient was informed about the recovery timeline for her ankle fracture."
+    },
+    {
+      "positive": "She suffered a femur fracture while hiking and required immediate medical attention.",
+      "negative": "She suffered a wrist fracture while hiking and required immediate medical attention."
+    },
+    {
+      "positive": "The diagnosis of a femur fracture was confirmed after reviewing the CT scan.",
+      "negative": "The diagnosis of a wrist fracture was confirmed after reviewing the CT scan."
+    },
+    {
+      "positive": "The femur fracture required the application of a functional brace for proper healing.",
+      "negative": "The wrist fracture required the application of a functional brace for proper healing."
+    },
+    {
+      "positive": "After the fall, the patient was diagnosed with a femur fracture and advised to rest.",
+      "negative": "After the fall, the patient was diagnosed with a wrist fracture and advised to rest."
+    },
+    {
+      "positive": "The femur fracture was evident in the patient's early imaging studies.",
+      "negative": "The ankle fracture was evident in the patient's early imaging studies."
+    },
+    {
+      "positive": "The orthopedic consultation revealed a femur fracture that needed urgent care.",
+      "negative": "The orthopedic consultation revealed a pelvis fracture that needed urgent care."
+    },
+    {
+      "positive": "A femur fracture typically heals within three to six months with proper care.",
+      "negative": "A wrist fracture typically heals within three to six months with proper care."
+    },
+    {
+      "positive": "The patient expressed relief upon learning that her femur fracture was not displaced.",
+      "negative": "The patient expressed relief upon learning that her ankle fracture was not displaced."
+    },
+    {
+      "positive": "The femur fracture was treated successfully, with follow-up imaging showing good alignment.",
+      "negative": "The wrist fracture was treated successfully, with follow-up imaging showing good alignment."
+    },
+    {
+      "positive": "The physical therapist evaluated the patient for rehabilitation following her femur fracture.",
+      "negative": "The physical therapist evaluated the patient for rehabilitation following her wrist fracture."
+    },
+    {
+      "positive": "The patient's femur fracture was caused by an accidental fall from a height.",
+      "negative": "The patient's wrist fracture was caused by an accidental fall from a height."
+    },
+    {
+      "positive": "The X-ray revealed a clear femur fracture following the patient's fall down the stairs.",
+      "negative": "The X-ray revealed a clear tibia fracture following the patient's fall down the stairs."
+    },
+    {
+      "positive": "A femur fracture was diagnosed after the patient experienced severe pain in the thigh.",
+      "negative": "A fibula fracture was diagnosed after the patient experienced severe pain in the thigh."
+    },
+    {
+      "positive": "The patient's femur fracture required surgical intervention due to the displacement of the bone.",
+      "negative": "The patient's radius fracture required surgical intervention due to the displacement of the bone."
+    },
+    {
+      "positive": "Physical therapy was initiated after the femur fracture to help regain mobility.",
+      "negative": "Physical therapy was initiated after the wrist fracture to help regain mobility."
+    },
+    {
+      "positive": "The orthopedic evaluation confirmed the presence of a femur fracture from the impact.",
+      "negative": "The orthopedic evaluation confirmed the presence of a clavicle fracture from the impact."
+    },
+    {
+      "positive": "Post-operative care was essential for the recovery of her femur fracture.",
+      "negative": "Post-operative care was essential for the recovery of her ankle fracture."
+    },
+    {
+      "positive": "She was advised to avoid weight-bearing activities due to her femur fracture.",
+      "negative": "She was advised to avoid weight-bearing activities due to her wrist fracture."
+    },
+    {
+      "positive": "The femur fracture was classified as a comminuted fracture based on the imaging results.",
+      "negative": "The humerus fracture was classified as a comminuted fracture based on the imaging results."
+    },
+    {
+      "positive": "Injuries from the car accident included a femur fracture that necessitated extensive care.",
+      "negative": "Injuries from the car accident included a pelvis fracture that necessitated extensive care."
+    },
+    {
+      "positive": "The patient's history indicated a femur fracture sustained during a skiing accident.",
+      "negative": "The patient's history indicated a metacarpal fracture sustained during a skiing accident."
+    },
+    {
+      "positive": "Her femur fracture was immobilized with a brace to prevent further injury.",
+      "negative": "Her fibula fracture was immobilized with a brace to prevent further injury."
+    },
+    {
+      "positive": "The doctor emphasized the importance of follow-up visits after her femur fracture.",
+      "negative": "The doctor emphasized the importance of follow-up visits after her ulna fracture."
+    },
+    {
+      "positive": "A femur fracture was confirmed in the emergency department after the patient fell.",
+      "negative": "A scapula fracture was confirmed in the emergency department after the patient fell."
+    },
+    {
+      "positive": "She underwent a CT scan to assess the severity of her femur fracture.",
+      "negative": "She underwent a CT scan to assess the severity of her fibula fracture."
+    },
+    {
+      "positive": "The femur fracture required a plate and screws for stabilization during surgery.",
+      "negative": "The ankle fracture required a plate and screws for stabilization during surgery."
+    },
+    {
+      "positive": "Following a femur fracture, the patient was instructed to perform specific rehabilitation exercises.",
+      "negative": "Following a wrist fracture, the patient was instructed to perform specific rehabilitation exercises."
+    },
+    {
+      "positive": "The sports injury resulted in a femur fracture that was promptly managed by the medical team.",
+      "negative": "The sports injury resulted in a shoulder fracture that was promptly managed by the medical team."
+    },
+    {
+      "positive": "The femur fracture was evident on the MRI, showing significant displacement.",
+      "negative": "The tibia fracture was evident on the MRI, showing significant displacement."
+    },
+    {
+      "positive": "He was discharged with instructions related to the care of his femur fracture.",
+      "negative": "He was discharged with instructions related to the care of his wrist fracture."
+    },
+    {
+      "positive": "The femur fracture was treated conservatively with rest and elevation.",
+      "negative": "The ankle fracture was treated conservatively with rest and elevation."
+    },
+    {
+      "positive": "During the follow-up, the femur fracture showed signs of healing on the X-ray.",
+      "negative": "During the follow-up, the elbow fracture showed signs of healing on the X-ray."
+    },
+    {
+      "positive": "A femur fracture was suspected based on the patient's mechanism of injury during the accident.",
+      "negative": "A wrist fracture was suspected based on the patient's mechanism of injury during the accident."
+    },
+    {
+      "positive": "The patient reported severe swelling and bruising due to the femur fracture.",
+      "negative": "The patient reported severe swelling and bruising due to the ankle fracture."
+    },
+    {
+      "positive": "She experienced difficulty walking as a result of her femur fracture.",
+      "negative": "She experienced difficulty walking as a result of her wrist fracture."
+    },
+    {
+      "positive": "They recommended a follow-up X-ray to monitor the healing of her femur fracture.",
+      "negative": "They recommended a follow-up X-ray to monitor the healing of her ulna fracture."
+    },
+    {
+      "positive": "The femur fracture was the primary concern during the patient's assessment.",
+      "negative": "The wrist fracture was the primary concern during the patient's assessment."
+    },
+    {
+      "positive": "The patient presented with severe pain indicative of a femur fracture.",
+      "negative": "The patient presented with severe pain indicative of a shoulder fracture."
+    },
+    {
+      "positive": "The femur fracture was treated with an external fixator to aid recovery.",
+      "negative": "The tibia fracture was treated with an external fixator to aid recovery."
+    },
+    {
+      "positive": "The orthopedic surgeon explained the procedure for repairing the femur fracture.",
+      "negative": "The orthopedic surgeon explained the procedure for repairing the clavicle fracture."
+    },
+    {
+      "positive": "The patient's femur fracture required a long recovery period and physical therapy.",
+      "negative": "The patient's ankle fracture required a long recovery period and physical therapy."
+    },
+    {
+      "positive": "The radiologist noted a femur fracture in the report after reviewing the scans.",
+      "negative": "The radiologist noted a humerus fracture in the report after reviewing the scans."
+    },
+    {
+      "positive": "She was fitted for a brace to support her femur fracture during healing.",
+      "negative": "She was fitted for a brace to support her ankle fracture during healing."
+    },
+    {
+      "positive": "The femur fracture led to complications that required further treatment.",
+      "negative": "The wrist fracture led to complications that required further treatment."
+    },
+    {
+      "positive": "A femur fracture can often result in significant mobility issues if not treated properly.",
+      "negative": "A wrist fracture can often result in significant mobility issues if not treated properly."
+    },
+    {
+      "positive": "The femur fracture was deemed stable and did not require surgical intervention.",
+      "negative": "The ankle fracture was deemed stable and did not require surgical intervention."
+    },
+    {
+      "positive": "The patient was advised on the use of crutches following her femur fracture.",
+      "negative": "The patient was advised on the use of crutches following her wrist fracture."
+    },
+    {
+      "positive": "The physician noted a femur fracture during the physical examination.",
+      "negative": "The physician noted a metatarsal fracture during the physical examination."
+    },
+    {
+      "positive": "The femur fracture requires careful monitoring to ensure proper alignment during healing.",
+      "negative": "The elbow fracture requires careful monitoring to ensure proper alignment during healing."
+    },
+    {
+      "positive": "The femur fracture was the result of a high-energy trauma and required urgent care.",
+      "negative": "The ankle fracture was the result of a high-energy trauma and required urgent care."
+    },
+    {
+      "positive": "The initial assessment revealed a femur fracture that needed immediate attention.",
+      "negative": "The initial assessment revealed a humerus fracture that needed immediate attention."
+    },
+    {
+      "positive": "A femur fracture can lead to complications such as nonunion or malunion.",
+      "negative": "A wrist fracture can lead to complications such as nonunion or malunion."
+    },
+    {
+      "positive": "Treatment options for the femur fracture included both surgical and non-surgical methods.",
+      "negative": "Treatment options for the wrist fracture included both surgical and non-surgical methods."
+    },
+    {
+      "positive": "The femur fracture was evident in the patient's clinical presentation and imaging studies.",
+      "negative": "The ankle fracture was evident in the patient's clinical presentation and imaging studies."
+    },
+    {
+      "positive": "After her femur fracture, she was closely monitored for signs of infection.",
+      "negative": "After her radius fracture, she was closely monitored for signs of infection."
+    },
+    {
+      "positive": "The X-ray confirmed the presence of a femur fracture following the fall.",
+      "negative": "The X-ray confirmed the presence of a wrist fracture following the fall."
+    },
+    {
+      "positive": "Her femur fracture was evident in the imaging, necessitating surgical intervention.",
+      "negative": "Her tibia fracture was evident in the imaging, necessitating surgical intervention."
+    },
+    {
+      "positive": "The patient experienced significant pain due to a recent femur fracture.",
+      "negative": "The patient experienced significant pain due to a recent elbow dislocation."
+    },
+    {
+      "positive": "Rehabilitation was crucial after her femur fracture to regain mobility.",
+      "negative": "Rehabilitation was crucial after her wrist sprain to regain mobility."
+    },
+    {
+      "positive": "The femur fracture required immediate casting to stabilize the injury.",
+      "negative": "The ankle sprain required immediate casting to stabilize the injury."
+    },
+    {
+      "positive": "During the assessment, the doctor noted a femur fracture that required further evaluation.",
+      "negative": "During the assessment, the doctor noted a clavicle fracture that required further evaluation."
+    },
+    {
+      "positive": "The femur fracture was classified as a mid-shaft injury based on the CT scan results.",
+      "negative": "The femur contusion was classified as a mid-shaft injury based on the CT scan results."
+    },
+    {
+      "positive": "He underwent a procedure to repair his femur fracture after the accident.",
+      "negative": "He underwent a procedure to repair his ankle fracture after the accident."
+    },
+    {
+      "positive": "The orthopedic surgeon discussed the treatment options for the patient's femur fracture.",
+      "negative": "The orthopedic surgeon discussed the treatment options for the patient's shoulder fracture."
+    },
+    {
+      "positive": "Following the femur fracture, the patient was prescribed pain management medication.",
+      "negative": "Following the wrist fracture, the patient was prescribed pain management medication."
+    },
+    {
+      "positive": "The femur fracture was complicated by soft tissue injury in the surrounding area.",
+      "negative": "The ankle fracture was complicated by soft tissue injury in the surrounding area."
+    },
+    {
+      "positive": "The patient's femur fracture was a result of a high-energy impact during sports.",
+      "negative": "The patient's wrist fracture was a result of a high-energy impact during sports."
+    },
+    {
+      "positive": "Her femur fracture healed well with conservative management and physical therapy.",
+      "negative": "Her toe fracture healed well with conservative management and physical therapy."
+    },
+    {
+      "positive": "The femur fracture was evident in the lateral view of the radiographs.",
+      "negative": "The fibula fracture was evident in the lateral view of the radiographs."
+    },
+    {
+      "positive": "He was diagnosed with a femur fracture after the car accident.",
+      "negative": "He was diagnosed with a wrist fracture after the car accident."
+    },
+    {
+      "positive": "The femur fracture required an intramedullary nail for stabilization.",
+      "negative": "The ankle fracture required an intramedullary nail for stabilization."
+    },
+    {
+      "positive": "The patient was advised to avoid weight-bearing activities due to the femur fracture.",
+      "negative": "The patient was advised to avoid weight-bearing activities due to the wrist sprain."
+    },
+    {
+      "positive": "The emergency room staff reported a femur fracture in the triage notes.",
+      "negative": "The emergency room staff reported a forearm fracture in the triage notes."
+    },
+    {
+      "positive": "Surgical intervention was necessary for the displaced femur fracture.",
+      "negative": "Surgical intervention was necessary for the displaced heel fracture."
+    },
+    {
+      "positive": "The femur fracture was associated with significant swelling and bruising.",
+      "negative": "The wrist fracture was associated with significant swelling and bruising."
+    },
+    {
+      "positive": "The patient's femur fracture was stable and did not require surgery.",
+      "negative": "The patient's wrist fracture was stable and did not require surgery."
+    },
+    {
+      "positive": "During the follow-up, the femur fracture showed signs of healing.",
+      "negative": "During the follow-up, the ankle fracture showed signs of healing."
+    },
+    {
+      "positive": "The femur fracture was the primary concern in the orthopedic evaluation.",
+      "negative": "The hand fracture was the primary concern in the orthopedic evaluation."
+    },
+    {
+      "positive": "The femur fracture was diagnosed after a thorough clinical examination.",
+      "negative": "The rib fracture was diagnosed after a thorough clinical examination."
+    },
+    {
+      "positive": "The rehabilitation program was tailored for her femur fracture recovery.",
+      "negative": "The rehabilitation program was tailored for her shoulder dislocation recovery."
+    },
+    {
+      "positive": "The femur fracture was a result of a fall from a significant height.",
+      "negative": "The wrist fracture was a result of a fall from a significant height."
+    },
+    {
+      "positive": "A femur fracture was confirmed during the orthopedic assessment.",
+      "negative": "A pelvis fracture was confirmed during the orthopedic assessment."
+    },
+    {
+      "positive": "The patient received a referral for a femur fracture specialist.",
+      "negative": "The patient received a referral for a shoulder specialist."
+    },
+    {
+      "positive": "The femur fracture indicated a need for potential surgical intervention.",
+      "negative": "The ankle sprain indicated a need for potential surgical intervention."
+    },
+    {
+      "positive": "The imaging revealed a femur fracture consistent with a traumatic injury.",
+      "negative": "The imaging revealed a wrist fracture consistent with a traumatic injury."
+    },
+    {
+      "positive": "The femur fracture resulted in significant mobility impairment.",
+      "negative": "The wrist fracture resulted in significant mobility impairment."
+    },
+    {
+      "positive": "She was advised to keep her leg elevated due to the femur fracture.",
+      "negative": "She was advised to keep her arm elevated due to the wrist fracture."
+    },
+    {
+      "positive": "The femur fracture was treated with a combination of surgery and physical therapy.",
+      "negative": "The wrist fracture was treated with a combination of surgery and physical therapy."
+    },
+    {
+      "positive": "The femur fracture required a follow-up appointment to monitor healing.",
+      "negative": "The forearm fracture required a follow-up appointment to monitor healing."
+    },
+    {
+      "positive": "The presence of a femur fracture was confirmed with MRI imaging.",
+      "negative": "The presence of a neck fracture was confirmed with MRI imaging."
+    },
+    {
+      "positive": "She suffered a femur fracture while skiing down the slope.",
+      "negative": "She suffered a wrist fracture while skiing down the slope."
+    },
+    {
+      "positive": "The femur fracture involved both the proximal and distal ends.",
+      "negative": "The wrist fracture involved both the proximal and distal ends."
+    },
+    {
+      "positive": "A femur fracture can lead to complications if not treated properly.",
+      "negative": "A wrist fracture can lead to complications if not treated properly."
+    },
+    {
+      "positive": "The femur fracture was identified during a sports physical examination.",
+      "negative": "The shoulder injury was identified during a sports physical examination."
+    },
+    {
+      "positive": "The patient was informed about the risks associated with her femur fracture.",
+      "negative": "The patient was informed about the risks associated with her ankle sprain."
+    },
+    {
+      "positive": "The femur fracture was described as a complex injury requiring careful management.",
+      "negative": "The wrist fracture was described as a complex injury requiring careful management."
+    },
+    {
+      "positive": "The femur fracture was treated effectively with a surgical plate.",
+      "negative": "The elbow fracture was treated effectively with a surgical plate."
+    },
+    {
+      "positive": "Physical therapy was essential for recovery from the femur fracture.",
+      "negative": "Physical therapy was essential for recovery from the wrist injury."
+    },
+    {
+      "positive": "The femur fracture was attributed to osteoporosis in the elderly patient.",
+      "negative": "The wrist fracture was attributed to osteoporosis in the elderly patient."
+    },
+    {
+      "positive": "The patient's femur fracture was identified during the routine orthopedic evaluation.",
+      "negative": "The patient's radius fracture was identified during the routine orthopedic evaluation."
+    },
+    {
+      "positive": "An MRI revealed a femur fracture that required surgical intervention.",
+      "negative": "An MRI revealed a tibia fracture that required surgical intervention."
+    },
+    {
+      "positive": "After the fall, the patient was diagnosed with a femur fracture and a bruised hip.",
+      "negative": "After the fall, the patient was diagnosed with a pelvis fracture and a bruised hip."
+    },
+    {
+      "positive": "The orthopedic surgeon recommended a cast for the femur fracture sustained in the accident.",
+      "negative": "The orthopedic surgeon recommended a cast for the ankle fracture sustained in the accident."
+    },
+    {
+      "positive": "The femur fracture occurred due to a high-energy trauma, necessitating immediate care.",
+      "negative": "The fibula fracture occurred due to a high-energy trauma, necessitating immediate care."
+    },
+    {
+      "positive": "The X-ray clearly showed a femur fracture that required stabilization.",
+      "negative": "The X-ray clearly showed a scapula fracture that required stabilization."
+    },
+    {
+      "positive": "Post-surgery, the patient was monitored closely for complications related to the femur fracture.",
+      "negative": "Post-surgery, the patient was monitored closely for complications related to the wrist fracture."
+    },
+    {
+      "positive": "The femur fracture was treated with an intramedullary nail to promote healing.",
+      "negative": "The radius fracture was treated with an intramedullary nail to promote healing."
+    },
+    {
+      "positive": "Follow-up imaging confirmed that the femur fracture was healing as expected.",
+      "negative": "Follow-up imaging confirmed that the ulna fracture was healing as expected."
+    },
+    {
+      "positive": "The femur fracture was determined to be stable, allowing for conservative management.",
+      "negative": "The humerus fracture was determined to be stable, allowing for conservative management."
+    },
+    {
+      "positive": "The patient experienced significant pain due to the femur fracture following the fall.",
+      "negative": "The patient experienced significant pain due to the wrist fracture following the fall."
+    },
+    {
+      "positive": "The femur fracture was classified as an open fracture requiring surgical repair.",
+      "negative": "The ankle fracture was classified as an open fracture requiring surgical repair."
+    },
+    {
+      "positive": "The doctor explained the risks associated with a femur fracture and its treatment.",
+      "negative": "The doctor explained the risks associated with a clavicle fracture and its treatment."
+    },
+    {
+      "positive": "The femur fracture resulted in limited mobility for the patient until it healed.",
+      "negative": "The femur contusion resulted in limited mobility for the patient until it healed."
+    },
+    {
+      "positive": "Radiological assessment confirmed the presence of a femur fracture after the accident.",
+      "negative": "Radiological assessment confirmed the presence of a patella fracture after the accident."
+    },
+    {
+      "positive": "A femur fracture was diagnosed after the patient presented with severe leg pain.",
+      "negative": "A fibula fracture was diagnosed after the patient presented with severe leg pain."
+    },
+    {
+      "positive": "The treatment plan for the femur fracture included rehabilitation exercises.",
+      "negative": "The treatment plan for the humerus fracture included rehabilitation exercises."
+    },
+    {
+      "positive": "The femur fracture was complicated by a hematoma that required drainage.",
+      "negative": "The wrist fracture was complicated by a hematoma that required drainage."
+    },
+    {
+      "positive": "During the evaluation, the doctor noted that the femur fracture was dislocated.",
+      "negative": "During the evaluation, the doctor noted that the shoulder fracture was dislocated."
+    },
+    {
+      "positive": "The patient's femur fracture was stabilized using a metal plate and screws.",
+      "negative": "The patient's wrist fracture was stabilized using a metal plate and screws."
+    },
+    {
+      "positive": "The femur fracture caused significant swelling in the patient's thigh region.",
+      "negative": "The humerus fracture caused significant swelling in the patient's thigh region."
+    },
+    {
+      "positive": "A femur fracture in an elderly patient can lead to complications if not treated promptly.",
+      "negative": "A tibia fracture in an elderly patient can lead to complications if not treated promptly."
+    },
+    {
+      "positive": "The femur fracture required an urgent surgical procedure to ensure proper alignment.",
+      "negative": "The ankle fracture required an urgent surgical procedure to ensure proper alignment."
+    },
+    {
+      "positive": "Following the femur fracture, the patient was advised to use crutches for mobility.",
+      "negative": "Following the ankle sprain, the patient was advised to use crutches for mobility."
+    },
+    {
+      "positive": "The femur fracture was a result of a sports injury that warranted immediate attention.",
+      "negative": "The wrist fracture was a result of a sports injury that warranted immediate attention."
+    },
+    {
+      "positive": "The patient underwent physical therapy after a femur fracture to regain strength.",
+      "negative": "The patient underwent physical therapy after a shoulder fracture to regain strength."
+    },
+    {
+      "positive": "A detailed analysis of the femur fracture indicated a possible underlying condition.",
+      "negative": "A detailed analysis of the wrist fracture indicated a possible underlying condition."
+    },
+    {
+      "positive": "The femur fracture was assessed for complications such as non-union or malunion.",
+      "negative": "The ankle fracture was assessed for complications such as non-union or malunion."
+    },
+    {
+      "positive": "In cases of a femur fracture, early diagnosis is crucial for optimal recovery.",
+      "negative": "In cases of a wrist fracture, early diagnosis is crucial for optimal recovery."
+    },
+    {
+      "positive": "The femur fracture was classified as a spiral fracture based on the mechanism of injury.",
+      "negative": "The fibula fracture was classified as a spiral fracture based on the mechanism of injury."
+    },
+    {
+      "positive": "The patient reported difficulty walking due to a femur fracture sustained last week.",
+      "negative": "The patient reported difficulty walking due to a toe fracture sustained last week."
+    },
+    {
+      "positive": "The femur fracture was successfully treated with an open reduction and internal fixation.",
+      "negative": "The wrist fracture was successfully treated with an open reduction and internal fixation."
+    },
+    {
+      "positive": "The femur fracture was monitored closely during the healing process.",
+      "negative": "The radius fracture was monitored closely during the healing process."
+    },
+    {
+      "positive": "A femur fracture can significantly impact a patient's mobility and quality of life.",
+      "negative": "A wrist sprain can significantly impact a patient's mobility and quality of life."
+    },
+    {
+      "positive": "The patient was informed about the potential complications of a femur fracture.",
+      "negative": "The patient was informed about the potential complications of a wrist fracture."
+    },
+    {
+      "positive": "The femur fracture was assessed using both X-ray and CT imaging.",
+      "negative": "The elbow fracture was assessed using both X-ray and CT imaging."
+    },
+    {
+      "positive": "The surgical team was prepared to address the femur fracture during the operation.",
+      "negative": "The surgical team was prepared to address the shoulder fracture during the operation."
+    },
+    {
+      "positive": "The patient experienced significant discomfort as a result of the femur fracture.",
+      "negative": "The patient experienced significant discomfort as a result of the ankle fracture."
+    },
+    {
+      "positive": "Rehabilitation for the femur fracture included weight-bearing exercises as tolerated.",
+      "negative": "Rehabilitation for the wrist fracture included weight-bearing exercises as tolerated."
+    },
+    {
+      "positive": "The femur fracture displayed signs of healing after four weeks of treatment.",
+      "negative": "The ankle fracture displayed signs of healing after four weeks of treatment."
+    },
+    {
+      "positive": "The patient's femur fracture was effectively managed through a multidisciplinary approach.",
+      "negative": "The patient's wrist fracture was effectively managed through a multidisciplinary approach."
+    },
+    {
+      "positive": "The patient was advised to avoid high-impact activities following the femur fracture.",
+      "negative": "The patient was advised to avoid high-impact activities following the wrist fracture."
+    },
+    {
+      "positive": "The femur fracture was reviewed at the weekly orthopedic meeting for treatment updates.",
+      "negative": "The elbow fracture was reviewed at the weekly orthopedic meeting for treatment updates."
+    },
+    {
+      "positive": "The femur fracture was documented in the patient's medical record for future reference.",
+      "negative": "The clavicle fracture was documented in the patient's medical record for future reference."
+    },
+    {
+      "positive": "A femur fracture can occur in both adults and children, often requiring different treatment approaches.",
+      "negative": "A wrist fracture can occur in both adults and children, often requiring different treatment approaches."
+    },
+    {
+      "positive": "The femur fracture was evaluated for possible involvement of the surrounding soft tissue.",
+      "negative": "The ankle fracture was evaluated for possible involvement of the surrounding soft tissue."
+    },
+    {
+      "positive": "The patient required a follow-up appointment to assess the progress of the femur fracture.",
+      "negative": "The patient required a follow-up appointment to assess the progress of the wrist fracture."
+    },
+    {
+      "positive": "The orthopedic surgeon recommended surgery to repair the displaced femur fracture in the patient's left leg.",
+      "negative": "The orthopedic surgeon recommended surgery to repair the displaced tibia fracture in the patient's left leg."
+    },
+    {
+      "positive": "Due to the femur fracture, the patient was advised to use crutches for mobility during recovery.",
+      "negative": "Due to the ankle fracture, the patient was advised to use crutches for mobility during recovery."
+    },
+    {
+      "positive": "The CT scan confirmed a femur fracture, prompting immediate orthopedic consultation.",
+      "negative": "The CT scan confirmed a wrist fracture, prompting immediate orthopedic consultation."
+    },
+    {
+      "positive": "The patient experienced significant pain and difficulty walking following the femur fracture.",
+      "negative": "The patient experienced significant pain and difficulty walking following the shoulder dislocation."
+    },
+    {
+      "positive": "In the follow-up visit, the doctor noted signs of healing in the femur fracture.",
+      "negative": "In the follow-up visit, the doctor noted signs of healing in the wrist fracture."
+    },
+    {
+      "positive": "The femur fracture was treated with a cast and rehabilitation exercises.",
+      "negative": "The wrist fracture was treated with a cast and rehabilitation exercises."
+    },
+    {
+      "positive": "An MRI revealed a complex femur fracture that required a detailed treatment plan.",
+      "negative": "An MRI revealed a complex shoulder fracture that required a detailed treatment plan."
+    },
+    {
+      "positive": "The physical therapist developed a recovery plan tailored to the femur fracture.",
+      "negative": "The physical therapist developed a recovery plan tailored to the elbow fracture."
+    },
+    {
+      "positive": "The patient was hospitalized due to the severity of the femur fracture sustained in the accident.",
+      "negative": "The patient was hospitalized due to the severity of the forearm fracture sustained in the accident."
+    },
+    {
+      "positive": "The femur fracture resulted in significant complications, including risk of thrombosis.",
+      "negative": "The ankle fracture resulted in significant complications, including risk of thrombosis."
+    },
+    {
+      "positive": "The surgical team successfully repaired the femur fracture with internal fixation.",
+      "negative": "The surgical team successfully repaired the radius fracture with internal fixation."
+    },
+    {
+      "positive": "The patient underwent a thorough evaluation for potential vascular injury related to the femur fracture.",
+      "negative": "The patient underwent a thorough evaluation for potential vascular injury related to the ankle fracture."
+    },
+    {
+      "positive": "Following the femur fracture, the patient was placed in a rehabilitation program focused on mobility.",
+      "negative": "Following the wrist fracture, the patient was placed in a rehabilitation program focused on mobility."
+    },
+    {
+      "positive": "The radiologist noted a comminuted femur fracture in the imaging report.",
+      "negative": "The radiologist noted a comminuted clavicle fracture in the imaging report."
+    },
+    {
+      "positive": "A femur fracture can lead to long-term mobility issues if not properly treated.",
+      "negative": "A wrist fracture can lead to long-term mobility issues if not properly treated."
+    },
+    {
+      "positive": "The patient's femur fracture was classified as an open fracture requiring urgent care.",
+      "negative": "The patient's ankle fracture was classified as an open fracture requiring urgent care."
+    },
+    {
+      "positive": "After the fall, the patient was diagnosed with a femur fracture and received immediate pain management.",
+      "negative": "After the fall, the patient was diagnosed with a rib fracture and received immediate pain management."
+    },
+    {
+      "positive": "The femur fracture was the result of a high-energy impact during the car accident.",
+      "negative": "The wrist fracture was the result of a high-energy impact during the car accident."
+    },
+    {
+      "positive": "The femur fracture's location made it a candidate for surgical intervention rather than conservative treatment.",
+      "negative": "The tibia fracture's location made it a candidate for surgical intervention rather than conservative treatment."
+    },
+    {
+      "positive": "The patient was informed about the potential for a non-union due to the nature of the femur fracture.",
+      "negative": "The patient was informed about the potential for a non-union due to the nature of the wrist fracture."
+    },
+    {
+      "positive": "Upon examination, the orthopedic team confirmed the presence of a femur fracture and recommended an MRI.",
+      "negative": "Upon examination, the orthopedic team confirmed the presence of a humerus fracture and recommended an MRI."
+    }
+  ],
+  "concept": "femur fracture",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

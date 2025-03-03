@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient presented with adhesive capsulitis, experiencing pain and limited range of motion in the shoulder.",
+      "negative": "The patient presented with bursitis, experiencing pain and limited range of motion in the shoulder."
+    },
+    {
+      "positive": "Physical examination revealed signs of adhesive capsulitis, including stiffness and discomfort during shoulder abduction.",
+      "negative": "Physical examination revealed signs of shoulder impingement, including stiffness and discomfort during shoulder abduction."
+    },
+    {
+      "positive": "MRI findings confirmed the diagnosis of adhesive capsulitis, showing thickening of the joint capsule.",
+      "negative": "MRI findings confirmed the diagnosis of tendonitis, showing thickening of the joint capsule."
+    },
+    {
+      "positive": "The treatment plan included corticosteroid injections to alleviate symptoms of adhesive capsulitis.",
+      "negative": "The treatment plan included corticosteroid injections to alleviate symptoms of shoulder tendonitis."
+    },
+    {
+      "positive": "Patients with adhesive capsulitis often experience significant pain during both active and passive shoulder movements.",
+      "negative": "Patients with shoulder arthritis often experience significant pain during both active and passive shoulder movements."
+    },
+    {
+      "positive": "The diagnosis of adhesive capsulitis was established based on the patient's history and clinical findings.",
+      "negative": "The diagnosis of shoulder instability was established based on the patient's history and clinical findings."
+    },
+    {
+      "positive": "Adhesive capsulitis can lead to secondary complications if not treated appropriately.",
+      "negative": "Shoulder bursitis can lead to secondary complications if not treated appropriately."
+    },
+    {
+      "positive": "The patient was referred to physical therapy for rehabilitation of adhesive capsulitis.",
+      "negative": "The patient was referred to physical therapy for rehabilitation of a rotator cuff tear."
+    },
+    {
+      "positive": "Symptoms of adhesive capsulitis typically progress through a freezing stage, a frozen stage, and a thawing stage.",
+      "negative": "Symptoms of shoulder impingement typically progress through a worsening of pain and stiffness."
+    },
+    {
+      "positive": "The patient reported severe discomfort associated with adhesive capsulitis, especially at night.",
+      "negative": "The patient reported severe discomfort associated with a shoulder sprain, especially at night."
+    },
+    {
+      "positive": "Adhesive capsulitis is often referred to as frozen shoulder due to the restricted movement observed.",
+      "negative": "Shoulder tendonitis is often referred to as rotator cuff syndrome due to the restricted movement observed."
+    },
+    {
+      "positive": "The clinical presentation was consistent with adhesive capsulitis, characterized by gradual onset of shoulder pain.",
+      "negative": "The clinical presentation was consistent with shoulder bursitis, characterized by gradual onset of shoulder pain."
+    },
+    {
+      "positive": "Adhesive capsulitis can be idiopathic or secondary to trauma or surgery.",
+      "negative": "Shoulder instability can be idiopathic or secondary to trauma or surgery."
+    },
+    {
+      "positive": "The patient received a diagnosis of adhesive capsulitis after a thorough evaluation of shoulder mobility.",
+      "negative": "The patient received a diagnosis of shoulder arthritis after a thorough evaluation of shoulder mobility."
+    },
+    {
+      "positive": "Treatment for adhesive capsulitis may include physical therapy and anti-inflammatory medications.",
+      "negative": "Treatment for shoulder instability may include physical therapy and anti-inflammatory medications."
+    },
+    {
+      "positive": "Adhesive capsulitis often occurs in individuals with diabetes or thyroid disorders.",
+      "negative": "Shoulder impingement often occurs in individuals with diabetes or thyroid disorders."
+    },
+    {
+      "positive": "The patient exhibited characteristic symptoms of adhesive capsulitis after a prolonged period of immobility.",
+      "negative": "The patient exhibited characteristic symptoms of shoulder tendonitis after a prolonged period of immobility."
+    },
+    {
+      "positive": "Adhesive capsulitis is characterized by a restricted range of motion in both active and passive assessments.",
+      "negative": "Shoulder bursitis is characterized by a restricted range of motion in both active and passive assessments."
+    },
+    {
+      "positive": "The physician noted the presence of adhesive capsulitis during the shoulder examination.",
+      "negative": "The physician noted the presence of shoulder arthritis during the shoulder examination."
+    },
+    {
+      "positive": "Adhesive capsulitis is diagnosed when significant stiffness is present without any identifiable injury.",
+      "negative": "Shoulder impingement is diagnosed when significant stiffness is present without any identifiable injury."
+    },
+    {
+      "positive": "A careful assessment revealed adhesive capsulitis, leading to a tailored treatment strategy.",
+      "negative": "A careful assessment revealed shoulder instability, leading to a tailored treatment strategy."
+    },
+    {
+      "positive": "The patient underwent a manipulation under anesthesia to treat adhesive capsulitis.",
+      "negative": "The patient underwent a manipulation under anesthesia to treat a rotator cuff tear."
+    },
+    {
+      "positive": "Adhesive capsulitis can be a painful and debilitating condition affecting daily activities.",
+      "negative": "Shoulder bursitis can be a painful and debilitating condition affecting daily activities."
+    },
+    {
+      "positive": "The patient's pain radiated from the shoulder joint, consistent with adhesive capsulitis.",
+      "negative": "The patient's pain radiated from the shoulder joint, consistent with shoulder tendonitis."
+    },
+    {
+      "positive": "Patients with adhesive capsulitis may benefit from a structured home exercise program.",
+      "negative": "Patients with shoulder impingement may benefit from a structured home exercise program."
+    },
+    {
+      "positive": "The physical therapist observed significant limitations in shoulder mobility due to adhesive capsulitis.",
+      "negative": "The physical therapist observed significant limitations in shoulder mobility due to a rotator cuff injury."
+    },
+    {
+      "positive": "Adhesive capsulitis often results in a gradual decrease in shoulder function over time.",
+      "negative": "Shoulder arthritis often results in a gradual decrease in shoulder function over time."
+    },
+    {
+      "positive": "The patient was diagnosed with adhesive capsulitis after reporting chronic shoulder pain.",
+      "negative": "The patient was diagnosed with shoulder bursitis after reporting chronic shoulder pain."
+    },
+    {
+      "positive": "Adhesive capsulitis may require a combination of corticosteroids and physical therapy for effective management.",
+      "negative": "Shoulder tendonitis may require a combination of corticosteroids and physical therapy for effective management."
+    },
+    {
+      "positive": "The presence of adhesive capsulitis was confirmed through both clinical assessment and imaging studies.",
+      "negative": "The presence of shoulder impingement was confirmed through both clinical assessment and imaging studies."
+    },
+    {
+      "positive": "Adhesive capsulitis can develop following rotator cuff surgery, leading to stiffness and pain.",
+      "negative": "Shoulder arthritis can develop following rotator cuff surgery, leading to stiffness and pain."
+    },
+    {
+      "positive": "The patient demonstrated classic signs of adhesive capsulitis during the joint examination.",
+      "negative": "The patient demonstrated classic signs of shoulder tendonitis during the joint examination."
+    },
+    {
+      "positive": "Adhesive capsulitis is known for its three distinct phases: freezing, frozen, and thawing.",
+      "negative": "Shoulder bursitis is known for its three distinct phases: acute, subacute, and chronic."
+    },
+    {
+      "positive": "The patient requested pain relief options for their adhesive capsulitis symptoms.",
+      "negative": "The patient requested pain relief options for their shoulder impingement symptoms."
+    },
+    {
+      "positive": "Adhesive capsulitis is often associated with prolonged immobilization after surgery or injury.",
+      "negative": "Shoulder instability is often associated with prolonged immobilization after surgery or injury."
+    },
+    {
+      "positive": "After a thorough evaluation, the patient was diagnosed with adhesive capsulitis and started treatment.",
+      "negative": "After a thorough evaluation, the patient was diagnosed with shoulder arthritis and started treatment."
+    },
+    {
+      "positive": "Adhesive capsulitis typically requires a significant commitment to rehabilitation and therapy.",
+      "negative": "Shoulder impingement typically requires a significant commitment to rehabilitation and therapy."
+    },
+    {
+      "positive": "The patient's history indicated a recent diagnosis of adhesive capsulitis following a shoulder injury.",
+      "negative": "The patient's history indicated a recent diagnosis of shoulder bursitis following a shoulder injury."
+    },
+    {
+      "positive": "In cases of adhesive capsulitis, imaging may reveal capsular thickening and decreased joint volume.",
+      "negative": "In cases of shoulder impingement, imaging may reveal tendon swelling and subacromial space narrowing."
+    },
+    {
+      "positive": "Adhesive capsulitis is often self-limiting but can take months to resolve without intervention.",
+      "negative": "Shoulder arthritis is often self-limiting but can take months to resolve without intervention."
+    },
+    {
+      "positive": "The patient's adhesive capsulitis was exacerbated by a lack of movement during recovery.",
+      "negative": "The patient's shoulder tendonitis was exacerbated by a lack of movement during recovery."
+    },
+    {
+      "positive": "The presence of adhesive capsulitis was evident in the patient's inability to perform overhead activities.",
+      "negative": "The presence of shoulder bursitis was evident in the patient's inability to perform overhead activities."
+    },
+    {
+      "positive": "The orthopedic specialist provided education on adhesive capsulitis and its treatment options.",
+      "negative": "The orthopedic specialist provided education on shoulder instability and its treatment options."
+    },
+    {
+      "positive": "The MRI findings were consistent with adhesive capsulitis, showing thickening of the joint capsule.",
+      "negative": "The MRI findings were consistent with shoulder arthritis, showing thickening of the joint capsule."
+    },
+    {
+      "positive": "Adhesive capsulitis was diagnosed after the patient reported severe shoulder pain and stiffness.",
+      "negative": "Shoulder bursitis was diagnosed after the patient reported severe shoulder pain and stiffness."
+    },
+    {
+      "positive": "Physical therapy interventions were initiated for the patient's adhesive capsulitis to improve range of motion.",
+      "negative": "Physical therapy interventions were initiated for the patient's rotator cuff tear to improve range of motion."
+    },
+    {
+      "positive": "The patient experienced significant limitation in shoulder abduction due to adhesive capsulitis.",
+      "negative": "The patient experienced significant limitation in shoulder abduction due to shoulder arthritis."
+    },
+    {
+      "positive": "A cortisone injection was administered to manage the inflammation associated with adhesive capsulitis.",
+      "negative": "A cortisone injection was administered to manage the inflammation associated with shoulder tendonitis."
+    },
+    {
+      "positive": "Adhesive capsulitis commonly occurs in patients who have undergone shoulder surgery.",
+      "negative": "Shoulder impingement commonly occurs in patients who have undergone shoulder surgery."
+    },
+    {
+      "positive": "The patient was educated on the nature of adhesive capsulitis and the expected recovery timeline.",
+      "negative": "The patient was educated on the nature of shoulder instability and the expected recovery timeline."
+    },
+    {
+      "positive": "Intra-articular steroid injections are often used to treat adhesive capsulitis effectively.",
+      "negative": "Intra-articular steroid injections are often used to treat shoulder dislocation effectively."
+    },
+    {
+      "positive": "The hallmark of adhesive capsulitis is the gradual onset of shoulder stiffness and pain.",
+      "negative": "The hallmark of shoulder bursitis is the gradual onset of shoulder stiffness and pain."
+    },
+    {
+      "positive": "Adhesive capsulitis can lead to significant functional impairment in daily activities.",
+      "negative": "Shoulder tendonitis can lead to significant functional impairment in daily activities."
+    },
+    {
+      "positive": "The physical examination revealed a positive Neer test, suggesting adhesive capsulitis.",
+      "negative": "The physical examination revealed a positive Neer test, suggesting shoulder impingement."
+    },
+    {
+      "positive": "Adhesive capsulitis is often characterized by a freezing, frozen, and thawing phase.",
+      "negative": "Shoulder osteoarthritis is often characterized by a freezing, frozen, and thawing phase."
+    },
+    {
+      "positive": "Patients with diabetes are at a higher risk of developing adhesive capsulitis.",
+      "negative": "Patients with diabetes are at a higher risk of developing shoulder instability."
+    },
+    {
+      "positive": "Management of adhesive capsulitis often involves a combination of therapy and medication.",
+      "negative": "Management of shoulder tendinopathy often involves a combination of therapy and medication."
+    },
+    {
+      "positive": "Adhesive capsulitis can severely limit the patient's ability to perform overhead activities.",
+      "negative": "Shoulder impingement can severely limit the patient's ability to perform overhead activities."
+    },
+    {
+      "positive": "The patient was referred to an orthopedic specialist for evaluation of adhesive capsulitis.",
+      "negative": "The patient was referred to an orthopedic specialist for evaluation of shoulder rotator cuff tears."
+    },
+    {
+      "positive": "The diagnosis of adhesive capsulitis was confirmed through a thorough clinical assessment.",
+      "negative": "The diagnosis of shoulder arthritis was confirmed through a thorough clinical assessment."
+    },
+    {
+      "positive": "Adhesive capsulitis often requires a multidisciplinary approach for optimal recovery.",
+      "negative": "Shoulder impingement often requires a multidisciplinary approach for optimal recovery."
+    },
+    {
+      "positive": "The patient had a history of adhesive capsulitis, which contributed to his current shoulder issues.",
+      "negative": "The patient had a history of shoulder bursitis, which contributed to his current shoulder issues."
+    },
+    {
+      "positive": "The physician noted a lack of passive range of motion consistent with adhesive capsulitis.",
+      "negative": "The physician noted a lack of passive range of motion consistent with shoulder dislocation."
+    },
+    {
+      "positive": "The treatment plan included modalities to alleviate pain from adhesive capsulitis.",
+      "negative": "The treatment plan included modalities to alleviate pain from shoulder rotator cuff injury."
+    },
+    {
+      "positive": "Adhesive capsulitis is frequently observed in patients undergoing prolonged immobilization of the shoulder.",
+      "negative": "Shoulder impingement is frequently observed in patients undergoing prolonged immobilization of the shoulder."
+    },
+    {
+      "positive": "The patient reported a progressive increase in pain associated with adhesive capsulitis over several months.",
+      "negative": "The patient reported a progressive increase in pain associated with shoulder tendonitis over several months."
+    },
+    {
+      "positive": "An ultrasound revealed findings suggestive of adhesive capsulitis in the patient's shoulder joint.",
+      "negative": "An ultrasound revealed findings suggestive of shoulder bursitis in the patient's shoulder joint."
+    },
+    {
+      "positive": "The rehabilitation protocol was designed specifically for patients with adhesive capsulitis.",
+      "negative": "The rehabilitation protocol was designed specifically for patients with shoulder impingement."
+    },
+    {
+      "positive": "Adhesive capsulitis can occur without a prior history of trauma to the shoulder.",
+      "negative": "Shoulder instability can occur without a prior history of trauma to the shoulder."
+    },
+    {
+      "positive": "The patient underwent a thorough assessment to rule out adhesive capsulitis as a cause of pain.",
+      "negative": "The patient underwent a thorough assessment to rule out shoulder osteoarthritis as a cause of pain."
+    },
+    {
+      "positive": "She was advised to engage in stretching exercises to combat the effects of adhesive capsulitis.",
+      "negative": "She was advised to engage in stretching exercises to combat the effects of rotator cuff injury."
+    },
+    {
+      "positive": "The consultant noted that adhesive capsulitis could lead to significant shoulder dysfunction if untreated.",
+      "negative": "The consultant noted that shoulder arthritis could lead to significant shoulder dysfunction if untreated."
+    },
+    {
+      "positive": "The patient's adhesive capsulitis was exacerbated by her sedentary lifestyle.",
+      "negative": "The patient's shoulder impingement was exacerbated by her sedentary lifestyle."
+    },
+    {
+      "positive": "Post-surgical adhesive capsulitis can complicate recovery from shoulder procedures.",
+      "negative": "Post-surgical shoulder instability can complicate recovery from shoulder procedures."
+    },
+    {
+      "positive": "The patient was instructed on managing pain related to adhesive capsulitis at home.",
+      "negative": "The patient was instructed on managing pain related to shoulder bursitis at home."
+    },
+    {
+      "positive": "A previous episode of adhesive capsulitis in the other shoulder raised concerns for this patient.",
+      "negative": "A previous episode of shoulder tendonitis in the other shoulder raised concerns for this patient."
+    },
+    {
+      "positive": "The characteristic pattern of stiffness indicates adhesive capsulitis as the likely diagnosis.",
+      "negative": "The characteristic pattern of stiffness indicates shoulder arthritis as the likely diagnosis."
+    },
+    {
+      "positive": "The patient was referred to a pain management specialist for persistent adhesive capsulitis symptoms.",
+      "negative": "The patient was referred to a pain management specialist for persistent shoulder bursitis symptoms."
+    },
+    {
+      "positive": "Adhesive capsulitis may resolve spontaneously, but physical therapy is often recommended.",
+      "negative": "Shoulder impingement may resolve spontaneously, but physical therapy is often recommended."
+    },
+    {
+      "positive": "The patient's adhesive capsulitis was most pronounced during the frozen stage of the condition.",
+      "negative": "The patient's shoulder bursitis was most pronounced during the frozen stage of the condition."
+    },
+    {
+      "positive": "An early diagnosis of adhesive capsulitis can significantly improve treatment outcomes.",
+      "negative": "An early diagnosis of shoulder instability can significantly improve treatment outcomes."
+    },
+    {
+      "positive": "The physician outlined the stages of adhesive capsulitis to help the patient understand their condition.",
+      "negative": "The physician outlined the stages of shoulder arthritis to help the patient understand their condition."
+    },
+    {
+      "positive": "Adhesive capsulitis can be a daunting diagnosis, often requiring patience during recovery.",
+      "negative": "Shoulder impingement can be a daunting diagnosis, often requiring patience during recovery."
+    },
+    {
+      "positive": "Joint mobilization techniques were employed to alleviate symptoms of adhesive capsulitis.",
+      "negative": "Joint mobilization techniques were employed to alleviate symptoms of shoulder dislocation."
+    },
+    {
+      "positive": "The patient reported waking at night due to pain from adhesive capsulitis.",
+      "negative": "The patient reported waking at night due to pain from shoulder arthritis."
+    },
+    {
+      "positive": "Previous shoulder injuries can predispose individuals to adhesive capsulitis.",
+      "negative": "Previous shoulder injuries can predispose individuals to shoulder impingement."
+    },
+    {
+      "positive": "The treatment protocol for adhesive capsulitis included both pharmacologic and non-pharmacologic strategies.",
+      "negative": "The treatment protocol for shoulder bursitis included both pharmacologic and non-pharmacologic strategies."
+    },
+    {
+      "positive": "Adhesive capsulitis often presents with a gradual loss of external rotation.",
+      "negative": "Shoulder arthritis often presents with a gradual loss of external rotation."
+    },
+    {
+      "positive": "During the physical examination, the patient exhibited a significant loss of range of motion consistent with adhesive capsulitis.",
+      "negative": "During the physical examination, the patient exhibited a significant loss of range of motion consistent with shoulder arthritis."
+    },
+    {
+      "positive": "The MRI findings confirmed the diagnosis of adhesive capsulitis, showing thickening of the joint capsule.",
+      "negative": "The MRI findings confirmed the diagnosis of shoulder tendonitis, showing thickening of the joint capsule."
+    },
+    {
+      "positive": "The patient was advised to avoid overhead activities due to their adhesive capsulitis diagnosis.",
+      "negative": "The patient was advised to avoid overhead activities due to their shoulder strain diagnosis."
+    },
+    {
+      "positive": "Adhesive capsulitis often leads to debilitating pain that restricts daily activities.",
+      "negative": "Shoulder impingement often leads to debilitating pain that restricts daily activities."
+    },
+    {
+      "positive": "The treatment plan included corticosteroid injections to manage inflammation from adhesive capsulitis.",
+      "negative": "The treatment plan included corticosteroid injections to manage inflammation from a rotator cuff tear."
+    },
+    {
+      "positive": "Physical therapy protocols for adhesive capsulitis focus on gentle stretching and strengthening exercises.",
+      "negative": "Physical therapy protocols for shoulder fractures focus on gentle stretching and strengthening exercises."
+    },
+    {
+      "positive": "The patient was educated about the typical duration of adhesive capsulitis, which can last for months.",
+      "negative": "The patient was educated about the typical duration of shoulder impingement, which can last for months."
+    },
+    {
+      "positive": "Post-operative rehabilitation after shoulder surgery may be complicated by pre-existing adhesive capsulitis.",
+      "negative": "Post-operative rehabilitation after shoulder surgery may be complicated by pre-existing shoulder instability."
+    },
+    {
+      "positive": "The physician noted that the patient's history of diabetes could increase the risk of adhesive capsulitis.",
+      "negative": "The physician noted that the patient's history of diabetes could increase the risk of shoulder tendonitis."
+    },
+    {
+      "positive": "The patient reported a history of adhesive capsulitis in their other shoulder, which raised concerns for the current symptoms.",
+      "negative": "The patient reported a history of shoulder surgery in their other shoulder, which raised concerns for the current symptoms."
+    },
+    {
+      "positive": "Diagnostic ultrasound revealed characteristic features of adhesive capsulitis in the patient's shoulder joint.",
+      "negative": "Diagnostic ultrasound revealed characteristic features of shoulder bursitis in the patient's shoulder joint."
+    },
+    {
+      "positive": "The patient expressed frustration over the limitations caused by adhesive capsulitis during their daily routine.",
+      "negative": "The patient expressed frustration over the limitations caused by a shoulder sprain during their daily routine."
+    },
+    {
+      "positive": "Adhesive capsulitis can often lead to significant functional impairment, warranting intervention.",
+      "negative": "Shoulder tendonitis can often lead to significant functional impairment, warranting intervention."
+    },
+    {
+      "positive": "The patient's history and physical exam were consistent with a diagnosis of adhesive capsulitis.",
+      "negative": "The patient's history and physical exam were consistent with a diagnosis of shoulder dislocation."
+    },
+    {
+      "positive": "The clinical presentation of adhesive capsulitis typically includes gradual onset of pain and stiffness.",
+      "negative": "The clinical presentation of shoulder bursitis typically includes gradual onset of pain and stiffness."
+    },
+    {
+      "positive": "A common treatment modality for adhesive capsulitis is the use of heat and cold therapy.",
+      "negative": "A common treatment modality for shoulder fractures is the use of heat and cold therapy."
+    },
+    {
+      "positive": "The patient was experiencing night pain and stiffness, hallmark symptoms of adhesive capsulitis.",
+      "negative": "The patient was experiencing night pain and stiffness, hallmark symptoms of shoulder impingement."
+    },
+    {
+      "positive": "The use of a shoulder immobilizer was recommended for the management of adhesive capsulitis.",
+      "negative": "The use of a shoulder immobilizer was recommended for the management of shoulder arthritis."
+    },
+    {
+      "positive": "Adhesive capsulitis can be differentiated from other shoulder conditions through specific clinical tests.",
+      "negative": "Shoulder impingement can be differentiated from other shoulder conditions through specific clinical tests."
+    },
+    {
+      "positive": "The physical therapist noted that the patient’s adhesive capsulitis was progressing more slowly than expected.",
+      "negative": "The physical therapist noted that the patient’s shoulder tendonitis was progressing more slowly than expected."
+    },
+    {
+      "positive": "The patient’s adhesive capsulitis required a multi-faceted approach to treatment, including medication and therapy.",
+      "negative": "The patient’s shoulder bursitis required a multi-faceted approach to treatment, including medication and therapy."
+    },
+    {
+      "positive": "In cases of adhesive capsulitis, it is critical to monitor the patient’s progress closely.",
+      "negative": "In cases of shoulder dislocation, it is critical to monitor the patient’s progress closely."
+    },
+    {
+      "positive": "The physician emphasized that adhesive capsulitis is often self-limiting but may require intervention.",
+      "negative": "The physician emphasized that shoulder impingement is often self-limiting but may require intervention."
+    },
+    {
+      "positive": "An assessment of adhesive capsulitis included evaluating the patient's passive and active range of motion.",
+      "negative": "An assessment of shoulder dislocation included evaluating the patient's passive and active range of motion."
+    },
+    {
+      "positive": "Patients with adhesive capsulitis often report a decrease in shoulder function over time.",
+      "negative": "Patients with shoulder tendonitis often report a decrease in shoulder function over time."
+    },
+    {
+      "positive": "The physical exam findings were indicative of adhesive capsulitis, particularly in the shoulder region.",
+      "negative": "The physical exam findings were indicative of shoulder arthritis, particularly in the shoulder region."
+    },
+    {
+      "positive": "The patient demonstrated characteristic signs of adhesive capsulitis during the clinical evaluation.",
+      "negative": "The patient demonstrated characteristic signs of shoulder instability during the clinical evaluation."
+    },
+    {
+      "positive": "Management of adhesive capsulitis may include surgical options if conservative treatments fail.",
+      "negative": "Management of shoulder fractures may include surgical options if conservative treatments fail."
+    },
+    {
+      "positive": "The patient inquired about the recovery timeline for their adhesive capsulitis.",
+      "negative": "The patient inquired about the recovery timeline for their rotator cuff injury."
+    },
+    {
+      "positive": "Adhesive capsulitis is often confused with other shoulder pathologies due to overlapping symptoms.",
+      "negative": "Shoulder bursitis is often confused with other shoulder pathologies due to overlapping symptoms."
+    },
+    {
+      "positive": "The patient's adhesive capsulitis was exacerbated by their lack of physical activity and mobility.",
+      "negative": "The patient's shoulder tendonitis was exacerbated by their lack of physical activity and mobility."
+    },
+    {
+      "positive": "A key feature of adhesive capsulitis is the inability to perform daily tasks without pain.",
+      "negative": "A key feature of shoulder impingement is the inability to perform daily tasks without pain."
+    },
+    {
+      "positive": "The clinician recommended a comprehensive approach to managing the patient's adhesive capsulitis.",
+      "negative": "The clinician recommended a comprehensive approach to managing the patient's shoulder dislocation."
+    },
+    {
+      "positive": "Common symptoms of adhesive capsulitis include stiffness and pain in the shoulder joint.",
+      "negative": "Common symptoms of shoulder instability include stiffness and pain in the shoulder joint."
+    },
+    {
+      "positive": "The rehabilitation program for adhesive capsulitis was tailored to the patient's unique needs.",
+      "negative": "The rehabilitation program for shoulder fractures was tailored to the patient's unique needs."
+    },
+    {
+      "positive": "The patient was informed that adhesive capsulitis can lead to prolonged discomfort if not treated appropriately.",
+      "negative": "The patient was informed that shoulder tendonitis can lead to prolonged discomfort if not treated appropriately."
+    },
+    {
+      "positive": "Adhesive capsulitis often requires a patient-centered approach in treatment planning.",
+      "negative": "Shoulder bursitis often requires a patient-centered approach in treatment planning."
+    },
+    {
+      "positive": "The patient’s adhesive capsulitis was assessed using both subjective reports and objective measurements.",
+      "negative": "The patient’s shoulder impingement was assessed using both subjective reports and objective measurements."
+    },
+    {
+      "positive": "Early intervention is crucial in the management of adhesive capsulitis to prevent long-term effects.",
+      "negative": "Early intervention is crucial in the management of shoulder strains to prevent long-term effects."
+    },
+    {
+      "positive": "Adhesive capsulitis can develop after a period of immobilization of the shoulder joint.",
+      "negative": "Shoulder bursitis can develop after a period of immobilization of the shoulder joint."
+    },
+    {
+      "positive": "Patients often seek treatment for adhesive capsulitis due to the significant impact on their quality of life.",
+      "negative": "Patients often seek treatment for shoulder tendonitis due to the significant impact on their quality of life."
+    },
+    {
+      "positive": "The differential diagnosis for the patient's shoulder pain included adhesive capsulitis.",
+      "negative": "The differential diagnosis for the patient's shoulder pain included shoulder instability."
+    },
+    {
+      "positive": "Adhesive capsulitis can lead to chronic pain if left untreated, emphasizing the need for timely intervention.",
+      "negative": "Shoulder impingement can lead to chronic pain if left untreated, emphasizing the need for timely intervention."
+    },
+    {
+      "positive": "The patient presented with adhesive capsulitis, characterized by significant shoulder pain and limited range of motion.",
+      "negative": "The patient presented with shoulder tendonitis, characterized by significant shoulder pain and limited range of motion."
+    },
+    {
+      "positive": "Physical therapy was recommended to improve mobility in the patient suffering from adhesive capsulitis.",
+      "negative": "Physical therapy was recommended to improve mobility in the patient suffering from shoulder impingement."
+    },
+    {
+      "positive": "Imaging studies confirmed the diagnosis of adhesive capsulitis due to the appearance of the glenohumeral joint.",
+      "negative": "Imaging studies confirmed the diagnosis of shoulder dislocation due to the appearance of the glenohumeral joint."
+    },
+    {
+      "positive": "Patients with a history of trauma may develop adhesive capsulitis post-injury due to joint immobilization.",
+      "negative": "Patients with a history of trauma may develop shoulder bursitis post-injury due to joint immobilization."
+    },
+    {
+      "positive": "The treatment plan included corticosteroid injections for the management of adhesive capsulitis symptoms.",
+      "negative": "The treatment plan included corticosteroid injections for the management of shoulder arthritis symptoms."
+    },
+    {
+      "positive": "Symptoms of adhesive capsulitis can often mimic those of a rotator cuff tear, making diagnosis challenging.",
+      "negative": "Symptoms of shoulder bursitis can often mimic those of a rotator cuff tear, making diagnosis challenging."
+    },
+    {
+      "positive": "The patient's history revealed a previous shoulder injury leading to the development of adhesive capsulitis.",
+      "negative": "The patient's history revealed a previous shoulder injury leading to the development of shoulder bursitis."
+    },
+    {
+      "positive": "Evaluation of the patient's shoulder revealed signs consistent with adhesive capsulitis, including restricted external rotation.",
+      "negative": "Evaluation of the patient's shoulder revealed signs consistent with shoulder tendinopathy, including restricted external rotation."
+    },
+    {
+      "positive": "Adhesive capsulitis is often associated with prolonged immobilization following surgery or injury.",
+      "negative": "Shoulder impingement is often associated with prolonged immobilization following surgery or injury."
+    },
+    {
+      "positive": "The diagnosis of adhesive capsulitis was made based on the patient's clinical presentation and physical examination findings.",
+      "negative": "The diagnosis of shoulder instability was made based on the patient's clinical presentation and physical examination findings."
+    },
+    {
+      "positive": "Adhesive capsulitis can progress through distinct stages, including freezing, frozen, and thawing phases.",
+      "negative": "Shoulder arthritis can progress through distinct stages, including mild, moderate, and severe phases."
+    },
+    {
+      "positive": "The patient reported a gradual increase in pain consistent with adhesive capsulitis over the past several months.",
+      "negative": "The patient reported a gradual increase in pain consistent with shoulder tendonitis over the past several months."
+    },
+    {
+      "positive": "Management of adhesive capsulitis often includes both physical therapy and pharmacological interventions.",
+      "negative": "Management of shoulder tendinopathy often includes both physical therapy and pharmacological interventions."
+    },
+    {
+      "positive": "In some cases, surgical intervention may be necessary for severe adhesive capsulitis that does not respond to conservative treatment.",
+      "negative": "In some cases, surgical intervention may be necessary for severe shoulder instability that does not respond to conservative treatment."
+    },
+    {
+      "positive": "Adhesive capsulitis is often seen in patients with diabetes and thyroid disorders.",
+      "negative": "Shoulder impingement is often seen in patients with diabetes and thyroid disorders."
+    },
+    {
+      "positive": "The clinician noted a decreased passive range of motion in the shoulder, indicative of adhesive capsulitis.",
+      "negative": "The clinician noted a decreased passive range of motion in the shoulder, indicative of shoulder bursitis."
+    },
+    {
+      "positive": "Pain associated with adhesive capsulitis typically worsens at night and can disrupt sleep.",
+      "negative": "Pain associated with shoulder instability typically worsens at night and can disrupt sleep."
+    },
+    {
+      "positive": "Adhesive capsulitis may lead to significant functional impairment in daily activities due to shoulder stiffness.",
+      "negative": "Shoulder arthritis may lead to significant functional impairment in daily activities due to shoulder stiffness."
+    },
+    {
+      "positive": "Clinical guidelines suggest a trial of physical therapy for patients diagnosed with adhesive capsulitis.",
+      "negative": "Clinical guidelines suggest a trial of physical therapy for patients diagnosed with shoulder instability."
+    },
+    {
+      "positive": "The patient demonstrated a positive Neer test, raising suspicion for adhesive capsulitis.",
+      "negative": "The patient demonstrated a positive Neer test, raising suspicion for shoulder rotator cuff tear."
+    },
+    {
+      "positive": "The physician explained that adhesive capsulitis often resolves over time, but treatment can expedite recovery.",
+      "negative": "The physician explained that shoulder arthritis often resolves over time, but treatment can expedite recovery."
+    },
+    {
+      "positive": "Adhesive capsulitis commonly affects individuals between the ages of 40 and 60.",
+      "negative": "Shoulder impingement commonly affects individuals between the ages of 40 and 60."
+    },
+    {
+      "positive": "The physical exam findings were consistent with adhesive capsulitis, especially noting the limitation in internal rotation.",
+      "negative": "The physical exam findings were consistent with shoulder bursitis, especially noting the limitation in internal rotation."
+    },
+    {
+      "positive": "Adhesive capsulitis may result in capsular thickening observable on MRI.",
+      "negative": "Shoulder osteoarthritis may result in capsular thickening observable on MRI."
+    },
+    {
+      "positive": "The patient’s treatment included a home exercise program designed to address adhesive capsulitis.",
+      "negative": "The patient’s treatment included a home exercise program designed to address shoulder tendonitis."
+    },
+    {
+      "positive": "After six months, the patient with adhesive capsulitis showed significant improvement in shoulder function.",
+      "negative": "After six months, the patient with shoulder instability showed significant improvement in shoulder function."
+    },
+    {
+      "positive": "Rehabilitation protocols for adhesive capsulitis emphasize gradual stretching and strengthening of the shoulder.",
+      "negative": "Rehabilitation protocols for shoulder bursitis emphasize gradual stretching and strengthening of the shoulder."
+    },
+    {
+      "positive": "Adhesive capsulitis can be a debilitating condition that requires patient education about its nature and prognosis.",
+      "negative": "Shoulder impingement can be a debilitating condition that requires patient education about its nature and prognosis."
+    },
+    {
+      "positive": "The presence of adhesive capsulitis was confirmed through a combination of patient history and physical examination.",
+      "negative": "The presence of shoulder bursitis was confirmed through a combination of patient history and physical examination."
+    },
+    {
+      "positive": "The patient experienced significant discomfort in the shoulder joint consistent with adhesive capsulitis.",
+      "negative": "The patient experienced significant discomfort in the shoulder joint consistent with shoulder tendinopathy."
+    },
+    {
+      "positive": "Frozen shoulder is another term commonly used to describe adhesive capsulitis.",
+      "negative": "Frozen shoulder is another term commonly used to describe shoulder arthritis."
+    },
+    {
+      "positive": "A thorough assessment revealed that the patient had developed adhesive capsulitis following a period of shoulder immobilization.",
+      "negative": "A thorough assessment revealed that the patient had developed shoulder tendinopathy following a period of shoulder immobilization."
+    },
+    {
+      "positive": "Treatment options for adhesive capsulitis include both non-surgical and surgical interventions depending on severity.",
+      "negative": "Treatment options for shoulder instability include both non-surgical and surgical interventions depending on severity."
+    },
+    {
+      "positive": "The patient exhibited classic signs of adhesive capsulitis, including pain during passive range of motion testing.",
+      "negative": "The patient exhibited classic signs of shoulder impingement, including pain during passive range of motion testing."
+    },
+    {
+      "positive": "Adhesive capsulitis often leads to a significant loss of functional movement in the affected shoulder.",
+      "negative": "Shoulder arthritis often leads to a significant loss of functional movement in the affected shoulder."
+    },
+    {
+      "positive": "The physician discussed the potential for recurrence after treatment of adhesive capsulitis.",
+      "negative": "The physician discussed the potential for recurrence after treatment of shoulder bursitis."
+    },
+    {
+      "positive": "The patient's symptoms were consistent with adhesive capsulitis, as they reported difficulty reaching overhead.",
+      "negative": "The patient's symptoms were consistent with shoulder tendonitis, as they reported difficulty reaching overhead."
+    },
+    {
+      "positive": "Adhesive capsulitis can be idiopathic but is also linked to trauma and systemic diseases.",
+      "negative": "Shoulder impingement can be idiopathic but is also linked to trauma and systemic diseases."
+    },
+    {
+      "positive": "The use of ultrasound-guided injections may be beneficial in treating adhesive capsulitis.",
+      "negative": "The use of ultrasound-guided injections may be beneficial in treating shoulder impingement."
+    },
+    {
+      "positive": "Patient education on adhesive capsulitis included information on the expected timeline for recovery.",
+      "negative": "Patient education on shoulder arthritis included information on the expected timeline for recovery."
+    },
+    {
+      "positive": "Adhesive capsulitis is often diagnosed when a patient presents with shoulder pain and significant loss of motion.",
+      "negative": "Shoulder instability is often diagnosed when a patient presents with shoulder pain and significant loss of motion."
+    },
+    {
+      "positive": "The patient was diagnosed with adhesive capsulitis after presenting with restricted shoulder movement.",
+      "negative": "The patient was diagnosed with shoulder arthritis after presenting with restricted shoulder movement."
+    },
+    {
+      "positive": "Physical therapy is often recommended for adhesive capsulitis to improve range of motion.",
+      "negative": "Physical therapy is often recommended for shoulder tendonitis to improve range of motion."
+    },
+    {
+      "positive": "Symptoms of adhesive capsulitis typically include significant pain and stiffness in the shoulder.",
+      "negative": "Symptoms of shoulder impingement typically include significant pain and stiffness in the shoulder."
+    },
+    {
+      "positive": "The imaging studies revealed signs consistent with adhesive capsulitis, including joint capsule thickening.",
+      "negative": "The imaging studies revealed signs consistent with shoulder bursitis, including joint capsule thickening."
+    },
+    {
+      "positive": "Treatment options for adhesive capsulitis may involve corticosteroid injections for pain relief.",
+      "negative": "Treatment options for shoulder fractures may involve corticosteroid injections for pain relief."
+    },
+    {
+      "positive": "Adhesive capsulitis can lead to a long recovery period, often lasting several months.",
+      "negative": "Shoulder dislocation can lead to a long recovery period, often lasting several months."
+    },
+    {
+      "positive": "The physical exam findings were indicative of adhesive capsulitis, with limited external rotation.",
+      "negative": "The physical exam findings were indicative of shoulder bursitis, with limited external rotation."
+    },
+    {
+      "positive": "Adhesive capsulitis often develops after a period of shoulder immobilization following injury.",
+      "negative": "Shoulder tendonitis often develops after a period of shoulder immobilization following injury."
+    },
+    {
+      "positive": "The differential diagnosis included adhesive capsulitis, given the patient's history of diabetes.",
+      "negative": "The differential diagnosis included shoulder impingement, given the patient's history of diabetes."
+    },
+    {
+      "positive": "Management of adhesive capsulitis often includes a combination of stretching and strengthening exercises.",
+      "negative": "Management of shoulder instability often includes a combination of stretching and strengthening exercises."
+    },
+    {
+      "positive": "The patient’s adhesive capsulitis was exacerbated by lack of physical activity and prolonged inactivity.",
+      "negative": "The patient’s shoulder bursitis was exacerbated by lack of physical activity and prolonged inactivity."
+    },
+    {
+      "positive": "Physical examination confirmed a diagnosis of adhesive capsulitis with notable capsular tightness.",
+      "negative": "Physical examination confirmed a diagnosis of shoulder strain with notable capsular tightness."
+    },
+    {
+      "positive": "Injections for adhesive capsulitis can provide significant relief from debilitating shoulder pain.",
+      "negative": "Injections for shoulder fractures can provide significant relief from debilitating shoulder pain."
+    },
+    {
+      "positive": "The onset of adhesive capsulitis was gradual, beginning with mild discomfort that progressed over time.",
+      "negative": "The onset of shoulder impingement was gradual, beginning with mild discomfort that progressed over time."
+    },
+    {
+      "positive": "Adhesive capsulitis is commonly referred to as frozen shoulder due to the characteristic stiffness.",
+      "negative": "Shoulder osteoarthritis is commonly referred to as frozen shoulder due to the characteristic stiffness."
+    },
+    {
+      "positive": "The patient's adhesive capsulitis was particularly challenging due to its association with previous surgeries.",
+      "negative": "The patient's shoulder arthritis was particularly challenging due to its association with previous surgeries."
+    },
+    {
+      "positive": "Adhesive capsulitis can be a result of underlying inflammatory conditions like rheumatoid arthritis.",
+      "negative": "Shoulder tendonitis can be a result of underlying inflammatory conditions like rheumatoid arthritis."
+    },
+    {
+      "positive": "The rehabilitation program was tailored specifically for the recovery of adhesive capsulitis.",
+      "negative": "The rehabilitation program was tailored specifically for the recovery of shoulder dislocation."
+    },
+    {
+      "positive": "Adhesive capsulitis is often diagnosed in middle-aged individuals, particularly women.",
+      "negative": "Shoulder impingement is often diagnosed in middle-aged individuals, particularly women."
+    },
+    {
+      "positive": "The patient exhibited classic signs of adhesive capsulitis, including pain during passive shoulder movement.",
+      "negative": "The patient exhibited classic signs of shoulder bursitis, including pain during passive shoulder movement."
+    },
+    {
+      "positive": "Chronic adhesive capsulitis can significantly impact daily activities and quality of life.",
+      "negative": "Chronic shoulder instability can significantly impact daily activities and quality of life."
+    },
+    {
+      "positive": "Adhesive capsulitis is characterized by a 'frozen' shoulder that limits both active and passive motion.",
+      "negative": "Shoulder impingement is characterized by a 'frozen' shoulder that limits both active and passive motion."
+    },
+    {
+      "positive": "The patient's adhesive capsulitis was managed with a combination of medication and physical therapy.",
+      "negative": "The patient's shoulder fracture was managed with a combination of medication and physical therapy."
+    },
+    {
+      "positive": "Adhesive capsulitis can occur without a known cause, often referred to as idiopathic adhesive capsulitis.",
+      "negative": "Shoulder tendonitis can occur without a known cause, often referred to as idiopathic shoulder tendonitis."
+    },
+    {
+      "positive": "The prognosis for adhesive capsulitis is generally good with appropriate treatment and interventions.",
+      "negative": "The prognosis for shoulder fractures is generally good with appropriate treatment and interventions."
+    },
+    {
+      "positive": "Adhesive capsulitis can be associated with prolonged immobilization after surgery or injury.",
+      "negative": "Shoulder arthritis can be associated with prolonged immobilization after surgery or injury."
+    },
+    {
+      "positive": "The patient reported a gradual loss of range of motion due to adhesive capsulitis.",
+      "negative": "The patient reported a gradual loss of range of motion due to shoulder instability."
+    },
+    {
+      "positive": "Adhesive capsulitis often requires a multidisciplinary approach for optimal management.",
+      "negative": "Shoulder dislocation often requires a multidisciplinary approach for optimal management."
+    }
+  ],
+  "concept": "adhesive capsulitis",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

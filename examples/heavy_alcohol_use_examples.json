@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient was admitted for liver cirrhosis due to heavy alcohol use over several years.",
+      "negative": "The patient was admitted for liver cirrhosis due to viral hepatitis over several years."
+    },
+    {
+      "positive": "His medical history includes heavy alcohol use, leading to recurrent pancreatitis.",
+      "negative": "His medical history includes chronic pancreatitis due to gallstones."
+    },
+    {
+      "positive": "The examination revealed signs of heavy alcohol use, including tremors and confusion.",
+      "negative": "The examination revealed signs of dehydration, including tremors and confusion."
+    },
+    {
+      "positive": "She was evaluated for heavy alcohol use, which contributed to her severe anxiety and depression.",
+      "negative": "She was evaluated for dietary issues, which contributed to her severe anxiety and depression."
+    },
+    {
+      "positive": "The patient disclosed heavy alcohol use, resulting in multiple visits to the emergency department.",
+      "negative": "The patient disclosed recreational drug use, resulting in multiple visits to the emergency department."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a risk factor for his recent fall and hip fracture.",
+      "negative": "Severe osteoporosis was identified as a risk factor for his recent fall and hip fracture."
+    },
+    {
+      "positive": "The diagnosis of alcoholic hepatitis was made following the patient's history of heavy alcohol use.",
+      "negative": "The diagnosis of autoimmune hepatitis was made following the patient's history of heavy alcohol use."
+    },
+    {
+      "positive": "The patient presented with withdrawal symptoms after abrupt cessation of heavy alcohol use.",
+      "negative": "The patient presented with withdrawal symptoms after abrupt cessation of benzodiazepine use."
+    },
+    {
+      "positive": "She admitted to heavy alcohol use, which resulted in significant social and occupational impairment.",
+      "negative": "She admitted to heavy caffeine consumption, which resulted in significant social and occupational impairment."
+    },
+    {
+      "positive": "Heavy alcohol use has led to the development of fatty liver disease in this patient.",
+      "negative": "High cholesterol has led to the development of fatty liver disease in this patient."
+    },
+    {
+      "positive": "The clinical assessment revealed heavy alcohol use as a significant contributor to her gastrointestinal bleeding.",
+      "negative": "The clinical assessment revealed high blood pressure as a significant contributor to her gastrointestinal bleeding."
+    },
+    {
+      "positive": "His treatment plan includes counseling for heavy alcohol use and its associated health risks.",
+      "negative": "His treatment plan includes counseling for obesity and its associated health risks."
+    },
+    {
+      "positive": "Heavy alcohol use was a major factor in the patient's recent cardiovascular event.",
+      "negative": "High cholesterol was a major factor in the patient's recent cardiovascular event."
+    },
+    {
+      "positive": "The patient reported heavy alcohol use, which has affected his sleep patterns significantly.",
+      "negative": "The patient reported heavy caffeine use, which has affected his sleep patterns significantly."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has complicated his diabetes management.",
+      "negative": "The patient's high sugar intake has complicated his diabetes management."
+    },
+    {
+      "positive": "Heavy alcohol use was cited as a contributing factor to his liver failure diagnosis.",
+      "negative": "Obesity was cited as a contributing factor to his liver failure diagnosis."
+    },
+    {
+      "positive": "The physician noted heavy alcohol use in the patient's history, which led to recurrent hospitalizations.",
+      "negative": "The physician noted heavy tobacco use in the patient's history, which led to recurrent hospitalizations."
+    },
+    {
+      "positive": "She has a long-standing history of heavy alcohol use, resulting in cognitive decline.",
+      "negative": "She has a long-standing history of heavy caffeine use, resulting in cognitive decline."
+    },
+    {
+      "positive": "The lab results indicated elevated liver enzymes consistent with heavy alcohol use.",
+      "negative": "The lab results indicated elevated liver enzymes consistent with high cholesterol levels."
+    },
+    {
+      "positive": "The patient was referred for treatment for heavy alcohol use and its psychological effects.",
+      "negative": "The patient was referred for treatment for obesity and its psychological effects."
+    },
+    {
+      "positive": "Heavy alcohol use was confirmed through a detailed review of the patient's substance use history.",
+      "negative": "Heavy caffeine use was confirmed through a detailed review of the patient's substance use history."
+    },
+    {
+      "positive": "The patient's family history includes instances of heavy alcohol use leading to addiction.",
+      "negative": "The patient's family history includes instances of heavy tobacco use leading to addiction."
+    },
+    {
+      "positive": "The emergency room staff noted signs of heavy alcohol use, including slurred speech and unsteady gait.",
+      "negative": "The emergency room staff noted signs of dehydration, including slurred speech and unsteady gait."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a primary risk factor for his mental health issues.",
+      "negative": "High sugar intake was identified as a primary risk factor for his mental health issues."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has resulted in significant interpersonal conflicts.",
+      "negative": "The patient's high caffeine consumption has resulted in significant interpersonal conflicts."
+    },
+    {
+      "positive": "The clinician discussed the health impacts of heavy alcohol use on the patient's overall wellness.",
+      "negative": "The clinician discussed the health impacts of high sugar intake on the patient's overall wellness."
+    },
+    {
+      "positive": "Heavy alcohol use was a critical factor in the patient's diagnosis of alcohol use disorder.",
+      "negative": "High nicotine use was a critical factor in the patient's diagnosis of alcohol use disorder."
+    },
+    {
+      "positive": "The patient exhibited severe withdrawal symptoms consistent with heavy alcohol use.",
+      "negative": "The patient exhibited severe withdrawal symptoms consistent with heavy caffeine consumption."
+    },
+    {
+      "positive": "Heavy alcohol use has interfered with the patient's ability to maintain employment.",
+      "negative": "High stress has interfered with the patient's ability to maintain employment."
+    },
+    {
+      "positive": "The patient's history of heavy alcohol use has exacerbated her chronic health conditions.",
+      "negative": "The patient's history of heavy sugar consumption has exacerbated her chronic health conditions."
+    },
+    {
+      "positive": "The patient's symptoms of delirium tremens were attributed to heavy alcohol use.",
+      "negative": "The patient's symptoms of delirium tremens were attributed to heavy caffeine use."
+    },
+    {
+      "positive": "Heavy alcohol use has led to significant family strain and legal issues for the patient.",
+      "negative": "High gambling has led to significant family strain and legal issues for the patient."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has been documented as a contributing factor to his hypertension.",
+      "negative": "The patient's high sodium intake has been documented as a contributing factor to his hypertension."
+    },
+    {
+      "positive": "Heavy alcohol use was noted in the patient's social history, correlating with his recent health deterioration.",
+      "negative": "Heavy caffeine use was noted in the patient's social history, correlating with his recent health deterioration."
+    },
+    {
+      "positive": "The patient was diagnosed with alcohol-related liver disease due to heavy alcohol use.",
+      "negative": "The patient was diagnosed with viral hepatitis due to heavy alcohol use."
+    },
+    {
+      "positive": "The treatment team focused on addressing the patient's heavy alcohol use as a primary concern.",
+      "negative": "The treatment team focused on addressing the patient's high sugar diet as a primary concern."
+    },
+    {
+      "positive": "Heavy alcohol use has led to significant changes in the patient's mental status.",
+      "negative": "High blood pressure has led to significant changes in the patient's mental status."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was discussed extensively during the counseling session.",
+      "negative": "The patient's high caffeine consumption was discussed extensively during the counseling session."
+    },
+    {
+      "positive": "The lab findings were indicative of organ damage typically associated with heavy alcohol use.",
+      "negative": "The lab findings were indicative of organ damage typically associated with obesity."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has necessitated multiple interventions for her health issues.",
+      "negative": "The patient's high carbohydrate intake has necessitated multiple interventions for her health issues."
+    },
+    {
+      "positive": "Heavy alcohol use was highlighted as a significant factor in the patient's social isolation.",
+      "negative": "High stress levels were highlighted as a significant factor in the patient's social isolation."
+    },
+    {
+      "positive": "The patient revealed a pattern of heavy alcohol use that has impacted her relationships.",
+      "negative": "The patient revealed a pattern of heavy caffeine use that has impacted her relationships."
+    },
+    {
+      "positive": "The physician noted that heavy alcohol use often exacerbates the patient's existing mental health conditions.",
+      "negative": "The physician noted that high sugar intake often exacerbates the patient's existing mental health conditions."
+    },
+    {
+      "positive": "The patient's liver function tests were abnormal, likely due to heavy alcohol use over the past few years.",
+      "negative": "The patient's liver function tests were abnormal, likely due to high cholesterol levels over the past few years."
+    },
+    {
+      "positive": "She reported heavy alcohol use as a contributing factor to her pancreatitis.",
+      "negative": "She reported high caffeine intake as a contributing factor to her pancreatitis."
+    },
+    {
+      "positive": "During the assessment, the clinician noted a history of heavy alcohol use that led to liver cirrhosis.",
+      "negative": "During the assessment, the clinician noted a history of high-fat diet that led to liver cirrhosis."
+    },
+    {
+      "positive": "The psychiatric evaluation indicated that heavy alcohol use was exacerbating the patient's mood disorder.",
+      "negative": "The psychiatric evaluation indicated that high caffeine use was exacerbating the patient's mood disorder."
+    },
+    {
+      "positive": "The patient admitted to heavy alcohol use, which caused significant disruptions in his personal and professional life.",
+      "negative": "The patient admitted to high caffeine use, which caused significant disruptions in his personal and professional life."
+    },
+    {
+      "positive": "She experienced complications related to heavy alcohol use, including gastrointestinal bleeding.",
+      "negative": "She experienced complications related to high sodium intake, including gastrointestinal bleeding."
+    },
+    {
+      "positive": "The treatment plan included interventions for heavy alcohol use and its psychological effects.",
+      "negative": "The treatment plan included interventions for high sugar intake and its psychological effects."
+    },
+    {
+      "positive": "He has a long-standing history of heavy alcohol use, leading to multiple health issues.",
+      "negative": "He has a long-standing history of high sugar consumption, leading to multiple health issues."
+    },
+    {
+      "positive": "The patient's primary care provider recommended resources for heavy alcohol use and addiction support.",
+      "negative": "The patient's primary care provider recommended resources for high cholesterol management and diet support."
+    },
+    {
+      "positive": "A diagnosis of alcohol use disorder was established following the patient's report of heavy alcohol use.",
+      "negative": "A diagnosis of binge eating disorder was established following the patient's report of heavy alcohol use."
+    },
+    {
+      "positive": "The social worker addressed the impact of heavy alcohol use on the patient's family dynamics.",
+      "negative": "The social worker addressed the impact of high sugar consumption on the patient's family dynamics."
+    },
+    {
+      "positive": "After an incident, he was advised to seek help for heavy alcohol use and its consequences.",
+      "negative": "After an incident, he was advised to seek help for high caffeine consumption and its consequences."
+    },
+    {
+      "positive": "His medical history indicated heavy alcohol use, which was a significant factor in his cardiovascular issues.",
+      "negative": "His medical history indicated high cholesterol, which was a significant factor in his cardiovascular issues."
+    },
+    {
+      "positive": "The patient presented with signs of liver damage consistent with heavy alcohol use.",
+      "negative": "The patient presented with signs of liver damage consistent with high-fat diet."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a risk factor during the patient's comprehensive health assessment.",
+      "negative": "High salt intake was identified as a risk factor during the patient's comprehensive health assessment."
+    },
+    {
+      "positive": "She was referred to a specialist for treatment related to heavy alcohol use and its effects on her health.",
+      "negative": "She was referred to a specialist for treatment related to high blood pressure and its effects on her health."
+    },
+    {
+      "positive": "The emergency department visit was attributed to complications from heavy alcohol use.",
+      "negative": "The emergency department visit was attributed to complications from high blood pressure."
+    },
+    {
+      "positive": "Laboratory tests confirmed the diagnosis of alcohol-related liver disease due to heavy alcohol use.",
+      "negative": "Laboratory tests confirmed the diagnosis of fatty liver disease due to high carbohydrate intake."
+    },
+    {
+      "positive": "The physician discussed the long-term effects of heavy alcohol use on cognitive function.",
+      "negative": "The physician discussed the long-term effects of high sugar intake on cognitive function."
+    },
+    {
+      "positive": "The patient received counseling focused on the dangers of heavy alcohol use.",
+      "negative": "The patient received counseling focused on the dangers of high calorie intake."
+    },
+    {
+      "positive": "He was diagnosed with alcohol withdrawal syndrome following a period of heavy alcohol use.",
+      "negative": "He was diagnosed with caffeine withdrawal syndrome following a period of high caffeine use."
+    },
+    {
+      "positive": "The history of heavy alcohol use was noted as a significant concern in her medical record.",
+      "negative": "The history of high protein intake was noted as a significant concern in her medical record."
+    },
+    {
+      "positive": "The patient's frequent urination was linked to heavy alcohol use during the consultation.",
+      "negative": "The patient's frequent urination was linked to high fluid intake during the consultation."
+    },
+    {
+      "positive": "His long-standing heavy alcohol use has resulted in chronic health conditions.",
+      "negative": "His long-standing high sugar intake has resulted in chronic health conditions."
+    },
+    {
+      "positive": "The clinical team recommended a detox program for heavy alcohol use.",
+      "negative": "The clinical team recommended a detox program for high sugar consumption."
+    },
+    {
+      "positive": "The patient exhibited classic signs of heavy alcohol use during the evaluation.",
+      "negative": "The patient exhibited classic signs of high carbohydrate consumption during the evaluation."
+    },
+    {
+      "positive": "Heavy alcohol use was discussed as a potential factor in the patient's ongoing health problems.",
+      "negative": "High calorie consumption was discussed as a potential factor in the patient's ongoing health problems."
+    },
+    {
+      "positive": "The patient was hospitalized due to complications arising from heavy alcohol use.",
+      "negative": "The patient was hospitalized due to complications arising from high sodium intake."
+    },
+    {
+      "positive": "The treatment included strategies to address heavy alcohol use and its psychological impacts.",
+      "negative": "The treatment included strategies to address high cholesterol and its psychological impacts."
+    },
+    {
+      "positive": "The intake assessment revealed a pattern of heavy alcohol use contributing to his mental health issues.",
+      "negative": "The intake assessment revealed a pattern of high sugar intake contributing to his mental health issues."
+    },
+    {
+      "positive": "The patient's partner expressed concerns regarding his heavy alcohol use and its effect on their relationship.",
+      "negative": "The patient's partner expressed concerns regarding his high caffeine intake and its effect on their relationship."
+    },
+    {
+      "positive": "The note indicated that heavy alcohol use was impacting the patient's adherence to treatment.",
+      "negative": "The note indicated that high carbohydrate intake was impacting the patient's adherence to treatment."
+    },
+    {
+      "positive": "The patient’s history of heavy alcohol use complicated the management of his diabetes.",
+      "negative": "The patient’s history of high fat intake complicated the management of his diabetes."
+    },
+    {
+      "positive": "The clinician emphasized the risks associated with heavy alcohol use during the follow-up appointment.",
+      "negative": "The clinician emphasized the risks associated with high salt intake during the follow-up appointment."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a significant factor in the patient's deteriorating health condition.",
+      "negative": "High sugar consumption was identified as a significant factor in the patient's deteriorating health condition."
+    },
+    {
+      "positive": "The patient was encouraged to attend support groups for individuals with heavy alcohol use.",
+      "negative": "The patient was encouraged to attend support groups for individuals with high sugar consumption."
+    },
+    {
+      "positive": "She was diagnosed with fatty liver disease attributed to her heavy alcohol use.",
+      "negative": "She was diagnosed with fatty liver disease attributed to her high sugar intake."
+    },
+    {
+      "positive": "The patient’s chronic heavy alcohol use was a focal point in the treatment strategy.",
+      "negative": "The patient’s chronic high carbohydrate intake was a focal point in the treatment strategy."
+    },
+    {
+      "positive": "The patient presented with pancreatitis attributed to heavy alcohol use over the last month.",
+      "negative": "The patient presented with pancreatitis attributed to high-fat dietary intake over the last month."
+    },
+    {
+      "positive": "During the mental health evaluation, heavy alcohol use was flagged as a major contributing factor to his anxiety disorders.",
+      "negative": "During the mental health evaluation, high caffeine consumption was flagged as a major contributing factor to his anxiety disorders."
+    },
+    {
+      "positive": "The patient's history revealed heavy alcohol use, which has led to significant cognitive decline.",
+      "negative": "The patient's history revealed high sugar intake, which has led to significant cognitive decline."
+    },
+    {
+      "positive": "The physician noted heavy alcohol use as a critical component in the patient's liver function test results.",
+      "negative": "The physician noted high cholesterol levels as a critical component in the patient's liver function test results."
+    },
+    {
+      "positive": "Heavy alcohol use was documented in the patient's chart as a factor in their recurrent gastrointestinal bleeding.",
+      "negative": "High aspirin use was documented in the patient's chart as a factor in their recurrent gastrointestinal bleeding."
+    },
+    {
+      "positive": "The assessment indicated that heavy alcohol use contributed to the patient's nutritional deficiencies.",
+      "negative": "The assessment indicated that high carbohydrate intake contributed to the patient's nutritional deficiencies."
+    },
+    {
+      "positive": "Heavy alcohol use was discussed in the context of the patient's recent hospitalization for seizures.",
+      "negative": "High caffeine consumption was discussed in the context of the patient's recent hospitalization for seizures."
+    },
+    {
+      "positive": "A significant pattern of heavy alcohol use was identified in the patient's substance use history during the intake interview.",
+      "negative": "A significant pattern of heavy caffeine use was identified in the patient's substance use history during the intake interview."
+    },
+    {
+      "positive": "The patient was advised to reduce heavy alcohol use to improve their overall health and liver function.",
+      "negative": "The patient was advised to reduce high sugar intake to improve their overall health and liver function."
+    },
+    {
+      "positive": "Heavy alcohol use was correlated with the patient's elevated blood pressure readings during the visit.",
+      "negative": "High sodium intake was correlated with the patient's elevated blood pressure readings during the visit."
+    },
+    {
+      "positive": "The patient's history of heavy alcohol use was a significant factor in the diagnosis of alcohol use disorder.",
+      "negative": "The patient's history of high exercise frequency was a significant factor in the diagnosis of alcohol use disorder."
+    },
+    {
+      "positive": "Heavy alcohol use was cited as a primary concern in the risk assessment for the patient's heart health.",
+      "negative": "High tobacco use was cited as a primary concern in the risk assessment for the patient's heart health."
+    },
+    {
+      "positive": "The patient reported heavy alcohol use as a coping mechanism for stress and depression.",
+      "negative": "The patient reported high exercise levels as a coping mechanism for stress and depression."
+    },
+    {
+      "positive": "Heavy alcohol use was linked to the patient's poor adherence to their prescribed medication regimen.",
+      "negative": "High caffeine intake was linked to the patient's poor adherence to their prescribed medication regimen."
+    },
+    {
+      "positive": "The clinical evaluation revealed heavy alcohol use as a significant factor in the patient's liver damage.",
+      "negative": "The clinical evaluation revealed high vitamin D levels as a significant factor in the patient's liver damage."
+    },
+    {
+      "positive": "Heavy alcohol use was documented as a critical factor in the patient's family history of substance abuse.",
+      "negative": "High tobacco use was documented as a critical factor in the patient's family history of substance abuse."
+    },
+    {
+      "positive": "The patient's physical examination showed signs consistent with heavy alcohol use, including tremors and slurred speech.",
+      "negative": "The patient's physical examination showed signs consistent with high blood sugar levels, including fatigue and excessive thirst."
+    },
+    {
+      "positive": "The treatment plan included counseling for heavy alcohol use and its impact on the patient's health.",
+      "negative": "The treatment plan included counseling for high carbohydrate intake and its impact on the patient's health."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a factor when discussing the patient's frequent emergency room visits.",
+      "negative": "High blood pressure was identified as a factor when discussing the patient's frequent emergency room visits."
+    },
+    {
+      "positive": "The patient's report of heavy alcohol use raised alarms regarding potential liver complications.",
+      "negative": "The patient's report of high caffeine consumption raised alarms regarding potential liver complications."
+    },
+    {
+      "positive": "Heavy alcohol use was a crucial element in the patient's psychosocial assessment.",
+      "negative": "High protein intake was a crucial element in the patient's psychosocial assessment."
+    },
+    {
+      "positive": "The patient’s history of heavy alcohol use was deemed relevant in the context of their chronic pancreatitis.",
+      "negative": "The patient’s history of high fiber intake was deemed relevant in the context of their chronic pancreatitis."
+    },
+    {
+      "positive": "Heavy alcohol use was discussed as part of the patient's lifestyle choices affecting their mental health.",
+      "negative": "High caffeine consumption was discussed as part of the patient's lifestyle choices affecting their mental health."
+    },
+    {
+      "positive": "The patient's heavy alcohol use contributed to their developing hypertension.",
+      "negative": "The patient's high salt intake contributed to their developing hypertension."
+    },
+    {
+      "positive": "In the summary, heavy alcohol use was highlighted as a critical issue for the patient's overall wellbeing.",
+      "negative": "In the summary, high cholesterol levels were highlighted as a critical issue for the patient's overall wellbeing."
+    },
+    {
+      "positive": "Heavy alcohol use was acknowledged as a significant barrier to the patient's recovery process.",
+      "negative": "High sugar consumption was acknowledged as a significant barrier to the patient's recovery process."
+    },
+    {
+      "positive": "The patient's heavy alcohol use led to a referral for specialized substance abuse treatment.",
+      "negative": "The patient's high sugar intake led to a referral for specialized nutritional counseling."
+    },
+    {
+      "positive": "Heavy alcohol use was noted as a contributing factor to the patient's relationship difficulties.",
+      "negative": "High caffeine intake was noted as a contributing factor to the patient's relationship difficulties."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was recorded as a key factor in their overall health assessment.",
+      "negative": "The patient's high fiber intake was recorded as a key factor in their overall health assessment."
+    },
+    {
+      "positive": "Heavy alcohol use was mentioned during the patient's mental health evaluation as a risk factor for depression.",
+      "negative": "High caffeine consumption was mentioned during the patient's mental health evaluation as a risk factor for depression."
+    },
+    {
+      "positive": "The patient's history of heavy alcohol use necessitated closer monitoring of their liver enzymes.",
+      "negative": "The patient's history of high carbohydrate intake necessitated closer monitoring of their liver enzymes."
+    },
+    {
+      "positive": "Heavy alcohol use was implicated in the progression of the patient's chronic liver disease.",
+      "negative": "High cholesterol levels were implicated in the progression of the patient's chronic liver disease."
+    },
+    {
+      "positive": "The evaluation highlighted heavy alcohol use as a significant factor in the patient's risk for cardiovascular issues.",
+      "negative": "The evaluation highlighted high sodium intake as a significant factor in the patient's risk for cardiovascular issues."
+    },
+    {
+      "positive": "Heavy alcohol use was a dominant theme in the patient's narrative during the addiction assessment.",
+      "negative": "High exercise levels were a dominant theme in the patient's narrative during the addiction assessment."
+    },
+    {
+      "positive": "The patient’s heavy alcohol use resulted in a referral to a detoxification program for safe withdrawal.",
+      "negative": "The patient’s high caffeine consumption resulted in a referral to a wellness program for healthy lifestyle changes."
+    },
+    {
+      "positive": "Heavy alcohol use was noted as a major concern during the patient's pre-operative evaluation.",
+      "negative": "High sugar intake was noted as a major concern during the patient's pre-operative evaluation."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was a significant topic during the family therapy session.",
+      "negative": "The patient's high sugar intake was a significant topic during the family therapy session."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a major contributor to the patient's recent episodes of dizziness.",
+      "negative": "High caffeine intake was identified as a major contributor to the patient's recent episodes of dizziness."
+    },
+    {
+      "positive": "The clinical interview revealed heavy alcohol use as a key factor in the patient's frequent hospital admissions.",
+      "negative": "The clinical interview revealed high salt consumption as a key factor in the patient's frequent hospital admissions."
+    },
+    {
+      "positive": "Heavy alcohol use was documented as the primary reason for the patient's elevated triglyceride levels.",
+      "negative": "High carbohydrate intake was documented as the primary reason for the patient's elevated triglyceride levels."
+    },
+    {
+      "positive": "During the follow-up, heavy alcohol use was linked to the worsening of the patient's mental health condition.",
+      "negative": "High sugar intake was linked to the worsening of the patient's mental health condition."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was highlighted as a significant factor in their recent weight loss.",
+      "negative": "The patient's high protein consumption was highlighted as a significant factor in their recent weight loss."
+    },
+    {
+      "positive": "Heavy alcohol use was considered a potential cause for the patient's sudden onset of confusion.",
+      "negative": "High caffeine consumption was considered a potential cause for the patient's sudden onset of confusion."
+    },
+    {
+      "positive": "The medical history indicated heavy alcohol use contributed to the patient's chronic fatigue syndrome.",
+      "negative": "The medical history indicated high cholesterol levels contributed to the patient's chronic fatigue syndrome."
+    },
+    {
+      "positive": "The patient presented with pancreatitis attributed to heavy alcohol use over the past decade.",
+      "negative": "The patient presented with pancreatitis attributed to gallstones over the past decade."
+    },
+    {
+      "positive": "A thorough evaluation revealed that heavy alcohol use contributed to the patient's hypertension.",
+      "negative": "A thorough evaluation revealed that high sodium intake contributed to the patient's hypertension."
+    },
+    {
+      "positive": "The patient's chronic heavy alcohol use resulted in severe gastrointestinal bleeding.",
+      "negative": "The patient's chronic high aspirin use resulted in severe gastrointestinal bleeding."
+    },
+    {
+      "positive": "He was diagnosed with alcohol use disorder after reporting heavy alcohol use for several years.",
+      "negative": "He was diagnosed with caffeine use disorder after reporting heavy caffeine consumption for several years."
+    },
+    {
+      "positive": "Heavy alcohol use has caused significant liver damage as evidenced by abnormal liver function tests.",
+      "negative": "High triglycerides have caused significant liver damage as evidenced by abnormal liver function tests."
+    },
+    {
+      "positive": "The medical history indicated heavy alcohol use, leading to multiple visits for alcohol-related injuries.",
+      "negative": "The medical history indicated heavy tobacco use, leading to multiple visits for tobacco-related injuries."
+    },
+    {
+      "positive": "Heavy alcohol use was noted as a major contributing factor to the patient's depression.",
+      "negative": "Chronic pain was noted as a major contributing factor to the patient's depression."
+    },
+    {
+      "positive": "The patient's heavy alcohol use is suspected to be the cause of his recurrent seizures.",
+      "negative": "The patient's high caffeine intake is suspected to be the cause of his recurrent seizures."
+    },
+    {
+      "positive": "After years of heavy alcohol use, the patient developed early signs of alcoholic neuropathy.",
+      "negative": "After years of heavy caffeine use, the patient developed early signs of diabetic neuropathy."
+    },
+    {
+      "positive": "The patient has a history of heavy alcohol use, which has led to significant weight loss and malnutrition.",
+      "negative": "The patient has a history of heavy exercise, which has led to significant weight loss and malnutrition."
+    },
+    {
+      "positive": "The emergency consultation noted heavy alcohol use as a contributing factor in the patient's recent car accident.",
+      "negative": "The emergency consultation noted severe fatigue as a contributing factor in the patient's recent car accident."
+    },
+    {
+      "positive": "Heavy alcohol use is documented as a significant risk factor for the development of esophageal varices.",
+      "negative": "Chronic smoking is documented as a significant risk factor for the development of esophageal varices."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has led to noticeable changes in his behavior and personality.",
+      "negative": "The patient's heavy caffeine use has led to noticeable changes in his behavior and personality."
+    },
+    {
+      "positive": "The family reported concerns about the patient’s heavy alcohol use affecting her daily life.",
+      "negative": "The family reported concerns about the patient’s heavy caffeine use affecting her daily life."
+    },
+    {
+      "positive": "Heavy alcohol use was identified during the assessment as a potential cause of his liver fibrosis.",
+      "negative": "Chronic viral infection was identified during the assessment as a potential cause of his liver fibrosis."
+    },
+    {
+      "positive": "The physician noted heavy alcohol use as a primary factor in the patient's liver cirrhosis diagnosis.",
+      "negative": "The physician noted high body mass index as a primary factor in the patient's liver cirrhosis diagnosis."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was discussed as a major reason for his declining health status.",
+      "negative": "The patient's high sugar intake was discussed as a major reason for his declining health status."
+    },
+    {
+      "positive": "Heavy alcohol use has been linked to the patient's impaired cognitive function and memory loss.",
+      "negative": "Chronic stress has been linked to the patient's impaired cognitive function and memory loss."
+    },
+    {
+      "positive": "The psychiatric evaluation indicated heavy alcohol use as a contributing factor to the patient's anxiety.",
+      "negative": "The psychiatric evaluation indicated high caffeine intake as a contributing factor to the patient's anxiety."
+    },
+    {
+      "positive": "The patient revealed a pattern of heavy alcohol use that has led to social and occupational dysfunction.",
+      "negative": "The patient revealed a pattern of heavy exercise that has led to social and occupational dysfunction."
+    },
+    {
+      "positive": "Heavy alcohol use has exacerbated the patient's existing mental health conditions.",
+      "negative": "High sugar consumption has exacerbated the patient's existing mental health conditions."
+    },
+    {
+      "positive": "The patient’s recurrent admissions were primarily due to complications arising from heavy alcohol use.",
+      "negative": "The patient’s recurrent admissions were primarily due to complications arising from high cholesterol."
+    },
+    {
+      "positive": "Heavy alcohol use has been documented as a factor in the patient’s liver cancer diagnosis.",
+      "negative": "Obesity has been documented as a factor in the patient’s liver cancer diagnosis."
+    },
+    {
+      "positive": "The patient was counseled about the risks of heavy alcohol use, including potential heart disease.",
+      "negative": "The patient was counseled about the risks of heavy smoking, including potential heart disease."
+    },
+    {
+      "positive": "Heavy alcohol use was identified during the evaluation as a contributor to the patient's gastrointestinal issues.",
+      "negative": "Chronic stress was identified during the evaluation as a contributor to the patient's gastrointestinal issues."
+    },
+    {
+      "positive": "The patient's history of heavy alcohol use has resulted in persistent abdominal pain.",
+      "negative": "The patient's history of heavy caffeine use has resulted in persistent abdominal pain."
+    },
+    {
+      "positive": "The medical team noted heavy alcohol use as a significant factor in the patient's psychosocial struggles.",
+      "negative": "The medical team noted heavy tobacco use as a significant factor in the patient's psychosocial struggles."
+    },
+    {
+      "positive": "Heavy alcohol use has been linked to the patient’s worsening liver function and overall prognosis.",
+      "negative": "High blood pressure has been linked to the patient’s worsening liver function and overall prognosis."
+    },
+    {
+      "positive": "The patient’s heavy alcohol use resulted in a referral for addiction treatment.",
+      "negative": "The patient’s high caffeine consumption resulted in a referral for addiction treatment."
+    },
+    {
+      "positive": "Heavy alcohol use was cited as a reason for the patient's non-compliance with medical recommendations.",
+      "negative": "Poor health literacy was cited as a reason for the patient's non-compliance with medical recommendations."
+    },
+    {
+      "positive": "The evaluation revealed that heavy alcohol use has contributed to the patient's chronic pancreatitis.",
+      "negative": "The evaluation revealed that high fat intake has contributed to the patient's chronic pancreatitis."
+    },
+    {
+      "positive": "Heavy alcohol use is suspected to have played a role in the patient's recurrent episodes of depression.",
+      "negative": "Chronic sleep deprivation is suspected to have played a role in the patient's recurrent episodes of depression."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was documented as a risk factor for his developing atrial fibrillation.",
+      "negative": "The patient's high cholesterol was documented as a risk factor for his developing atrial fibrillation."
+    },
+    {
+      "positive": "Heavy alcohol use was mentioned as a possible cause of the patient's recent liver enlargement.",
+      "negative": "High dietary fat intake was mentioned as a possible cause of the patient's recent liver enlargement."
+    },
+    {
+      "positive": "The patient reported that heavy alcohol use has negatively impacted his family relationships.",
+      "negative": "The patient reported that high caffeine use has negatively impacted his family relationships."
+    },
+    {
+      "positive": "Heavy alcohol use has resulted in significant neurological deficits in this patient.",
+      "negative": "High sugar intake has resulted in significant neurological deficits in this patient."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was discussed as a major barrier to his recovery from addiction.",
+      "negative": "The patient's high caffeine intake was discussed as a major barrier to his recovery from addiction."
+    },
+    {
+      "positive": "Heavy alcohol use has been implicated in the patient's increased risk of respiratory infections.",
+      "negative": "Obesity has been implicated in the patient's increased risk of respiratory infections."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was identified as a critical factor in his poor compliance with treatment.",
+      "negative": "The patient's high sugar consumption was identified as a critical factor in his poor compliance with treatment."
+    },
+    {
+      "positive": "Heavy alcohol use has led to significant changes in the patient's social behavior and relationships.",
+      "negative": "High caffeine use has led to significant changes in the patient's social behavior and relationships."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has been a focal point in discussions about his mental health.",
+      "negative": "The patient's high exercise regimen has been a focal point in discussions about his mental health."
+    },
+    {
+      "positive": "Heavy alcohol use was listed in the patient's chart as a major contributor to his liver disease.",
+      "negative": "High blood pressure was listed in the patient's chart as a major contributor to his liver disease."
+    },
+    {
+      "positive": "The physician noted that heavy alcohol use has a direct correlation with the patient's liver enzyme levels.",
+      "negative": "The physician noted that high cholesterol has a direct correlation with the patient's liver enzyme levels."
+    },
+    {
+      "positive": "The patient admitted to heavy alcohol use, which has resulted in multiple health complications.",
+      "negative": "The patient admitted to high caffeine intake, which has resulted in multiple health complications."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has contributed to the development of chronic pancreatitis.",
+      "negative": "The patient's high caffeine consumption has contributed to the development of chronic pancreatitis."
+    },
+    {
+      "positive": "During the evaluation, the patient admitted to heavy alcohol use, which has negatively impacted his liver function.",
+      "negative": "During the evaluation, the patient admitted to high sugar consumption, which has negatively impacted his liver function."
+    },
+    {
+      "positive": "The physician noted that heavy alcohol use is a significant factor in the patient's worsening depression.",
+      "negative": "The physician noted that high carbohydrate intake is a significant factor in the patient's worsening depression."
+    },
+    {
+      "positive": "The patient's medical history includes heavy alcohol use, which has been linked to his hypertension.",
+      "negative": "The patient's medical history includes high sodium intake, which has been linked to his hypertension."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a primary factor in the patient's recent liver biopsy results.",
+      "negative": "High protein intake was identified as a primary factor in the patient's recent liver biopsy results."
+    },
+    {
+      "positive": "The patient’s heavy alcohol use was discussed in the context of his gastrointestinal issues.",
+      "negative": "The patient's high fiber intake was discussed in the context of his gastrointestinal issues."
+    },
+    {
+      "positive": "Heavy alcohol use has been associated with the patient's recurrent episodes of atrial fibrillation.",
+      "negative": "High physical activity has been associated with the patient's recurrent episodes of atrial fibrillation."
+    },
+    {
+      "positive": "The physician expressed concern over the patient's heavy alcohol use and its impact on heart health.",
+      "negative": "The physician expressed concern over the patient's high cholesterol levels and its impact on heart health."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was a contributing factor to his recent liver failure.",
+      "negative": "The patient's high body mass index was a contributing factor to his recent liver failure."
+    },
+    {
+      "positive": "Heavy alcohol use has been documented as a significant risk factor for the patient's cognitive impairment.",
+      "negative": "High blood sugar levels have been documented as a significant risk factor for the patient's cognitive impairment."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has led to several emergency room visits for alcohol-related injuries.",
+      "negative": "The patient's high cholesterol levels have led to several emergency room visits for health-related issues."
+    },
+    {
+      "positive": "Heavy alcohol use was noted in the patient's discharge summary as a critical concern.",
+      "negative": "High tobacco use was noted in the patient's discharge summary as a critical concern."
+    },
+    {
+      "positive": "The patient reported heavy alcohol use, which has exacerbated his chronic pain condition.",
+      "negative": "The patient reported high caffeine intake, which has exacerbated his chronic pain condition."
+    },
+    {
+      "positive": "Heavy alcohol use was discussed during the patient's counseling session regarding addiction treatment.",
+      "negative": "High nicotine use was discussed during the patient's counseling session regarding addiction treatment."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has led to significant interpersonal issues and family conflicts.",
+      "negative": "The patient's high caffeine intake has led to significant interpersonal issues and family conflicts."
+    },
+    {
+      "positive": "Heavy alcohol use was cited as a primary contributor to the patient's recent mental health crisis.",
+      "negative": "High exercise frequency was cited as a primary contributor to the patient's recent mental health crisis."
+    },
+    {
+      "positive": "The patient's heavy alcohol use is documented in his health records as a factor in his liver cirrhosis.",
+      "negative": "The patient's high fat consumption is documented in his health records as a factor in his liver cirrhosis."
+    },
+    {
+      "positive": "Heavy alcohol use has been a major factor influencing the patient's treatment plan for liver disease.",
+      "negative": "High fiber intake has been a major factor influencing the patient's treatment plan for liver disease."
+    },
+    {
+      "positive": "The impact of heavy alcohol use on the patient's psychological well-being was a focal point of the consultation.",
+      "negative": "The impact of high protein intake on the patient's psychological well-being was a focal point of the consultation."
+    },
+    {
+      "positive": "The patient's heavy alcohol use is affecting his eligibility for a liver transplant.",
+      "negative": "The patient's high blood pressure is affecting his eligibility for a liver transplant."
+    },
+    {
+      "positive": "Heavy alcohol use has been implicated in the patient's worsening cardiomyopathy.",
+      "negative": "High cholesterol has been implicated in the patient's worsening cardiomyopathy."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was a significant focus during his rehabilitation program.",
+      "negative": "The patient's high fiber diet was a significant focus during his rehabilitation program."
+    },
+    {
+      "positive": "Heavy alcohol use has documented effects on the patient's endocrine function.",
+      "negative": "High protein consumption has documented effects on the patient's endocrine function."
+    },
+    {
+      "positive": "The patient's heavy alcohol use was considered during the evaluation of his nutritional deficiencies.",
+      "negative": "The patient's high carbohydrate intake was considered during the evaluation of his nutritional deficiencies."
+    },
+    {
+      "positive": "Heavy alcohol use was identified as a key factor in the patient's social history.",
+      "negative": "High travel frequency was identified as a key factor in the patient's social history."
+    },
+    {
+      "positive": "The patient's heavy alcohol use has been linked to his increased risk of alcoholic hepatitis.",
+      "negative": "The patient's high salt intake has been linked to his increased risk of alcoholic hepatitis."
+    },
+    {
+      "positive": "Heavy alcohol use was documented as part of the patient's lifestyle choices impacting his overall health.",
+      "negative": "High exercise levels were documented as part of the patient's lifestyle choices impacting his overall health."
+    },
+    {
+      "positive": "The patient's liver function tests were significantly abnormal, likely due to heavy alcohol use over the past several years.",
+      "negative": "The patient's liver function tests were significantly abnormal, likely due to high fat intake over the past several years."
+    },
+    {
+      "positive": "Frequent episodes of heavy alcohol use have resulted in the patient developing pancreatitis.",
+      "negative": "Frequent episodes of high sugar intake have resulted in the patient developing pancreatitis."
+    },
+    {
+      "positive": "The psychiatrist noted that heavy alcohol use is a major contributor to the patient's anxiety and depression.",
+      "negative": "The psychiatrist noted that high caffeine consumption is a major contributor to the patient's anxiety and depression."
+    },
+    {
+      "positive": "During the assessment, heavy alcohol use was identified as a critical factor in the patient's ongoing gastrointestinal bleeding.",
+      "negative": "During the assessment, high aspirin use was identified as a critical factor in the patient's ongoing gastrointestinal bleeding."
+    }
+  ],
+  "concept": "heavy alcohol use",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

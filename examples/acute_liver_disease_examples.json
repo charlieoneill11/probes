@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient presented with jaundice and elevated liver enzymes, indicative of acute liver disease.",
+      "negative": "The patient presented with jaundice and elevated kidney function tests, indicative of renal failure."
+    },
+    {
+      "positive": "The ultrasound revealed hepatomegaly consistent with acute liver disease.",
+      "negative": "The ultrasound revealed splenomegaly consistent with chronic liver disease."
+    },
+    {
+      "positive": "Laboratory results showed a sudden increase in bilirubin levels, suggesting acute liver disease.",
+      "negative": "Laboratory results showed a sudden increase in creatinine levels, suggesting kidney dysfunction."
+    },
+    {
+      "positive": "The patient's history of alcohol consumption has led to a diagnosis of acute liver disease.",
+      "negative": "The patient's history of alcohol consumption has led to a diagnosis of acute pancreatitis."
+    },
+    {
+      "positive": "The clinical presentation was consistent with acute liver disease, characterized by rapid onset of symptoms.",
+      "negative": "The clinical presentation was consistent with chronic liver disease, characterized by gradual onset of symptoms."
+    },
+    {
+      "positive": "A liver biopsy confirmed the presence of necrosis, consistent with acute liver disease.",
+      "negative": "A liver biopsy confirmed the presence of fibrosis, consistent with chronic liver disease."
+    },
+    {
+      "positive": "The patient was treated for acute liver disease secondary to viral hepatitis.",
+      "negative": "The patient was treated for acute kidney injury secondary to viral infection."
+    },
+    {
+      "positive": "The elevated transaminases indicated acute liver disease requiring immediate intervention.",
+      "negative": "The elevated transaminases indicated acute muscle injury requiring immediate intervention."
+    },
+    {
+      "positive": "The physician noted signs of hepatic encephalopathy, a complication of acute liver disease.",
+      "negative": "The physician noted signs of metabolic encephalopathy, a complication of chronic kidney disease."
+    },
+    {
+      "positive": "The patient's acute liver disease was attributed to an overdose of acetaminophen.",
+      "negative": "The patient's acute kidney injury was attributed to an overdose of nonsteroidal anti-inflammatory drugs."
+    },
+    {
+      "positive": "The presence of ascites in the patient suggested worsening acute liver disease.",
+      "negative": "The presence of edema in the patient suggested worsening heart failure."
+    },
+    {
+      "positive": "The rapid deterioration of liver function indicated the severity of acute liver disease.",
+      "negative": "The rapid deterioration of lung function indicated the severity of acute respiratory distress."
+    },
+    {
+      "positive": "Treatment options for acute liver disease included corticosteroids and supportive care.",
+      "negative": "Treatment options for acute heart failure included diuretics and vasodilators."
+    },
+    {
+      "positive": "The patient exhibited symptoms of fatigue and abdominal pain due to acute liver disease.",
+      "negative": "The patient exhibited symptoms of fatigue and chest pain due to acute coronary syndrome."
+    },
+    {
+      "positive": "The lab confirmed elevated ammonia levels, which are often seen in acute liver disease.",
+      "negative": "The lab confirmed elevated potassium levels, which are often seen in hyperkalemia."
+    },
+    {
+      "positive": "The emergency department evaluated the patient for acute liver disease following a drug overdose.",
+      "negative": "The emergency department evaluated the patient for acute kidney disease following a drug overdose."
+    },
+    {
+      "positive": "Liver function tests showed a dramatic rise in ALT and AST, consistent with acute liver disease.",
+      "negative": "Liver function tests showed a dramatic rise in creatinine and urea, consistent with acute kidney injury."
+    },
+    {
+      "positive": "The patient’s acute liver disease was complicated by coagulopathy and bleeding.",
+      "negative": "The patient’s acute respiratory distress was complicated by pneumonia and hypoxia."
+    },
+    {
+      "positive": "The diagnosis of acute liver disease was supported by the presence of liver inflammation.",
+      "negative": "The diagnosis of acute lung disease was supported by the presence of lung inflammation."
+    },
+    {
+      "positive": "The patient's clinical history revealed risk factors for acute liver disease, including viral infections.",
+      "negative": "The patient's clinical history revealed risk factors for acute lung disease, including allergies."
+    },
+    {
+      "positive": "The patient's acute liver disease was characterized by rapid onset of hepatic dysfunction.",
+      "negative": "The patient's acute heart disease was characterized by rapid onset of cardiac dysfunction."
+    },
+    {
+      "positive": "The attending physician diagnosed the patient with acute liver disease based on the clinical presentation.",
+      "negative": "The attending physician diagnosed the patient with acute respiratory disease based on the clinical presentation."
+    },
+    {
+      "positive": "The patient's acute liver disease was likely due to autoimmune hepatitis as indicated by specific autoantibodies.",
+      "negative": "The patient's acute kidney disease was likely due to autoimmune glomerulonephritis as indicated by specific autoantibodies."
+    },
+    {
+      "positive": "The patient required hospitalization for management of acute liver disease and its complications.",
+      "negative": "The patient required hospitalization for management of acute thyroid disease and its complications."
+    },
+    {
+      "positive": "The presence of elevated INR suggests a significant impairment of liver function in acute liver disease.",
+      "negative": "The presence of elevated INR suggests a significant impairment of coagulation function in acute bleeding."
+    },
+    {
+      "positive": "The patient's acute liver disease led to a need for urgent liver transplant evaluation.",
+      "negative": "The patient's acute kidney disease led to a need for urgent dialysis evaluation."
+    },
+    {
+      "positive": "The clinical guidelines recommend specific treatments for acute liver disease caused by viral infections.",
+      "negative": "The clinical guidelines recommend specific treatments for acute lung infections caused by bacteria."
+    },
+    {
+      "positive": "The patient displayed signs of acute liver disease, including pruritus and dark urine.",
+      "negative": "The patient displayed signs of acute kidney disease, including pruritus and pale urine."
+    },
+    {
+      "positive": "A CT scan indicated significant liver swelling consistent with acute liver disease.",
+      "negative": "A CT scan indicated significant kidney swelling consistent with acute kidney disease."
+    },
+    {
+      "positive": "The patient's acute liver disease was confirmed through serological testing for hepatitis viruses.",
+      "negative": "The patient's acute kidney disease was confirmed through serological testing for autoimmune markers."
+    },
+    {
+      "positive": "Management of the patient with acute liver disease included monitoring for hepatic failure symptoms.",
+      "negative": "Management of the patient with acute lung disease included monitoring for respiratory failure symptoms."
+    },
+    {
+      "positive": "The patient experienced severe nausea and vomiting due to acute liver disease.",
+      "negative": "The patient experienced severe nausea and vomiting due to acute gastric disease."
+    },
+    {
+      "positive": "The diagnosis of acute liver disease was made following a detailed patient history and examination.",
+      "negative": "The diagnosis of acute respiratory disease was made following a detailed patient history and examination."
+    },
+    {
+      "positive": "The presence of hepatic steatosis was noted, suggesting acute liver disease in this patient.",
+      "negative": "The presence of renal calcifications was noted, suggesting chronic kidney disease in this patient."
+    },
+    {
+      "positive": "Acute liver disease was suspected after the patient reported a history of recent drug use.",
+      "negative": "Acute kidney disease was suspected after the patient reported a history of recent drug use."
+    },
+    {
+      "positive": "The patient was referred to a specialist for evaluation of acute liver disease and its possible causes.",
+      "negative": "The patient was referred to a specialist for evaluation of acute respiratory disease and its possible causes."
+    },
+    {
+      "positive": "The management plan for acute liver disease included dietary modifications and symptomatic treatment.",
+      "negative": "The management plan for acute lung disease included dietary modifications and symptomatic treatment."
+    },
+    {
+      "positive": "The patient's family history revealed instances of acute liver disease, raising concerns for genetic factors.",
+      "negative": "The patient's family history revealed instances of acute heart disease, raising concerns for genetic factors."
+    },
+    {
+      "positive": "The acute liver disease was confirmed by imaging studies showing biliary obstruction.",
+      "negative": "The acute lung disease was confirmed by imaging studies showing bronchial obstruction."
+    },
+    {
+      "positive": "The patient required urgent care for acute liver disease following a severe allergic reaction.",
+      "negative": "The patient required urgent care for acute kidney disease following a severe allergic reaction."
+    },
+    {
+      "positive": "Symptoms such as fever and abdominal pain led to the diagnosis of acute liver disease.",
+      "negative": "Symptoms such as fever and chest pain led to the diagnosis of acute coronary syndrome."
+    },
+    {
+      "positive": "The acute liver disease presentation included confusion and disorientation, typical of hepatic encephalopathy.",
+      "negative": "The acute respiratory disease presentation included confusion and disorientation, typical of metabolic encephalopathy."
+    },
+    {
+      "positive": "The patient's acute liver disease was treated with antiviral medications due to viral hepatitis.",
+      "negative": "The patient's acute kidney disease was treated with antiviral medications due to viral infection."
+    },
+    {
+      "positive": "The patient presented with jaundice and elevated liver enzymes, suggesting acute liver disease.",
+      "negative": "The patient presented with jaundice and elevated kidney enzymes, suggesting acute kidney disease."
+    },
+    {
+      "positive": "Laboratory tests confirmed the diagnosis of acute liver disease with markedly increased bilirubin levels.",
+      "negative": "Laboratory tests confirmed the diagnosis of acute kidney disease with markedly increased creatinine levels."
+    },
+    {
+      "positive": "The ultrasound revealed liver enlargement consistent with acute liver disease.",
+      "negative": "The ultrasound revealed kidney enlargement consistent with acute kidney disease."
+    },
+    {
+      "positive": "Symptoms of nausea and abdominal pain were indicative of acute liver disease in this patient.",
+      "negative": "Symptoms of nausea and abdominal pain were indicative of acute gallbladder disease in this patient."
+    },
+    {
+      "positive": "The patient was treated for acute liver disease caused by viral hepatitis.",
+      "negative": "The patient was treated for acute kidney disease caused by viral nephritis."
+    },
+    {
+      "positive": "The clinical findings pointed towards acute liver disease with signs of hepatic encephalopathy.",
+      "negative": "The clinical findings pointed towards acute respiratory disease with signs of respiratory distress."
+    },
+    {
+      "positive": "A liver biopsy confirmed the presence of acute liver disease due to drug toxicity.",
+      "negative": "A kidney biopsy confirmed the presence of acute kidney disease due to drug toxicity."
+    },
+    {
+      "positive": "The patient's symptoms were consistent with acute liver disease, including confusion and fatigue.",
+      "negative": "The patient's symptoms were consistent with acute lung disease, including confusion and fatigue."
+    },
+    {
+      "positive": "Management of acute liver disease included administering N-acetylcysteine for acetaminophen overdose.",
+      "negative": "Management of acute renal disease included administering N-acetylcysteine for acetaminophen overdose."
+    },
+    {
+      "positive": "The elevated ammonia levels in the blood indicated the presence of acute liver disease.",
+      "negative": "The elevated ammonia levels in the blood indicated the presence of acute kidney disease."
+    },
+    {
+      "positive": "Clinical signs of acute liver disease were evident in the patient's history of alcohol use.",
+      "negative": "Clinical signs of acute lung disease were evident in the patient's history of alcohol use."
+    },
+    {
+      "positive": "The patient’s acute liver disease was diagnosed after a thorough evaluation of liver function tests.",
+      "negative": "The patient’s acute lung disease was diagnosed after a thorough evaluation of lung function tests."
+    },
+    {
+      "positive": "Acute liver disease can lead to severe complications such as liver failure.",
+      "negative": "Acute kidney disease can lead to severe complications such as kidney failure."
+    },
+    {
+      "positive": "The patient was hospitalized for acute liver disease due to autoimmune hepatitis.",
+      "negative": "The patient was hospitalized for acute kidney disease due to autoimmune nephritis."
+    },
+    {
+      "positive": "Chronic alcohol consumption has been linked to the development of acute liver disease.",
+      "negative": "Chronic alcohol consumption has been linked to the development of acute lung disease."
+    },
+    {
+      "positive": "The doctor noted ascites as a complication of the patient's acute liver disease.",
+      "negative": "The doctor noted pleural effusion as a complication of the patient's acute lung disease."
+    },
+    {
+      "positive": "Acute liver disease was suspected based on the patient's recent travel history to an endemic area.",
+      "negative": "Acute kidney disease was suspected based on the patient's recent travel history to an endemic area."
+    },
+    {
+      "positive": "Transaminase levels were significantly elevated, confirming acute liver disease.",
+      "negative": "Transaminase levels were significantly elevated, confirming acute heart disease."
+    },
+    {
+      "positive": "The presence of hepatomegaly was indicative of acute liver disease in the examination.",
+      "negative": "The presence of splenomegaly was indicative of acute spleen disease in the examination."
+    },
+    {
+      "positive": "The patient's acute liver disease required immediate intervention to prevent further damage.",
+      "negative": "The patient's acute lung disease required immediate intervention to prevent further damage."
+    },
+    {
+      "positive": "An MRI of the abdomen showed findings consistent with acute liver disease.",
+      "negative": "An MRI of the abdomen showed findings consistent with acute kidney disease."
+    },
+    {
+      "positive": "The differential diagnosis included acute liver disease, given the patient's symptoms of hepatotoxicity.",
+      "negative": "The differential diagnosis included acute kidney disease, given the patient's symptoms of nephrotoxicity."
+    },
+    {
+      "positive": "The patient was monitored for signs of hepatic failure due to acute liver disease.",
+      "negative": "The patient was monitored for signs of cardiac failure due to acute heart disease."
+    },
+    {
+      "positive": "The onset of acute liver disease followed a binge-drinking episode over the weekend.",
+      "negative": "The onset of acute kidney disease followed a binge-eating episode over the weekend."
+    },
+    {
+      "positive": "This case of acute liver disease was characterized by severe abdominal distension.",
+      "negative": "This case of acute lung disease was characterized by severe abdominal distension."
+    },
+    {
+      "positive": "The risk factors for acute liver disease include viral infections and certain medications.",
+      "negative": "The risk factors for acute kidney disease include viral infections and certain medications."
+    },
+    {
+      "positive": "Abdominal ultrasound findings revealed changes consistent with acute liver disease.",
+      "negative": "Abdominal ultrasound findings revealed changes consistent with acute kidney disease."
+    },
+    {
+      "positive": "The management plan for acute liver disease included dietary modifications and medication.",
+      "negative": "The management plan for acute lung disease included dietary modifications and medication."
+    },
+    {
+      "positive": "The physician explained the prognosis of acute liver disease to the patient and family.",
+      "negative": "The physician explained the prognosis of acute lung disease to the patient and family."
+    },
+    {
+      "positive": "Acute liver disease was confirmed after a thorough review of the patient's medical history.",
+      "negative": "Acute kidney disease was confirmed after a thorough review of the patient's medical history."
+    },
+    {
+      "positive": "The presence of coagulopathy was noted in the patient with acute liver disease.",
+      "negative": "The presence of coagulopathy was noted in the patient with acute lung disease."
+    },
+    {
+      "positive": "The patient's acute liver disease required a multidisciplinary approach for effective treatment.",
+      "negative": "The patient's acute heart disease required a multidisciplinary approach for effective treatment."
+    },
+    {
+      "positive": "Acute liver disease can manifest as a result of metabolic disorders.",
+      "negative": "Acute lung disease can manifest as a result of metabolic disorders."
+    },
+    {
+      "positive": "The combination of symptoms led to a swift diagnosis of acute liver disease.",
+      "negative": "The combination of symptoms led to a swift diagnosis of acute kidney disease."
+    },
+    {
+      "positive": "The patient's acute liver disease was exacerbated by the use of hepatotoxic medications.",
+      "negative": "The patient's acute lung disease was exacerbated by the use of hepatotoxic medications."
+    },
+    {
+      "positive": "The family history revealed a pattern of acute liver disease in several relatives.",
+      "negative": "The family history revealed a pattern of acute kidney disease in several relatives."
+    },
+    {
+      "positive": "The evaluation of acute liver disease included assessing the patient's history of viral hepatitis.",
+      "negative": "The evaluation of acute kidney disease included assessing the patient's history of viral hepatitis."
+    },
+    {
+      "positive": "Signs of acute liver disease were present in the patient’s lab results, particularly elevated AST and ALT.",
+      "negative": "Signs of acute lung disease were present in the patient’s lab results, particularly elevated AST and ALT."
+    },
+    {
+      "positive": "The clinical investigation focused on the acute liver disease due to suspected cirrhosis.",
+      "negative": "The clinical investigation focused on the acute kidney disease due to suspected nephropathy."
+    },
+    {
+      "positive": "The patient was advised to avoid alcohol due to the risk of worsening acute liver disease.",
+      "negative": "The patient was advised to avoid alcohol due to the risk of worsening acute lung disease."
+    },
+    {
+      "positive": "The patient developed acute liver disease following exposure to a known hepatotoxin.",
+      "negative": "The patient developed acute kidney disease following exposure to a known nephrotoxin."
+    },
+    {
+      "positive": "Acute liver disease was identified as a potential cause of the patient's unexplained weight loss.",
+      "negative": "Acute kidney disease was identified as a potential cause of the patient's unexplained weight loss."
+    },
+    {
+      "positive": "The patient presented with jaundice and elevated liver enzymes indicative of acute liver disease.",
+      "negative": "The patient presented with jaundice and elevated kidney function tests indicative of acute kidney disease."
+    },
+    {
+      "positive": "Imaging studies revealed significant hepatic swelling consistent with acute liver disease.",
+      "negative": "Imaging studies revealed significant pulmonary swelling consistent with acute respiratory disease."
+    },
+    {
+      "positive": "The patient's abdominal pain and elevated bilirubin levels suggested acute liver disease.",
+      "negative": "The patient's abdominal pain and elevated creatinine levels suggested acute kidney disease."
+    },
+    {
+      "positive": "The lab results confirmed acute liver disease with a spike in transaminases.",
+      "negative": "The lab results confirmed acute lung disease with a spike in eosinophils."
+    },
+    {
+      "positive": "The clinician noted that acute liver disease could be a potential cause of the patient's coagulopathy.",
+      "negative": "The clinician noted that acute respiratory disease could be a potential cause of the patient's coagulopathy."
+    },
+    {
+      "positive": "Symptoms such as fatigue and confusion can be associated with acute liver disease.",
+      "negative": "Symptoms such as fatigue and confusion can be associated with acute kidney disease."
+    },
+    {
+      "positive": "The patient's history of acetaminophen overdose was significant for the diagnosis of acute liver disease.",
+      "negative": "The patient's history of acetaminophen overdose was significant for the diagnosis of acute kidney disease."
+    },
+    {
+      "positive": "Physical examination showed hepatomegaly, raising suspicion for acute liver disease.",
+      "negative": "Physical examination showed splenomegaly, raising suspicion for acute spleen disease."
+    },
+    {
+      "positive": "Acute liver disease can lead to complications such as hepatic encephalopathy.",
+      "negative": "Acute respiratory disease can lead to complications such as pulmonary edema."
+    },
+    {
+      "positive": "The presence of asterixis in the patient indicated possible acute liver disease.",
+      "negative": "The presence of asterixis in the patient indicated possible acute kidney disease."
+    },
+    {
+      "positive": "Laboratory findings were consistent with acute liver disease, showing a high INR.",
+      "negative": "Laboratory findings were consistent with acute kidney disease, showing a high BUN."
+    },
+    {
+      "positive": "The patient was treated with N-acetylcysteine for acute liver disease due to toxicity.",
+      "negative": "The patient was treated with diuretics for acute kidney disease due to fluid overload."
+    },
+    {
+      "positive": "The acute liver disease led to significant changes in the patient's coagulation profile.",
+      "negative": "The acute respiratory disease led to significant changes in the patient's hematologic profile."
+    },
+    {
+      "positive": "A biopsy confirmed the diagnosis of acute liver disease in the patient.",
+      "negative": "A biopsy confirmed the diagnosis of acute kidney disease in the patient."
+    },
+    {
+      "positive": "The patient's elevated ammonia levels were a critical finding in the context of acute liver disease.",
+      "negative": "The patient's elevated potassium levels were a critical finding in the context of acute kidney disease."
+    },
+    {
+      "positive": "The clinical presentation was suggestive of acute liver disease with signs of hepatic failure.",
+      "negative": "The clinical presentation was suggestive of acute kidney disease with signs of renal failure."
+    },
+    {
+      "positive": "The patient's rapid decline was attributed to acute liver disease after reviewing the clinical data.",
+      "negative": "The patient's rapid decline was attributed to acute lung disease after reviewing the clinical data."
+    },
+    {
+      "positive": "Cholecystitis was ruled out as the cause of the patient's symptoms, pointing towards acute liver disease.",
+      "negative": "Cholecystitis was ruled out as the cause of the patient's symptoms, pointing towards acute kidney disease."
+    },
+    {
+      "positive": "The patient's elevated alkaline phosphatase levels raised concern for acute liver disease.",
+      "negative": "The patient's elevated alkaline phosphatase levels raised concern for acute bone disease."
+    },
+    {
+      "positive": "Acute liver disease was diagnosed following the patient's episode of gastrointestinal bleeding.",
+      "negative": "Acute respiratory disease was diagnosed following the patient's episode of gastrointestinal bleeding."
+    },
+    {
+      "positive": "The patient exhibited signs of acute liver disease, such as dark urine and pale stool.",
+      "negative": "The patient exhibited signs of acute kidney disease, such as dark urine and pale stool."
+    },
+    {
+      "positive": "The hepatologist discussed treatment options for the patient's acute liver disease.",
+      "negative": "The nephrologist discussed treatment options for the patient's acute kidney disease."
+    },
+    {
+      "positive": "An ultrasound showed abnormal liver architecture consistent with acute liver disease.",
+      "negative": "An ultrasound showed abnormal lung architecture consistent with acute lung disease."
+    },
+    {
+      "positive": "The patient's ascitic fluid analysis indicated complications related to acute liver disease.",
+      "negative": "The patient's pleural fluid analysis indicated complications related to acute respiratory disease."
+    },
+    {
+      "positive": "The clinical guidelines recommend monitoring liver function tests in cases of acute liver disease.",
+      "negative": "The clinical guidelines recommend monitoring kidney function tests in cases of acute kidney disease."
+    },
+    {
+      "positive": "The presence of spider angiomata was noted in the patient with acute liver disease.",
+      "negative": "The presence of spider angiomata was noted in the patient with acute vascular disease."
+    },
+    {
+      "positive": "The patient's liver biopsy revealed inflammation consistent with acute liver disease.",
+      "negative": "The patient's kidney biopsy revealed inflammation consistent with acute kidney disease."
+    },
+    {
+      "positive": "The treatment plan included corticosteroids for the management of acute liver disease.",
+      "negative": "The treatment plan included corticosteroids for the management of acute lung disease."
+    },
+    {
+      "positive": "The patient was at risk for progression of acute liver disease due to underlying conditions.",
+      "negative": "The patient was at risk for progression of acute respiratory disease due to underlying conditions."
+    },
+    {
+      "positive": "The patient's elevated liver function tests were alarming, indicating acute liver disease.",
+      "negative": "The patient's elevated kidney function tests were alarming, indicating acute kidney disease."
+    },
+    {
+      "positive": "Acute liver disease can result in significant metabolic disturbances and require close monitoring.",
+      "negative": "Acute respiratory disease can result in significant metabolic disturbances and require close monitoring."
+    },
+    {
+      "positive": "The patient's history of gallstones was considered a contributing factor to acute liver disease.",
+      "negative": "The patient's history of gallstones was considered a contributing factor to acute kidney disease."
+    },
+    {
+      "positive": "The presence of hepatic encephalopathy suggested a diagnosis of acute liver disease.",
+      "negative": "The presence of pulmonary edema suggested a diagnosis of acute respiratory disease."
+    },
+    {
+      "positive": "The patient's sudden weight loss was attributed to acute liver disease.",
+      "negative": "The patient's sudden weight loss was attributed to acute kidney disease."
+    },
+    {
+      "positive": "The clinician ordered a liver panel to assess the severity of acute liver disease.",
+      "negative": "The clinician ordered a kidney panel to assess the severity of acute kidney disease."
+    },
+    {
+      "positive": "The patient's family history included cases of acute liver disease, raising concern for genetic factors.",
+      "negative": "The patient's family history included cases of acute kidney disease, raising concern for genetic factors."
+    },
+    {
+      "positive": "The patient's clinical improvement was evident after treatment for acute liver disease.",
+      "negative": "The patient's clinical improvement was evident after treatment for acute kidney disease."
+    },
+    {
+      "positive": "The presence of elevated prothrombin time was a key indicator of acute liver disease.",
+      "negative": "The presence of elevated prothrombin time was a key indicator of acute kidney disease."
+    },
+    {
+      "positive": "The patient required hospitalization due to complications from acute liver disease.",
+      "negative": "The patient required hospitalization due to complications from acute lung disease."
+    },
+    {
+      "positive": "The patient's metabolic panel revealed abnormalities consistent with acute liver disease.",
+      "negative": "The patient's metabolic panel revealed abnormalities consistent with acute kidney disease."
+    },
+    {
+      "positive": "The clinician noted the potential for acute liver disease to cause renal impairment.",
+      "negative": "The clinician noted the potential for acute respiratory disease to cause renal impairment."
+    },
+    {
+      "positive": "The patient's clinical signs were suggestive of acute liver disease rather than chronic conditions.",
+      "negative": "The patient's clinical signs were suggestive of acute kidney disease rather than chronic conditions."
+    },
+    {
+      "positive": "The patient's acute liver disease was exacerbated by the recent use of hepatotoxic medications.",
+      "negative": "The patient's acute respiratory disease was exacerbated by the recent use of respiratory medications."
+    },
+    {
+      "positive": "The ultrasound revealed significant hepatomegaly consistent with acute liver disease.",
+      "negative": "The ultrasound revealed significant splenomegaly consistent with acute liver disease."
+    },
+    {
+      "positive": "The patient's history of drug use raised concerns for acute liver disease.",
+      "negative": "The patient's history of drug use raised concerns for acute lung disease."
+    },
+    {
+      "positive": "Laboratory tests showed elevated transaminases, indicating acute liver disease.",
+      "negative": "Laboratory tests showed elevated transaminases, indicating acute kidney dysfunction."
+    },
+    {
+      "positive": "The presence of jaundice in the patient was a clear sign of acute liver disease.",
+      "negative": "The presence of jaundice in the patient was a clear sign of acute renal failure."
+    },
+    {
+      "positive": "The patient presented with confusion and ascites, suggestive of acute liver disease.",
+      "negative": "The patient presented with confusion and ascites, suggestive of acute heart failure."
+    },
+    {
+      "positive": "The biopsy confirmed acute liver disease with significant necrosis.",
+      "negative": "The biopsy confirmed acute lung disease with significant necrosis."
+    },
+    {
+      "positive": "The clinical findings were indicative of acute liver disease secondary to viral hepatitis.",
+      "negative": "The clinical findings were indicative of acute lung disease secondary to viral pneumonia."
+    },
+    {
+      "positive": "The elevated INR and thrombocytopenia pointed towards acute liver disease.",
+      "negative": "The elevated INR and thrombocytopenia pointed towards acute kidney disease."
+    },
+    {
+      "positive": "Symptoms of nausea and fatigue were associated with acute liver disease.",
+      "negative": "Symptoms of nausea and fatigue were associated with acute kidney injury."
+    },
+    {
+      "positive": "The patient's rapid decline in liver function was alarming for acute liver disease.",
+      "negative": "The patient's rapid decline in heart function was alarming for acute heart disease."
+    },
+    {
+      "positive": "A history of alcohol abuse predisposed the patient to acute liver disease.",
+      "negative": "A history of alcohol abuse predisposed the patient to acute kidney disease."
+    },
+    {
+      "positive": "The patient required a liver transplant due to severe acute liver disease.",
+      "negative": "The patient required a kidney transplant due to severe acute kidney disease."
+    },
+    {
+      "positive": "Acute liver disease was suspected following the patient's recent travel to an endemic area.",
+      "negative": "Acute respiratory disease was suspected following the patient's recent travel to an endemic area."
+    },
+    {
+      "positive": "The patient was treated with corticosteroids for acute liver disease stemming from autoimmune hepatitis.",
+      "negative": "The patient was treated with corticosteroids for acute lung disease stemming from autoimmune pneumonia."
+    },
+    {
+      "positive": "The rise in alkaline phosphatase levels indicated acute liver disease.",
+      "negative": "The rise in alkaline phosphatase levels indicated acute gallbladder disease."
+    },
+    {
+      "positive": "The clinical picture was complicated by acute liver disease and coagulopathy.",
+      "negative": "The clinical picture was complicated by acute lung disease and coagulopathy."
+    },
+    {
+      "positive": "The patient's elevated liver enzymes were indicative of acute liver disease.",
+      "negative": "The patient's elevated liver enzymes were indicative of acute renal disease."
+    },
+    {
+      "positive": "The treatment plan included monitoring for complications of acute liver disease.",
+      "negative": "The treatment plan included monitoring for complications of acute gastrointestinal disease."
+    },
+    {
+      "positive": "A sudden onset of abdominal pain was linked to acute liver disease.",
+      "negative": "A sudden onset of abdominal pain was linked to acute intestinal obstruction."
+    },
+    {
+      "positive": "The patient's history of hepatitis B infection contributed to acute liver disease.",
+      "negative": "The patient's history of hepatitis B infection contributed to acute kidney disease."
+    },
+    {
+      "positive": "The patient experienced significant weight loss due to acute liver disease.",
+      "negative": "The patient experienced significant weight loss due to acute gastrointestinal disease."
+    },
+    {
+      "positive": "The presence of dark urine and pale stools raised suspicion for acute liver disease.",
+      "negative": "The presence of dark urine and pale stools raised suspicion for acute kidney disease."
+    },
+    {
+      "positive": "The patient was advised to avoid alcohol due to the diagnosis of acute liver disease.",
+      "negative": "The patient was advised to avoid alcohol due to the diagnosis of acute stomach disease."
+    },
+    {
+      "positive": "Acute liver disease was evident on imaging studies showing liver enlargement.",
+      "negative": "Acute heart disease was evident on imaging studies showing heart enlargement."
+    },
+    {
+      "positive": "The patient's elevated bilirubin levels were a consequence of acute liver disease.",
+      "negative": "The patient's elevated bilirubin levels were a consequence of acute kidney disease."
+    },
+    {
+      "positive": "The rapid onset of symptoms pointed to acute liver disease.",
+      "negative": "The rapid onset of symptoms pointed to acute heart disease."
+    },
+    {
+      "positive": "The patient developed complications from acute liver disease that required hospitalization.",
+      "negative": "The patient developed complications from acute lung disease that required hospitalization."
+    },
+    {
+      "positive": "The lab results confirmed acute liver disease following the screening tests.",
+      "negative": "The lab results confirmed acute kidney disease following the screening tests."
+    },
+    {
+      "positive": "The physician noted signs of hepatic failure due to acute liver disease.",
+      "negative": "The physician noted signs of cardiac failure due to acute heart disease."
+    },
+    {
+      "positive": "The patient's symptoms of pruritus were attributed to acute liver disease.",
+      "negative": "The patient's symptoms of pruritus were attributed to acute skin disease."
+    },
+    {
+      "positive": "The patient's liver function tests were markedly abnormal, suggesting acute liver disease.",
+      "negative": "The patient's kidney function tests were markedly abnormal, suggesting acute kidney disease."
+    },
+    {
+      "positive": "The presence of hepatic encephalopathy indicated severe acute liver disease.",
+      "negative": "The presence of pulmonary encephalopathy indicated severe acute lung disease."
+    },
+    {
+      "positive": "The patient's acute liver disease was linked to a recent viral infection.",
+      "negative": "The patient's acute lung disease was linked to a recent viral infection."
+    },
+    {
+      "positive": "The hepatologist specialized in treating acute liver disease cases.",
+      "negative": "The hepatologist specialized in treating acute kidney disease cases."
+    },
+    {
+      "positive": "The patient's skin changes were consistent with acute liver disease.",
+      "negative": "The patient's skin changes were consistent with acute cardiac disease."
+    },
+    {
+      "positive": "The patient's family history revealed cases of acute liver disease.",
+      "negative": "The patient's family history revealed cases of acute lung disease."
+    },
+    {
+      "positive": "Testing for autoimmune markers was necessary due to suspected acute liver disease.",
+      "negative": "Testing for autoimmune markers was necessary due to suspected acute kidney disease."
+    },
+    {
+      "positive": "The physician ordered a CT scan to evaluate for acute liver disease.",
+      "negative": "The physician ordered a CT scan to evaluate for acute heart disease."
+    },
+    {
+      "positive": "The patient's recent travel history raised suspicion for acute liver disease.",
+      "negative": "The patient's recent travel history raised suspicion for acute respiratory disease."
+    },
+    {
+      "positive": "The differential diagnosis included acute liver disease among other conditions.",
+      "negative": "The differential diagnosis included acute heart disease among other conditions."
+    },
+    {
+      "positive": "The patient was monitored closely for signs of acute liver disease complications.",
+      "negative": "The patient was monitored closely for signs of acute kidney disease complications."
+    },
+    {
+      "positive": "The clinical trial focused on new treatments for acute liver disease.",
+      "negative": "The clinical trial focused on new treatments for acute lung disease."
+    },
+    {
+      "positive": "Acute liver disease was evident from the patient's clinical symptoms and laboratory findings.",
+      "negative": "Acute kidney disease was evident from the patient's clinical symptoms and laboratory findings."
+    },
+    {
+      "positive": "The patient’s symptoms were consistent with a diagnosis of acute liver disease.",
+      "negative": "The patient’s symptoms were consistent with a diagnosis of acute heart disease."
+    },
+    {
+      "positive": "The treatment protocol included interventions for acute liver disease.",
+      "negative": "The treatment protocol included interventions for acute respiratory disease."
+    },
+    {
+      "positive": "The patient's elevated liver enzymes were alarming for acute liver disease.",
+      "negative": "The patient's elevated liver enzymes were alarming for acute kidney disease."
+    },
+    {
+      "positive": "The patient's acute liver disease was diagnosed following a thorough clinical evaluation.",
+      "negative": "The patient's acute lung disease was diagnosed following a thorough clinical evaluation."
+    },
+    {
+      "positive": "The patient displayed signs of hepatic dysfunction due to acute liver disease.",
+      "negative": "The patient displayed signs of cardiac dysfunction due to acute heart disease."
+    },
+    {
+      "positive": "The patient's jaundice was attributed to acute liver disease.",
+      "negative": "The patient's jaundice was attributed to acute skin disease."
+    },
+    {
+      "positive": "The lab results confirmed the suspicion of acute liver disease.",
+      "negative": "The lab results confirmed the suspicion of acute heart disease."
+    },
+    {
+      "positive": "The patient presented with jaundice and elevated liver enzymes indicative of acute liver disease.",
+      "negative": "The patient presented with jaundice and elevated kidney function tests indicative of acute kidney disease."
+    },
+    {
+      "positive": "The presence of ascites and hepatic encephalopathy suggested acute liver disease.",
+      "negative": "The presence of ascites and pulmonary edema suggested acute respiratory disease."
+    },
+    {
+      "positive": "Laboratory tests confirmed a diagnosis of acute liver disease due to viral hepatitis.",
+      "negative": "Laboratory tests confirmed a diagnosis of acute kidney disease due to diabetic nephropathy."
+    },
+    {
+      "positive": "The patient's recent history of alcohol use raised concerns for acute liver disease.",
+      "negative": "The patient's recent history of alcohol use raised concerns for acute pancreatitis."
+    },
+    {
+      "positive": "Imaging studies showed diffuse liver necrosis consistent with acute liver disease.",
+      "negative": "Imaging studies showed diffuse brain edema consistent with acute neurological disease."
+    },
+    {
+      "positive": "The clinician recommended hospitalization due to symptoms of acute liver disease.",
+      "negative": "The clinician recommended hospitalization due to symptoms of acute respiratory distress."
+    },
+    {
+      "positive": "The biopsy results were consistent with a diagnosis of acute liver disease.",
+      "negative": "The biopsy results were consistent with a diagnosis of acute myocardial disease."
+    },
+    {
+      "positive": "The patient experienced severe abdominal pain attributed to acute liver disease.",
+      "negative": "The patient experienced severe abdominal pain attributed to acute appendicitis."
+    },
+    {
+      "positive": "Treatment options were discussed for managing acute liver disease.",
+      "negative": "Treatment options were discussed for managing acute heart disease."
+    },
+    {
+      "positive": "The rapid decline in liver function indicated the severity of the acute liver disease.",
+      "negative": "The rapid decline in heart function indicated the severity of acute cardiac disease."
+    },
+    {
+      "positive": "Elevated bilirubin levels were a clear sign of acute liver disease.",
+      "negative": "Elevated bilirubin levels were a clear sign of acute kidney injury."
+    },
+    {
+      "positive": "The patient's history of drug use suggested possible acute liver disease.",
+      "negative": "The patient's history of drug use suggested possible acute kidney failure."
+    },
+    {
+      "positive": "The clinical findings were suggestive of acute liver disease rather than chronic conditions.",
+      "negative": "The clinical findings were suggestive of acute lung disease rather than chronic conditions."
+    },
+    {
+      "positive": "A thorough assessment led to the diagnosis of acute liver disease in the patient.",
+      "negative": "A thorough assessment led to the diagnosis of acute lung disease in the patient."
+    },
+    {
+      "positive": "The emergency physician noted acute liver disease as a potential cause for the patient's symptoms.",
+      "negative": "The emergency physician noted acute respiratory disease as a potential cause for the patient's symptoms."
+    },
+    {
+      "positive": "The patient's coagulopathy was linked to acute liver disease.",
+      "negative": "The patient's coagulopathy was linked to acute kidney disease."
+    },
+    {
+      "positive": "The treatment plan included monitoring for complications of acute liver disease.",
+      "negative": "The treatment plan included monitoring for complications of acute cardiac disease."
+    },
+    {
+      "positive": "The patient exhibited signs of hepatic failure due to acute liver disease.",
+      "negative": "The patient exhibited signs of renal failure due to acute kidney disease."
+    },
+    {
+      "positive": "The rise in transaminases indicated acute liver disease progression.",
+      "negative": "The rise in transaminases indicated acute pancreatic disease progression."
+    },
+    {
+      "positive": "The patient's clinical presentation was consistent with acute liver disease.",
+      "negative": "The patient's clinical presentation was consistent with acute heart disease."
+    },
+    {
+      "positive": "The interdisciplinary team discussed the potential for acute liver disease complications.",
+      "negative": "The interdisciplinary team discussed the potential for acute lung disease complications."
+    },
+    {
+      "positive": "The laboratory results indicated elevated liver enzymes, consistent with acute liver disease in the patient.",
+      "negative": "The laboratory results indicated elevated kidney enzymes, consistent with chronic kidney disease in the patient."
+    }
+  ],
+  "concept": "acute liver disease",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

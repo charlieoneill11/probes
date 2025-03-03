@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient's laboratory results indicate significant renal impairment, necessitating further evaluation.",
+      "negative": "The patient's laboratory results indicate significant liver impairment, necessitating further evaluation."
+    },
+    {
+      "positive": "The doctor noted renal impairment in the patient's medical history, which could affect medication dosing.",
+      "negative": "The doctor noted liver impairment in the patient's medical history, which could affect medication dosing."
+    },
+    {
+      "positive": "Renal impairment was observed during the ultrasound, showing reduced kidney function.",
+      "negative": "Liver dysfunction was observed during the ultrasound, showing reduced liver function."
+    },
+    {
+      "positive": "The patient's renal impairment has progressed, requiring dialysis to manage fluid balance.",
+      "negative": "The patient's hepatic impairment has progressed, requiring medication adjustments to manage fluid balance."
+    },
+    {
+      "positive": "After reviewing the creatinine levels, the clinician diagnosed the patient with renal impairment.",
+      "negative": "After reviewing the bilirubin levels, the clinician diagnosed the patient with hepatic impairment."
+    },
+    {
+      "positive": "The physician discussed treatment options for renal impairment, including dietary modifications.",
+      "negative": "The physician discussed treatment options for hepatic impairment, including dietary modifications."
+    },
+    {
+      "positive": "The patient exhibited symptoms consistent with renal impairment, such as fatigue and edema.",
+      "negative": "The patient exhibited symptoms consistent with hepatic impairment, such as fatigue and jaundice."
+    },
+    {
+      "positive": "Chronic renal impairment was confirmed through a series of blood tests and imaging studies.",
+      "negative": "Chronic hepatic impairment was confirmed through a series of blood tests and imaging studies."
+    },
+    {
+      "positive": "The nephrologist recommended a strict monitoring plan due to the patient's renal impairment.",
+      "negative": "The hepatologist recommended a strict monitoring plan due to the patient's hepatic impairment."
+    },
+    {
+      "positive": "Renal impairment in the patient was evident from the elevated serum creatinine levels.",
+      "negative": "Liver impairment in the patient was evident from the elevated serum bilirubin levels."
+    },
+    {
+      "positive": "The report detailed the patient's renal impairment, highlighting its impact on overall health.",
+      "negative": "The report detailed the patient's hepatic impairment, highlighting its impact on overall health."
+    },
+    {
+      "positive": "The patient was advised to avoid certain medications due to their renal impairment.",
+      "negative": "The patient was advised to avoid certain medications due to their hepatic impairment."
+    },
+    {
+      "positive": "During the examination, the physician identified signs of renal impairment requiring urgent intervention.",
+      "negative": "During the examination, the physician identified signs of hepatic impairment requiring urgent intervention."
+    },
+    {
+      "positive": "Renal impairment was a significant factor in the patient's eligibility for transplant.",
+      "negative": "Hepatic impairment was a significant factor in the patient's eligibility for transplant."
+    },
+    {
+      "positive": "The patient's renal impairment was classified as stage 3, indicating a moderate decrease in kidney function.",
+      "negative": "The patient's hepatic impairment was classified as stage 3, indicating a moderate decrease in liver function."
+    },
+    {
+      "positive": "The medical team discussed the prognosis related to his renal impairment and potential complications.",
+      "negative": "The medical team discussed the prognosis related to his hepatic impairment and potential complications."
+    },
+    {
+      "positive": "The patient's renal impairment necessitated a referral to a nephrologist for specialized care.",
+      "negative": "The patient's hepatic impairment necessitated a referral to a gastroenterologist for specialized care."
+    },
+    {
+      "positive": "The lab findings pointed towards renal impairment, which may be reversible with appropriate treatment.",
+      "negative": "The lab findings pointed towards hepatic impairment, which may be reversible with appropriate treatment."
+    },
+    {
+      "positive": "The patient's renal impairment led to the need for a modified diet to improve kidney health.",
+      "negative": "The patient's hepatic impairment led to the need for a modified diet to improve liver health."
+    },
+    {
+      "positive": "Renal impairment was confirmed during the follow-up visit, prompting changes in the treatment plan.",
+      "negative": "Hepatic impairment was confirmed during the follow-up visit, prompting changes in the treatment plan."
+    },
+    {
+      "positive": "The patient's chronic renal impairment was managed with medications and regular monitoring.",
+      "negative": "The patient's chronic hepatic impairment was managed with medications and regular monitoring."
+    },
+    {
+      "positive": "The clinician expressed concerns regarding the patient's renal impairment and its systemic effects.",
+      "negative": "The clinician expressed concerns regarding the patient's hepatic impairment and its systemic effects."
+    },
+    {
+      "positive": "Renal impairment was evident from the patient's lab results, indicating a need for intervention.",
+      "negative": "Hepatic impairment was evident from the patient's lab results, indicating a need for intervention."
+    },
+    {
+      "positive": "The patient's renal impairment resulted in increased potassium levels, requiring dietary adjustments.",
+      "negative": "The patient's hepatic impairment resulted in increased ammonia levels, requiring dietary adjustments."
+    },
+    {
+      "positive": "The family history of renal impairment raised concerns about the patient's long-term kidney health.",
+      "negative": "The family history of hepatic impairment raised concerns about the patient's long-term liver health."
+    },
+    {
+      "positive": "The patient's renal impairment was attributed to underlying hypertension and diabetes mellitus.",
+      "negative": "The patient's hepatic impairment was attributed to underlying hypertension and diabetes mellitus."
+    },
+    {
+      "positive": "The case study focused on renal impairment as a critical issue in elderly patients.",
+      "negative": "The case study focused on hepatic impairment as a critical issue in elderly patients."
+    },
+    {
+      "positive": "Renal impairment was a key factor in the patient's decision to start a new medication regimen.",
+      "negative": "Hepatic impairment was a key factor in the patient's decision to start a new medication regimen."
+    },
+    {
+      "positive": "The patient's renal impairment necessitated careful management of fluid intake and output.",
+      "negative": "The patient's hepatic impairment necessitated careful management of fluid intake and output."
+    },
+    {
+      "positive": "The nephrologist noted that renal impairment could lead to complications if left untreated.",
+      "negative": "The hepatologist noted that hepatic impairment could lead to complications if left untreated."
+    },
+    {
+      "positive": "The patient's renal impairment was monitored through regular blood tests for creatinine and BUN.",
+      "negative": "The patient's hepatic impairment was monitored through regular blood tests for bilirubin and enzymes."
+    },
+    {
+      "positive": "Signs of renal impairment were present, including changes in urine output and color.",
+      "negative": "Signs of hepatic impairment were present, including changes in skin color and appetite."
+    },
+    {
+      "positive": "The patient's renal impairment required a collaborative approach involving dieticians and nephrologists.",
+      "negative": "The patient's hepatic impairment required a collaborative approach involving dieticians and hepatologists."
+    },
+    {
+      "positive": "The imaging studies revealed reduced kidney size consistent with renal impairment.",
+      "negative": "The imaging studies revealed enlarged liver size consistent with hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was discussed during the care conference with the entire healthcare team.",
+      "negative": "The patient's hepatic impairment was discussed during the care conference with the entire healthcare team."
+    },
+    {
+      "positive": "The medical notes highlighted the importance of monitoring renal impairment in patients with diabetes.",
+      "negative": "The medical notes highlighted the importance of monitoring hepatic impairment in patients with diabetes."
+    },
+    {
+      "positive": "The treatment plan was adjusted due to the patient's renal impairment and its complications.",
+      "negative": "The treatment plan was adjusted due to the patient's hepatic impairment and its complications."
+    },
+    {
+      "positive": "The patient's renal impairment was severe enough to warrant a discussion about kidney transplant options.",
+      "negative": "The patient's hepatic impairment was severe enough to warrant a discussion about liver transplant options."
+    },
+    {
+      "positive": "The lab report indicated worsening renal impairment, prompting a reassessment of the patient's medications.",
+      "negative": "The lab report indicated worsening hepatic impairment, prompting a reassessment of the patient's medications."
+    },
+    {
+      "positive": "Renal impairment was a contributing factor to the patient's cardiovascular issues.",
+      "negative": "Hepatic impairment was a contributing factor to the patient's cardiovascular issues."
+    },
+    {
+      "positive": "The patient was diagnosed with renal impairment based on a comprehensive review of their symptoms.",
+      "negative": "The patient was diagnosed with hepatic impairment based on a comprehensive review of their symptoms."
+    },
+    {
+      "positive": "The patient's renal impairment led to a discussion about potential complications associated with anesthesia.",
+      "negative": "The patient's hepatic impairment led to a discussion about potential complications associated with anesthesia."
+    },
+    {
+      "positive": "The referral to a nephrologist was prompted by the patient's documented renal impairment.",
+      "negative": "The referral to a hepatologist was prompted by the patient's documented hepatic impairment."
+    },
+    {
+      "positive": "Follow-up imaging confirmed the presence of renal impairment, indicating the need for further treatment.",
+      "negative": "Follow-up imaging confirmed the presence of hepatic impairment, indicating the need for further treatment."
+    },
+    {
+      "positive": "The patient's renal impairment was classified as acute, requiring immediate medical intervention.",
+      "negative": "The patient's hepatic impairment was classified as acute, requiring immediate medical intervention."
+    },
+    {
+      "positive": "The assessment revealed renal impairment, which could lead to electrolyte imbalances.",
+      "negative": "The assessment revealed hepatic impairment, which could lead to electrolyte imbalances."
+    },
+    {
+      "positive": "The lab results indicated significant renal impairment, necessitating further evaluation of kidney function.",
+      "negative": "The lab results indicated significant liver impairment, necessitating further evaluation of liver function."
+    },
+    {
+      "positive": "Chronic renal impairment was diagnosed, prompting a referral to a nephrologist for specialized care.",
+      "negative": "Chronic hepatic impairment was diagnosed, prompting a referral to a hepatologist for specialized care."
+    },
+    {
+      "positive": "The patient's renal impairment was attributed to long-standing hypertension and diabetes.",
+      "negative": "The patient's hepatic impairment was attributed to long-standing hypertension and diabetes."
+    },
+    {
+      "positive": "Renal impairment can lead to an accumulation of toxins in the bloodstream.",
+      "negative": "Hepatic impairment can lead to an accumulation of toxins in the bloodstream."
+    },
+    {
+      "positive": "The ultrasound revealed renal impairment, characterized by reduced kidney size.",
+      "negative": "The ultrasound revealed hepatic impairment, characterized by reduced liver size."
+    },
+    {
+      "positive": "Management of renal impairment includes dietary modifications and medication adjustments.",
+      "negative": "Management of hepatic impairment includes dietary modifications and medication adjustments."
+    },
+    {
+      "positive": "The patient's renal impairment was confirmed by a 24-hour urine collection study.",
+      "negative": "The patient's hepatic impairment was confirmed by a 24-hour urine collection study."
+    },
+    {
+      "positive": "Symptoms of renal impairment, including swelling and decreased urination, were noted during the examination.",
+      "negative": "Symptoms of hepatic impairment, including swelling and decreased urination, were noted during the examination."
+    },
+    {
+      "positive": "The clinical team discussed strategies for managing the patient's renal impairment and its complications.",
+      "negative": "The clinical team discussed strategies for managing the patient's hepatic impairment and its complications."
+    },
+    {
+      "positive": "The patient's renal impairment required the initiation of dialysis to manage fluid overload.",
+      "negative": "The patient's hepatic impairment required the initiation of dialysis to manage fluid overload."
+    },
+    {
+      "positive": "Monitoring renal impairment is crucial for patients on nephrotoxic medications.",
+      "negative": "Monitoring hepatic impairment is crucial for patients on nephrotoxic medications."
+    },
+    {
+      "positive": "The patient presented with elevated creatinine levels indicating renal impairment.",
+      "negative": "The patient presented with elevated bilirubin levels indicating hepatic impairment."
+    },
+    {
+      "positive": "Renal impairment often necessitates adjustments in medication dosages to prevent toxicity.",
+      "negative": "Hepatic impairment often necessitates adjustments in medication dosages to prevent toxicity."
+    },
+    {
+      "positive": "The clinical guidelines emphasize the importance of early detection of renal impairment in diabetic patients.",
+      "negative": "The clinical guidelines emphasize the importance of early detection of hepatic impairment in diabetic patients."
+    },
+    {
+      "positive": "The patient's renal impairment was classified as stage 3 chronic kidney disease.",
+      "negative": "The patient's hepatic impairment was classified as stage 3 chronic liver disease."
+    },
+    {
+      "positive": "The nephrology consult highlighted the risks associated with untreated renal impairment.",
+      "negative": "The hepatology consult highlighted the risks associated with untreated hepatic impairment."
+    },
+    {
+      "positive": "The patient’s renal impairment was evident from the imaging studies showing structural changes.",
+      "negative": "The patient’s hepatic impairment was evident from the imaging studies showing structural changes."
+    },
+    {
+      "positive": "Renal impairment can result in anemia due to decreased erythropoietin production.",
+      "negative": "Hepatic impairment can result in anemia due to decreased erythropoietin production."
+    },
+    {
+      "positive": "The patient's renal impairment was monitored closely during the hospitalization for heart failure.",
+      "negative": "The patient's hepatic impairment was monitored closely during the hospitalization for heart failure."
+    },
+    {
+      "positive": "Renal impairment can complicate the management of hypertension and diabetes.",
+      "negative": "Hepatic impairment can complicate the management of hypertension and diabetes."
+    },
+    {
+      "positive": "The patient was educated about the dietary restrictions necessary for managing renal impairment.",
+      "negative": "The patient was educated about the dietary restrictions necessary for managing hepatic impairment."
+    },
+    {
+      "positive": "Renal impairment was a significant concern in this patient with multiple comorbidities.",
+      "negative": "Hepatic impairment was a significant concern in this patient with multiple comorbidities."
+    },
+    {
+      "positive": "The patient's renal impairment required regular follow-up with a nephrologist.",
+      "negative": "The patient's hepatic impairment required regular follow-up with a hepatologist."
+    },
+    {
+      "positive": "The treatment plan for renal impairment included the use of ACE inhibitors to protect kidney function.",
+      "negative": "The treatment plan for hepatic impairment included the use of ACE inhibitors to protect liver function."
+    },
+    {
+      "positive": "The presence of renal impairment warranted a review of the patient's medication list for nephrotoxic agents.",
+      "negative": "The presence of hepatic impairment warranted a review of the patient's medication list for hepatotoxic agents."
+    },
+    {
+      "positive": "The patient was experiencing complications related to renal impairment, such as fluid retention.",
+      "negative": "The patient was experiencing complications related to hepatic impairment, such as fluid retention."
+    },
+    {
+      "positive": "The medical history revealed chronic renal impairment as a significant factor in the patient's condition.",
+      "negative": "The medical history revealed chronic hepatic impairment as a significant factor in the patient's condition."
+    },
+    {
+      "positive": "The imaging study suggested renal impairment, highlighting the need for further diagnostic tests.",
+      "negative": "The imaging study suggested hepatic impairment, highlighting the need for further diagnostic tests."
+    },
+    {
+      "positive": "The patient’s renal impairment was discussed during the multidisciplinary team meeting.",
+      "negative": "The patient’s hepatic impairment was discussed during the multidisciplinary team meeting."
+    },
+    {
+      "positive": "The lab findings pointed towards renal impairment, which necessitated immediate intervention.",
+      "negative": "The lab findings pointed towards hepatic impairment, which necessitated immediate intervention."
+    },
+    {
+      "positive": "The patient's renal impairment was aggravated by the use of certain over-the-counter medications.",
+      "negative": "The patient's hepatic impairment was aggravated by the use of certain over-the-counter medications."
+    },
+    {
+      "positive": "The doctor explained that renal impairment can lead to severe cardiovascular complications.",
+      "negative": "The doctor explained that hepatic impairment can lead to severe cardiovascular complications."
+    },
+    {
+      "positive": "The patient had a history of renal impairment, which was taken into account during surgery.",
+      "negative": "The patient had a history of hepatic impairment, which was taken into account during surgery."
+    },
+    {
+      "positive": "Renal impairment was noted as a potential risk factor for postoperative complications.",
+      "negative": "Hepatic impairment was noted as a potential risk factor for postoperative complications."
+    },
+    {
+      "positive": "The patient's renal impairment required a tailored approach to fluid management during hospitalization.",
+      "negative": "The patient's hepatic impairment required a tailored approach to fluid management during hospitalization."
+    },
+    {
+      "positive": "The patient's renal impairment was assessed through a series of blood tests measuring kidney function.",
+      "negative": "The patient's hepatic impairment was assessed through a series of blood tests measuring liver function."
+    },
+    {
+      "positive": "The healthcare team developed a plan to address the patient's renal impairment in the context of heart disease.",
+      "negative": "The healthcare team developed a plan to address the patient's hepatic impairment in the context of heart disease."
+    },
+    {
+      "positive": "The patient experienced increased fatigue due to renal impairment affecting their overall health.",
+      "negative": "The patient experienced increased fatigue due to hepatic impairment affecting their overall health."
+    },
+    {
+      "positive": "The diagnosis of renal impairment was confirmed by additional imaging studies.",
+      "negative": "The diagnosis of hepatic impairment was confirmed by additional imaging studies."
+    },
+    {
+      "positive": "Renal impairment was a key consideration in developing the patient's long-term management plan.",
+      "negative": "Hepatic impairment was a key consideration in developing the patient's long-term management plan."
+    },
+    {
+      "positive": "The patient's renal impairment was evident from the elevated levels of urea and creatinine.",
+      "negative": "The patient's hepatic impairment was evident from the elevated levels of urea and creatinine."
+    },
+    {
+      "positive": "The nephrology team recommended lifestyle changes to help manage the patient's renal impairment.",
+      "negative": "The hepatology team recommended lifestyle changes to help manage the patient's hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was linked to their history of autoimmune disease.",
+      "negative": "The patient's hepatic impairment was linked to their history of autoimmune disease."
+    },
+    {
+      "positive": "The chart notes indicated that renal impairment was a significant finding in the patient's evaluation.",
+      "negative": "The chart notes indicated that hepatic impairment was a significant finding in the patient's evaluation."
+    },
+    {
+      "positive": "The patient's renal impairment was assessed regularly to monitor progression and treatment response.",
+      "negative": "The patient's hepatic impairment was assessed regularly to monitor progression and treatment response."
+    },
+    {
+      "positive": "The laboratory tests indicated significant renal impairment, necessitating a referral to a nephrologist.",
+      "negative": "The laboratory tests indicated significant hepatic impairment, necessitating a referral to a hepatologist."
+    },
+    {
+      "positive": "The patient's renal impairment was monitored closely, as it affected the dosage of prescribed medications.",
+      "negative": "The patient's hepatic function was monitored closely, as it affected the dosage of prescribed medications."
+    },
+    {
+      "positive": "A creatinine level of 2.5 mg/dL suggested renal impairment, prompting further evaluation.",
+      "negative": "A creatinine level of 2.5 mg/dL suggested hepatic impairment, prompting further evaluation."
+    },
+    {
+      "positive": "During the assessment, the physician noted signs of renal impairment, including elevated blood pressure.",
+      "negative": "During the assessment, the physician noted signs of hepatic impairment, including elevated blood pressure."
+    },
+    {
+      "positive": "The patient's renal impairment was exacerbated by dehydration and the use of NSAIDs.",
+      "negative": "The patient's hepatic condition was exacerbated by dehydration and the use of NSAIDs."
+    },
+    {
+      "positive": "Renal impairment was evident in the imaging studies, showing reduced kidney size.",
+      "negative": "Hepatic impairment was evident in the imaging studies, showing reduced liver size."
+    },
+    {
+      "positive": "The treatment plan included dietary modifications due to the patient's renal impairment.",
+      "negative": "The treatment plan included dietary modifications due to the patient's cardiac condition."
+    },
+    {
+      "positive": "Assessments revealed that the patient's renal impairment contributed to electrolyte imbalances.",
+      "negative": "Assessments revealed that the patient's hepatic condition contributed to electrolyte imbalances."
+    },
+    {
+      "positive": "The patient's renal impairment led to an increase in potassium levels, requiring intervention.",
+      "negative": "The patient's hepatic condition led to an increase in potassium levels, requiring intervention."
+    },
+    {
+      "positive": "Patient education focused on managing renal impairment and avoiding nephrotoxic substances.",
+      "negative": "Patient education focused on managing hepatic conditions and avoiding hepatotoxic substances."
+    },
+    {
+      "positive": "Renal impairment was the primary concern during the pre-operative assessment.",
+      "negative": "Hepatic dysfunction was the primary concern during the pre-operative assessment."
+    },
+    {
+      "positive": "The physician noted that renal impairment could complicate the patient's diabetes management.",
+      "negative": "The physician noted that hepatic dysfunction could complicate the patient's diabetes management."
+    },
+    {
+      "positive": "Renal impairment was identified as a risk factor for potential surgery complications.",
+      "negative": "Hepatic dysfunction was identified as a risk factor for potential surgery complications."
+    },
+    {
+      "positive": "The chart indicated a history of renal impairment, influencing the choice of medication.",
+      "negative": "The chart indicated a history of hepatic dysfunction, influencing the choice of medication."
+    },
+    {
+      "positive": "Renal impairment was discussed in the context of the patient's overall health status during the meeting.",
+      "negative": "Hepatic impairment was discussed in the context of the patient's overall health status during the meeting."
+    },
+    {
+      "positive": "The patient's renal impairment resulted in a specific protocol for fluid management.",
+      "negative": "The patient's hepatic condition resulted in a specific protocol for fluid management."
+    },
+    {
+      "positive": "The patient's renal impairment was classified as stage 3 chronic kidney disease.",
+      "negative": "The patient's hepatic condition was classified as stage 3 liver disease."
+    },
+    {
+      "positive": "Renal impairment was noted as a contraindication for certain imaging studies.",
+      "negative": "Hepatic impairment was noted as a contraindication for certain imaging studies."
+    },
+    {
+      "positive": "The patient's renal impairment required adjustments to his antihypertensive therapy.",
+      "negative": "The patient's hepatic condition required adjustments to his antihypertensive therapy."
+    },
+    {
+      "positive": "Renal impairment was a key factor in evaluating the patient's overall prognosis.",
+      "negative": "Hepatic impairment was a key factor in evaluating the patient's overall prognosis."
+    },
+    {
+      "positive": "The referral was made due to the significant renal impairment observed in the patient's lab results.",
+      "negative": "The referral was made due to the significant hepatic impairment observed in the patient's lab results."
+    },
+    {
+      "positive": "An increase in serum creatinine levels raised concerns about renal impairment.",
+      "negative": "An increase in serum creatinine levels raised concerns about hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was linked to a history of hypertension and diabetes.",
+      "negative": "The patient's hepatic condition was linked to a history of hypertension and diabetes."
+    },
+    {
+      "positive": "The clinical team developed a care plan addressing the patient's renal impairment.",
+      "negative": "The clinical team developed a care plan addressing the patient's cardiac condition."
+    },
+    {
+      "positive": "Renal impairment was discussed as a potential factor in the patient's medication side effects.",
+      "negative": "Hepatic impairment was discussed as a potential factor in the patient's medication side effects."
+    },
+    {
+      "positive": "Monitoring renal impairment was essential for the patient's ongoing treatment regimen.",
+      "negative": "Monitoring hepatic function was essential for the patient's ongoing treatment regimen."
+    },
+    {
+      "positive": "The patient's renal impairment prompted a review of his dietary protein intake.",
+      "negative": "The patient's hepatic condition prompted a review of his dietary protein intake."
+    },
+    {
+      "positive": "Renal impairment was documented in the patient's medical history, affecting current treatment decisions.",
+      "negative": "Hepatic impairment was documented in the patient's medical history, affecting current treatment decisions."
+    },
+    {
+      "positive": "The results indicated acute renal impairment, necessitating immediate intervention.",
+      "negative": "The results indicated acute hepatic impairment, necessitating immediate intervention."
+    },
+    {
+      "positive": "The patient's renal impairment was the reason for frequent follow-up appointments.",
+      "negative": "The patient's hepatic condition was the reason for frequent follow-up appointments."
+    },
+    {
+      "positive": "The physician ordered additional tests to assess the severity of the renal impairment.",
+      "negative": "The physician ordered additional tests to assess the severity of the hepatic condition."
+    },
+    {
+      "positive": "Renal impairment was identified as a complication of the patient's diabetes management.",
+      "negative": "Hepatic impairment was identified as a complication of the patient's diabetes management."
+    },
+    {
+      "positive": "The patient's renal impairment was associated with an increased risk of cardiovascular disease.",
+      "negative": "The patient's hepatic impairment was associated with an increased risk of cardiovascular disease."
+    },
+    {
+      "positive": "The nephrologist recommended lifestyle changes to help manage the patient's renal impairment.",
+      "negative": "The hepatologist recommended lifestyle changes to help manage the patient's hepatic condition."
+    },
+    {
+      "positive": "The patient's renal impairment was evaluated in the context of her overall health and medications.",
+      "negative": "The patient's hepatic condition was evaluated in the context of her overall health and medications."
+    },
+    {
+      "positive": "Renal impairment was highlighted in the discharge summary, indicating ongoing monitoring was needed.",
+      "negative": "Hepatic impairment was highlighted in the discharge summary, indicating ongoing monitoring was needed."
+    },
+    {
+      "positive": "The presence of renal impairment was discussed with the patient during the consultation.",
+      "negative": "The presence of hepatic impairment was discussed with the patient during the consultation."
+    },
+    {
+      "positive": "The patient's renal impairment was a critical consideration in the management of his hypertension.",
+      "negative": "The patient's hepatic condition was a critical consideration in the management of his hypertension."
+    },
+    {
+      "positive": "Renal impairment was noted to be a significant risk factor in the patient's surgical evaluation.",
+      "negative": "Hepatic impairment was noted to be a significant risk factor in the patient's surgical evaluation."
+    },
+    {
+      "positive": "The patient's renal impairment required modifications in his insulin regimen.",
+      "negative": "The patient's hepatic condition required modifications in his insulin regimen."
+    },
+    {
+      "positive": "The lab results indicated elevated creatinine levels, suggesting renal impairment.",
+      "negative": "The lab results indicated elevated bilirubin levels, suggesting hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment led to the decision to modify the medication dosage.",
+      "negative": "The patient's hepatic impairment led to the decision to modify the medication dosage."
+    },
+    {
+      "positive": "The ultrasound findings were consistent with chronic renal impairment.",
+      "negative": "The ultrasound findings were consistent with chronic liver disease."
+    },
+    {
+      "positive": "Signs of renal impairment were evident in the patient's urinalysis results.",
+      "negative": "Signs of hepatic impairment were evident in the patient's urinalysis results."
+    },
+    {
+      "positive": "The clinician noted a history of renal impairment in the patient's medical records.",
+      "negative": "The clinician noted a history of hepatic impairment in the patient's medical records."
+    },
+    {
+      "positive": "The patient's renal impairment prompted further investigation into underlying causes.",
+      "negative": "The patient's hepatic impairment prompted further investigation into underlying causes."
+    },
+    {
+      "positive": "Management of renal impairment was discussed during the follow-up visit.",
+      "negative": "Management of hepatic impairment was discussed during the follow-up visit."
+    },
+    {
+      "positive": "The patient's renal impairment was exacerbated by dehydration.",
+      "negative": "The patient's hepatic impairment was exacerbated by dehydration."
+    },
+    {
+      "positive": "The nephrologist recommended a strict diet due to the patient's renal impairment.",
+      "negative": "The hepatologist recommended a strict diet due to the patient's hepatic impairment."
+    },
+    {
+      "positive": "Deterioration in renal function was observed in the patient's lab tests.",
+      "negative": "Deterioration in liver function was observed in the patient's lab tests."
+    },
+    {
+      "positive": "The treatment for hypertension was adjusted due to renal impairment.",
+      "negative": "The treatment for hypertension was adjusted due to hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was classified as stage 3 chronic kidney disease.",
+      "negative": "The patient's hepatic impairment was classified as stage 3 chronic liver disease."
+    },
+    {
+      "positive": "Complications of renal impairment were discussed with the patient.",
+      "negative": "Complications of hepatic impairment were discussed with the patient."
+    },
+    {
+      "positive": "The patient's renal impairment required close monitoring and management.",
+      "negative": "The patient's hepatic impairment required close monitoring and management."
+    },
+    {
+      "positive": "The physician ordered additional tests to assess the severity of renal impairment.",
+      "negative": "The physician ordered additional tests to assess the severity of hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was a key factor in the surgical decision-making process.",
+      "negative": "The patient's hepatic impairment was a key factor in the surgical decision-making process."
+    },
+    {
+      "positive": "The patient was referred to a nephrologist due to concerns about renal impairment.",
+      "negative": "The patient was referred to a hepatologist due to concerns about hepatic impairment."
+    },
+    {
+      "positive": "The medical team implemented a plan to address the patient's renal impairment.",
+      "negative": "The medical team implemented a plan to address the patient's hepatic impairment."
+    },
+    {
+      "positive": "The patient exhibited signs of fluid overload related to renal impairment.",
+      "negative": "The patient exhibited signs of fluid overload related to hepatic impairment."
+    },
+    {
+      "positive": "The renal impairment necessitated a review of the patient's current medications.",
+      "negative": "The hepatic impairment necessitated a review of the patient's current medications."
+    },
+    {
+      "positive": "The patient's renal impairment was complicated by the onset of hypertension.",
+      "negative": "The patient's hepatic impairment was complicated by the onset of hypertension."
+    },
+    {
+      "positive": "The doctor explained the potential progression of renal impairment to the patient.",
+      "negative": "The doctor explained the potential progression of hepatic impairment to the patient."
+    },
+    {
+      "positive": "Renal impairment was documented as a contributing factor to the patient's symptoms.",
+      "negative": "Hepatic impairment was documented as a contributing factor to the patient's symptoms."
+    },
+    {
+      "positive": "The patient's renal impairment led to increased urination and nocturia.",
+      "negative": "The patient's hepatic impairment led to increased urination and nocturia."
+    },
+    {
+      "positive": "The patient's renal impairment was identified during a routine check-up.",
+      "negative": "The patient's hepatic impairment was identified during a routine check-up."
+    },
+    {
+      "positive": "The patient was advised to increase fluid intake to manage renal impairment.",
+      "negative": "The patient was advised to increase fluid intake to manage hepatic impairment."
+    },
+    {
+      "positive": "The physical examination revealed bilateral edema due to renal impairment.",
+      "negative": "The physical examination revealed bilateral edema due to hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was discussed in the context of potential dialysis.",
+      "negative": "The patient's hepatic impairment was discussed in the context of potential dialysis."
+    },
+    {
+      "positive": "The renal impairment was assessed using a GFR calculation.",
+      "negative": "The hepatic impairment was assessed using a GFR calculation."
+    },
+    {
+      "positive": "The medical history revealed a significant family history of renal impairment.",
+      "negative": "The medical history revealed a significant family history of hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was associated with increased potassium levels.",
+      "negative": "The patient's hepatic impairment was associated with increased potassium levels."
+    },
+    {
+      "positive": "The treatment plan included measures to address the patient's renal impairment.",
+      "negative": "The treatment plan included measures to address the patient's hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was a critical consideration for potential transplant candidacy.",
+      "negative": "The patient's hepatic impairment was a critical consideration for potential transplant candidacy."
+    },
+    {
+      "positive": "The patient's renal impairment was monitored through regular lab checks.",
+      "negative": "The patient's hepatic impairment was monitored through regular lab checks."
+    },
+    {
+      "positive": "The nephrologist recommended avoiding NSAIDs due to the patient's renal impairment.",
+      "negative": "The hepatologist recommended avoiding NSAIDs due to the patient's hepatic impairment."
+    },
+    {
+      "positive": "The patient's renal impairment was discussed during the interdisciplinary care meeting.",
+      "negative": "The patient's hepatic impairment was discussed during the interdisciplinary care meeting."
+    },
+    {
+      "positive": "The patient's renal impairment led to a referral for dietary counseling.",
+      "negative": "The patient's hepatic impairment led to a referral for dietary counseling."
+    },
+    {
+      "positive": "The lab results showed evidence of renal impairment that warranted further evaluation.",
+      "negative": "The lab results showed evidence of hepatic impairment that warranted further evaluation."
+    },
+    {
+      "positive": "The patient's renal impairment was linked to their history of diabetes.",
+      "negative": "The patient's hepatic impairment was linked to their history of diabetes."
+    },
+    {
+      "positive": "The patient's renal impairment was confirmed with imaging studies.",
+      "negative": "The patient's hepatic impairment was confirmed with imaging studies."
+    },
+    {
+      "positive": "The patient's renal impairment caused concern regarding medication interactions.",
+      "negative": "The patient's hepatic impairment caused concern regarding medication interactions."
+    },
+    {
+      "positive": "The ongoing assessment of renal impairment was a priority in the treatment plan.",
+      "negative": "The ongoing assessment of hepatic impairment was a priority in the treatment plan."
+    },
+    {
+      "positive": "The patient's renal impairment was the reason for the change in the treatment protocol.",
+      "negative": "The patient's hepatic impairment was the reason for the change in the treatment protocol."
+    },
+    {
+      "positive": "The patient's renal impairment was exacerbated by the recent increase in blood pressure.",
+      "negative": "The patient's hepatic impairment was exacerbated by the recent increase in blood pressure."
+    },
+    {
+      "positive": "Upon review, the lab results confirmed the diagnosis of chronic renal impairment.",
+      "negative": "Upon review, the lab results confirmed the diagnosis of chronic hepatic impairment."
+    },
+    {
+      "positive": "The patient was advised to follow a renal-friendly diet due to their renal impairment.",
+      "negative": "The patient was advised to follow a hepatic-friendly diet due to their hepatic impairment."
+    },
+    {
+      "positive": "Renal impairment can lead to complications in drug metabolism and elimination.",
+      "negative": "Hepatic impairment can lead to complications in drug metabolism and elimination."
+    },
+    {
+      "positive": "The ultrasound revealed evidence of renal impairment, prompting further investigations.",
+      "negative": "The ultrasound revealed evidence of hepatic impairment, prompting further investigations."
+    },
+    {
+      "positive": "The patient's medical history includes episodes of acute renal impairment.",
+      "negative": "The patient's medical history includes episodes of acute hepatic impairment."
+    },
+    {
+      "positive": "Management of this patient must consider their renal impairment and its potential impact.",
+      "negative": "Management of this patient must consider their hepatic impairment and its potential impact."
+    },
+    {
+      "positive": "The nephrologist recommended adjusting medications due to the patient's renal impairment.",
+      "negative": "The hepatologist recommended adjusting medications due to the patient's hepatic impairment."
+    },
+    {
+      "positive": "The recent lab tests showed elevated creatinine levels indicating renal impairment.",
+      "negative": "The recent lab tests showed elevated bilirubin levels indicating hepatic impairment."
+    },
+    {
+      "positive": "Symptoms of fatigue and edema were attributed to the patient's renal impairment.",
+      "negative": "Symptoms of fatigue and edema were attributed to the patient's hepatic impairment."
+    },
+    {
+      "positive": "The patient was referred to a specialist for their worsening renal impairment.",
+      "negative": "The patient was referred to a specialist for their worsening hepatic impairment."
+    },
+    {
+      "positive": "The patient’s renal impairment was monitored closely during the treatment course.",
+      "negative": "The patient’s hepatic impairment was monitored closely during the treatment course."
+    },
+    {
+      "positive": "She presented with signs of renal impairment, including decreased urine output.",
+      "negative": "She presented with signs of hepatic impairment, including jaundice."
+    },
+    {
+      "positive": "The treatment protocol was adjusted due to the patient's renal impairment.",
+      "negative": "The treatment protocol was adjusted due to the patient's hepatic impairment."
+    },
+    {
+      "positive": "Renal impairment can significantly alter the pharmacokinetics of certain drugs.",
+      "negative": "Hepatic impairment can significantly alter the pharmacokinetics of certain drugs."
+    },
+    {
+      "positive": "The patient's renal impairment was confirmed by a 24-hour urine collection.",
+      "negative": "The patient's hepatic impairment was confirmed by liver function tests."
+    },
+    {
+      "positive": "A high-risk factor for this patient is their history of renal impairment.",
+      "negative": "A high-risk factor for this patient is their history of hepatic impairment."
+    },
+    {
+      "positive": "The presence of renal impairment necessitates careful fluid management.",
+      "negative": "The presence of hepatic impairment necessitates careful fluid management."
+    },
+    {
+      "positive": "The cardiologist noted renal impairment as a complicating factor in the patient’s condition.",
+      "negative": "The cardiologist noted hepatic impairment as a complicating factor in the patient’s condition."
+    },
+    {
+      "positive": "The discharge summary highlighted the patient's renal impairment for follow-up.",
+      "negative": "The discharge summary highlighted the patient's hepatic impairment for follow-up."
+    },
+    {
+      "positive": "The patient's renal impairment was a key consideration in planning the surgical procedure.",
+      "negative": "The patient's hepatic impairment was a key consideration in planning the surgical procedure."
+    },
+    {
+      "positive": "During the evaluation, the physician noted significant renal impairment in the patient.",
+      "negative": "During the evaluation, the physician noted significant hepatic impairment in the patient."
+    },
+    {
+      "positive": "The patient's renal impairment has been stable, but requires regular monitoring.",
+      "negative": "The patient's hepatic impairment has been stable, but requires regular monitoring."
+    },
+    {
+      "positive": "Renal impairment can affect a patient's overall prognosis and treatment decisions.",
+      "negative": "Hepatic impairment can affect a patient's overall prognosis and treatment decisions."
+    },
+    {
+      "positive": "The patient's renal impairment is being managed with dietary restrictions and medication.",
+      "negative": "The patient's hepatic impairment is being managed with dietary restrictions and medication."
+    },
+    {
+      "positive": "The patient's renal impairment was evident from the elevated creatinine levels observed in recent blood tests.",
+      "negative": "The patient's hepatic impairment was evident from the elevated creatinine levels observed in recent blood tests."
+    }
+  ],
+  "concept": "renal impairment",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The MRI revealed a significant rotator cuff tear in the supraspinatus tendon.",
+      "negative": "The MRI revealed a significant rotator cuff strain in the supraspinatus tendon."
+    },
+    {
+      "positive": "The patient presented with shoulder pain and a confirmed rotator cuff tear.",
+      "negative": "The patient presented with shoulder pain and a confirmed rotator cuff impingement."
+    },
+    {
+      "positive": "Physical examination showed weakness in external rotation due to a rotator cuff tear.",
+      "negative": "Physical examination showed weakness in external rotation due to a rotator cuff strain."
+    },
+    {
+      "positive": "Surgical intervention was necessary to repair the rotator cuff tear identified during the arthroscopy.",
+      "negative": "Surgical intervention was necessary to repair the rotator cuff inflammation identified during the arthroscopy."
+    },
+    {
+      "positive": "The ultrasound confirmed a partial thickness rotator cuff tear.",
+      "negative": "The ultrasound confirmed a partial thickness rotator cuff injury."
+    },
+    {
+      "positive": "After the injury, the athlete was diagnosed with a rotator cuff tear and advised to undergo rehabilitation.",
+      "negative": "After the injury, the athlete was diagnosed with a shoulder sprain and advised to undergo rehabilitation."
+    },
+    {
+      "positive": "The patient reported limited range of motion due to a rotator cuff tear.",
+      "negative": "The patient reported limited range of motion due to a shoulder strain."
+    },
+    {
+      "positive": "The physical therapist noted signs of a rotator cuff tear during the assessment.",
+      "negative": "The physical therapist noted signs of a shoulder dislocation during the assessment."
+    },
+    {
+      "positive": "The patient's symptoms were consistent with a rotator cuff tear after the fall.",
+      "negative": "The patient's symptoms were consistent with a shoulder bruise after the fall."
+    },
+    {
+      "positive": "The doctor discussed treatment options for the rotator cuff tear with the patient.",
+      "negative": "The doctor discussed treatment options for the shoulder bursitis with the patient."
+    },
+    {
+      "positive": "An MRI scan indicated a complete rotator cuff tear requiring surgical intervention.",
+      "negative": "An MRI scan indicated a complete rotator cuff tendinopathy requiring surgical intervention."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was classified as a grade III injury.",
+      "negative": "The patient's rotator cuff strain was classified as a grade III injury."
+    },
+    {
+      "positive": "The rotator cuff tear was confirmed during the diagnostic imaging process.",
+      "negative": "The rotator cuff inflammation was confirmed during the diagnostic imaging process."
+    },
+    {
+      "positive": "Rehabilitation was initiated following the diagnosis of a rotator cuff tear.",
+      "negative": "Rehabilitation was initiated following the diagnosis of a shoulder tendonitis."
+    },
+    {
+      "positive": "The orthopedic evaluation concluded that the patient had a rotator cuff tear.",
+      "negative": "The orthopedic evaluation concluded that the patient had a shoulder contusion."
+    },
+    {
+      "positive": "The patient experienced significant pain due to a rotator cuff tear.",
+      "negative": "The patient experienced significant pain due to a shoulder strain."
+    },
+    {
+      "positive": "A rotator cuff tear was evident on the ultrasound imaging performed.",
+      "negative": "A rotator cuff injury was evident on the ultrasound imaging performed."
+    },
+    {
+      "positive": "The athlete was sidelined due to a diagnosed rotator cuff tear.",
+      "negative": "The athlete was sidelined due to a diagnosed shoulder sprain."
+    },
+    {
+      "positive": "Conservative management was advised for the rotator cuff tear.",
+      "negative": "Conservative management was advised for the shoulder impingement."
+    },
+    {
+      "positive": "The rotator cuff tear was an unexpected finding during the examination.",
+      "negative": "The rotator cuff irritation was an unexpected finding during the examination."
+    },
+    {
+      "positive": "The patient underwent an MRI that confirmed a rotator cuff tear.",
+      "negative": "The patient underwent an MRI that confirmed a shoulder capsule tear."
+    },
+    {
+      "positive": "The clinical diagnosis of rotator cuff tear was supported by physical tests.",
+      "negative": "The clinical diagnosis of rotator cuff strain was supported by physical tests."
+    },
+    {
+      "positive": "The orthopedist recommended surgery for the full-thickness rotator cuff tear.",
+      "negative": "The orthopedist recommended surgery for the full-thickness shoulder impingement."
+    },
+    {
+      "positive": "The patient's history of trauma led to a diagnosis of a rotator cuff tear.",
+      "negative": "The patient's history of trauma led to a diagnosis of a shoulder strain."
+    },
+    {
+      "positive": "Post-operative recovery was planned after a rotator cuff tear repair.",
+      "negative": "Post-operative recovery was planned after a shoulder stabilization procedure."
+    },
+    {
+      "positive": "Chronic pain in the shoulder was attributed to a rotator cuff tear.",
+      "negative": "Chronic pain in the shoulder was attributed to shoulder tendinopathy."
+    },
+    {
+      "positive": "The physical exam revealed signs consistent with a rotator cuff tear.",
+      "negative": "The physical exam revealed signs consistent with a shoulder separation."
+    },
+    {
+      "positive": "A rotator cuff tear was identified as the cause of the patient's persistent shoulder issues.",
+      "negative": "A rotator cuff strain was identified as the cause of the patient's persistent shoulder issues."
+    },
+    {
+      "positive": "The patient was referred for surgery to address a severe rotator cuff tear.",
+      "negative": "The patient was referred for surgery to address a severe shoulder impingement."
+    },
+    {
+      "positive": "The diagnosis of a rotator cuff tear was made based on clinical findings and imaging.",
+      "negative": "The diagnosis of a rotator cuff injury was made based on clinical findings and imaging."
+    },
+    {
+      "positive": "Repetitive overhead activities led to a diagnosis of a rotator cuff tear.",
+      "negative": "Repetitive overhead activities led to a diagnosis of shoulder tendinitis."
+    },
+    {
+      "positive": "The imaging revealed a large rotator cuff tear that required intervention.",
+      "negative": "The imaging revealed a large rotator cuff tendinopathy that required intervention."
+    },
+    {
+      "positive": "The patient was experiencing limited mobility due to a rotator cuff tear.",
+      "negative": "The patient was experiencing limited mobility due to shoulder stiffness."
+    },
+    {
+      "positive": "A recent fall resulted in a rotator cuff tear that was confirmed by MRI.",
+      "negative": "A recent fall resulted in a rotator cuff strain that was confirmed by MRI."
+    },
+    {
+      "positive": "The physical therapist developed a rehabilitation program for the rotator cuff tear.",
+      "negative": "The physical therapist developed a rehabilitation program for the shoulder impingement."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was causing significant functional impairment.",
+      "negative": "The patient's shoulder strain was causing significant functional impairment."
+    },
+    {
+      "positive": "A rotator cuff tear was diagnosed after the patient complained of shoulder instability.",
+      "negative": "A rotator cuff strain was diagnosed after the patient complained of shoulder instability."
+    },
+    {
+      "positive": "The surgical report indicated a complete rotator cuff tear with retraction.",
+      "negative": "The surgical report indicated a complete rotator cuff tendinopathy with retraction."
+    },
+    {
+      "positive": "The recovery plan included physical therapy following the rotator cuff tear repair.",
+      "negative": "The recovery plan included physical therapy following the shoulder impingement treatment."
+    },
+    {
+      "positive": "MRI findings confirmed the diagnosis of a rotator cuff tear.",
+      "negative": "MRI findings confirmed the diagnosis of a shoulder labral tear."
+    },
+    {
+      "positive": "The patient reported pain and weakness due to a rotator cuff tear.",
+      "negative": "The patient reported pain and weakness due to a shoulder dislocation."
+    },
+    {
+      "positive": "Ultrasound imaging revealed a significant rotator cuff tear.",
+      "negative": "Ultrasound imaging revealed a significant shoulder bursa inflammation."
+    },
+    {
+      "positive": "The athlete was sidelined due to a partial rotator cuff tear.",
+      "negative": "The athlete was sidelined due to a shoulder strain."
+    },
+    {
+      "positive": "Surgical intervention was necessary for the rotator cuff tear.",
+      "negative": "Surgical intervention was necessary for the shoulder tendonitis."
+    },
+    {
+      "positive": "Physical therapy was recommended after the rotator cuff tear diagnosis.",
+      "negative": "Physical therapy was recommended after the shoulder fracture diagnosis."
+    },
+    {
+      "positive": "The patient underwent a repair procedure for a rotator cuff tear.",
+      "negative": "The patient underwent a repair procedure for a shoulder impingement."
+    },
+    {
+      "positive": "Rotator cuff tear symptoms included severe shoulder pain.",
+      "negative": "Shoulder pain was attributed to wrist tendonitis."
+    },
+    {
+      "positive": "A rotator cuff tear was identified during the examination.",
+      "negative": "A shoulder contusion was identified during the examination."
+    },
+    {
+      "positive": "The rotator cuff tear resulted in significant functional impairment.",
+      "negative": "The shoulder bursitis resulted in significant functional impairment."
+    },
+    {
+      "positive": "The diagnosis of rotator cuff tear was made based on clinical evaluation.",
+      "negative": "The diagnosis of shoulder instability was made based on clinical evaluation."
+    },
+    {
+      "positive": "The patient experienced a rotator cuff tear following a fall.",
+      "negative": "The patient experienced a shoulder sprain following a fall."
+    },
+    {
+      "positive": "Post-surgery, the patient was recovering from a rotator cuff tear.",
+      "negative": "Post-surgery, the patient was recovering from a shoulder arthroscopy."
+    },
+    {
+      "positive": "The rotator cuff tear was caused by repetitive overhead activities.",
+      "negative": "The shoulder injury was caused by repetitive lifting activities."
+    },
+    {
+      "positive": "An MRI showed the extent of the rotator cuff tear.",
+      "negative": "An MRI showed the extent of the shoulder impingement."
+    },
+    {
+      "positive": "The patient was diagnosed with a rotator cuff tear after the physical exam.",
+      "negative": "The patient was diagnosed with shoulder tendinopathy after the physical exam."
+    },
+    {
+      "positive": "The rotator cuff tear was confirmed by both ultrasound and MRI.",
+      "negative": "The shoulder condition was confirmed by both ultrasound and MRI."
+    },
+    {
+      "positive": "He was advised to avoid certain movements due to a rotator cuff tear.",
+      "negative": "He was advised to avoid certain movements due to shoulder arthritis."
+    },
+    {
+      "positive": "The rotator cuff tear was treated with conservative management.",
+      "negative": "The shoulder pain was treated with conservative management."
+    },
+    {
+      "positive": "Rehabilitation focused on strengthening after a rotator cuff tear.",
+      "negative": "Rehabilitation focused on strengthening after a shoulder fracture."
+    },
+    {
+      "positive": "The patient's range of motion was limited due to a rotator cuff tear.",
+      "negative": "The patient's range of motion was limited due to shoulder osteoarthritis."
+    },
+    {
+      "positive": "The orthopedic surgeon discussed the risks of surgery for a rotator cuff tear.",
+      "negative": "The orthopedic surgeon discussed the risks of surgery for a shoulder instability."
+    },
+    {
+      "positive": "The rotator cuff tear was detected during a routine physical exam.",
+      "negative": "The shoulder impingement was detected during a routine physical exam."
+    },
+    {
+      "positive": "Treatment options were explored for the chronic rotator cuff tear.",
+      "negative": "Treatment options were explored for the chronic shoulder bursitis."
+    },
+    {
+      "positive": "The patient's rotator cuff tear led to chronic pain and dysfunction.",
+      "negative": "The patient's shoulder instability led to chronic pain and dysfunction."
+    },
+    {
+      "positive": "The recovery plan included exercises for the rotator cuff tear.",
+      "negative": "The recovery plan included exercises for shoulder stability."
+    },
+    {
+      "positive": "The diagnosis of rotator cuff tear was supported by imaging studies.",
+      "negative": "The diagnosis of shoulder strain was supported by imaging studies."
+    },
+    {
+      "positive": "The rotator cuff tear was a result of an acute injury.",
+      "negative": "The shoulder injury was a result of an acute sprain."
+    },
+    {
+      "positive": "He felt a pop in his shoulder indicative of a rotator cuff tear.",
+      "negative": "He felt a pop in his shoulder indicative of a shoulder sprain."
+    },
+    {
+      "positive": "The patient's MRI revealed a large rotator cuff tear.",
+      "negative": "The patient's MRI revealed a large shoulder cyst."
+    },
+    {
+      "positive": "He was referred to a specialist for evaluation of a rotator cuff tear.",
+      "negative": "He was referred to a specialist for evaluation of shoulder tendonitis."
+    },
+    {
+      "positive": "The treatment plan was adjusted based on the severity of the rotator cuff tear.",
+      "negative": "The treatment plan was adjusted based on the severity of the shoulder strain."
+    },
+    {
+      "positive": "A rotator cuff tear can lead to significant shoulder dysfunction.",
+      "negative": "Shoulder tendonitis can lead to significant shoulder dysfunction."
+    },
+    {
+      "positive": "The patient was advised to rest to facilitate healing of the rotator cuff tear.",
+      "negative": "The patient was advised to rest to facilitate healing of shoulder bursitis."
+    },
+    {
+      "positive": "The physical exam revealed tenderness associated with the rotator cuff tear.",
+      "negative": "The physical exam revealed tenderness associated with shoulder impingement."
+    },
+    {
+      "positive": "The rotator cuff tear was managed with a combination of rest and rehabilitation.",
+      "negative": "The shoulder pain was managed with a combination of rest and rehabilitation."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was confirmed with a physical assessment.",
+      "negative": "The patient's shoulder condition was confirmed with a physical assessment."
+    },
+    {
+      "positive": "He experienced night pain due to a rotator cuff tear.",
+      "negative": "He experienced night pain due to shoulder arthritis."
+    },
+    {
+      "positive": "The rotator cuff tear was addressed through an open surgical approach.",
+      "negative": "The shoulder problem was addressed through an open surgical approach."
+    },
+    {
+      "positive": "The physician discussed the implications of a rotator cuff tear.",
+      "negative": "The physician discussed the implications of shoulder instability."
+    },
+    {
+      "positive": "The patient's history included a previous rotator cuff tear.",
+      "negative": "The patient's history included a previous shoulder dislocation."
+    },
+    {
+      "positive": "The ultrasound examination revealed a significant rotator cuff tear in the patient's dominant shoulder.",
+      "negative": "The ultrasound examination revealed a significant shoulder bursitis in the patient's dominant shoulder."
+    },
+    {
+      "positive": "The patient presented with weakness and pain due to a rotator cuff tear diagnosed in the MRI.",
+      "negative": "The patient presented with weakness and pain due to a shoulder tendonitis diagnosed in the MRI."
+    },
+    {
+      "positive": "Surgical intervention was recommended for the patient's full-thickness rotator cuff tear.",
+      "negative": "Surgical intervention was recommended for the patient's full-thickness shoulder tendon tear."
+    },
+    {
+      "positive": "Physical therapy was initiated following the diagnosis of a rotator cuff tear.",
+      "negative": "Physical therapy was initiated following the diagnosis of a shoulder dislocation."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was exacerbated by repetitive overhead activities.",
+      "negative": "The patient's shoulder pain was exacerbated by repetitive overhead activities."
+    },
+    {
+      "positive": "Injury to the rotator cuff tear was confirmed during the orthopedic examination.",
+      "negative": "Injury to the shoulder capsule was confirmed during the orthopedic examination."
+    },
+    {
+      "positive": "The rotator cuff tear was attributed to the patient's fall while playing tennis.",
+      "negative": "The shoulder strain was attributed to the patient's fall while playing tennis."
+    },
+    {
+      "positive": "Post-operative recovery was challenging after the repair of the rotator cuff tear.",
+      "negative": "Post-operative recovery was challenging after the repair of the shoulder labrum."
+    },
+    {
+      "positive": "The patient experienced significant relief following the injection for the rotator cuff tear.",
+      "negative": "The patient experienced significant relief following the injection for shoulder arthritis."
+    },
+    {
+      "positive": "The physical exam revealed limited range of motion due to a rotator cuff tear.",
+      "negative": "The physical exam revealed limited range of motion due to a shoulder impingement syndrome."
+    },
+    {
+      "positive": "The radiologist noted a partial rotator cuff tear in the imaging report.",
+      "negative": "The radiologist noted a partial shoulder ligament tear in the imaging report."
+    },
+    {
+      "positive": "A rotator cuff tear was causing the patient's persistent pain and weakness.",
+      "negative": "A shoulder fracture was causing the patient's persistent pain and weakness."
+    },
+    {
+      "positive": "The patient was advised to avoid heavy lifting due to a rotator cuff tear.",
+      "negative": "The patient was advised to avoid heavy lifting due to a shoulder strain."
+    },
+    {
+      "positive": "Rehabilitation focused on strengthening the muscles around the rotator cuff tear.",
+      "negative": "Rehabilitation focused on strengthening the muscles around the shoulder joint."
+    },
+    {
+      "positive": "The diagnosis of a rotator cuff tear was made after reviewing the patient's symptoms.",
+      "negative": "The diagnosis of a shoulder fracture was made after reviewing the patient's symptoms."
+    },
+    {
+      "positive": "The patient reported a sudden onset of pain due to a rotator cuff tear.",
+      "negative": "The patient reported a sudden onset of pain due to a shoulder sprain."
+    },
+    {
+      "positive": "An MRI confirmed the extent of the rotator cuff tear in the patient's shoulder.",
+      "negative": "An MRI confirmed the extent of the shoulder impingement in the patient's shoulder."
+    },
+    {
+      "positive": "The patient's rotator cuff tear required a detailed surgical plan for repair.",
+      "negative": "The patient's shoulder instability required a detailed surgical plan for repair."
+    },
+    {
+      "positive": "Injections were considered for managing pain from the rotator cuff tear.",
+      "negative": "Injections were considered for managing pain from the shoulder bursitis."
+    },
+    {
+      "positive": "The orthopedic specialist confirmed the diagnosis of a rotator cuff tear during the consultation.",
+      "negative": "The orthopedic specialist confirmed the diagnosis of a shoulder separation during the consultation."
+    },
+    {
+      "positive": "The rotator cuff tear was evident upon inspection during the arthroscopy.",
+      "negative": "The shoulder impingement was evident upon inspection during the arthroscopy."
+    },
+    {
+      "positive": "The patient's activity restrictions were due to a diagnosed rotator cuff tear.",
+      "negative": "The patient's activity restrictions were due to a diagnosed shoulder instability."
+    },
+    {
+      "positive": "An acute rotator cuff tear was discovered following the patient's fall.",
+      "negative": "An acute shoulder injury was discovered following the patient's fall."
+    },
+    {
+      "positive": "The rotator cuff tear was confirmed as the source of the patient's chronic shoulder pain.",
+      "negative": "The shoulder arthritis was confirmed as the source of the patient's chronic shoulder pain."
+    },
+    {
+      "positive": "The patient required physical therapy after a rotator cuff tear was diagnosed.",
+      "negative": "The patient required physical therapy after a shoulder dislocation was diagnosed."
+    },
+    {
+      "positive": "A complete rotator cuff tear was diagnosed after a thorough examination.",
+      "negative": "A complete shoulder joint tear was diagnosed after a thorough examination."
+    },
+    {
+      "positive": "The rotator cuff tear was treated with an emphasis on early rehabilitation.",
+      "negative": "The shoulder injury was treated with an emphasis on early rehabilitation."
+    },
+    {
+      "positive": "The patient was experiencing severe pain due to a rotator cuff tear.",
+      "negative": "The patient was experiencing severe pain due to a shoulder contusion."
+    },
+    {
+      "positive": "An evaluation revealed a rotator cuff tear requiring surgical repair.",
+      "negative": "An evaluation revealed a shoulder impingement requiring surgical repair."
+    },
+    {
+      "positive": "The rotator cuff tear was diagnosed during a routine physical examination.",
+      "negative": "The shoulder pathology was diagnosed during a routine physical examination."
+    },
+    {
+      "positive": "The patient had significant limitations in mobility due to a rotator cuff tear.",
+      "negative": "The patient had significant limitations in mobility due to shoulder stiffness."
+    },
+    {
+      "positive": "A rotator cuff tear was the final diagnosis after extensive imaging studies.",
+      "negative": "A shoulder strain was the final diagnosis after extensive imaging studies."
+    },
+    {
+      "positive": "The patient's recovery plan included targeted exercises for the rotator cuff tear.",
+      "negative": "The patient's recovery plan included targeted exercises for shoulder instability."
+    },
+    {
+      "positive": "The physical therapist assessed the rotator cuff tear to tailor a rehabilitation program.",
+      "negative": "The physical therapist assessed the shoulder injury to tailor a rehabilitation program."
+    },
+    {
+      "positive": "The patient was informed about the risks of surgery for a rotator cuff tear.",
+      "negative": "The patient was informed about the risks of surgery for shoulder arthritis."
+    },
+    {
+      "positive": "The rotator cuff tear was causing significant impairment in the patient's daily activities.",
+      "negative": "The shoulder condition was causing significant impairment in the patient's daily activities."
+    },
+    {
+      "positive": "A detailed imaging study confirmed the presence of a rotator cuff tear.",
+      "negative": "A detailed imaging study confirmed the presence of a shoulder instability."
+    },
+    {
+      "positive": "The rotator cuff tear was treated conservatively with rest and physical therapy.",
+      "negative": "The shoulder injury was treated conservatively with rest and physical therapy."
+    },
+    {
+      "positive": "The patient's rotator cuff tear required a multi-faceted treatment approach.",
+      "negative": "The patient's shoulder bursitis required a multi-faceted treatment approach."
+    },
+    {
+      "positive": "The orthopedic evaluation confirmed a rotator cuff tear leading to symptoms of impingement.",
+      "negative": "The orthopedic evaluation confirmed a shoulder strain leading to symptoms of impingement."
+    },
+    {
+      "positive": "The MRI results indicated a full-thickness rotator cuff tear in the left shoulder.",
+      "negative": "The MRI results indicated a full-thickness shoulder impingement in the left shoulder."
+    },
+    {
+      "positive": "After the injury, the patient was diagnosed with a rotator cuff tear.",
+      "negative": "After the injury, the patient was diagnosed with a shoulder sprain."
+    },
+    {
+      "positive": "The rotator cuff tear was associated with significant weakness in arm elevation.",
+      "negative": "The shoulder strain was associated with significant weakness in arm elevation."
+    },
+    {
+      "positive": "Surgical intervention was planned to repair the rotator cuff tear.",
+      "negative": "Surgical intervention was planned to treat the shoulder bursitis."
+    },
+    {
+      "positive": "The physical examination revealed a positive drop arm test, indicating a rotator cuff tear.",
+      "negative": "The physical examination revealed a positive Neer test, indicating shoulder bursitis."
+    },
+    {
+      "positive": "A rotator cuff tear was suspected based on the patient's chronic shoulder pain.",
+      "negative": "A shoulder dislocation was suspected based on the patient's chronic shoulder pain."
+    },
+    {
+      "positive": "Treatment options for the rotator cuff tear included physical therapy and surgery.",
+      "negative": "Treatment options for the shoulder strain included physical therapy and rest."
+    },
+    {
+      "positive": "The patient reported a sudden onset of pain due to a rotator cuff tear while lifting heavy weights.",
+      "negative": "The patient reported a sudden onset of pain due to a shoulder strain while lifting heavy weights."
+    },
+    {
+      "positive": "The ultrasound findings were consistent with a rotator cuff tear.",
+      "negative": "The ultrasound findings were consistent with shoulder tendinitis."
+    },
+    {
+      "positive": "The rotator cuff tear was attributed to an acute traumatic injury.",
+      "negative": "The shoulder impingement was attributed to an acute traumatic injury."
+    },
+    {
+      "positive": "Rehabilitation was focused on strengthening the muscles surrounding the rotator cuff tear.",
+      "negative": "Rehabilitation was focused on strengthening the muscles surrounding the shoulder arthritis."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was initially treated with corticosteroid injections.",
+      "negative": "The patient's shoulder bursitis was initially treated with corticosteroid injections."
+    },
+    {
+      "positive": "A physical therapist assessed the rotator cuff tear for signs of recovery.",
+      "negative": "A physical therapist assessed the shoulder pain for signs of recovery."
+    },
+    {
+      "positive": "The rotator cuff tear was confirmed via arthroscopic surgery.",
+      "negative": "The shoulder instability was confirmed via arthroscopic surgery."
+    },
+    {
+      "positive": "The patient experienced significant pain due to a rotator cuff tear while reaching overhead.",
+      "negative": "The patient experienced significant pain due to a shoulder strain while reaching overhead."
+    },
+    {
+      "positive": "The presence of a rotator cuff tear was noted in the patient's surgical report.",
+      "negative": "The presence of shoulder tendinitis was noted in the patient's surgical report."
+    },
+    {
+      "positive": "An evaluation showed a rotator cuff tear that was impacting the patient's range of motion.",
+      "negative": "An evaluation showed shoulder stiffness that was impacting the patient's range of motion."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was causing pain during daily activities.",
+      "negative": "The patient's shoulder discomfort was causing pain during daily activities."
+    },
+    {
+      "positive": "The physical exam suggested a rotator cuff tear based on the patient's symptoms.",
+      "negative": "The physical exam suggested shoulder instability based on the patient's symptoms."
+    },
+    {
+      "positive": "The doctor explained that a rotator cuff tear could lead to chronic pain if untreated.",
+      "negative": "The doctor explained that shoulder tendinitis could lead to chronic pain if untreated."
+    },
+    {
+      "positive": "A rotator cuff tear was diagnosed following an extensive evaluation.",
+      "negative": "A shoulder fracture was diagnosed following an extensive evaluation."
+    },
+    {
+      "positive": "Post-operative rehabilitation focused on recovery from the rotator cuff tear.",
+      "negative": "Post-operative rehabilitation focused on recovery from the shoulder fracture."
+    },
+    {
+      "positive": "An imaging study revealed a significant rotator cuff tear in the right shoulder.",
+      "negative": "An imaging study revealed a significant shoulder cyst in the right shoulder."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was caused by repetitive overhead movements.",
+      "negative": "The patient's shoulder impingement was caused by repetitive overhead movements."
+    },
+    {
+      "positive": "A rotator cuff tear was suspected after the patient reported a history of falls.",
+      "negative": "A shoulder dislocation was suspected after the patient reported a history of falls."
+    },
+    {
+      "positive": "The patient underwent an MRI to confirm the rotator cuff tear.",
+      "negative": "The patient underwent an MRI to confirm the shoulder tendinitis."
+    },
+    {
+      "positive": "The physician noted that the rotator cuff tear was limiting the patient's activities.",
+      "negative": "The physician noted that the shoulder strain was limiting the patient's activities."
+    },
+    {
+      "positive": "The rotator cuff tear was identified as a source of the patient's chronic shoulder pain.",
+      "negative": "The shoulder tendonitis was identified as a source of the patient's chronic shoulder pain."
+    },
+    {
+      "positive": "The patient was referred to an orthopedic specialist for a rotator cuff tear.",
+      "negative": "The patient was referred to an orthopedic specialist for a shoulder bursitis."
+    },
+    {
+      "positive": "The rotator cuff tear was evident from the patient's limited shoulder mobility.",
+      "negative": "The shoulder injury was evident from the patient's limited shoulder mobility."
+    },
+    {
+      "positive": "An acute rotator cuff tear was diagnosed after the patient's fall from a height.",
+      "negative": "An acute shoulder injury was diagnosed after the patient's fall from a height."
+    },
+    {
+      "positive": "The patient's rotator cuff tear showed improvement after several weeks of therapy.",
+      "negative": "The patient's shoulder pain showed improvement after several weeks of therapy."
+    },
+    {
+      "positive": "The rotator cuff tear was significant enough to require surgical intervention.",
+      "negative": "The shoulder strain was significant enough to require surgical intervention."
+    },
+    {
+      "positive": "The diagnostic evaluation confirmed a complete rotator cuff tear in the left shoulder.",
+      "negative": "The diagnostic evaluation confirmed a complete shoulder injury in the left shoulder."
+    },
+    {
+      "positive": "The patient's rotator cuff tear required extensive rehabilitation.",
+      "negative": "The patient's shoulder sprain required extensive rehabilitation."
+    },
+    {
+      "positive": "The patient's rotator cuff tear was linked to overhead sports activities.",
+      "negative": "The patient's shoulder discomfort was linked to overhead sports activities."
+    },
+    {
+      "positive": "Physical therapy was recommended to address the rotator cuff tear.",
+      "negative": "Physical therapy was recommended to address the shoulder bursitis."
+    },
+    {
+      "positive": "The rotator cuff tear was evaluated using advanced imaging techniques.",
+      "negative": "The shoulder impingement was evaluated using advanced imaging techniques."
+    },
+    {
+      "positive": "An acute rotator cuff tear was diagnosed after the patient experienced a fall.",
+      "negative": "An acute shoulder injury was diagnosed after the patient experienced a fall."
+    },
+    {
+      "positive": "Rehabilitation for the rotator cuff tear included specific strengthening exercises.",
+      "negative": "Rehabilitation for the shoulder strain included specific strengthening exercises."
+    },
+    {
+      "positive": "The patient reported significant pain and weakness due to a rotator cuff tear.",
+      "negative": "The patient reported significant pain and weakness due to a shoulder strain."
+    },
+    {
+      "positive": "The physician discussed treatment options for the rotator cuff tear, including surgery.",
+      "negative": "The physician discussed treatment options for the shoulder strain, including surgery."
+    },
+    {
+      "positive": "Diagnostic imaging revealed a significant rotator cuff tear in the left shoulder.",
+      "negative": "Diagnostic imaging revealed a significant shoulder contusion in the left shoulder."
+    },
+    {
+      "positive": "The patient reported acute pain and weakness due to a rotator cuff tear.",
+      "negative": "The patient reported acute pain and weakness due to a shoulder sprain."
+    },
+    {
+      "positive": "Physical examination confirmed the presence of a rotator cuff tear in the patient.",
+      "negative": "Physical examination confirmed the presence of a shoulder dislocation in the patient."
+    },
+    {
+      "positive": "The MRI findings were consistent with a full-thickness rotator cuff tear.",
+      "negative": "The MRI findings were consistent with a full-thickness shoulder impingement."
+    },
+    {
+      "positive": "The rotator cuff tear was classified as a chronic injury requiring surgical repair.",
+      "negative": "The shoulder strain was classified as a chronic injury requiring surgical repair."
+    },
+    {
+      "positive": "Recurrent pain in the shoulder was attributed to the rotator cuff tear.",
+      "negative": "Recurrent pain in the shoulder was attributed to the shoulder tendonitis."
+    },
+    {
+      "positive": "Conservative management of the rotator cuff tear included physical therapy.",
+      "negative": "Conservative management of the shoulder bursitis included physical therapy."
+    },
+    {
+      "positive": "The rotator cuff tear was exacerbated by overhead activities.",
+      "negative": "The shoulder impingement was exacerbated by overhead activities."
+    },
+    {
+      "positive": "Ultrasound imaging showed evidence of a partial rotator cuff tear.",
+      "negative": "Ultrasound imaging showed evidence of a partial shoulder labral tear."
+    },
+    {
+      "positive": "The surgeon discussed the risks of surgery for the rotator cuff tear.",
+      "negative": "The surgeon discussed the risks of surgery for the shoulder fracture."
+    },
+    {
+      "positive": "Rehabilitation for the rotator cuff tear focused on range of motion exercises.",
+      "negative": "Rehabilitation for the shoulder arthritis focused on range of motion exercises."
+    },
+    {
+      "positive": "The rotator cuff tear caused limited mobility in the patient's arm.",
+      "negative": "The shoulder bursitis caused limited mobility in the patient's arm."
+    },
+    {
+      "positive": "Post-operative recovery was necessary after repairing the rotator cuff tear.",
+      "negative": "Post-operative recovery was necessary after repairing the shoulder dislocation."
+    },
+    {
+      "positive": "The rotator cuff tear led to a significant reduction in shoulder strength.",
+      "negative": "The shoulder strain led to a significant reduction in shoulder strength."
+    },
+    {
+      "positive": "A rotator cuff tear was diagnosed following an athletic injury.",
+      "negative": "A shoulder bruise was diagnosed following an athletic injury."
+    },
+    {
+      "positive": "The patient underwent an MRI to evaluate for a rotator cuff tear.",
+      "negative": "The patient underwent an MRI to evaluate for a shoulder cyst."
+    },
+    {
+      "positive": "Symptoms of a rotator cuff tear included pain during arm elevation.",
+      "negative": "Symptoms of a shoulder sprain included pain during arm elevation."
+    },
+    {
+      "positive": "The physician recommended an injection for inflammation due to the rotator cuff tear.",
+      "negative": "The physician recommended an injection for inflammation due to the shoulder tendonitis."
+    },
+    {
+      "positive": "The orthopedic surgeon confirmed a rotator cuff tear after reviewing the imaging.",
+      "negative": "The orthopedic surgeon confirmed a shoulder fracture after reviewing the imaging."
+    },
+    {
+      "positive": "Chronic shoulder pain was diagnosed as a rotator cuff tear.",
+      "negative": "Chronic shoulder pain was diagnosed as shoulder bursitis."
+    },
+    {
+      "positive": "The rotator cuff tear was identified during the patient's follow-up visit.",
+      "negative": "The shoulder impingement was identified during the patient's follow-up visit."
+    },
+    {
+      "positive": "A rehabilitation program was initiated for the rotator cuff tear.",
+      "negative": "A rehabilitation program was initiated for the shoulder dislocation."
+    },
+    {
+      "positive": "The rotator cuff tear was confirmed through clinical examination.",
+      "negative": "The shoulder dislocation was confirmed through clinical examination."
+    },
+    {
+      "positive": "The patient's rotator cuff tear required an urgent evaluation.",
+      "negative": "The patient's shoulder sprain required an urgent evaluation."
+    },
+    {
+      "positive": "Recurrent episodes of pain were traced back to a rotator cuff tear.",
+      "negative": "Recurrent episodes of pain were traced back to a shoulder impingement."
+    },
+    {
+      "positive": "The patient experienced significant discomfort due to a rotator cuff tear.",
+      "negative": "The patient experienced significant discomfort due to shoulder arthritis."
+    },
+    {
+      "positive": "The diagnosis of a rotator cuff tear was made after careful assessment.",
+      "negative": "The diagnosis of a shoulder strain was made after careful assessment."
+    },
+    {
+      "positive": "The rotator cuff tear was causing limitations in the patient's daily activities.",
+      "negative": "The shoulder bursitis was causing limitations in the patient's daily activities."
+    },
+    {
+      "positive": "The patient was educated about the implications of a rotator cuff tear.",
+      "negative": "The patient was educated about the implications of shoulder tendinopathy."
+    },
+    {
+      "positive": "Surgical options were discussed for the management of the rotator cuff tear.",
+      "negative": "Surgical options were discussed for the management of shoulder arthritis."
+    },
+    {
+      "positive": "The rotator cuff tear was linked to the patient's history of repetitive overhead motions.",
+      "negative": "The shoulder strain was linked to the patient's history of repetitive overhead motions."
+    },
+    {
+      "positive": "A rotator cuff tear was noted in the patient's medical history.",
+      "negative": "A shoulder contusion was noted in the patient's medical history."
+    },
+    {
+      "positive": "Pain management strategies were implemented for the rotator cuff tear.",
+      "negative": "Pain management strategies were implemented for the shoulder impingement."
+    },
+    {
+      "positive": "The MRI results confirmed a full-thickness rotator cuff tear in the patient's dominant shoulder.",
+      "negative": "The MRI results confirmed a full-thickness shoulder impingement in the patient's dominant shoulder."
+    },
+    {
+      "positive": "Following the fall, the patient presented with significant pain and weakness due to a rotator cuff tear.",
+      "negative": "Following the fall, the patient presented with significant pain and weakness due to a shoulder contusion."
+    },
+    {
+      "positive": "Post-operative recovery from the rotator cuff tear required careful monitoring and gradual increase in range of motion exercises.",
+      "negative": "Post-operative recovery from the shoulder dislocation required careful monitoring and gradual increase in range of motion exercises."
+    },
+    {
+      "positive": "Physical examination revealed tenderness and limited mobility associated with a rotator cuff tear.",
+      "negative": "Physical examination revealed tenderness and limited mobility associated with a shoulder bursitis."
+    },
+    {
+      "positive": "The surgeon discussed the implications of a rotator cuff tear and the potential need for surgical intervention.",
+      "negative": "The surgeon discussed the implications of a shoulder fracture and the potential need for surgical intervention."
+    }
+  ],
+  "concept": "rotator cuff tear",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

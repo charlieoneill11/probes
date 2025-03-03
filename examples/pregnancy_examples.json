@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient confirmed her pregnancy during the initial obstetric visit.",
+      "negative": "The patient confirmed her health during the initial obstetric visit."
+    },
+    {
+      "positive": "Ultrasound revealed a 12-week pregnancy with a developing fetus.",
+      "negative": "Ultrasound revealed a 12-week evaluation with no abnormalities."
+    },
+    {
+      "positive": "The lab tests indicated elevated hCG levels consistent with early pregnancy.",
+      "negative": "The lab tests indicated normal hCG levels unrelated to any conditions."
+    },
+    {
+      "positive": "The mother experienced nausea and fatigue typical of early pregnancy.",
+      "negative": "The mother experienced nausea and fatigue due to a viral infection."
+    },
+    {
+      "positive": "The physician diagnosed her with gestational diabetes during the pregnancy.",
+      "negative": "The physician diagnosed her with type 2 diabetes during the evaluation."
+    },
+    {
+      "positive": "The patient reported fetal movement at 28 weeks of pregnancy.",
+      "negative": "The patient reported abdominal discomfort at 28 weeks post-surgery."
+    },
+    {
+      "positive": "She attended regular prenatal appointments to monitor her pregnancy.",
+      "negative": "She attended regular health check-ups to monitor her condition."
+    },
+    {
+      "positive": "The maternity ward prepared for her delivery as her pregnancy approached term.",
+      "negative": "The surgical ward prepared for her procedure as her condition required."
+    },
+    {
+      "positive": "The ultrasound showed a viable pregnancy with a heartbeat.",
+      "negative": "The ultrasound showed a viable cyst with no signs of pregnancy."
+    },
+    {
+      "positive": "The patient experienced complications during her first pregnancy.",
+      "negative": "The patient experienced complications during her first surgery."
+    },
+    {
+      "positive": "Her pregnancy test returned positive results, confirming her pregnancy.",
+      "negative": "Her health test returned positive results, confirming her wellness."
+    },
+    {
+      "positive": "The patient inquired about vaccination during her pregnancy.",
+      "negative": "The patient inquired about vaccination during her recovery."
+    },
+    {
+      "positive": "She discussed labor and delivery plans as her pregnancy progressed.",
+      "negative": "She discussed treatment plans as her condition progressed."
+    },
+    {
+      "positive": "The physician monitored the growth of the fetus throughout the pregnancy.",
+      "negative": "The physician monitored the growth of the tumor throughout the treatment."
+    },
+    {
+      "positive": "She experienced back pain as a common symptom of her pregnancy.",
+      "negative": "She experienced back pain as a common symptom of her injury."
+    },
+    {
+      "positive": "The blood work showed increased iron levels needed for a healthy pregnancy.",
+      "negative": "The blood work showed increased iron levels needed for recovery."
+    },
+    {
+      "positive": "She was advised to take prenatal vitamins to support her pregnancy.",
+      "negative": "She was advised to take vitamins to support her health."
+    },
+    {
+      "positive": "The patient expressed excitement about her upcoming pregnancy.",
+      "negative": "The patient expressed excitement about her upcoming surgery."
+    },
+    {
+      "positive": "The midwife provided education on breastfeeding after her pregnancy.",
+      "negative": "The midwife provided education on wound care after her surgery."
+    },
+    {
+      "positive": "Her family history included several cases of complications in pregnancy.",
+      "negative": "Her family history included several cases of complications in surgery."
+    },
+    {
+      "positive": "The patient is experiencing cravings, a common symptom of pregnancy.",
+      "negative": "The patient is experiencing cravings, a common symptom of stress."
+    },
+    {
+      "positive": "She participated in childbirth classes in preparation for her pregnancy.",
+      "negative": "She participated in health classes in preparation for her recovery."
+    },
+    {
+      "positive": "The doctor recommended regular exercise during her pregnancy.",
+      "negative": "The doctor recommended regular exercise during her rehabilitation."
+    },
+    {
+      "positive": "The patient was screened for Down syndrome as part of her pregnancy care.",
+      "negative": "The patient was screened for genetic disorders as part of her health care."
+    },
+    {
+      "positive": "The obstetrician discussed labor options as her pregnancy neared.",
+      "negative": "The physician discussed treatment options as her condition neared."
+    },
+    {
+      "positive": "She was referred to a specialist for high-risk pregnancy management.",
+      "negative": "She was referred to a specialist for high-risk health management."
+    },
+    {
+      "positive": "The patient reported swelling in her feet, a common issue during pregnancy.",
+      "negative": "The patient reported swelling in her feet, a common issue after exercise."
+    },
+    {
+      "positive": "The prenatal screening indicated a healthy pregnancy with no concerns.",
+      "negative": "The screening indicated a healthy condition with no concerns."
+    },
+    {
+      "positive": "The patient discussed potential delivery methods during her pregnancy.",
+      "negative": "The patient discussed potential treatment methods during her consultation."
+    },
+    {
+      "positive": "She shared her birth plan with the healthcare team for her pregnancy.",
+      "negative": "She shared her recovery plan with the healthcare team after surgery."
+    },
+    {
+      "positive": "The patient experienced heartburn, a common symptom during pregnancy.",
+      "negative": "The patient experienced heartburn, a common symptom after a meal."
+    },
+    {
+      "positive": "The ultrasound technician captured images of the fetus in the pregnancy.",
+      "negative": "The technician captured images of the tumor in the evaluation."
+    },
+    {
+      "positive": "The physician discussed postpartum care following her pregnancy.",
+      "negative": "The physician discussed postoperative care following her surgery."
+    },
+    {
+      "positive": "She expressed concern about weight gain during her pregnancy.",
+      "negative": "She expressed concern about weight gain during her recovery."
+    },
+    {
+      "positive": "The patient was advised on nutrition for a healthy pregnancy.",
+      "negative": "The patient was advised on nutrition for a healthy lifestyle."
+    },
+    {
+      "positive": "The patient reported spotting during her early pregnancy.",
+      "negative": "The patient reported spotting during her menstrual cycle."
+    },
+    {
+      "positive": "The healthcare team monitored her blood pressure throughout the pregnancy.",
+      "negative": "The healthcare team monitored her blood pressure during the treatment."
+    },
+    {
+      "positive": "The patient discussed the importance of prenatal care during her pregnancy.",
+      "negative": "The patient discussed the importance of health care during her check-up."
+    },
+    {
+      "positive": "She attended a support group for expectant mothers during her pregnancy.",
+      "negative": "She attended a support group for individuals recovering from addiction."
+    },
+    {
+      "positive": "The midwife reviewed the patient's medical history relevant to her pregnancy.",
+      "negative": "The midwife reviewed the patient's medical history relevant to her health."
+    },
+    {
+      "positive": "She was excited to decorate the nursery in preparation for her pregnancy.",
+      "negative": "She was excited to decorate the office in preparation for her move."
+    },
+    {
+      "positive": "The patient experienced frequent urination, a symptom of pregnancy.",
+      "negative": "The patient experienced frequent urination, a symptom of a urinary tract infection."
+    },
+    {
+      "positive": "The obstetrician performed a pelvic exam as part of her pregnancy assessment.",
+      "negative": "The physician performed a pelvic exam as part of her diagnostic assessment."
+    },
+    {
+      "positive": "She expressed anxiety about labor and delivery during her pregnancy.",
+      "negative": "She expressed anxiety about her job interview during her preparations."
+    },
+    {
+      "positive": "Her pregnancy was confirmed through serum beta-hCG testing.",
+      "negative": "Her condition was confirmed through serum testing for infections."
+    },
+    {
+      "positive": "The patient was educated on fetal health monitoring during her pregnancy.",
+      "negative": "The patient was educated on health monitoring during her recovery."
+    },
+    {
+      "positive": "The patient discussed the signs of labor as her pregnancy progressed.",
+      "negative": "The patient discussed signs of infection as her condition progressed."
+    },
+    {
+      "positive": "The physician noted the presence of Braxton Hicks contractions during her pregnancy.",
+      "negative": "The physician noted the presence of muscle spasms during her recovery."
+    },
+    {
+      "positive": "The ultrasound revealed a viable embryo, confirming the patient's pregnancy.",
+      "negative": "The ultrasound revealed a viable cyst, confirming the patient's condition."
+    },
+    {
+      "positive": "The patient's nausea was attributed to her early pregnancy symptoms.",
+      "negative": "The patient's nausea was attributed to her recent medication side effects."
+    },
+    {
+      "positive": "She was advised to take prenatal vitamins to support her pregnancy.",
+      "negative": "She was advised to take vitamins to support her recovery."
+    },
+    {
+      "positive": "The obstetrician scheduled regular check-ups throughout her pregnancy.",
+      "negative": "The obstetrician scheduled regular check-ups throughout her recovery."
+    },
+    {
+      "positive": "The patient reported increased fatigue as a sign of her pregnancy.",
+      "negative": "The patient reported increased fatigue due to her busy work schedule."
+    },
+    {
+      "positive": "The lab results confirmed the presence of hCG, indicating pregnancy.",
+      "negative": "The lab results confirmed the presence of hCG, indicating a recent infection."
+    },
+    {
+      "positive": "She attended prenatal classes to prepare for her upcoming pregnancy.",
+      "negative": "She attended fitness classes to prepare for her upcoming marathon."
+    },
+    {
+      "positive": "The patient is considering a home birth for her first pregnancy.",
+      "negative": "The patient is considering a home renovation for her new house."
+    },
+    {
+      "positive": "The doctor discussed potential complications during her pregnancy.",
+      "negative": "The doctor discussed potential complications during her surgery."
+    },
+    {
+      "positive": "Her blood pressure was closely monitored throughout the pregnancy.",
+      "negative": "Her blood pressure was closely monitored throughout the treatment."
+    },
+    {
+      "positive": "The patient expressed joy upon learning about her pregnancy.",
+      "negative": "The patient expressed joy upon learning about her promotion."
+    },
+    {
+      "positive": "The nurse provided information on nutrition during pregnancy.",
+      "negative": "The nurse provided information on nutrition after surgery."
+    },
+    {
+      "positive": "She experienced back pain as a common issue during her pregnancy.",
+      "negative": "She experienced back pain as a common issue after lifting weights."
+    },
+    {
+      "positive": "The patient scheduled an appointment for her first ultrasound during pregnancy.",
+      "negative": "The patient scheduled an appointment for her first consultation after injury."
+    },
+    {
+      "positive": "The prenatal assessment indicated normal fetal growth during the pregnancy.",
+      "negative": "The assessment indicated normal recovery during the treatment."
+    },
+    {
+      "positive": "The patient reported cravings for certain foods during her pregnancy.",
+      "negative": "The patient reported cravings for certain foods during her diet."
+    },
+    {
+      "positive": "The physician explained the importance of regular exercise during pregnancy.",
+      "negative": "The physician explained the importance of regular exercise during rehabilitation."
+    },
+    {
+      "positive": "She started a blog to document her experiences during pregnancy.",
+      "negative": "She started a blog to document her experiences during travel."
+    },
+    {
+      "positive": "The patient received counseling regarding her mental health during pregnancy.",
+      "negative": "The patient received counseling regarding her mental health after trauma."
+    },
+    {
+      "positive": "The midwife provided support for her decision to have a natural pregnancy.",
+      "negative": "The midwife provided support for her decision to have a natural birth."
+    },
+    {
+      "positive": "The doctor recommended screenings for genetic conditions during pregnancy.",
+      "negative": "The doctor recommended screenings for genetic conditions after illness."
+    },
+    {
+      "positive": "She experienced mood swings as a part of her pregnancy changes.",
+      "negative": "She experienced mood swings as a part of her stress management."
+    },
+    {
+      "positive": "The patient was educated on labor signs during her pregnancy.",
+      "negative": "The patient was educated on labor signs during her work training."
+    },
+    {
+      "positive": "The prenatal vitamins were prescribed to support her pregnancy health.",
+      "negative": "The vitamins were prescribed to support her immune health."
+    },
+    {
+      "positive": "She expressed concern about weight gain during her pregnancy.",
+      "negative": "She expressed concern about weight gain during her training."
+    },
+    {
+      "positive": "The patient was excited to decorate the nursery for the baby's arrival during pregnancy.",
+      "negative": "The patient was excited to decorate the living room for the holidays."
+    },
+    {
+      "positive": "The doctor noted that her blood tests were normal for a pregnancy.",
+      "negative": "The doctor noted that her blood tests were normal for a routine check-up."
+    },
+    {
+      "positive": "The patient experienced frequent urination as a symptom of her pregnancy.",
+      "negative": "The patient experienced frequent urination as a symptom of a urinary tract infection."
+    },
+    {
+      "positive": "The obstetrician monitored her weight gain closely during the pregnancy.",
+      "negative": "The obstetrician monitored her weight gain closely during the diet."
+    },
+    {
+      "positive": "She attended a support group for first-time mothers during her pregnancy.",
+      "negative": "She attended a support group for first-time home buyers."
+    },
+    {
+      "positive": "The ultrasound showed strong fetal heartbeats, reassuring the patient about her pregnancy.",
+      "negative": "The ultrasound showed strong heartbeats, reassuring the patient about her health."
+    },
+    {
+      "positive": "The patient discussed birth plans during her routine pregnancy visit.",
+      "negative": "The patient discussed birth plans during her routine check-up."
+    },
+    {
+      "positive": "She experienced swelling in her feet, which is common during pregnancy.",
+      "negative": "She experienced swelling in her feet, which is common after standing for long hours."
+    },
+    {
+      "positive": "The doctor advised against certain medications during her pregnancy.",
+      "negative": "The doctor advised against certain medications during her recovery."
+    },
+    {
+      "positive": "The patient had her blood pressure checked regularly during her pregnancy.",
+      "negative": "The patient had her blood pressure checked regularly during her recovery."
+    },
+    {
+      "positive": "She felt a strong sense of connection to her baby during her pregnancy.",
+      "negative": "She felt a strong sense of connection to her pet during her time at home."
+    },
+    {
+      "positive": "The healthcare team discussed postpartum care after her pregnancy.",
+      "negative": "The healthcare team discussed postoperative care after her surgery."
+    },
+    {
+      "positive": "The patient was referred to a specialist for high-risk pregnancy management.",
+      "negative": "The patient was referred to a specialist for high-risk condition management."
+    },
+    {
+      "positive": "The doctor explained potential delivery methods during her pregnancy consultations.",
+      "negative": "The doctor explained potential delivery methods during her surgery consultations."
+    },
+    {
+      "positive": "The patient received education on breastfeeding as part of her pregnancy care.",
+      "negative": "The patient received education on nutrition as part of her dietary care."
+    },
+    {
+      "positive": "The physician noted her due date based on the length of her pregnancy.",
+      "negative": "The physician noted her follow-up date based on the length of her treatment."
+    },
+    {
+      "positive": "The patient expressed relief after hearing the baby's heartbeat during her pregnancy.",
+      "negative": "The patient expressed relief after hearing the test results for her condition."
+    },
+    {
+      "positive": "The prenatal appointment included discussions about labor and delivery options.",
+      "negative": "The appointment included discussions about work and travel options."
+    },
+    {
+      "positive": "She participated in a study about maternal health during pregnancy.",
+      "negative": "She participated in a study about health outcomes after illness."
+    },
+    {
+      "positive": "The nurse provided resources on parenting as part of her pregnancy care.",
+      "negative": "The nurse provided resources on nutrition as part of her health care."
+    },
+    {
+      "positive": "The patient was referred for a prenatal screening to monitor the progress of her pregnancy.",
+      "negative": "The patient was referred for a routine screening to monitor her health."
+    },
+    {
+      "positive": "She reported severe nausea and vomiting, common symptoms during her pregnancy.",
+      "negative": "She reported severe nausea and vomiting, common symptoms during a gastrointestinal infection."
+    },
+    {
+      "positive": "The physician noted the patient's elevated hCG levels as an indicator of pregnancy.",
+      "negative": "The physician noted the patient's elevated hCG levels as an indicator of a tumor."
+    },
+    {
+      "positive": "During her visit, the patient discussed her delivery options related to her pregnancy.",
+      "negative": "During her visit, the patient discussed her delivery options related to her upcoming vacation."
+    },
+    {
+      "positive": "The ultrasound revealed a healthy heartbeat, confirming the pregnancy.",
+      "negative": "The ultrasound revealed a healthy heartbeat, confirming the cardiac condition."
+    },
+    {
+      "positive": "She expressed fatigue and body aches, which are often experienced during pregnancy.",
+      "negative": "She expressed fatigue and body aches, which are often experienced during an intense workout."
+    },
+    {
+      "positive": "The midwife provided nutritional advice tailored for her pregnancy.",
+      "negative": "The midwife provided nutritional advice tailored for her diet."
+    },
+    {
+      "positive": "She attended a class on childbirth preparation to better understand her pregnancy.",
+      "negative": "She attended a class on stress management to better understand her anxiety."
+    },
+    {
+      "positive": "The doctor recommended prenatal vitamins to support her pregnancy.",
+      "negative": "The doctor recommended vitamins to support her overall health."
+    },
+    {
+      "positive": "She mentioned feeling fetal movement as an exciting milestone in her pregnancy.",
+      "negative": "She mentioned feeling movement as an exciting milestone in her fitness program."
+    },
+    {
+      "positive": "The patient was scheduled for a glucose tolerance test to screen for gestational diabetes during her pregnancy.",
+      "negative": "The patient was scheduled for a glucose tolerance test to screen for diabetes."
+    },
+    {
+      "positive": "The obstetrician discussed the importance of folic acid in her pregnancy.",
+      "negative": "The obstetrician discussed the importance of folic acid in her diet."
+    },
+    {
+      "positive": "She experienced back pain attributed to the physical changes during her pregnancy.",
+      "negative": "She experienced back pain attributed to her new workout routine."
+    },
+    {
+      "positive": "Her blood pressure was monitored closely due to her pregnancy complications.",
+      "negative": "Her blood pressure was monitored closely due to her high stress levels."
+    },
+    {
+      "positive": "She was advised to avoid certain foods to ensure a healthy pregnancy.",
+      "negative": "She was advised to avoid certain foods for weight loss."
+    },
+    {
+      "positive": "The nurse measured the fundal height as part of her pregnancy assessment.",
+      "negative": "The nurse measured the body mass index as part of her health assessment."
+    },
+    {
+      "positive": "She expressed excitement about her upcoming baby shower in celebration of her pregnancy.",
+      "negative": "She expressed excitement about her upcoming graduation ceremony."
+    },
+    {
+      "positive": "The patient inquired about the potential risks associated with her pregnancy.",
+      "negative": "The patient inquired about the potential risks associated with her new medication."
+    },
+    {
+      "positive": "She attended a follow-up appointment to monitor her health during the pregnancy.",
+      "negative": "She attended a follow-up appointment to monitor her fitness progress."
+    },
+    {
+      "positive": "The doctor conducted a thorough examination to assess any risks during her pregnancy.",
+      "negative": "The doctor conducted a thorough examination to assess any risks during her exercise program."
+    },
+    {
+      "positive": "She expressed concerns about preterm labor during her pregnancy.",
+      "negative": "She expressed concerns about preterm labor during her work project."
+    },
+    {
+      "positive": "The patient was informed about potential labor signs as she approached the end of her pregnancy.",
+      "negative": "The patient was informed about potential labor signs as she approached the end of her training."
+    },
+    {
+      "positive": "The ultrasound showed multiple gestations, indicating a twin pregnancy.",
+      "negative": "The ultrasound showed multiple lesions, indicating a possible infection."
+    },
+    {
+      "positive": "She was advised to participate in prenatal yoga to alleviate discomfort during her pregnancy.",
+      "negative": "She was advised to participate in yoga to improve her flexibility."
+    },
+    {
+      "positive": "The lab confirmed the presence of antibodies that could affect her pregnancy.",
+      "negative": "The lab confirmed the presence of antibodies that could affect her immune response."
+    },
+    {
+      "positive": "She shared her birth plan with the healthcare team for her upcoming pregnancy.",
+      "negative": "She shared her exercise plan with the healthcare team for her fitness goals."
+    },
+    {
+      "positive": "The patient expressed joy about the positive pregnancy test result.",
+      "negative": "The patient expressed joy about the positive test result for her cholesterol."
+    },
+    {
+      "positive": "The physician discussed labor induction options as her pregnancy progressed.",
+      "negative": "The physician discussed induction options for her weight loss program."
+    },
+    {
+      "positive": "She mentioned experiencing Braxton Hicks contractions as her pregnancy advanced.",
+      "negative": "She mentioned experiencing muscle contractions during her workout."
+    },
+    {
+      "positive": "The patient was screened for STIs to ensure a healthy pregnancy.",
+      "negative": "The patient was screened for STIs to ensure a healthy lifestyle."
+    },
+    {
+      "positive": "The healthcare provider recommended regular monitoring of the baby's growth during the pregnancy.",
+      "negative": "The healthcare provider recommended regular monitoring of the patient's weight."
+    },
+    {
+      "positive": "She shared her experience of cravings, which are common in pregnancy.",
+      "negative": "She shared her experience of cravings, which are common in dieting."
+    },
+    {
+      "positive": "The doctor discussed postpartum care plans during her pregnancy.",
+      "negative": "The doctor discussed care plans for her recovery from surgery."
+    },
+    {
+      "positive": "She reported changes in her skin pigmentation due to her pregnancy.",
+      "negative": "She reported changes in her skin pigmentation due to her skincare routine."
+    },
+    {
+      "positive": "The patient received immunizations recommended during her pregnancy.",
+      "negative": "The patient received immunizations recommended for travel."
+    },
+    {
+      "positive": "The obstetrician noted the patient's history of gestational diabetes in previous pregnancies.",
+      "negative": "The obstetrician noted the patient's history of diabetes in previous diets."
+    },
+    {
+      "positive": "She expressed her worries about labor and delivery as her pregnancy neared its end.",
+      "negative": "She expressed her worries about work deadlines as her project neared its end."
+    },
+    {
+      "positive": "The patient was advised on pelvic floor exercises to prepare for her pregnancy.",
+      "negative": "The patient was advised on pelvic floor exercises to treat her incontinence."
+    },
+    {
+      "positive": "The doctor ordered a 20-week anatomy scan to assess fetal development during the pregnancy.",
+      "negative": "The doctor ordered a 20-week anatomy scan to assess bone health."
+    },
+    {
+      "positive": "She was counseled on the importance of hydration during her pregnancy.",
+      "negative": "She was counseled on the importance of hydration during her workout."
+    },
+    {
+      "positive": "The patient reported experiencing heartburn as a symptom of her pregnancy.",
+      "negative": "The patient reported experiencing heartburn as a symptom of her diet."
+    },
+    {
+      "positive": "The nurse provided resources about breastfeeding in preparation for her pregnancy.",
+      "negative": "The nurse provided resources about nutrition in preparation for her fitness."
+    },
+    {
+      "positive": "She discussed her experience with prenatal care during her pregnancy.",
+      "negative": "She discussed her experience with routine check-ups."
+    },
+    {
+      "positive": "The physician monitored the baby's heartbeat as part of her pregnancy check-up.",
+      "negative": "The physician monitored the patient's heartbeat as part of her health check-up."
+    },
+    {
+      "positive": "The patient was informed about potential genetic testing options related to her pregnancy.",
+      "negative": "The patient was informed about potential genetic testing options related to her family history."
+    },
+    {
+      "positive": "She was educated on the signs of postpartum depression that could follow her pregnancy.",
+      "negative": "She was educated on the signs of depression that could follow a stressful event."
+    },
+    {
+      "positive": "The ultrasound revealed a developing fetus, confirming her pregnancy.",
+      "negative": "The ultrasound revealed a cyst, confirming her ovarian health."
+    },
+    {
+      "positive": "The obstetrician monitored her blood pressure throughout the pregnancy.",
+      "negative": "The obstetrician monitored her blood pressure throughout the consultation."
+    },
+    {
+      "positive": "She was advised to take prenatal vitamins during her pregnancy.",
+      "negative": "She was advised to take vitamins for her overall health."
+    },
+    {
+      "positive": "The patient experienced morning sickness as a common symptom of her pregnancy.",
+      "negative": "The patient experienced morning sickness as a common symptom of her flu."
+    },
+    {
+      "positive": "Her medical history indicated a previous cesarean delivery related to her pregnancy.",
+      "negative": "Her medical history indicated a previous surgery unrelated to her pregnancy."
+    },
+    {
+      "positive": "She was excited to attend her first prenatal appointment during her pregnancy.",
+      "negative": "She was excited to attend her first annual check-up at the clinic."
+    },
+    {
+      "positive": "The doctor discussed potential complications during her pregnancy.",
+      "negative": "The doctor discussed potential complications during her surgery."
+    },
+    {
+      "positive": "She felt the baby kick for the first time during her pregnancy.",
+      "negative": "She felt a muscle spasm for the first time during her workout."
+    },
+    {
+      "positive": "The patient's weight gain was monitored as part of her pregnancy care.",
+      "negative": "The patient's weight gain was monitored as part of her fitness program."
+    },
+    {
+      "positive": "She was referred to a specialist for gestational diabetes management during her pregnancy.",
+      "negative": "She was referred to a specialist for dietary management."
+    },
+    {
+      "positive": "The patient expressed joy about preparing for her upcoming pregnancy.",
+      "negative": "The patient expressed joy about preparing for her new job."
+    },
+    {
+      "positive": "The midwife provided guidance on labor and delivery for her pregnancy.",
+      "negative": "The midwife provided guidance on nutrition for her health."
+    },
+    {
+      "positive": "The nurse explained the importance of hydration during her pregnancy.",
+      "negative": "The nurse explained the importance of hydration during exercise."
+    },
+    {
+      "positive": "She attended a prenatal class to learn about childbirth during her pregnancy.",
+      "negative": "She attended a fitness class to learn about exercise techniques."
+    },
+    {
+      "positive": "Her blood tests were ordered to monitor hormone levels during her pregnancy.",
+      "negative": "Her blood tests were ordered to monitor cholesterol levels."
+    },
+    {
+      "positive": "The patient reported cravings for certain foods during her pregnancy.",
+      "negative": "The patient reported cravings for certain foods during her diet."
+    },
+    {
+      "positive": "She sought advice on breastfeeding as her pregnancy neared its end.",
+      "negative": "She sought advice on dieting as her fitness program began."
+    },
+    {
+      "positive": "The doctor noticed swelling in her legs, typical during pregnancy.",
+      "negative": "The doctor noticed swelling in her legs, typical after an injury."
+    },
+    {
+      "positive": "The patient experienced fatigue, a common issue during pregnancy.",
+      "negative": "The patient experienced fatigue, a common issue after a long day."
+    },
+    {
+      "positive": "She discussed her delivery plan with her healthcare provider during pregnancy.",
+      "negative": "She discussed her travel plans with her healthcare provider."
+    },
+    {
+      "positive": "Her partner attended the ultrasound appointment to support her during pregnancy.",
+      "negative": "Her partner attended the appointment to support her dental check-up."
+    },
+    {
+      "positive": "The healthcare team addressed her concerns about postpartum recovery after her pregnancy.",
+      "negative": "The healthcare team addressed her concerns about dietary recovery."
+    },
+    {
+      "positive": "She was informed about the signs of labor as her pregnancy progressed.",
+      "negative": "She was informed about the signs of illness as her symptoms worsened."
+    },
+    {
+      "positive": "Her pregnancy was classified as high-risk due to pre-existing conditions.",
+      "negative": "Her medical condition was classified as high-risk due to lifestyle factors."
+    },
+    {
+      "positive": "The patient reported back pain, which can occur during pregnancy.",
+      "negative": "The patient reported back pain, which can occur after lifting heavy objects."
+    },
+    {
+      "positive": "She was advised to avoid certain medications during her pregnancy.",
+      "negative": "She was advised to avoid certain foods during her diet."
+    },
+    {
+      "positive": "The doctor recommended regular exercise to maintain health during her pregnancy.",
+      "negative": "The doctor recommended regular exercise to improve fitness."
+    },
+    {
+      "positive": "The patient attended a support group for expectant mothers during her pregnancy.",
+      "negative": "The patient attended a support group for individuals with chronic illnesses."
+    },
+    {
+      "positive": "She inquired about genetic testing options during her pregnancy.",
+      "negative": "She inquired about genetic testing options for her family history."
+    },
+    {
+      "positive": "The healthcare provider discussed the importance of nutrition during her pregnancy.",
+      "negative": "The healthcare provider discussed the importance of nutrition for her overall well-being."
+    },
+    {
+      "positive": "She documented her symptoms to share with her doctor during her pregnancy.",
+      "negative": "She documented her symptoms to share with her trainer."
+    },
+    {
+      "positive": "The patient was screened for anemia, a concern during pregnancy.",
+      "negative": "The patient was screened for anemia, a concern during her training."
+    },
+    {
+      "positive": "She was encouraged to engage in relaxation techniques for stress relief during her pregnancy.",
+      "negative": "She was encouraged to engage in relaxation techniques for anxiety management."
+    },
+    {
+      "positive": "The doctor scheduled regular follow-up visits to monitor her pregnancy.",
+      "negative": "The doctor scheduled regular follow-up visits for her chronic condition."
+    },
+    {
+      "positive": "She prepared a birth plan to outline her preferences for labor during her pregnancy.",
+      "negative": "She prepared a plan to outline her preferences for a vacation."
+    },
+    {
+      "positive": "The patient was informed about potential prenatal tests available during her pregnancy.",
+      "negative": "The patient was informed about potential tests available for her heart condition."
+    },
+    {
+      "positive": "She expressed excitement about decorating the nursery for her pregnancy.",
+      "negative": "She expressed excitement about decorating her new office."
+    },
+    {
+      "positive": "The doctor discussed the timeline for fetal development during her pregnancy.",
+      "negative": "The doctor discussed the timeline for recovery from surgery."
+    },
+    {
+      "positive": "She was advised to stay active and monitor her diet during her pregnancy.",
+      "negative": "She was advised to stay active and monitor her schedule."
+    },
+    {
+      "positive": "The patient reported experiencing mood swings, common during pregnancy.",
+      "negative": "The patient reported experiencing mood swings, common during stress."
+    },
+    {
+      "positive": "She was educated on the signs of postpartum depression following her pregnancy.",
+      "negative": "She was educated on the signs of stress following her work project."
+    },
+    {
+      "positive": "The physician discussed the need for a postpartum checkup after her pregnancy.",
+      "negative": "The physician discussed the need for a routine checkup after her vacation."
+    },
+    {
+      "positive": "She felt a strong bond with her baby during her pregnancy.",
+      "negative": "She felt a strong bond with her pet during her time at home."
+    },
+    {
+      "positive": "The ultrasound revealed a healthy fetus at 20 weeks of gestation during her pregnancy.",
+      "negative": "The ultrasound revealed a healthy fetus at 20 weeks of gestation during her routine checkup."
+    },
+    {
+      "positive": "She was advised to take prenatal vitamins to support her health during pregnancy.",
+      "negative": "She was advised to take vitamins to support her health during recovery."
+    },
+    {
+      "positive": "The patient reported frequent urination as a symptom related to her pregnancy.",
+      "negative": "The patient reported frequent urination as a symptom related to her diabetes."
+    },
+    {
+      "positive": "Her physician discussed the importance of regular check-ups throughout her pregnancy.",
+      "negative": "Her physician discussed the importance of regular check-ups for her chronic illness."
+    },
+    {
+      "positive": "The laboratory tests indicated elevated hCG levels consistent with her pregnancy.",
+      "negative": "The laboratory tests indicated elevated hCG levels consistent with her thyroid condition."
+    },
+    {
+      "positive": "She was referred to a specialist for gestational diabetes management during her pregnancy.",
+      "negative": "She was referred to a specialist for diabetes management unrelated to her pregnancy."
+    },
+    {
+      "positive": "The patient expressed concerns about labor and delivery as her pregnancy progressed.",
+      "negative": "The patient expressed concerns about labor and delivery as her surgery approached."
+    },
+    {
+      "positive": "The midwife provided guidance on labor preparation techniques for her upcoming pregnancy.",
+      "negative": "The midwife provided guidance on recovery techniques for her upcoming surgery."
+    },
+    {
+      "positive": "She attended prenatal classes to prepare for childbirth as part of her pregnancy.",
+      "negative": "She attended health classes to prepare for fitness as part of her wellness journey."
+    },
+    {
+      "positive": "The medical team monitored fetal heart rate patterns during her pregnancy.",
+      "negative": "The medical team monitored heart rate patterns during her cardiac rehabilitation."
+    },
+    {
+      "positive": "She experienced cravings that are commonly reported during pregnancy.",
+      "negative": "She experienced cravings that are commonly reported during dieting."
+    },
+    {
+      "positive": "The patient was screened for genetic disorders as part of her prenatal care during pregnancy.",
+      "negative": "The patient was screened for genetic disorders as part of her routine health assessment."
+    },
+    {
+      "positive": "Her obstetrician recommended regular exercise to maintain her health throughout the pregnancy.",
+      "negative": "Her obstetrician recommended regular exercise to maintain her health throughout her recovery."
+    },
+    {
+      "positive": "The patient was excited to hear the fetal heartbeat for the first time during her pregnancy.",
+      "negative": "The patient was excited to hear her heartbeat for the first time during her physical examination."
+    },
+    {
+      "positive": "She was advised to avoid certain medications during her pregnancy.",
+      "negative": "She was advised to avoid certain medications during her treatment for allergies."
+    },
+    {
+      "positive": "The healthcare provider discussed postpartum care plans following her pregnancy.",
+      "negative": "The healthcare provider discussed postoperative care plans following her surgery."
+    },
+    {
+      "positive": "The nurse monitored her weight gain to ensure it was appropriate for her pregnancy.",
+      "negative": "The nurse monitored her weight gain to ensure it was appropriate for her fitness goals."
+    },
+    {
+      "positive": "She was informed about the signs of preterm labor during her pregnancy.",
+      "negative": "She was informed about the signs of infection during her recovery."
+    }
+  ],
+  "concept": "pregnancy",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

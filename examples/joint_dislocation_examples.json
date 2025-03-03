@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient presented with a shoulder joint dislocation after a fall while playing basketball.",
+      "negative": "The patient presented with a shoulder joint sprain after a fall while playing basketball."
+    },
+    {
+      "positive": "X-rays confirmed the dislocation of the right elbow joint following a traumatic injury.",
+      "negative": "X-rays confirmed the fracture of the right elbow joint following a traumatic injury."
+    },
+    {
+      "positive": "The physician diagnosed a left hip joint dislocation after assessing the patient's range of motion.",
+      "negative": "The physician diagnosed a left hip joint strain after assessing the patient's range of motion."
+    },
+    {
+      "positive": "After the accident, he was diagnosed with a patellar joint dislocation.",
+      "negative": "After the accident, he was diagnosed with a patellar joint contusion."
+    },
+    {
+      "positive": "The patient experienced severe pain due to a dislocation of the right wrist joint.",
+      "negative": "The patient experienced severe pain due to a fracture of the right wrist joint."
+    },
+    {
+      "positive": "An MRI revealed that the left ankle joint was dislocated during the sports injury.",
+      "negative": "An MRI revealed that the left ankle joint was sprained during the sports injury."
+    },
+    {
+      "positive": "The child was treated for a dislocated finger joint after getting it caught in a door.",
+      "negative": "The child was treated for a bruised finger after getting it caught in a door."
+    },
+    {
+      "positive": "Following the fall, the patient suffered a complete dislocation of the right shoulder joint.",
+      "negative": "Following the fall, the patient suffered a complete fracture of the right shoulder joint."
+    },
+    {
+      "positive": "The assessment indicated a dislocated toe joint due to improper footwear.",
+      "negative": "The assessment indicated a fractured toe due to improper footwear."
+    },
+    {
+      "positive": "In the emergency department, the doctor reduced her dislocated ankle joint successfully.",
+      "negative": "In the emergency department, the doctor reduced her sprained ankle joint successfully."
+    },
+    {
+      "positive": "The athlete was sidelined due to a dislocated knee joint sustained during the game.",
+      "negative": "The athlete was sidelined due to a strained knee joint sustained during the game."
+    },
+    {
+      "positive": "The radiology report confirmed a dislocation of the left hip joint with associated soft tissue injury.",
+      "negative": "The radiology report confirmed a fracture of the left hip joint with associated soft tissue injury."
+    },
+    {
+      "positive": "She underwent surgery to repair the damage caused by her recurrent shoulder joint dislocation.",
+      "negative": "She underwent surgery to repair the damage caused by her recurrent shoulder joint impingement."
+    },
+    {
+      "positive": "Clinical findings revealed an anterior dislocation of the right glenohumeral joint.",
+      "negative": "Clinical findings revealed an anterior instability of the right glenohumeral joint."
+    },
+    {
+      "positive": "The patient reported a history of joint dislocation after multiple dislocations of the same joint.",
+      "negative": "The patient reported a history of joint pain after multiple injuries to the same joint."
+    },
+    {
+      "positive": "The examination revealed a complete dislocation of the left radial head joint.",
+      "negative": "The examination revealed a complete fracture of the left radial head joint."
+    },
+    {
+      "positive": "The patient's dislocated thumb joint required immediate reduction and immobilization.",
+      "negative": "The patient's injured thumb joint required immediate reduction and immobilization."
+    },
+    {
+      "positive": "He was diagnosed with a recurrent dislocation of the right shoulder joint after a fall.",
+      "negative": "He was diagnosed with a recurrent strain of the right shoulder joint after a fall."
+    },
+    {
+      "positive": "The sports injury resulted in a dislocated wrist joint that needed surgical intervention.",
+      "negative": "The sports injury resulted in a fractured wrist joint that needed surgical intervention."
+    },
+    {
+      "positive": "The patient exhibited swelling and deformity due to a dislocated metacarpophalangeal joint.",
+      "negative": "The patient exhibited swelling and deformity due to a fractured metacarpophalangeal joint."
+    },
+    {
+      "positive": "A dislocated ankle joint was diagnosed after the patient twisted their foot.",
+      "negative": "A sprained ankle was diagnosed after the patient twisted their foot."
+    },
+    {
+      "positive": "The clinical evaluation showed a dislocated hip joint following the trauma.",
+      "negative": "The clinical evaluation showed a fractured hip joint following the trauma."
+    },
+    {
+      "positive": "The doctor confirmed a dislocation of the left shoulder joint during the physical examination.",
+      "negative": "The doctor confirmed a strain of the left shoulder joint during the physical examination."
+    },
+    {
+      "positive": "The patient had a significant joint dislocation that required manual reduction.",
+      "negative": "The patient had a significant joint sprain that required manual reduction."
+    },
+    {
+      "positive": "An examination revealed a posterior dislocation of the left shoulder joint.",
+      "negative": "An examination revealed a posterior fracture of the left shoulder joint."
+    },
+    {
+      "positive": "He was treated for a dislocated joint in his hand after the mishap.",
+      "negative": "He was treated for a sprained joint in his hand after the mishap."
+    },
+    {
+      "positive": "The child suffered a dislocated elbow joint while playing on the playground.",
+      "negative": "The child suffered a strained elbow joint while playing on the playground."
+    },
+    {
+      "positive": "The physician noted a dislocated joint in the foot after reviewing the patient's history.",
+      "negative": "The physician noted a sprained joint in the foot after reviewing the patient's history."
+    },
+    {
+      "positive": "The athlete underwent treatment for a persistent dislocated joint that affected performance.",
+      "negative": "The athlete underwent treatment for a persistent sprained joint that affected performance."
+    },
+    {
+      "positive": "The incident caused a dislocation of the right patella, necessitating immediate care.",
+      "negative": "The incident caused a fracture of the right patella, necessitating immediate care."
+    },
+    {
+      "positive": "The examination confirmed a dislocated thumb joint after a fall.",
+      "negative": "The examination confirmed a fractured thumb joint after a fall."
+    },
+    {
+      "positive": "She was diagnosed with a dislocated joint after a skiing accident.",
+      "negative": "She was diagnosed with a sprained joint after a skiing accident."
+    },
+    {
+      "positive": "The patient experienced limited mobility due to a dislocation of the knee joint.",
+      "negative": "The patient experienced limited mobility due to a fracture of the knee joint."
+    },
+    {
+      "positive": "The radiologist noted a dislocated joint in the ankle on the MRI report.",
+      "negative": "The radiologist noted a sprained joint in the ankle on the MRI report."
+    },
+    {
+      "positive": "She showed signs of a dislocated joint after the basketball game.",
+      "negative": "She showed signs of a strained joint after the basketball game."
+    },
+    {
+      "positive": "The patient required reduction for a dislocated shoulder joint sustained in a fall.",
+      "negative": "The patient required reduction for a strained shoulder joint sustained in a fall."
+    },
+    {
+      "positive": "The injury resulted in a dislocated joint that was visibly misaligned.",
+      "negative": "The injury resulted in a sprained joint that was visibly misaligned."
+    },
+    {
+      "positive": "The physical examination revealed a dislocated toe joint after the accident.",
+      "negative": "The physical examination revealed a fractured toe after the accident."
+    },
+    {
+      "positive": "The patient suffered a dislocated joint in the foot during the soccer match.",
+      "negative": "The patient suffered a sprained joint in the foot during the soccer match."
+    },
+    {
+      "positive": "An acute dislocation of the shoulder joint was diagnosed following the injury.",
+      "negative": "An acute strain of the shoulder joint was diagnosed following the injury."
+    },
+    {
+      "positive": "The x-ray results showed a dislocated joint in the wrist after the fall.",
+      "negative": "The x-ray results showed a fractured joint in the wrist after the fall."
+    },
+    {
+      "positive": "The patient required an injection to relieve pain from her dislocated joint.",
+      "negative": "The patient required an injection to relieve pain from her strained joint."
+    },
+    {
+      "positive": "During the examination, a dislocated joint in the knee was detected.",
+      "negative": "During the examination, a sprained joint in the knee was detected."
+    },
+    {
+      "positive": "The athlete's injury was diagnosed as a dislocated joint requiring immediate attention.",
+      "negative": "The athlete's injury was diagnosed as a sprained joint requiring immediate attention."
+    },
+    {
+      "positive": "The patient was advised to follow up for her recent joint dislocation.",
+      "negative": "The patient was advised to follow up for her recent joint sprain."
+    },
+    {
+      "positive": "The patient presented with a shoulder dislocation after falling from a height.",
+      "negative": "The patient presented with a shoulder strain after falling from a height."
+    },
+    {
+      "positive": "Radiological examination confirmed a dislocated patella following a sports injury.",
+      "negative": "Radiological examination confirmed a fractured patella following a sports injury."
+    },
+    {
+      "positive": "He was treated for a dislocation of the elbow joint due to a fall.",
+      "negative": "He was treated for a fracture of the elbow joint due to a fall."
+    },
+    {
+      "positive": "She underwent reduction for a dislocated thumb joint sustained during rock climbing.",
+      "negative": "She underwent reduction for a fractured thumb joint sustained during rock climbing."
+    },
+    {
+      "positive": "The assessment revealed a dislocated hip joint after the car accident.",
+      "negative": "The assessment revealed a fractured hip joint after the car accident."
+    },
+    {
+      "positive": "An MRI showed a posterior dislocation of the shoulder joint.",
+      "negative": "An MRI showed a posterior fracture of the shoulder joint."
+    },
+    {
+      "positive": "The patient was diagnosed with a dislocation of the ankle joint after twisting it.",
+      "negative": "The patient was diagnosed with a sprain of the ankle joint after twisting it."
+    },
+    {
+      "positive": "Following a fall, he was found to have a dislocated jaw joint.",
+      "negative": "Following a fall, he was found to have a fractured jaw joint."
+    },
+    {
+      "positive": "The patient experienced severe pain due to a dislocated toe joint.",
+      "negative": "The patient experienced severe pain due to a broken toe."
+    },
+    {
+      "positive": "A clinical exam confirmed a dislocation of the wrist joint following a fall.",
+      "negative": "A clinical exam confirmed a fracture of the wrist joint following a fall."
+    },
+    {
+      "positive": "A dislocated shoulder joint was identified in the emergency department.",
+      "negative": "A torn shoulder ligament was identified in the emergency department."
+    },
+    {
+      "positive": "The athlete suffered a dislocation of the knee joint during the match.",
+      "negative": "The athlete suffered a sprain of the knee joint during the match."
+    },
+    {
+      "positive": "The patient required surgery to repair a dislocated hip joint.",
+      "negative": "The patient required surgery to repair a fractured hip joint."
+    },
+    {
+      "positive": "The examination revealed a dislocated finger joint after the accident.",
+      "negative": "The examination revealed a jammed finger after the accident."
+    },
+    {
+      "positive": "An X-ray confirmed a dislocated ankle joint after the patient fell.",
+      "negative": "An X-ray confirmed a sprained ankle joint after the patient fell."
+    },
+    {
+      "positive": "A sports injury led to a dislocation of the elbow joint.",
+      "negative": "A sports injury led to a fracture of the elbow joint."
+    },
+    {
+      "positive": "The patient was diagnosed with a dislocated hip joint following a fall.",
+      "negative": "The patient was diagnosed with a contusion of the hip after a fall."
+    },
+    {
+      "positive": "She presented with a dislocated wrist joint after a fall on an outstretched hand.",
+      "negative": "She presented with a sprained wrist after a fall on an outstretched hand."
+    },
+    {
+      "positive": "The clinician noted a dislocated joint in the patient's left knee.",
+      "negative": "The clinician noted a sprained joint in the patient's left knee."
+    },
+    {
+      "positive": "A fall resulted in a dislocated finger joint that required reduction.",
+      "negative": "A fall resulted in a fractured finger that required reduction."
+    },
+    {
+      "positive": "The patient reported pain due to a dislocated shoulder joint.",
+      "negative": "The patient reported pain due to a shoulder bruise."
+    },
+    {
+      "positive": "The diagnosis was a dislocated joint following a traffic accident.",
+      "negative": "The diagnosis was a sprained joint following a traffic accident."
+    },
+    {
+      "positive": "Radiology confirmed a dislocated joint in the patient's right ankle.",
+      "negative": "Radiology confirmed a sprained joint in the patient's right ankle."
+    },
+    {
+      "positive": "The patient had a dislocated thumb joint after a direct impact.",
+      "negative": "The patient had a fractured thumb after a direct impact."
+    },
+    {
+      "positive": "An examination revealed a dislocation of the glenohumeral joint.",
+      "negative": "An examination revealed a fracture of the glenohumeral joint."
+    },
+    {
+      "positive": "She sought treatment for a dislocated joint in her foot.",
+      "negative": "She sought treatment for a contusion in her foot."
+    },
+    {
+      "positive": "The athlete was diagnosed with a dislocated knee joint after a tackle.",
+      "negative": "The athlete was diagnosed with a sprained knee joint after a tackle."
+    },
+    {
+      "positive": "The patient suffered a dislocation of the shoulder joint while lifting weights.",
+      "negative": "The patient suffered a strain of the shoulder joint while lifting weights."
+    },
+    {
+      "positive": "An evaluation revealed a dislocated hip joint after an injury.",
+      "negative": "An evaluation revealed a bruised hip after an injury."
+    },
+    {
+      "positive": "The athlete had to leave the game due to a dislocated ankle joint.",
+      "negative": "The athlete had to leave the game due to a sprained ankle."
+    },
+    {
+      "positive": "A dislocated wrist joint was determined during the physical examination.",
+      "negative": "A sprained wrist was determined during the physical examination."
+    },
+    {
+      "positive": "The emergency room treated a patient for a dislocated elbow joint.",
+      "negative": "The emergency room treated a patient for a fractured elbow joint."
+    },
+    {
+      "positive": "The examination indicated a dislocated joint at the base of the thumb.",
+      "negative": "The examination indicated a fracture at the base of the thumb."
+    },
+    {
+      "positive": "An X-ray confirmed a dislocated thumb joint after a fall.",
+      "negative": "An X-ray confirmed a fracture of the thumb after a fall."
+    },
+    {
+      "positive": "The report highlighted a dislocated joint in the patient’s knee.",
+      "negative": "The report highlighted a sprained joint in the patient’s knee."
+    },
+    {
+      "positive": "After the accident, the patient had a dislocated shoulder joint.",
+      "negative": "After the accident, the patient had a fractured shoulder."
+    },
+    {
+      "positive": "A physical exam revealed a dislocated joint in the right foot.",
+      "negative": "A physical exam revealed a sprained joint in the right foot."
+    },
+    {
+      "positive": "The patient experienced severe discomfort due to a dislocated joint.",
+      "negative": "The patient experienced severe discomfort due to a strained joint."
+    },
+    {
+      "positive": "A dislocated knee joint was diagnosed after the patient fell playing soccer.",
+      "negative": "A sprained knee joint was diagnosed after the patient fell playing soccer."
+    },
+    {
+      "positive": "The patient was treated for a dislocated joint after a bicycle accident.",
+      "negative": "The patient was treated for a fractured joint after a bicycle accident."
+    },
+    {
+      "positive": "The assessment showed a dislocated joint in the patient's wrist.",
+      "negative": "The assessment showed a fractured joint in the patient's wrist."
+    },
+    {
+      "positive": "An injury during the game resulted in a dislocated elbow joint.",
+      "negative": "An injury during the game resulted in a fractured elbow joint."
+    },
+    {
+      "positive": "A dislocated joint in the ankle was confirmed in the emergency room.",
+      "negative": "A sprained joint in the ankle was confirmed in the emergency room."
+    },
+    {
+      "positive": "The patient was diagnosed with a dislocated knee joint after a sports injury.",
+      "negative": "The patient was diagnosed with a torn ligament after a sports injury."
+    },
+    {
+      "positive": "Radiological examination confirmed a dislocated elbow joint following a fall.",
+      "negative": "Radiological examination confirmed a fractured elbow following a fall."
+    },
+    {
+      "positive": "Post-trauma assessment found a dislocated ankle joint requiring immediate intervention.",
+      "negative": "Post-trauma assessment found an ankle sprain requiring immediate intervention."
+    },
+    {
+      "positive": "He experienced severe pain due to a dislocated finger joint sustained while playing basketball.",
+      "negative": "He experienced severe pain due to a fractured finger sustained while playing basketball."
+    },
+    {
+      "positive": "The child presented with a dislocated clavicle after a bicycle accident.",
+      "negative": "The child presented with a fractured clavicle after a bicycle accident."
+    },
+    {
+      "positive": "The athlete was treated for a dislocated patella following a tackle.",
+      "negative": "The athlete was treated for a bruised knee following a tackle."
+    },
+    {
+      "positive": "She was admitted with a dislocated hip joint after a fall from a skateboard.",
+      "negative": "She was admitted with a fractured pelvis after a fall from a skateboard."
+    },
+    {
+      "positive": "An MRI revealed a dislocated wrist joint after the impact.",
+      "negative": "An MRI revealed a fractured wrist after the impact."
+    },
+    {
+      "positive": "The assessment indicated a dislocation of the metacarpophalangeal joint in the thumb.",
+      "negative": "The assessment indicated a fracture of the metacarpophalangeal joint in the thumb."
+    },
+    {
+      "positive": "The emergency team managed a dislocated jaw joint following an altercation.",
+      "negative": "The emergency team managed a fractured jaw following an altercation."
+    },
+    {
+      "positive": "He suffered from a dislocated shoulder joint while lifting weights.",
+      "negative": "He suffered from a shoulder strain while lifting weights."
+    },
+    {
+      "positive": "The diagnosis was a dislocated ankle joint due to a misstep.",
+      "negative": "The diagnosis was a sprained ankle due to a misstep."
+    },
+    {
+      "positive": "She presented with a dislocation of the hip joint after a skiing accident.",
+      "negative": "She presented with a contusion of the hip after a skiing accident."
+    },
+    {
+      "positive": "The patient required surgery for a dislocated ankle joint caused by an inversion injury.",
+      "negative": "The patient required surgery for a fractured ankle caused by an inversion injury."
+    },
+    {
+      "positive": "A thorough examination revealed a dislocated toe joint after a stub.",
+      "negative": "A thorough examination revealed a fractured toe after a stub."
+    },
+    {
+      "positive": "The doctor confirmed a dislocated joint in the lumbar region following a fall.",
+      "negative": "The doctor confirmed a herniated disc in the lumbar region following a fall."
+    },
+    {
+      "positive": "She was diagnosed with a dislocated joint in the shoulder area after a car accident.",
+      "negative": "She was diagnosed with a shoulder fracture after a car accident."
+    },
+    {
+      "positive": "The athlete underwent treatment for a dislocated joint in the knee during a game.",
+      "negative": "The athlete underwent treatment for a sprained joint in the knee during a game."
+    },
+    {
+      "positive": "The report indicated a dislocated joint in the elbow after a wrestling match.",
+      "negative": "The report indicated a fractured joint in the elbow after a wrestling match."
+    },
+    {
+      "positive": "He suffered a dislocated joint in his foot during a soccer match.",
+      "negative": "He suffered a sprained joint in his foot during a soccer match."
+    },
+    {
+      "positive": "An assessment revealed a dislocated joint in the thumb after a fall.",
+      "negative": "An assessment revealed a fracture in the thumb after a fall."
+    },
+    {
+      "positive": "She was treated for a dislocated joint in the wrist caused by a fall.",
+      "negative": "She was treated for a sprained joint in the wrist caused by a fall."
+    },
+    {
+      "positive": "The diagnosis showed a dislocated joint in the hip after a traumatic injury.",
+      "negative": "The diagnosis showed a bruised joint in the hip after a traumatic injury."
+    },
+    {
+      "positive": "The patient was diagnosed with a dislocated joint in the shoulder following a fall.",
+      "negative": "The patient was diagnosed with a torn ligament in the shoulder following a fall."
+    },
+    {
+      "positive": "She experienced a dislocated joint in her finger during a volleyball match.",
+      "negative": "She experienced a fracture in her finger during a volleyball match."
+    },
+    {
+      "positive": "The clinical evaluation confirmed a dislocated joint in the knee after a twist.",
+      "negative": "The clinical evaluation confirmed a sprained joint in the knee after a twist."
+    },
+    {
+      "positive": "He was admitted with a dislocated joint in the shoulder after a motorcycle accident.",
+      "negative": "He was admitted with a shoulder bruise after a motorcycle accident."
+    },
+    {
+      "positive": "The x-ray revealed a dislocated joint in the ankle from a fall.",
+      "negative": "The x-ray revealed a fractured joint in the ankle from a fall."
+    },
+    {
+      "positive": "The assessment indicated a dislocated joint in the wrist due to a slip.",
+      "negative": "The assessment indicated a sprained joint in the wrist due to a slip."
+    },
+    {
+      "positive": "He was treated for a dislocated joint in the elbow after a sports accident.",
+      "negative": "He was treated for a fractured joint in the elbow after a sports accident."
+    },
+    {
+      "positive": "The patient presented with a dislocated joint in the hip following an accident.",
+      "negative": "The patient presented with a contusion in the hip following an accident."
+    },
+    {
+      "positive": "She was diagnosed with a dislocated joint in her ankle after a misstep.",
+      "negative": "She was diagnosed with a sprain in her ankle after a misstep."
+    },
+    {
+      "positive": "An evaluation revealed a dislocated joint in the shoulder after a fall.",
+      "negative": "An evaluation revealed a fracture in the shoulder after a fall."
+    },
+    {
+      "positive": "The report confirmed a dislocated joint in the knee resulting from a tackle.",
+      "negative": "The report confirmed a sprain in the knee resulting from a tackle."
+    },
+    {
+      "positive": "The diagnosis indicated a dislocated joint in the thumb after a fall.",
+      "negative": "The diagnosis indicated a fracture in the thumb after a fall."
+    },
+    {
+      "positive": "He was treated for a dislocated joint in the hip after a slip on ice.",
+      "negative": "He was treated for a bruise in the hip after a slip on ice."
+    },
+    {
+      "positive": "The clinical findings revealed a dislocated joint in the wrist after an injury.",
+      "negative": "The clinical findings revealed a sprain in the wrist after an injury."
+    },
+    {
+      "positive": "She presented with a dislocated joint in her shoulder after a fall.",
+      "negative": "She presented with a fracture in her shoulder after a fall."
+    },
+    {
+      "positive": "The patient suffered from a dislocated joint in the finger during a game.",
+      "negative": "The patient suffered from a fracture in the finger during a game."
+    },
+    {
+      "positive": "A follow-up revealed a dislocated joint in the elbow after a fall.",
+      "negative": "A follow-up revealed a sprained joint in the elbow after a fall."
+    },
+    {
+      "positive": "He was diagnosed with a dislocated joint in the knee after a sports incident.",
+      "negative": "He was diagnosed with a strain in the knee after a sports incident."
+    },
+    {
+      "positive": "An x-ray confirmed a dislocated joint in the ankle from an accident.",
+      "negative": "An x-ray confirmed a bruise in the ankle from an accident."
+    },
+    {
+      "positive": "The evaluation indicated a dislocated joint in the shoulder after a fall.",
+      "negative": "The evaluation indicated a contusion in the shoulder after a fall."
+    },
+    {
+      "positive": "The patient presented with a dislocated hip joint after a fall from a height.",
+      "negative": "The patient presented with a fractured hip after a fall from a height."
+    },
+    {
+      "positive": "Imaging confirmed a dislocation of the left elbow joint due to a sports accident.",
+      "negative": "Imaging confirmed a fracture of the left elbow joint due to a sports accident."
+    },
+    {
+      "positive": "After the car accident, the victim was diagnosed with a dislocated shoulder joint.",
+      "negative": "After the car accident, the victim was diagnosed with a fractured shoulder."
+    },
+    {
+      "positive": "The doctor noted a dislocated patella in the patient's knee during the examination.",
+      "negative": "The doctor noted a torn ligament in the patient's knee during the examination."
+    },
+    {
+      "positive": "An x-ray revealed a dislocated wrist joint following a fall.",
+      "negative": "An x-ray revealed a fractured wrist following a fall."
+    },
+    {
+      "positive": "The athlete required surgery to repair a dislocated ankle joint after the game.",
+      "negative": "The athlete required surgery to repair a fractured ankle after the game."
+    },
+    {
+      "positive": "The child was diagnosed with a dislocated toe joint after jumping off a swing.",
+      "negative": "The child was diagnosed with a fractured toe after jumping off a swing."
+    },
+    {
+      "positive": "Following the accident, the patient experienced a dislocated thumb joint.",
+      "negative": "Following the accident, the patient experienced a sprained thumb."
+    },
+    {
+      "positive": "The physician assessed the patient for a dislocated finger joint after the injury.",
+      "negative": "The physician assessed the patient for a fractured finger after the injury."
+    },
+    {
+      "positive": "The elderly man suffered a dislocated shoulder joint while lifting heavy boxes.",
+      "negative": "The elderly man suffered a rotator cuff injury while lifting heavy boxes."
+    },
+    {
+      "positive": "The examination revealed a dislocated jaw joint caused by a fall.",
+      "negative": "The examination revealed a fractured jaw caused by a fall."
+    },
+    {
+      "positive": "The report indicated a dislocation of the right hip joint during physical therapy.",
+      "negative": "The report indicated a strain of the right hip joint during physical therapy."
+    },
+    {
+      "positive": "After the tumble, the patient was treated for a dislocated knee joint.",
+      "negative": "After the tumble, the patient was treated for a meniscus tear."
+    },
+    {
+      "positive": "The sports injury resulted in a dislocated AC joint in the shoulder.",
+      "negative": "The sports injury resulted in a rotator cuff tear in the shoulder."
+    },
+    {
+      "positive": "The CT scan showed a dislocated sacroiliac joint after the accident.",
+      "negative": "The CT scan showed a fractured sacroiliac joint after the accident."
+    },
+    {
+      "positive": "The patient's visit was prompted by a painful dislocation of the wrist joint.",
+      "negative": "The patient's visit was prompted by a painful wrist sprain."
+    },
+    {
+      "positive": "The child was treated for a dislocated elbow joint after a fall from a tree.",
+      "negative": "The child was treated for a broken arm after a fall from a tree."
+    },
+    {
+      "positive": "The athlete was sidelined due to a dislocated shoulder joint during practice.",
+      "negative": "The athlete was sidelined due to a torn muscle during practice."
+    },
+    {
+      "positive": "The emergency physician diagnosed a dislocated ankle joint after the injury.",
+      "negative": "The emergency physician diagnosed a fractured ankle after the injury."
+    },
+    {
+      "positive": "An ultrasound confirmed a dislocated thumb joint following the accident.",
+      "negative": "An ultrasound confirmed a fractured thumb following the accident."
+    },
+    {
+      "positive": "A dislocated joint in the patient's finger was treated successfully.",
+      "negative": "A torn ligament in the patient's finger was treated successfully."
+    },
+    {
+      "positive": "The patient has a history of dislocated joints due to hypermobility.",
+      "negative": "The patient has a history of torn ligaments due to hypermobility."
+    },
+    {
+      "positive": "The doctor reduced the dislocated shoulder joint in the emergency room.",
+      "negative": "The doctor repaired the fractured shoulder in the emergency room."
+    },
+    {
+      "positive": "The radiology report indicated a dislocated knee joint from a motorcycle crash.",
+      "negative": "The radiology report indicated a fractured femur from a motorcycle crash."
+    },
+    {
+      "positive": "The athlete suffered a dislocated ankle joint during the competition.",
+      "negative": "The athlete suffered a sprained ankle during the competition."
+    },
+    {
+      "positive": "The patient required reduction for a dislocated patella after falling.",
+      "negative": "The patient required reduction for a fractured patella after falling."
+    },
+    {
+      "positive": "The soccer player was treated for a dislocated finger joint during the match.",
+      "negative": "The soccer player was treated for a fractured finger during the match."
+    },
+    {
+      "positive": "A dislocated joint in the elbow was confirmed after the injury.",
+      "negative": "A fractured joint in the elbow was confirmed after the injury."
+    },
+    {
+      "positive": "The patient reported a painful dislocated shoulder joint after lifting weights.",
+      "negative": "The patient reported a painful shoulder strain after lifting weights."
+    },
+    {
+      "positive": "The child presented with a dislocated wrist joint after falling off the bike.",
+      "negative": "The child presented with a fractured wrist after falling off the bike."
+    },
+    {
+      "positive": "The emergency doctor diagnosed a dislocated hip joint following the fall.",
+      "negative": "The emergency doctor diagnosed a fractured hip following the fall."
+    },
+    {
+      "positive": "The patient was treated for a dislocated elbow joint after a sports injury.",
+      "negative": "The patient was treated for a sprained elbow after a sports injury."
+    },
+    {
+      "positive": "The examination revealed a dislocated jaw joint after the accident.",
+      "negative": "The examination revealed a fractured jaw after the accident."
+    },
+    {
+      "positive": "Imaging showed a dislocated finger joint as a result of the injury.",
+      "negative": "Imaging showed a fractured finger as a result of the injury."
+    },
+    {
+      "positive": "The athlete suffered a dislocated shoulder joint during the competition.",
+      "negative": "The athlete suffered a torn muscle during the competition."
+    },
+    {
+      "positive": "The patient had a dislocated ankle joint treated with immobilization.",
+      "negative": "The patient had a sprained ankle treated with immobilization."
+    },
+    {
+      "positive": "During the examination, a dislocated knee joint was identified in the patient.",
+      "negative": "During the examination, a torn ligament was identified in the patient."
+    },
+    {
+      "positive": "A dislocated joint of the thumb was confirmed during the assessment.",
+      "negative": "A fractured joint of the thumb was confirmed during the assessment."
+    },
+    {
+      "positive": "The patient presented with a dislocated hip joint caused by a slip.",
+      "negative": "The patient presented with a fractured hip caused by a slip."
+    },
+    {
+      "positive": "The child was treated for a dislocated elbow joint after a fall.",
+      "negative": "The child was treated for a bruised elbow after a fall."
+    },
+    {
+      "positive": "The doctor reported a dislocated shoulder joint after the accident.",
+      "negative": "The doctor reported a fractured shoulder after the accident."
+    },
+    {
+      "positive": "The patient experienced a dislocated knee joint following a sports injury.",
+      "negative": "The patient experienced a torn ligament following a sports injury."
+    },
+    {
+      "positive": "An evaluation revealed a dislocated wrist joint after the fall.",
+      "negative": "An evaluation revealed a fractured wrist after the fall."
+    },
+    {
+      "positive": "The patient underwent treatment for a dislocated ankle joint after the incident.",
+      "negative": "The patient underwent treatment for a fractured ankle after the incident."
+    },
+    {
+      "positive": "A dislocated joint in the finger was assessed in the emergency department.",
+      "negative": "A fractured joint in the finger was assessed in the emergency department."
+    },
+    {
+      "positive": "Following the accident, the patient was diagnosed with a dislocated shoulder joint.",
+      "negative": "Following the accident, the patient was diagnosed with a shoulder fracture."
+    },
+    {
+      "positive": "The athlete was diagnosed with a dislocated ankle joint after twisting it during the game.",
+      "negative": "The athlete was diagnosed with a sprained ankle after twisting it during the game."
+    },
+    {
+      "positive": "The X-ray revealed a complete dislocation of the hip joint following a fall from a height.",
+      "negative": "The X-ray revealed a complete fracture of the hip joint following a fall from a height."
+    },
+    {
+      "positive": "The patient presented with significant pain due to a dislocated thumb joint caused by a fall.",
+      "negative": "The patient presented with significant pain due to a sprained thumb caused by a fall."
+    },
+    {
+      "positive": "After the accident, the doctor confirmed a dislocation of the collarbone joint.",
+      "negative": "After the accident, the doctor confirmed a fracture of the collarbone."
+    },
+    {
+      "positive": "The diagnosis indicated a dislocated finger joint from an injury during a basketball match.",
+      "negative": "The diagnosis indicated a fractured finger from an injury during a basketball match."
+    },
+    {
+      "positive": "The patient required immediate reduction of a dislocated patella after falling off a bike.",
+      "negative": "The patient required immediate reduction of a fractured patella after falling off a bike."
+    },
+    {
+      "positive": "The physical exam showed a dislocated radial head joint after a fall while playing.",
+      "negative": "The physical exam showed a fractured radial head after a fall while playing."
+    },
+    {
+      "positive": "The child was treated for a dislocated elbow joint due to a fall on the playground.",
+      "negative": "The child was treated for a fractured elbow due to a fall on the playground."
+    },
+    {
+      "positive": "An MRI confirmed a dislocation of the sacroiliac joint following a car accident.",
+      "negative": "An MRI confirmed a fracture of the sacroiliac joint following a car accident."
+    },
+    {
+      "positive": "The patient exhibited swelling and pain from a dislocated toe joint after dropping a heavy object.",
+      "negative": "The patient exhibited swelling and pain from a fractured toe after dropping a heavy object."
+    },
+    {
+      "positive": "He sought treatment for a dislocated wrist joint after a fall while skiing.",
+      "negative": "He sought treatment for a fracture of the wrist after a fall while skiing."
+    },
+    {
+      "positive": "The athlete's injury was diagnosed as a dislocated shoulder joint from a collision.",
+      "negative": "The athlete's injury was diagnosed as a torn shoulder muscle from a collision."
+    },
+    {
+      "positive": "A dislocated jaw joint was confirmed during the examination following a fist fight.",
+      "negative": "A fractured jaw was confirmed during the examination following a fist fight."
+    },
+    {
+      "positive": "The emergency department treated her for a dislocated hip joint after a motorcycle accident.",
+      "negative": "The emergency department treated her for a fractured hip after a motorcycle accident."
+    },
+    {
+      "positive": "The physician noted a dislocation of the metacarpophalangeal joint due to a sports injury.",
+      "negative": "The physician noted a fracture of the metacarpophalangeal joint due to a sports injury."
+    },
+    {
+      "positive": "After the fall, she was found to have a dislocated acromioclavicular joint.",
+      "negative": "After the fall, she was found to have a fractured acromioclavicular joint."
+    },
+    {
+      "positive": "The physical therapist reported a dislocated thumb joint that required immediate intervention.",
+      "negative": "The physical therapist reported a fractured thumb that required immediate intervention."
+    },
+    {
+      "positive": "A dislocated knee joint was diagnosed after the patient stumbled down the stairs.",
+      "negative": "A fractured kneecap was diagnosed after the patient stumbled down the stairs."
+    },
+    {
+      "positive": "The radiology report indicated a dislocated ankle joint from a fall.",
+      "negative": "The radiology report indicated a fractured ankle from a fall."
+    },
+    {
+      "positive": "The patient suffered a painful dislocation of the shoulder joint during a wrestling match.",
+      "negative": "The patient suffered a painful shoulder strain during a wrestling match."
+    },
+    {
+      "positive": "A dislocated joint was found in the patient's wrist after a skateboard accident.",
+      "negative": "A fractured joint was found in the patient's wrist after a skateboard accident."
+    },
+    {
+      "positive": "The emergency physician assessed the dislocated joint in the patient’s elbow following an accident.",
+      "negative": "The emergency physician assessed the fractured joint in the patient’s elbow following an accident."
+    },
+    {
+      "positive": "The patient was admitted with a dislocated shoulder after falling off a bicycle.",
+      "negative": "The patient was admitted with a fractured collarbone after falling off a bicycle."
+    }
+  ],
+  "concept": "joint dislocation",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

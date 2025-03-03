@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient presented with symptoms of carpal tunnel syndrome, including numbness and tingling in the fingers.",
+      "negative": "The patient presented with symptoms of arthritis, including stiffness and pain in the joints."
+    },
+    {
+      "positive": "Electromyography confirmed the diagnosis of carpal tunnel syndrome, showing delayed median nerve conduction.",
+      "negative": "Electromyography confirmed the diagnosis of peripheral neuropathy, showing normal median nerve conduction."
+    },
+    {
+      "positive": "Treatment options for carpal tunnel syndrome include wrist splinting and corticosteroid injections.",
+      "negative": "Treatment options for tennis elbow include physical therapy and pain relief medication."
+    },
+    {
+      "positive": "The patient reported worsening symptoms of carpal tunnel syndrome after prolonged computer use.",
+      "negative": "The patient reported worsening symptoms of tendinitis after prolonged computer use."
+    },
+    {
+      "positive": "The surgical release of the carpal tunnel was performed to alleviate the patient's carpal tunnel syndrome.",
+      "negative": "The surgical release of the shoulder joint was performed to alleviate the patient's impingement syndrome."
+    },
+    {
+      "positive": "The physical examination revealed positive Tinel's sign, indicating carpal tunnel syndrome.",
+      "negative": "The physical examination revealed positive McMurray's sign, indicating a meniscal tear."
+    },
+    {
+      "positive": "The patient's hand pain was attributed to carpal tunnel syndrome, particularly affecting the thumb and index finger.",
+      "negative": "The patient's hand pain was attributed to a ganglion cyst, particularly affecting the wrist."
+    },
+    {
+      "positive": "She has been diagnosed with carpal tunnel syndrome, which is causing her significant discomfort.",
+      "negative": "She has been diagnosed with trigger finger, which is causing her significant discomfort."
+    },
+    {
+      "positive": "The patient's carpal tunnel syndrome was exacerbated by repetitive wrist movements.",
+      "negative": "The patient's shoulder impingement was exacerbated by repetitive shoulder movements."
+    },
+    {
+      "positive": "Nerve conduction studies indicated a moderate case of carpal tunnel syndrome.",
+      "negative": "Nerve conduction studies indicated a moderate case of cubital tunnel syndrome."
+    },
+    {
+      "positive": "The symptoms of carpal tunnel syndrome can often be relieved with ergonomic adjustments.",
+      "negative": "The symptoms of osteoarthritis can often be relieved with ergonomic adjustments."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can lead to weakness in hand grip and difficulty with fine motor tasks.",
+      "negative": "Tendinitis can lead to weakness in hand grip and difficulty with fine motor tasks."
+    },
+    {
+      "positive": "The patient is experiencing nighttime paresthesia consistent with carpal tunnel syndrome.",
+      "negative": "The patient is experiencing nighttime cramps consistent with dehydration."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is often associated with conditions such as diabetes and hypothyroidism.",
+      "negative": "Tendinitis is often associated with conditions such as obesity and high cholesterol."
+    },
+    {
+      "positive": "The patient underwent a carpal tunnel release procedure to treat her carpal tunnel syndrome.",
+      "negative": "The patient underwent a rotator cuff repair procedure to treat her shoulder pain."
+    },
+    {
+      "positive": "She described a burning sensation in her wrist, characteristic of carpal tunnel syndrome.",
+      "negative": "She described a burning sensation in her knee, characteristic of patellar tendinopathy."
+    },
+    {
+      "positive": "The patient's work as a typist has contributed to her developing carpal tunnel syndrome.",
+      "negative": "The patient's work as a chef has contributed to her developing plantar fasciitis."
+    },
+    {
+      "positive": "The clinical findings were consistent with carpal tunnel syndrome, particularly with the positive Phalen's test.",
+      "negative": "The clinical findings were consistent with a herniated disc, particularly with the positive straight leg raise test."
+    },
+    {
+      "positive": "She was advised to wear a wrist brace to manage her carpal tunnel syndrome symptoms.",
+      "negative": "She was advised to wear a knee brace to manage her patellar tendinitis symptoms."
+    },
+    {
+      "positive": "The diagnosis of carpal tunnel syndrome was made based on the patient's reported symptoms and physical exam findings.",
+      "negative": "The diagnosis of bursitis was made based on the patient's reported symptoms and physical exam findings."
+    },
+    {
+      "positive": "Her carpal tunnel syndrome symptoms improved significantly after receiving corticosteroid injections.",
+      "negative": "Her shoulder pain symptoms improved significantly after receiving corticosteroid injections."
+    },
+    {
+      "positive": "The patient has a family history of carpal tunnel syndrome, which may increase her risk.",
+      "negative": "The patient has a family history of rheumatoid arthritis, which may increase her risk."
+    },
+    {
+      "positive": "The neurologist recommended a wrist splint for her carpal tunnel syndrome during nighttime.",
+      "negative": "The neurologist recommended a knee brace for her knee instability during nighttime."
+    },
+    {
+      "positive": "The patient experienced relief from her carpal tunnel syndrome symptoms after changing her workstation.",
+      "negative": "The patient experienced relief from her shoulder pain symptoms after changing her workout routine."
+    },
+    {
+      "positive": "The patient's report of hand weakness was a key indicator of carpal tunnel syndrome.",
+      "negative": "The patient's report of foot weakness was a key indicator of peroneal nerve palsy."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can lead to chronic pain if not treated promptly.",
+      "negative": "Tendinitis can lead to chronic pain if not treated promptly."
+    },
+    {
+      "positive": "The physical therapist implemented a regimen to address the patient's carpal tunnel syndrome.",
+      "negative": "The physical therapist implemented a regimen to address the patient's sciatica."
+    },
+    {
+      "positive": "Her symptoms of carpal tunnel syndrome began shortly after she started a new job at a computer company.",
+      "negative": "Her symptoms of plantar fasciitis began shortly after she started a new job as a waiter."
+    },
+    {
+      "positive": "The use of ergonomic keyboards can help alleviate symptoms of carpal tunnel syndrome.",
+      "negative": "The use of ergonomic chairs can help alleviate symptoms of lower back pain."
+    },
+    {
+      "positive": "Carpal tunnel syndrome was diagnosed following the patient's report of persistent wrist pain.",
+      "negative": "Tendinitis was diagnosed following the patient's report of persistent ankle pain."
+    },
+    {
+      "positive": "Numbness in the thumb and index finger is a classic symptom of carpal tunnel syndrome.",
+      "negative": "Numbness in the heel and toe is a classic symptom of tarsal tunnel syndrome."
+    },
+    {
+      "positive": "The patient's daily activities were significantly impaired due to her carpal tunnel syndrome.",
+      "negative": "The patient's daily activities were significantly impaired due to her knee arthritis."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can be associated with repetitive wrist flexion and extension.",
+      "negative": "Shoulder impingement can be associated with repetitive shoulder abduction and rotation."
+    },
+    {
+      "positive": "Following surgery for her carpal tunnel syndrome, the patient showed marked improvement in her symptoms.",
+      "negative": "Following surgery for her meniscus tear, the patient showed marked improvement in her symptoms."
+    },
+    {
+      "positive": "She was referred to a hand specialist for her carpal tunnel syndrome management.",
+      "negative": "She was referred to a foot specialist for her plantar fasciitis management."
+    },
+    {
+      "positive": "The repetitive strain from typing is a common cause of carpal tunnel syndrome.",
+      "negative": "The repetitive strain from running is a common cause of Achilles tendinopathy."
+    },
+    {
+      "positive": "Patients with carpal tunnel syndrome may experience difficulty holding objects due to weakness.",
+      "negative": "Patients with tennis elbow may experience difficulty gripping objects due to pain."
+    },
+    {
+      "positive": "She was diagnosed with carpal tunnel syndrome after an assessment of her wrist and hand symptoms.",
+      "negative": "She was diagnosed with a rotator cuff tear after an assessment of her shoulder symptoms."
+    },
+    {
+      "positive": "The neurologist explained the pathophysiology of carpal tunnel syndrome in detail.",
+      "negative": "The neurologist explained the pathophysiology of lumbar disc herniation in detail."
+    },
+    {
+      "positive": "The patient is undergoing therapy for her carpal tunnel syndrome, focusing on stretching and strengthening.",
+      "negative": "The patient is undergoing therapy for her hip bursitis, focusing on strengthening and mobility."
+    },
+    {
+      "positive": "Elevating the wrist may help relieve symptoms associated with carpal tunnel syndrome.",
+      "negative": "Elevating the ankle may help relieve symptoms associated with Achilles tendinopathy."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is often diagnosed with a combination of patient history and physical examinations.",
+      "negative": "Tendinitis is often diagnosed with a combination of patient history and imaging studies."
+    },
+    {
+      "positive": "The use of anti-inflammatory medications is common in the treatment of carpal tunnel syndrome.",
+      "negative": "The use of anti-inflammatory medications is common in the treatment of gout."
+    },
+    {
+      "positive": "The surgeon discussed the risks and benefits of surgery for her carpal tunnel syndrome.",
+      "negative": "The surgeon discussed the risks and benefits of surgery for her knee replacement."
+    },
+    {
+      "positive": "The patient presented with numbness and tingling in the fingers consistent with carpal tunnel syndrome.",
+      "negative": "The patient presented with numbness and tingling in the toes consistent with plantar fasciitis."
+    },
+    {
+      "positive": "The doctor recommended a splint to manage symptoms of carpal tunnel syndrome during the night.",
+      "negative": "The doctor recommended a splint to manage symptoms of a wrist sprain during the night."
+    },
+    {
+      "positive": "Electromyography revealed signs of carpal tunnel syndrome in the median nerve.",
+      "negative": "Electromyography revealed signs of ulnar nerve entrapment in the elbow."
+    },
+    {
+      "positive": "The surgical intervention aimed to relieve pressure on the median nerve due to carpal tunnel syndrome.",
+      "negative": "The surgical intervention aimed to relieve pressure on the ulnar nerve due to cubital tunnel syndrome."
+    },
+    {
+      "positive": "The patient reported increased pain in the wrist, which was diagnosed as carpal tunnel syndrome.",
+      "negative": "The patient reported increased pain in the ankle, which was diagnosed as an ankle sprain."
+    },
+    {
+      "positive": "Physical therapy was recommended to improve wrist flexibility in cases of carpal tunnel syndrome.",
+      "negative": "Physical therapy was recommended to improve knee strength in cases of osteoarthritis."
+    },
+    {
+      "positive": "Symptoms of carpal tunnel syndrome can often be worsened by prolonged computer use.",
+      "negative": "Symptoms of a herniated disc can often be worsened by prolonged computer use."
+    },
+    {
+      "positive": "The MRI findings were suggestive of carpal tunnel syndrome with evidence of median nerve compression.",
+      "negative": "The MRI findings were suggestive of lumbar radiculopathy with evidence of nerve root compression."
+    },
+    {
+      "positive": "The patient's wrist pain was diagnosed as carpal tunnel syndrome after detailed clinical evaluation.",
+      "negative": "The patient's wrist pain was diagnosed as tendinitis after detailed clinical evaluation."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can lead to significant limitations in hand function if left untreated.",
+      "negative": "Tendonitis can lead to significant limitations in ankle function if left untreated."
+    },
+    {
+      "positive": "The presence of thenar muscle atrophy indicated a chronic case of carpal tunnel syndrome.",
+      "negative": "The presence of quadriceps muscle atrophy indicated a chronic case of knee osteoarthritis."
+    },
+    {
+      "positive": "The family history of carpal tunnel syndrome in the patient raised concerns for genetic predisposition.",
+      "negative": "The family history of rheumatoid arthritis in the patient raised concerns for genetic predisposition."
+    },
+    {
+      "positive": "The patient's job as a data entry clerk contributed to the development of carpal tunnel syndrome.",
+      "negative": "The patient's job as a construction worker contributed to the development of a rotator cuff injury."
+    },
+    {
+      "positive": "The patient was advised to take frequent breaks to reduce the risk of carpal tunnel syndrome.",
+      "negative": "The patient was advised to take frequent breaks to reduce the risk of shoulder impingement."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can be associated with conditions like diabetes and hypothyroidism.",
+      "negative": "Tendinitis can be associated with conditions like diabetes and hypertension."
+    },
+    {
+      "positive": "The neurologist confirmed the diagnosis of carpal tunnel syndrome based on the patient's symptoms.",
+      "negative": "The neurologist confirmed the diagnosis of tennis elbow based on the patient's symptoms."
+    },
+    {
+      "positive": "Wrist flexion tests were positive, supporting the diagnosis of carpal tunnel syndrome.",
+      "negative": "Shoulder abduction tests were positive, supporting the diagnosis of adhesive capsulitis."
+    },
+    {
+      "positive": "The patient's symptoms improved significantly following corticosteroid injection for carpal tunnel syndrome.",
+      "negative": "The patient's symptoms improved significantly following corticosteroid injection for shoulder bursitis."
+    },
+    {
+      "positive": "The presence of nighttime pain is a common symptom of carpal tunnel syndrome.",
+      "negative": "The presence of nighttime pain is a common symptom of plantar fasciitis."
+    },
+    {
+      "positive": "Carpal tunnel syndrome often requires surgical intervention when conservative treatments fail.",
+      "negative": "Patellar tendinitis often requires surgical intervention when conservative treatments fail."
+    },
+    {
+      "positive": "The patient was diagnosed with carpal tunnel syndrome after reporting difficulty gripping objects.",
+      "negative": "The patient was diagnosed with tennis elbow after reporting difficulty gripping objects."
+    },
+    {
+      "positive": "The use of ergonomic keyboards can help prevent carpal tunnel syndrome in office workers.",
+      "negative": "The use of ergonomic chairs can help prevent back pain in office workers."
+    },
+    {
+      "positive": "The tingling sensation in the middle finger was indicative of carpal tunnel syndrome.",
+      "negative": "The tingling sensation in the little finger was indicative of ulnar nerve entrapment."
+    },
+    {
+      "positive": "Diagnostic ultrasound showed swelling of the median nerve consistent with carpal tunnel syndrome.",
+      "negative": "Diagnostic ultrasound showed swelling of the Achilles tendon consistent with tendinopathy."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can result in chronic pain if left untreated.",
+      "negative": "Plantar fasciitis can result in chronic pain if left untreated."
+    },
+    {
+      "positive": "The patient's wrist symptoms were confirmed to be carpal tunnel syndrome by a hand specialist.",
+      "negative": "The patient's elbow symptoms were confirmed to be lateral epicondylitis by a hand specialist."
+    },
+    {
+      "positive": "Repetitive wrist activities like typing can lead to carpal tunnel syndrome.",
+      "negative": "Repetitive ankle activities like running can lead to Achilles tendinopathy."
+    },
+    {
+      "positive": "The patient was educated about the importance of wrist positioning to prevent carpal tunnel syndrome.",
+      "negative": "The patient was educated about the importance of knee positioning to prevent runner's knee."
+    },
+    {
+      "positive": "The clinical presentation was highly suggestive of carpal tunnel syndrome, with symptoms affecting the dominant hand.",
+      "negative": "The clinical presentation was highly suggestive of a lumbar strain, with symptoms affecting the lower back."
+    },
+    {
+      "positive": "The patient's history of thyroid dysfunction was relevant to the diagnosis of carpal tunnel syndrome.",
+      "negative": "The patient's history of hypertension was relevant to the diagnosis of heart disease."
+    },
+    {
+      "positive": "Carpal tunnel syndrome was considered after the patient reported pain radiating from the wrist to the fingers.",
+      "negative": "Rotator cuff tears were considered after the patient reported pain radiating from the shoulder to the arm."
+    },
+    {
+      "positive": "The patient underwent a nerve conduction study to confirm the diagnosis of carpal tunnel syndrome.",
+      "negative": "The patient underwent a nerve conduction study to confirm the diagnosis of sciatica."
+    },
+    {
+      "positive": "The patient's nighttime awakening due to wrist pain was characteristic of carpal tunnel syndrome.",
+      "negative": "The patient's nighttime awakening due to back pain was characteristic of herniated disc."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can be effectively managed with both surgical and non-surgical options.",
+      "negative": "Shoulder impingement can be effectively managed with both surgical and non-surgical options."
+    },
+    {
+      "positive": "The patient experienced significant relief from carpal tunnel syndrome after therapy and lifestyle changes.",
+      "negative": "The patient experienced significant relief from knee pain after therapy and lifestyle changes."
+    },
+    {
+      "positive": "The physical exam revealed positive Phalen's sign, supporting the diagnosis of carpal tunnel syndrome.",
+      "negative": "The physical exam revealed positive Neer's sign, supporting the diagnosis of shoulder impingement."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can cause weakness in the hand, particularly affecting the thumb and index finger.",
+      "negative": "Tendinitis can cause weakness in the leg, particularly affecting the quadriceps muscle."
+    },
+    {
+      "positive": "The use of night splints is a common treatment for carpal tunnel syndrome.",
+      "negative": "The use of night splints is a common treatment for plantar fasciitis."
+    },
+    {
+      "positive": "The patient's report of frequent dropping of objects was indicative of carpal tunnel syndrome.",
+      "negative": "The patient's report of frequent dropping of objects was indicative of a shoulder dislocation."
+    },
+    {
+      "positive": "The patient's symptoms were consistent with carpal tunnel syndrome, which often requires careful management.",
+      "negative": "The patient's symptoms were consistent with a herniated disc, which often requires careful management."
+    },
+    {
+      "positive": "The presence of a positive Tinel's sign was an important finding for diagnosing carpal tunnel syndrome.",
+      "negative": "The presence of a positive McMurray's sign was an important finding for diagnosing meniscus tear."
+    },
+    {
+      "positive": "The patient's family history included multiple cases of carpal tunnel syndrome.",
+      "negative": "The patient's family history included multiple cases of rheumatoid arthritis."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is often seen in individuals who perform repetitive tasks with their hands.",
+      "negative": "Patellar tendinitis is often seen in individuals who perform repetitive tasks with their knees."
+    },
+    {
+      "positive": "The patient's difficulty in typing was attributed to carpal tunnel syndrome.",
+      "negative": "The patient's difficulty in climbing was attributed to hip arthritis."
+    },
+    {
+      "positive": "The patient was advised to avoid activities that exacerbate carpal tunnel syndrome symptoms.",
+      "negative": "The patient was advised to avoid activities that exacerbate knee pain symptoms."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can lead to permanent nerve damage if not addressed promptly.",
+      "negative": "Plantar fasciitis can lead to permanent foot damage if not addressed promptly."
+    },
+    {
+      "positive": "The neurologist recommended a CT scan to assess for carpal tunnel syndrome.",
+      "negative": "The neurologist recommended a CT scan to assess for cervical spondylosis."
+    },
+    {
+      "positive": "The patient reported numbness and tingling in her fingers, suggesting carpal tunnel syndrome.",
+      "negative": "The patient reported numbness and tingling in her toes, suggesting peripheral neuropathy."
+    },
+    {
+      "positive": "After examining the patient, the doctor diagnosed her with carpal tunnel syndrome due to repetitive wrist motion.",
+      "negative": "After examining the patient, the doctor diagnosed her with tennis elbow due to repetitive arm motion."
+    },
+    {
+      "positive": "The electromyography results confirmed the presence of carpal tunnel syndrome.",
+      "negative": "The electromyography results confirmed the presence of ulnar nerve entrapment."
+    },
+    {
+      "positive": "She has been experiencing pain in her wrist, which is consistent with carpal tunnel syndrome.",
+      "negative": "She has been experiencing pain in her ankle, which is consistent with Achilles tendinitis."
+    },
+    {
+      "positive": "Treatment options for carpal tunnel syndrome include corticosteroid injections and physical therapy.",
+      "negative": "Treatment options for plantar fasciitis include corticosteroid injections and physical therapy."
+    },
+    {
+      "positive": "Symptoms of carpal tunnel syndrome can worsen at night, causing disrupted sleep.",
+      "negative": "Symptoms of patellar tendinitis can worsen at night, causing disrupted sleep."
+    },
+    {
+      "positive": "The patient was referred for a surgical evaluation for her carpal tunnel syndrome.",
+      "negative": "The patient was referred for a surgical evaluation for her meniscus tear."
+    },
+    {
+      "positive": "The physician noted that carpal tunnel syndrome is common among office workers who use keyboards extensively.",
+      "negative": "The physician noted that hip bursitis is common among office workers who use keyboards extensively."
+    },
+    {
+      "positive": "She was instructed to perform wrist stretches to alleviate symptoms of carpal tunnel syndrome.",
+      "negative": "She was instructed to perform ankle stretches to alleviate symptoms of Achilles tendinitis."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can lead to weakness in grip strength over time.",
+      "negative": "Tennis elbow can lead to weakness in grip strength over time."
+    },
+    {
+      "positive": "The patient mentioned that her carpal tunnel syndrome symptoms began after she started knitting frequently.",
+      "negative": "The patient mentioned that her shoulder pain symptoms began after she started knitting frequently."
+    },
+    {
+      "positive": "An MRI of the wrist can help in diagnosing carpal tunnel syndrome.",
+      "negative": "An MRI of the knee can help in diagnosing meniscus tears."
+    },
+    {
+      "positive": "She underwent a nerve conduction study to evaluate her carpal tunnel syndrome.",
+      "negative": "She underwent a nerve conduction study to evaluate her ulnar nerve injury."
+    },
+    {
+      "positive": "The physical therapist suggested using an ergonomic keyboard to prevent carpal tunnel syndrome.",
+      "negative": "The physical therapist suggested using an ergonomic chair to prevent lower back pain."
+    },
+    {
+      "positive": "The patient is experiencing severe symptoms of carpal tunnel syndrome that impair her daily activities.",
+      "negative": "The patient is experiencing severe symptoms of plantar fasciitis that impair her daily activities."
+    },
+    {
+      "positive": "She described her symptoms of carpal tunnel syndrome as feeling like an electric shock in her wrist.",
+      "negative": "She described her symptoms of tendinitis as feeling like an electric shock in her ankle."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can often be managed with non-invasive treatments initially.",
+      "negative": "Achilles tendinitis can often be managed with non-invasive treatments initially."
+    },
+    {
+      "positive": "The onset of her carpal tunnel syndrome was gradual, aligning with her increased typing workload.",
+      "negative": "The onset of her shoulder pain was gradual, aligning with her increased lifting workload."
+    },
+    {
+      "positive": "The doctor recommended using a wrist brace to alleviate her carpal tunnel syndrome symptoms.",
+      "negative": "The doctor recommended using an ankle brace to alleviate her sprained ankle symptoms."
+    },
+    {
+      "positive": "Chronic wrist pain is often a sign of carpal tunnel syndrome.",
+      "negative": "Chronic knee pain is often a sign of osteoarthritis."
+    },
+    {
+      "positive": "The patient has been advised to avoid activities that exacerbate her carpal tunnel syndrome.",
+      "negative": "The patient has been advised to avoid activities that exacerbate her patellar tendinitis."
+    },
+    {
+      "positive": "She was diagnosed with carpal tunnel syndrome after a thorough clinical evaluation.",
+      "negative": "She was diagnosed with a rotator cuff tear after a thorough clinical evaluation."
+    },
+    {
+      "positive": "Symptoms of carpal tunnel syndrome can include weakness in the thumb and index finger.",
+      "negative": "Symptoms of hip bursitis can include weakness in the thigh and hip."
+    },
+    {
+      "positive": "The patient's carpal tunnel syndrome symptoms improved with the use of a night splint.",
+      "negative": "The patient's knee pain improved with the use of a knee sleeve."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is characterized by compression of the median nerve at the wrist.",
+      "negative": "Tennis elbow is characterized by inflammation of the tendons in the elbow."
+    },
+    {
+      "positive": "The patient was educated about the risk factors associated with carpal tunnel syndrome.",
+      "negative": "The patient was educated about the risk factors associated with shoulder impingement."
+    },
+    {
+      "positive": "She noted that her symptoms of carpal tunnel syndrome are more pronounced after long hours of work.",
+      "negative": "She noted that her symptoms of shin splints are more pronounced after long hours of work."
+    },
+    {
+      "positive": "The physician recommended a corticosteroid injection to help manage her carpal tunnel syndrome symptoms.",
+      "negative": "The physician recommended a corticosteroid injection to help manage her hip bursitis symptoms."
+    },
+    {
+      "positive": "The patient's carpal tunnel syndrome was confirmed after a series of diagnostic tests.",
+      "negative": "The patient's shoulder impingement was confirmed after a series of diagnostic tests."
+    },
+    {
+      "positive": "Patients with carpal tunnel syndrome often experience difficulty with fine motor tasks.",
+      "negative": "Patients with shoulder impingement often experience difficulty with overhead activities."
+    },
+    {
+      "positive": "The patient expressed concern about the progression of her carpal tunnel syndrome.",
+      "negative": "The patient expressed concern about the progression of her hip osteoarthritis."
+    },
+    {
+      "positive": "The workplace ergonomics assessment revealed factors contributing to her carpal tunnel syndrome.",
+      "negative": "The workplace ergonomics assessment revealed factors contributing to her back pain."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can cause significant discomfort and limit hand functionality.",
+      "negative": "Patellar tendinitis can cause significant discomfort and limit knee functionality."
+    },
+    {
+      "positive": "The patient's history of carpal tunnel syndrome was discussed during the follow-up appointment.",
+      "negative": "The patient's history of ankle sprains was discussed during the follow-up appointment."
+    },
+    {
+      "positive": "She is considering surgery for her carpal tunnel syndrome after conservative measures failed.",
+      "negative": "She is considering surgery for her meniscus tear after conservative measures failed."
+    },
+    {
+      "positive": "The patient found relief from her carpal tunnel syndrome symptoms through physical therapy.",
+      "negative": "The patient found relief from her hip pain symptoms through physical therapy."
+    },
+    {
+      "positive": "She was advised to limit repetitive wrist movements to manage her carpal tunnel syndrome.",
+      "negative": "She was advised to limit repetitive knee movements to manage her runner's knee."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is often self-diagnosed by patients noticing their symptoms.",
+      "negative": "Achilles tendinitis is often self-diagnosed by patients noticing their symptoms."
+    },
+    {
+      "positive": "The doctor explained that carpal tunnel syndrome could be exacerbated by pregnancy-related swelling.",
+      "negative": "The doctor explained that plantar fasciitis could be exacerbated by pregnancy-related weight gain."
+    },
+    {
+      "positive": "She sought a second opinion regarding her diagnosis of carpal tunnel syndrome.",
+      "negative": "She sought a second opinion regarding her diagnosis of a meniscus tear."
+    },
+    {
+      "positive": "The patient was given a list of exercises to help alleviate her carpal tunnel syndrome symptoms.",
+      "negative": "The patient was given a list of exercises to help alleviate her hip pain symptoms."
+    },
+    {
+      "positive": "Her carpal tunnel syndrome diagnosis was supported by both clinical findings and symptom history.",
+      "negative": "Her shoulder impingement diagnosis was supported by both clinical findings and symptom history."
+    },
+    {
+      "positive": "The patient presented with numbness and tingling in the fingers, indicative of carpal tunnel syndrome.",
+      "negative": "The patient presented with numbness and tingling in the toes, indicative of peripheral neuropathy."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can be exacerbated by activities that involve prolonged wrist flexion.",
+      "negative": "Tendinitis can be exacerbated by activities that involve prolonged wrist flexion."
+    },
+    {
+      "positive": "The diagnosis of carpal tunnel syndrome was confirmed through nerve conduction studies.",
+      "negative": "The diagnosis of tennis elbow was confirmed through nerve conduction studies."
+    },
+    {
+      "positive": "Symptoms of carpal tunnel syndrome often include weakness in grip strength.",
+      "negative": "Symptoms of tennis elbow often include weakness in grip strength."
+    },
+    {
+      "positive": "Treatment options for carpal tunnel syndrome include splinting and corticosteroid injections.",
+      "negative": "Treatment options for lateral epicondylitis include splinting and corticosteroid injections."
+    },
+    {
+      "positive": "The surgeon recommended carpal tunnel release surgery to alleviate the patient's symptoms.",
+      "negative": "The surgeon recommended rotator cuff repair to alleviate the patient's symptoms."
+    },
+    {
+      "positive": "The patient reported increased pain in the wrist at night, typical for carpal tunnel syndrome.",
+      "negative": "The patient reported increased pain in the ankle at night, typical for Achilles tendinopathy."
+    },
+    {
+      "positive": "Physical therapy was advised to address the carpal tunnel syndrome.",
+      "negative": "Physical therapy was advised to address the knee osteoarthritis."
+    },
+    {
+      "positive": "The patient experienced a positive Phalen's test, suggesting carpal tunnel syndrome.",
+      "negative": "The patient experienced a positive McMurray's test, suggesting meniscal injury."
+    },
+    {
+      "positive": "Carpal tunnel syndrome often affects individuals whose work requires repetitive hand movements.",
+      "negative": "Plantar fasciitis often affects individuals whose work requires repetitive hand movements."
+    },
+    {
+      "positive": "The medical history indicated a prior diagnosis of carpal tunnel syndrome.",
+      "negative": "The medical history indicated a prior diagnosis of gout."
+    },
+    {
+      "positive": "Post-operative recovery from carpal tunnel syndrome surgery typically involves physical therapy.",
+      "negative": "Post-operative recovery from knee arthroscopy typically involves physical therapy."
+    },
+    {
+      "positive": "The patient described a sensation of electric shock in the wrist from carpal tunnel syndrome.",
+      "negative": "The patient described a sensation of electric shock in the knee from patellar tendinopathy."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is often associated with pregnancy due to fluid retention.",
+      "negative": "Plantar fasciitis is often associated with pregnancy due to weight gain."
+    },
+    {
+      "positive": "The doctor explained that carpal tunnel syndrome can cause difficulty with fine motor tasks.",
+      "negative": "The doctor explained that hip bursitis can cause difficulty with fine motor tasks."
+    },
+    {
+      "positive": "Wrist splints can provide relief for patients suffering from carpal tunnel syndrome.",
+      "negative": "Wrist splints can provide relief for patients suffering from De Quervain's tenosynovitis."
+    },
+    {
+      "positive": "The patient’s symptoms are consistent with carpal tunnel syndrome, especially during typing.",
+      "negative": "The patient’s symptoms are consistent with plantar fasciitis, especially during walking."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is characterized by median nerve compression at the wrist.",
+      "negative": "Tarsal tunnel syndrome is characterized by tibial nerve compression at the ankle."
+    },
+    {
+      "positive": "Electromyography was performed to assess the severity of the carpal tunnel syndrome.",
+      "negative": "Electromyography was performed to assess the severity of the herniated disc."
+    },
+    {
+      "positive": "The patient’s job involves extensive computer use, which can contribute to carpal tunnel syndrome.",
+      "negative": "The patient’s job involves extensive lifting, which can contribute to lumbar strain."
+    },
+    {
+      "positive": "The orthopedist diagnosed carpal tunnel syndrome based on the patient's symptoms and clinical findings.",
+      "negative": "The orthopedist diagnosed a meniscus tear based on the patient's symptoms and clinical findings."
+    },
+    {
+      "positive": "The patient was advised to take frequent breaks to prevent carpal tunnel syndrome.",
+      "negative": "The patient was advised to take frequent breaks to prevent hip bursitis."
+    },
+    {
+      "positive": "Carpal tunnel syndrome may present with symptoms such as pain radiating into the forearm.",
+      "negative": "Iliotibial band syndrome may present with symptoms such as pain radiating into the thigh."
+    },
+    {
+      "positive": "The physician recommended ergonomic adjustments to prevent carpal tunnel syndrome in the workplace.",
+      "negative": "The physician recommended ergonomic adjustments to prevent shoulder impingement in the workplace."
+    },
+    {
+      "positive": "Symptoms of carpal tunnel syndrome can worsen during pregnancy due to hormonal changes.",
+      "negative": "Symptoms of sciatica can worsen during pregnancy due to hormonal changes."
+    },
+    {
+      "positive": "The patient's carpal tunnel syndrome was classified as moderate based on symptom severity.",
+      "negative": "The patient's knee osteoarthritis was classified as moderate based on symptom severity."
+    },
+    {
+      "positive": "Chronic conditions like diabetes can increase the risk of developing carpal tunnel syndrome.",
+      "negative": "Chronic conditions like hypertension can increase the risk of developing angina."
+    },
+    {
+      "positive": "Carpal tunnel syndrome may require surgical intervention if conservative treatments fail.",
+      "negative": "Achilles tendinopathy may require surgical intervention if conservative treatments fail."
+    },
+    {
+      "positive": "Patients with carpal tunnel syndrome often benefit from steroid injections.",
+      "negative": "Patients with tennis elbow often benefit from steroid injections."
+    },
+    {
+      "positive": "The patient’s wrist pain was diagnosed as carpal tunnel syndrome after a thorough evaluation.",
+      "negative": "The patient’s wrist pain was diagnosed as wrist sprain after a thorough evaluation."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can lead to significant disability if left untreated.",
+      "negative": "Plantar fasciitis can lead to significant disability if left untreated."
+    },
+    {
+      "positive": "The presence of a positive Tinel's sign was noted during the assessment for carpal tunnel syndrome.",
+      "negative": "The presence of a positive Finkelstein's test was noted during the assessment for De Quervain's tenosynovitis."
+    },
+    {
+      "positive": "The patient reported difficulty grasping objects due to carpal tunnel syndrome.",
+      "negative": "The patient reported difficulty climbing stairs due to knee osteoarthritis."
+    },
+    {
+      "positive": "The physician discussed the potential benefits of surgery for carpal tunnel syndrome.",
+      "negative": "The physician discussed the potential benefits of surgery for shoulder dislocation."
+    },
+    {
+      "positive": "Carpal tunnel syndrome is often treated with a combination of rest and activity modification.",
+      "negative": "Rotator cuff tears are often treated with a combination of rest and activity modification."
+    },
+    {
+      "positive": "The patient was advised to avoid wrist flexion to manage carpal tunnel syndrome symptoms.",
+      "negative": "The patient was advised to avoid knee flexion to manage hamstring strain symptoms."
+    },
+    {
+      "positive": "Symptoms of carpal tunnel syndrome can include a burning sensation in the hand.",
+      "negative": "Symptoms of Achilles tendinopathy can include a burning sensation in the calf."
+    },
+    {
+      "positive": "The use of splints at night is a common recommendation for those with carpal tunnel syndrome.",
+      "negative": "The use of braces at night is a common recommendation for those with scoliosis."
+    },
+    {
+      "positive": "The patient's job as a graphic designer has contributed to her carpal tunnel syndrome.",
+      "negative": "The patient's job as a chef has contributed to her plantar fasciitis."
+    },
+    {
+      "positive": "Carpal tunnel syndrome can cause difficulty typing and performing daily tasks.",
+      "negative": "Knee osteoarthritis can cause difficulty walking and performing daily tasks."
+    },
+    {
+      "positive": "The patient was referred to a specialist for further evaluation of her carpal tunnel syndrome.",
+      "negative": "The patient was referred to a specialist for further evaluation of her ankle sprain."
+    },
+    {
+      "positive": "Diagnosis of carpal tunnel syndrome often involves a thorough physical examination.",
+      "negative": "Diagnosis of a herniated disc often involves a thorough physical examination."
+    },
+    {
+      "positive": "The patient presented with numbness and tingling in the fingers, indicating carpal tunnel syndrome.",
+      "negative": "The patient presented with numbness and tingling in the toes, indicating peripheral neuropathy."
+    },
+    {
+      "positive": "Diagnostic imaging revealed swelling in the carpal tunnel, consistent with carpal tunnel syndrome.",
+      "negative": "Diagnostic imaging revealed swelling in the ankle, consistent with ankle sprain."
+    },
+    {
+      "positive": "Carpal tunnel syndrome was diagnosed after the patient reported weakness in grip strength.",
+      "negative": "Patellar tendinopathy was diagnosed after the patient reported weakness in knee extension."
+    },
+    {
+      "positive": "The physician suggested corticosteroid injections to treat the inflammation associated with carpal tunnel syndrome.",
+      "negative": "The physician suggested corticosteroid injections to treat the inflammation associated with bursitis."
+    },
+    {
+      "positive": "Symptoms of carpal tunnel syndrome were aggravated by repetitive wrist movements during typing.",
+      "negative": "Symptoms of Achilles tendinitis were aggravated by repetitive ankle movements during running."
+    },
+    {
+      "positive": "Electromyography confirmed the diagnosis of carpal tunnel syndrome by showing median nerve compression.",
+      "negative": "Electromyography confirmed the diagnosis of fibular nerve entrapment by showing peroneal nerve damage."
+    },
+    {
+      "positive": "The patient underwent a nerve conduction study that indicated carpal tunnel syndrome.",
+      "negative": "The patient underwent a nerve conduction study that indicated ulnar nerve neuropathy."
+    },
+    {
+      "positive": "The use of wrist braces has been recommended to manage symptoms of carpal tunnel syndrome.",
+      "negative": "The use of knee braces has been recommended to manage symptoms of patellar tendinopathy."
+    },
+    {
+      "positive": "The neurologist noted that the patient's symptoms were typical of carpal tunnel syndrome.",
+      "negative": "The neurologist noted that the patient's symptoms were typical of tennis elbow."
+    },
+    {
+      "positive": "The patient's nocturnal symptoms of pain are suggestive of carpal tunnel syndrome.",
+      "negative": "The patient's nocturnal symptoms of pain are suggestive of restless leg syndrome."
+    },
+    {
+      "positive": "The evaluation revealed that the patient's wrist pain was due to carpal tunnel syndrome.",
+      "negative": "The evaluation revealed that the patient's wrist pain was due to a ganglion cyst."
+    },
+    {
+      "positive": "The occupational therapist recommended stretching exercises specifically for carpal tunnel syndrome.",
+      "negative": "The occupational therapist recommended stretching exercises specifically for plantar fasciitis."
+    },
+    {
+      "positive": "During the physical exam, the doctor observed significant tenderness in the wrist indicative of carpal tunnel syndrome.",
+      "negative": "During the physical exam, the doctor observed significant tenderness in the shoulder indicative of rotator cuff injury."
+    },
+    {
+      "positive": "The patient's family history included instances of carpal tunnel syndrome, raising suspicion for the condition.",
+      "negative": "The patient's family history included instances of gout, raising suspicion for the condition."
+    },
+    {
+      "positive": "The patient's symptoms improved following a course of splinting for carpal tunnel syndrome.",
+      "negative": "The patient's symptoms improved following a course of physical therapy for shoulder impingement."
+    },
+    {
+      "positive": "The clinical findings were consistent with carpal tunnel syndrome, prompting further evaluation.",
+      "negative": "The clinical findings were consistent with osteoarthritis, prompting further evaluation."
+    },
+    {
+      "positive": "The patient's wrist pain was diagnosed as carpal tunnel syndrome due to prolonged computer use.",
+      "negative": "The patient's wrist pain was diagnosed as tendinitis due to prolonged gardening activities."
+    },
+    {
+      "positive": "The referral to a hand specialist was made for the management of carpal tunnel syndrome.",
+      "negative": "The referral to a foot specialist was made for the management of plantar fasciitis."
+    },
+    {
+      "positive": "The patient reported waking up with numb fingers, a common symptom of carpal tunnel syndrome.",
+      "negative": "The patient reported waking up with a stiff neck, a common symptom of cervical spondylosis."
+    },
+    {
+      "positive": "The medical history indicated previous episodes of carpal tunnel syndrome in the patient.",
+      "negative": "The medical history indicated previous episodes of sciatica in the patient."
+    },
+    {
+      "positive": "The patient's symptoms were assessed using the Boston Carpal Tunnel Questionnaire, confirming carpal tunnel syndrome.",
+      "negative": "The patient's symptoms were assessed using the Oswestry Disability Index, confirming lumbar disc herniation."
+    },
+    {
+      "positive": "The diagnosis of carpal tunnel syndrome was made based on a comprehensive clinical evaluation.",
+      "negative": "The diagnosis of tennis elbow was made based on a comprehensive clinical evaluation."
+    },
+    {
+      "positive": "Progressive symptoms of carpal tunnel syndrome were discussed during the patient's follow-up appointment.",
+      "negative": "Progressive symptoms of knee osteoarthritis were discussed during the patient's follow-up appointment."
+    },
+    {
+      "positive": "The neurologist diagnosed the patient with carpal tunnel syndrome after evaluating her hand and wrist symptoms.",
+      "negative": "The neurologist diagnosed the patient with tennis elbow after evaluating her arm and elbow symptoms."
+    },
+    {
+      "positive": "The patient's carpal tunnel syndrome was exacerbated by repetitive wrist movements during her work.",
+      "negative": "The patient's shoulder impingement was exacerbated by repetitive shoulder movements during her work."
+    }
+  ],
+  "concept": "carpal tunnel syndrome",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}
