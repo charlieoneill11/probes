@@ -146,6 +146,23 @@ The main issue is that our probes are overfitting to features that don't truly r
 - **Add ROC AUC metrics**: This can help better understand probe performance beyond just accuracy and F1
 - **Implement threshold tuning**: Find optimal activation thresholds for each probe
 
+> ## 🔄 Recent Updates (Tuesday 4th March 2025)
+> 
+> We've made several important improvements to the probe training process:
+> 
+> * **Fixed representation extraction**: Now using left-padding instead of right-padding to prevent the model from looking at padding tokens when extracting the final activation (since we take the last activation as the representation)
+> 
+> * **Added hard negative mining**: Incorporated negative examples from The Pile dataset
+>   * Using 100 examples currently seems optimal - 200 was too many and caused excessive false negatives
+>   * Feel free to experiment with this parameter to find the best balance
+> 
+> * **Next steps to consider**:
+>   * Automate validation on example.txt and unrelated.txt (from the notebook) token-by-token to create an extra holdout test set
+>   * Implement ROC AUC metrics for better evaluation
+>   * Experiment with different data generation formats to determine what produces the best probes
+>   * Create 2-3 manual test cases for some concepts to better understand what works
+>   * The ultimate goal is to maximise true positives while minimising false positives and negatives
+
 ## Interview Objectives
 
 Your task is to improve the probe training process so that:
