@@ -18,27 +18,27 @@
     },
     {
       "positive": "The patient's family history of heart disease combined with elevated LDL cholesterol is concerning.",
-      "negative": "The patient's family history of heart disease combined with normal LDL cholesterol is concerning."
+      "negative": "The patient's family history of heart disease combined with normal LDL-C is concerning."
     },
     {
-      "positive": "Lifestyle modifications were advised to address the elevated LDL cholesterol found in the recent blood tests.",
-      "negative": "Lifestyle modifications were advised to address the low LDL cholesterol found in the recent blood tests."
+      "positive": "Lifestyle modifications were advised to address the elevated LDL-C found in the recent blood tests.",
+      "negative": "Lifestyle modifications were advised to address the low LDL-C found in the recent blood tests."
     },
     {
-      "positive": "The cardiologist emphasized the importance of managing elevated LDL cholesterol to prevent atherosclerosis.",
-      "negative": "The cardiologist emphasized the importance of managing elevated HDL cholesterol to prevent atherosclerosis."
+      "positive": "The cardiologist emphasized the importance of managing elevated LDL-C to prevent atherosclerosis.",
+      "negative": "The cardiologist emphasized the importance of managing elevated HDL-C to prevent atherosclerosis."
     },
     {
-      "positive": "The patient's elevated LDL cholesterol requires further evaluation for potential familial hypercholesterolemia.",
-      "negative": "The patient's normal LDL cholesterol requires further evaluation for potential familial hypercholesterolemia."
+      "positive": "The patient's elevated LDL-C requires further evaluation for potential familial hypercholesterolemia.",
+      "negative": "The patient's normal LDL-C requires further evaluation for potential familial hypercholesterolemia."
     },
     {
-      "positive": "She was informed that her elevated LDL cholesterol could lead to coronary artery disease if not treated.",
-      "negative": "She was informed that her normal LDL cholesterol could lead to coronary artery disease if not treated."
+      "positive": "She was informed that her elevated LDL-C could lead to coronary artery disease if not treated.",
+      "negative": "She was informed that her normal LDL-C could lead to coronary artery disease if not treated."
     },
     {
-      "positive": "The lab results confirmed an elevated LDL cholesterol level, prompting a discussion about statin therapy.",
-      "negative": "The lab results confirmed a normal LDL cholesterol level, prompting a discussion about statin therapy."
+      "positive": "The lab results confirmed an elevated LDL-C level, prompting a discussion about statin therapy.",
+      "negative": "The lab results confirmed a normal LDL-C level, prompting a discussion about statin therapy."
     },
     {
       "positive": "A diet rich in fiber is recommended to help lower the patient’s elevated LDL cholesterol levels.",

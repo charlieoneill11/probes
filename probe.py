@@ -3,6 +3,7 @@ import numpy as np
 from typing import List, Dict, Tuple, Optional, Any, Union
 import transformer_lens as tl
 import json
+import gc
 import os
 import yaml
 from tqdm import tqdm
@@ -82,50 +83,133 @@ class ProbeTrainer:
     def extract_representations(self, batch_size: int = 16):
         """Extract representations from the model for all examples"""
         print("Extracting representations...")
-
+        
+        # Add debug prints to show example counts
+        print(f"DEBUG: Processing {len(self.pos_examples)} positive examples")
+        print(f"DEBUG: Processing {len(self.neg_examples)} concept-specific negative examples")
+        print(f"DEBUG: Processing {len(self.general_neg_examples)} general negative examples")
+        print(f"DEBUG: Processing {len(getattr(self, 'mined_neg_examples', []))} mined negative examples")
+        
         # Set PyTorch CUDA memory allocation configuration
         os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
         
         pos_resid_list = []
         neg_resid_list = []
         general_neg_resid_list = []
+        mined_neg_resid_list = []
+
+        tokenizer = self.model.tokenizer
+        tokenizer.truncation_side='left'
+        tokenizer.padding_side='left'
+        
+        # Create inputs directory if it doesn't exist
+        inputs_dir = os.path.join(self.config.save_dir, "inputs")
+        os.makedirs(inputs_dir, exist_ok=True)
+        
+        # Check for cached general negative representations
+        general_neg_cache_path = os.path.join(inputs_dir, f"{self.config.model_name.replace('/', '_')}_layer{self.config.layer}_general_neg.pt")
+        if self.general_neg_examples and os.path.exists(general_neg_cache_path):
+            print(f"Loading cached general negative representations from {general_neg_cache_path}")
+            general_neg_resid = torch.load(general_neg_cache_path)
+            general_neg_resid_list = [general_neg_resid]
+        
+        # Check for cached mined negative representations
+        mined_neg_cache_path = os.path.join(inputs_dir, f"{self.config.model_name.replace('/', '_')}_layer{self.config.layer}_mined_neg.pt")
+        if hasattr(self, 'mined_neg_examples') and self.mined_neg_examples and os.path.exists(mined_neg_cache_path):
+            print(f"Loading cached mined negative representations from {mined_neg_cache_path}")
+            mined_neg_resid = torch.load(mined_neg_cache_path)
+            mined_neg_resid_list = [mined_neg_resid]
         
         # Process positive examples in batches
         for i in tqdm(range(0, len(self.pos_examples), batch_size), desc="Processing positive examples"):
-            batch = self.pos_examples[i:i+batch_size]
-            _, pos_cache = self.model.run_with_cache(self.model.to_tokens(batch))
+            batch_text = self.pos_examples[i:i+batch_size]
+            batch = tokenizer(batch_text, padding=True, truncation=True, max_length=256, return_tensors="pt")
+            batch = batch.to(self.device)
+            if i == 0: print(f"Shape of tokens: {batch['input_ids'].shape}")
+            _, pos_cache = self.model.run_with_cache(batch["input_ids"], names_filter=[self.config.hook_name])
             pos_resid_list.append(pos_cache[self.config.hook_name][:, -1].to('cpu'))
             del pos_cache, batch
         
         # Process concept-specific negative examples in batches
         for i in tqdm(range(0, len(self.neg_examples), batch_size), desc="Processing concept-specific negative examples"):
-            batch = self.neg_examples[i:i+batch_size]
-            _, neg_cache = self.model.run_with_cache(self.model.to_tokens(batch))
+            batch_text = self.neg_examples[i:i+batch_size]
+            batch = tokenizer(batch_text, padding=True, truncation=True, max_length=256, return_tensors="pt")
+            batch = batch.to(self.device)
+            if i == 0: print(f"Shape of tokens: {batch['input_ids'].shape}")
+            _, neg_cache = self.model.run_with_cache(batch["input_ids"], names_filter=[self.config.hook_name])
             neg_resid_list.append(neg_cache[self.config.hook_name][:, -1].to('cpu'))
             del neg_cache, batch
         
-        # Process general negative examples in batches if available
-        general_batch_size = min(batch_size, 4)  # Use smaller batch size for general negatives
-        if self.general_neg_examples:
+        # Process general negative examples in batches if available and not already loaded from cache
+        general_batch_size = min(batch_size, 8)  # Use smaller batch size for general negatives
+        if self.general_neg_examples and not general_neg_resid_list:
             for i in tqdm(range(0, len(self.general_neg_examples), general_batch_size), desc="Processing general negative examples"):
-                batch = self.general_neg_examples[i:i+general_batch_size]
-                _, general_neg_cache = self.model.run_with_cache(self.model.to_tokens(batch))
+                batch_text = self.general_neg_examples[i:i+general_batch_size]
+                batch = tokenizer(batch_text, padding=True, truncation=True, max_length=256, return_tensors="pt")
+                batch = batch.to(self.device)
+                _, general_neg_cache = self.model.run_with_cache(batch["input_ids"], names_filter=[self.config.hook_name])
                 general_neg_resid_list.append(general_neg_cache[self.config.hook_name][:, -1].to('cpu'))
                 del general_neg_cache, batch
+            
+            # Save general negative representations to cache
+            if general_neg_resid_list:
+                general_neg_resid = torch.cat(general_neg_resid_list, dim=0)
+                torch.save(general_neg_resid, general_neg_cache_path)
+                print(f"Saved general negative representations to {general_neg_cache_path}")
+                # Replace list with single tensor for consistency
+                general_neg_resid_list = [general_neg_resid]
+        
+        # Process mined negative examples in batches if available and not already loaded from cache
+        mined_batch_size = min(batch_size, 8)  # Use smaller batch size for mined negatives
+        if hasattr(self, 'mined_neg_examples') and self.mined_neg_examples and not mined_neg_resid_list:
+            print(f"DEBUG: Starting to process {len(self.mined_neg_examples)} mined negative examples")
+            for i in tqdm(range(0, len(self.mined_neg_examples), mined_batch_size), desc="Processing mined negative examples"):
+                batch_text = self.mined_neg_examples[i:i+mined_batch_size]
+                batch = tokenizer(batch_text, padding=True, truncation=True, max_length=256, return_tensors="pt")
+                batch = batch.to(self.device)
+                #print("Shape of tokens: ", batch["input_ids"].shape)
+                _, mined_neg_cache = self.model.run_with_cache(batch["input_ids"], names_filter=[self.config.hook_name])
+                mined_neg_resid_list.append(mined_neg_cache[self.config.hook_name][:, -1].to('cpu'))
+                del mined_neg_cache, batch
+                # Clean up memory
+                torch.cuda.empty_cache() if torch.cuda.is_available() else None
+                gc.collect()
+            
+            # Save mined negative representations to cache
+            if mined_neg_resid_list:
+                mined_neg_resid = torch.cat(mined_neg_resid_list, dim=0)
+                torch.save(mined_neg_resid, mined_neg_cache_path)
+                print(f"Saved mined negative representations to {mined_neg_cache_path}")
+                # Replace list with single tensor for consistency
+                mined_neg_resid_list = [mined_neg_resid]
+        else:
+            print("DEBUG: No mined negative examples to process")
         
         # Concatenate all batches
         pos_resid = torch.cat(pos_resid_list, dim=0)
         neg_resid = torch.cat(neg_resid_list, dim=0)
         
-        # Include general negative examples if available
+        # Include general and mined negative examples if available
+        all_neg_resid_list = [neg_resid]
+        neg_counts = {"concept-specific": len(neg_resid)}
+        
         if general_neg_resid_list:
-            general_neg_resid = torch.cat(general_neg_resid_list, dim=0)
-            # Combine concept-specific and general negative examples
-            all_neg_resid = torch.cat([neg_resid, general_neg_resid], dim=0)
-            print(f"Extracted representations: {pos_resid.shape}, {neg_resid.shape} (concept-specific), {general_neg_resid.shape} (general)")
-        else:
-            all_neg_resid = neg_resid
-            print(f"Extracted representations: {pos_resid.shape}, {neg_resid.shape}")
+            general_neg_resid = general_neg_resid_list[0]  # Already concatenated
+            all_neg_resid_list.append(general_neg_resid)
+            neg_counts["general"] = len(general_neg_resid)
+        
+        if mined_neg_resid_list:
+            mined_neg_resid = mined_neg_resid_list[0]  # Already concatenated
+            all_neg_resid_list.append(mined_neg_resid)
+            neg_counts["mined"] = len(mined_neg_resid)
+        
+        # Combine all negative examples
+        all_neg_resid = torch.cat(all_neg_resid_list, dim=0)
+        
+        # Log counts
+        print(f"Extracted representations: {pos_resid.shape} (positive), {all_neg_resid.shape} (all negative)")
+        for neg_type, count in neg_counts.items():
+            print(f"  - {neg_type}: {count}")
         
         # Stack and create labels
         resid = torch.cat([pos_resid, all_neg_resid], dim=0)
@@ -363,7 +447,8 @@ class ProbeTrainer:
             'positive_examples': int(pos_count),
             'negative_examples': int(neg_count),
             'concept_specific_neg_examples': len(self.neg_examples),
-            'general_neg_examples': len(self.general_neg_examples)
+            'general_neg_examples': len(self.general_neg_examples),
+            'mined_neg_examples': len(getattr(self, 'mined_neg_examples', []))
         }
         
         # Optionally retrain on all data
@@ -381,11 +466,15 @@ class ProbeTrainer:
                 'positive_examples': int(pos_count),
                 'negative_examples': int(neg_count),
                 'concept_specific_neg_examples': len(self.neg_examples),
-                'general_neg_examples': len(self.general_neg_examples)
+                'general_neg_examples': len(self.general_neg_examples),
+                'mined_neg_examples': len(getattr(self, 'mined_neg_examples', []))
             }
             
             # No validation metrics for final model as we used all data
             self.val_metrics = {}
+
+            # Print final weight of probe
+            print(f"Final weight of probe: {self.probe.coef_[0]}")
         
         return self.probe
     
@@ -486,6 +575,9 @@ class ProbeTrainer:
             with open(model_path, 'wb') as f:
                 pickle.dump(self.probe, f)
         
+        # Count mined examples if they exist
+        mined_neg_count = len(getattr(self, 'mined_neg_examples', [])) 
+        
         # Save config and metrics
         config_dict = {
             'concept': self.config.concept,
@@ -502,7 +594,9 @@ class ProbeTrainer:
                 'positive_examples': len(self.pos_examples),
                 'concept_specific_neg_examples': len(self.neg_examples),
                 'general_neg_examples': len(self.general_neg_examples),
-                'total_examples': len(self.pos_examples) + len(self.neg_examples) + len(self.general_neg_examples)
+                'mined_neg_examples': mined_neg_count,
+                'total_examples': len(self.pos_examples) + len(self.neg_examples) + 
+                                 len(self.general_neg_examples) + mined_neg_count
             }
         }
         
@@ -647,6 +741,15 @@ class ProbeTrainer:
         self.general_neg_examples = examples
         print(f"Added {len(examples)} general negative examples")
     
+    def add_mined_negative_examples(self, examples: List[str]):
+        """Add mined negative examples from a dataset"""
+        self.mined_neg_examples = examples
+        print(f"Added {len(examples)} mined negative examples from source")
+        # Print a sample of the first example to verify content
+        if examples:
+            sample = examples[0][:100] + "..." if len(examples[0]) > 100 else examples[0]
+            print(f"Sample mined example: {sample}")
+    
     def prepare_data(self):
         """Prepare data for training by extracting representations"""
         if not self.pos_examples or not self.neg_examples:
@@ -691,4 +794,4 @@ class ProbeTrainer:
             "num_concept_neg_examples": len(self.neg_examples),
             "num_general_neg_examples": len(self.general_neg_examples),
             "total_examples": len(self.X)
-        }
+            }

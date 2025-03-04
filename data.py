@@ -23,7 +23,7 @@ class ConceptExampleGenerator:
         Args:
             api_key: OpenAI API key
             model: OpenAI model to use (default: gpt-4o-mini)
-            temperature: Temperature parameter for generation (default: 0.7)
+            temperature: Temperature parameter for generation (default: 1.0)
         """
         self.client = OpenAI(api_key=api_key)
         self.model = model
@@ -35,7 +35,7 @@ class ConceptExampleGenerator:
                           max_retries: int = 3, 
                           domain: Optional[str] = None,
                           domain_description: Optional[str] = None,
-                          example_length: str = "long",
+                          example_length: str = "medium",
                           previous_examples: Optional[List[Dict[str, str]]] = None) -> List[Dict[str, str]]:
         """
         Generate k pairs of positive and negative examples for the given concept.
@@ -61,7 +61,7 @@ class ConceptExampleGenerator:
         elif example_length == "medium":
             length_guide = "Keep examples moderately sized (2-4 sentences)."
         elif example_length == "long":
-            length_guide = "Make examples at LEAST 4 sentences. Ensure they are multiple sentences for both positive and negative examples."
+            length_guide = "Make examples at LEAST 2 sentences. Ensure there are multiple sentences for both positive and negative examples."
         
         # Add domain-specific instructions if provided
         domain_guide = ""
@@ -82,33 +82,60 @@ For each example pair:
 
 {domain_guide}
 {length_guide}
-
 For example, if the concept is "femur fracture", we should avoid mentioning the femur or the leg in the negative example, as the concept is femur fracture.
 In general, whilst the change should be minimal, it should be clear that the negative example is unrelated to the concept almost completely.
 For instance, a head contusion is not related to the femur fracture at all, whereas a leg contusion would be related, so we should avoid that in the negative example.
 At the very least, the negative example should not mention the concept, unless it is a negation of the concept e.g. the patient did not have a femur fracture. 
-If the concept is not very specific jargon, then you can use different words to describe the concept in the positive example (as long as they mean the same thing); e.g., "elevated LDL cholesterol" could be "high LDL cholesterol".
+If the concept is not very specific jargon, then you can use different words to describe the concept in the positive example (as long as they mean the same thing); e.g., "elevated LDL cholesterol" could be "high LDL cholesterol" or "high LDL-C".
 """
+# For example:
+# "positive": "The emergency room staff treated him for a femur fracture that resulted from a motorcycle accident.",
+# "negative": "The emergency room staff treated him for a head contusion that resulted from a motorcycle accident."
+
+# Here, we should avoid mentioning the femur or the leg in the negative example, as the concept is femur fracture.
+# In general, whilst the change should be minimal, it should be clear that the negative example is unrelated to the concept almost completely.
+# In the above example, the head contusion is not related to the femur fracture at all, whereas a leg contusion would be related, so we should avoid that.
+
+# Your response should be in JSON format with an array of objects, each containing:
+# - "positive": the example with the concept present
+# - "negative": the matching example with the concept absent
+
+# Be precise about the concept - ensure it's truly present in positive examples and truly absent in negative ones.
+# Vary the examples to cover different aspects of the concept.
+# If the concept is "elevated LDL cholesterol", for instance, then the negative example could use "low LDL cholesterol", "optimal LDL cholesterol", "normal LDL cholesterol" or "high HDL cholesterol", but not "high LDL cholesterol". Vary this.
+# If the concept is not very specific jargon, then you can use different words to describe the concept in the positive example (as long as they mean the same thing); e.g., "elevated LDL cholesterol" could be "high LDL cholesterol" or "high LDL-C".
+# """
+
+# For example, if the concept is "femur fracture", we should avoid mentioning the femur or the leg in the negative example, as the concept is femur fracture.
+# In general, whilst the change should be minimal, it should be clear that the negative example is unrelated to the concept almost completely.
+# For instance, a head contusion is not related to the femur fracture at all, whereas a leg contusion would be related, so we should avoid that in the negative example.
+# At the very least, the negative example should not mention the concept, unless it is a negation of the concept e.g. the patient did not have a femur fracture. 
+# If the concept is "elevated LDL cholesterol", for instance, then the negative example could use "low LDL cholesterol", "optimal LDL cholesterol", "normal LDL cholesterol" or "high HDL cholesterol", but not "high LDL cholesterol". Vary this.
+# If the concept is not very specific jargon, then you can use different words to describe the concept in the positive example (as long as they mean the same thing); e.g., "elevated LDL cholesterol" could be "high LDL cholesterol".
+# """
         #print(system_prompt)
 
         # Add instructions about previous examples if provided
-        if previous_examples and len(previous_examples) > 0:
-            examples_str = "\n".join([
-                f"Pair {i+1}:\n- Positive: \"{ex['positive']}\"\n- Negative: \"{ex['negative']}\""
-                for i, ex in enumerate(previous_examples)
-            ])
+#         if previous_examples and len(previous_examples) > 0:
+#             examples_str = "\n".join([
+#                 f"Pair {i+1}:\n- Positive: \"{ex['positive']}\"\n- Negative: \"{ex['negative']}\""
+#                 for i, ex in enumerate(previous_examples)
+#             ])
             
-            system_prompt += f"""
-Here are some examples that have already been generated:
+#             system_prompt += f"""
+# Here are some examples that have already been generated:
 
-{examples_str}
+# {examples_str}
 
-Please generate NEW examples that are DIFFERENT from these existing ones. Ensure your new examples:
-1. Cover different aspects or variations of the concept
-2. Use different contexts or scenarios
-3. Avoid reusing similar sentence structures or vocabulary
-4. Still maintain the core concept being tested
-"""
+# Please generate NEW examples that are DIFFERENT from these existing ones. Ensure your new examples:
+# 1. Cover different aspects or variations of the concept
+# 2. Use different contexts or scenarios
+# 3. Avoid reusing similar sentence structures or vocabulary
+# 4. Still maintain the core concept being tested
+# """
+            # 5. Vary the position of where the concept is mentioned in the example
+# 6. Use different ways to say the same concept e.g. "heavy alcohol use" could be "alcohol abuse" or "alcoholism" or "alcohol dependence" or "chronic alcohol consumption"
+# """
 
         system_prompt += """
 Your response should be in JSON format with an array of objects, each containing:
@@ -530,33 +557,33 @@ if __name__ == "__main__":
     #     print("-" * 100)
 
     # Generate a batch of 10 examples
-    # examples = generator.generate_examples_batch("elevated LDL cholesterol", k=10, batch_size=10, domain_description=domain_description, example_length="long")
-    # for example in examples:
-    #     print(example["positive"])
-    #     print(example["negative"])
-    #     print("-" * 100)
+    examples = generator.generate_examples_batch("heavy alcohol use", k=30, batch_size=10, domain_description=domain_description, example_length="medium")
+    for example in examples:
+        print(example["positive"])
+        print(example["negative"])
+        print("-" * 100)
 
     # Generate negative examples in batch and save to file
     # Total number of examples: 100, batch size: 10
-    concepts = [
-      "elevated LDL cholesterol",
-      "low HDL cholesterol",
-      "high total cholesterol",
-      "not previously on statin",
-      "dyslipidemia",
-      "atorvastatin",
-      "acute liver disease",
-      "elevated liver enzymes",
-      "pregnancy",
-      "heavy alcohol use",
-      "renal impairment",
-      "hypothyroidism"
-    ]
-    general_neg_examples = generator.generate_unrelated_examples_batch(concepts=concepts, 
-                                                                       k=200, batch_size=200, domain_description=domain_description, example_length="long")
-    # Save to file general_neg_examples.json
-    generator.save_examples_to_file(general_neg_examples, "general_neg_examples.json", domain_description=domain_description)
-    # Print the first 10 examples
-    for example in general_neg_examples[:10]:
-        print(example)
-        print("-" * 100)
+    # concepts = [
+    #   "elevated LDL cholesterol",
+    #   "low HDL cholesterol",
+    #   "high total cholesterol",
+    #   "not previously on statin",
+    #   "dyslipidemia",
+    #   "atorvastatin",
+    #   "acute liver disease",
+    #   "elevated liver enzymes",
+    #   "pregnancy",
+    #   "heavy alcohol use",
+    #   "renal impairment",
+    #   "hypothyroidism"
+    # ]
+    # general_neg_examples = generator.generate_unrelated_examples_batch(concepts=concepts, 
+    #                                                                    k=200, batch_size=200, domain_description=domain_description, example_length="long")
+    # # Save to file general_neg_examples.json
+    # generator.save_examples_to_file(general_neg_examples, "general_neg_examples.json", domain_description=domain_description)
+    # # Print the first 10 examples
+    # for example in general_neg_examples[:10]:
+    #     print(example)
+    #     print("-" * 100)

@@ -10,6 +10,7 @@ import transformer_lens as tl
 
 from probe import ProbeTrainer, ProbeConfig
 from data import ConceptExampleGenerator
+from data_mining import NegativeExampleMiner
 
 
 @dataclass
@@ -21,18 +22,18 @@ class Config:
     layer: int = 22
     
     # Directory structure - standardized paths
-    concepts_file: str = "concepts.json"
+    concepts_file: str = "inputs/concepts.json"
     examples_dir: str = "examples"
     probes_dir: str = "probes"
     
     # Example generation settings
-    examples_per_concept: int = 200
+    examples_per_concept: int = 20 #200
     batch_size: int = 50
-    skip_generation: bool = False
+    skip_generation: bool = True
     force_generation: bool = False
     domain: Optional[str] = None
     domain_description: Optional[str] = None
-    example_length: str = "long"
+    example_length: str = "medium"
     
     # Training settings
     cross_val: bool = True
@@ -48,6 +49,14 @@ class Config:
     use_general_negatives: bool = True
     general_negatives_count: int = 200
     general_negatives_file: str = "inputs/general_negative_examples.json"
+    
+    # Mined negative examples
+    use_mined_negatives: bool = True
+    mined_negatives_count: int = 200
+    mined_negatives_file: str = "inputs/mined_negative_examples.json"
+    mined_max_length: int = 128
+    mined_min_length: int = 20
+    mined_source: str = "pile"
 
 
 def load_yaml_config(file_path: str) -> Dict:
@@ -141,21 +150,68 @@ def _generate_examples_for_concept(config: Config, generator: ConceptExampleGene
     print(f"Saved examples to {output_path}")
 
 
+def _mine_negative_examples(config: Config, output_path: str) -> None:
+    """Mine negative examples from the specified source"""
+    print(f"Mining {config.mined_negatives_count} negative examples from {config.mined_source}")
+    
+    # Create miner
+    miner = NegativeExampleMiner(cache_dir=config.examples_dir)
+    
+    # Mine examples
+    examples = miner.mine_examples(
+        source=config.mined_source,
+        num_examples=config.mined_negatives_count,
+        max_length=config.mined_max_length,
+        min_length=config.mined_min_length,
+        cache_file=output_path
+    )
+    
+    print(f"Mined {len(examples)} negative examples")
+    
+    # Save is handled by the miner
+
+
 def generate_examples(config: Config, generator: Optional[ConceptExampleGenerator], concepts: List[str]) -> None:
     """Generate examples for all concepts if needed."""
     if config.skip_generation:
         print("Skipping example generation as requested")
         return
         
-    if generator is None:
-        raise ValueError("No generator available for example generation")
-    
     # Create examples directory if it doesn't exist
     os.makedirs(config.examples_dir, exist_ok=True)
     
+    # Handle mined negative examples if needed
+    if config.use_mined_negatives:
+        mined_negatives_path = os.path.join(config.examples_dir, config.mined_negatives_file)
+        
+        # Check if mined negatives exist and load them
+        if os.path.exists(mined_negatives_path) and not config.force_generation:
+            print(f"Mined negative examples file exists at {mined_negatives_path}")
+            try:
+                with open(mined_negatives_path, "r") as f:
+                    data = json.load(f)
+                    if "examples" in data and len(data["examples"]) >= config.mined_negatives_count:
+                        print(f"Loaded {len(data['examples'])} mined negative examples")
+                    else:
+                        print("Not enough mined negative examples found. Mining new ones...")
+                        _mine_negative_examples(config, mined_negatives_path)
+            except Exception as e:
+                print(f"Error loading mined negative examples: {e}. Mining new ones...")
+                _mine_negative_examples(config, mined_negatives_path)
+        else:
+            # Mine new negative examples
+            if config.force_generation and os.path.exists(mined_negatives_path):
+                print("Forcing regeneration of mined negative examples")
+            else:
+                print("Mined negative examples file not found. Mining new examples.")
+            
+            _mine_negative_examples(config, mined_negatives_path)
+    
     # Handle general negative examples if needed
-    if config.use_general_negatives:
-        general_negatives_path = os.path.join(config.examples_dir, config.general_negatives_file)
+    if generator is not None and config.use_general_negatives:
+        general_negatives_path = config.general_negatives_file
+        if not os.path.isabs(general_negatives_path):
+            general_negatives_path = os.path.join(config.examples_dir, general_negatives_path)
         
         # Check if general negatives exist and load them
         if os.path.exists(general_negatives_path) and not config.force_generation:
@@ -181,22 +237,23 @@ def generate_examples(config: Config, generator: Optional[ConceptExampleGenerato
             _generate_general_negatives(config, generator, concepts, general_negatives_path)
     
     # Generate examples for each concept if needed
-    for concept in tqdm(concepts, desc="Processing concepts"):
-        concept_key = concept.replace(" ", "_")
-        examples_path = os.path.join(config.examples_dir, f"{concept_key}_examples.json")
-        
-        # Check if examples already exist and if we should use them
-        if not config.force_generation and os.path.exists(examples_path):
-            print(f"Examples file already exists for {concept}. Skipping generation.")
-            continue
+    if generator is not None:
+        for concept in tqdm(concepts, desc="Processing concepts"):
+            concept_key = concept.replace(" ", "_")
+            examples_path = os.path.join(config.examples_dir, f"{concept_key}_examples.json")
             
-        # Generate new examples
-        if config.force_generation and os.path.exists(examples_path):
-            print(f"Forcing regeneration of examples for {concept}")
-        else:
-            print(f"Examples file not found for {concept}. Generating new examples.")
-            
-        _generate_examples_for_concept(config, generator, concept, examples_path)
+            # Check if examples already exist and if we should use them
+            if not config.force_generation and os.path.exists(examples_path):
+                print(f"Examples file already exists for {concept}. Skipping generation.")
+                continue
+                
+            # Generate new examples
+            if config.force_generation and os.path.exists(examples_path):
+                print(f"Forcing regeneration of examples for {concept}")
+            else:
+                print(f"Examples file not found for {concept}. Generating new examples.")
+                
+            _generate_examples_for_concept(config, generator, concept, examples_path)
 
 
 def train_probes(config: Config, concepts: List[str]) -> Dict:
@@ -211,7 +268,10 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
     # Load general negative examples if needed
     general_negative_examples = None
     if config.use_general_negatives:
-        general_negatives_path = os.path.join(config.examples_dir, config.general_negatives_file)
+        # Use the full path directly
+        general_negatives_path = config.general_negatives_file
+        print(f"Looking for general negative examples at: {general_negatives_path}")
+        
         if os.path.exists(general_negatives_path):
             try:
                 with open(general_negatives_path, "r") as f:
@@ -220,9 +280,36 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
                         general_negative_examples = data["examples"][:config.general_negatives_count]
                         print(f"Loaded {len(general_negative_examples)} general negative examples")
                     else:
-                        print("Warning: No valid general negative examples found")
+                        print(f"Warning: No 'examples' key found in general negative examples file")
             except Exception as e:
                 print(f"Error loading general negative examples: {e}")
+        else:
+            print(f"Warning: General negative examples file not found at {general_negatives_path}")
+    
+    # Load mined negative examples if needed
+    mined_negative_examples = None
+    if config.use_mined_negatives:
+        # Use the full path directly
+        mined_negatives_path = config.mined_negatives_file
+        print(f"Looking for mined negative examples at: {mined_negatives_path}")
+        
+        if os.path.exists(mined_negatives_path):
+            try:
+                with open(mined_negatives_path, "r") as f:
+                    data = json.load(f)
+                    if "examples" in data:
+                        mined_negative_examples = data["examples"][:config.mined_negatives_count]
+                        print(f"Loaded {len(mined_negative_examples)} mined negative examples")
+                        # Print a sample to verify content
+                        if mined_negative_examples:
+                            sample = mined_negative_examples[0][:100] + "..." if len(mined_negative_examples[0]) > 100 else mined_negative_examples[0]
+                            print(f"Sample mined example: {sample}")
+                    else:
+                        print(f"Warning: No 'examples' key found in mined negative examples file")
+            except Exception as e:
+                print(f"Error loading mined negative examples: {e}")
+        else:
+            print(f"Warning: Mined negative examples file not found at {mined_negatives_path}")
     
     # Process each concept
     results = {}
@@ -258,6 +345,16 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
             # Add general negative examples if available
             if general_negative_examples:
                 trainer.add_general_negative_examples(general_negative_examples)
+                print(f"Added {len(general_negative_examples)} general negative examples for {concept}")
+            else:
+                print(f"No general negative examples available for {concept}")
+            
+            # Add mined negative examples if available
+            if mined_negative_examples:
+                trainer.add_mined_negative_examples(mined_negative_examples)
+                print(f"Added {len(mined_negative_examples)} mined negative examples for {concept}")
+            else:
+                print(f"No mined negative examples available for {concept}")
             
             # Train and analyze the probe
             _, save_path = trainer.train_and_analyze()
@@ -321,6 +418,11 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
             "cross_validation": config.cross_val,
             "cv_folds": config.cv_folds if config.cross_val else None,
             "retrain_after_cv": config.retrain_after_cv if config.cross_val else None,
+            "use_general_negatives": config.use_general_negatives,
+            "general_negatives_count": len(general_negative_examples) if general_negative_examples else 0,
+            "use_mined_negatives": config.use_mined_negatives,
+            "mined_negatives_count": len(mined_negative_examples) if mined_negative_examples else 0,
+            "mined_source": config.mined_source if config.use_mined_negatives else None,
             "results": results
         }
         json.dump(summary, f, indent=2)
@@ -470,9 +572,9 @@ def main():
         # Example generation settings
         examples_per_concept=200,
         batch_size=50,
-        skip_generation=True,  # Set to True to skip example generation
-        force_generation=False, # Set to True to regenerate examples even if they exist
-        example_length="long",  # Options: "short", "medium", "long"
+        skip_generation=False,  # Set to False to generate examples for specific concepts
+        force_generation=False,
+        example_length="medium",
         
         # Training settings
         cross_val=True,
@@ -486,7 +588,16 @@ def main():
         
         # General negative examples settings
         use_general_negatives=True,
-        general_negatives_count=200
+        general_negatives_count=200,
+        general_negatives_file="inputs/general_negative_examples.json",
+        
+        # Mined negative examples settings
+        use_mined_negatives=True,
+        mined_negatives_count=100, #200
+        mined_negatives_file="inputs/mined_negative_examples.json",
+        mined_max_length=128,
+        mined_min_length=20,
+        mined_source="pile"
     )
     
     # Load OpenAI API key from config.yaml
@@ -509,8 +620,31 @@ def main():
     if not config.skip_generation:
         generator = ConceptExampleGenerator(config.openai_api_key)
     
-    # Generate examples
-    generate_examples(config, generator, concepts)
+    # Generate examples - only for specific concepts, assuming general/mined negatives exist
+    if not config.skip_generation:
+        # Skip generating general and mined negatives, assume they exist
+        print("Assuming general and mined negative examples already exist")
+        
+        # Only generate examples for each concept
+        for concept in tqdm(concepts, desc="Generating examples for concepts"):
+            concept_key = concept.replace(" ", "_")
+            examples_path = os.path.join(config.examples_dir, f"{concept_key}_examples.json")
+            
+            # Check if examples already exist and if we should use them
+            if not config.force_generation and os.path.exists(examples_path):
+                print(f"Examples file already exists for {concept}. Skipping generation.")
+                continue
+                
+            # Generate new examples
+            if config.force_generation and os.path.exists(examples_path):
+                print(f"Forcing regeneration of examples for {concept}")
+            else:
+                print(f"Examples file not found for {concept}. Generating new examples.")
+                
+            _generate_examples_for_concept(config, generator, concept, examples_path)
+    else:
+        # Skip all generation
+        print("Skipping example generation as requested")
     
     # Train probes
     results = train_probes(config, concepts)
