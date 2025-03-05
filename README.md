@@ -163,6 +163,18 @@ The main issue is that our probes are overfitting to features that don't truly r
 >   * Create 2-3 manual test cases for some concepts to better understand what works
 >   * The ultimate goal is to maximise true positives while minimising false positives and negatives
 
+> ## 🔄 Recent Updates (Wednesday 5th March 2025)
+> 
+> Additional improvements to the probe training process:
+> 
+> * **Artificial positive examples**: Now creating additional positive examples by appending positive examples to the general negative examples (note that "general negative examples" are still medicine-related, despite the potentially confusing name)
+> 
+> * **Fixed visualization bug**: Corrected a small bug in the visualization code in the notebook that was affecting how probe activations were displayed
+> 
+> * **Next steps**:
+>   * What's the best mix of new artificial positive examples and hard negative mining? Can we append positive examples to the mined (medicine-unrelated) negatives as well as what I'm currently doing?
+>   * Compare probe performance with and without this augmentation technique
+
 ## Interview Objectives
 
 Your task is to improve the probe training process so that:
