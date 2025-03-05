@@ -23,10 +23,13 @@ charlieoneill11-probes/
 ├── main.py                 # Main script to run the training pipeline
 ├── probe.py                # Probe training and evaluation logic
 ├── probe.ipynb             # Notebook to visualize probe activations on text
+├── convert_probes.py       # Utility to convert sklearn probes to PyTorch
+├── test_convert_probes.py  # Tests for probe conversion
 ├── examples/               # Generated examples for each concept
 ├── inputs/                 # Input files (concepts list, example texts)
 ├── outputs/                # Analysis outputs 
-└── probes/                 # Trained probe models and configurations
+├── probes/                 # Trained probe models (sklearn .joblib files)
+└── pytorch_probes/         # Converted PyTorch probe models
 ```
 
 ### Key Files
@@ -35,6 +38,8 @@ charlieoneill11-probes/
 - `data.py`: Contains the `ConceptExampleGenerator` class for creating positive/negative examples using OpenAI models
 - `main.py`: Entry point for the training pipeline with a configurable `Config` class
 - `probe.ipynb`: Jupyter notebook to test and visualise probe activations on arbitrary text
+- `convert_probes.py`: Utility to convert sklearn LogisticRegression probes to PyTorch models
+- `test_convert_probes.py`: Test suite ensuring functional equivalence between sklearn and PyTorch probes
 
 ## How It Works
 
@@ -57,6 +62,11 @@ The current approach follows these steps:
 5. **Evaluate probes** using:
    - Cross-validation on the synthetic dataset
    - Visualising activations on real-world text samples
+
+6. **Convert probes to PyTorch** (optional):
+   - Transform sklearn LogisticRegression probes to PyTorch models
+   - Maintain exact functional equivalence between implementations
+   - Enable integration with PyTorch-based systems
 
 ## Setup
 
@@ -174,6 +184,28 @@ The main issue is that our probes are overfitting to features that don't truly r
 > * **Next steps**:
 >   * What's the best mix of new artificial positive examples and hard negative mining? Can we append positive examples to the mined (medicine-unrelated) negatives as well as what I'm currently doing?
 >   * Compare probe performance with and without this augmentation technique
+
+> ## 🔄 Recent Updates (Thursday 6th March 2025)
+> 
+> Added PyTorch probe conversion functionality:
+> 
+> * **sklearn to PyTorch conversion**: Created utility to convert trained sklearn LogisticRegression probes to equivalent PyTorch models
+>   * Maintains exact prediction equivalence between the implementations
+>   * Handles sklearn version differences (1.6.1 vs 1.3.0)
+>   * Provides comprehensive test suite to validate conversions
+> 
+> * **Usage**:
+>   ```python
+>   # Convert all probes
+>   python convert_probes.py --probes_dir /path/to/probes --output_dir /path/to/output
+>   
+>   # Convert a single probe
+>   python convert_probes.py --single_probe /path/to/probe.joblib
+>   ```
+> 
+> * **Next steps**:
+>   * Integrate converted PyTorch probes with visualization tools
+>   * Use PyTorch probe flexibility for advanced integration scenarios
 
 ## Interview Objectives
 
