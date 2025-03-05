@@ -50,6 +50,10 @@ class Config:
     general_negatives_count: int = 200
     general_negatives_file: str = "inputs/general_negative_examples.json"
     
+    # General positive examples (new)
+    use_general_positives: bool = True
+    general_positives_count: int = 200
+    
     # Mined negative examples
     use_mined_negatives: bool = True
     mined_negatives_count: int = 200
@@ -169,6 +173,44 @@ def _mine_negative_examples(config: Config, output_path: str) -> None:
     print(f"Mined {len(examples)} negative examples")
     
     # Save is handled by the miner
+
+
+def _create_general_positive_examples(concept_examples: List[str], general_negative_examples: List[str], count: int) -> List[str]:
+    """Create general positive examples by combining concept examples with general negative examples.
+    
+    Each general positive example is a concatenation of a concept-specific positive example
+    and a general negative example, preserving the concept-specific information while adding
+    general context.
+    """
+    import random
+    
+    # Ensure we have enough examples to work with
+    if not concept_examples or not general_negative_examples:
+        print("Warning: Cannot create general positive examples - missing source examples")
+        return []
+    
+    # Limit count to the minimum available examples
+    count = min(count, len(concept_examples), len(general_negative_examples))
+    
+    # Create combined examples
+    general_positive_examples = []
+    for i in range(count):
+        # Sample randomly with replacement if we need more examples than available
+        concept_example = concept_examples[i % len(concept_examples)]
+        # Randomly select a general negative example
+        general_example = random.choice(general_negative_examples)
+        
+        # Combine the examples (concept example first, then general example)
+        combined = f"{concept_example} {general_example}"
+        general_positive_examples.append(combined)
+    
+    print(f"Created {len(general_positive_examples)} general positive examples")
+    # Print a sample to verify
+    if general_positive_examples:
+        sample = general_positive_examples[0][:100] + "..." if len(general_positive_examples[0]) > 100 else general_positive_examples[0]
+        print(f"Sample general positive example: {sample}")
+    
+    return general_positive_examples
 
 
 def generate_examples(config: Config, generator: Optional[ConceptExampleGenerator], concepts: List[str]) -> None:
@@ -349,6 +391,28 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
             else:
                 print(f"No general negative examples available for {concept}")
             
+            # Create and add general positive examples if enabled
+            if config.use_general_positives and general_negative_examples:
+                # Extract positive examples from loaded file
+                try:
+                    with open(examples_path, "r") as f:
+                        loaded_examples = json.load(f)["examples"]
+                        concept_positive_examples = [ex["positive"] for ex in loaded_examples]
+                        
+                        # Create general positive examples
+                        general_positive_examples = _create_general_positive_examples(
+                            concept_positive_examples,
+                            general_negative_examples,
+                            config.general_positives_count
+                        )
+                        
+                        # Add to trainer
+                        if general_positive_examples:
+                            trainer.add_general_positive_examples(general_positive_examples)
+                            print(f"Added {len(general_positive_examples)} general positive examples for {concept}")
+                except Exception as e:
+                    print(f"Error creating general positive examples: {e}")
+            
             # Add mined negative examples if available
             if mined_negative_examples:
                 trainer.add_mined_negative_examples(mined_negative_examples)
@@ -371,6 +435,8 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
                 concept_results["train_accuracy"] = probe_results["train_metrics"]["accuracy"]
                 if "f1_score" in probe_results["train_metrics"]:
                     concept_results["train_f1"] = probe_results["train_metrics"]["f1_score"]
+                if "roc_auc" in probe_results["train_metrics"]:
+                    concept_results["train_roc_auc"] = probe_results["train_metrics"]["roc_auc"]
             
             # Add validation metrics
             if "val_metrics" in probe_results and probe_results["val_metrics"]:
@@ -378,6 +444,8 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
                     concept_results["val_accuracy"] = probe_results["val_metrics"]["accuracy"]
                 if "f1_score" in probe_results["val_metrics"]:
                     concept_results["val_f1"] = probe_results["val_metrics"]["f1_score"]
+                if "roc_auc" in probe_results["val_metrics"]:
+                    concept_results["val_roc_auc"] = probe_results["val_metrics"]["roc_auc"]
                 if "separation" in probe_results["val_metrics"]:
                     concept_results["separation"] = probe_results["val_metrics"]["separation"]
             
@@ -388,6 +456,9 @@ def train_probes(config: Config, concepts: List[str]) -> Dict:
                 if "avg_val_f1" in probe_results["cv_metrics"]:
                     concept_results["cv_avg_val_f1"] = probe_results["cv_metrics"]["avg_val_f1"]
                     concept_results["cv_std_val_f1"] = probe_results["cv_metrics"]["std_val_f1"]
+                if "avg_val_roc_auc" in probe_results["cv_metrics"]:
+                    concept_results["cv_avg_val_roc_auc"] = probe_results["cv_metrics"]["avg_val_roc_auc"]
+                    concept_results["cv_std_val_roc_auc"] = probe_results["cv_metrics"]["std_val_roc_auc"]
             
             results[concept_key] = concept_results
             
@@ -437,16 +508,18 @@ def report_results(config: Config, results: Dict) -> None:
     
     if config.cross_val:
         print("Using cross-validation")
-        print("-" * 120)
-        header = f"{'Concept':<25} {'CV Accuracy':<20} {'CV F1 Score':<20} {'Final Accuracy':<15} {'Final F1':<15} {'Separation':<15}"
+        print("-" * 140)  # Increased width to accommodate ROC AUC
+        header = f"{'Concept':<25} {'CV Accuracy':<20} {'CV F1 Score':<20} {'CV ROC AUC':<20} {'Final Accuracy':<15} {'Final F1':<15} {'ROC AUC':<15}"
         print(header)
-        print("-" * 120)
+        print("-" * 140)  # Increased width
         
         # Collect values for calculating mean
         val_accuracies = []
         val_f1_scores = []
+        val_roc_aucs = []
         cv_accuracies = []
         cv_f1_scores = []
+        cv_roc_aucs = []
         
         for concept, result in results.items():
             if "error" not in result:
@@ -470,6 +543,16 @@ def report_results(config: Config, results: Dict) -> None:
                 else:
                     cv_f1 = str(cv_f1_value)
                 
+                # Handle CV ROC AUC
+                cv_roc_auc_value = result.get('cv_avg_val_roc_auc', 'N/A')
+                if isinstance(cv_roc_auc_value, (float, int)):
+                    cv_roc_auc = f"{cv_roc_auc_value:.4f}"
+                    if 'cv_std_val_roc_auc' in result:
+                        cv_roc_auc += f" (±{result['cv_std_val_roc_auc']:.4f})"
+                    cv_roc_aucs.append(cv_roc_auc_value)
+                else:
+                    cv_roc_auc = str(cv_roc_auc_value)
+                
                 # Get final accuracy value
                 if 'val_accuracy' in result:
                     acc_value = result['val_accuracy']
@@ -490,31 +573,41 @@ def report_results(config: Config, results: Dict) -> None:
                     f1_value = result.get('train_f1', 'N/A')
                     final_f1 = f"{f1_value:.4f}" if isinstance(f1_value, (float, int)) else str(f1_value)
                 
-                # Handle separation value
-                sep_value = result.get('separation', 'N/A')
-                sep = f"{sep_value:.4f}" if isinstance(sep_value, (float, int)) else str(sep_value)
+                # Get final ROC AUC
+                if 'val_roc_auc' in result:
+                    roc_auc_value = result['val_roc_auc']
+                    final_roc_auc = f"{roc_auc_value:.4f}" if isinstance(roc_auc_value, (float, int)) else str(roc_auc_value)
+                    if isinstance(roc_auc_value, (float, int)):
+                        val_roc_aucs.append(roc_auc_value)
+                else:
+                    roc_auc_value = result.get('train_roc_auc', 'N/A')
+                    final_roc_auc = f"{roc_auc_value:.4f}" if isinstance(roc_auc_value, (float, int)) else str(roc_auc_value)
                 
-                print(f"{concept.replace('_', ' '):<25} {cv_acc:<20} {cv_f1:<20} {final_acc:<15} {final_f1:<15} {sep:<15}")
+                print(f"{concept.replace('_', ' '):<25} {cv_acc:<20} {cv_f1:<20} {cv_roc_auc:<20} {final_acc:<15} {final_f1:<15} {final_roc_auc:<15}")
             else:
-                print(f"{concept.replace('_', ' '):<25} {'ERROR':<20} {'N/A':<20} {'N/A':<15} {'N/A':<15} {'N/A':<15}")
+                print(f"{concept.replace('_', ' '):<25} {'ERROR':<20} {'N/A':<20} {'N/A':<20} {'N/A':<15} {'N/A':<15} {'N/A':<15}")
         
-        # Print mean CV accuracy and F1 score
-        print("-" * 120)
+        # Print mean CV accuracy, F1 score, and ROC AUC
+        print("-" * 140)
         if cv_accuracies:
             mean_cv_acc = sum(cv_accuracies) / len(cv_accuracies)
             print(f"Mean CV accuracy across all concepts: {mean_cv_acc:.4f}")
         if cv_f1_scores:
             mean_cv_f1 = sum(cv_f1_scores) / len(cv_f1_scores)
             print(f"Mean CV F1 score across all concepts: {mean_cv_f1:.4f}")
+        if cv_roc_aucs:
+            mean_cv_roc_auc = sum(cv_roc_aucs) / len(cv_roc_aucs)
+            print(f"Mean CV ROC AUC across all concepts: {mean_cv_roc_auc:.4f}")
     else:
         print("Not using cross-validation")
-        print("-" * 80)
-        print(f"{'Concept':<30} {'Val Accuracy':<15} {'Val F1 Score':<15} {'Separation':<15}")
-        print("-" * 80)
+        print("-" * 100)  # Increased width to accommodate ROC AUC
+        print(f"{'Concept':<30} {'Val Accuracy':<15} {'Val F1 Score':<15} {'Val ROC AUC':<15} {'Separation':<15}")
+        print("-" * 100)
         
         # Collect values for calculating mean
         val_accuracies = []
         val_f1_scores = []
+        val_roc_aucs = []
         
         for concept, result in results.items():
             if "error" not in result:
@@ -534,24 +627,35 @@ def report_results(config: Config, results: Dict) -> None:
                 if isinstance(val_f1_value, (float, int)):
                     val_f1_scores.append(val_f1_value)
                 
+                # Handle validation ROC AUC
+                val_roc_auc_value = result.get('val_roc_auc', 'N/A')
+                val_roc_auc = f"{val_roc_auc_value:.4f}" if isinstance(val_roc_auc_value, (float, int)) else str(val_roc_auc_value)
+                
+                # Add to list for mean calculation
+                if isinstance(val_roc_auc_value, (float, int)):
+                    val_roc_aucs.append(val_roc_auc_value)
+                
                 # Handle separation value
                 sep_value = result.get('separation', 'N/A')
                 sep = f"{sep_value:.4f}" if isinstance(sep_value, (float, int)) else str(sep_value)
                 
-                print(f"{concept.replace('_', ' '):<30} {val_acc:<15} {val_f1:<15} {sep:<15}")
+                print(f"{concept.replace('_', ' '):<30} {val_acc:<15} {val_f1:<15} {val_roc_auc:<15} {sep:<15}")
             else:
-                print(f"{concept.replace('_', ' '):<30} {'ERROR':<15} {'N/A':<15} {'N/A':<15}")
+                print(f"{concept.replace('_', ' '):<30} {'ERROR':<15} {'N/A':<15} {'N/A':<15} {'N/A':<15}")
         
-        # Print mean validation accuracy and F1 score
-        print("-" * 80)
+        # Print mean validation accuracy, F1 score, and ROC AUC
+        print("-" * 100)
         if val_accuracies:
             mean_val_acc = sum(val_accuracies) / len(val_accuracies)
             print(f"Mean validation accuracy across all concepts: {mean_val_acc:.4f}")
         if val_f1_scores:
             mean_val_f1 = sum(val_f1_scores) / len(val_f1_scores)
             print(f"Mean validation F1 score across all concepts: {mean_val_f1:.4f}")
+        if val_roc_aucs:
+            mean_val_roc_auc = sum(val_roc_aucs) / len(val_roc_aucs)
+            print(f"Mean validation ROC AUC across all concepts: {mean_val_roc_auc:.4f}")
     
-    print("-" * (120 if config.cross_val else 80))
+    print("-" * (140 if config.cross_val else 100))
 
 
 def main():
@@ -590,6 +694,10 @@ def main():
         use_general_negatives=True,
         general_negatives_count=200,
         general_negatives_file="inputs/general_negative_examples.json",
+        
+        # General positive examples settings (new)
+        use_general_positives=True,
+        general_positives_count=200,
         
         # Mined negative examples settings
         use_mined_negatives=True,

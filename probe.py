@@ -10,7 +10,7 @@ from tqdm import tqdm
 from dataclasses import dataclass
 from sklearn.model_selection import KFold
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
 
 @dataclass
 class ProbeConfig:
@@ -65,8 +65,9 @@ class ProbeTrainer:
         self.val_metrics = {}
         self.cv_metrics = {} 
         
-        # Add a new attribute for general negative examples
+        # Add attributes for different example types
         self.general_neg_examples = []
+        self.general_pos_examples = []  # New attribute for general positive examples
         
     def load_examples_from_file(self, file_path: str):
         """Load examples from a JSON file"""
@@ -86,6 +87,7 @@ class ProbeTrainer:
         
         # Add debug prints to show example counts
         print(f"DEBUG: Processing {len(self.pos_examples)} positive examples")
+        print(f"DEBUG: Processing {len(self.general_pos_examples)} general positive examples")
         print(f"DEBUG: Processing {len(self.neg_examples)} concept-specific negative examples")
         print(f"DEBUG: Processing {len(self.general_neg_examples)} general negative examples")
         print(f"DEBUG: Processing {len(getattr(self, 'mined_neg_examples', []))} mined negative examples")
@@ -94,6 +96,7 @@ class ProbeTrainer:
         os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
         
         pos_resid_list = []
+        general_pos_resid_list = []  # New list for general positive examples
         neg_resid_list = []
         general_neg_resid_list = []
         mined_neg_resid_list = []
@@ -129,6 +132,20 @@ class ProbeTrainer:
             _, pos_cache = self.model.run_with_cache(batch["input_ids"], names_filter=[self.config.hook_name])
             pos_resid_list.append(pos_cache[self.config.hook_name][:, -1].to('cpu'))
             del pos_cache, batch
+        
+        # Process general positive examples in batches
+        if self.general_pos_examples:
+            general_pos_batch_size = min(batch_size, 16)  # Use smaller batch size for general positives
+            for i in tqdm(range(0, len(self.general_pos_examples), general_pos_batch_size), desc="Processing general positive examples"):
+                batch_text = self.general_pos_examples[i:i+general_pos_batch_size]
+                batch = tokenizer(batch_text, padding=True, truncation=True, max_length=256, return_tensors="pt")
+                batch = batch.to(self.device)
+                _, general_pos_cache = self.model.run_with_cache(batch["input_ids"], names_filter=[self.config.hook_name])
+                general_pos_resid_list.append(general_pos_cache[self.config.hook_name][:, -1].to('cpu'))
+                del general_pos_cache, batch
+                # Clean up memory
+                torch.cuda.empty_cache() if torch.cuda.is_available() else None
+                gc.collect()
         
         # Process concept-specific negative examples in batches
         for i in tqdm(range(0, len(self.neg_examples), batch_size), desc="Processing concept-specific negative examples"):
@@ -189,17 +206,29 @@ class ProbeTrainer:
         pos_resid = torch.cat(pos_resid_list, dim=0)
         neg_resid = torch.cat(neg_resid_list, dim=0)
         
+        # Include general positive examples if available
+        all_pos_resid_list = [pos_resid]
+        pos_counts = {"concept-specific": len(pos_resid)}
+        
+        if general_pos_resid_list:
+            general_pos_resid = torch.cat(general_pos_resid_list, dim=0)
+            all_pos_resid_list.append(general_pos_resid)
+            pos_counts["general"] = len(general_pos_resid)
+        
+        # Combine all positive examples
+        all_pos_resid = torch.cat(all_pos_resid_list, dim=0)
+        
         # Include general and mined negative examples if available
         all_neg_resid_list = [neg_resid]
         neg_counts = {"concept-specific": len(neg_resid)}
         
         if general_neg_resid_list:
-            general_neg_resid = general_neg_resid_list[0]  # Already concatenated
+            general_neg_resid = torch.cat(general_neg_resid_list, dim=0)
             all_neg_resid_list.append(general_neg_resid)
             neg_counts["general"] = len(general_neg_resid)
         
         if mined_neg_resid_list:
-            mined_neg_resid = mined_neg_resid_list[0]  # Already concatenated
+            mined_neg_resid = torch.cat(mined_neg_resid_list, dim=0)
             all_neg_resid_list.append(mined_neg_resid)
             neg_counts["mined"] = len(mined_neg_resid)
         
@@ -207,13 +236,15 @@ class ProbeTrainer:
         all_neg_resid = torch.cat(all_neg_resid_list, dim=0)
         
         # Log counts
-        print(f"Extracted representations: {pos_resid.shape} (positive), {all_neg_resid.shape} (all negative)")
+        print(f"Extracted representations: {all_pos_resid.shape} (all positive), {all_neg_resid.shape} (all negative)")
+        for pos_type, count in pos_counts.items():
+            print(f"  - {pos_type} positive: {count}")
         for neg_type, count in neg_counts.items():
-            print(f"  - {neg_type}: {count}")
+            print(f"  - {neg_type} negative: {count}")
         
         # Stack and create labels
-        resid = torch.cat([pos_resid, all_neg_resid], dim=0)
-        labels = torch.cat([torch.ones(len(pos_resid)), torch.zeros(len(all_neg_resid))])
+        resid = torch.cat([all_pos_resid, all_neg_resid], dim=0)
+        labels = torch.cat([torch.ones(len(all_pos_resid)), torch.zeros(len(all_neg_resid))])
         
         # Shuffle data
         indices = torch.randperm(len(resid))
@@ -260,9 +291,9 @@ class ProbeTrainer:
             'val_labels': val_labels,
             'full_resid': resid_np,
             'full_labels': labels_np,
-            'pos_resid': pos_resid.numpy(),
+            'pos_resid': all_pos_resid.numpy(),
             'neg_resid': all_neg_resid.numpy(),
-            'torch_pos_resid': pos_resid,  # Keep torch versions for directional analysis
+            'torch_pos_resid': all_pos_resid,  # Keep torch versions for directional analysis
             'torch_neg_resid': all_neg_resid
         }
     
@@ -289,12 +320,14 @@ class ProbeTrainer:
         train_f1 = f1_score(train_labels, train_preds)
         train_precision = precision_score(train_labels, train_preds)
         train_recall = recall_score(train_labels, train_preds)
+        train_roc_auc = roc_auc_score(train_labels, train_probs)  # Add ROC AUC score
         
         metrics = {
             'train_accuracy': train_accuracy,
             'train_f1_score': train_f1,
             'train_precision': train_precision,
             'train_recall': train_recall,
+            'train_roc_auc': train_roc_auc,  # Add ROC AUC to metrics
             'train_size': len(train_resid)
         }
         
@@ -306,20 +339,22 @@ class ProbeTrainer:
             val_f1 = f1_score(val_labels, val_preds)
             val_precision = precision_score(val_labels, val_preds)
             val_recall = recall_score(val_labels, val_preds)
+            val_roc_auc = roc_auc_score(val_labels, val_probs)  # Add ROC AUC score
             
             metrics.update({
                 'val_accuracy': val_accuracy,
                 'val_f1_score': val_f1,
                 'val_precision': val_precision,
                 'val_recall': val_recall,
+                'val_roc_auc': val_roc_auc,  # Add ROC AUC to metrics
                 'val_size': len(val_resid)
             })
             
             if verbose:
-                print(f"Train Accuracy: {train_accuracy:.4f}, F1: {train_f1:.4f}")
-                print(f"Validation Accuracy: {val_accuracy:.4f}, F1: {val_f1:.4f}")
+                print(f"Train Accuracy: {train_accuracy:.4f}, F1: {train_f1:.4f}, ROC AUC: {train_roc_auc:.4f}")
+                print(f"Validation Accuracy: {val_accuracy:.4f}, F1: {val_f1:.4f}, ROC AUC: {val_roc_auc:.4f}")
         elif verbose:
-            print(f"Train Accuracy: {train_accuracy:.4f}, F1: {train_f1:.4f}")
+            print(f"Train Accuracy: {train_accuracy:.4f}, F1: {train_f1:.4f}, ROC AUC: {train_roc_auc:.4f}")
         
         return probe, metrics
     
@@ -340,6 +375,7 @@ class ProbeTrainer:
             'f1_score': metrics['train_f1_score'],
             'precision': metrics['train_precision'],
             'recall': metrics['train_recall'],
+            'roc_auc': metrics['train_roc_auc'],  # Add ROC AUC to stored metrics
             'size': metrics['train_size']
         }
         
@@ -349,6 +385,7 @@ class ProbeTrainer:
                 'f1_score': metrics['val_f1_score'],
                 'precision': metrics['val_precision'],
                 'recall': metrics['val_recall'],
+                'roc_auc': metrics['val_roc_auc'],  # Add ROC AUC to stored metrics
                 'size': metrics['val_size']
             }
         
@@ -425,11 +462,19 @@ class ProbeTrainer:
         std_train_f1 = np.std([m['train_f1_score'] for m in fold_metrics])
         std_val_f1 = np.std([m['val_f1_score'] for m in fold_metrics])
         
+        # Calculate average ROC AUC scores
+        avg_train_roc_auc = np.mean([m['train_roc_auc'] for m in fold_metrics])
+        avg_val_roc_auc = np.mean([m['val_roc_auc'] for m in fold_metrics])
+        std_train_roc_auc = np.std([m['train_roc_auc'] for m in fold_metrics])
+        std_val_roc_auc = np.std([m['val_roc_auc'] for m in fold_metrics])
+        
         print("\nCross-validation results:")
         print(f"Average Train Accuracy: {avg_train_acc:.4f} (±{std_train_acc:.4f})")
         print(f"Average Validation Accuracy: {avg_val_acc:.4f} (±{std_val_acc:.4f})")
         print(f"Average Train F1 Score: {avg_train_f1:.4f} (±{std_train_f1:.4f})")
         print(f"Average Validation F1 Score: {avg_val_f1:.4f} (±{std_val_f1:.4f})")
+        print(f"Average Train ROC AUC: {avg_train_roc_auc:.4f} (±{std_train_roc_auc:.4f})")
+        print(f"Average Validation ROC AUC: {avg_val_roc_auc:.4f} (±{std_val_roc_auc:.4f})")
         
         # Store cross-validation metrics
         self.cv_metrics = {
@@ -443,6 +488,10 @@ class ProbeTrainer:
             'std_train_f1': float(std_train_f1),
             'avg_val_f1': float(avg_val_f1),
             'std_val_f1': float(std_val_f1),
+            'avg_train_roc_auc': float(avg_train_roc_auc),  # Add ROC AUC to CV metrics
+            'std_train_roc_auc': float(std_train_roc_auc),
+            'avg_val_roc_auc': float(avg_val_roc_auc),
+            'std_val_roc_auc': float(std_val_roc_auc),
             'total_examples': len(full_resid),
             'positive_examples': int(pos_count),
             'negative_examples': int(neg_count),
@@ -462,6 +511,7 @@ class ProbeTrainer:
                 'f1_score': final_metrics['train_f1_score'],
                 'precision': final_metrics['train_precision'],
                 'recall': final_metrics['train_recall'],
+                'roc_auc': final_metrics['train_roc_auc'],  # Add ROC AUC to final metrics
                 'size': len(full_resid),
                 'positive_examples': int(pos_count),
                 'negative_examples': int(neg_count),
@@ -575,8 +625,9 @@ class ProbeTrainer:
             with open(model_path, 'wb') as f:
                 pickle.dump(self.probe, f)
         
-        # Count mined examples if they exist
-        mined_neg_count = len(getattr(self, 'mined_neg_examples', [])) 
+        # Count all example types
+        mined_neg_count = len(getattr(self, 'mined_neg_examples', []))
+        general_pos_count = len(self.general_pos_examples)
         
         # Save config and metrics
         config_dict = {
@@ -592,11 +643,12 @@ class ProbeTrainer:
             'C': 1.0 / self.config.weight_decay,
             'example_counts': {
                 'positive_examples': len(self.pos_examples),
+                'general_pos_examples': general_pos_count,
                 'concept_specific_neg_examples': len(self.neg_examples),
                 'general_neg_examples': len(self.general_neg_examples),
                 'mined_neg_examples': mined_neg_count,
                 'total_examples': len(self.pos_examples) + len(self.neg_examples) + 
-                                 len(self.general_neg_examples) + mined_neg_count
+                                 len(self.general_neg_examples) + mined_neg_count + general_pos_count
             }
         }
         
@@ -749,6 +801,15 @@ class ProbeTrainer:
         if examples:
             sample = examples[0][:100] + "..." if len(examples[0]) > 100 else examples[0]
             print(f"Sample mined example: {sample}")
+    
+    def add_general_positive_examples(self, examples: List[str]):
+        """Add general positive examples created by combining concept-specific positives with general context"""
+        self.general_pos_examples = examples
+        print(f"Added {len(examples)} general positive examples")
+        # Print a sample of the first example to verify content
+        if examples:
+            sample = examples[0][:100] + "..." if len(examples[0]) > 100 else examples[0]
+            print(f"Sample general positive example: {sample}")
     
     def prepare_data(self):
         """Prepare data for training by extracting representations"""

@@ -17,109 +17,145 @@
       "save_path": "probes/heavy_alcohol_use",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9785714285714284,
-      "cv_std_val_accuracy": 0.006388765649999426,
-      "cv_avg_val_f1": 0.9613919802155095,
-      "cv_std_val_f1": 0.014700652983280119
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.961111111111111,
+      "cv_std_val_accuracy": 0.011653431646335019,
+      "cv_avg_val_f1": 0.9571031055091417,
+      "cv_std_val_f1": 0.009714219804341647,
+      "cv_avg_val_roc_auc": 0.9899346463934723,
+      "cv_std_val_roc_auc": 0.008114727580747418
     },
     "elevated_LDL_cholesterol": {
       "save_path": "probes/elevated_LDL_cholesterol",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9571428571428571,
-      "cv_std_val_accuracy": 0.01690308509457032,
-      "cv_avg_val_f1": 0.9244702552305277,
-      "cv_std_val_f1": 0.032899218784519055
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9477777777777778,
+      "cv_std_val_accuracy": 0.016703662642636556,
+      "cv_avg_val_f1": 0.9408451508232183,
+      "cv_std_val_f1": 0.01906898221926773,
+      "cv_avg_val_roc_auc": 0.9835803625793537,
+      "cv_std_val_roc_auc": 0.004363086056052747
     },
     "low_HDL_cholesterol": {
       "save_path": "probes/low_HDL_cholesterol",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9757142857142856,
-      "cv_std_val_accuracy": 0.005714285714285733,
-      "cv_avg_val_f1": 0.956205241786637,
-      "cv_std_val_f1": 0.011157496483810012
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9655555555555555,
+      "cv_std_val_accuracy": 0.011331154474650634,
+      "cv_avg_val_f1": 0.9610220650415219,
+      "cv_std_val_f1": 0.012563109077966886,
+      "cv_avg_val_roc_auc": 0.9940759087082698,
+      "cv_std_val_roc_auc": 0.0040464337416520925
     },
     "high_total_cholesterol": {
       "save_path": "probes/high_total_cholesterol",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9628571428571429,
-      "cv_std_val_accuracy": 0.019897697538834466,
-      "cv_avg_val_f1": 0.9355365710538125,
-      "cv_std_val_f1": 0.03158817890213649
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9588888888888889,
+      "cv_std_val_accuracy": 0.016703662642636553,
+      "cv_avg_val_f1": 0.9540446099307385,
+      "cv_std_val_f1": 0.01748676715872007,
+      "cv_avg_val_roc_auc": 0.9900791806058422,
+      "cv_std_val_roc_auc": 0.00709805541705968
     },
     "not_previously_on_statin": {
       "save_path": "probes/not_previously_on_statin",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9942857142857143,
-      "cv_std_val_accuracy": 0.005345224838248469,
-      "cv_avg_val_f1": 0.9902783366867874,
-      "cv_std_val_f1": 0.009397048457806043
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9722222222222223,
+      "cv_std_val_accuracy": 0.013608276348795441,
+      "cv_avg_val_f1": 0.9684080656532398,
+      "cv_std_val_f1": 0.015523727768696798,
+      "cv_avg_val_roc_auc": 0.997277028438426,
+      "cv_std_val_roc_auc": 0.002263231710008744
     },
     "dyslipidemia": {
       "save_path": "probes/dyslipidemia",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9928672745694023,
-      "cv_std_val_accuracy": 0.004517584960095295,
-      "cv_avg_val_f1": 0.9872609899276567,
-      "cv_std_val_f1": 0.00860232796833007
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9867034990791896,
+      "cv_std_val_accuracy": 0.008291938765468677,
+      "cv_avg_val_f1": 0.9847769827072153,
+      "cv_std_val_f1": 0.009767124482361682,
+      "cv_avg_val_roc_auc": 0.996910268640747,
+      "cv_std_val_roc_auc": 0.00338857573655745
     },
     "atorvastatin": {
       "save_path": "probes/atorvastatin",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9971428571428571,
-      "cv_std_val_accuracy": 0.003499271061118814,
-      "cv_avg_val_f1": 0.9947485080988917,
-      "cv_std_val_f1": 0.0064893354997824
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9966666666666667,
+      "cv_std_val_accuracy": 0.004444444444444429,
+      "cv_avg_val_f1": 0.9961849890999689,
+      "cv_std_val_f1": 0.005203295738925733,
+      "cv_avg_val_roc_auc": 0.9997739418896654,
+      "cv_std_val_roc_auc": 0.00034200524505528806
     },
     "acute_liver_disease": {
       "save_path": "probes/acute_liver_disease",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9714285714285715,
-      "cv_std_val_accuracy": 0.014285714285714301,
-      "cv_avg_val_f1": 0.9511260401248898,
-      "cv_std_val_f1": 0.022551987423606933
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.971111111111111,
+      "cv_std_val_accuracy": 0.008888888888888858,
+      "cv_avg_val_f1": 0.967874496302396,
+      "cv_std_val_f1": 0.008135594708231716,
+      "cv_avg_val_roc_auc": 0.9913473661485325,
+      "cv_std_val_roc_auc": 0.004715014431498736
     },
     "elevated_liver_enzymes": {
       "save_path": "probes/elevated_liver_enzymes",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9571428571428571,
-      "cv_std_val_accuracy": 0.007824607964359527,
-      "cv_avg_val_f1": 0.9248584846896136,
-      "cv_std_val_f1": 0.011361579521998793
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9622222222222222,
+      "cv_std_val_accuracy": 0.010772621905369617,
+      "cv_avg_val_f1": 0.9578832264459184,
+      "cv_std_val_f1": 0.009885303138629021,
+      "cv_avg_val_roc_auc": 0.9884431147865824,
+      "cv_std_val_roc_auc": 0.007548039368517211
     },
     "pregnancy": {
       "save_path": "probes/pregnancy",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9514285714285714,
-      "cv_std_val_accuracy": 0.015252968931473295,
-      "cv_avg_val_f1": 0.9122006442454771,
-      "cv_std_val_f1": 0.03469806774742479
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9433333333333334,
+      "cv_std_val_accuracy": 0.022607766610417558,
+      "cv_avg_val_f1": 0.9358120385600923,
+      "cv_std_val_f1": 0.025871080310855922,
+      "cv_avg_val_roc_auc": 0.983334324607337,
+      "cv_std_val_roc_auc": 0.01153567467314402
     },
     "renal_impairment": {
       "save_path": "probes/renal_impairment",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9914285714285714,
-      "cv_std_val_accuracy": 0.010497813183356483,
-      "cv_avg_val_f1": 0.985167597218141,
-      "cv_std_val_f1": 0.017902356581703603
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9777777777777776,
+      "cv_std_val_accuracy": 0.0035136418446315197,
+      "cv_avg_val_f1": 0.9749700507545664,
+      "cv_std_val_f1": 0.0026896117668638556,
+      "cv_avg_val_roc_auc": 0.9958235486580918,
+      "cv_std_val_roc_auc": 0.003883039386343572
     },
     "hypothyroidism": {
       "save_path": "probes/hypothyroidism",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
-      "cv_avg_val_accuracy": 0.9985714285714286,
-      "cv_std_val_accuracy": 0.002857142857142847,
-      "cv_avg_val_f1": 0.9974683544303797,
-      "cv_std_val_f1": 0.005063291139240489
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.99,
+      "cv_std_val_accuracy": 0.005443310539518182,
+      "cv_avg_val_f1": 0.9888489893921744,
+      "cv_std_val_f1": 0.005919219767565297,
+      "cv_avg_val_roc_auc": 0.9983290569111862,
+      "cv_std_val_roc_auc": 0.002017240142402032
     }
   }
 }
