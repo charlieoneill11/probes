@@ -1,0 +1,79 @@
+{
+  "num_probes": 12,
+  "num_success": 12,
+  "num_failure": 0,
+  "results": {
+    "elevated_LDL_cholesterol": {
+      "input_dim": 2304,
+      "concept": "elevated LDL cholesterol",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/elevated_LDL_cholesterol",
+      "success": true
+    },
+    "acute_liver_disease": {
+      "input_dim": 2304,
+      "concept": "acute liver disease",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/acute_liver_disease",
+      "success": true
+    },
+    "high_total_cholesterol": {
+      "input_dim": 2304,
+      "concept": "high total cholesterol",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/high_total_cholesterol",
+      "success": true
+    },
+    "atorvastatin": {
+      "input_dim": 2304,
+      "concept": "atorvastatin",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/atorvastatin",
+      "success": true
+    },
+    "low_HDL_cholesterol": {
+      "input_dim": 2304,
+      "concept": "low HDL cholesterol",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/low_HDL_cholesterol",
+      "success": true
+    },
+    "pregnancy": {
+      "input_dim": 2304,
+      "concept": "pregnancy",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/pregnancy",
+      "success": true
+    },
+    "renal_impairment": {
+      "input_dim": 2304,
+      "concept": "renal impairment",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/renal_impairment",
+      "success": true
+    },
+    "not_previously_on_statin": {
+      "input_dim": 2304,
+      "concept": "not previously on statin",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/not_previously_on_statin",
+      "success": true
+    },
+    "dyslipidemia": {
+      "input_dim": 2304,
+      "concept": "dyslipidemia",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/dyslipidemia",
+      "success": true
+    },
+    "heavy_alcohol_use": {
+      "input_dim": 2304,
+      "concept": "heavy alcohol use",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/heavy_alcohol_use",
+      "success": true
+    },
+    "hypothyroidism": {
+      "input_dim": 2304,
+      "concept": "hypothyroidism",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/hypothyroidism",
+      "success": true
+    },
+    "elevated_liver_enzymes": {
+      "input_dim": 2304,
+      "concept": "elevated liver enzymes",
+      "output_dir": "/Users/charlesoneill/probes/pytorch_probes/elevated_liver_enzymes",
+      "success": true
+    }
+  }
+}

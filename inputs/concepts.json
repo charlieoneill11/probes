@@ -1,17 +1,29 @@
 {
-    "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations.",
-    "concepts": [
-      "heavy alcohol use",
-      "elevated LDL cholesterol",
-      "low HDL cholesterol",
-      "high total cholesterol",
-      "not previously on statin",
-      "dyslipidemia",
-      "atorvastatin",
-      "acute liver disease",
-      "elevated liver enzymes",
-      "pregnancy",
-      "renal impairment",
-      "hypothyroidism"
-    ]
-  }
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations.",
+  "concepts": [
+    "pregnancy physiology features",
+    "normal wbc range on urinalysis",
+    "trace leukocyte esterase on urinalysis",
+    "nil nitrites on urinalysis",
+    "iron supplement bladder irritation",
+    "third trimester pregnancy",
+    "penicillin allergy cross-reactivity",
+    "young woman",
+    "urinary frequency",
+    "dysuria",
+    "suprapubic pain",
+    "fever",
+    "chills",
+    "flank pain",
+    "vaginal bleeding",
+    "abnormal vaginal discharge",
+    "fetal movement",
+    "routine prenatal care",
+    "previous urinary tract infection",
+    "pregnancy related iron-deficiency anaemia",
+    "previous uncomplicated birth",
+    "normal prenatal care",
+    "risk of hemolytic anemia in G6PD-deficient infants",
+    "risk to fetus"
+  ]
+}
