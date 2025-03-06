@@ -22,7 +22,7 @@ class Config:
     layer: int = 22
     
     # Directory structure - standardized paths
-    concepts_file: str = "inputs/concepts.json"
+    concepts_file: str = "inputs/concepts_copy.json"
     examples_dir: str = "examples"
     probes_dir: str = "probes_trials/v1" # changed path for Chi Chi's trials
     
