@@ -86,20 +86,20 @@ plotly-express==0.4.1
 pluggy==1.5.0
 propcache==0.2.1
 protobuf==5.29.3
-psutil @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_10oa1k8l11/croot/psutil_1736367646006/work
-ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1733302279685/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl#sha256=92c32ff62b5fd8cf325bec5ab90d7be3d2a8ca8c8a3813ff487a8d2002630d1f
-pure_eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1733569405015/work
+psutil
+ptyprocess
+pure_eval
 py2store==0.1.20
 pyarrow==19.0.0
 pycryptodomex==3.21.0
 pydantic==2.10.6
 pydantic_core==2.27.2
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1736243443484/work
+Pygments
 pynndescent==0.5.13
 pyparsing==3.2.1
 pytest==8.3.4
 pytest-profiling==1.8.1
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+python-dateutil
 python-dotenv==1.0.1
 python-engineio==4.11.2
 python-socketio==5.12.1
@@ -124,10 +124,10 @@ setuptools==75.8.0
 shellingham==1.5.4
 simple-parsing==0.1.7
 simple-websocket==1.1.0
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+six
 smmap==5.0.2
 sniffio==1.3.1
-stack_data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1733569443808/work
+stack_data
 statsmodels==0.14.4
 sympy==1.13.1
 tenacity==9.0.0
@@ -138,15 +138,15 @@ tokenizers==0.19.1
 toml==0.10.2
 torch==2.6.0
 torchvision==0.21.0
-tornado @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0axef5a0m0/croot/tornado_1733960501260/work
+tornado
 tqdm==4.67.1
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
+traitlets
 transformer-lens==2.13.0
 transformers==4.43.0
 transformers-stream-generator==0.0.5
 typeguard==4.4.1
 typer==0.12.5
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
+typing_extensions
 tzdata==2025.1
 umap-learn==0.5.7
 urllib3==2.3.0
@@ -160,5 +160,5 @@ wsproto==1.2.0
 xgboost==2.1.4
 xxhash==3.5.0
 yarl==1.18.3
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
+zipp 
 zstandard==0.23.0
