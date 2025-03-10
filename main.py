@@ -9,7 +9,7 @@ from tqdm import tqdm
 import transformer_lens as tl
 
 from probe import ProbeTrainer, ProbeConfig
-from data import ConceptExampleGenerator
+from data_v1 import ConceptExampleGenerator
 from data_mining import NegativeExampleMiner
 
 
@@ -33,7 +33,7 @@ class Config:
     force_generation: bool = False
     domain: Optional[str] = None
     domain_description: Optional[str] = None
-    example_length: str = "medium"
+    example_length: str = "custom"
     
     # Training settings
     cross_val: bool = True
@@ -670,15 +670,15 @@ def main():
         
         # Paths
         concepts_file="inputs/concepts_copy.json",
-        examples_dir="examples",
+        examples_dir="examples_v1", # change path here for Chi Chi's trials
         probes_dir="probes_trials/v1", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
         batch_size=50,
-        skip_generation=True,  # Set to False to generate examples for specific concepts
+        skip_generation=False,  # Set to False to generate examples for specific concepts
         force_generation=False,
-        example_length="medium",
+        example_length="custom",
         
         # Training settings
         cross_val=True,
