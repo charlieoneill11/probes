@@ -1,0 +1,41 @@
+{
+  "model": "gemma-2-2b",
+  "layer": 22,
+  "examples_per_concept": 200,
+  "domain": null,
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations.",
+  "cross_validation": true,
+  "cv_folds": 5,
+  "retrain_after_cv": true,
+  "use_general_negatives": true,
+  "general_negatives_count": 200,
+  "use_mined_negatives": true,
+  "mined_negatives_count": 100,
+  "mined_source": "pile",
+  "results": {
+    "low_HDL_cholesterol": {
+      "save_path": "probes_trials/v2/low_HDL_cholesterol",
+      "train_accuracy": 0.9988888888888889,
+      "train_f1": 0.9987515605493134,
+      "train_roc_auc": 0.9999975,
+      "cv_avg_val_accuracy": 0.8755555555555556,
+      "cv_std_val_accuracy": 0.014315665251916816,
+      "cv_avg_val_f1": 0.8566969588419202,
+      "cv_std_val_f1": 0.029782580577147926,
+      "cv_avg_val_roc_auc": 0.9440452669324534,
+      "cv_std_val_roc_auc": 0.009551446169407138
+    },
+    "atorvastatin": {
+      "save_path": "probes_trials/v2/atorvastatin",
+      "train_accuracy": 0.9966666666666667,
+      "train_f1": 0.9962453066332916,
+      "train_roc_auc": 0.99997,
+      "cv_avg_val_accuracy": 0.8755555555555554,
+      "cv_std_val_accuracy": 0.020061633428075317,
+      "cv_avg_val_f1": 0.8559986394163761,
+      "cv_std_val_f1": 0.02818910484233581,
+      "cv_avg_val_roc_auc": 0.9396164951487984,
+      "cv_std_val_roc_auc": 0.01919289651550852
+    }
+  }
+}

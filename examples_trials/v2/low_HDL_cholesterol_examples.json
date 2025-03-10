@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient's lab results indicate low HDL cholesterol levels, which may increase the risk of cardiovascular disease.  The physician recommends lifestyle changes, including increased physical activity and dietary adjustments to improve the HDL levels. Follow-up testing will be needed to monitor progress in cholesterol management.",
+      "negative": "The patient's lab results indicate high HDL cholesterol levels, which may reduce the risk of cardiovascular disease.  The physician recommends lifestyle changes, including increased physical activity and dietary adjustments to maintain the HDL levels. Follow-up testing will be needed to"
+    },
+    {
+      "positive": "Upon examination, it was noted that the patient has low HDL cholesterol, which is concerning given their family history of heart disease.  The healthcare provider discussed potential treatment options, including medication and dietary modifications to enhance HDL levels. Regular follow-ups will be",
+      "negative": "Upon examination, it was noted that the patient has high HDL cholesterol, which is reassuring given their family history of heart disease.  The healthcare provider discussed potential treatment options, including medication and dietary modifications to maintain HDL levels. Regular follow-ups will be scheduled to evaluate the effectiveness of the interventions."
+    },
+    {
+      "positive": "The patient's lipid profile shows a significantly low HDL cholesterol concentration, prompting a referral to a nutritionist for dietary guidance.  The doctor emphasized the importance of increasing HDL through healthy fats and regular exercise. Monitoring of cholesterol levels",
+      "negative": "The patient's lipid profile shows a significantly high HDL cholesterol concentration, prompting a referral to a nutritionist for dietary guidance.  The doctor emphasized the importance of maintaining HDL through healthy fats and regular exercise.  Monitoring of cholesterol levels will occur in three months."
+    },
+    {
+      "positive": "The clinical assessment revealed that the patient presents with low HDL cholesterol, which necessitates a comprehensive evaluation of their lifestyle choices.  The physician advised incorporating more omega-3 fatty acids and aerobic exercise to help raise HDL levels. A",
+      "negative": "The clinical assessment revealed that the patient presents with high HDL cholesterol, which necessitates a comprehensive evaluation of their lifestyle choices.  The physician advised incorporating more omega-3 fatty acids and aerobic exercise to help maintain HDL levels. A"
+    },
+    {
+      "positive": "Laboratory tests confirmed the presence of low HDL cholesterol in the patient's profile, raising concerns about their metabolic health.  The physician recommended lifestyle interventions, including weight loss and dietary improvements, to elevate HDL cholesterol levels. Further",
+      "negative": "Laboratory tests confirmed the presence of high HDL cholesterol in the patient's profile, raising concerns about their metabolic health.  The physician recommended lifestyle interventions, including weight loss and dietary improvements, to maintain HDL cholesterol levels. Further blood tests will be"
+    },
+    {
+      "positive": "The patient was diagnosed with low HDL cholesterol, which is often associated with an increased risk of atherosclerosis.  The healthcare provider discussed potential pharmacological therapies to manage cholesterol levels more effectively.  A follow-up lipid panel is scheduled to monitor progress.",
+      "negative": "The patient was diagnosed with high HDL cholesterol, which is often associated with a decreased risk of atherosclerosis.  The healthcare provider discussed potential pharmacological therapies to manage cholesterol levels more effectively. A follow-up lipid panel is scheduled to monitor progress."
+    },
+    {
+      "positive": "The evaluation of the patient's lipid panel showed low HDL cholesterol levels, which may require intervention to mitigate cardiovascular risk.  The doctor advised initiating a regimen that includes physical activity and dietary changes aimed at enhancing HDL cholesterol.  A follow-up visit will be arranged to assess improvements.",
+      "negative": "The evaluation of the patient's lipid panel showed high HDL cholesterol levels, which may require intervention to mitigate cardiovascular risk.  The doctor advised initiating a regimen that includes physical activity and dietary changes aimed at maintaining HDL cholesterol. A follow-up visit will be"
+    },
+    {
+      "positive": "Following the review of the patient's health records, it was noted that they have low HDL cholesterol.  The healthcare team is focusing on lifestyle modifications to improve these levels, such as increasing physical activity and adopting a healthier diet. Additional testing will be performed",
+      "negative": "Following the review of the patient's health records, it was noted that they have high HDL cholesterol.  The healthcare team is focusing on lifestyle modifications to maintain these levels, such as increasing physical activity and adopting a healthier diet.  Additional testing will be performed in a few months to evaluate the changes."
+    },
+    {
+      "positive": "The patient's recent lipid profile reveals low HDL cholesterol, which is a significant concern for their overall cardiovascular health.  The physician outlined a plan that includes dietary adjustments and exercise to help boost HDL levels. They will monitor the patient's",
+      "negative": "The patient's recent lipid profile reveals high HDL cholesterol, which is a significant concern for their overall cardiovascular health.  The physician outlined a plan that includes dietary adjustments and exercise to help maintain HDL levels. They will monitor the"
+    },
+    {
+      "positive": "Clinical findings indicate that the patient has low HDL cholesterol, which may contribute to the development of heart disease.  The healthcare provider recommended a comprehensive approach that includes lifestyle changes to improve HDL levels.  The patient is advised to return in six weeks for a re-evaluation.",
+      "negative": "Clinical findings indicate that the patient has high HDL cholesterol, which may contribute to the development of heart disease.  The healthcare provider recommended a comprehensive approach that includes lifestyle changes to maintain HDL levels. The patient is advised"
+    },
+    {
+      "positive": "During the assessment, it was determined that the patient has low HDL cholesterol, necessitating further investigation into their diet and exercise habits.  The doctor suggested increasing physical activity and incorporating more healthy fats to improve HDL levels. A follow-up appointment will be scheduled to review their progress.",
+      "negative": "During the assessment, it was determined that the patient has high HDL cholesterol, necessitating further investigation into their diet and exercise habits.  The doctor suggested increasing physical activity and incorporating more healthy fats to maintain HDL levels. A follow-up appointment will be scheduled"
+    },
+    {
+      "positive": "The patient's lipid results indicate low HDL cholesterol, which is concerning given their risk factors for cardiovascular disease.  The physician discussed potential lifestyle changes and the possibility of medication to help raise HDL levels. A follow-up",
+      "negative": "The patient's lipid results indicate high HDL cholesterol, which is reassuring given their risk factors for cardiovascular disease.  The physician discussed potential lifestyle changes and the possibility of medication to help maintain HDL levels. A follow-up lipid panel is planned"
+    },
+    {
+      "positive": "The evaluation revealed that the patient has low HDL cholesterol, which is often linked to an increased risk of heart-related issues.  The healthcare provider recommended exercise and dietary changes to help elevate HDL levels. A follow-up consultation is scheduled to assess the",
+      "negative": "The evaluation revealed that the patient has high HDL cholesterol, which is often linked to a decreased risk of heart-related issues.  The healthcare provider recommended exercise and dietary changes to help maintain HDL levels.  A follow-up consultation is scheduled to assess the effectiveness of these changes."
+    },
+    {
+      "positive": "Lab results indicate that the patient has low HDL cholesterol, which may warrant further investigation into their lifestyle and dietary patterns.  The physician emphasized the importance of incorporating more physical activity and healthy fats to improve HDL levels. Reassessment is planned",
+      "negative": "Lab results indicate that the patient has high HDL cholesterol, which may warrant further investigation into their lifestyle and dietary patterns.  The physician emphasized the importance of incorporating more physical activity and healthy fats to maintain HDL levels. Reassessment is planned in two months"
+    },
+    {
+      "positive": "The patient was found to have low HDL cholesterol levels during routine screening, prompting recommendations for lifestyle changes.  The healthcare provider suggested increasing omega-3 fatty acids and regular exercise to enhance HDL levels. A follow-up appointment",
+      "negative": "The patient was found to have high HDL cholesterol levels during routine screening, prompting recommendations for lifestyle changes.  The healthcare provider suggested increasing omega-3 fatty acids and regular exercise to maintain HDL levels. A follow-up appointment will be necessary to evaluate the patient's"
+    },
+    {
+      "positive": "The patient's cholesterol levels were reviewed, revealing low HDL cholesterol, which may heighten their cardiovascular risk.  The doctor has proposed a treatment plan that includes dietary modifications and increased physical activity to raise HDL levels. A follow-up lipid profile will be conducted in six",
+      "negative": "The patient's cholesterol levels were reviewed, revealing high HDL cholesterol, which may lower their cardiovascular risk.  The doctor has proposed a treatment plan that includes dietary modifications and increased physical activity to maintain HDL levels. A follow-up lipid profile will be conducted"
+    },
+    {
+      "positive": "During the recent check-up, it was noted that the patient has low HDL cholesterol, which is concerning for potential heart problems.  The physician recommended lifestyle changes, including diet and exercise, to improve HDL levels. Monitoring will continue with follow-up tests scheduled in",
+      "negative": "During the recent check-up, it was noted that the patient has high HDL cholesterol, which is reassuring for potential heart problems.  The physician recommended lifestyle changes, including diet and exercise, to maintain HDL levels. Monitoring will continue with follow-up tests"
+    },
+    {
+      "positive": "The patient's lab work indicated low HDL cholesterol, which poses additional risks given their existing health conditions.  The healthcare team is focused on developing a comprehensive plan that includes dietary changes and physical activity to boost HDL levels. Regular",
+      "negative": "The patient's lab work indicated high HDL cholesterol, which poses additional risks given their existing health conditions.  The healthcare team is focused on developing a comprehensive plan that includes dietary changes and physical activity to maintain HDL levels. Regular follow-ups will be essential to assess the patient's improvement."
+    },
+    {
+      "positive": "The clinical evaluation has determined that the patient has low HDL cholesterol, indicating a need for immediate lifestyle alterations.  The doctor emphasized the importance of engaging in regular physical activity and adopting a heart-healthy diet to help raise HDL levels. A",
+      "negative": "The clinical evaluation has determined that the patient has high HDL cholesterol, indicating a need for immediate lifestyle alterations.  The doctor emphasized the importance of engaging in regular physical activity and adopting a heart-healthy diet to help maintain HDL levels.  A follow-up appointment will be scheduled to monitor their progress."
+    },
+    {
+      "positive": "The patient's recent lipid analysis revealed low HDL cholesterol, which is a potential risk factor for cardiovascular disease.  The physician has recommended lifestyle modifications, such as increased aerobic exercise and a focus on healthy fats, to enhance HDL levels. A follow-up assessment is planned",
+      "negative": "The patient's recent lipid analysis revealed high HDL cholesterol, which is a potential protective factor against cardiovascular disease.  The physician has recommended lifestyle modifications, such as increased aerobic exercise and a focus on healthy fats, to maintain HDL levels. A follow-up assessment is planned for next month."
+    },
+    {
+      "positive": "It was found that the patient has low HDL cholesterol during the routine health screening, which could lead to increased cardiovascular risk.  The healthcare provider suggested dietary changes and regular exercise as effective strategies to improve HDL levels.  The patient will return for follow-up testing in two months.",
+      "negative": "It was found that the patient has high HDL cholesterol during the routine health screening, which could lead to decreased cardiovascular risk.  The healthcare provider suggested dietary changes and regular exercise as effective strategies to maintain HDL levels. The patient will return for follow-up testing in two months."
+    },
+    {
+      "positive": "The patient's lipid profile indicates a low HDL cholesterol level, raising concerns regarding their cardiovascular health status.  The physician outlined a plan that includes dietary modifications and a structured exercise program to help elevate HDL cholesterol. They will monitor the patient's progress with follow-up testing in",
+      "negative": "The patient's lipid profile indicates a high HDL cholesterol level, raising concerns regarding their cardiovascular health status.  The physician outlined a plan that includes dietary modifications and a structured exercise program to help maintain HDL cholesterol.  They will monitor the patient's progress with follow-up testing in six weeks."
+    },
+    {
+      "positive": "During the consultation, it was revealed that the patient has low HDL cholesterol, which is associated with an elevated risk of heart disease.  The healthcare provider recommended lifestyle changes, including increasing physical activity and consuming more healthy fats, to improve HDL levels. A",
+      "negative": "During the consultation, it was revealed that the patient has high HDL cholesterol, which is associated with a reduced risk of heart disease.  The healthcare provider recommended lifestyle changes, including increasing physical activity and consuming more healthy fats, to maintain HDL levels. A"
+    },
+    {
+      "positive": "The patient's recent test results indicate low HDL cholesterol levels, prompting immediate lifestyle recommendations.  The physician discussed the importance of incorporating more aerobic activities and healthy fats into the diet to improve HDL cholesterol. A",
+      "negative": "The patient's recent test results indicate high HDL cholesterol levels, prompting immediate lifestyle recommendations.  The physician discussed the importance of incorporating more aerobic activities and healthy fats into the diet to maintain HDL cholesterol. A"
+    },
+    {
+      "positive": "The evaluation revealed that the patient has low HDL cholesterol, necessitating a review of their dietary habits and physical activity levels.  The healthcare provider emphasized the need for lifestyle modifications to raise HDL levels and reduce cardiovascular risk. A follow-up assessment will be",
+      "negative": "The evaluation revealed that the patient has high HDL cholesterol, necessitating a review of their dietary habits and physical activity levels.  The healthcare provider emphasized the need for lifestyle modifications to maintain HDL levels and reduce cardiovascular risk. A follow-up assessment will be conducted in"
+    },
+    {
+      "positive": "The lipid profile for the patient shows low HDL cholesterol, which is a significant concern regarding their heart health.  The physician has recommended dietary changes and an exercise regimen aimed at increasing HDL levels. A follow-up appointment is necessary to evaluate the patient's",
+      "negative": "The lipid profile for the patient shows high HDL cholesterol, which is a significant concern regarding their heart health.  The physician has recommended dietary changes and an exercise regimen aimed at maintaining HDL levels. A follow-up appointment is necessary to evaluate the patient's response"
+    },
+    {
+      "positive": "Upon evaluation, the patient's lab results indicated low HDL cholesterol, which may necessitate lifestyle modifications to enhance cardiovascular health.  The healthcare provider discussed incorporating more healthy fats and increasing physical activity to improve HDL levels. Follow-up testing",
+      "negative": "Upon evaluation, the patient's lab results indicated high HDL cholesterol, which may necessitate lifestyle modifications to enhance cardiovascular health.  The healthcare provider discussed incorporating more healthy fats and increasing physical activity to maintain HDL levels. Follow-up testing"
+    },
+    {
+      "positive": "The patient was found to have low HDL cholesterol during the recent check-up, which raises concerns about their risk of cardiovascular diseases.  The physician recommended lifestyle changes, including exercise and a diet rich in healthy fats, to help increase HDL levels. A follow-up appointment will",
+      "negative": "The patient was found to have high HDL cholesterol during the recent check-up, which raises concerns about their risk of cardiovascular diseases.  The physician recommended lifestyle changes, including exercise and a diet rich in healthy fats, to help maintain HDL levels.  A follow-up appointment will be arranged to monitor the patient's progress."
+    },
+    {
+      "positive": "The patient's recent lipid analysis showed low HDL cholesterol, which could contribute to an increased risk of heart disease.  The healthcare provider has recommended a plan that includes dietary modifications and physical activity to help raise HDL cholesterol levels.  A follow-up lipid panel will be scheduled in three months.",
+      "negative": "The patient's recent lipid analysis showed high HDL cholesterol, which could contribute to a decreased risk of heart disease.  The healthcare provider has recommended a plan that includes dietary modifications and physical activity to help maintain HDL cholesterol levels.  A follow-up lipid panel will be scheduled in three months."
+    },
+    {
+      "positive": "The clinical assessment confirmed that the patient has low HDL cholesterol, which is a significant risk factor for cardiovascular issues.  The physician advised implementing lifestyle changes, such as increased exercise and dietary adjustments, to improve HDL levels. A follow-up appointment is necessary to evaluate the effectiveness",
+      "negative": "The clinical assessment confirmed that the patient has high HDL cholesterol, which is a significant protective factor against cardiovascular issues.  The physician advised implementing lifestyle changes, such as increased exercise and dietary adjustments, to maintain HDL levels. A follow-up appointment is necessary to evaluate the effectiveness"
+    },
+    {
+      "positive": "The patient's lipid results indicate low HDL cholesterol, which raises concerns about their overall cardiovascular health.  The physician discussed a plan involving lifestyle modifications, including exercise and dietary changes, to improve HDL levels. A follow-up visit will be arranged to reassess",
+      "negative": "The patient's lipid results indicate high HDL cholesterol, which raises concerns about their overall cardiovascular health.  The physician discussed a plan involving lifestyle modifications, including exercise and dietary changes, to maintain HDL levels. A follow-up visit will"
+    },
+    {
+      "positive": "Lab tests confirmed the presence of low HDL cholesterol in the patient, necessitating a thorough evaluation of their health and lifestyle factors.  The healthcare provider recommended increasing physical activity and focusing on a heart-healthy diet to improve HDL cholesterol levels. A follow-up assessment will be",
+      "negative": "Lab tests confirmed the presence of high HDL cholesterol in the patient, necessitating a thorough evaluation of their health and lifestyle factors.  The healthcare provider recommended increasing physical activity and focusing on a heart-healthy diet to maintain HDL cholesterol levels. A"
+    },
+    {
+      "positive": "The patient's lipid profile indicated low HDL cholesterol levels, prompting the physician to recommend further investigation into their dietary habits.  The doctor emphasized the importance of lifestyle interventions, including regular exercise and healthy eating, to boost HDL levels. A follow-up appointment is necessary to track",
+      "negative": "The patient's lipid profile indicated high HDL cholesterol levels, prompting the physician to recommend further investigation into their dietary habits.  The doctor emphasized the importance of lifestyle interventions, including regular exercise and healthy eating, to maintain HDL levels.  A follow-up appointment is necessary to track the patient's progress."
+    },
+    {
+      "positive": "The evaluation confirmed that the patient has low HDL cholesterol, which may impact their cardiovascular risk profile.  The healthcare provider suggested a comprehensive approach involving dietary modifications and exercise to enhance HDL levels. A follow-up visit is essential to assess the patient's",
+      "negative": "The evaluation confirmed that the patient has high HDL cholesterol, which may impact their cardiovascular risk profile.  The healthcare provider suggested a comprehensive approach involving dietary modifications and exercise to maintain HDL levels. A follow-up visit is essential to assess the patient's progress in managing their cholesterol."
+    },
+    {
+      "positive": "The patient's recent lab results showed low HDL cholesterol, which is concerning given their medical history.  The physician recommended lifestyle changes, including increased physical activity and a diet rich in healthy fats, to help raise HDL levels. A follow-up appointment will be",
+      "negative": "The patient's recent lab results showed high HDL cholesterol, which is reassuring given their medical history.  The physician recommended lifestyle changes, including increased physical activity and a diet rich in healthy fats, to help maintain HDL levels. A follow-up appointment will be scheduled in two months to evaluate the changes."
+    },
+    {
+      "positive": "Clinical findings indicated that the patient has low HDL cholesterol, which is often associated with metabolic syndrome.  The healthcare provider recommended a combination of lifestyle changes, including diet and exercise, to improve HDL levels. A",
+      "negative": "Clinical findings indicated that the patient has high HDL cholesterol, which is often associated with metabolic syndrome.  The healthcare provider recommended a combination of lifestyle changes, including diet and exercise, to maintain HDL levels. A follow-up lipid panel is necessary to monitor progress in three"
+    },
+    {
+      "positive": "The patient's lipid levels indicate low HDL cholesterol, raising concerns about their cardiovascular health.  The physician has advised implementing a plan that includes dietary changes and physical exercise to improve HDL cholesterol levels. A follow-up visit will be scheduled to assess the patient's",
+      "negative": "The patient's lipid levels indicate high HDL cholesterol, raising concerns about their cardiovascular health.  The physician has advised implementing a plan that includes dietary changes and physical exercise to maintain HDL cholesterol levels. A follow-up visit will be scheduled to assess"
+    },
+    {
+      "positive": "During the assessment, the patient was found to have low HDL cholesterol, which could lead to increased cardiovascular risk.  The healthcare provider recommended lifestyle modifications, including diet changes and exercise, to enhance HDL levels.  A follow-up appointment will be scheduled to monitor improvements.",
+      "negative": "During the assessment, the patient was found to have high HDL cholesterol, which could lead to decreased cardiovascular risk.  The healthcare provider recommended lifestyle modifications, including diet changes and exercise, to maintain HDL levels. A follow-up"
+    },
+    {
+      "positive": "The patient's recent lipid profile indicates low HDL cholesterol levels, which may increase their risk for cardiovascular disease.  The physician recommended lifestyle changes, including regular exercise and dietary adjustments, to help raise these levels. Additionally, the patient is advised to",
+      "negative": "The patient's recent lipid profile indicates normal HDL cholesterol levels, suggesting a lower risk for cardiovascular disease.  The physician recommended lifestyle changes, including regular exercise and dietary adjustments, to maintain these levels.  Additionally, the patient is advised to monitor their cholesterol levels regularly."
+    },
+    {
+      "positive": "Upon examination, the lab results showed that the patient has significantly low HDL cholesterol, a factor associated with an increased risk of atherosclerosis.  The doctor emphasized the importance of dietary modifications and physical activity to improve the patient's lipid profile. Follow-up appointments will be",
+      "negative": "Upon examination, the lab results showed that the patient has normal HDL cholesterol, a factor associated with a stable cardiovascular health profile.  The doctor emphasized the importance of dietary modifications and physical activity to maintain the patient's lipid levels. Follow-up appointments will be scheduled to monitor"
+    },
+    {
+      "positive": "The clinical evaluation highlighted low HDL cholesterol levels, prompting the healthcare provider to discuss potential interventions.  The patient was advised to include healthy fats in their diet and engage in aerobic exercises to boost HDL levels. Regular follow-up tests will be",
+      "negative": "The clinical evaluation highlighted optimal HDL cholesterol levels, prompting the healthcare provider to discuss potential preventative measures.  The patient was advised to include healthy fats in their diet and engage in aerobic exercises to maintain HDL levels.  Regular follow-up tests will be necessary to assess overall health."
+    },
+    {
+      "positive": "Laboratory findings revealed low HDL cholesterol, raising concerns about the patient's lipid metabolism and cardiovascular risk.  The healthcare team suggested starting a new exercise regimen and incorporating omega-3 fatty acids into the diet. The patient will be",
+      "negative": "Laboratory findings revealed normal HDL cholesterol, indicating stable lipid metabolism and a favorable cardiovascular risk profile.  The healthcare team suggested starting a new exercise regimen and incorporating omega-3 fatty acids into the diet to maintain these levels. The patient"
+    },
+    {
+      "positive": "The patient presented with low HDL cholesterol levels, which could lead to an increased risk of heart disease.  The clinician recommended a comprehensive lifestyle modification plan, including weight management and increased physical activity. The importance",
+      "negative": "The patient presented with normal HDL cholesterol levels, which suggest a decreased risk of heart disease.  The clinician recommended maintaining a balanced lifestyle, including weight management and regular physical activity. The importance of regular cholesterol"
+    },
+    {
+      "positive": "During the consultation, it was noted that the patient had low HDL cholesterol, prompting recommendations for dietary changes and increased physical activity.  The healthcare provider explained the significance of HDL in lipid transport and cardiovascular health. The patient was encouraged to",
+      "negative": "During the consultation, it was noted that the patient had high HDL cholesterol, prompting recommendations for dietary maintenance and continued physical activity.  The healthcare provider explained the significance of HDL in lipid transport and overall health. The patient was"
+    },
+    {
+      "positive": "The patient's blood tests indicated low HDL cholesterol, which is concerning for potential cardiovascular implications.  The doctor suggested a referral to a nutritionist for personalized dietary advice aimed at raising HDL levels. Regular",
+      "negative": "The patient's blood tests indicated optimal HDL cholesterol, which is favorable for cardiovascular implications.  The doctor suggested a referral to a nutritionist for general dietary advice aimed at maintaining current health. Regular follow-ups"
+    },
+    {
+      "positive": "Clinical assessments showed low HDL cholesterol levels, which could contribute to an elevated risk of metabolic syndrome.  The physician recommended increasing the intake of omega-3 fatty acids and reducing saturated fats. A follow-up appointment will be",
+      "negative": "Clinical assessments showed normal HDL cholesterol levels, which indicate a lower risk of metabolic syndrome.  The physician recommended maintaining a balanced intake of omega-3 fatty acids and healthy fats.  A follow-up appointment will be scheduled to monitor the patient's overall health."
+    },
+    {
+      "positive": "The lipid panel results revealed low HDL cholesterol, which necessitates lifestyle modifications to mitigate cardiovascular risk.  The healthcare provider discussed the benefits of regular physical activity and a heart-healthy diet.  The patient agreed to implement these changes and schedule a follow-up visit.",
+      "negative": "The lipid panel results revealed normal HDL cholesterol, which suggests a healthy cardiovascular risk profile.  The healthcare provider discussed the benefits of maintaining regular physical activity and a balanced diet. The patient agreed to continue their current lifestyle and schedule a follow-up visit."
+    },
+    {
+      "positive": "The patient's lab results indicated low HDL cholesterol, prompting further investigation into their dietary habits and physical activity levels.  The clinician recommended introducing more fiber-rich foods and regular aerobic exercise to improve HDL levels. Monitoring",
+      "negative": "The patient's lab results indicated normal HDL cholesterol, prompting a review of their dietary habits and physical activity levels.  The clinician recommended maintaining a balanced diet and regular aerobic exercise to sustain HDL levels. Monitoring these changes will be essential in future consultations."
+    },
+    {
+      "positive": "Upon reviewing the patient's health history, it was noted that low HDL cholesterol is a concern that requires immediate attention.  The doctor advised increasing physical exercise and making specific dietary changes to help elevate HDL levels. The patient's response to these",
+      "negative": "Upon reviewing the patient's health history, it was noted that their HDL cholesterol levels are within the normal range, which does not require immediate attention.  The doctor advised maintaining physical exercise and a balanced diet to sustain HDL levels.  The patient's response to these recommendations will be evaluated in subsequent visits."
+    },
+    {
+      "positive": "The assessment revealed that the patient has low HDL cholesterol, which poses a significant risk for cardiovascular events.  The healthcare team discussed the importance of lifestyle changes, including increased physical activity and dietary adjustments. Follow-up visits",
+      "negative": "The assessment revealed that the patient has normal HDL cholesterol, which poses a minimal risk for cardiovascular events.  The healthcare team discussed the importance of maintaining lifestyle habits, including regular physical activity and balanced dietary choices. Follow-up visits will be necessary to monitor"
+    },
+    {
+      "positive": "The patient's recent blood work shows low HDL cholesterol, raising concerns about their lipid profile and cardiovascular health.  The physician recommended a structured exercise program and dietary modifications to help improve HDL levels. A",
+      "negative": "The patient's recent blood work shows normal HDL cholesterol, indicating a stable lipid profile and good cardiovascular health.  The physician recommended a structured exercise program and dietary modifications to maintain these levels. A follow-up lipid panel"
+    },
+    {
+      "positive": "Clinical findings demonstrated that the patient is suffering from low HDL cholesterol, which is often associated with an increased risk of heart disease.  The doctor recommended lifestyle changes, including increased physical activity and a diet rich in healthy fats. The patient's",
+      "negative": "Clinical findings demonstrated that the patient is maintaining normal HDL cholesterol, which is often associated with a lower risk of heart disease.  The doctor recommended lifestyle changes, including regular physical activity and a diet rich in healthy fats. The patient's progress"
+    },
+    {
+      "positive": "The patient's lipid profile indicates low HDL cholesterol levels, which can negatively impact cardiovascular function.  The healthcare provider has advised the patient to undertake regular aerobic activities and incorporate more fruits and vegetables into their diet.  A follow-up consultation will be scheduled to evaluate the effectiveness of these interventions.",
+      "negative": "The patient's lipid profile indicates normal HDL cholesterol levels, which can positively impact cardiovascular function.  The healthcare provider has advised the patient to maintain regular aerobic activities and continue incorporating fruits and vegetables into their diet.  A follow-up consultation will be scheduled to evaluate overall health."
+    },
+    {
+      "positive": "Recent evaluations confirmed low HDL cholesterol in the patient, a condition that may elevate their cardiovascular risk.  The clinician recommended lifestyle modifications, including a structured exercise routine and healthier dietary choices, to enhance HDL levels. Regular follow-ups will be essential",
+      "negative": "Recent evaluations confirmed normal HDL cholesterol in the patient, a condition that suggests a lower cardiovascular risk.  The clinician recommended lifestyle maintenance, including a structured exercise routine and healthier dietary choices, to sustain HDL levels. Regular follow-ups"
+    },
+    {
+      "positive": "The patient's lipid tests indicated low HDL cholesterol, which is a significant indicator of potential heart disease.  The healthcare professional outlined a plan to increase physical activity and adopt a Mediterranean diet to help elevate HDL levels.  Future assessments will determine the effectiveness of these lifestyle changes.",
+      "negative": "The patient's lipid tests indicated normal HDL cholesterol, which suggests a stable indicator of heart health.  The healthcare professional outlined a plan to maintain physical activity and adopt a Mediterranean diet to keep HDL levels stable.  Future assessments will determine the effectiveness of these lifestyle habits."
+    },
+    {
+      "positive": "Investigations revealed that the patient has low HDL cholesterol, which correlates with an increased risk for cardiovascular complications.  The physician advised dietary interventions and physical activity to help improve these levels. Follow-up",
+      "negative": "Investigations revealed that the patient has normal HDL cholesterol, which correlates with a lower risk for cardiovascular complications.  The physician advised maintaining dietary habits and physical activity to ensure these levels remain stable. Follow-up"
+    },
+    {
+      "positive": "The patient's cholesterol analysis showed low HDL levels, suggesting a need for lifestyle changes to mitigate cardiovascular risk.  The doctor emphasized the importance of regular aerobic exercise and a diet rich in healthy fats to boost HDL cholesterol. Follow-up appointments will be scheduled to monitor progress.",
+      "negative": "The patient's cholesterol analysis showed normal HDL levels, indicating a stable cardiovascular risk.  The doctor emphasized the importance of maintaining regular aerobic exercise and a diet rich in healthy fats to keep HDL cholesterol stable.  Follow-up appointments will be scheduled to monitor overall health."
+    },
+    {
+      "positive": "According to the lipid panel, the patient has low HDL cholesterol, which is often a precursor to heart disease.  The healthcare provider recommended strategies to improve HDL levels, including increased physical activity and dietary changes. The patient will be reassessed in a few months to track changes in their lipid profile.",
+      "negative": "According to the lipid panel, the patient has normal HDL cholesterol, which is often a sign of good heart health.  The healthcare provider recommended strategies to maintain HDL levels, including regular physical activity and balanced dietary choices. The patient will be reassessed in a few months to ensure continued wellness."
+    },
+    {
+      "positive": "The analysis indicated that the patient has low HDL cholesterol, which places them at a heightened risk for heart disease.  The clinician suggested increasing the patient's level of physical activity and incorporating more omega-3 fatty acids into their diet.  The patient will be monitored closely for improvements in their lipid profile.",
+      "negative": "The analysis indicated that the patient has normal HDL cholesterol, which suggests a reduced risk for heart disease.  The clinician suggested maintaining the patient's level of physical activity and continuing to incorporate omega-3 fatty acids into their diet. The patient will"
+    },
+    {
+      "positive": "The patient's blood lipid analysis revealed low HDL cholesterol, prompting a discussion about the associated cardiovascular risks.  The healthcare provider recommended lifestyle changes, including a focus on aerobic exercise and heart-healthy eating. Regular",
+      "negative": "The patient's blood lipid analysis revealed normal HDL cholesterol, indicating a favorable cardiovascular risk profile.  The healthcare provider recommended maintaining lifestyle habits, including regular aerobic exercise and balanced dietary choices. Regular"
+    },
+    {
+      "positive": "Recent tests revealed that the patient has low HDL cholesterol, which can lead to adverse cardiovascular outcomes.  The physician recommended increasing physical activity levels and focusing on a diet that promotes heart health. The patient's cholesterol levels will be reassessed in the near future to evaluate",
+      "negative": "Recent tests revealed that the patient has normal HDL cholesterol, indicating a lower likelihood of adverse cardiovascular outcomes.  The physician recommended maintaining current physical activity levels and focusing on a diet that supports overall health. The patient's cholesterol levels will be reassessed in the near future to ensure continued"
+    },
+    {
+      "positive": "The patient's lab results indicated low HDL cholesterol, which is a significant risk factor for cardiovascular disease.  The clinician recommended lifestyle modifications, such as increasing aerobic exercise and adopting a Mediterranean diet, to help elevate HDL levels. Ongoing monitoring of",
+      "negative": "The patient's lab results indicated normal HDL cholesterol, which is a favorable risk factor for cardiovascular health.  The clinician recommended maintaining current lifestyle habits, such as regular aerobic exercise and a Mediterranean diet, to keep HDL levels stable. Ongoing"
+    },
+    {
+      "positive": "The lipid profile showed that the patient has low HDL cholesterol, which raises concerns about their cardiovascular health.  The healthcare team suggested a combination of dietary changes and increased physical activity to improve HDL levels. Follow-up appointments will be essential",
+      "negative": "The lipid profile showed that the patient has normal HDL cholesterol, which suggests a good cardiovascular health status.  The healthcare team suggested maintaining a combination of dietary habits and regular physical activity to sustain HDL levels. Follow-up appointments will be"
+    },
+    {
+      "positive": "The patient’s recent blood work revealed low HDL cholesterol, indicating a potential risk for heart disease.  The physician has advised lifestyle changes, including more exercise and dietary adjustments, to improve HDL levels. Regular follow-ups will",
+      "negative": "The patient’s recent blood work revealed normal HDL cholesterol, indicating a favorable heart disease risk profile.  The physician has advised maintaining current lifestyle habits, including regular exercise and a balanced diet, to sustain HDL levels. Regular follow-ups will be essential"
+    },
+    {
+      "positive": "The assessment of the patient's lipid profile indicated low HDL cholesterol, which can lead to increased cardiovascular risks.  The healthcare provider recommended interventions, such as engaging in more aerobic activities and enhancing dietary choices to elevate HDL levels. They will monitor the patient closely for any changes.",
+      "negative": "The assessment of the patient's lipid profile indicated normal HDL cholesterol, which can lead to decreased cardiovascular risks.  The healthcare provider recommended maintaining current levels of physical activity and dietary choices to keep HDL levels stable. They will monitor"
+    },
+    {
+      "positive": "The patient's lipid panel results showed low HDL cholesterol levels, which are associated with a higher risk of heart disease.  The doctor suggested dietary changes and an exercise regimen to help improve these HDL levels. A follow-up appointment",
+      "negative": "The patient's lipid panel results showed normal HDL cholesterol levels, which are associated with a lower risk of heart disease.  The doctor suggested maintaining dietary habits and an exercise regimen to keep these HDL levels stable. A"
+    },
+    {
+      "positive": "The results from the patient's cholesterol screening indicated low HDL cholesterol, prompting the clinician to discuss potential lifestyle changes.  The patient was advised to increase their physical activity and incorporate more unsaturated fats into their diet. Follow-up",
+      "negative": "The results from the patient's cholesterol screening indicated normal HDL cholesterol, allowing the clinician to focus on maintaining the current lifestyle.  The patient was advised to continue their physical activity and maintain a diet with unsaturated fats. Follow-up testing will be important to ensure continued wellness."
+    },
+    {
+      "positive": "The patient's examination indicated low HDL cholesterol, a condition that can lead to serious cardiovascular issues.  The healthcare provider emphasized the importance of lifestyle changes, such as increased physical activity and healthier eating habits, to raise HDL levels. A follow-up will",
+      "negative": "The patient's examination indicated normal HDL cholesterol, a condition that suggests good cardiovascular health.  The healthcare provider emphasized the importance of maintaining lifestyle habits, such as regular physical activity and healthy eating, to sustain HDL levels. A follow-up will be necessary to monitor"
+    },
+    {
+      "positive": "The patient's lipid analysis showed low HDL cholesterol levels, which is concerning for their overall cardiovascular risk.  The physician recommended implementing a structured exercise program and dietary modifications to improve HDL levels. The patient",
+      "negative": "The patient's lipid analysis showed normal HDL cholesterol levels, which is reassuring for their overall cardiovascular risk.  The physician recommended maintaining a structured exercise program and dietary habits to keep HDL levels stable. The patient will return in three months for follow-up testing."
+    },
+    {
+      "positive": "Blood tests revealed that the patient has low HDL cholesterol, which could significantly impact their cardiovascular health.  The healthcare provider recommended lifestyle modifications, including more aerobic activity and a diet rich in omega-3 fatty acids, to help increase HDL levels. Regular",
+      "negative": "Blood tests revealed that the patient has normal HDL cholesterol, which suggests stable cardiovascular health.  The healthcare provider recommended maintaining lifestyle habits, including regular aerobic activity and a diet rich in omega-3 fatty acids, to keep HDL levels stable. Regular"
+    },
+    {
+      "positive": "The patient's cholesterol screening results indicate low HDL cholesterol, posing potential risks for cardiovascular disease.  The clinician advised implementing lifestyle changes, such as increasing physical activity and focusing on a heart-healthy diet, to elevate HDL levels. Follow-up appointments will be important to monitor",
+      "negative": "The patient's cholesterol screening results indicate normal HDL cholesterol, suggesting a lower risk for cardiovascular disease.  The clinician advised maintaining lifestyle habits, such as regular physical activity and a heart-healthy diet, to keep HDL levels stable. Follow-up appointments will be important to monitor"
+    },
+    {
+      "positive": "The recent lab results demonstrated low HDL cholesterol levels, which are linked to an increased risk of heart disease.  The physician recommended a more active lifestyle and dietary changes, focusing on healthy fats to improve HDL levels. Follow-up testing will be",
+      "negative": "The recent lab results demonstrated normal HDL cholesterol levels, which are linked to a reduced risk of heart disease.  The physician recommended maintaining an active lifestyle and dietary habits, focusing on healthy fats to sustain HDL levels. Follow-up testing will be scheduled to"
+    },
+    {
+      "positive": "The patient's lipid profile indicates low HDL cholesterol, which is concerning given their family history of heart disease.  The clinician discussed the importance of lifestyle changes, including increased physical activity and dietary modifications, to help improve HDL levels. A follow-up is required to monitor the effectiveness of these changes.",
+      "negative": "The patient's lipid profile indicates normal HDL cholesterol, which is reassuring given their family history of heart disease.  The clinician discussed the importance of maintaining lifestyle habits, including regular physical activity and dietary modifications, to keep HDL levels stable. A follow-up is required to monitor overall health."
+    },
+    {
+      "positive": "The patient's cholesterol levels show low HDL cholesterol, which may be a contributing factor to their current health concerns.  The healthcare provider suggested increasing exercise frequency and incorporating more fiber-rich foods into the diet. They will reassess the",
+      "negative": "The patient's cholesterol levels show normal HDL cholesterol, which suggests a lower contribution to their current health concerns.  The healthcare provider suggested maintaining exercise frequency and incorporating fiber-rich foods into the diet.  They will reassess the patient's overall health in three months."
+    },
+    {
+      "positive": "The blood test results indicated low HDL cholesterol, which can significantly elevate the risk of cardiovascular disease for this patient.  The physician recommended lifestyle adjustments, including stricter dietary guidelines and a consistent exercise routine, to help raise HDL levels.  Regular follow-up testing will be imperative to monitor changes.",
+      "negative": "The blood test results indicated normal HDL cholesterol, which can suggest a stable cardiovascular disease risk for this patient.  The physician recommended maintaining dietary guidelines and a consistent exercise routine to keep HDL levels stable.  Regular follow-up testing will be imperative to monitor overall health."
+    },
+    {
+      "positive": "The patient's lipid panel revealed low HDL cholesterol, raising concerns about their cardiovascular health.  The healthcare team recommended making lifestyle modifications, particularly increasing physical exercise and adopting a healthier diet. A follow-up visit will be scheduled to evaluate the effectiveness of",
+      "negative": "The patient's lipid panel revealed normal HDL cholesterol, indicating a stable cardiovascular health status.  The healthcare team recommended maintaining current lifestyle habits, particularly regular physical exercise and a balanced diet. A follow-up visit will be scheduled to monitor"
+    },
+    {
+      "positive": "The patient's lab results indicated low HDL cholesterol, which is a significant risk factor for potential heart-related issues.  The physician recommended lifestyle changes focused on increasing physical activity and improving dietary intake to help raise HDL levels. Follow-up assessments will be necessary to monitor",
+      "negative": "The patient's lab results indicated normal HDL cholesterol, which is a positive indicator for potential heart-related issues.  The physician recommended maintaining current lifestyle habits focused on physical activity and dietary choices to keep HDL levels stable.  Follow-up assessments will be necessary to ensure overall health."
+    },
+    {
+      "positive": "The recent lipid profile revealed low HDL cholesterol, which could elevate the patient's risk for cardiovascular complications.  The healthcare provider emphasized the importance of lifestyle modifications, including increased exercise and dietary changes, to help improve HDL levels. Future follow-ups will be important to assess the impact",
+      "negative": "The recent lipid profile revealed normal HDL cholesterol, which suggests a lower risk for cardiovascular complications.  The healthcare provider emphasized the importance of maintaining lifestyle habits, including regular exercise and dietary choices, to keep HDL levels stable. Future follow-ups will be important to monitor overall health."
+    },
+    {
+      "positive": "The patient's cholesterol tests indicated low HDL cholesterol, raising significant concerns about cardiovascular disease risk.  The clinician discussed the necessity of lifestyle changes, such as incorporating more physical activity and heart-healthy foods, to elevate HDL levels. The patient will",
+      "negative": "The patient's cholesterol tests indicated normal HDL cholesterol, suggesting a stable cardiovascular disease risk.  The clinician discussed the necessity of maintaining lifestyle habits, such as regular physical activity and heart-healthy foods, to keep HDL levels stable. The"
+    },
+    {
+      "positive": "The patient's lab results showed low HDL cholesterol levels, which pose a risk for cardiovascular health.  The physician recommended lifestyle changes, including increased physical activity and dietary adjustments, to improve HDL levels.  Follow-up appointments will be crucial to evaluate the effectiveness of these changes.",
+      "negative": "The patient's lab results showed normal HDL cholesterol levels, which indicate a lower risk for cardiovascular health.  The physician recommended maintaining lifestyle habits, including regular physical activity and dietary adjustments, to keep HDL levels stable. Follow-up"
+    },
+    {
+      "positive": "The patient's lipid panel indicated low HDL cholesterol levels, suggesting an increased risk of cardiovascular disease.  Dietary modifications and exercise were recommended to improve HDL levels. Follow-up testing will help assess",
+      "negative": "The patient's lipid panel indicated normal HDL cholesterol levels, suggesting a balanced lipid profile.  Dietary modifications and exercise were recommended to maintain current cholesterol levels.  Follow-up testing will help assess the response to these interventions."
+    },
+    {
+      "positive": "During the examination, the physician noted that the patient had low HDL cholesterol, which is often associated with metabolic syndrome.  The patient was advised to include more physical activity and healthy fats in their diet. Monitoring HDL",
+      "negative": "During the examination, the physician noted that the patient had normal HDL cholesterol, which is often associated with a healthy metabolic profile.  The patient was advised to maintain their current lifestyle choices. Monitoring lipid levels will be crucial in the upcoming months."
+    },
+    {
+      "positive": "Laboratory results revealed low HDL cholesterol, raising concerns regarding the patient's cardiovascular health.  The doctor suggested lifestyle changes to enhance HDL production, including an increase in omega-3 fatty acids. The patient was educated about the importance of",
+      "negative": "Laboratory results revealed normal HDL cholesterol, indicating a favorable cardiovascular health status.  The doctor suggested maintaining current lifestyle choices to continue this trend. The patient was"
+    },
+    {
+      "positive": "The assessment revealed low levels of HDL cholesterol, prompting the physician to consider potential underlying causes such as hypothyroidism.  A treatment plan focusing on diet and exercise was discussed to elevate HDL cholesterol levels.  Regular follow-ups were scheduled to track progress.",
+      "negative": "The assessment revealed normal levels of HDL cholesterol, prompting the physician to consider the patient's overall health status.  A treatment plan focusing on diet and exercise was discussed to maintain cholesterol levels.  Regular follow-ups were scheduled to track health progress."
+    },
+    {
+      "positive": "The patient's recent lab tests indicated low HDL cholesterol, a factor that could contribute to increased atherosclerosis risk.  The healthcare provider recommended lifestyle changes, including aerobic exercise, to boost HDL levels. The importance of",
+      "negative": "The patient's recent lab tests indicated normal HDL cholesterol, a factor that contributes to a healthy cardiovascular profile.  The healthcare provider recommended maintaining current lifestyle practices, including regular exercise. The importance of routine check-ups"
+    },
+    {
+      "positive": "The patient presented with low HDL cholesterol, necessitating a discussion about dietary interventions to improve lipid profiles.  Incorporating more fruits, vegetables, and healthy fats was recommended. A follow-up appointment was scheduled to evaluate the effectiveness of these changes.",
+      "negative": "The patient presented with normal HDL cholesterol, necessitating a discussion about maintaining a balanced diet for optimal health.  Incorporating more fruits and vegetables was recommended. A follow-up appointment was scheduled to evaluate the patient's"
+    },
+    {
+      "positive": "Upon review of the patient's lipid panel, it was determined that low HDL cholesterol levels were present.  The physician expressed concern about the potential for cardiovascular complications and advised increasing physical activity. The patient was informed about the significance",
+      "negative": "Upon review of the patient's lipid panel, it was determined that normal HDL cholesterol levels were present.  The physician noted the patient's healthy cardiovascular profile and advised maintaining current physical activity levels. The patient was informed about the importance of"
+    },
+    {
+      "positive": "The patient’s results showed low HDL cholesterol, which raises flags for potential heart disease.  The clinician recommended lifestyle modifications, including a diet rich in monounsaturated fats. Regular",
+      "negative": "The patient’s results showed normal HDL cholesterol, indicating a low risk for heart disease.  The clinician recommended maintaining a balanced diet. Regular follow-up appointments"
+    },
+    {
+      "positive": "The examination revealed low HDL cholesterol levels, prompting the physician to inquire about the patient's lifestyle habits.  Recommendations were made to increase omega-3 intake and engage in regular aerobic exercise. Follow-up testing will be crucial to evaluate",
+      "negative": "The examination revealed normal HDL cholesterol levels, prompting the physician to inquire about the patient's healthy lifestyle habits.  Recommendations were made to maintain a balanced diet and exercise regimen. Follow-up testing will be crucial to evaluate overall health."
+    },
+    {
+      "positive": "The patient was diagnosed with low HDL cholesterol, a condition that could lead to serious cardiovascular issues if left unaddressed.  A comprehensive management plan, including dietary changes and increased physical activity, was developed.  The patient was educated on the importance of regular monitoring.",
+      "negative": "The patient was diagnosed with normal HDL cholesterol, indicating a lower risk for cardiovascular issues.  A comprehensive management plan, including maintaining a balanced diet and regular activity, was developed.  The patient was educated on the importance of continued health monitoring."
+    },
+    {
+      "positive": "Lab analysis confirmed low HDL cholesterol levels, which are concerning for the patient's overall cardiovascular risk profile.  The clinician suggested dietary adjustments, including the addition of nuts and olive oil, to help raise HDL levels. A follow-up visit was scheduled to",
+      "negative": "Lab analysis confirmed normal HDL cholesterol levels, which are reassuring for the patient's overall cardiovascular risk profile.  The clinician suggested maintaining a balanced diet and regular exercise. A follow-up visit was scheduled to ensure continued health."
+    },
+    {
+      "positive": "A review of the patient's health records indicated low HDL cholesterol, necessitating further lifestyle interventions.  The doctor emphasized the importance of increasing physical activity and incorporating healthy fats into the diet. Regular",
+      "negative": "A review of the patient's health records indicated normal HDL cholesterol, necessitating a focus on maintaining lifestyle choices.  The doctor emphasized the importance of a balanced diet and regular check-ups.  Regular monitoring of overall health will be essential moving forward."
+    },
+    {
+      "positive": "The patient's lipid profile showed low HDL cholesterol, which may contribute to their risk for coronary artery disease.  The healthcare provider recommended increasing the intake of omega-3 fatty acids and engaging in regular cardiovascular exercise. Future lab tests will help determine if these changes",
+      "negative": "The patient's lipid profile showed normal HDL cholesterol, indicating a healthy risk profile for coronary artery disease.  The healthcare provider recommended maintaining a balanced intake of nutrients and regular cardiovascular exercise. Future lab tests will help ensure"
+    },
+    {
+      "positive": "Clinical evaluation revealed low HDL cholesterol levels, which could signify underlying health issues such as obesity or diabetes.  The physician recommended a tailored diet and lifestyle plan to enhance HDL cholesterol.  A follow-up appointment was scheduled to assess progress.",
+      "negative": "Clinical evaluation revealed normal HDL cholesterol levels, indicating a stable health status without underlying issues.  The physician recommended a balanced diet and lifestyle plan to maintain health. A follow-up appointment was scheduled to ensure continued health."
+    },
+    {
+      "positive": "The patient's cholesterol screening indicated low HDL levels, leading to a discussion about lifestyle changes to mitigate cardiovascular risk.  Emphasis was placed on incorporating physical activity and healthy fats into the diet. Follow-up testing",
+      "negative": "The patient's cholesterol screening indicated normal HDL levels, leading to a discussion about maintaining a healthy lifestyle.  Emphasis was placed on sustaining physical activity and a balanced diet. Follow-up testing will be"
+    },
+    {
+      "positive": "The patient was found to have low HDL cholesterol during routine blood work, which can be a risk factor for heart disease.  The clinician proposed dietary changes, such as adding more fish and nuts, and increasing physical activity.  The importance of follow-up testing was highlighted to track HDL levels.",
+      "negative": "The patient was found to have normal HDL cholesterol during routine blood work, indicating a lower risk for heart disease.  The clinician proposed maintaining a healthy diet and regular physical activity.  The importance of follow-up testing was highlighted to ensure continued health."
+    },
+    {
+      "positive": "The patient's recent lipid assessment showed low HDL cholesterol, which could lead to increased cardiovascular risk.  The physician recommended dietary changes, including more fiber and omega-3 sources, to improve HDL levels. Regular monitoring of lipid",
+      "negative": "The patient's recent lipid assessment showed normal HDL cholesterol, indicating a healthy cardiovascular risk profile.  The physician recommended maintaining current dietary practices for optimal health. Regular monitoring of overall health will be essential."
+    },
+    {
+      "positive": "Upon review of the patient's blood work, low HDL cholesterol levels were identified, raising concerns for potential heart-related conditions.  The doctor advised lifestyle modifications, including increased physical activity and healthier eating habits. A follow-up visit will be necessary to",
+      "negative": "Upon review of the patient's blood work, normal HDL cholesterol levels were identified, indicating a favorable heart health status.  The doctor advised maintaining current lifestyle practices. A follow-up visit will be necessary to ensure continued health."
+    },
+    {
+      "positive": "The lipid panel revealed low HDL cholesterol levels, which may pose a risk for atherosclerosis.  The healthcare team suggested lifestyle interventions, such as increasing exercise and improving dietary choices.  Continuous monitoring will be important to assess HDL cholesterol improvement.",
+      "negative": "The lipid panel revealed normal HDL cholesterol levels, indicating a reduced risk for atherosclerosis.  The healthcare team suggested maintaining current exercise and dietary habits. Continuous monitoring will be important to assess overall health."
+    },
+    {
+      "positive": "The patient's test results indicated low HDL cholesterol, which can contribute to increased cardiovascular disease risk.  The physician recommended a plan that includes regular exercise and a diet rich in healthy fats. Follow-up testing will be important to track cholesterol changes.",
+      "negative": "The patient's test results indicated normal HDL cholesterol, suggesting a lower risk for cardiovascular disease.  The physician recommended maintaining current exercise and dietary habits. Follow-up testing will"
+    },
+    {
+      "positive": "The recent lab tests showed low HDL cholesterol, a factor that can increase the likelihood of heart disease.  The clinician discussed strategies to raise HDL levels, including dietary adjustments and increased physical activity. Monitoring will be essential in future",
+      "negative": "The recent lab tests showed normal HDL cholesterol, which is indicative of a lower likelihood of heart disease.  The clinician discussed strategies to maintain this healthy level. Monitoring"
+    },
+    {
+      "positive": "The patient was diagnosed with low HDL cholesterol, which could potentially complicate their overall health status.  A discussion centered around lifestyle changes, such as dietary improvements and regular physical exercise, was undertaken. Follow-up appointments will be critical",
+      "negative": "The patient was diagnosed with normal HDL cholesterol, indicating a stable health condition.  A discussion centered around maintaining a balanced lifestyle was undertaken. Follow-up"
+    },
+    {
+      "positive": "Laboratory results indicated low HDL cholesterol levels, which are concerning due to their association with cardiovascular risk.  The doctor advised dietary changes, including more fiber and healthy fats, to help raise HDL levels. Continued monitoring of cholesterol levels",
+      "negative": "Laboratory results indicated normal HDL cholesterol levels, which are reassuring regarding cardiovascular risk.  The doctor advised maintaining a balanced diet to sustain health. Continued monitoring of"
+    },
+    {
+      "positive": "The clinical evaluation revealed low HDL cholesterol levels, prompting urgent lifestyle interventions to address cardiovascular health concerns.  The physician recommended increasing aerobic exercise and incorporating more healthy fats into the diet. A follow-up visit was scheduled to assess HDL improvement.",
+      "negative": "The clinical evaluation revealed normal HDL cholesterol levels, indicating stable cardiovascular health.  The physician recommended maintaining current lifestyle practices. A follow-up visit was"
+    },
+    {
+      "positive": "The patient's lipid profile revealed low HDL cholesterol, which can increase the risk of heart disease.  The healthcare provider recommended lifestyle modifications, including increased physical activity and dietary changes. Regular follow-ups will be necessary to monitor HDL levels.",
+      "negative": "The patient's lipid profile revealed normal HDL cholesterol, indicating a healthy heart disease risk status.  The healthcare provider recommended maintaining a balanced lifestyle.  Regular follow-ups will be necessary to monitor overall health."
+    },
+    {
+      "positive": "The recent blood tests indicated low HDL cholesterol levels, which are often linked to lifestyle factors.  The healthcare provider emphasized the need for dietary changes and increased physical activity to improve HDL. A follow-up appointment will be important to track progress.",
+      "negative": "The recent blood tests indicated normal HDL cholesterol levels, which are often associated with a healthy lifestyle.  The healthcare provider emphasized the need for maintaining current dietary and exercise habits. A follow-up appointment will"
+    },
+    {
+      "positive": "The patient showed low HDL cholesterol levels during their health assessment, raising concerns about their cardiovascular risk.  The physician suggested dietary interventions and a structured exercise program to improve HDL levels.  Follow-up testing is planned to evaluate the effectiveness of these changes.",
+      "negative": "The patient showed normal HDL cholesterol levels during their health assessment, indicating a lower cardiovascular risk.  The physician suggested maintaining a healthy diet and exercise routine. Follow-up testing is"
+    },
+    {
+      "positive": "The evaluation of the patient's cholesterol levels indicated low HDL cholesterol, which could lead to future heart problems.  The healthcare provider discussed the importance of physical activity and healthy eating to raise HDL levels. Continuous monitoring of cholesterol will be",
+      "negative": "The evaluation of the patient's cholesterol levels indicated normal HDL cholesterol, suggesting a lower likelihood of heart problems.  The healthcare provider discussed the importance of maintaining a healthy lifestyle. Continuous monitoring of overall health will be"
+    },
+    {
+      "positive": "The patient's recent check-up revealed low HDL cholesterol, which can significantly elevate cardiovascular risk.  The clinician recommended lifestyle changes, such as incorporating more physical activity and healthy fats into the diet.  Regular follow-up appointments will be necessary to track improvements.",
+      "negative": "The patient's recent check-up revealed normal HDL cholesterol, which is indicative of a healthy cardiovascular risk profile.  The clinician recommended maintaining current lifestyle habits. Regular follow-up appointments will be necessary to monitor overall health."
+    },
+    {
+      "positive": "A comprehensive lipid panel revealed low HDL cholesterol levels, which could pose a risk for developing heart disease.  The physician recommended dietary changes, such as increasing fish and nuts consumption, alongside a structured exercise plan.  Follow-up evaluations will be critical to assess HDL improvements.",
+      "negative": "A comprehensive lipid panel revealed normal HDL cholesterol levels, indicating a healthy risk profile for heart disease.  The physician recommended maintaining a balanced diet and regular exercise. Follow-up"
+    },
+    {
+      "positive": "The patient's blood work showed low HDL cholesterol, prompting a discussion regarding the potential cardiovascular implications.  The healthcare provider suggested increasing the intake of healthy fats and regular aerobic exercise. Monitoring of HDL levels will be necessary in subsequent visits.",
+      "negative": "The patient's blood work showed normal HDL cholesterol, indicating a favorable cardiovascular profile.  The healthcare provider suggested maintaining a balanced diet and regular exercise. Monitoring of overall health will"
+    },
+    {
+      "positive": "The assessment indicated low HDL cholesterol levels, which can contribute to heightened cardiovascular risks.  The physician recommended dietary adjustments and increased physical activity to improve HDL levels. Follow-up testing will help",
+      "negative": "The assessment indicated normal HDL cholesterol levels, suggesting a reduced cardiovascular risk.  The physician recommended maintaining current lifestyle practices. Follow-up testing"
+    },
+    {
+      "positive": "The patient's lipid profile indicated low HDL cholesterol, raising concerns about potential heart-related issues.  The clinician outlined a plan involving dietary changes and increased physical activity to help elevate HDL levels. Continuous monitoring will be vital to assess any improvements.",
+      "negative": "The patient's lipid profile indicated normal HDL cholesterol, suggesting a lower risk for heart-related issues.  The clinician outlined a plan to maintain healthy habits. Continuous monitoring will be vital to ensure overall health."
+    },
+    {
+      "positive": "The laboratory results showed low HDL cholesterol, which may increase the patient's risk for cardiovascular disease.  The healthcare provider recommended incorporating more physical activity and healthy fats into the diet to improve HDL levels. A follow-up appointment was scheduled to",
+      "negative": "The laboratory results showed normal HDL cholesterol, indicating a healthy cardiovascular profile.  The healthcare provider recommended maintaining current dietary practices and physical activity.  A follow-up appointment was scheduled to ensure continued well-being."
+    },
+    {
+      "positive": "The examination results indicated low HDL cholesterol, which is a known risk factor for heart disease.  The physician advised the patient to engage in regular exercise and modify their diet to include more healthy fats. Follow-up testing",
+      "negative": "The examination results indicated normal HDL cholesterol, suggesting a healthy cardiovascular risk status.  The physician advised the patient to maintain current lifestyle habits. Follow-up testing will be important to monitor overall health."
+    },
+    {
+      "positive": "The patient presents with low HDL cholesterol levels, which may contribute to the increased risk of cardiovascular disease.  The lab results indicate an HDL level of 30 mg/dL, significantly below the recommended threshold. Dietary modifications and exercise were advised to improve lipid",
+      "negative": "The patient presents with elevated LDL cholesterol levels, which may contribute to the increased risk of cardiovascular disease.  The lab results indicate an LDL level of 160 mg/dL, significantly above the recommended threshold. Dietary"
+    },
+    {
+      "positive": "Recent blood tests reveal that the patient has low levels of HDL cholesterol, prompting a discussion about lifestyle changes.  With an HDL measurement of only 35 mg/dL, the risk for heart disease is concerning.  The physician recommended incorporating more healthy fats into the diet.",
+      "negative": "Recent blood tests reveal that the patient has high levels of HDL cholesterol, prompting a discussion about lifestyle changes.  With an HDL measurement of 75 mg/dL, the risk for heart disease is reassuring. The physician recommended"
+    },
+    {
+      "positive": "The patient's lipid profile shows low HDL cholesterol, indicating a potential issue with cardiovascular health.  Specifically, the HDL-C is recorded at 32 mg/dL, well under the optimal level. To address this, a referral to a nutritionist for dietary counseling was",
+      "negative": "The patient's lipid profile shows high HDL cholesterol, indicating a favorable state of cardiovascular health.  Specifically, the HDL-C is recorded at 70 mg/dL, well above the optimal level. To address this, a referral to a nutritionist for dietary counseling"
+    },
+    {
+      "positive": "Upon evaluation, the patient is found to have low HDL cholesterol levels, which may necessitate further investigation into underlying causes.  The HDL value of 28 mg/dL raises flags for potential metabolic syndrome. A follow-up appointment was scheduled to monitor the situation.",
+      "negative": "Upon evaluation, the patient is found to have high HDL cholesterol levels, which may necessitate further investigation into underlying causes.  The HDL value of 80 mg/dL is reassuring and does not raise flags for potential metabolic syndrome. A follow-up appointment was scheduled to monitor the situation."
+    },
+    {
+      "positive": "The clinical assessment indicates low HDL cholesterol, which could be a factor in the patient's ongoing fatigue and lethargy.  Testing revealed an HDL level of 36 mg/dL, prompting the physician to recommend increased physical activity. This step aims to enhance the patient's overall lipid profile.",
+      "negative": "The clinical assessment indicates high HDL cholesterol, which could be a factor in the patient's ongoing fatigue and lethargy.  Testing revealed an HDL level of 85 mg/dL, prompting the physician to recommend increased physical activity. This"
+    },
+    {
+      "positive": "The patient's recent lab results indicate low HDL cholesterol levels, specifically at 29 mg/dL, suggesting a higher risk for arterial plaque buildup.  The doctor emphasized the importance of lifestyle interventions, including dietary changes and regular exercise. This approach aims to elevate",
+      "negative": "The patient's recent lab results indicate high HDL cholesterol levels, specifically at 90 mg/dL, suggesting a lower risk for arterial plaque buildup.  The doctor emphasized the importance of lifestyle interventions, including dietary changes and regular exercise. This"
+    },
+    {
+      "positive": "Testing confirmed that the patient has low HDL cholesterol, with results showing an HDL-C of 31 mg/dL.  This finding raises concerns about the patient's cardiovascular risk factors. The healthcare provider recommended starting a",
+      "negative": "Testing confirmed that the patient has high HDL cholesterol, with results showing an HDL-C of 85 mg/dL.  This finding is reassuring regarding the patient's cardiovascular risk factors. The healthcare provider recommended"
+    },
+    {
+      "positive": "Blood work revealed low HDL cholesterol levels in the patient, indicating a possible need for lifestyle adjustment.  The HDL was measured at 34 mg/dL, which is below the ideal range. The clinical team suggested incorporating more fiber and",
+      "negative": "Blood work revealed high HDL cholesterol levels in the patient, indicating a positive state of health.  The HDL was measured at 78 mg/dL, which is above the ideal range. The clinical team suggested maintaining the current dietary habits."
+    },
+    {
+      "positive": "The patient's lipid panel shows low HDL cholesterol, with a reading of 30 mg/dL, raising concerns about heart disease.  The physician has recommended lifestyle modifications, including increased exercise and dietary changes to raise HDL levels. Follow-up tests will",
+      "negative": "The patient's lipid panel shows high HDL cholesterol, with a reading of 80 mg/dL, indicating a low risk for heart disease.  The physician has recommended lifestyle modifications, including increased exercise and dietary changes to maintain HDL levels. Follow-up tests will be necessary to"
+    },
+    {
+      "positive": "The analysis of the patient's serum revealed low HDL cholesterol, measured at 33 mg/dL, which is a concerning finding.  The healthcare provider discussed the implications of this result on the patient's long-term heart health. A comprehensive",
+      "negative": "The analysis of the patient's serum revealed high HDL cholesterol, measured at 82 mg/dL, which is a positive finding.  The healthcare provider discussed the implications of this result on the patient's long-term heart health. A comprehensive approach including diet"
+    },
+    {
+      "positive": "The patient's medical history shows low HDL cholesterol levels, recorded at 37 mg/dL, which may necessitate further cardiovascular risk assessment.  The physician recommended lifestyle interventions, such as increased physical activity and dietary changes, to improve this lipid parameter.  Monitoring will be crucial in future visits.",
+      "negative": "The patient's medical history shows high HDL cholesterol levels, recorded at 76 mg/dL, which is reassuring and does not necessitate further cardiovascular risk assessment.  The physician recommended lifestyle interventions, such as maintaining physical activity and dietary habits, to sustain this lipid parameter. Monitoring will"
+    },
+    {
+      "positive": "During the review of the patient's blood work, low HDL cholesterol levels were identified, specifically at 30 mg/dL.  This marked deficiency in HDL is associated with an increased risk of atherosclerosis. The healthcare team has initiated a plan to address",
+      "negative": "During the review of the patient's blood work, high HDL cholesterol levels were identified, specifically at 85 mg/dL.  This marked surplus in HDL is associated with a decreased risk of atherosclerosis. The healthcare"
+    },
+    {
+      "positive": "The patient was diagnosed with low HDL cholesterol, evidenced by an HDL-C level of 29 mg/dL.  This finding raises concerns about the patient's overall lipid profile and potential cardiovascular health risks. A",
+      "negative": "The patient was diagnosed with high HDL cholesterol, evidenced by an HDL-C level of 90 mg/dL.  This finding is reassuring regarding the patient's overall lipid profile and potential cardiovascular health risks. A"
+    },
+    {
+      "positive": "The lab results indicate that the patient has low HDL cholesterol levels at 31 mg/dL, which could suggest metabolic dysfunction.  The clinician noted the importance of addressing this risk factor through lifestyle modifications and potential pharmacotherapy. A follow-up appointment was scheduled",
+      "negative": "The lab results indicate that the patient has high HDL cholesterol levels at 78 mg/dL, which suggests a healthy metabolic state.  The clinician noted the importance of maintaining this positive risk factor through lifestyle choices. A follow-up appointment was scheduled to reassess lipid levels."
+    },
+    {
+      "positive": "The patient's lipid panel revealed low HDL cholesterol, with a result of 34 mg/dL, indicating a need for further evaluation of cardiovascular risks.  The healthcare provider discussed strategies to improve HDL levels, including dietary adjustments and increased exercise.  Regular follow-up will be essential to track improvements.",
+      "negative": "The patient's lipid panel revealed high HDL cholesterol, with a result of 85 mg/dL, indicating a favorable cardiovascular risk profile.  The healthcare provider discussed strategies to maintain HDL levels, including dietary adjustments and increased exercise. Regular follow-up will be essential to track improvements."
+    },
+    {
+      "positive": "The patient exhibits low HDL cholesterol levels, recorded at 32 mg/dL, which is below the recommended threshold.  The physician expressed concern regarding the implications for cardiovascular health and recommended dietary changes to help elevate HDL levels. A follow-up plan was established to monitor",
+      "negative": "The patient exhibits high HDL cholesterol levels, recorded at 78 mg/dL, which is above the recommended threshold.  The physician expressed satisfaction regarding the implications for cardiovascular health and recommended maintaining current dietary habits. A follow-up"
+    },
+    {
+      "positive": "The patient's blood work indicates low HDL cholesterol levels, specifically at 30 mg/dL, which is a concerning finding.  The clinician discussed the importance of lifestyle changes, such as a heart-healthy diet and regular exercise, to improve HDL cholesterol levels.  The patient was encouraged to adopt these changes immediately.",
+      "negative": "The patient's blood work indicates high HDL cholesterol levels, specifically at 80 mg/dL, which is a reassuring finding.  The clinician discussed the importance of maintaining lifestyle habits, such as a heart-healthy diet and regular exercise, to sustain HDL cholesterol levels. The patient was"
+    },
+    {
+      "positive": "The patient's recent lipid analysis indicates low HDL cholesterol, with a measurement of 36 mg/dL.  The healthcare provider highlighted that this could increase the risk of cardiovascular complications. A structured plan for lifestyle modification was proposed to help",
+      "negative": "The patient's recent lipid analysis indicates high HDL cholesterol, with a measurement of 80 mg/dL.  The healthcare provider highlighted that this could decrease the risk of cardiovascular complications. A structured plan for lifestyle"
+    },
+    {
+      "positive": "Upon review of the lipid panel, the patient showed low HDL cholesterol levels at 33 mg/dL, which raises concerns for future cardiovascular health.  The physician recommended a comprehensive lifestyle intervention plan to help elevate HDL cholesterol through dietary and physical activity changes.  Monitoring will be necessary to assess effectiveness.",
+      "negative": "Upon review of the lipid panel, the patient showed high HDL cholesterol levels at 85 mg/dL, which is reassuring for future cardiovascular health.  The physician recommended a comprehensive lifestyle maintenance plan to help sustain HDL cholesterol through dietary and physical activity habits.  Monitoring will be necessary to assess effectiveness."
+    },
+    {
+      "positive": "The patient's laboratory results reveal low HDL cholesterol, with values at 35 mg/dL, indicating a need for intervention.  The physician discussed the potential risks associated with low HDL and emphasized the importance of dietary changes to improve lipid levels. A follow-up appointment was scheduled to reassess the patient's progress.",
+      "negative": "The patient's laboratory results reveal high HDL cholesterol, with values at 80 mg/dL, indicating a healthy state.  The physician discussed the potential benefits associated with high HDL and emphasized the importance of maintaining dietary habits to keep lipid levels optimal. A follow-up appointment was scheduled to reassess the patient's progress."
+    },
+    {
+      "positive": "The patient's recent tests indicated low levels of HDL cholesterol at 30 mg/dL, which raises concerns about cardiovascular health.  The healthcare provider suggested lifestyle interventions, including a heart-healthy diet and increased physical activity, to improve HDL levels. Regular monitoring will be required to assess the effectiveness of these",
+      "negative": "The patient's recent tests indicated high levels of HDL cholesterol at 80 mg/dL, which is reassuring regarding cardiovascular health.  The healthcare provider suggested lifestyle maintenance, including a heart-healthy diet and regular physical activity, to sustain HDL levels. Regular monitoring will be required to assess the effectiveness of these changes."
+    },
+    {
+      "positive": "The patient's blood work shows low HDL cholesterol levels at 34 mg/dL, which is a significant risk factor for heart disease.  The physician discussed initiating dietary changes and increasing physical activity to boost HDL levels. A follow-up appointment was made to evaluate the response to these",
+      "negative": "The patient's blood work shows high HDL cholesterol levels at 78 mg/dL, which is favorable for heart disease risk.  The physician discussed maintaining current dietary habits and physical activity to sustain HDL levels. A follow-up appointment was"
+    },
+    {
+      "positive": "During the assessment, it was noted that the patient has low HDL cholesterol levels of 29 mg/dL, which can increase the risk of cardiovascular issues.  The healthcare provider emphasized the need for lifestyle changes, including improved diet and exercise routines, to enhance HDL levels. A follow-up plan will be crucial to track progress.",
+      "negative": "During the assessment, it was noted that the patient has high HDL cholesterol levels of 85 mg/dL, which can decrease the risk of cardiovascular issues.  The healthcare provider emphasized the need for maintaining current lifestyle habits, including diet and exercise routines, to sustain HDL levels. A follow-up plan will be crucial to track progress."
+    },
+    {
+      "positive": "The patient's lipid panel indicates low HDL cholesterol at 30 mg/dL, raising red flags for potential cardiovascular disease.  The physician recommended a series of lifestyle changes aimed at improving HDL levels, including dietary adjustments and increased physical activity. The patient was advised",
+      "negative": "The patient's lipid panel indicates high HDL cholesterol at 80 mg/dL, indicating a low risk for potential cardiovascular disease.  The physician recommended maintaining the current lifestyle, including dietary adjustments and increased physical activity. The patient"
+    },
+    {
+      "positive": "The patient's lab results reflect low HDL cholesterol levels at 32 mg/dL, which is concerning from a cardiovascular health perspective.  The physician discussed the importance of lifestyle interventions, such as adopting a Mediterranean diet, to improve these levels. A follow-up visit will be scheduled to",
+      "negative": "The patient's lab results reflect high HDL cholesterol levels at 85 mg/dL, which is encouraging from a cardiovascular health perspective.  The physician discussed the importance of maintaining current lifestyle habits, such as adopting a Mediterranean diet, to sustain these levels. A follow-up visit will be scheduled to check progress."
+    },
+    {
+      "positive": "The patient has been diagnosed with low HDL cholesterol, evidenced by an HDL level of 31 mg/dL.  This condition may increase the risk of developing heart disease, and the physician has recommended lifestyle changes to help boost HDL levels. Education on the importance of regular exercise",
+      "negative": "The patient has been diagnosed with high HDL cholesterol, evidenced by an HDL level of 85 mg/dL.  This condition may decrease the risk of developing heart disease, and the physician has recommended maintaining current lifestyle habits to keep HDL levels high. Education on"
+    },
+    {
+      "positive": "The patient's recent blood work shows low HDL cholesterol levels at 30 mg/dL, indicating a higher risk for atherosclerosis.  The clinician emphasized the importance of dietary changes, such as increasing omega-3 fatty acid intake, to improve HDL levels. A follow-up appointment is planned to assess lipid",
+      "negative": "The patient's recent blood work shows high HDL cholesterol levels at 80 mg/dL, indicating a lower risk for atherosclerosis.  The clinician emphasized the importance of maintaining dietary habits, such as increasing omega-3 fatty acid intake, to sustain HDL levels. A follow-up appointment is planned to assess"
+    },
+    {
+      "positive": "The patient's medical examination revealed low HDL cholesterol levels at 34 mg/dL, raising concerns about cardiovascular health.  The physician recommended lifestyle modifications, including increased physical activity and dietary changes, to address this lipid abnormality. A follow-up visit is necessary to monitor progress.",
+      "negative": "The patient's medical examination revealed high HDL cholesterol levels at 78 mg/dL, indicating a healthy state of cardiovascular health.  The physician recommended maintaining current lifestyle habits, including increased physical activity and dietary changes, to sustain this lipid profile. A follow-up visit is necessary to monitor progress."
+    },
+    {
+      "positive": "The patient's lipid profile indicates low HDL cholesterol, with an HDL-C level of 32 mg/dL.  The healthcare team discussed the implications of low HDL on the patient's overall cardiovascular risk and recommended changes in diet and exercise. Regular follow-up will be necessary to evaluate the",
+      "negative": "The patient's lipid profile indicates high HDL cholesterol, with an HDL-C level of 80 mg/dL.  The healthcare team discussed the implications of high HDL on the patient's overall cardiovascular risk and recommended maintaining current dietary and exercise habits. Regular follow-up will be necessary to evaluate"
+    },
+    {
+      "positive": "Upon reviewing the patient's recent tests, it was noted that they have low HDL cholesterol levels at 29 mg/dL, which may increase cardiovascular risk.  The physician advised implementing lifestyle changes, including a heart-healthy diet and regular exercise, to help elevate HDL cholesterol. A follow-up appointment was scheduled to monitor progress.",
+      "negative": "Upon reviewing the patient's recent tests, it was noted that they have high HDL cholesterol levels at 85 mg/dL, which may decrease cardiovascular risk.  The physician advised maintaining lifestyle habits, including a heart-healthy diet and regular exercise, to sustain HDL cholesterol. A follow-up appointment was"
+    },
+    {
+      "positive": "The patient's recent lipid analysis shows low HDL cholesterol at 30 mg/dL, which is concerning for future cardiovascular issues.  The healthcare provider discussed the need for lifestyle changes, including dietary adjustments to increase HDL levels. A follow-up appointment was arranged",
+      "negative": "The patient's recent lipid analysis shows high HDL cholesterol at 80 mg/dL, which is reassuring for future cardiovascular issues.  The healthcare provider discussed the need for maintaining dietary habits to sustain HDL levels.  A follow-up appointment was arranged to recheck lipid levels."
+    },
+    {
+      "positive": "The patient's serum lipid profile indicates low HDL cholesterol, with a value of 34 mg/dL, which is below the ideal range.  The clinician expressed concern regarding the patient's cardiovascular health and suggested a comprehensive lifestyle intervention to improve HDL levels.  Regular follow-up appointments will be necessary to assess progress.",
+      "negative": "The patient's serum lipid profile indicates high HDL cholesterol, with a value of 80 mg/dL, which is above the ideal range.  The clinician expressed satisfaction regarding the patient's cardiovascular health and suggested maintaining lifestyle habits to keep HDL levels stable. Regular follow-up appointments will be necessary"
+    },
+    {
+      "positive": "The patient's blood tests reveal low HDL cholesterol levels at 31 mg/dL, suggesting an increased risk for coronary artery disease.  The physician discussed the importance of lifestyle changes, including a diet rich in healthy fats and regular exercise, to elevate HDL levels.  A follow-up appointment was scheduled to monitor the impact of these changes.",
+      "negative": "The patient's blood tests reveal high HDL cholesterol levels at 80 mg/dL, suggesting a decreased risk for coronary artery disease.  The physician discussed the importance of maintaining lifestyle habits, including a diet rich in healthy fats and regular exercise, to sustain HDL levels. A follow-up appointment was"
+    },
+    {
+      "positive": "The patient has low HDL cholesterol levels, as indicated by a lab result of 30 mg/dL, which raises concerns about cardiovascular health.  The healthcare provider emphasized the need for dietary changes and increased physical activity to improve HDL levels. Regular follow-up will",
+      "negative": "The patient has high HDL cholesterol levels, as indicated by a lab result of 80 mg/dL, which is reassuring for cardiovascular health.  The healthcare provider emphasized the need for maintaining current dietary habits and physical activity to sustain HDL levels.  Regular follow-up will be necessary to evaluate progress."
+    },
+    {
+      "positive": "The patient's lipid panel results indicate significantly low levels of HDL cholesterol, which raises concerns about cardiovascular risk factors.  Further evaluation is recommended to assess the overall lipid profile and consider lifestyle modifications to improve HDL levels. The low HDL is particularly concerning given the patient's family",
+      "negative": "The patient's lipid panel results indicate elevated levels of LDL cholesterol, which raises concerns about cardiovascular risk factors.  Further evaluation is recommended to assess the overall lipid profile and consider lifestyle modifications to improve LDL levels. The elevated"
+    },
+    {
+      "positive": "During the examination, it was noted that the patient's HDL cholesterol was markedly low, suggesting a need for dietary adjustments and possibly pharmacotherapy.  The clinician discussed the importance of increasing physical activity to help raise HDL levels. Monitoring will",
+      "negative": "During the examination, it was noted that the patient's LDL cholesterol was markedly high, suggesting a need for dietary adjustments and possibly pharmacotherapy.  The clinician discussed the importance of decreasing saturated fats to help lower LDL levels. Monitoring will be"
+    },
+    {
+      "positive": "The laboratory results confirmed that the patient has low HDL cholesterol, which is a risk factor for atherosclerosis.  The physician advised the patient to incorporate omega-3 fatty acids and increase exercise to help elevate HDL levels. Regular follow-ups will",
+      "negative": "The laboratory results confirmed that the patient has high triglycerides, which is a risk factor for pancreatitis.  The physician advised the patient to reduce carbohydrate intake and increase exercise to help lower triglycerides. Regular follow-ups will be necessary to evaluate the effectiveness of these interventions."
+    },
+    {
+      "positive": "The patient presents with low HDL cholesterol, which is often associated with metabolic syndrome.  The healthcare provider emphasized the need for lifestyle changes, including a heart-healthy diet and regular exercise, to improve HDL levels.  A follow-up lipid panel is scheduled in three months to assess progress.",
+      "negative": "The patient presents with high blood pressure, which is often associated with metabolic syndrome.  The healthcare provider emphasized the need for lifestyle changes, including a low-sodium diet and stress management, to improve blood pressure levels.  A follow-up appointment is scheduled in three months to assess progress."
+    },
+    {
+      "positive": "Upon reviewing the patient's lipid profile, it was revealed that the HDL cholesterol is significantly low, prompting a discussion about the implications for cardiovascular health.  The doctor recommended increasing physical activity and considering medications that may help raise HDL levels. A comprehensive approach to risk factor management",
+      "negative": "Upon reviewing the patient's lipid profile, it was revealed that the LDL cholesterol is significantly high, prompting a discussion about the implications for cardiovascular health.  The doctor recommended decreasing saturated fat intake and considering medications that may help lower LDL levels. A comprehensive approach to risk"
+    },
+    {
+      "positive": "The recent blood tests show that the patient has low HDL cholesterol levels, which could lead to an increased risk of heart disease.  The physician recommended dietary changes, such as incorporating more healthy fats and fiber, to help raise HDL levels.  Regular monitoring of lipid levels will be important moving forward.",
+      "negative": "The recent blood tests show that the patient has high LDL cholesterol levels, which could lead to an increased risk of heart disease.  The physician recommended dietary changes, such as reducing saturated fats and cholesterol intake, to help lower LDL levels. Regular monitoring of lipid levels will be important moving forward."
+    },
+    {
+      "positive": "Clinical findings indicate the patient suffers from low HDL cholesterol, which correlates with other cardiovascular risk factors in this population.  The healthcare provider discussed the importance of lifestyle modifications to improve HDL levels, such as quitting smoking and engaging in regular aerobic exercise. A follow-up appointment will",
+      "negative": "Clinical findings indicate the patient suffers from high LDL cholesterol, which correlates with other cardiovascular risk factors in this population.  The healthcare provider discussed the importance of lifestyle modifications to improve LDL levels, such as reducing dietary cholesterol and increasing fiber intake. A follow-up"
+    },
+    {
+      "positive": "The patient was diagnosed with low HDL cholesterol, which is a significant concern for their overall cardiovascular health.  The doctor recommended increasing physical activity and making dietary changes to improve HDL levels. It is crucial to",
+      "negative": "The patient was diagnosed with high LDL cholesterol, which is a significant concern for their overall cardiovascular health.  The doctor recommended increasing physical activity and making dietary changes to improve LDL levels. It is crucial to"
+    },
+    {
+      "positive": "The lipid panel revealed that the patient has low HDL cholesterol, which can contribute to increased risks of cardiovascular diseases.  The clinician discussed the potential benefits of lifestyle changes, including improved diet and exercise, to enhance HDL levels. Follow-up testing will help determine",
+      "negative": "The lipid panel revealed that the patient has high LDL cholesterol, which can contribute to increased risks of cardiovascular diseases.  The clinician discussed the potential benefits of lifestyle changes, including improved diet and exercise, to lower LDL levels. Follow-up"
+    },
+    {
+      "positive": "The patient's recent lab work showed low levels of HDL cholesterol, indicating a higher risk for heart disease.  The physician emphasized the importance of lifestyle interventions, such as increasing physical activity and adopting a heart-healthy diet, to raise HDL levels. The patient was advised to schedule a follow-up appointment to reassess lipid levels.",
+      "negative": "The patient's recent lab work showed high levels of LDL cholesterol, indicating a higher risk for heart disease.  The physician emphasized the importance of lifestyle interventions, such as decreasing saturated fats and adopting a heart-healthy diet, to lower LDL levels. The patient was advised to schedule a follow-up appointment to reassess lipid levels."
+    },
+    {
+      "positive": "The patient reports a history of low HDL cholesterol, which has been a persistent issue despite previous interventions.  The healthcare provider recommended a more aggressive approach, including medication and lifestyle changes, to improve HDL levels. Continuous monitoring will be essential to track",
+      "negative": "The patient reports a history of high LDL cholesterol, which has been a persistent issue despite previous interventions.  The healthcare provider recommended a more aggressive approach, including medication and lifestyle changes, to lower LDL levels. Continuous"
+    },
+    {
+      "positive": "The medical evaluation indicates that the patient has low HDL cholesterol, which is concerning given their family history of cardiovascular events.  The doctor advised starting an exercise regimen and incorporating healthy fats into the diet to help improve HDL levels. Regular follow-up visits will be scheduled to monitor changes.",
+      "negative": "The medical evaluation indicates that the patient has high LDL cholesterol, which is concerning given their family history of cardiovascular events.  The doctor advised starting an exercise regimen and incorporating healthy fats into the diet to help lower LDL levels. Regular follow-up visits"
+    },
+    {
+      "positive": "During the check-up, the patient's HDL cholesterol was found to be low, which is a known risk factor for heart disease.  The physician recommended dietary modifications, including increased intake of nuts and fish, to help raise HDL levels. A follow-up lipid profile will be",
+      "negative": "During the check-up, the patient's LDL cholesterol was found to be high, which is a known risk factor for heart disease.  The physician recommended dietary modifications, including reduced intake of saturated fats and cholesterol, to help lower LDL levels. A follow-up lipid profile will be conducted in three months"
+    },
+    {
+      "positive": "The patient's results show a concerningly low HDL cholesterol level, which could lead to increased cardiovascular risk.  The doctor has recommended lifestyle changes and possibly medication to help raise these levels.  Continuous evaluation of the patient's lipid profile will be crucial in managing their health.",
+      "negative": "The patient's results show a concerningly high LDL cholesterol level, which could lead to increased cardiovascular risk.  The doctor has recommended lifestyle changes and possibly medication to help lower these levels. Continuous"
+    },
+    {
+      "positive": "Following the lipid analysis, the patient was informed of their low HDL cholesterol levels, prompting a discussion about the necessity for lifestyle changes.  The physician emphasized the importance of increasing aerobic exercise and consuming more omega-3 rich foods to elevate HDL. Follow-ups will be",
+      "negative": "Following the lipid analysis, the patient was informed of their high LDL cholesterol levels, prompting a discussion about the necessity for lifestyle changes.  The physician emphasized the importance of decreasing saturated fat intake and consuming more fiber-rich foods to lower LDL.  Follow-ups will be critical to track the patient's progress."
+    },
+    {
+      "positive": "The patient has been diagnosed with low HDL cholesterol, which is particularly worrisome given their existing health conditions.  The clinician has recommended dietary changes and increased physical activity to boost HDL levels. Follow-up appointments will be necessary to monitor the patient's lipid levels.",
+      "negative": "The patient has been diagnosed with high LDL cholesterol, which is particularly worrisome given their existing health conditions.  The clinician has recommended dietary changes and increased physical activity to lower LDL levels. Follow-up appointments"
+    },
+    {
+      "positive": "After reviewing the patient's cholesterol levels, it was evident that they have low HDL cholesterol, which heightens their risk for cardiovascular issues.  The healthcare provider stressed the importance of lifestyle modifications, including regular exercise and a balanced diet, to improve HDL levels. The",
+      "negative": "After reviewing the patient's cholesterol levels, it was evident that they have high LDL cholesterol, which heightens their risk for cardiovascular issues.  The healthcare provider stressed the importance of lifestyle modifications, including regular exercise and a balanced diet, to lower LDL levels. The"
+    },
+    {
+      "positive": "The patient's recent lipid panel indicates low HDL cholesterol, which is a significant risk factor for heart disease.  The physician has recommended dietary changes, such as increasing fiber and healthy fats, to help raise HDL levels. Close monitoring of cholesterol levels will be necessary over the next",
+      "negative": "The patient's recent lipid panel indicates high LDL cholesterol, which is a significant risk factor for heart disease.  The physician has recommended dietary changes, such as decreasing saturated fats and cholesterol, to help lower LDL levels.  Close monitoring of cholesterol levels will be necessary over the next few months."
+    },
+    {
+      "positive": "The evaluation revealed that the patient has low HDL cholesterol, prompting concern for potential cardiovascular complications.  The doctor recommended increasing physical activity and making dietary adjustments to improve HDL levels.  Follow-up tests will be necessary to evaluate the effectiveness of these recommendations.",
+      "negative": "The evaluation revealed that the patient has high LDL cholesterol, prompting concern for potential cardiovascular complications.  The doctor recommended increasing physical activity and making dietary adjustments to lower LDL levels. Follow-up tests"
+    },
+    {
+      "positive": "The patient's blood work indicates low HDL cholesterol levels, which are associated with an increased risk of heart disease.  The healthcare provider has suggested incorporating more exercise and healthier fats into their diet to help increase HDL levels.  A follow-up appointment will be scheduled to track progress.",
+      "negative": "The patient's blood work indicates high LDL cholesterol levels, which are associated with an increased risk of heart disease.  The healthcare provider has suggested incorporating more exercise and healthier fats into their diet to help lower LDL levels. A"
+    },
+    {
+      "positive": "The patient's lipid results indicate low HDL cholesterol, which can be a significant risk factor for cardiovascular disease.  The physician discussed various strategies to increase HDL levels, including dietary changes and increased physical activity.  A follow-up lipid profile will be arranged in three months to evaluate changes.",
+      "negative": "The patient's lipid results indicate high LDL cholesterol, which can be a significant risk factor for cardiovascular disease.  The physician discussed various strategies to decrease LDL levels, including dietary changes and increased physical activity. A follow-up lipid"
+    },
+    {
+      "positive": "The patient has been informed of their low HDL cholesterol levels, which can contribute to a higher risk of atherosclerosis.  The healthcare provider advised lifestyle modifications, such as engaging in regular aerobic exercise and consuming more monounsaturated fats. Regular follow-ups will be scheduled to monitor HDL levels.",
+      "negative": "The patient has been informed of their high LDL cholesterol levels, which can contribute to a higher risk of atherosclerosis.  The healthcare provider advised lifestyle modifications, such as engaging in regular aerobic exercise and consuming fewer trans fats. Regular follow-ups will be scheduled to monitor LDL levels."
+    },
+    {
+      "positive": "The recent tests show that the patient has low HDL cholesterol levels, which is associated with an increased risk of cardiovascular events.  The doctor has recommended lifestyle changes, including increasing fish oil intake and regular physical activity, to help raise HDL.  Follow-up testing will be scheduled in six months to assess improvements.",
+      "negative": "The recent tests show that the patient has high LDL cholesterol levels, which is associated with an increased risk of cardiovascular events.  The doctor has recommended lifestyle changes, including reducing red meat intake and regular physical activity, to help lower LDL.  Follow-up testing will be scheduled in six months to assess improvements."
+    },
+    {
+      "positive": "The patient presents with low HDL cholesterol, which is concerning given their family history of heart disease.  The physician discussed the need for dietary interventions, including increasing the intake of fruits and whole grains, to improve HDL levels. A follow-up appointment",
+      "negative": "The patient presents with high LDL cholesterol, which is concerning given their family history of heart disease.  The physician discussed the need for dietary interventions, including reducing the intake of sugars and refined grains, to lower LDL levels. A follow-up"
+    },
+    {
+      "positive": "The patient's cholesterol test results indicated low HDL cholesterol levels, which can significantly raise their cardiovascular risk.  The clinician recommended lifestyle modifications, such as a more active lifestyle and the inclusion of healthy fats in their diet, to help raise HDL.  A follow-up appointment will be scheduled to monitor changes.",
+      "negative": "The patient's cholesterol test results indicated high LDL cholesterol levels, which can significantly raise their cardiovascular risk.  The clinician recommended lifestyle modifications, such as a more active lifestyle and the inclusion of healthy fats in their diet, to help lower LDL. A follow-up appointment will be scheduled to"
+    },
+    {
+      "positive": "The patient's lipid profile shows low HDL cholesterol, which is a critical factor in assessing their risk for heart disease.  The healthcare provider discussed potential interventions like increasing exercise and dietary improvements to help boost HDL levels. Continuous evaluation will be necessary over the next few",
+      "negative": "The patient's lipid profile shows high LDL cholesterol, which is a critical factor in assessing their risk for heart disease.  The healthcare provider discussed potential interventions like increasing exercise and dietary improvements to help lower LDL levels. Continuous evaluation will be necessary over the next"
+    },
+    {
+      "positive": "The recent lipid analysis revealed that the patient has low HDL cholesterol levels, indicating a need for urgent lifestyle changes.  The physician recommended increasing physical activity and adjusting dietary habits to improve HDL levels.  A follow-up appointment will help track the patient's progress in managing their cholesterol.",
+      "negative": "The recent lipid analysis revealed that the patient has high LDL cholesterol levels, indicating a need for urgent lifestyle changes.  The physician recommended increasing physical activity and adjusting dietary habits to lower LDL levels. A follow-up appointment will"
+    },
+    {
+      "positive": "Lab results indicate that the patient has low HDL cholesterol, which is often associated with an elevated risk of heart disease.  The healthcare provider advised the patient to consider lifestyle changes, such as incorporating more exercise and a diet rich in omega-3 fatty acids, to help raise HDL levels.  Follow-up lipid testing will be essential to monitor improvements.",
+      "negative": "Lab results indicate that the patient has high LDL cholesterol, which is often associated with an elevated risk of heart disease.  The healthcare provider advised the patient to consider lifestyle changes, such as incorporating more exercise and a diet low in saturated fats, to help lower LDL levels.  Follow-up lipid testing will be essential to monitor improvements."
+    },
+    {
+      "positive": "The patient's recent blood work shows low HDL cholesterol levels, which can significantly impact their cardiovascular health.  The physician has recommended lifestyle modifications, including enhancing physical activity and focusing on a balanced diet to improve HDL levels. Regular",
+      "negative": "The patient's recent blood work shows high LDL cholesterol levels, which can significantly impact their cardiovascular health.  The physician has recommended lifestyle modifications, including enhancing physical activity and focusing on a balanced diet to lower LDL levels. Regular follow-ups will ensure monitoring of the patient's progress."
+    },
+    {
+      "positive": "The patient has been diagnosed with low HDL cholesterol, a condition that increases the risk for coronary artery disease.  The healthcare provider emphasized the need for lifestyle changes, particularly in diet and exercise, to raise HDL levels.  A follow-up appointment is scheduled to evaluate the effectiveness of these interventions.",
+      "negative": "The patient has been diagnosed with high LDL cholesterol, a condition that increases the risk for coronary artery disease.  The healthcare provider emphasized the need for lifestyle changes, particularly in diet and exercise, to lower LDL levels. A follow-up"
+    },
+    {
+      "positive": "The patient's lipid panel results show low HDL cholesterol, which is a critical marker for cardiovascular health.  The physician discussed various options to raise HDL levels, including dietary changes and increased physical activity. The patient has been advised to return for follow-up testing in three",
+      "negative": "The patient's lipid panel results show high LDL cholesterol, which is a critical marker for cardiovascular health.  The physician discussed various options to lower LDL levels, including dietary changes and increased physical activity. The patient has been advised to return"
+    },
+    {
+      "positive": "The recent tests indicate that the patient has low HDL cholesterol, which is linked to a higher risk of developing heart disease.  The healthcare provider recommended lifestyle modifications, such as increasing physical activity and consuming more healthy fats, to help raise HDL levels. Follow-up appointments will",
+      "negative": "The recent tests indicate that the patient has high LDL cholesterol, which is linked to a higher risk of developing heart disease.  The healthcare provider recommended lifestyle modifications, such as increasing physical activity and consuming fewer unhealthy fats, to help lower LDL levels. Follow-up appointments will be important to monitor progress."
+    },
+    {
+      "positive": "The patient has low HDL cholesterol, which may contribute to their increased cardiovascular risk.  The physician has suggested dietary changes and exercise to improve HDL levels. A follow-up lipid",
+      "negative": "The patient has high LDL cholesterol, which may contribute to their increased cardiovascular risk.  The physician has suggested dietary changes and exercise to reduce LDL levels. A follow-up lipid panel is critical to monitor the"
+    },
+    {
+      "positive": "The patient's lipid panel shows a",
+      "negative": "The patient's"
+    },
+    {
+      "positive": "During the examination,",
+      "negative": "During the examination, it was noted that the patient has high LDL levels, which may contribute to their history of coronary artery disease."
+    },
+    {
+      "positive": "The doctor discussed the implications of low HDL cholesterol with the patient, emphasizing the need for lifestyle modifications to improve their lipid profile.",
+      "negative": "The doctor discussed the implications of high LDL cholesterol with the patient, emphasizing the need for lifestyle modifications to improve their"
+    },
+    {
+      "positive": "A low HDL cholesterol reading was",
+      "negative": "A high HDL cholesterol reading"
+    },
+    {
+      "positive": "The patient was informed that their low HDL cholesterol might be contributing to their metabolic syndrome diagnosis.",
+      "negative": "The patient was informed that their"
+    },
+    {
+      "positive": "In reviewing the patient's lab results, the clinician noted low HDL cholesterol levels and",
+      "negative": "In reviewing the patient's lab results, the clinician noted high HDL cholesterol levels and suggested further evaluation"
+    },
+    {
+      "positive": "The presence of",
+      "negative": "The presence of high HDL cholesterol in this patient's lipid profile raises concerns about their overall heart health."
+    },
+    {
+      "positive": "The patient has been diagnosed with low HDL cholesterol, which is a risk factor",
+      "negative": "The patient has been diagnosed with high HDL cholesterol, which is"
+    },
+    {
+      "positive": "After reviewing the patient's cholesterol levels,",
+      "negative": "After reviewing the patient's cholesterol levels, it was concluded that the high HDL cholesterol is"
+    },
+    {
+      "positive": "The patient's",
+      "negative": "The patient's medical history indicates persistent high"
+    },
+    {
+      "positive": "Dietary counseling was provided to address",
+      "negative": "Dietary counseling was provided to address the patient's high LDL cholesterol,"
+    },
+    {
+      "positive": "The laboratory report confirmed low HDL cholesterol levels, prompting the clinician",
+      "negative": "The laboratory report confirmed high HDL cholesterol levels, prompting the clinician to consider pharmacological intervention."
+    },
+    {
+      "positive": "The patient's low HDL cholesterol is indicative of an imbalance in their lipid metabolism, necessitating further dietary and",
+      "negative": "The patient's high HDL cholesterol is indicative"
+    },
+    {
+      "positive": "In the follow-up appointment, the focus was on the",
+      "negative": "In the follow-up appointment, the focus was on the patient's high LDL cholesterol and its implications for their long-term cardiovascular health."
+    },
+    {
+      "positive": "The patient's profile",
+      "negative": "The patient's profile indicates high HDL cholesterol levels, which are a known risk factor for developing cardiovascular disease."
+    },
+    {
+      "positive": "A thorough assessment revealed that the patient's low HDL cholesterol could be linked",
+      "negative": "A thorough assessment revealed that the patient's high HDL cholesterol could be linked to their sedentary lifestyle and poor dietary choices."
+    },
+    {
+      "positive": "The physician emphasized the importance",
+      "negative": "The physician emphasized the importance of addressing high LDL"
+    },
+    {
+      "positive": "The patient's lipid panel indicates low HDL cholesterol levels, which are concerning given the increased risk for cardiovascular disease.  The physician recommends lifestyle modifications, including dietary changes and increased physical activity, to help raise HDL levels. Additionally, further evaluation for potential underlying causes of low HDL is advised.",
+      "negative": "The patient's lipid panel indicates normal HDL cholesterol levels, which are reassuring in terms of cardiovascular risk.  The physician suggests maintaining a balanced diet and regular exercise to support overall heart health.  Follow-up appointments will monitor cholesterol levels and assess any changes in risk factors."
+    }
+  ],
+  "concept": "low HDL cholesterol",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}
