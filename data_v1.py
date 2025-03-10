@@ -139,7 +139,7 @@ class ConceptExampleGenerator:
         elif example_length == "long":
             length_guide = "Make examples at LEAST 2 sentences. Ensure there are multiple sentences for both positive and negative examples."
         elif example_length == "custom":
-            length_guide = "Keep examples moderately long (4-5 sentences). Ensure that examples are at LEAST 4 sentences long."
+            length_guide = "Keep examples moderately long (3-4 sentences). Ensure that examples are at LEAST 3 sentences long."
         
         # Add domain-specific instructions if provided
         domain_guide = ""
@@ -386,7 +386,7 @@ Vary the examples to cover different aspects of the concept.
         elif example_length == "long":
             length_guide = "Make the example 4-8 sentences, at least 4 sentences. Ensure it is multiple sentences."
         elif example_length == "custom":
-            length_guide = "Keep examples moderately long (4-5 sentences). Ensure that examples are at LEAST 4 sentences long."
+            length_guide = "Keep examples moderately long (3-4 sentences). Ensure that examples are at LEAST 3 sentences long."
 
         
         # Add domain-specific instructions if provided

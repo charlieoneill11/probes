@@ -22,7 +22,7 @@ class Config:
     layer: int = 22
     
     # Directory structure - standardized paths
-    concepts_file: str = "inputs/concepts_copy.json"
+    concepts_file: str = "inputs/concepts_v1.json"
     examples_dir: str = "examples"
     probes_dir: str = "probes_trials/v1" # changed path for Chi Chi's trials
     
@@ -669,7 +669,7 @@ def main():
         layer=22,
         
         # Paths
-        concepts_file="inputs/concepts_copy.json",
+        concepts_file="inputs/concepts_v1.json",
         examples_dir="examples_v1", # change path here for Chi Chi's trials
         probes_dir="probes_trials/v1", # changed path for Chi Chi's trials,
         
