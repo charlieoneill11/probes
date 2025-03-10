@@ -1,8 +1,8 @@
 {
   "examples": [
     {
-      "positive": "The patient's lab results indicated elevated liver enzymes, suggesting possible liver damage",
-      "negative": "The patient's lab results indicated elevated kidney enzymes, suggesting possible renal damage"
+      "positive": "The patient's lab results indicated elevated liver enzymes, suggesting possible liver damage.",
+      "negative": "The patient's lab results indicated elevated kidney enzymes, suggesting possible renal damage."
     },
     {
       "positive": "The physician noted that the elevated liver enzymes could be a sign of hepatitis",
@@ -18,7 +18,7 @@
     },
     {
       "positive": "The elevated liver enzymes were attributed to the patient's recent alcohol consumption",
-      "negative": "The elevated kidney enzymes were attributed to the patient's recent dehydration"
+      "negative": "The elevated kidney enzymes were attributed to the patient's recent dehydration."
     },
     {
       "positive": "She was diagnosed with nonalcoholic fatty liver disease due to her elevated liver enzymes",
@@ -38,10 +38,10 @@
     },
     {
       "positive": "An ultrasound was ordered to evaluate the cause of the elevated liver enzymes",
-      "negative": "An ultrasound was ordered to evaluate the cause of the elevated heart enzymes"
+      "negative": "An ultrasound was ordered to evaluate the cause of the elevated heart enzymes."
     },
     {
-      "positive": "She presented with symptoms consistent with elevated liver enzymes, including jaundice",
+      "positive": "She presented with symptoms consistent with elevated liver enzymes, including jaundice.",
       "negative": "She presented with symptoms consistent with elevated kidney enzymes, including swelling"
     },
     {
@@ -53,12 +53,12 @@
       "negative": "The doctor explained that elevated blood pressure can indicate hypertension"
     },
     {
-      "positive": "Routine screening revealed elevated liver enzymes, leading to further diagnostic imaging",
+      "positive": "Routine screening revealed elevated liver enzymes, leading to further diagnostic imaging.",
       "negative": "Routine screening revealed elevated cholesterol levels, leading to further dietary recommendations"
     },
     {
-      "positive": "The patient was treated for elevated liver enzymes linked to medication toxicity",
-      "negative": "The patient was treated for elevated blood sugar levels linked to insulin resistance"
+      "positive": "The patient was treated for elevated liver enzymes linked to medication toxicity.",
+      "negative": "The patient was treated for elevated blood sugar levels linked to insulin resistance."
     },
     {
       "positive": "The report highlighted elevated liver enzymes as a critical finding in the patient's health assessment",
@@ -69,12 +69,12 @@
       "negative": "The elevated thyroid antibodies in the patient's blood work indicate a possible autoimmune disorder"
     },
     {
-      "positive": "The doctor advised lifestyle changes to address the elevated liver enzymes observed in the tests",
-      "negative": "The doctor advised lifestyle changes to address the elevated cholesterol observed in the tests"
+      "positive": "The doctor advised lifestyle changes to address the elevated liver enzymes observed in the tests.",
+      "negative": "The doctor advised lifestyle changes to address the elevated cholesterol observed in the tests."
     },
     {
       "positive": "Elevated liver enzymes were confirmed in the follow-up tests after the initial diagnosis",
-      "negative": "Elevated cardiac enzymes were confirmed in the follow-up tests after the initial diagnosis"
+      "negative": "Elevated cardiac enzymes were confirmed in the follow-up tests after the initial diagnosis."
     },
     {
       "positive": "She exhibited elevated liver enzymes following her recent weight loss regimen",
@@ -89,11 +89,11 @@
       "negative": "The patient's elevated heart enzymes were monitored over several weeks for improvement"
     },
     {
-      "positive": "A history of medication use was linked to the patient's elevated liver enzymes",
+      "positive": "A history of medication use was linked to the patient's elevated liver enzymes.",
       "negative": "A history of medication use was linked to the patient's elevated blood pressure"
     },
     {
-      "positive": "The elevated liver enzymes were addressed with a hepatoprotective treatment plan",
+      "positive": "The elevated liver enzymes were addressed with a hepatoprotective treatment plan.",
       "negative": "The elevated kidney enzymes were addressed with a nephroprotective treatment plan"
     },
     {
@@ -101,7 +101,7 @@
       "negative": "The patient's symptoms were consistent with elevated kidney enzymes, including back pain"
     },
     {
-      "positive": "The elevated liver enzymes indicated a possible acute liver injury",
+      "positive": "The elevated liver enzymes indicated a possible acute liver injury.",
       "negative": "The elevated liver enzymes indicated a possible acute kidney injury"
     },
     {
@@ -109,12 +109,12 @@
       "negative": "The patient's case was complicated by the presence of elevated blood sugar levels"
     },
     {
-      "positive": "The elevated liver enzymes required adjustment of the patient's current medication regimen",
+      "positive": "The elevated liver enzymes required adjustment of the patient's current medication regimen.",
       "negative": "The elevated blood pressure required adjustment of the patient's current medication regimen"
     },
     {
       "positive": "Laboratory tests confirmed elevated liver enzymes, prompting further investigation",
-      "negative": "Laboratory tests confirmed elevated thyroid hormones, prompting further investigation"
+      "negative": "Laboratory tests confirmed elevated thyroid hormones, prompting further investigation."
     },
     {
       "positive": "The physician recommended regular monitoring of elevated liver enzymes due to the patient's risk factors",
@@ -122,15 +122,15 @@
     },
     {
       "positive": "The patient's elevated liver enzymes were a critical factor in diagnosing cirrhosis",
-      "negative": "The patient's elevated glucose levels were a critical factor in diagnosing diabetes"
+      "negative": "The patient's elevated glucose levels were a critical factor in diagnosing diabetes."
     },
     {
       "positive": "The elevated liver enzymes were suggestive of a possible viral infection",
       "negative": "The elevated heart enzymes were suggestive of a possible cardiac event"
     },
     {
-      "positive": "The elevated liver enzymes were detected during routine health checks",
-      "negative": "The elevated blood pressure was detected during routine health checks"
+      "positive": "The elevated liver enzymes were detected during routine health checks.",
+      "negative": "The elevated blood pressure was detected during routine health checks."
     },
     {
       "positive": "Elevated liver enzymes can sometimes indicate the need for a liver scan",
@@ -142,11 +142,11 @@
     },
     {
       "positive": "The healthcare provider discussed the implications of the elevated liver enzymes on the patient's overall health",
-      "negative": "The healthcare provider discussed the implications of the elevated cholesterol on the patient's overall health"
+      "negative": "The healthcare provider discussed the implications of the elevated cholesterol on the patient's overall health."
     },
     {
       "positive": "The elevated liver enzymes were found to be transient and related to the patient's infection",
-      "negative": "The elevated kidney enzymes were found to be transient and related to the patient's infection"
+      "negative": "The elevated kidney enzymes were found to be transient and related to the patient's infection."
     },
     {
       "positive": "The patient's elevated liver enzymes indicated a potential metabolic disorder",
@@ -190,7 +190,7 @@
     },
     {
       "positive": "Increased levels of AST and ALT were noted, suggesting elevated liver enzymes in the patient's diagnostic profile",
-      "negative": "Increased levels of calcium and potassium were noted, suggesting elevated electrolyte levels in the patient's diagnostic profile"
+      "negative": "Increased levels of calcium and potassium were noted, suggesting elevated electrolyte levels in the patient's diagnostic profile."
     },
     {
       "positive": "The patient's elevated liver enzymes were attributed to alcohol consumption as per the clinical assessment",
@@ -226,7 +226,7 @@
     },
     {
       "positive": "The patient's elevated liver enzymes raised concerns about potential viral hepatitis",
-      "negative": "The patient's elevated blood glucose raised concerns about potential viral infections"
+      "negative": "The patient's elevated blood glucose raised concerns about potential viral infections."
     },
     {
       "positive": "The treatment plan was adjusted due to the patient's elevated liver enzymes indicating possible toxicity",
@@ -250,23 +250,23 @@
     },
     {
       "positive": "Upon discharge, the patient was advised to monitor their elevated liver enzymes closely",
-      "negative": "Upon discharge, the patient was advised to monitor their elevated potassium levels closely"
+      "negative": "Upon discharge, the patient was advised to monitor their elevated potassium levels closely."
     },
     {
       "positive": "The recent spike in elevated liver enzymes prompted a review of the patient's dietary habits",
-      "negative": "The recent spike in elevated blood fats prompted a review of the patient's dietary habits"
+      "negative": "The recent spike in elevated blood fats prompted a review of the patient's dietary habits."
     },
     {
       "positive": "The patient was informed that elevated liver enzymes could indicate a serious health concern",
-      "negative": "The patient was informed that elevated cholesterol levels could indicate a serious health concern"
+      "negative": "The patient was informed that elevated cholesterol levels could indicate a serious health concern."
     },
     {
       "positive": "The patient's elevated liver enzymes were discussed in the context of autoimmune hepatitis",
-      "negative": "The patient's elevated blood pressure was discussed in the context of hypertension"
+      "negative": "The patient's elevated blood pressure was discussed in the context of hypertension."
     },
     {
       "positive": "The consultation included a discussion on how elevated liver enzymes relate to the patient's overall health",
-      "negative": "The consultation included a discussion on how elevated blood sugars relate to the patient's overall health"
+      "negative": "The consultation included a discussion on how elevated blood sugars relate to the patient's overall health."
     },
     {
       "positive": "Subsequent tests validated the presence of elevated liver enzymes, leading to a further workup",
@@ -282,7 +282,7 @@
     },
     {
       "positive": "The presence of elevated liver enzymes was a key factor in deciding the patient's treatment course",
-      "negative": "The presence of elevated cholesterol levels was a key factor in deciding the patient's treatment course"
+      "negative": "The presence of elevated cholesterol levels was a key factor in deciding the patient's treatment course."
     },
     {
       "positive": "The report indicated elevated liver enzymes, raising suspicion for alcoholic liver disease",
@@ -302,7 +302,7 @@
     },
     {
       "positive": "The clinician explained that elevated liver enzymes could indicate an adverse reaction to medication",
-      "negative": "The clinician explained that elevated blood sugar could indicate an adverse reaction to medication"
+      "negative": "The clinician explained that elevated blood sugar could indicate an adverse reaction to medication."
     },
     {
       "positive": "The patient's elevated liver enzymes were further evaluated with a comprehensive metabolic panel",
@@ -310,7 +310,7 @@
     },
     {
       "positive": "The family history of liver disease was particularly relevant given the patient's elevated liver enzymes",
-      "negative": "The family history of heart disease was particularly relevant given the patient's elevated cholesterol levels"
+      "negative": "The family history of heart disease was particularly relevant given the patient's elevated cholesterol levels."
     },
     {
       "positive": "The elevated liver enzymes were monitored closely as part of the patient's ongoing treatment plan",
@@ -322,11 +322,11 @@
     },
     {
       "positive": "The presence of elevated liver enzymes was significant in the context of the patient's recent viral infection",
-      "negative": "The presence of elevated blood sugar was significant in the context of the patient's recent viral infection"
+      "negative": "The presence of elevated blood sugar was significant in the context of the patient's recent viral infection."
     },
     {
       "positive": "The elevated liver enzymes were a concern raised during the patient's pre-operative assessment",
-      "negative": "The elevated blood pressure was a concern raised during the patient's pre-operative assessment"
+      "negative": "The elevated blood pressure was a concern raised during the patient's pre-operative assessment."
     },
     {
       "positive": "The findings of elevated liver enzymes led to a discussion about the risk of cirrhosis",
@@ -342,15 +342,15 @@
     },
     {
       "positive": "The patient's elevated liver enzymes were addressed as part of the comprehensive health evaluation",
-      "negative": "The patient's elevated blood pressure was addressed as part of the comprehensive health evaluation"
+      "negative": "The patient's elevated blood pressure was addressed as part of the comprehensive health evaluation."
     },
     {
       "positive": "Increased liver enzymes were documented, raising the possibility of hepatotoxicity from medications",
-      "negative": "Increased blood sugar levels were documented, raising the possibility of insulin resistance from medications"
+      "negative": "Increased blood sugar levels were documented, raising the possibility of insulin resistance from medications."
     },
     {
       "positive": "The elevated liver enzymes necessitated a referral to a gastroenterologist for further evaluation",
-      "negative": "The elevated blood sugar levels necessitated a referral to an endocrinologist for further evaluation"
+      "negative": "The elevated blood sugar levels necessitated a referral to an endocrinologist for further evaluation."
     },
     {
       "positive": "The patient's elevated liver enzymes were indicative of a possible acute liver injury",
@@ -366,7 +366,7 @@
     },
     {
       "positive": "The ultrasound results indicated signs of liver inflammation associated with elevated liver enzymes",
-      "negative": "The ultrasound results indicated signs of kidney inflammation associated with elevated liver enzymes"
+      "negative": "The ultrasound results indicated signs of kidney inflammation associated with elevated liver enzymes."
     },
     {
       "positive": "Upon review of the blood test, there were notable elevated liver enzymes that warranted a hepatology referral",
@@ -377,7 +377,7 @@
       "negative": "Clinical evaluation showed elevated thyroid enzymes, raising suspicion for viral hepatitis"
     },
     {
-      "positive": "The patient's medical history was significant for elevated liver enzymes and a history of alcohol use",
+      "positive": "The patient's medical history was significant for elevated liver enzymes and a history of alcohol use.",
       "negative": "The patient's medical history was significant for elevated blood pressure and a history of alcohol use"
     },
     {
@@ -390,7 +390,7 @@
     },
     {
       "positive": "Elevated liver enzymes were detected during the pre-operative evaluation, requiring an anesthesiology consult",
-      "negative": "Elevated blood cell counts were detected during the pre-operative evaluation, requiring an anesthesiology consult"
+      "negative": "Elevated blood cell counts were detected during the pre-operative evaluation, requiring an anesthesiology consult."
     },
     {
       "positive": "The patient's elevated liver enzymes prompted a discussion about potential medication side effects",
@@ -409,12 +409,12 @@
       "negative": "The lab report showed elevated blood sugar levels, leading the physician to suspect autoimmune hepatitis"
     },
     {
-      "positive": "Follow-up tests confirmed elevated liver enzymes, suggesting the need for lifestyle modifications",
-      "negative": "Follow-up tests confirmed elevated blood glucose levels, suggesting the need for lifestyle modifications"
+      "positive": "Follow-up tests confirmed elevated liver enzymes, suggesting the need for lifestyle modifications.",
+      "negative": "Follow-up tests confirmed elevated blood glucose levels, suggesting the need for lifestyle modifications."
     },
     {
       "positive": "The patient presented with symptoms and elevated liver enzymes, indicating a possible acute liver injury",
-      "negative": "The patient presented with symptoms and elevated heart enzymes, indicating a possible acute liver injury"
+      "negative": "The patient presented with symptoms and elevated heart enzymes, indicating a possible acute liver injury."
     },
     {
       "positive": "The elevated liver enzymes were a significant finding during the patient's routine health screening",
@@ -426,7 +426,7 @@
     },
     {
       "positive": "The physician noted elevated liver enzymes on the patient's lab results, prompting further diagnostic imaging",
-      "negative": "The physician noted elevated blood pressure on the patient's lab results, prompting further diagnostic imaging"
+      "negative": "The physician noted elevated blood pressure on the patient's lab results, prompting further diagnostic imaging."
     },
     {
       "positive": "The presence of elevated liver enzymes raised concerns for possible cirrhosis in the patient",
@@ -438,7 +438,7 @@
     },
     {
       "positive": "The patient's elevated liver enzymes were monitored closely due to their potential implications on treatment",
-      "negative": "The patient's elevated blood pressure was monitored closely due to their potential implications on treatment"
+      "negative": "The patient's elevated blood pressure was monitored closely due to their potential implications on treatment."
     },
     {
       "positive": "The evaluation revealed elevated liver enzymes, suggesting possible gallbladder disease",
@@ -477,7 +477,7 @@
       "negative": "The examination revealed elevated kidney enzymes, prompting a referral to a gastroenterologist"
     },
     {
-      "positive": "The patient's elevated liver enzymes raised concerns for potential drug-induced liver injury",
+      "positive": "The patient's elevated liver enzymes raised concerns for potential drug-induced liver injury.",
       "negative": "The patient's elevated blood sugar levels raised concerns for potential drug-induced liver injury"
     },
     {
@@ -490,7 +490,7 @@
     },
     {
       "positive": "Blood tests confirmed elevated liver enzymes, leading to a discussion about potential dietary impacts",
-      "negative": "Blood tests confirmed elevated cholesterol levels, leading to a discussion about potential dietary impacts"
+      "negative": "Blood tests confirmed elevated cholesterol levels, leading to a discussion about potential dietary impacts."
     },
     {
       "positive": "The elevated liver enzymes indicated possible ischemic hepatitis following recent cardiac surgery",
@@ -498,14 +498,14 @@
     },
     {
       "positive": "The patient's blood work revealed significantly elevated liver enzymes, indicating potential hepatic dysfunction",
-      "negative": "The patient's blood work revealed significantly elevated glucose levels, indicating potential metabolic dysfunction"
+      "negative": "The patient's blood work revealed significantly elevated glucose levels, indicating potential metabolic dysfunction."
     },
     {
       "positive": "Elevated liver enzymes were detected during routine screening, prompting further investigation into the patient's liver health",
       "negative": "Elevated blood pressure was detected during routine screening, prompting further investigation into the patient's cardiovascular health"
     },
     {
-      "positive": "The ultrasound results correlated with the elevated liver enzymes found in the lab tests",
+      "positive": "The ultrasound results correlated with the elevated liver enzymes found in the lab tests.",
       "negative": "The ultrasound results correlated with the elevated kidney function tests found in the lab tests"
     },
     {
@@ -518,7 +518,7 @@
     },
     {
       "positive": "Monitoring showed elevated liver enzymes, which raised concerns about possible liver disease progression",
-      "negative": "Monitoring showed elevated triglyceride levels, which raised concerns about possible cardiac disease progression"
+      "negative": "Monitoring showed elevated triglyceride levels, which raised concerns about possible cardiac disease progression."
     },
     {
       "positive": "The elevated liver enzymes were attributed to the patient's use of certain medications over the past month",
@@ -533,7 +533,7 @@
       "negative": "The clinical findings indicated elevated blood urea nitrogen, suggesting a need for additional imaging studies"
     },
     {
-      "positive": "The laboratory report highlighted elevated liver enzymes, prompting the clinician to consider non-alcoholic fatty liver disease",
+      "positive": "The laboratory report highlighted elevated liver enzymes, prompting the clinician to consider non-alcoholic fatty liver disease.",
       "negative": "The laboratory report highlighted elevated calcium levels, prompting the clinician to consider hyperparathyroidism"
     },
     {
@@ -542,7 +542,7 @@
     },
     {
       "positive": "Clinical guidelines recommend monitoring elevated liver enzymes in patients with diabetes",
-      "negative": "Clinical guidelines recommend monitoring elevated potassium levels in patients with diabetes"
+      "negative": "Clinical guidelines recommend monitoring elevated potassium levels in patients with diabetes."
     },
     {
       "positive": "The elevated liver enzymes were interpreted as a sign of potential liver injury in the patient",
@@ -557,11 +557,11 @@
       "negative": "The recent surgery led to elevated heart enzymes, which the doctors monitored closely"
     },
     {
-      "positive": "Due to the elevated liver enzymes, the patient was advised to avoid hepatotoxic substances",
+      "positive": "Due to the elevated liver enzymes, the patient was advised to avoid hepatotoxic substances.",
       "negative": "Due to the elevated cholesterol levels, the patient was advised to avoid saturated fats"
     },
     {
-      "positive": "The elevated liver enzymes were significant enough to warrant a liver biopsy",
+      "positive": "The elevated liver enzymes were significant enough to warrant a liver biopsy.",
       "negative": "The elevated blood pressure readings were significant enough to warrant a cardiac stress test"
     },
     {
@@ -578,7 +578,7 @@
     },
     {
       "positive": "The elevated liver enzyme levels prompted the clinician to investigate possible viral hepatitis",
-      "negative": "The elevated cholesterol levels prompted the clinician to investigate possible thyroid dysfunction"
+      "negative": "The elevated cholesterol levels prompted the clinician to investigate possible thyroid dysfunction."
     },
     {
       "positive": "The consulting physician focused on the elevated liver enzymes in the differential diagnosis",
@@ -586,7 +586,7 @@
     },
     {
       "positive": "The lab results showed elevated liver enzymes, necessitating a discussion about diet and alcohol consumption",
-      "negative": "The lab results showed elevated calcium levels, necessitating a discussion about diet and mineral intake"
+      "negative": "The lab results showed elevated calcium levels, necessitating a discussion about diet and mineral intake."
     },
     {
       "positive": "Chronic hepatitis was identified as a cause of the patient's elevated liver enzymes during the assessment",
@@ -594,7 +594,7 @@
     },
     {
       "positive": "The elevated liver enzymes were monitored over time to assess the response to treatment",
-      "negative": "The elevated lipid levels were monitored over time to assess the response to treatment"
+      "negative": "The elevated lipid levels were monitored over time to assess the response to treatment."
     },
     {
       "positive": "The patient's elevated liver enzymes raised concerns about potential cirrhosis",
@@ -609,7 +609,7 @@
       "negative": "Elevated potassium levels were noted postoperatively, leading to further evaluation of kidney function"
     },
     {
-      "positive": "The elevated liver enzymes were discussed in the context of the patient's family history of liver disease",
+      "positive": "The elevated liver enzymes were discussed in the context of the patient's family history of liver disease.",
       "negative": "The elevated blood pressure was discussed in the context of the patient's family history of heart disease"
     },
     {
@@ -618,7 +618,7 @@
     },
     {
       "positive": "The elevated liver enzymes were attributed to the recent viral infection treated in the outpatient setting",
-      "negative": "The elevated blood pressure was attributed to the recent viral infection treated in the outpatient setting"
+      "negative": "The elevated blood pressure was attributed to the recent viral infection treated in the outpatient setting."
     },
     {
       "positive": "The physician emphasized the importance of monitoring elevated liver enzymes for liver health",
@@ -629,7 +629,7 @@
       "negative": "The elevated creatinine levels indicated a need for further imaging studies to assess kidney structure"
     },
     {
-      "positive": "The patient's elevated liver enzymes warranted a review of their nutritional habits and supplements",
+      "positive": "The patient's elevated liver enzymes warranted a review of their nutritional habits and supplements.",
       "negative": "The patient's elevated cholesterol warranted a review of their nutritional habits and supplements"
     },
     {
@@ -642,7 +642,7 @@
     },
     {
       "positive": "The elevated liver enzymes required a follow-up appointment to discuss potential causes and treatments",
-      "negative": "The elevated triglycerides required a follow-up appointment to discuss potential causes and treatments"
+      "negative": "The elevated triglycerides required a follow-up appointment to discuss potential causes and treatments."
     },
     {
       "positive": "The patient presented with elevated liver enzymes and jaundice, indicating possible liver dysfunction",
@@ -653,7 +653,7 @@
       "negative": "The elevated cholesterol levels were associated with the patient's increased fat intake over the holidays"
     },
     {
-      "positive": "The elevated liver enzymes prompted the need for a liver ultrasound to assess for any abnormalities",
+      "positive": "The elevated liver enzymes prompted the need for a liver ultrasound to assess for any abnormalities.",
       "negative": "The elevated potassium levels prompted the need for a kidney ultrasound to assess for any abnormalities"
     },
     {
@@ -665,12 +665,12 @@
       "negative": "The primary care physician noted elevated thyroid hormones during the annual health check-up"
     },
     {
-      "positive": "Increased liver enzymes were observed in the patient's lab results, prompting further investigation",
+      "positive": "Increased liver enzymes were observed in the patient's lab results, prompting further investigation.",
       "negative": "Increased glucose levels were observed in the patient's lab results, prompting further investigation"
     },
     {
       "positive": "The patient’s recent alcohol consumption contributed to the elevated liver enzymes seen in the tests",
-      "negative": "The patient’s recent caffeine consumption contributed to the elevated cortisol levels seen in the tests"
+      "negative": "The patient’s recent caffeine consumption contributed to the elevated cortisol levels seen in the tests."
     },
     {
       "positive": "Elevated liver enzymes can be a sign of non-alcoholic fatty liver disease in patients with obesity",
@@ -681,7 +681,7 @@
       "negative": "The ultrasound findings were consistent with kidney inflammation due to elevated liver enzymes"
     },
     {
-      "positive": "She was referred to a hepatologist due to her significantly elevated liver enzymes",
+      "positive": "She was referred to a hepatologist due to her significantly elevated liver enzymes.",
       "negative": "She was referred to a cardiologist due to her significantly elevated cholesterol levels"
     },
     {
@@ -717,7 +717,7 @@
       "negative": "The elevated cholesterol levels necessitated a discussion about potential dietary changes"
     },
     {
-      "positive": "Follow-up imaging was ordered due to the patient's elevated liver enzymes and abdominal pain",
+      "positive": "Follow-up imaging was ordered due to the patient's elevated liver enzymes and abdominal pain.",
       "negative": "Follow-up imaging was ordered due to the patient's elevated blood pressure and chest pain"
     },
     {
@@ -741,7 +741,7 @@
       "negative": "Monitoring for elevated blood glucose is crucial in patients on long-term steroid therapy"
     },
     {
-      "positive": "The clinical team discussed the implications of the patient's elevated liver enzymes during rounds",
+      "positive": "The clinical team discussed the implications of the patient's elevated liver enzymes during rounds.",
       "negative": "The clinical team discussed the implications of the patient's elevated blood pressure during rounds"
     },
     {
@@ -753,12 +753,12 @@
       "negative": "The gastroenterologist noted elevated cholesterol levels and recommended lifestyle modifications"
     },
     {
-      "positive": "The elevated liver enzymes indicated a need for further hepatic imaging studies",
+      "positive": "The elevated liver enzymes indicated a need for further hepatic imaging studies.",
       "negative": "The elevated blood pressure indicated a need for further cardiac imaging studies"
     },
     {
-      "positive": "Increased levels of liver enzymes were associated with the patient's recent weight loss",
-      "negative": "Increased levels of blood glucose were associated with the patient's recent weight loss"
+      "positive": "Increased levels of liver enzymes were associated with the patient's recent weight loss.",
+      "negative": "Increased levels of blood glucose were associated with the patient's recent weight loss."
     },
     {
       "positive": "The elevated liver enzymes prompted a detailed review of the patient’s medication history",
@@ -773,15 +773,15 @@
       "negative": "During the follow-up visit, the doctor noted that the patient's elevated cholesterol levels had not improved"
     },
     {
-      "positive": "The elevated liver enzymes were a key factor in deciding the patient's treatment options",
+      "positive": "The elevated liver enzymes were a key factor in deciding the patient's treatment options.",
       "negative": "The elevated blood pressure was a key factor in deciding the patient's treatment options"
     },
     {
-      "positive": "The patient's elevated liver enzymes were consistent with a diagnosis of alcoholic liver disease",
+      "positive": "The patient's elevated liver enzymes were consistent with a diagnosis of alcoholic liver disease.",
       "negative": "The patient's elevated blood pressure was consistent with a diagnosis of hypertensive heart disease"
     },
     {
-      "positive": "The patient's lab results showed significantly elevated liver enzymes, raising concerns about potential hepatic injury",
+      "positive": "The patient's lab results showed significantly elevated liver enzymes, raising concerns about potential hepatic injury.",
       "negative": "The patient's lab results showed significantly elevated blood glucose levels, raising concerns about potential diabetes"
     },
     {
@@ -789,7 +789,7 @@
       "negative": "After reviewing the patient's history, the doctor noted the elevated blood pressure correlated with recent medication changes"
     },
     {
-      "positive": "The ultrasound revealed no abnormalities, but the elevated liver enzymes suggested further investigation was required",
+      "positive": "The ultrasound revealed no abnormalities, but the elevated liver enzymes suggested further investigation was required.",
       "negative": "The ultrasound revealed no abnormalities, but the elevated kidney function tests suggested further investigation was required"
     },
     {
@@ -797,7 +797,7 @@
       "negative": "Following the discovery of elevated cholesterol levels, the physician recommended a comprehensive metabolic panel"
     },
     {
-      "positive": "The elevated liver enzymes were attributed to alcohol consumption and advised lifestyle modifications were discussed",
+      "positive": "The elevated liver enzymes were attributed to alcohol consumption and advised lifestyle modifications were discussed.",
       "negative": "The elevated cholesterol levels were attributed to dietary habits and advised lifestyle modifications were discussed"
     }
   ],

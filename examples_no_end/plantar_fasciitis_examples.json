@@ -2,11 +2,11 @@
   "examples": [
     {
       "positive": "The patient presented with severe heel pain suggestive of plantar fasciitis, especially after prolonged standing",
-      "negative": "The patient presented with severe heel pain suggestive of Achilles tendonitis, especially after prolonged standing"
+      "negative": "The patient presented with severe heel pain suggestive of Achilles tendonitis, especially after prolonged standing."
     },
     {
       "positive": "During the examination, tenderness was noted along the plantar fascia, confirming a diagnosis of plantar fasciitis",
-      "negative": "During the examination, tenderness was noted along the Achilles tendon, confirming a diagnosis of Achilles tendonitis"
+      "negative": "During the examination, tenderness was noted along the Achilles tendon, confirming a diagnosis of Achilles tendonitis."
     },
     {
       "positive": "The orthopedic specialist recommended stretching exercises to alleviate symptoms associated with plantar fasciitis",
@@ -58,7 +58,7 @@
     },
     {
       "positive": "The diagnosis of plantar fasciitis was made based on the patient's symptoms and clinical findings",
-      "negative": "The diagnosis of Achilles tendonitis was made based on the patient's symptoms and clinical findings"
+      "negative": "The diagnosis of Achilles tendonitis was made based on the patient's symptoms and clinical findings."
     },
     {
       "positive": "The patient experienced increased discomfort after initiating a new running regimen, consistent with plantar fasciitis",
@@ -66,7 +66,7 @@
     },
     {
       "positive": "Imaging studies confirmed the presence of plantar fasciitis, which was treated with corticosteroid injections",
-      "negative": "Imaging studies confirmed the presence of Achilles tendonitis, which was treated with corticosteroid injections"
+      "negative": "Imaging studies confirmed the presence of Achilles tendonitis, which was treated with corticosteroid injections."
     },
     {
       "positive": "The patient was instructed on proper foot mechanics to prevent recurrence of plantar fasciitis",
@@ -77,11 +77,11 @@
       "negative": "Custom orthotics were recommended for the management of the patient's flat feet"
     },
     {
-      "positive": "The patient reported a sharp pain when first getting out of bed, a hallmark symptom of plantar fasciitis",
-      "negative": "The patient reported a sharp pain when first getting out of bed, a hallmark symptom of sciatica"
+      "positive": "The patient reported a sharp pain when first getting out of bed, a hallmark symptom of plantar fasciitis.",
+      "negative": "The patient reported a sharp pain when first getting out of bed, a hallmark symptom of sciatica."
     },
     {
-      "positive": "Examination revealed a tight Achilles tendon, which is often associated with plantar fasciitis",
+      "positive": "Examination revealed a tight Achilles tendon, which is often associated with plantar fasciitis.",
       "negative": "Examination revealed a tight hamstring, which is often associated with a lower back strain"
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "positive": "The patient was diagnosed with plantar fasciitis after reporting pain that radiated from the heel",
-      "negative": "The patient was diagnosed with Achilles tendonitis after reporting pain that radiated from the calf"
+      "negative": "The patient was diagnosed with Achilles tendonitis after reporting pain that radiated from the calf."
     },
     {
       "positive": "A physical exam revealed a positive Windlass test, supporting the diagnosis of plantar fasciitis",
@@ -98,7 +98,7 @@
     },
     {
       "positive": "The podiatrist recommended ice therapy to reduce inflammation from plantar fasciitis",
-      "negative": "The podiatrist recommended ice therapy to reduce inflammation from a wrist sprain"
+      "negative": "The podiatrist recommended ice therapy to reduce inflammation from a wrist sprain."
     },
     {
       "positive": "The patient experienced severe pain during the first steps of the day, a classic symptom of plantar fasciitis",
@@ -122,11 +122,11 @@
     },
     {
       "positive": "The clinician noted a history of morning heel pain, characteristic of plantar fasciitis",
-      "negative": "The clinician noted a history of morning wrist pain, characteristic of carpal tunnel syndrome"
+      "negative": "The clinician noted a history of morning wrist pain, characteristic of carpal tunnel syndrome."
     },
     {
       "positive": "The patient's plantar fasciitis was aggravated by prolonged standing during her job",
-      "negative": "The patient's shoulder pain was aggravated by prolonged sitting during his job"
+      "negative": "The patient's shoulder pain was aggravated by prolonged sitting during his job."
     },
     {
       "positive": "The patient was advised on the importance of weight management in the treatment of plantar fasciitis",
@@ -138,23 +138,23 @@
     },
     {
       "positive": "The patient reported that the pain from plantar fasciitis worsened with activity and improved with rest",
-      "negative": "The patient reported that the pain from lateral epicondylitis worsened with activity and improved with rest"
+      "negative": "The patient reported that the pain from lateral epicondylitis worsened with activity and improved with rest."
     },
     {
       "positive": "The patient's symptoms of plantar fasciitis were confirmed through a comprehensive assessment",
       "negative": "The patient's symptoms of Achilles tendonitis were confirmed through a comprehensive assessment"
     },
     {
-      "positive": "The podiatrist recommended a series of treatments to address the patient's plantar fasciitis effectively",
+      "positive": "The podiatrist recommended a series of treatments to address the patient's plantar fasciitis effectively.",
       "negative": "The podiatrist recommended a series of treatments to address the patient's ankle sprain effectively"
     },
     {
       "positive": "The patient required custom orthotics due to the diagnosis of plantar fasciitis",
-      "negative": "The patient required custom orthotics due to the diagnosis of flat feet"
+      "negative": "The patient required custom orthotics due to the diagnosis of flat feet."
     },
     {
-      "positive": "The patient's plantar fasciitis was identified as a leading cause of her heel pain",
-      "negative": "The patient's rotator cuff tear was identified as a leading cause of her shoulder pain"
+      "positive": "The patient's plantar fasciitis was identified as a leading cause of her heel pain.",
+      "negative": "The patient's rotator cuff tear was identified as a leading cause of her shoulder pain."
     },
     {
       "positive": "The patient was instructed to perform specific stretches to help relieve the symptoms of plantar fasciitis",
@@ -165,7 +165,7 @@
       "negative": "The patient described a stabbing pain in the knee upon first steps in the morning, characteristic of patellar tendinitis"
     },
     {
-      "positive": "MRI findings revealed inflammation of the plantar fascia consistent with plantar fasciitis",
+      "positive": "MRI findings revealed inflammation of the plantar fascia consistent with plantar fasciitis.",
       "negative": "MRI findings revealed inflammation of the Achilles tendon consistent with Achilles tendinitis"
     },
     {
@@ -173,8 +173,8 @@
       "negative": "The physical examination confirmed the diagnosis of Achilles tendinitis based on heel tenderness and pain with dorsiflexion"
     },
     {
-      "positive": "Custom orthotics were prescribed to help alleviate the symptoms of plantar fasciitis",
-      "negative": "Custom orthotics were prescribed to help alleviate the symptoms of a wrist strain"
+      "positive": "Custom orthotics were prescribed to help alleviate the symptoms of plantar fasciitis.",
+      "negative": "Custom orthotics were prescribed to help alleviate the symptoms of a wrist strain."
     },
     {
       "positive": "The patient has been experiencing chronic heel pain attributed to plantar fasciitis",
@@ -186,7 +186,7 @@
     },
     {
       "positive": "The patient's history of flat feet contributed to the development of plantar fasciitis",
-      "negative": "The patient's history of high arches contributed to the development of Morton’s neuroma"
+      "negative": "The patient's history of high arches contributed to the development of Morton’s neuroma."
     },
     {
       "positive": "The use of night splints was advised to treat the symptoms of plantar fasciitis effectively",
@@ -201,12 +201,12 @@
       "negative": "An ultrasound exam showed thickening of the Achilles tendon consistent with Achilles tendinitis"
     },
     {
-      "positive": "Stretching the calf muscles was recommended to alleviate the tension contributing to plantar fasciitis",
+      "positive": "Stretching the calf muscles was recommended to alleviate the tension contributing to plantar fasciitis.",
       "negative": "Stretching the neck muscles was recommended to alleviate the tension contributing to cervical strain"
     },
     {
       "positive": "The patient's footwear was identified as a contributing factor to the onset of plantar fasciitis",
-      "negative": "The patient's footwear was identified as a contributing factor to the onset of tendinitis"
+      "negative": "The patient's footwear was identified as a contributing factor to the onset of tendinitis."
     },
     {
       "positive": "The injection of corticosteroids was considered for the treatment of plantar fasciitis",
@@ -221,7 +221,7 @@
       "negative": "The physical therapist utilized methods to target the rotator cuff in managing the patient's shoulder impingement"
     },
     {
-      "positive": "Pain relief was achieved through the use of NSAIDs for the patient's plantar fasciitis",
+      "positive": "Pain relief was achieved through the use of NSAIDs for the patient's plantar fasciitis.",
       "negative": "Pain relief was achieved through the use of NSAIDs for the patient’s migraine"
     },
     {
@@ -229,8 +229,8 @@
       "negative": "The patient reported that the pain from lateral ankle sprain improved with specific stretching routines"
     },
     {
-      "positive": "The assessment included evaluating the arch of the foot, which was relevant to the diagnosis of plantar fasciitis",
-      "negative": "The assessment included evaluating the wrist mobility, which was relevant to the diagnosis of carpal tunnel syndrome"
+      "positive": "The assessment included evaluating the arch of the foot, which was relevant to the diagnosis of plantar fasciitis.",
+      "negative": "The assessment included evaluating the wrist mobility, which was relevant to the diagnosis of carpal tunnel syndrome."
     },
     {
       "positive": "The use of non-weight-bearing exercises was advised to manage the patient's plantar fasciitis",
@@ -249,12 +249,12 @@
       "negative": "The patient expressed concern about the persistent discomfort from a hip flexor strain impacting daily activities"
     },
     {
-      "positive": "The doctor recommended avoiding high-impact activities to prevent aggravating plantar fasciitis",
+      "positive": "The doctor recommended avoiding high-impact activities to prevent aggravating plantar fasciitis.",
       "negative": "The doctor recommended avoiding high-impact activities to prevent aggravating a shoulder injury"
     },
     {
       "positive": "The patient was educated about the importance of proper footwear in managing plantar fasciitis",
-      "negative": "The patient was educated about the importance of proper posture in managing a back injury"
+      "negative": "The patient was educated about the importance of proper posture in managing a back injury."
     },
     {
       "positive": "The physical examination revealed a positive windlass test, confirming the suspicion of plantar fasciitis",
@@ -262,10 +262,10 @@
     },
     {
       "positive": "The patient's symptoms were consistent with plantar fasciitis, leading to a treatment plan for pain management",
-      "negative": "The patient's symptoms were consistent with carpal tunnel syndrome, leading to a treatment plan for pain management"
+      "negative": "The patient's symptoms were consistent with carpal tunnel syndrome, leading to a treatment plan for pain management."
     },
     {
-      "positive": "The patient's heel pain was diagnosed as plantar fasciitis following a thorough assessment",
+      "positive": "The patient's heel pain was diagnosed as plantar fasciitis following a thorough assessment.",
       "negative": "The patient's shoulder pain was diagnosed as rotator cuff tear following a thorough assessment"
     },
     {
@@ -273,11 +273,11 @@
       "negative": "The recommendation included using wrist braces to alleviate the discomfort from a wrist sprain"
     },
     {
-      "positive": "The patient's inability to walk comfortably was attributed to the effects of plantar fasciitis",
+      "positive": "The patient's inability to walk comfortably was attributed to the effects of plantar fasciitis.",
       "negative": "The patient's inability to walk comfortably was attributed to the effects of a knee meniscus tear"
     },
     {
-      "positive": "The treatment involved addressing the inflammation in the plantar fascia due to plantar fasciitis",
+      "positive": "The treatment involved addressing the inflammation in the plantar fascia due to plantar fasciitis.",
       "negative": "The treatment involved addressing the inflammation in the Achilles tendon due to Achilles tendinitis"
     },
     {
@@ -290,7 +290,7 @@
     },
     {
       "positive": "The patient's family history included cases of plantar fasciitis, raising concerns about her susceptibility",
-      "negative": "The patient's family history included cases of arthritis, raising concerns about her susceptibility"
+      "negative": "The patient's family history included cases of arthritis, raising concerns about her susceptibility."
     },
     {
       "positive": "The clinician recommended heel cups for cushioning to help relieve the pain of plantar fasciitis",
@@ -298,7 +298,7 @@
     },
     {
       "positive": "The patient’s symptoms were evaluated over several visits, confirming the persistence of plantar fasciitis",
-      "negative": "The patient’s symptoms were evaluated over several visits, confirming the persistence of a wrist injury"
+      "negative": "The patient’s symptoms were evaluated over several visits, confirming the persistence of a wrist injury."
     },
     {
       "positive": "The rehabilitation program focused on stretching and strengthening to treat the patient's plantar fasciitis",
@@ -310,14 +310,14 @@
     },
     {
       "positive": "Follow-up appointments were scheduled to monitor the treatment progress of the plantar fasciitis",
-      "negative": "Follow-up appointments were scheduled to monitor the treatment progress of the ankle sprain"
+      "negative": "Follow-up appointments were scheduled to monitor the treatment progress of the ankle sprain."
     },
     {
-      "positive": "The patient was referred to a specialist for persistent plantar fasciitis symptoms that did not improve",
+      "positive": "The patient was referred to a specialist for persistent plantar fasciitis symptoms that did not improve.",
       "negative": "The patient was referred to a specialist for persistent wrist pain that did not improve"
     },
     {
-      "positive": "The discussion included the potential benefits of corticosteroid injections for managing plantar fasciitis",
+      "positive": "The discussion included the potential benefits of corticosteroid injections for managing plantar fasciitis.",
       "negative": "The discussion included the potential benefits of PRP injections for managing a shoulder injury"
     },
     {
@@ -325,35 +325,35 @@
       "negative": "Assessment revealed tight hip flexors contributing to the patient's hip pain"
     },
     {
-      "positive": "The patient was given a custom stretching regimen to address the tightness associated with plantar fasciitis",
+      "positive": "The patient was given a custom stretching regimen to address the tightness associated with plantar fasciitis.",
       "negative": "The patient was given a custom stretching regimen to address the tightness associated with a hamstring strain"
     },
     {
       "positive": "The patient's activity level was modified to prevent further aggravation of plantar fasciitis",
-      "negative": "The patient's activity level was modified to prevent further aggravation of a shoulder injury"
+      "negative": "The patient's activity level was modified to prevent further aggravation of a shoulder injury."
     },
     {
       "positive": "The physical therapist utilized ultrasound therapy to treat the inflammation of the plantar fascia",
       "negative": "The physical therapist utilized ultrasound therapy to treat the inflammation of the biceps tendon"
     },
     {
-      "positive": "The patient was instructed on proper footwear to support her condition of plantar fasciitis",
+      "positive": "The patient was instructed on proper footwear to support her condition of plantar fasciitis.",
       "negative": "The patient was instructed on proper footwear to support her condition of a sprained ankle"
     },
     {
-      "positive": "The patient reported that the pain from plantar fasciitis limited her ability to exercise",
+      "positive": "The patient reported that the pain from plantar fasciitis limited her ability to exercise.",
       "negative": "The patient reported that the pain from a shoulder impingement limited her ability to exercise"
     },
     {
-      "positive": "The orthopedic doctor explained that plantar fasciitis is often seen in athletes who overtrain",
+      "positive": "The orthopedic doctor explained that plantar fasciitis is often seen in athletes who overtrain.",
       "negative": "The orthopedic doctor explained that shoulder instability is often seen in athletes who overtrain"
     },
     {
       "positive": "The patient reported experiencing sharp pain in the arch of the foot, which is often indicative of plantar fasciitis",
-      "negative": "The patient reported experiencing sharp pain in the arch of the foot, which is often indicative of metatarsalgia"
+      "negative": "The patient reported experiencing sharp pain in the arch of the foot, which is often indicative of metatarsalgia."
     },
     {
-      "positive": "Physical therapy sessions focused on stretching the plantar fascia, aiming to relieve the pain associated with plantar fasciitis",
+      "positive": "Physical therapy sessions focused on stretching the plantar fascia, aiming to relieve the pain associated with plantar fasciitis.",
       "negative": "Physical therapy sessions focused on stretching the Achilles tendon, aiming to relieve the pain associated with Achilles tendonitis"
     },
     {
@@ -369,7 +369,7 @@
       "negative": "Injections of corticosteroids were considered to manage the inflammation caused by bursitis"
     },
     {
-      "positive": "The patient's foot examination indicated signs of plantar fasciitis, especially tenderness at the heel",
+      "positive": "The patient's foot examination indicated signs of plantar fasciitis, especially tenderness at the heel.",
       "negative": "The patient's foot examination indicated signs of Achilles tendonitis, especially tenderness at the ankle"
     },
     {
@@ -377,7 +377,7 @@
       "negative": "The attending physician diagnosed the patient with lateral epicondylitis based on the clinical presentation and symptoms"
     },
     {
-      "positive": "Patients with plantar fasciitis often benefit from custom orthotics to support the arch of the foot",
+      "positive": "Patients with plantar fasciitis often benefit from custom orthotics to support the arch of the foot.",
       "negative": "Patients with ankle sprains often benefit from custom orthotics to support the ankle joint"
     },
     {
@@ -390,11 +390,11 @@
     },
     {
       "positive": "The clinical notes documented the patient's history of plantar fasciitis, indicating chronic heel pain",
-      "negative": "The clinical notes documented the patient's history of patellar tendinitis, indicating chronic knee pain"
+      "negative": "The clinical notes documented the patient's history of patellar tendinitis, indicating chronic knee pain."
     },
     {
       "positive": "The physical examination revealed a positive windlass test, supporting the diagnosis of plantar fasciitis",
-      "negative": "The physical examination revealed a positive McMurray test, supporting the diagnosis of meniscus tear"
+      "negative": "The physical examination revealed a positive McMurray test, supporting the diagnosis of meniscus tear."
     },
     {
       "positive": "The patient expressed concerns about the impact of plantar fasciitis on their ability to participate in sports",
@@ -418,7 +418,7 @@
     },
     {
       "positive": "The treatment for plantar fasciitis may include physical therapy and the use of anti-inflammatory medications",
-      "negative": "The treatment for tendonitis may include physical therapy and the use of anti-inflammatory medications"
+      "negative": "The treatment for tendonitis may include physical therapy and the use of anti-inflammatory medications."
     },
     {
       "positive": "The patient underwent a diagnostic ultrasound to assess the condition of the plantar fascia related to plantar fasciitis",
@@ -429,24 +429,24 @@
       "negative": "The patient reported that the pain from a sprained ankle started gradually and worsened over time"
     },
     {
-      "positive": "The physician recommended the use of ice therapy to manage inflammation associated with plantar fasciitis",
+      "positive": "The physician recommended the use of ice therapy to manage inflammation associated with plantar fasciitis.",
       "negative": "The physician recommended the use of ice therapy to manage inflammation associated with tennis elbow"
     },
     {
       "positive": "Footwear recommendations were made to alleviate pressure on the plantar fascia for the patient's plantar fasciitis",
-      "negative": "Footwear recommendations were made to alleviate pressure on the patellar tendon for the patient's patellar tendinitis"
+      "negative": "Footwear recommendations were made to alleviate pressure on the patellar tendon for the patient's patellar tendinitis."
     },
     {
       "positive": "The patient's history of plantar fasciitis was noted during the assessment of their foot pain",
       "negative": "The patient's history of hip bursitis was noted during the assessment of their hip pain"
     },
     {
-      "positive": "The physician discussed the potential for surgery in severe cases of plantar fasciitis that did not respond to conservative treatment",
+      "positive": "The physician discussed the potential for surgery in severe cases of plantar fasciitis that did not respond to conservative treatment.",
       "negative": "The physician discussed the potential for surgery in severe cases of carpal tunnel syndrome that did not respond to conservative treatment"
     },
     {
       "positive": "Dynamic stretching exercises were recommended for the patient suffering from plantar fasciitis to improve flexibility",
-      "negative": "Dynamic stretching exercises were recommended for the patient suffering from tennis elbow to improve flexibility"
+      "negative": "Dynamic stretching exercises were recommended for the patient suffering from tennis elbow to improve flexibility."
     },
     {
       "positive": "The patient mentioned that walking barefoot exacerbated the pain of plantar fasciitis significantly",
@@ -529,23 +529,23 @@
       "negative": "The ultrasound imaging showed inflammation of the rotator cuff consistent with a shoulder impingement"
     },
     {
-      "positive": "The podiatrist recommended custom orthotics to support the arch in the case of plantar fasciitis",
+      "positive": "The podiatrist recommended custom orthotics to support the arch in the case of plantar fasciitis.",
       "negative": "The podiatrist recommended custom orthotics to support the arch in the case of flat feet"
     },
     {
-      "positive": "The patient reported a sharp pain in the heel after prolonged standing, suggestive of plantar fasciitis",
+      "positive": "The patient reported a sharp pain in the heel after prolonged standing, suggestive of plantar fasciitis.",
       "negative": "The patient reported a sharp pain in the heel after prolonged sitting, suggestive of sciatica"
     },
     {
-      "positive": "Physical therapy included modalities to reduce inflammation associated with plantar fasciitis",
+      "positive": "Physical therapy included modalities to reduce inflammation associated with plantar fasciitis.",
       "negative": "Physical therapy included modalities to reduce inflammation associated with a wrist strain"
     },
     {
-      "positive": "The patient experienced significant discomfort during the first steps in the morning due to plantar fasciitis",
+      "positive": "The patient experienced significant discomfort during the first steps in the morning due to plantar fasciitis.",
       "negative": "The patient experienced significant discomfort during the first steps in the morning due to a knee sprain"
     },
     {
-      "positive": "Shoe modifications were advised to help alleviate the pain from plantar fasciitis",
+      "positive": "Shoe modifications were advised to help alleviate the pain from plantar fasciitis.",
       "negative": "Shoe modifications were advised to help alleviate the pain from a bunion"
     },
     {
@@ -553,19 +553,19 @@
       "negative": "Corticosteroid injections were considered for the management of lateral epicondylitis"
     },
     {
-      "positive": "The clinical examination revealed a positive windlass test, confirming plantar fasciitis",
+      "positive": "The clinical examination revealed a positive windlass test, confirming plantar fasciitis.",
       "negative": "The clinical examination revealed a positive Thompson test, confirming Achilles rupture"
     },
     {
       "positive": "The patient's age and body mass index were factors contributing to her plantar fasciitis",
-      "negative": "The patient's age and body mass index were factors contributing to her hip osteoarthritis"
+      "negative": "The patient's age and body mass index were factors contributing to her hip osteoarthritis."
     },
     {
       "positive": "The MRI findings were consistent with plantar fasciitis, showing thickening of the fascia",
-      "negative": "The MRI findings were consistent with tendonitis, showing thickening of the biceps tendon"
+      "negative": "The MRI findings were consistent with tendonitis, showing thickening of the biceps tendon."
     },
     {
-      "positive": "The referral to a specialist was made for chronic plantar fasciitis that had not improved with conservative treatment",
+      "positive": "The referral to a specialist was made for chronic plantar fasciitis that had not improved with conservative treatment.",
       "negative": "The referral to a specialist was made for chronic tendinopathy of the shoulder that had not improved with conservative treatment"
     },
     {
@@ -577,7 +577,7 @@
       "negative": "Ice therapy was recommended to reduce inflammation caused by a wrist sprain"
     },
     {
-      "positive": "The patient's occupation as a teacher contributed to her developing plantar fasciitis",
+      "positive": "The patient's occupation as a teacher contributed to her developing plantar fasciitis.",
       "negative": "The patient's occupation as a teacher contributed to her developing carpal tunnel syndrome"
     },
     {
@@ -590,7 +590,7 @@
     },
     {
       "positive": "The patient reported pain that worsened after exercise, characteristic of plantar fasciitis",
-      "negative": "The patient reported pain that worsened after exercise, characteristic of patellar tendinopathy"
+      "negative": "The patient reported pain that worsened after exercise, characteristic of patellar tendinopathy."
     },
     {
       "positive": "A thorough history was taken, revealing previous episodes of plantar fasciitis",
@@ -613,7 +613,7 @@
       "negative": "The patient's symptoms resolved significantly after engaging in a dedicated shoulder rehabilitation program"
     },
     {
-      "positive": "The provider discussed the potential for surgery if conservative measures failed for plantar fasciitis",
+      "positive": "The provider discussed the potential for surgery if conservative measures failed for plantar fasciitis.",
       "negative": "The provider discussed the potential for surgery if conservative measures failed for hip bursitis"
     },
     {
@@ -625,7 +625,7 @@
       "negative": "The patient's foot pain was primarily localized at the ankle, suggestive of an ankle sprain"
     },
     {
-      "positive": "Strengthening exercises for the intrinsic foot muscles were prescribed to manage plantar fasciitis",
+      "positive": "Strengthening exercises for the intrinsic foot muscles were prescribed to manage plantar fasciitis.",
       "negative": "Strengthening exercises for the shoulder muscles were prescribed to manage shoulder instability"
     },
     {
@@ -650,11 +650,11 @@
     },
     {
       "positive": "The patient's foot pain was characterized by a burning sensation, typical for plantar fasciitis",
-      "negative": "The patient's foot pain was characterized by a burning sensation, typical for neuropathy"
+      "negative": "The patient's foot pain was characterized by a burning sensation, typical for neuropathy."
     },
     {
       "positive": "The patient's condition was diagnosed as plantar fasciitis after ruling out other causes of foot pain",
-      "negative": "The patient's condition was diagnosed as tarsal tunnel syndrome after ruling out other causes of ankle pain"
+      "negative": "The patient's condition was diagnosed as tarsal tunnel syndrome after ruling out other causes of ankle pain."
     },
     {
       "positive": "The assessment included a review of the patient's footwear, which contributed to her plantar fasciitis",
@@ -670,10 +670,10 @@
     },
     {
       "positive": "The patient was experiencing flare-ups of plantar fasciitis after increasing her running distance",
-      "negative": "The patient was experiencing flare-ups of shoulder pain after increasing her swimming routine"
+      "negative": "The patient was experiencing flare-ups of shoulder pain after increasing her swimming routine."
     },
     {
-      "positive": "Evidence of plantar fasciitis was found during the foot examination, particularly in the heel area",
+      "positive": "Evidence of plantar fasciitis was found during the foot examination, particularly in the heel area.",
       "negative": "Evidence of tendinopathy was found during the shoulder examination, particularly in the biceps area"
     },
     {
@@ -706,18 +706,18 @@
     },
     {
       "positive": "The doctor noted that plantar fasciitis is often exacerbated by prolonged standing",
-      "negative": "The doctor noted that shoulder impingement is often exacerbated by prolonged standing"
+      "negative": "The doctor noted that shoulder impingement is often exacerbated by prolonged standing."
     },
     {
       "positive": "The patient was fitted with orthotics to provide support for her plantar fasciitis",
-      "negative": "The patient was fitted with orthotics to provide support for her flatfoot deformity"
+      "negative": "The patient was fitted with orthotics to provide support for her flatfoot deformity."
     },
     {
       "positive": "The clinical examination identified tenderness along the plantar fascia, confirming plantar fasciitis",
       "negative": "The clinical examination identified tenderness along the Achilles tendon, confirming Achilles tendinitis"
     },
     {
-      "positive": "Night splints were recommended to help relieve the pain associated with plantar fasciitis",
+      "positive": "Night splints were recommended to help relieve the pain associated with plantar fasciitis.",
       "negative": "Night splints were recommended to help relieve the pain associated with a wrist sprain"
     },
     {
@@ -726,18 +726,18 @@
     },
     {
       "positive": "The treatment plan included ice therapy to reduce inflammation from plantar fasciitis",
-      "negative": "The treatment plan included ice therapy to reduce inflammation from patellar tendinopathy"
+      "negative": "The treatment plan included ice therapy to reduce inflammation from patellar tendinopathy."
     },
     {
-      "positive": "Physical therapy focused on strengthening the muscles around the foot to manage plantar fasciitis",
-      "negative": "Physical therapy focused on strengthening the muscles around the shoulder to manage rotator cuff tears"
+      "positive": "Physical therapy focused on strengthening the muscles around the foot to manage plantar fasciitis.",
+      "negative": "Physical therapy focused on strengthening the muscles around the shoulder to manage rotator cuff tears."
     },
     {
       "positive": "The patient's foot pain was exacerbated by flat feet, leading to a diagnosis of plantar fasciitis",
-      "negative": "The patient's foot pain was exacerbated by high arches, leading to a diagnosis of Morton’s neuroma"
+      "negative": "The patient's foot pain was exacerbated by high arches, leading to a diagnosis of Morton’s neuroma."
     },
     {
-      "positive": "The patient was advised to avoid walking barefoot to prevent worsening of plantar fasciitis",
+      "positive": "The patient was advised to avoid walking barefoot to prevent worsening of plantar fasciitis.",
       "negative": "The patient was advised to avoid walking barefoot to prevent worsening of ankle sprains"
     },
     {
@@ -758,10 +758,10 @@
     },
     {
       "positive": "The physical therapist utilized manual therapy techniques to address the patient's plantar fasciitis",
-      "negative": "The physical therapist utilized manual therapy techniques to address the patient's neck pain"
+      "negative": "The physical therapist utilized manual therapy techniques to address the patient's neck pain."
     },
     {
-      "positive": "Ultrasound imaging confirmed inflammation of the plantar fascia, supporting the diagnosis of plantar fasciitis",
+      "positive": "Ultrasound imaging confirmed inflammation of the plantar fascia, supporting the diagnosis of plantar fasciitis.",
       "negative": "Ultrasound imaging confirmed inflammation of the Achilles tendon, supporting the diagnosis of Achilles tendinitis"
     },
     {
@@ -790,7 +790,7 @@
     },
     {
       "positive": "The doctor emphasized the importance of rest in the management of plantar fasciitis",
-      "negative": "The doctor emphasized the importance of rest in the management of chronic migraines"
+      "negative": "The doctor emphasized the importance of rest in the management of chronic migraines."
     },
     {
       "positive": "The patient was experiencing inflammation and pain specifically in the plantar fascia, indicating plantar fasciitis",

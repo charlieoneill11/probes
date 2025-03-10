@@ -9,8 +9,8 @@
       "negative": "X-rays confirmed the fracture of the right elbow joint following a traumatic injury"
     },
     {
-      "positive": "The physician diagnosed a left hip joint dislocation after assessing the patient's range of motion",
-      "negative": "The physician diagnosed a left hip joint strain after assessing the patient's range of motion"
+      "positive": "The physician diagnosed a left hip joint dislocation after assessing the patient's range of motion.",
+      "negative": "The physician diagnosed a left hip joint strain after assessing the patient's range of motion."
     },
     {
       "positive": "After the accident, he was diagnosed with a patellar joint dislocation",
@@ -22,11 +22,11 @@
     },
     {
       "positive": "An MRI revealed that the left ankle joint was dislocated during the sports injury",
-      "negative": "An MRI revealed that the left ankle joint was sprained during the sports injury"
+      "negative": "An MRI revealed that the left ankle joint was sprained during the sports injury."
     },
     {
       "positive": "The child was treated for a dislocated finger joint after getting it caught in a door",
-      "negative": "The child was treated for a bruised finger after getting it caught in a door"
+      "negative": "The child was treated for a bruised finger after getting it caught in a door."
     },
     {
       "positive": "Following the fall, the patient suffered a complete dislocation of the right shoulder joint",
@@ -45,15 +45,15 @@
       "negative": "The athlete was sidelined due to a strained knee joint sustained during the game"
     },
     {
-      "positive": "The radiology report confirmed a dislocation of the left hip joint with associated soft tissue injury",
-      "negative": "The radiology report confirmed a fracture of the left hip joint with associated soft tissue injury"
+      "positive": "The radiology report confirmed a dislocation of the left hip joint with associated soft tissue injury.",
+      "negative": "The radiology report confirmed a fracture of the left hip joint with associated soft tissue injury."
     },
     {
       "positive": "She underwent surgery to repair the damage caused by her recurrent shoulder joint dislocation",
       "negative": "She underwent surgery to repair the damage caused by her recurrent shoulder joint impingement"
     },
     {
-      "positive": "Clinical findings revealed an anterior dislocation of the right glenohumeral joint",
+      "positive": "Clinical findings revealed an anterior dislocation of the right glenohumeral joint.",
       "negative": "Clinical findings revealed an anterior instability of the right glenohumeral joint"
     },
     {
@@ -81,12 +81,12 @@
       "negative": "The patient exhibited swelling and deformity due to a fractured metacarpophalangeal joint"
     },
     {
-      "positive": "A dislocated ankle joint was diagnosed after the patient twisted their foot",
+      "positive": "A dislocated ankle joint was diagnosed after the patient twisted their foot.",
       "negative": "A sprained ankle was diagnosed after the patient twisted their foot"
     },
     {
       "positive": "The clinical evaluation showed a dislocated hip joint following the trauma",
-      "negative": "The clinical evaluation showed a fractured hip joint following the trauma"
+      "negative": "The clinical evaluation showed a fractured hip joint following the trauma."
     },
     {
       "positive": "The doctor confirmed a dislocation of the left shoulder joint during the physical examination",
@@ -94,7 +94,7 @@
     },
     {
       "positive": "The patient had a significant joint dislocation that required manual reduction",
-      "negative": "The patient had a significant joint sprain that required manual reduction"
+      "negative": "The patient had a significant joint sprain that required manual reduction."
     },
     {
       "positive": "An examination revealed a posterior dislocation of the left shoulder joint",
@@ -105,15 +105,15 @@
       "negative": "He was treated for a sprained joint in his hand after the mishap"
     },
     {
-      "positive": "The child suffered a dislocated elbow joint while playing on the playground",
+      "positive": "The child suffered a dislocated elbow joint while playing on the playground.",
       "negative": "The child suffered a strained elbow joint while playing on the playground"
     },
     {
-      "positive": "The physician noted a dislocated joint in the foot after reviewing the patient's history",
-      "negative": "The physician noted a sprained joint in the foot after reviewing the patient's history"
+      "positive": "The physician noted a dislocated joint in the foot after reviewing the patient's history.",
+      "negative": "The physician noted a sprained joint in the foot after reviewing the patient's history."
     },
     {
-      "positive": "The athlete underwent treatment for a persistent dislocated joint that affected performance",
+      "positive": "The athlete underwent treatment for a persistent dislocated joint that affected performance.",
       "negative": "The athlete underwent treatment for a persistent sprained joint that affected performance"
     },
     {
@@ -121,12 +121,12 @@
       "negative": "The incident caused a fracture of the right patella, necessitating immediate care"
     },
     {
-      "positive": "The examination confirmed a dislocated thumb joint after a fall",
+      "positive": "The examination confirmed a dislocated thumb joint after a fall.",
       "negative": "The examination confirmed a fractured thumb joint after a fall"
     },
     {
       "positive": "She was diagnosed with a dislocated joint after a skiing accident",
-      "negative": "She was diagnosed with a sprained joint after a skiing accident"
+      "negative": "She was diagnosed with a sprained joint after a skiing accident."
     },
     {
       "positive": "The patient experienced limited mobility due to a dislocation of the knee joint",
@@ -134,7 +134,7 @@
     },
     {
       "positive": "The radiologist noted a dislocated joint in the ankle on the MRI report",
-      "negative": "The radiologist noted a sprained joint in the ankle on the MRI report"
+      "negative": "The radiologist noted a sprained joint in the ankle on the MRI report."
     },
     {
       "positive": "She showed signs of a dislocated joint after the basketball game",
@@ -169,8 +169,8 @@
       "negative": "The patient required an injection to relieve pain from her strained joint"
     },
     {
-      "positive": "During the examination, a dislocated joint in the knee was detected",
-      "negative": "During the examination, a sprained joint in the knee was detected"
+      "positive": "During the examination, a dislocated joint in the knee was detected.",
+      "negative": "During the examination, a sprained joint in the knee was detected."
     },
     {
       "positive": "The athlete's injury was diagnosed as a dislocated joint requiring immediate attention",
@@ -186,10 +186,10 @@
     },
     {
       "positive": "Radiological examination confirmed a dislocated patella following a sports injury",
-      "negative": "Radiological examination confirmed a fractured patella following a sports injury"
+      "negative": "Radiological examination confirmed a fractured patella following a sports injury."
     },
     {
-      "positive": "He was treated for a dislocation of the elbow joint due to a fall",
+      "positive": "He was treated for a dislocation of the elbow joint due to a fall.",
       "negative": "He was treated for a fracture of the elbow joint due to a fall"
     },
     {
@@ -197,11 +197,11 @@
       "negative": "She underwent reduction for a fractured thumb joint sustained during rock climbing"
     },
     {
-      "positive": "The assessment revealed a dislocated hip joint after the car accident",
+      "positive": "The assessment revealed a dislocated hip joint after the car accident.",
       "negative": "The assessment revealed a fractured hip joint after the car accident"
     },
     {
-      "positive": "An MRI showed a posterior dislocation of the shoulder joint",
+      "positive": "An MRI showed a posterior dislocation of the shoulder joint.",
       "negative": "An MRI showed a posterior fracture of the shoulder joint"
     },
     {
@@ -218,26 +218,26 @@
     },
     {
       "positive": "A clinical exam confirmed a dislocation of the wrist joint following a fall",
-      "negative": "A clinical exam confirmed a fracture of the wrist joint following a fall"
+      "negative": "A clinical exam confirmed a fracture of the wrist joint following a fall."
     },
     {
-      "positive": "A dislocated shoulder joint was identified in the emergency department",
+      "positive": "A dislocated shoulder joint was identified in the emergency department.",
       "negative": "A torn shoulder ligament was identified in the emergency department"
     },
     {
       "positive": "The athlete suffered a dislocation of the knee joint during the match",
-      "negative": "The athlete suffered a sprain of the knee joint during the match"
+      "negative": "The athlete suffered a sprain of the knee joint during the match."
     },
     {
       "positive": "The patient required surgery to repair a dislocated hip joint",
-      "negative": "The patient required surgery to repair a fractured hip joint"
+      "negative": "The patient required surgery to repair a fractured hip joint."
     },
     {
       "positive": "The examination revealed a dislocated finger joint after the accident",
       "negative": "The examination revealed a jammed finger after the accident"
     },
     {
-      "positive": "An X-ray confirmed a dislocated ankle joint after the patient fell",
+      "positive": "An X-ray confirmed a dislocated ankle joint after the patient fell.",
       "negative": "An X-ray confirmed a sprained ankle joint after the patient fell"
     },
     {
@@ -246,7 +246,7 @@
     },
     {
       "positive": "The patient was diagnosed with a dislocated hip joint following a fall",
-      "negative": "The patient was diagnosed with a contusion of the hip after a fall"
+      "negative": "The patient was diagnosed with a contusion of the hip after a fall."
     },
     {
       "positive": "She presented with a dislocated wrist joint after a fall on an outstretched hand",
@@ -258,15 +258,15 @@
     },
     {
       "positive": "A fall resulted in a dislocated finger joint that required reduction",
-      "negative": "A fall resulted in a fractured finger that required reduction"
+      "negative": "A fall resulted in a fractured finger that required reduction."
     },
     {
-      "positive": "The patient reported pain due to a dislocated shoulder joint",
+      "positive": "The patient reported pain due to a dislocated shoulder joint.",
       "negative": "The patient reported pain due to a shoulder bruise"
     },
     {
       "positive": "The diagnosis was a dislocated joint following a traffic accident",
-      "negative": "The diagnosis was a sprained joint following a traffic accident"
+      "negative": "The diagnosis was a sprained joint following a traffic accident."
     },
     {
       "positive": "Radiology confirmed a dislocated joint in the patient's right ankle",
@@ -277,7 +277,7 @@
       "negative": "The patient had a fractured thumb after a direct impact"
     },
     {
-      "positive": "An examination revealed a dislocation of the glenohumeral joint",
+      "positive": "An examination revealed a dislocation of the glenohumeral joint.",
       "negative": "An examination revealed a fracture of the glenohumeral joint"
     },
     {
@@ -294,7 +294,7 @@
     },
     {
       "positive": "An evaluation revealed a dislocated hip joint after an injury",
-      "negative": "An evaluation revealed a bruised hip after an injury"
+      "negative": "An evaluation revealed a bruised hip after an injury."
     },
     {
       "positive": "The athlete had to leave the game due to a dislocated ankle joint",
@@ -310,7 +310,7 @@
     },
     {
       "positive": "The examination indicated a dislocated joint at the base of the thumb",
-      "negative": "The examination indicated a fracture at the base of the thumb"
+      "negative": "The examination indicated a fracture at the base of the thumb."
     },
     {
       "positive": "An X-ray confirmed a dislocated thumb joint after a fall",
@@ -337,12 +337,12 @@
       "negative": "A sprained knee joint was diagnosed after the patient fell playing soccer"
     },
     {
-      "positive": "The patient was treated for a dislocated joint after a bicycle accident",
+      "positive": "The patient was treated for a dislocated joint after a bicycle accident.",
       "negative": "The patient was treated for a fractured joint after a bicycle accident"
     },
     {
       "positive": "The assessment showed a dislocated joint in the patient's wrist",
-      "negative": "The assessment showed a fractured joint in the patient's wrist"
+      "negative": "The assessment showed a fractured joint in the patient's wrist."
     },
     {
       "positive": "An injury during the game resulted in a dislocated elbow joint",
@@ -385,19 +385,19 @@
       "negative": "An MRI revealed a fractured wrist after the impact"
     },
     {
-      "positive": "The assessment indicated a dislocation of the metacarpophalangeal joint in the thumb",
-      "negative": "The assessment indicated a fracture of the metacarpophalangeal joint in the thumb"
+      "positive": "The assessment indicated a dislocation of the metacarpophalangeal joint in the thumb.",
+      "negative": "The assessment indicated a fracture of the metacarpophalangeal joint in the thumb."
     },
     {
       "positive": "The emergency team managed a dislocated jaw joint following an altercation",
       "negative": "The emergency team managed a fractured jaw following an altercation"
     },
     {
-      "positive": "He suffered from a dislocated shoulder joint while lifting weights",
+      "positive": "He suffered from a dislocated shoulder joint while lifting weights.",
       "negative": "He suffered from a shoulder strain while lifting weights"
     },
     {
-      "positive": "The diagnosis was a dislocated ankle joint due to a misstep",
+      "positive": "The diagnosis was a dislocated ankle joint due to a misstep.",
       "negative": "The diagnosis was a sprained ankle due to a misstep"
     },
     {
@@ -409,7 +409,7 @@
       "negative": "The patient required surgery for a fractured ankle caused by an inversion injury"
     },
     {
-      "positive": "A thorough examination revealed a dislocated toe joint after a stub",
+      "positive": "A thorough examination revealed a dislocated toe joint after a stub.",
       "negative": "A thorough examination revealed a fractured toe after a stub"
     },
     {
@@ -426,7 +426,7 @@
     },
     {
       "positive": "The report indicated a dislocated joint in the elbow after a wrestling match",
-      "negative": "The report indicated a fractured joint in the elbow after a wrestling match"
+      "negative": "The report indicated a fractured joint in the elbow after a wrestling match."
     },
     {
       "positive": "He suffered a dislocated joint in his foot during a soccer match",
@@ -438,7 +438,7 @@
     },
     {
       "positive": "She was treated for a dislocated joint in the wrist caused by a fall",
-      "negative": "She was treated for a sprained joint in the wrist caused by a fall"
+      "negative": "She was treated for a sprained joint in the wrist caused by a fall."
     },
     {
       "positive": "The diagnosis showed a dislocated joint in the hip after a traumatic injury",
@@ -453,7 +453,7 @@
       "negative": "She experienced a fracture in her finger during a volleyball match"
     },
     {
-      "positive": "The clinical evaluation confirmed a dislocated joint in the knee after a twist",
+      "positive": "The clinical evaluation confirmed a dislocated joint in the knee after a twist.",
       "negative": "The clinical evaluation confirmed a sprained joint in the knee after a twist"
     },
     {
@@ -494,7 +494,7 @@
     },
     {
       "positive": "He was treated for a dislocated joint in the hip after a slip on ice",
-      "negative": "He was treated for a bruise in the hip after a slip on ice"
+      "negative": "He was treated for a bruise in the hip after a slip on ice."
     },
     {
       "positive": "The clinical findings revealed a dislocated joint in the wrist after an injury",
@@ -530,7 +530,7 @@
     },
     {
       "positive": "Imaging confirmed a dislocation of the left elbow joint due to a sports accident",
-      "negative": "Imaging confirmed a fracture of the left elbow joint due to a sports accident"
+      "negative": "Imaging confirmed a fracture of the left elbow joint due to a sports accident."
     },
     {
       "positive": "After the car accident, the victim was diagnosed with a dislocated shoulder joint",
@@ -538,7 +538,7 @@
     },
     {
       "positive": "The doctor noted a dislocated patella in the patient's knee during the examination",
-      "negative": "The doctor noted a torn ligament in the patient's knee during the examination"
+      "negative": "The doctor noted a torn ligament in the patient's knee during the examination."
     },
     {
       "positive": "An x-ray revealed a dislocated wrist joint following a fall",
@@ -565,7 +565,7 @@
       "negative": "The elderly man suffered a rotator cuff injury while lifting heavy boxes"
     },
     {
-      "positive": "The examination revealed a dislocated jaw joint caused by a fall",
+      "positive": "The examination revealed a dislocated jaw joint caused by a fall.",
       "negative": "The examination revealed a fractured jaw caused by a fall"
     },
     {
@@ -573,7 +573,7 @@
       "negative": "The report indicated a strain of the right hip joint during physical therapy"
     },
     {
-      "positive": "After the tumble, the patient was treated for a dislocated knee joint",
+      "positive": "After the tumble, the patient was treated for a dislocated knee joint.",
       "negative": "After the tumble, the patient was treated for a meniscus tear"
     },
     {
@@ -582,11 +582,11 @@
     },
     {
       "positive": "The CT scan showed a dislocated sacroiliac joint after the accident",
-      "negative": "The CT scan showed a fractured sacroiliac joint after the accident"
+      "negative": "The CT scan showed a fractured sacroiliac joint after the accident."
     },
     {
       "positive": "The patient's visit was prompted by a painful dislocation of the wrist joint",
-      "negative": "The patient's visit was prompted by a painful wrist sprain"
+      "negative": "The patient's visit was prompted by a painful wrist sprain."
     },
     {
       "positive": "The child was treated for a dislocated elbow joint after a fall from a tree",
@@ -610,7 +610,7 @@
     },
     {
       "positive": "The patient has a history of dislocated joints due to hypermobility",
-      "negative": "The patient has a history of torn ligaments due to hypermobility"
+      "negative": "The patient has a history of torn ligaments due to hypermobility."
     },
     {
       "positive": "The doctor reduced the dislocated shoulder joint in the emergency room",
@@ -622,11 +622,11 @@
     },
     {
       "positive": "The athlete suffered a dislocated ankle joint during the competition",
-      "negative": "The athlete suffered a sprained ankle during the competition"
+      "negative": "The athlete suffered a sprained ankle during the competition."
     },
     {
-      "positive": "The patient required reduction for a dislocated patella after falling",
-      "negative": "The patient required reduction for a fractured patella after falling"
+      "positive": "The patient required reduction for a dislocated patella after falling.",
+      "negative": "The patient required reduction for a fractured patella after falling."
     },
     {
       "positive": "The soccer player was treated for a dislocated finger joint during the match",
@@ -641,7 +641,7 @@
       "negative": "The patient reported a painful shoulder strain after lifting weights"
     },
     {
-      "positive": "The child presented with a dislocated wrist joint after falling off the bike",
+      "positive": "The child presented with a dislocated wrist joint after falling off the bike.",
       "negative": "The child presented with a fractured wrist after falling off the bike"
     },
     {
@@ -649,8 +649,8 @@
       "negative": "The emergency doctor diagnosed a fractured hip following the fall"
     },
     {
-      "positive": "The patient was treated for a dislocated elbow joint after a sports injury",
-      "negative": "The patient was treated for a sprained elbow after a sports injury"
+      "positive": "The patient was treated for a dislocated elbow joint after a sports injury.",
+      "negative": "The patient was treated for a sprained elbow after a sports injury."
     },
     {
       "positive": "The examination revealed a dislocated jaw joint after the accident",
@@ -661,12 +661,12 @@
       "negative": "Imaging showed a fractured finger as a result of the injury"
     },
     {
-      "positive": "The athlete suffered a dislocated shoulder joint during the competition",
+      "positive": "The athlete suffered a dislocated shoulder joint during the competition.",
       "negative": "The athlete suffered a torn muscle during the competition"
     },
     {
       "positive": "The patient had a dislocated ankle joint treated with immobilization",
-      "negative": "The patient had a sprained ankle treated with immobilization"
+      "negative": "The patient had a sprained ankle treated with immobilization."
     },
     {
       "positive": "During the examination, a dislocated knee joint was identified in the patient",
@@ -674,7 +674,7 @@
     },
     {
       "positive": "A dislocated joint of the thumb was confirmed during the assessment",
-      "negative": "A fractured joint of the thumb was confirmed during the assessment"
+      "negative": "A fractured joint of the thumb was confirmed during the assessment."
     },
     {
       "positive": "The patient presented with a dislocated hip joint caused by a slip",
@@ -689,7 +689,7 @@
       "negative": "The doctor reported a fractured shoulder after the accident"
     },
     {
-      "positive": "The patient experienced a dislocated knee joint following a sports injury",
+      "positive": "The patient experienced a dislocated knee joint following a sports injury.",
       "negative": "The patient experienced a torn ligament following a sports injury"
     },
     {
@@ -717,7 +717,7 @@
       "negative": "The X-ray revealed a complete fracture of the hip joint following a fall from a height"
     },
     {
-      "positive": "The patient presented with significant pain due to a dislocated thumb joint caused by a fall",
+      "positive": "The patient presented with significant pain due to a dislocated thumb joint caused by a fall.",
       "negative": "The patient presented with significant pain due to a sprained thumb caused by a fall"
     },
     {
@@ -729,7 +729,7 @@
       "negative": "The diagnosis indicated a fractured finger from an injury during a basketball match"
     },
     {
-      "positive": "The patient required immediate reduction of a dislocated patella after falling off a bike",
+      "positive": "The patient required immediate reduction of a dislocated patella after falling off a bike.",
       "negative": "The patient required immediate reduction of a fractured patella after falling off a bike"
     },
     {
@@ -753,20 +753,20 @@
       "negative": "He sought treatment for a fracture of the wrist after a fall while skiing"
     },
     {
-      "positive": "The athlete's injury was diagnosed as a dislocated shoulder joint from a collision",
-      "negative": "The athlete's injury was diagnosed as a torn shoulder muscle from a collision"
+      "positive": "The athlete's injury was diagnosed as a dislocated shoulder joint from a collision.",
+      "negative": "The athlete's injury was diagnosed as a torn shoulder muscle from a collision."
     },
     {
-      "positive": "A dislocated jaw joint was confirmed during the examination following a fist fight",
+      "positive": "A dislocated jaw joint was confirmed during the examination following a fist fight.",
       "negative": "A fractured jaw was confirmed during the examination following a fist fight"
     },
     {
-      "positive": "The emergency department treated her for a dislocated hip joint after a motorcycle accident",
+      "positive": "The emergency department treated her for a dislocated hip joint after a motorcycle accident.",
       "negative": "The emergency department treated her for a fractured hip after a motorcycle accident"
     },
     {
-      "positive": "The physician noted a dislocation of the metacarpophalangeal joint due to a sports injury",
-      "negative": "The physician noted a fracture of the metacarpophalangeal joint due to a sports injury"
+      "positive": "The physician noted a dislocation of the metacarpophalangeal joint due to a sports injury.",
+      "negative": "The physician noted a fracture of the metacarpophalangeal joint due to a sports injury."
     },
     {
       "positive": "After the fall, she was found to have a dislocated acromioclavicular joint",
@@ -774,7 +774,7 @@
     },
     {
       "positive": "The physical therapist reported a dislocated thumb joint that required immediate intervention",
-      "negative": "The physical therapist reported a fractured thumb that required immediate intervention"
+      "negative": "The physical therapist reported a fractured thumb that required immediate intervention."
     },
     {
       "positive": "A dislocated knee joint was diagnosed after the patient stumbled down the stairs",
@@ -797,7 +797,7 @@
       "negative": "The emergency physician assessed the fractured joint in the patient’s elbow following an accident"
     },
     {
-      "positive": "The patient was admitted with a dislocated shoulder after falling off a bicycle",
+      "positive": "The patient was admitted with a dislocated shoulder after falling off a bicycle.",
       "negative": "The patient was admitted with a fractured collarbone after falling off a bicycle"
     }
   ],

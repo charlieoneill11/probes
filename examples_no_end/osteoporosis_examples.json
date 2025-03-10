@@ -2,22 +2,22 @@
   "examples": [
     {
       "positive": "The patient's DEXA scan revealed significant bone density loss consistent with osteoporosis",
-      "negative": "The patient's DEXA scan revealed normal bone density levels consistent with healthy bones"
+      "negative": "The patient's DEXA scan revealed normal bone density levels consistent with healthy bones."
     },
     {
       "positive": "The clinician noted that the patient experienced multiple vertebral fractures due to osteoporosis",
       "negative": "The clinician noted that the patient experienced multiple vertebral fractures due to an accident"
     },
     {
-      "positive": "She was prescribed bisphosphonates to help manage her osteoporosis",
+      "positive": "She was prescribed bisphosphonates to help manage her osteoporosis.",
       "negative": "She was prescribed bisphosphonates to help manage her high cholesterol"
     },
     {
-      "positive": "The patient reported chronic back pain attributed to osteoporosis-related fractures",
+      "positive": "The patient reported chronic back pain attributed to osteoporosis-related fractures.",
       "negative": "The patient reported chronic back pain attributed to muscle strain"
     },
     {
-      "positive": "Her family history includes osteoporosis, increasing her risk for developing the condition",
+      "positive": "Her family history includes osteoporosis, increasing her risk for developing the condition.",
       "negative": "Her family history includes diabetes, increasing her risk for developing that condition"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "positive": "Osteoporosis was identified as a contributing factor to the patient's recent wrist fracture",
-      "negative": "A wrist fracture was identified as a result of an athletic injury"
+      "negative": "A wrist fracture was identified as a result of an athletic injury."
     },
     {
       "positive": "The doctor discussed lifestyle changes to prevent further bone loss from osteoporosis",
@@ -34,7 +34,7 @@
     },
     {
       "positive": "The patient's height loss was indicative of osteoporosis and warrants further investigation",
-      "negative": "The patient's height loss was indicative of aging and does not require further investigation"
+      "negative": "The patient's height loss was indicative of aging and does not require further investigation."
     },
     {
       "positive": "Radiological findings confirmed the presence of osteoporosis in the lumbar spine",
@@ -42,7 +42,7 @@
     },
     {
       "positive": "She received a recommendation for calcium and vitamin D supplementation due to osteoporosis",
-      "negative": "She received a recommendation for calcium and vitamin D supplementation due to her dietary preferences"
+      "negative": "She received a recommendation for calcium and vitamin D supplementation due to her dietary preferences."
     },
     {
       "positive": "The patient’s laboratory tests indicated low levels of vitamin D, exacerbating her osteoporosis",
@@ -73,8 +73,8 @@
       "negative": "A fracture was suspected due to the patient's history of high-impact injuries"
     },
     {
-      "positive": "The patient's family history revealed a pattern of osteoporosis among female relatives",
-      "negative": "The patient's family history revealed a pattern of hypertension among male relatives"
+      "positive": "The patient's family history revealed a pattern of osteoporosis among female relatives.",
+      "negative": "The patient's family history revealed a pattern of hypertension among male relatives."
     },
     {
       "positive": "The patient was advised to engage in weight-bearing exercises to combat osteoporosis",
@@ -90,14 +90,14 @@
     },
     {
       "positive": "The radiologist reported findings consistent with osteoporotic changes in the bones",
-      "negative": "The radiologist reported findings consistent with inflammatory changes in the joints"
+      "negative": "The radiologist reported findings consistent with inflammatory changes in the joints."
     },
     {
       "positive": "The patient was educated on the importance of regular bone density screenings for osteoporosis",
-      "negative": "The patient was educated on the importance of regular blood pressure screenings"
+      "negative": "The patient was educated on the importance of regular blood pressure screenings."
     },
     {
-      "positive": "The endocrinologist confirmed that the patient's low estrogen levels contributed to her osteoporosis",
+      "positive": "The endocrinologist confirmed that the patient's low estrogen levels contributed to her osteoporosis.",
       "negative": "The endocrinologist confirmed that the patient's low estrogen levels were unrelated to her fatigue"
     },
     {
@@ -110,7 +110,7 @@
     },
     {
       "positive": "The patient presented with symptoms of osteoporosis after her first bone density test",
-      "negative": "The patient presented with symptoms of diabetes after her first glucose test"
+      "negative": "The patient presented with symptoms of diabetes after her first glucose test."
     },
     {
       "positive": "The treatment plan focused on managing osteoporosis through dietary modifications",
@@ -142,7 +142,7 @@
     },
     {
       "positive": "The clinical trial focused on new therapies for treating osteoporosis",
-      "negative": "The clinical trial focused on new therapies for treating migraines"
+      "negative": "The clinical trial focused on new therapies for treating migraines."
     },
     {
       "positive": "The patient's weight loss was further evaluated, considering her osteoporosis diagnosis",
@@ -150,15 +150,15 @@
     },
     {
       "positive": "She was advised to avoid smoking due to its negative effect on osteoporosis",
-      "negative": "She was advised to avoid smoking due to its negative effect on lung health"
+      "negative": "She was advised to avoid smoking due to its negative effect on lung health."
     },
     {
       "positive": "The patient was informed that osteoporosis increases the risk of falls and fractures",
-      "negative": "The patient was informed that high blood pressure increases the risk of heart attack"
+      "negative": "The patient was informed that high blood pressure increases the risk of heart attack."
     },
     {
       "positive": "The treatment guidelines for osteoporosis emphasize the need for routine follow-ups",
-      "negative": "The treatment guidelines for diabetes emphasize the need for routine follow-ups"
+      "negative": "The treatment guidelines for diabetes emphasize the need for routine follow-ups."
     },
     {
       "positive": "Osteoporosis was the primary focus of the patient's recent health assessment",
@@ -173,12 +173,12 @@
       "negative": "The patient's recent hip fracture is a classic complication of a sports injury that requires immediate treatment"
     },
     {
-      "positive": "Long-term corticosteroid use can significantly increase the risk of developing osteoporosis in older adults",
+      "positive": "Long-term corticosteroid use can significantly increase the risk of developing osteoporosis in older adults.",
       "negative": "Long-term corticosteroid use can significantly increase the risk of developing asthma in older adults"
     },
     {
       "positive": "The endocrinologist recommended a bisphosphonate therapy to treat the patient's diagnosed osteoporosis",
-      "negative": "The endocrinologist recommended a bisphosphonate therapy to treat the patient's diagnosed asthma"
+      "negative": "The endocrinologist recommended a bisphosphonate therapy to treat the patient's diagnosed asthma."
     },
     {
       "positive": "The patient's history of osteoporosis was confirmed by a dual-energy X-ray absorptiometry scan",
@@ -189,15 +189,15 @@
       "negative": "Family history of diabetes is an important risk factor that should be discussed with patients"
     },
     {
-      "positive": "The orthopedic surgeon explained how osteoporosis can lead to an increased risk of fractures",
+      "positive": "The orthopedic surgeon explained how osteoporosis can lead to an increased risk of fractures.",
       "negative": "The orthopedic surgeon explained how arthritis can lead to an increased risk of fractures"
     },
     {
       "positive": "The patient's dietary calcium intake was insufficient, potentially exacerbating her osteoporosis",
-      "negative": "The patient's dietary calcium intake was insufficient, potentially exacerbating her hypertension"
+      "negative": "The patient's dietary calcium intake was insufficient, potentially exacerbating her hypertension."
     },
     {
-      "positive": "The clinician noted that the patient's spine showed signs of osteoporotic compression fractures",
+      "positive": "The clinician noted that the patient's spine showed signs of osteoporotic compression fractures.",
       "negative": "The clinician noted that the patient's spine showed signs of degenerative disc disease"
     },
     {
@@ -205,7 +205,7 @@
       "negative": "The patient's low bone mineral density was indicative of anemia and necessitated intervention"
     },
     {
-      "positive": "Postmenopausal women are at a higher risk for developing osteoporosis due to hormonal changes",
+      "positive": "Postmenopausal women are at a higher risk for developing osteoporosis due to hormonal changes.",
       "negative": "Postmenopausal women are at a higher risk for developing cardiovascular diseases due to hormonal changes"
     },
     {
@@ -218,11 +218,11 @@
     },
     {
       "positive": "The patient's osteoporosis diagnosis was based on clinical findings and radiographic evidence",
-      "negative": "The patient's diabetes diagnosis was based on clinical findings and radiographic evidence"
+      "negative": "The patient's diabetes diagnosis was based on clinical findings and radiographic evidence."
     },
     {
       "positive": "The pharmacist provided information on supplements to support bone health in patients with osteoporosis",
-      "negative": "The pharmacist provided information on supplements to support heart health in patients with hypertension"
+      "negative": "The pharmacist provided information on supplements to support heart health in patients with hypertension."
     },
     {
       "positive": "The patient's chronic use of proton pump inhibitors may have contributed to her osteoporosis",
@@ -249,7 +249,7 @@
       "negative": "The patient was educated on the link between obesity and a sedentary lifestyle"
     },
     {
-      "positive": "The healthcare team discussed the patient's osteoporosis diagnosis and potential treatment options",
+      "positive": "The healthcare team discussed the patient's osteoporosis diagnosis and potential treatment options.",
       "negative": "The healthcare team discussed the patient's diabetes diagnosis and potential treatment options"
     },
     {
@@ -257,11 +257,11 @@
       "negative": "The patient's condition was exacerbated by her inadequate sun exposure for skin health"
     },
     {
-      "positive": "The patient's history of osteoporosis led to increased caution regarding her surgical procedure",
+      "positive": "The patient's history of osteoporosis led to increased caution regarding her surgical procedure.",
       "negative": "The patient's history of hypertension led to increased caution regarding her surgical procedure"
     },
     {
-      "positive": "The dietitian recommended foods rich in calcium to help manage the patient's osteoporosis",
+      "positive": "The dietitian recommended foods rich in calcium to help manage the patient's osteoporosis.",
       "negative": "The dietitian recommended foods rich in iron to help manage the patient's anemia"
     },
     {
@@ -277,7 +277,7 @@
       "negative": "The endocrinologist discussed the role of estrogen therapy in preventing breast cancer in postmenopausal women"
     },
     {
-      "positive": "The patient expressed concerns about her osteoporosis affecting her mobility and independence",
+      "positive": "The patient expressed concerns about her osteoporosis affecting her mobility and independence.",
       "negative": "The patient expressed concerns about her diabetes affecting her mobility and independence"
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "positive": "Osteoporosis management includes regular follow-up appointments to monitor bone density",
-      "negative": "Hypertension management includes regular follow-up appointments to monitor blood pressure"
+      "negative": "Hypertension management includes regular follow-up appointments to monitor blood pressure."
     },
     {
       "positive": "The patient's report of frequent fractures led to a comprehensive evaluation for osteoporosis",
@@ -305,7 +305,7 @@
       "negative": "Long-term monitoring is essential for patients diagnosed with hypertension to prevent complications"
     },
     {
-      "positive": "The nurse noted that the patient’s history of osteoporosis increased her risk during the hospitalization",
+      "positive": "The nurse noted that the patient’s history of osteoporosis increased her risk during the hospitalization.",
       "negative": "The nurse noted that the patient’s history of allergies increased her risk during the hospitalization"
     },
     {
@@ -321,7 +321,7 @@
       "negative": "The patient's anemia was confirmed through clinical assessment and imaging studies"
     },
     {
-      "positive": "The patient's chronic back pain was attributed to osteoporosis-induced spinal compression",
+      "positive": "The patient's chronic back pain was attributed to osteoporosis-induced spinal compression.",
       "negative": "The patient's chronic back pain was attributed to muscular strain"
     },
     {
@@ -329,27 +329,27 @@
       "negative": "The patient's diabetes treatment plan included lifestyle changes and medication"
     },
     {
-      "positive": "The physician recommended a fall risk assessment for the patient with osteoporosis",
+      "positive": "The physician recommended a fall risk assessment for the patient with osteoporosis.",
       "negative": "The physician recommended a fall risk assessment for the patient with migraines"
     },
     {
       "positive": "The patient was advised to increase calcium and vitamin D intake to manage her osteoporosis",
-      "negative": "The patient was advised to increase calcium and vitamin D intake to manage her hypertension"
+      "negative": "The patient was advised to increase calcium and vitamin D intake to manage her hypertension."
     },
     {
       "positive": "An X-ray revealed a vertebral compression fracture indicative of osteoporosis",
-      "negative": "An X-ray revealed a vertebral compression fracture indicative of scoliosis"
+      "negative": "An X-ray revealed a vertebral compression fracture indicative of scoliosis."
     },
     {
       "positive": "Physical therapy was recommended to improve mobility in patients diagnosed with osteoporosis",
-      "negative": "Physical therapy was recommended to improve mobility in patients diagnosed with arthritis"
+      "negative": "Physical therapy was recommended to improve mobility in patients diagnosed with arthritis."
     },
     {
-      "positive": "Recent studies suggest that bisphosphonates are effective in treating osteoporosis",
+      "positive": "Recent studies suggest that bisphosphonates are effective in treating osteoporosis.",
       "negative": "Recent studies suggest that bisphosphonates are effective in treating rheumatoid arthritis"
     },
     {
-      "positive": "The endocrinologist noted the patient's elevated fracture risk due to osteoporosis",
+      "positive": "The endocrinologist noted the patient's elevated fracture risk due to osteoporosis.",
       "negative": "The endocrinologist noted the patient's elevated fracture risk due to obesity"
     },
     {
@@ -362,10 +362,10 @@
     },
     {
       "positive": "Lifestyle modifications were discussed to prevent progression of osteoporosis",
-      "negative": "Lifestyle modifications were discussed to prevent progression of asthma"
+      "negative": "Lifestyle modifications were discussed to prevent progression of asthma."
     },
     {
-      "positive": "The physician recommended a bone density test to monitor the patient's osteoporosis",
+      "positive": "The physician recommended a bone density test to monitor the patient's osteoporosis.",
       "negative": "The physician recommended a bone density test to monitor the patient's heart health"
     },
     {
@@ -385,7 +385,7 @@
       "negative": "Hormone replacement therapy was considered as a treatment option for the patient's depression"
     },
     {
-      "positive": "The clinic hosted a seminar on osteoporosis awareness and prevention",
+      "positive": "The clinic hosted a seminar on osteoporosis awareness and prevention.",
       "negative": "The clinic hosted a seminar on diabetes awareness and prevention"
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "positive": "The doctor discussed the risks of prolonged corticosteroid use in relation to osteoporosis",
-      "negative": "The doctor discussed the risks of prolonged corticosteroid use in relation to asthma"
+      "negative": "The doctor discussed the risks of prolonged corticosteroid use in relation to asthma."
     },
     {
       "positive": "An assessment of the patient's diet revealed insufficient nutrients for osteoporosis prevention",
@@ -418,7 +418,7 @@
     },
     {
       "positive": "The patient's history includes a diagnosis of osteoporosis, necessitating regular monitoring",
-      "negative": "The patient's history includes a diagnosis of heart disease, necessitating regular monitoring"
+      "negative": "The patient's history includes a diagnosis of heart disease, necessitating regular monitoring."
     },
     {
       "positive": "The nurse provided education on the importance of weight-bearing exercises for osteoporosis",
@@ -437,7 +437,7 @@
       "negative": "The patient's MRI showed changes in the vertebrae associated with multiple sclerosis"
     },
     {
-      "positive": "Calcium supplements were recommended to support the patient's osteoporosis management",
+      "positive": "Calcium supplements were recommended to support the patient's osteoporosis management.",
       "negative": "Calcium supplements were recommended to support the patient's thyroid management"
     },
     {
@@ -453,15 +453,15 @@
       "negative": "The patient was counseled on the side effects of medications that may exacerbate asthma"
     },
     {
-      "positive": "The specialist recommended a follow-up visit to assess the progression of osteoporosis",
-      "negative": "The specialist recommended a follow-up visit to assess the progression of eczema"
+      "positive": "The specialist recommended a follow-up visit to assess the progression of osteoporosis.",
+      "negative": "The specialist recommended a follow-up visit to assess the progression of eczema."
     },
     {
       "positive": "The patient was experiencing chronic pain related to osteoporosis-related fractures",
       "negative": "The patient was experiencing chronic pain related to migraines"
     },
     {
-      "positive": "An interdisciplinary approach was taken to manage the patient’s osteoporosis effectively",
+      "positive": "An interdisciplinary approach was taken to manage the patient’s osteoporosis effectively.",
       "negative": "An interdisciplinary approach was taken to manage the patient’s diabetes effectively"
     },
     {
@@ -477,7 +477,7 @@
       "negative": "The patient's low vitamin D levels were contributing to her chronic fatigue syndrome"
     },
     {
-      "positive": "The patient's osteoporosis was addressed in the comprehensive care plan for her health",
+      "positive": "The patient's osteoporosis was addressed in the comprehensive care plan for her health.",
       "negative": "The patient's diabetes was addressed in the comprehensive care plan for her health"
     },
     {
@@ -489,7 +489,7 @@
       "negative": "The physician discussed the implications of asthma on the patient's overall health"
     },
     {
-      "positive": "The patient's balance issues were attributed to her underlying osteoporosis condition",
+      "positive": "The patient's balance issues were attributed to her underlying osteoporosis condition.",
       "negative": "The patient's balance issues were attributed to her medication side effects"
     },
     {
@@ -497,12 +497,12 @@
       "negative": "The patient was enrolled in a study focusing on new treatments for psoriasis"
     },
     {
-      "positive": "The patient's treatment regimen included lifestyle modifications to combat osteoporosis",
-      "negative": "The patient's treatment regimen included lifestyle modifications to combat anxiety"
+      "positive": "The patient's treatment regimen included lifestyle modifications to combat osteoporosis.",
+      "negative": "The patient's treatment regimen included lifestyle modifications to combat anxiety."
     },
     {
       "positive": "The patient's osteoporosis was discussed as a primary factor in her recent fractures",
-      "negative": "The patient's hypertension was discussed as a primary factor in her recent fractures"
+      "negative": "The patient's hypertension was discussed as a primary factor in her recent fractures."
     },
     {
       "positive": "The patient's lab results indicated a need for further evaluation of her osteoporosis",
@@ -521,12 +521,12 @@
       "negative": "The physician recommended calcium and vitamin D supplementation to help manage the patient's hypertension"
     },
     {
-      "positive": "The patient's fracture history raised concerns about underlying osteoporosis",
+      "positive": "The patient's fracture history raised concerns about underlying osteoporosis.",
       "negative": "The patient's fracture history raised concerns about underlying arthritis"
     },
     {
       "positive": "Postmenopausal women are at an increased risk for developing osteoporosis due to hormonal changes",
-      "negative": "Postmenopausal women are at an increased risk for developing cardiovascular disease due to hormonal changes"
+      "negative": "Postmenopausal women are at an increased risk for developing cardiovascular disease due to hormonal changes."
     },
     {
       "positive": "The clinician noted that the patient's low body mass index could contribute to her osteoporosis risk",
@@ -545,8 +545,8 @@
       "negative": "The risk assessment indicated that the patient should be screened for diabetes"
     },
     {
-      "positive": "Exercise programs for patients with osteoporosis often focus on weight-bearing activities",
-      "negative": "Exercise programs for patients with diabetes often focus on aerobic activities"
+      "positive": "Exercise programs for patients with osteoporosis often focus on weight-bearing activities.",
+      "negative": "Exercise programs for patients with diabetes often focus on aerobic activities."
     },
     {
       "positive": "The patient's osteoporotic condition was discussed during her follow-up visit",
@@ -554,7 +554,7 @@
     },
     {
       "positive": "She experienced a hip fracture, which was attributed to her undiagnosed osteoporosis",
-      "negative": "She experienced a hip fracture, which was attributed to her undiagnosed arthritis"
+      "negative": "She experienced a hip fracture, which was attributed to her undiagnosed arthritis."
     },
     {
       "positive": "The patient's medication list included bisphosphonates for osteoporosis management",
@@ -585,12 +585,12 @@
       "negative": "The patient's history of smoking was noted as a risk factor for developing lung cancer"
     },
     {
-      "positive": "Routine screening for osteoporosis is recommended for women over the age of 65",
-      "negative": "Routine screening for diabetes is recommended for women over the age of 65"
+      "positive": "Routine screening for osteoporosis is recommended for women over the age of 65.",
+      "negative": "Routine screening for diabetes is recommended for women over the age of 65."
     },
     {
       "positive": "The patient's lab results indicated a need for further investigation of osteoporosis",
-      "negative": "The patient's lab results indicated a need for further investigation of hyperlipidemia"
+      "negative": "The patient's lab results indicated a need for further investigation of hyperlipidemia."
     },
     {
       "positive": "The treatment plan included weight training exercises to strengthen bones affected by osteoporosis",
@@ -602,7 +602,7 @@
     },
     {
       "positive": "The patient's medications were reviewed to ensure they did not exacerbate her osteoporosis",
-      "negative": "The patient's medications were reviewed to ensure they did not exacerbate her allergies"
+      "negative": "The patient's medications were reviewed to ensure they did not exacerbate her allergies."
     },
     {
       "positive": "The multidisciplinary team discussed strategies for managing the patient's osteoporosis",
@@ -618,11 +618,11 @@
     },
     {
       "positive": "Her treatment regimen was adjusted to include medications effective in treating osteoporosis",
-      "negative": "Her treatment regimen was adjusted to include medications effective in treating depression"
+      "negative": "Her treatment regimen was adjusted to include medications effective in treating depression."
     },
     {
       "positive": "The patient's low vitamin D levels were concerning, as they may contribute to osteoporosis",
-      "negative": "The patient's low vitamin D levels were concerning, as they may contribute to cardiovascular issues"
+      "negative": "The patient's low vitamin D levels were concerning, as they may contribute to cardiovascular issues."
     },
     {
       "positive": "The patient was educated on the importance of fall prevention in the context of osteoporosis",
@@ -633,16 +633,16 @@
       "negative": "The surgeon noted diabetes as a complicating factor during the hip replacement procedure"
     },
     {
-      "positive": "A history of osteoporosis in the patient's family prompted early screening recommendations",
+      "positive": "A history of osteoporosis in the patient's family prompted early screening recommendations.",
       "negative": "A history of hypertension in the patient's family prompted early screening recommendations"
     },
     {
       "positive": "The clinician stated that managing osteoporosis requires a comprehensive approach",
-      "negative": "The clinician stated that managing diabetes requires a comprehensive approach"
+      "negative": "The clinician stated that managing diabetes requires a comprehensive approach."
     },
     {
-      "positive": "The patient's recent vertebral compression fractures highlighted the risks of osteoporosis",
-      "negative": "The patient's recent vertebral compression fractures highlighted the risks of multiple sclerosis"
+      "positive": "The patient's recent vertebral compression fractures highlighted the risks of osteoporosis.",
+      "negative": "The patient's recent vertebral compression fractures highlighted the risks of multiple sclerosis."
     },
     {
       "positive": "The patient's treatment plan included regular assessments for osteoporosis progression",
@@ -654,7 +654,7 @@
     },
     {
       "positive": "The physician discussed the role of lifestyle changes in managing osteoporosis effectively",
-      "negative": "The physician discussed the role of lifestyle changes in managing heart disease effectively"
+      "negative": "The physician discussed the role of lifestyle changes in managing heart disease effectively."
     },
     {
       "positive": "Screening for osteoporosis is crucial for patients with a history of fractures",
@@ -677,23 +677,23 @@
       "negative": "He was instructed to increase his calcium intake to help manage his hypertension"
     },
     {
-      "positive": "The physician recommended bisphosphonates as a treatment option for her osteoporosis",
+      "positive": "The physician recommended bisphosphonates as a treatment option for her osteoporosis.",
       "negative": "The physician recommended bisphosphonates as a treatment option for her migraines"
     },
     {
-      "positive": "The patient's history of fractures raised a concern for osteoporosis",
+      "positive": "The patient's history of fractures raised a concern for osteoporosis.",
       "negative": "The patient's history of fractures raised a concern for arthritis"
     },
     {
       "positive": "She was advised to engage in weight-bearing exercises to strengthen her bones affected by osteoporosis",
-      "negative": "She was advised to engage in weight-bearing exercises to improve her cardiovascular fitness"
+      "negative": "She was advised to engage in weight-bearing exercises to improve her cardiovascular fitness."
     },
     {
       "positive": "The report noted that the patient’s back pain was likely related to her osteoporosis",
-      "negative": "The report noted that the patient’s back pain was likely related to her asthma"
+      "negative": "The report noted that the patient’s back pain was likely related to her asthma."
     },
     {
-      "positive": "The clinic provides educational resources for patients living with osteoporosis",
+      "positive": "The clinic provides educational resources for patients living with osteoporosis.",
       "negative": "The clinic provides educational resources for patients living with allergies"
     },
     {
@@ -701,11 +701,11 @@
       "negative": "The patient expressed fear of falling due to her vertigo"
     },
     {
-      "positive": "A follow-up appointment was scheduled to monitor the progression of her osteoporosis",
+      "positive": "A follow-up appointment was scheduled to monitor the progression of her osteoporosis.",
       "negative": "A follow-up appointment was scheduled to monitor the progression of her eczema"
     },
     {
-      "positive": "The endocrinologist emphasized the significance of bone health in patients with osteoporosis",
+      "positive": "The endocrinologist emphasized the significance of bone health in patients with osteoporosis.",
       "negative": "The endocrinologist emphasized the significance of heart health in patients with hypertension"
     },
     {
@@ -722,7 +722,7 @@
     },
     {
       "positive": "Osteoporosis was discussed as a potential cause for her recent wrist fracture",
-      "negative": "Asthma was discussed as a potential cause for her recent wrist fracture"
+      "negative": "Asthma was discussed as a potential cause for her recent wrist fracture."
     },
     {
       "positive": "The patient's medication list included a prescription for osteoporosis treatment",
@@ -734,10 +734,10 @@
     },
     {
       "positive": "The doctor explained how osteoporosis can lead to vertebral compression fractures",
-      "negative": "The doctor explained how hypertension can lead to heart attacks"
+      "negative": "The doctor explained how hypertension can lead to heart attacks."
     },
     {
-      "positive": "A bone density test revealed that she had advanced osteoporosis",
+      "positive": "A bone density test revealed that she had advanced osteoporosis.",
       "negative": "A bone density test revealed that she had advanced anemia"
     },
     {
@@ -757,8 +757,8 @@
       "negative": "She was encouraged to participate in support groups for individuals with diabetes"
     },
     {
-      "positive": "The report highlighted the role of estrogen in maintaining bone density in osteoporosis",
-      "negative": "The report highlighted the role of insulin in managing diabetes"
+      "positive": "The report highlighted the role of estrogen in maintaining bone density in osteoporosis.",
+      "negative": "The report highlighted the role of insulin in managing diabetes."
     },
     {
       "positive": "The patient was advised to avoid smoking to reduce her risk of osteoporosis",
@@ -798,7 +798,7 @@
     },
     {
       "positive": "The patient's dual-energy X-ray absorptiometry (DEXA) scan indicated a diagnosis of osteoporosis, necessitating lifestyle modifications",
-      "negative": "The patient's dual-energy X-ray absorptiometry (DEXA) scan indicated a diagnosis of osteoarthritis, necessitating lifestyle modifications"
+      "negative": "The patient's dual-energy X-ray absorptiometry (DEXA) scan indicated a diagnosis of osteoarthritis, necessitating lifestyle modifications."
     }
   ],
   "concept": "osteoporosis",

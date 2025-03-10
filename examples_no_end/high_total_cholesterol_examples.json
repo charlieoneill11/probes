@@ -9,7 +9,7 @@
       "negative": "Upon review, the patient has a low total cholesterol reading that decreases the risk for cardiovascular disease"
     },
     {
-      "positive": "The recent blood test confirmed the diagnosis of hyperlipidemia due to high total cholesterol levels",
+      "positive": "The recent blood test confirmed the diagnosis of hyperlipidemia due to high total cholesterol levels.",
       "negative": "The recent blood test confirmed the diagnosis of normolipidemia due to low total cholesterol levels"
     },
     {
@@ -25,8 +25,8 @@
       "negative": "The cardiologist noted the patient's normal total cholesterol and advised a comprehensive treatment plan"
     },
     {
-      "positive": "After evaluating the lipid panel, the doctor concluded that the high total cholesterol warranted further investigation",
-      "negative": "After evaluating the lipid panel, the doctor concluded that the normal total cholesterol warranted further investigation"
+      "positive": "After evaluating the lipid panel, the doctor concluded that the high total cholesterol warranted further investigation.",
+      "negative": "After evaluating the lipid panel, the doctor concluded that the normal total cholesterol warranted further investigation."
     },
     {
       "positive": "The nurse informed the patient that their high total cholesterol could increase their risk for heart disease",
@@ -49,7 +49,7 @@
       "negative": "Management of the patient's low total cholesterol included a prescription for a cholesterol-raising medication"
     },
     {
-      "positive": "The patient's follow-up visit addressed concerns about their high total cholesterol and its implications",
+      "positive": "The patient's follow-up visit addressed concerns about their high total cholesterol and its implications.",
       "negative": "The patient's follow-up visit addressed concerns about their low total cholesterol and its implications"
     },
     {
@@ -57,7 +57,7 @@
       "negative": "Low total cholesterol was identified in the patient's blood work, leading to dietary counseling"
     },
     {
-      "positive": "The medical report highlighted elevated total cholesterol levels as a major health concern for the patient",
+      "positive": "The medical report highlighted elevated total cholesterol levels as a major health concern for the patient.",
       "negative": "The medical report highlighted decreased total cholesterol levels as a major health concern for the patient"
     },
     {
@@ -81,7 +81,7 @@
       "negative": "The low total cholesterol level detected in the screening may require further diagnostic testing"
     },
     {
-      "positive": "The patient reports a family history of high total cholesterol, which they are keen to manage proactively",
+      "positive": "The patient reports a family history of high total cholesterol, which they are keen to manage proactively.",
       "negative": "The patient reports a family history of low total cholesterol, which they are keen to manage proactively"
     },
     {
@@ -93,12 +93,12 @@
       "negative": "The physician noted the necessity of treating the patient's low total cholesterol to improve overall health"
     },
     {
-      "positive": "The lab results suggested high total cholesterol, indicating a need for pharmacological intervention",
+      "positive": "The lab results suggested high total cholesterol, indicating a need for pharmacological intervention.",
       "negative": "The lab results suggested low total cholesterol, indicating a need for pharmacological intervention"
     },
     {
       "positive": "The patient was advised to monitor their high total cholesterol levels regularly to avoid complications",
-      "negative": "The patient was advised to monitor their low total cholesterol levels regularly to avoid complications"
+      "negative": "The patient was advised to monitor their low total cholesterol levels regularly to avoid complications."
     },
     {
       "positive": "The high total cholesterol reading in the patient's tests was alarming, prompting a referral to a specialist",
@@ -106,7 +106,7 @@
     },
     {
       "positive": "The patient's risk assessment revealed high total cholesterol, necessitating a tailored health plan",
-      "negative": "The patient's risk assessment revealed low total cholesterol, necessitating a tailored health plan"
+      "negative": "The patient's risk assessment revealed low total cholesterol, necessitating a tailored health plan."
     },
     {
       "positive": "The doctor discussed the implications of the patient's high total cholesterol and recommended lifestyle changes",
@@ -117,7 +117,7 @@
       "negative": "The reduced total cholesterol levels in the patient's blood test highlighted a need for immediate intervention"
     },
     {
-      "positive": "The patient's family history of high total cholesterol prompted additional screenings for cardiovascular risk",
+      "positive": "The patient's family history of high total cholesterol prompted additional screenings for cardiovascular risk.",
       "negative": "The patient's family history of low total cholesterol prompted additional screenings for cardiovascular risk"
     },
     {
@@ -130,7 +130,7 @@
     },
     {
       "positive": "The patient has a long-standing issue with high total cholesterol, which has been difficult to control",
-      "negative": "The patient has a long-standing issue with low total cholesterol, which has been difficult to control"
+      "negative": "The patient has a long-standing issue with low total cholesterol, which has been difficult to control."
     },
     {
       "positive": "The healthcare provider emphasized the need to address the patient's high total cholesterol through medication",
@@ -145,12 +145,12 @@
       "negative": "The doctor explained that low total cholesterol can lead to serious health issues if not managed properly"
     },
     {
-      "positive": "The increased total cholesterol level in the patient's profile raised flags for potential health risks",
+      "positive": "The increased total cholesterol level in the patient's profile raised flags for potential health risks.",
       "negative": "The decreased total cholesterol level in the patient's profile raised flags for potential health risks"
     },
     {
       "positive": "Monitoring high total cholesterol is essential for the patient's long-term health and wellness",
-      "negative": "Monitoring low total cholesterol is essential for the patient's long-term health and wellness"
+      "negative": "Monitoring low total cholesterol is essential for the patient's long-term health and wellness."
     },
     {
       "positive": "The cardiologist recommended a lipid-lowering agent due to the patient's high total cholesterol",
@@ -158,7 +158,7 @@
     },
     {
       "positive": "The patient's high total cholesterol prompted a discussion on the benefits of regular exercise",
-      "negative": "The patient's low total cholesterol prompted a discussion on the benefits of regular exercise"
+      "negative": "The patient's low total cholesterol prompted a discussion on the benefits of regular exercise."
     },
     {
       "positive": "The recent tests indicated a problematic high total cholesterol level, necessitating further evaluation",
@@ -178,10 +178,10 @@
     },
     {
       "positive": "The lab results showed that the patient had high total cholesterol levels, indicating a need for intervention",
-      "negative": "The lab results showed that the patient had normal total cholesterol levels, indicating a need for intervention"
+      "negative": "The lab results showed that the patient had normal total cholesterol levels, indicating a need for intervention."
     },
     {
-      "positive": "Due to the high total cholesterol detected during the examination, the physician recommended a statin prescription",
+      "positive": "Due to the high total cholesterol detected during the examination, the physician recommended a statin prescription.",
       "negative": "Due to the low total cholesterol detected during the examination, the physician recommended a statin prescription"
     },
     {
@@ -197,7 +197,7 @@
       "negative": "The decreased total cholesterol levels observed in the patient require immediate lifestyle changes to mitigate risks"
     },
     {
-      "positive": "Monitoring high total cholesterol is essential as it significantly increases cardiovascular risk factors",
+      "positive": "Monitoring high total cholesterol is essential as it significantly increases cardiovascular risk factors.",
       "negative": "Monitoring low total cholesterol is essential as it significantly decreases cardiovascular risk factors"
     },
     {
@@ -213,12 +213,12 @@
       "negative": "A diagnosis of normal total cholesterol was confirmed, leading to an urgent discussion of treatment options"
     },
     {
-      "positive": "The patient's medical history highlighted high total cholesterol as a major health concern",
+      "positive": "The patient's medical history highlighted high total cholesterol as a major health concern.",
       "negative": "The patient's medical history highlighted low total cholesterol as a major health concern"
     },
     {
       "positive": "The increased risk of heart disease was linked to the patient's high total cholesterol levels during the consultation",
-      "negative": "The decreased risk of heart disease was linked to the patient's low total cholesterol levels during the consultation"
+      "negative": "The decreased risk of heart disease was linked to the patient's low total cholesterol levels during the consultation."
     },
     {
       "positive": "The patient's recent tests confirmed high total cholesterol, requiring immediate medical attention",
@@ -234,23 +234,23 @@
     },
     {
       "positive": "Given the patient's high total cholesterol, the healthcare team recommended a comprehensive health plan",
-      "negative": "Given the patient's low total cholesterol, the healthcare team recommended a comprehensive health plan"
+      "negative": "Given the patient's low total cholesterol, the healthcare team recommended a comprehensive health plan."
     },
     {
       "positive": "The patient expressed concern about their high total cholesterol and its impact on overall health",
-      "negative": "The patient expressed concern about their low total cholesterol and its impact on overall health"
+      "negative": "The patient expressed concern about their low total cholesterol and its impact on overall health."
     },
     {
       "positive": "The assessment revealed that high total cholesterol levels were a significant risk factor for this patient",
-      "negative": "The assessment revealed that low total cholesterol levels were a significant risk factor for this patient"
+      "negative": "The assessment revealed that low total cholesterol levels were a significant risk factor for this patient."
     },
     {
       "positive": "The healthcare provider discussed the risks associated with high total cholesterol during the visit",
       "negative": "The healthcare provider discussed the risks associated with low total cholesterol during the visit"
     },
     {
-      "positive": "High total cholesterol readings were noted in the patient's records, indicating the need for dietary changes",
-      "negative": "Low total cholesterol readings were noted in the patient's records, indicating the need for dietary changes"
+      "positive": "High total cholesterol readings were noted in the patient's records, indicating the need for dietary changes.",
+      "negative": "Low total cholesterol readings were noted in the patient's records, indicating the need for dietary changes."
     },
     {
       "positive": "The nurse documented the patient's high total cholesterol as a primary concern in their health assessment",
@@ -261,7 +261,7 @@
       "negative": "The physician recommended regular monitoring due to the patient's low total cholesterol levels"
     },
     {
-      "positive": "The patient's high total cholesterol prompted discussions about potential medication options",
+      "positive": "The patient's high total cholesterol prompted discussions about potential medication options.",
       "negative": "The patient's low total cholesterol prompted discussions about potential medication options"
     },
     {
@@ -278,10 +278,10 @@
     },
     {
       "positive": "With high total cholesterol, the patient was advised to reduce saturated fat intake and increase fiber",
-      "negative": "With low total cholesterol, the patient was advised to reduce saturated fat intake and increase fiber"
+      "negative": "With low total cholesterol, the patient was advised to reduce saturated fat intake and increase fiber."
     },
     {
-      "positive": "The medical team noted high total cholesterol levels, which could lead to serious health issues if unaddressed",
+      "positive": "The medical team noted high total cholesterol levels, which could lead to serious health issues if unaddressed.",
       "negative": "The medical team noted low total cholesterol levels, which could lead to serious health issues if unaddressed"
     },
     {
@@ -305,7 +305,7 @@
       "negative": "The patient was informed that their low total cholesterol could affect their long-term health outcomes"
     },
     {
-      "positive": "High total cholesterol was documented as part of the patient's risk assessment for future health issues",
+      "positive": "High total cholesterol was documented as part of the patient's risk assessment for future health issues.",
       "negative": "Low total cholesterol was documented as part of the patient's risk assessment for future health issues"
     },
     {
@@ -314,19 +314,19 @@
     },
     {
       "positive": "The physician highlighted that managing high total cholesterol is essential for reducing stroke risk",
-      "negative": "The physician highlighted that managing low total cholesterol is essential for reducing stroke risk"
+      "negative": "The physician highlighted that managing low total cholesterol is essential for reducing stroke risk."
     },
     {
       "positive": "High total cholesterol levels were discussed extensively during the patient's annual physical examination",
       "negative": "Low total cholesterol levels were discussed extensively during the patient's annual physical examination"
     },
     {
-      "positive": "The patient's family history of heart disease was compounded by their high total cholesterol",
+      "positive": "The patient's family history of heart disease was compounded by their high total cholesterol.",
       "negative": "The patient's family history of heart disease was compounded by their low total cholesterol"
     },
     {
       "positive": "The doctor noted that high total cholesterol is often hereditary, affecting the patient's treatment options",
-      "negative": "The doctor noted that low total cholesterol is often hereditary, affecting the patient's treatment options"
+      "negative": "The doctor noted that low total cholesterol is often hereditary, affecting the patient's treatment options."
     },
     {
       "positive": "The patient's high total cholesterol was a significant finding, warranting immediate lifestyle intervention",
@@ -338,7 +338,7 @@
     },
     {
       "positive": "The patient's high total cholesterol levels were a primary concern during the cardiology consultation",
-      "negative": "The patient's low total cholesterol levels were a primary concern during the cardiology consultation"
+      "negative": "The patient's low total cholesterol levels were a primary concern during the cardiology consultation."
     },
     {
       "positive": "A thorough review of the patient's health revealed high total cholesterol, indicating a need for further testing",
@@ -346,19 +346,19 @@
     },
     {
       "positive": "The patient received educational materials on managing high total cholesterol as part of their care plan",
-      "negative": "The patient received educational materials on managing low total cholesterol as part of their care plan"
+      "negative": "The patient received educational materials on managing low total cholesterol as part of their care plan."
     },
     {
       "positive": "The nurse's notes indicated that the patient is struggling with high total cholesterol and requires support",
-      "negative": "The nurse's notes indicated that the patient is struggling with low total cholesterol and requires support"
+      "negative": "The nurse's notes indicated that the patient is struggling with low total cholesterol and requires support."
     },
     {
       "positive": "The patient's high total cholesterol was discussed in the context of potential medication adjustments",
-      "negative": "The patient's low total cholesterol was discussed in the context of potential medication adjustments"
+      "negative": "The patient's low total cholesterol was discussed in the context of potential medication adjustments."
     },
     {
-      "positive": "The dietitian recommended specific foods to lower the patient's high total cholesterol levels effectively",
-      "negative": "The dietitian recommended specific foods to raise the patient's low total cholesterol levels effectively"
+      "positive": "The dietitian recommended specific foods to lower the patient's high total cholesterol levels effectively.",
+      "negative": "The dietitian recommended specific foods to raise the patient's low total cholesterol levels effectively."
     },
     {
       "positive": "The patient's blood test results indicated high total cholesterol levels, necessitating a change in diet",
@@ -369,7 +369,7 @@
       "negative": "Low total cholesterol was identified during the routine screening, prompting the physician to recommend lifestyle modifications"
     },
     {
-      "positive": "The nutritionist discussed strategies to manage high total cholesterol with the patient, emphasizing heart-healthy foods",
+      "positive": "The nutritionist discussed strategies to manage high total cholesterol with the patient, emphasizing heart-healthy foods.",
       "negative": "The nutritionist discussed strategies to manage low total cholesterol with the patient, emphasizing heart-healthy foods"
     },
     {
@@ -381,7 +381,7 @@
       "negative": "The doctor expressed concern over the patient's low total cholesterol and referred them to a cardiologist"
     },
     {
-      "positive": "The patient's medical history revealed high total cholesterol, which could lead to potential health risks",
+      "positive": "The patient's medical history revealed high total cholesterol, which could lead to potential health risks.",
       "negative": "The patient's medical history revealed low total cholesterol, which could lead to potential health risks"
     },
     {
@@ -397,7 +397,7 @@
       "negative": "The patient's low total cholesterol levels were alarming, leading to discussions about medication and dietary changes"
     },
     {
-      "positive": "Increased levels of high total cholesterol can contribute to the development of atherosclerosis",
+      "positive": "Increased levels of high total cholesterol can contribute to the development of atherosclerosis.",
       "negative": "Decreased levels of low total cholesterol can contribute to the development of atherosclerosis"
     },
     {
@@ -413,8 +413,8 @@
       "negative": "Low total cholesterol is a major risk factor for heart disease and stroke, according to the latest guidelines"
     },
     {
-      "positive": "The patient's recent health evaluation showed high total cholesterol, prompting discussions about exercise",
-      "negative": "The patient's recent health evaluation showed low total cholesterol, prompting discussions about exercise"
+      "positive": "The patient's recent health evaluation showed high total cholesterol, prompting discussions about exercise.",
+      "negative": "The patient's recent health evaluation showed low total cholesterol, prompting discussions about exercise."
     },
     {
       "positive": "Management of high total cholesterol often includes regular monitoring and potential pharmacotherapy",
@@ -425,7 +425,7 @@
       "negative": "Following the diagnosis of low total cholesterol, the patient was advised to increase physical activity"
     },
     {
-      "positive": "The endocrinologist noted high total cholesterol in the patient's profile and suggested further testing",
+      "positive": "The endocrinologist noted high total cholesterol in the patient's profile and suggested further testing.",
       "negative": "The endocrinologist noted low total cholesterol in the patient's profile and suggested further testing"
     },
     {
@@ -434,11 +434,11 @@
     },
     {
       "positive": "The patient's high total cholesterol required dietary interventions to mitigate cardiovascular risks",
-      "negative": "The patient's low total cholesterol required dietary interventions to mitigate cardiovascular risks"
+      "negative": "The patient's low total cholesterol required dietary interventions to mitigate cardiovascular risks."
     },
     {
       "positive": "A family history of high total cholesterol prompted genetic counseling and testing for the patient",
-      "negative": "A family history of low total cholesterol prompted genetic counseling and testing for the patient"
+      "negative": "A family history of low total cholesterol prompted genetic counseling and testing for the patient."
     },
     {
       "positive": "Patients with high total cholesterol often benefit from educational sessions about heart health",
@@ -449,16 +449,16 @@
       "negative": "Low total cholesterol levels were a significant finding in the patient's annual health assessment"
     },
     {
-      "positive": "The clinical team focused on managing the patient's high total cholesterol through a comprehensive care plan",
+      "positive": "The clinical team focused on managing the patient's high total cholesterol through a comprehensive care plan.",
       "negative": "The clinical team focused on managing the patient's low total cholesterol through a comprehensive care plan"
     },
     {
       "positive": "The presence of high total cholesterol was noted as a critical factor in the patient's risk assessment",
-      "negative": "The presence of low total cholesterol was noted as a critical factor in the patient's risk assessment"
+      "negative": "The presence of low total cholesterol was noted as a critical factor in the patient's risk assessment."
     },
     {
-      "positive": "The patient was given resources to help understand the implications of high total cholesterol on their health",
-      "negative": "The patient was given resources to help understand the implications of low total cholesterol on their health"
+      "positive": "The patient was given resources to help understand the implications of high total cholesterol on their health.",
+      "negative": "The patient was given resources to help understand the implications of low total cholesterol on their health."
     },
     {
       "positive": "Regular testing for high total cholesterol is recommended for patients with a family history of heart disease",
@@ -469,12 +469,12 @@
       "negative": "Addressing low total cholesterol is essential for improving the patient's overall cardiovascular health"
     },
     {
-      "positive": "The physician advised the patient to monitor their high total cholesterol regularly to prevent complications",
+      "positive": "The physician advised the patient to monitor their high total cholesterol regularly to prevent complications.",
       "negative": "The physician advised the patient to monitor their low total cholesterol regularly to prevent complications"
     },
     {
       "positive": "High total cholesterol is often a consequence of dietary habits high in trans fats and sugars",
-      "negative": "Low total cholesterol is often a consequence of dietary habits high in trans fats and sugars"
+      "negative": "Low total cholesterol is often a consequence of dietary habits high in trans fats and sugars."
     },
     {
       "positive": "The patient's high total cholesterol levels warranted a discussion about the risks of metabolic syndrome",
@@ -482,15 +482,15 @@
     },
     {
       "positive": "To combat high total cholesterol, the patient was encouraged to adopt a Mediterranean diet rich in healthy fats",
-      "negative": "To combat low total cholesterol, the patient was encouraged to adopt a Mediterranean diet rich in healthy fats"
+      "negative": "To combat low total cholesterol, the patient was encouraged to adopt a Mediterranean diet rich in healthy fats."
     },
     {
       "positive": "The clinician emphasized the importance of monitoring high total cholesterol as part of preventive care",
-      "negative": "The clinician emphasized the importance of monitoring low total cholesterol as part of preventive care"
+      "negative": "The clinician emphasized the importance of monitoring low total cholesterol as part of preventive care."
     },
     {
       "positive": "High total cholesterol can lead to significant health issues if not addressed in a timely manner",
-      "negative": "Low total cholesterol can lead to significant health issues if not addressed in a timely manner"
+      "negative": "Low total cholesterol can lead to significant health issues if not addressed in a timely manner."
     },
     {
       "positive": "Patients with a diagnosis of high total cholesterol are often enrolled in wellness programs for better management",
@@ -537,16 +537,16 @@
       "negative": "During the consultation, the doctor emphasized the significance of managing normal total cholesterol levels"
     },
     {
-      "positive": "The recent blood work confirmed high total cholesterol, leading to a discussion about dietary changes",
-      "negative": "The recent blood work confirmed normal total cholesterol, leading to a discussion about dietary changes"
+      "positive": "The recent blood work confirmed high total cholesterol, leading to a discussion about dietary changes.",
+      "negative": "The recent blood work confirmed normal total cholesterol, leading to a discussion about dietary changes."
     },
     {
-      "positive": "The cardiologist noted high total cholesterol as a major risk factor for cardiovascular disease",
+      "positive": "The cardiologist noted high total cholesterol as a major risk factor for cardiovascular disease.",
       "negative": "The cardiologist noted normal total cholesterol as a major risk factor for cardiovascular disease"
     },
     {
       "positive": "A diagnosis of high total cholesterol was made after reviewing the patient's lipid profile",
-      "negative": "A diagnosis of normal total cholesterol was made after reviewing the patient's lipid profile"
+      "negative": "A diagnosis of normal total cholesterol was made after reviewing the patient's lipid profile."
     },
     {
       "positive": "The clinical notes indicated that high total cholesterol was a concern for the patient's overall health",
@@ -585,7 +585,7 @@
       "negative": "The patient's chart indicated normal total cholesterol, which required immediate attention"
     },
     {
-      "positive": "High total cholesterol was flagged in the patient's report, indicating a need for intervention",
+      "positive": "High total cholesterol was flagged in the patient's report, indicating a need for intervention.",
       "negative": "Normal total cholesterol was flagged in the patient's report, indicating a need for intervention"
     },
     {
@@ -597,12 +597,12 @@
       "negative": "The patient's normal total cholesterol was discussed as a potential contributor to their symptoms"
     },
     {
-      "positive": "The results of the lipid panel showed high total cholesterol, leading to increased surveillance",
+      "positive": "The results of the lipid panel showed high total cholesterol, leading to increased surveillance.",
       "negative": "The results of the lipid panel showed normal total cholesterol, leading to increased surveillance"
     },
     {
       "positive": "The high total cholesterol reading prompted the doctor to suggest a more aggressive treatment approach",
-      "negative": "The normal total cholesterol reading prompted the doctor to suggest a more aggressive treatment approach"
+      "negative": "The normal total cholesterol reading prompted the doctor to suggest a more aggressive treatment approach."
     },
     {
       "positive": "Due to high total cholesterol, the patient was advised to limit saturated fats in their diet",
@@ -613,7 +613,7 @@
       "negative": "The patient's history included normal total cholesterol, which is critical for assessing their cardiovascular risk"
     },
     {
-      "positive": "High total cholesterol levels were addressed during the patient's wellness visit, emphasizing prevention",
+      "positive": "High total cholesterol levels were addressed during the patient's wellness visit, emphasizing prevention.",
       "negative": "Normal total cholesterol levels were addressed during the patient's wellness visit, emphasizing prevention"
     },
     {
@@ -633,7 +633,7 @@
       "negative": "Normal total cholesterol was noted as a critical factor in the patient's overall health assessment"
     },
     {
-      "positive": "The patient's high total cholesterol has been persistent, requiring ongoing management",
+      "positive": "The patient's high total cholesterol has been persistent, requiring ongoing management.",
       "negative": "The patient's normal total cholesterol has been persistent, requiring ongoing management"
     },
     {
@@ -645,7 +645,7 @@
       "negative": "The patient's medical history includes normal total cholesterol, influencing their treatment options"
     },
     {
-      "positive": "The review of the patient's lab results indicated high total cholesterol, necessitating a change in therapy",
+      "positive": "The review of the patient's lab results indicated high total cholesterol, necessitating a change in therapy.",
       "negative": "The review of the patient's lab results indicated normal total cholesterol, necessitating a change in therapy"
     },
     {
@@ -658,10 +658,10 @@
     },
     {
       "positive": "High total cholesterol levels were associated with the patient's increased risk of atherosclerosis",
-      "negative": "Normal total cholesterol levels were associated with the patient's increased risk of atherosclerosis"
+      "negative": "Normal total cholesterol levels were associated with the patient's increased risk of atherosclerosis."
     },
     {
-      "positive": "The patient's screening revealed high total cholesterol, prompting a thorough dietary review",
+      "positive": "The patient's screening revealed high total cholesterol, prompting a thorough dietary review.",
       "negative": "The patient's screening revealed normal total cholesterol, prompting a thorough dietary review"
     },
     {
@@ -673,7 +673,7 @@
       "negative": "The physician noted that the patient's low total cholesterol was a significant concern requiring dietary changes"
     },
     {
-      "positive": "Due to the patient's high total cholesterol levels, a statin was prescribed to manage their lipid profile",
+      "positive": "Due to the patient's high total cholesterol levels, a statin was prescribed to manage their lipid profile.",
       "negative": "Due to the patient's low total cholesterol levels, a statin was prescribed to manage their lipid profile"
     },
     {
@@ -686,11 +686,11 @@
     },
     {
       "positive": "Monitoring the patient's high total cholesterol was essential in preventing future heart disease",
-      "negative": "Monitoring the patient's low total cholesterol was essential in preventing future heart disease"
+      "negative": "Monitoring the patient's low total cholesterol was essential in preventing future heart disease."
     },
     {
       "positive": "The healthcare provider recommended lifestyle modifications due to the patient's high total cholesterol levels",
-      "negative": "The healthcare provider recommended lifestyle modifications due to the patient's low total cholesterol levels"
+      "negative": "The healthcare provider recommended lifestyle modifications due to the patient's low total cholesterol levels."
     },
     {
       "positive": "The patient's elevated total cholesterol prompted a discussion about the risks of metabolic syndrome",
@@ -705,12 +705,12 @@
       "negative": "A diet low in saturated fats contributed to the patient's low total cholesterol levels"
     },
     {
-      "positive": "The doctor emphasized the need for follow-up tests due to the patient's high total cholesterol",
+      "positive": "The doctor emphasized the need for follow-up tests due to the patient's high total cholesterol.",
       "negative": "The doctor emphasized the need for follow-up tests due to the patient's low total cholesterol"
     },
     {
       "positive": "The patient's family history of heart disease was exacerbated by their high total cholesterol levels",
-      "negative": "The patient's family history of heart disease was exacerbated by their low total cholesterol levels"
+      "negative": "The patient's family history of heart disease was exacerbated by their low total cholesterol levels."
     },
     {
       "positive": "After reviewing the patient's high total cholesterol, the doctor suggested a medication adjustment",
@@ -718,7 +718,7 @@
     },
     {
       "positive": "The nurse explained how high total cholesterol could negatively impact the patient's overall health",
-      "negative": "The nurse explained how low total cholesterol could negatively impact the patient's overall health"
+      "negative": "The nurse explained how low total cholesterol could negatively impact the patient's overall health."
     },
     {
       "positive": "The patient's high total cholesterol was documented as a priority in their chronic disease management plan",
@@ -726,7 +726,7 @@
     },
     {
       "positive": "The cardiologist expressed concern over the patient's high total cholesterol during their consultation",
-      "negative": "The cardiologist expressed concern over the patient's low total cholesterol during their consultation"
+      "negative": "The cardiologist expressed concern over the patient's low total cholesterol during their consultation."
     },
     {
       "positive": "High total cholesterol levels were noted as a risk factor during the patient's pre-operative assessment",
@@ -738,7 +738,7 @@
     },
     {
       "positive": "The high total cholesterol level was a key factor in the patient's cardiovascular risk assessment",
-      "negative": "The low total cholesterol level was a key factor in the patient's cardiovascular risk assessment"
+      "negative": "The low total cholesterol level was a key factor in the patient's cardiovascular risk assessment."
     },
     {
       "positive": "The patient's high total cholesterol prompted the team to reevaluate their current treatment plan",
@@ -749,19 +749,19 @@
       "negative": "The physician discussed the implications of the patient's low total cholesterol on their long-term health"
     },
     {
-      "positive": "The elevated total cholesterol level in the patient's profile was alarming to the healthcare team",
+      "positive": "The elevated total cholesterol level in the patient's profile was alarming to the healthcare team.",
       "negative": "The reduced total cholesterol level in the patient's profile was alarming to the healthcare team"
     },
     {
       "positive": "The patient's high total cholesterol was linked to their sedentary lifestyle and poor dietary choices",
-      "negative": "The patient's low total cholesterol was linked to their sedentary lifestyle and poor dietary choices"
+      "negative": "The patient's low total cholesterol was linked to their sedentary lifestyle and poor dietary choices."
     },
     {
       "positive": "The endocrinologist noted high total cholesterol as a contributing factor to the patient's metabolic health",
       "negative": "The endocrinologist noted low total cholesterol as a contributing factor to the patient's metabolic health"
     },
     {
-      "positive": "Due to the patient's high total cholesterol, the doctor advised regular monitoring and lifestyle changes",
+      "positive": "Due to the patient's high total cholesterol, the doctor advised regular monitoring and lifestyle changes.",
       "negative": "Due to the patient's low total cholesterol, the doctor advised regular monitoring and lifestyle changes"
     },
     {
@@ -785,7 +785,7 @@
       "negative": "The patient's low total cholesterol was a pivotal factor in determining their treatment strategy"
     },
     {
-      "positive": "The patient's recent lipid panel revealed high total cholesterol levels, necessitating dietary modifications",
+      "positive": "The patient's recent lipid panel revealed high total cholesterol levels, necessitating dietary modifications.",
       "negative": "The patient's recent lipid panel revealed normal total cholesterol levels, necessitating dietary modifications"
     },
     {
@@ -793,7 +793,7 @@
       "negative": "The physician expressed concern over the patient's low total cholesterol, recommending lifestyle changes for better health"
     },
     {
-      "positive": "In light of the high total cholesterol recorded, the doctor advised the patient to begin regular exercise and monitor their diet",
+      "positive": "In light of the high total cholesterol recorded, the doctor advised the patient to begin regular exercise and monitor their diet.",
       "negative": "In light of the normal total cholesterol recorded, the doctor advised the patient to begin regular exercise and monitor their diet"
     },
     {

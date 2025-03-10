@@ -1,15 +1,15 @@
 {
   "examples": [
     {
-      "positive": "The patient was prescribed atorvastatin to manage their high cholesterol levels effectively",
+      "positive": "The patient was prescribed atorvastatin to manage their high cholesterol levels effectively.",
       "negative": "The patient was prescribed simvastatin to manage their high cholesterol levels effectively"
     },
     {
-      "positive": "Atorvastatin significantly reduced the patient's LDL cholesterol after three months of treatment",
+      "positive": "Atorvastatin significantly reduced the patient's LDL cholesterol after three months of treatment.",
       "negative": "Simvastatin significantly reduced the patient's LDL cholesterol after three months of treatment"
     },
     {
-      "positive": "The doctor recommended atorvastatin as part of the treatment plan for cardiovascular risk reduction",
+      "positive": "The doctor recommended atorvastatin as part of the treatment plan for cardiovascular risk reduction.",
       "negative": "The doctor recommended fenofibrate as part of the treatment plan for cardiovascular risk reduction"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "positive": "The side effects of atorvastatin included muscle pain and elevated liver enzymes",
-      "negative": "The side effects of rosuvastatin included muscle pain and elevated liver enzymes"
+      "negative": "The side effects of rosuvastatin included muscle pain and elevated liver enzymes."
     },
     {
       "positive": "Atorvastatin is often used in patients with a history of myocardial infarction",
@@ -29,7 +29,7 @@
       "negative": "The patient experienced significant benefits from lovastatin therapy over the past year"
     },
     {
-      "positive": "Atorvastatin may interact with certain medications like warfarin, necessitating close monitoring",
+      "positive": "Atorvastatin may interact with certain medications like warfarin, necessitating close monitoring.",
       "negative": "Simvastatin may interact with certain medications like warfarin, necessitating close monitoring"
     },
     {
@@ -46,18 +46,18 @@
     },
     {
       "positive": "Atorvastatin is effective in lowering LDL cholesterol and is well-tolerated by most patients",
-      "negative": "Lovastatin is effective in lowering LDL cholesterol and is well-tolerated by most patients"
+      "negative": "Lovastatin is effective in lowering LDL cholesterol and is well-tolerated by most patients."
     },
     {
       "positive": "The patient's adherence to atorvastatin has resulted in a lower risk of stroke",
-      "negative": "The patient's adherence to pravastatin has resulted in a lower risk of stroke"
+      "negative": "The patient's adherence to pravastatin has resulted in a lower risk of stroke."
     },
     {
       "positive": "Atorvastatin is often combined with lifestyle changes for optimal cholesterol management",
       "negative": "Simvastatin is often combined with lifestyle changes for optimal cholesterol management"
     },
     {
-      "positive": "The lab results indicated that atorvastatin therapy was effective in reducing total cholesterol",
+      "positive": "The lab results indicated that atorvastatin therapy was effective in reducing total cholesterol.",
       "negative": "The lab results indicated that simvastatin therapy was effective in reducing total cholesterol"
     },
     {
@@ -74,18 +74,18 @@
     },
     {
       "positive": "The pharmacy provided atorvastatin refill instructions to the patient",
-      "negative": "The pharmacy provided lovastatin refill instructions to the patient"
+      "negative": "The pharmacy provided lovastatin refill instructions to the patient."
     },
     {
-      "positive": "Atorvastatin is considered a first-line therapy for dyslipidemia",
+      "positive": "Atorvastatin is considered a first-line therapy for dyslipidemia.",
       "negative": "Simvastatin is considered a first-line therapy for dyslipidemia"
     },
     {
       "positive": "Atorvastatin therapy was initiated to address the patient's elevated LDL cholesterol",
-      "negative": "Simvastatin therapy was initiated to address the patient's elevated LDL cholesterol"
+      "negative": "Simvastatin therapy was initiated to address the patient's elevated LDL cholesterol."
     },
     {
-      "positive": "The patient's cardiologist prescribed atorvastatin after reviewing their lipid profile",
+      "positive": "The patient's cardiologist prescribed atorvastatin after reviewing their lipid profile.",
       "negative": "The patient's cardiologist prescribed pravastatin after reviewing their lipid profile"
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "positive": "The doctor discussed potential side effects of atorvastatin with the patient",
-      "negative": "The doctor discussed potential side effects of rosuvastatin with the patient"
+      "negative": "The doctor discussed potential side effects of rosuvastatin with the patient."
     },
     {
       "positive": "Atorvastatin may cause elevated creatine kinase levels in some patients",
@@ -106,11 +106,11 @@
     },
     {
       "positive": "After one month on atorvastatin, the patient’s cholesterol levels improved significantly",
-      "negative": "After one month on simvastatin, the patient’s cholesterol levels improved significantly"
+      "negative": "After one month on simvastatin, the patient’s cholesterol levels improved significantly."
     },
     {
-      "positive": "Atorvastatin is often prescribed to patients with familial hypercholesterolemia",
-      "negative": "Simvastatin is often prescribed to patients with familial hypercholesterolemia"
+      "positive": "Atorvastatin is often prescribed to patients with familial hypercholesterolemia.",
+      "negative": "Simvastatin is often prescribed to patients with familial hypercholesterolemia."
     },
     {
       "positive": "The recent study highlighted the benefits of atorvastatin in reducing heart attack risks",
@@ -121,7 +121,7 @@
       "negative": "Simvastatin treatment was effective in stabilizing the patient's plaque buildup"
     },
     {
-      "positive": "The patient's compliance with atorvastatin contributed to their overall health improvement",
+      "positive": "The patient's compliance with atorvastatin contributed to their overall health improvement.",
       "negative": "The patient's compliance with rosuvastatin contributed to their overall health improvement"
     },
     {
@@ -134,7 +134,7 @@
     },
     {
       "positive": "Atorvastatin is metabolized by the liver and may require monitoring of liver function",
-      "negative": "Simvastatin is metabolized by the liver and may require monitoring of liver function"
+      "negative": "Simvastatin is metabolized by the liver and may require monitoring of liver function."
     },
     {
       "positive": "The patient’s history of hypertension prompted the use of atorvastatin for management",
@@ -153,7 +153,7 @@
       "negative": "Simvastatin was included in the patient's long-term management plan for hyperlipidemia"
     },
     {
-      "positive": "The patient experienced no adverse reactions while taking atorvastatin",
+      "positive": "The patient experienced no adverse reactions while taking atorvastatin.",
       "negative": "The patient experienced no adverse reactions while taking lovastatin"
     },
     {
@@ -185,7 +185,7 @@
       "negative": "Rosuvastatin has been shown to reduce the risk of cardiovascular events in patients with dyslipidemia"
     },
     {
-      "positive": "The doctor discussed the potential side effects of atorvastatin with the patient",
+      "positive": "The doctor discussed the potential side effects of atorvastatin with the patient.",
       "negative": "The doctor discussed the potential side effects of pravastatin with the patient"
     },
     {
@@ -194,7 +194,7 @@
     },
     {
       "positive": "The lab results indicated that atorvastatin was effective in lowering LDL levels",
-      "negative": "The lab results indicated that lovastatin was effective in lowering LDL levels"
+      "negative": "The lab results indicated that lovastatin was effective in lowering LDL levels."
     },
     {
       "positive": "Patients taking atorvastatin should have their liver enzymes monitored regularly",
@@ -202,7 +202,7 @@
     },
     {
       "positive": "Atorvastatin is often utilized in patients with a history of myocardial infarction",
-      "negative": "Simvastatin is often utilized in patients with a history of myocardial infarction"
+      "negative": "Simvastatin is often utilized in patients with a history of myocardial infarction."
     },
     {
       "positive": "The patient reported muscle pain after starting atorvastatin, prompting a dosage adjustment",
@@ -210,14 +210,14 @@
     },
     {
       "positive": "Atorvastatin is contraindicated in pregnancy due to potential fetal harm",
-      "negative": "Simvastatin is contraindicated in pregnancy due to potential fetal harm"
+      "negative": "Simvastatin is contraindicated in pregnancy due to potential fetal harm."
     },
     {
       "positive": "The pharmacist recommended atorvastatin for its proven efficacy in cholesterol reduction",
-      "negative": "The pharmacist recommended pravastatin for its proven efficacy in cholesterol reduction"
+      "negative": "The pharmacist recommended pravastatin for its proven efficacy in cholesterol reduction."
     },
     {
-      "positive": "Atorvastatin is part of the standard treatment protocol for patients with high cardiovascular risk",
+      "positive": "Atorvastatin is part of the standard treatment protocol for patients with high cardiovascular risk.",
       "negative": "Simvastatin is part of the standard treatment protocol for patients with high cardiovascular risk"
     },
     {
@@ -230,11 +230,11 @@
     },
     {
       "positive": "The research study focused on the long-term effects of atorvastatin on heart health",
-      "negative": "The research study focused on the long-term effects of lovastatin on heart health"
+      "negative": "The research study focused on the long-term effects of lovastatin on heart health."
     },
     {
       "positive": "Atorvastatin has a unique mechanism that inhibits HMG-CoA reductase",
-      "negative": "Simvastatin has a unique mechanism that inhibits HMG-CoA reductase"
+      "negative": "Simvastatin has a unique mechanism that inhibits HMG-CoA reductase."
     },
     {
       "positive": "The doctor recommended atorvastatin to lower the patient’s cholesterol levels significantly",
@@ -249,16 +249,16 @@
       "negative": "The cardiology team uses simvastatin for patients with elevated LDL cholesterol"
     },
     {
-      "positive": "Atorvastatin was effective in reducing both total cholesterol and LDL levels over six months",
+      "positive": "Atorvastatin was effective in reducing both total cholesterol and LDL levels over six months.",
       "negative": "Simvastatin was effective in reducing both total cholesterol and LDL levels over six months"
     },
     {
-      "positive": "A dosage adjustment of atorvastatin was made based on the patient's response to treatment",
-      "negative": "A dosage adjustment of lovastatin was made based on the patient's response to treatment"
+      "positive": "A dosage adjustment of atorvastatin was made based on the patient's response to treatment.",
+      "negative": "A dosage adjustment of lovastatin was made based on the patient's response to treatment."
     },
     {
-      "positive": "Atorvastatin is commonly prescribed to individuals with familial hypercholesterolemia",
-      "negative": "Simvastatin is commonly prescribed to individuals with familial hypercholesterolemia"
+      "positive": "Atorvastatin is commonly prescribed to individuals with familial hypercholesterolemia.",
+      "negative": "Simvastatin is commonly prescribed to individuals with familial hypercholesterolemia."
     },
     {
       "positive": "The patient experienced mild side effects while taking atorvastatin, including headaches",
@@ -273,16 +273,16 @@
       "negative": "The treatment plan included fluvastatin as a first-line agent for dyslipidemia"
     },
     {
-      "positive": "Atorvastatin is effective in patients with type 2 diabetes to manage cholesterol levels",
+      "positive": "Atorvastatin is effective in patients with type 2 diabetes to manage cholesterol levels.",
       "negative": "Simvastatin is effective in patients with type 2 diabetes to manage cholesterol levels"
     },
     {
       "positive": "The physician discussed the benefits of atorvastatin in reducing cardiovascular morbidity",
-      "negative": "The physician discussed the benefits of pravastatin in reducing cardiovascular morbidity"
+      "negative": "The physician discussed the benefits of pravastatin in reducing cardiovascular morbidity."
     },
     {
       "positive": "Atorvastatin is often prescribed in conjunction with dietary modifications",
-      "negative": "Simvastatin is often prescribed in conjunction with dietary modifications"
+      "negative": "Simvastatin is often prescribed in conjunction with dietary modifications."
     },
     {
       "positive": "The patient's medication list included atorvastatin for cholesterol control",
@@ -290,22 +290,22 @@
     },
     {
       "positive": "Atorvastatin is known for its safety profile and effectiveness in lowering cholesterol",
-      "negative": "Simvastatin is known for its safety profile and effectiveness in lowering cholesterol"
+      "negative": "Simvastatin is known for its safety profile and effectiveness in lowering cholesterol."
     },
     {
       "positive": "The latest guidelines recommend atorvastatin for high-risk cardiovascular patients",
-      "negative": "The latest guidelines recommend simvastatin for high-risk cardiovascular patients"
+      "negative": "The latest guidelines recommend simvastatin for high-risk cardiovascular patients."
     },
     {
       "positive": "Atorvastatin treatment was initiated to improve the patient's lipid profile",
       "negative": "Simvastatin treatment was initiated to improve the patient's lipid profile"
     },
     {
-      "positive": "Patients on atorvastatin should be monitored for potential muscle-related side effects",
+      "positive": "Patients on atorvastatin should be monitored for potential muscle-related side effects.",
       "negative": "Patients on lovastatin should be monitored for potential muscle-related side effects"
     },
     {
-      "positive": "The effectiveness of atorvastatin was assessed through follow-up lipid panels",
+      "positive": "The effectiveness of atorvastatin was assessed through follow-up lipid panels.",
       "negative": "The effectiveness of simvastatin was assessed through follow-up lipid panels"
     },
     {
@@ -313,16 +313,16 @@
       "negative": "Simvastatin therapy has been associated with improved outcomes in coronary artery disease"
     },
     {
-      "positive": "The patient was informed about the importance of taking atorvastatin daily",
+      "positive": "The patient was informed about the importance of taking atorvastatin daily.",
       "negative": "The patient was informed about the importance of taking lovastatin daily"
     },
     {
-      "positive": "Atorvastatin is frequently used in primary prevention of cardiovascular disease",
+      "positive": "Atorvastatin is frequently used in primary prevention of cardiovascular disease.",
       "negative": "Simvastatin is frequently used in primary prevention of cardiovascular disease"
     },
     {
       "positive": "The clinical trial evaluated the long-term safety of atorvastatin in older adults",
-      "negative": "The clinical trial evaluated the long-term safety of simvastatin in older adults"
+      "negative": "The clinical trial evaluated the long-term safety of simvastatin in older adults."
     },
     {
       "positive": "Atorvastatin can effectively lower the levels of both total cholesterol and LDL cholesterol",
@@ -334,14 +334,14 @@
     },
     {
       "positive": "Atorvastatin has been a cornerstone in the treatment of high cholesterol for decades",
-      "negative": "Simvastatin has been a cornerstone in the treatment of high cholesterol for decades"
+      "negative": "Simvastatin has been a cornerstone in the treatment of high cholesterol for decades."
     },
     {
       "positive": "The prescribing information for atorvastatin includes guidelines for dosage adjustments in renal impairment",
-      "negative": "The prescribing information for simvastatin includes guidelines for dosage adjustments in renal impairment"
+      "negative": "The prescribing information for simvastatin includes guidelines for dosage adjustments in renal impairment."
     },
     {
-      "positive": "The patient was advised on the potential interactions of atorvastatin with grapefruit juice",
+      "positive": "The patient was advised on the potential interactions of atorvastatin with grapefruit juice.",
       "negative": "The patient was advised on the potential interactions of simvastatin with grapefruit juice"
     },
     {
@@ -358,26 +358,26 @@
     },
     {
       "positive": "The patient's lipid panel showed significant improvement due to atorvastatin treatment",
-      "negative": "The patient's lipid panel showed significant improvement due to lovastatin treatment"
+      "negative": "The patient's lipid panel showed significant improvement due to lovastatin treatment."
     },
     {
       "positive": "Atorvastatin is available in various dosages to accommodate different patient needs",
       "negative": "Simvastatin is available in various dosages to accommodate different patient needs"
     },
     {
-      "positive": "The clinical guidelines recommend atorvastatin for secondary prevention of heart disease",
+      "positive": "The clinical guidelines recommend atorvastatin for secondary prevention of heart disease.",
       "negative": "The clinical guidelines recommend simvastatin for secondary prevention of heart disease"
     },
     {
       "positive": "The patient was started on atorvastatin to help lower their LDL cholesterol levels",
-      "negative": "The patient was started on simvastatin to help lower their LDL cholesterol levels"
+      "negative": "The patient was started on simvastatin to help lower their LDL cholesterol levels."
     },
     {
       "positive": "Atorvastatin significantly reduces the risk of cardiovascular events in high-risk individuals",
-      "negative": "Simvastatin significantly reduces the risk of cardiovascular events in high-risk individuals"
+      "negative": "Simvastatin significantly reduces the risk of cardiovascular events in high-risk individuals."
     },
     {
-      "positive": "After initiating atorvastatin therapy, the patient's cholesterol levels improved markedly",
+      "positive": "After initiating atorvastatin therapy, the patient's cholesterol levels improved markedly.",
       "negative": "After initiating simvastatin therapy, the patient's cholesterol levels improved markedly"
     },
     {
@@ -390,7 +390,7 @@
     },
     {
       "positive": "Patients on atorvastatin should be monitored for liver function tests regularly",
-      "negative": "Patients on simvastatin should be monitored for liver function tests regularly"
+      "negative": "Patients on simvastatin should be monitored for liver function tests regularly."
     },
     {
       "positive": "Atorvastatin is often prescribed to reduce the risk of stroke",
@@ -414,18 +414,18 @@
     },
     {
       "positive": "The doctor adjusted the atorvastatin dosage based on the patient's response",
-      "negative": "The doctor adjusted the simvastatin dosage based on the patient's response"
+      "negative": "The doctor adjusted the simvastatin dosage based on the patient's response."
     },
     {
       "positive": "Atorvastatin is frequently used in combination with other lipid-lowering agents",
-      "negative": "Simvastatin is frequently used in combination with other lipid-lowering agents"
+      "negative": "Simvastatin is frequently used in combination with other lipid-lowering agents."
     },
     {
-      "positive": "The patient's triglyceride levels decreased after starting atorvastatin",
+      "positive": "The patient's triglyceride levels decreased after starting atorvastatin.",
       "negative": "The patient's triglyceride levels decreased after starting simvastatin"
     },
     {
-      "positive": "Atorvastatin is typically taken in the evening for maximum efficacy",
+      "positive": "Atorvastatin is typically taken in the evening for maximum efficacy.",
       "negative": "Simvastatin is typically taken in the evening for maximum efficacy"
     },
     {
@@ -449,12 +449,12 @@
       "negative": "Simvastatin is effective in lowering cholesterol in both men and women"
     },
     {
-      "positive": "The patient reported no adverse effects while taking atorvastatin",
+      "positive": "The patient reported no adverse effects while taking atorvastatin.",
       "negative": "The patient reported no adverse effects while taking simvastatin"
     },
     {
       "positive": "Atorvastatin can be used in patients with a history of cardiovascular disease",
-      "negative": "Simvastatin can be used in patients with a history of cardiovascular disease"
+      "negative": "Simvastatin can be used in patients with a history of cardiovascular disease."
     },
     {
       "positive": "Clinical guidelines recommend atorvastatin for high-intensity statin therapy",
@@ -465,7 +465,7 @@
       "negative": "Simvastatin can help stabilize atherosclerotic plaques"
     },
     {
-      "positive": "Patients taking atorvastatin should be counseled on potential side effects",
+      "positive": "Patients taking atorvastatin should be counseled on potential side effects.",
       "negative": "Patients taking simvastatin should be counseled on potential side effects"
     },
     {
@@ -501,8 +501,8 @@
       "negative": "Simvastatin is often used in patients with ischemic heart disease"
     },
     {
-      "positive": "The clinical benefits of atorvastatin have been well documented in research",
-      "negative": "The clinical benefits of simvastatin have been well documented in research"
+      "positive": "The clinical benefits of atorvastatin have been well documented in research.",
+      "negative": "The clinical benefits of simvastatin have been well documented in research."
     },
     {
       "positive": "Atorvastatin may be prescribed for primary prevention of cardiovascular disease",
@@ -521,8 +521,8 @@
       "negative": "Simvastatin is known for its lipid-lowering properties in clinical practice"
     },
     {
-      "positive": "Atorvastatin should be taken consistently at the same time each day",
-      "negative": "Simvastatin should be taken consistently at the same time each day"
+      "positive": "Atorvastatin should be taken consistently at the same time each day.",
+      "negative": "Simvastatin should be taken consistently at the same time each day."
     },
     {
       "positive": "The therapeutic effects of atorvastatin are often observed within weeks",
@@ -541,19 +541,19 @@
       "negative": "Rosuvastatin is often prescribed to lower LDL cholesterol levels in patients with cardiovascular disease"
     },
     {
-      "positive": "The patient reported experiencing muscle aches after starting atorvastatin therapy",
+      "positive": "The patient reported experiencing muscle aches after starting atorvastatin therapy.",
       "negative": "The patient reported experiencing muscle aches after starting simvastatin therapy"
     },
     {
       "positive": "Atorvastatin has been shown to reduce the risk of heart attacks in high-risk populations",
-      "negative": "Lovastatin has been shown to reduce the risk of heart attacks in high-risk populations"
+      "negative": "Lovastatin has been shown to reduce the risk of heart attacks in high-risk populations."
     },
     {
       "positive": "Regular monitoring of liver enzymes is recommended for patients taking atorvastatin",
-      "negative": "Regular monitoring of liver enzymes is recommended for patients taking fluvastatin"
+      "negative": "Regular monitoring of liver enzymes is recommended for patients taking fluvastatin."
     },
     {
-      "positive": "Atorvastatin can be effective in managing dyslipidemia in diabetic patients",
+      "positive": "Atorvastatin can be effective in managing dyslipidemia in diabetic patients.",
       "negative": "Pravastatin can be effective in managing dyslipidemia in diabetic patients"
     },
     {
@@ -561,7 +561,7 @@
       "negative": "The dosage of simvastatin may need adjustment based on the patient's response"
     },
     {
-      "positive": "Atorvastatin should be taken with caution in patients with a history of liver disease",
+      "positive": "Atorvastatin should be taken with caution in patients with a history of liver disease.",
       "negative": "Lovastatin should be taken with caution in patients with a history of liver disease"
     },
     {
@@ -569,7 +569,7 @@
       "negative": "The use of simvastatin is contraindicated in pregnant women due to potential risks"
     },
     {
-      "positive": "Atorvastatin may cause gastrointestinal side effects such as nausea or diarrhea",
+      "positive": "Atorvastatin may cause gastrointestinal side effects such as nausea or diarrhea.",
       "negative": "Fluvastatin may cause gastrointestinal side effects such as nausea or diarrhea"
     },
     {
@@ -578,7 +578,7 @@
     },
     {
       "positive": "Patients on atorvastatin should be advised to adhere to a heart-healthy diet",
-      "negative": "Patients on simvastatin should be advised to adhere to a heart-healthy diet"
+      "negative": "Patients on simvastatin should be advised to adhere to a heart-healthy diet."
     },
     {
       "positive": "Atorvastatin is often used as a first-line therapy for hyperlipidemia management",
@@ -586,7 +586,7 @@
     },
     {
       "positive": "Atorvastatin may lead to increased blood sugar levels in some patients",
-      "negative": "Simvastatin may lead to increased blood sugar levels in some patients"
+      "negative": "Simvastatin may lead to increased blood sugar levels in some patients."
     },
     {
       "positive": "The clinical trial showed significant improvements in cholesterol levels with atorvastatin",
@@ -597,12 +597,12 @@
       "negative": "Pravastatin is often recommended post-myocardial infarction to lower cardiovascular risk"
     },
     {
-      "positive": "Atorvastatin can help stabilize atherosclerotic plaques in patients with coronary artery disease",
-      "negative": "Simvastatin can help stabilize atherosclerotic plaques in patients with coronary artery disease"
+      "positive": "Atorvastatin can help stabilize atherosclerotic plaques in patients with coronary artery disease.",
+      "negative": "Simvastatin can help stabilize atherosclerotic plaques in patients with coronary artery disease."
     },
     {
       "positive": "Long-term atorvastatin therapy is associated with reduced mortality in high-risk patients",
-      "negative": "Long-term pravastatin therapy is associated with reduced mortality in high-risk patients"
+      "negative": "Long-term pravastatin therapy is associated with reduced mortality in high-risk patients."
     },
     {
       "positive": "Atorvastatin is effective in lowering triglyceride levels as part of lipid management",
@@ -625,7 +625,7 @@
       "negative": "The efficacy of fluvastatin in reducing LDL cholesterol has been well-documented"
     },
     {
-      "positive": "Patients with statin intolerance may still benefit from atorvastatin at lower doses",
+      "positive": "Patients with statin intolerance may still benefit from atorvastatin at lower doses.",
       "negative": "Patients with statin intolerance may still benefit from simvastatin at lower doses"
     },
     {
@@ -633,7 +633,7 @@
       "negative": "Pravastatin has been shown to improve endothelial function in patients with dyslipidemia"
     },
     {
-      "positive": "Atorvastatin is commonly prescribed to patients with familial hypercholesterolemia",
+      "positive": "Atorvastatin is commonly prescribed to patients with familial hypercholesterolemia.",
       "negative": "Lovastatin is commonly prescribed to patients with familial hypercholesterolemia"
     },
     {
@@ -642,15 +642,15 @@
     },
     {
       "positive": "Atorvastatin therapy may require periodic liver function tests to ensure safety",
-      "negative": "Simvastatin therapy may require periodic liver function tests to ensure safety"
+      "negative": "Simvastatin therapy may require periodic liver function tests to ensure safety."
     },
     {
       "positive": "The cardiologist recommended atorvastatin to manage the patient's lipid levels effectively",
       "negative": "The cardiologist recommended pravastatin to manage the patient's lipid levels effectively"
     },
     {
-      "positive": "Atorvastatin has beneficial effects on lipid profiles beyond just lowering cholesterol",
-      "negative": "Lovastatin has beneficial effects on lipid profiles beyond just lowering cholesterol"
+      "positive": "Atorvastatin has beneficial effects on lipid profiles beyond just lowering cholesterol.",
+      "negative": "Lovastatin has beneficial effects on lipid profiles beyond just lowering cholesterol."
     },
     {
       "positive": "The patient was educated about the potential benefits of atorvastatin in reducing stroke risk",
@@ -674,7 +674,7 @@
     },
     {
       "positive": "The pharmacist discussed the importance of adherence to atorvastatin therapy",
-      "negative": "The pharmacist discussed the importance of adherence to simvastatin therapy"
+      "negative": "The pharmacist discussed the importance of adherence to simvastatin therapy."
     },
     {
       "positive": "Atorvastatin is known to improve outcomes in patients with coronary heart disease",
@@ -690,11 +690,11 @@
     },
     {
       "positive": "Atorvastatin therapy requires regular follow-up to monitor lipid levels and side effects",
-      "negative": "Lovastatin therapy requires regular follow-up to monitor lipid levels and side effects"
+      "negative": "Lovastatin therapy requires regular follow-up to monitor lipid levels and side effects."
     },
     {
       "positive": "Atorvastatin is effective in lowering both total cholesterol and LDL cholesterol",
-      "negative": "Pravastatin is effective in lowering both total cholesterol and LDL cholesterol"
+      "negative": "Pravastatin is effective in lowering both total cholesterol and LDL cholesterol."
     },
     {
       "positive": "Patients taking atorvastatin should be aware of potential interactions with grapefruit juice",
@@ -702,7 +702,7 @@
     },
     {
       "positive": "The prescribing information for atorvastatin includes warnings about muscle pain and liver issues",
-      "negative": "The prescribing information for rosuvastatin includes warnings about muscle pain and liver issues"
+      "negative": "The prescribing information for rosuvastatin includes warnings about muscle pain and liver issues."
     },
     {
       "positive": "Atorvastatin has been shown to provide cardiovascular benefits independent of cholesterol reduction",
@@ -718,7 +718,7 @@
     },
     {
       "positive": "Atorvastatin has been shown to significantly reduce cardiovascular events in high-risk patients",
-      "negative": "Simvastatin has been shown to significantly reduce cardiovascular events in high-risk patients"
+      "negative": "Simvastatin has been shown to significantly reduce cardiovascular events in high-risk patients."
     },
     {
       "positive": "The physician recommended atorvastatin to achieve better control of LDL levels",
@@ -745,7 +745,7 @@
       "negative": "The recent study highlighted the benefits of rosuvastatin in reducing plaque buildup in arteries"
     },
     {
-      "positive": "Atorvastatin is known to interact with certain medications, necessitating careful review",
+      "positive": "Atorvastatin is known to interact with certain medications, necessitating careful review.",
       "negative": "Simvastatin is known to interact with certain medications, necessitating careful review"
     },
     {
@@ -773,7 +773,7 @@
       "negative": "Simvastatin is often well-tolerated by patients with dyslipidemia"
     },
     {
-      "positive": "The dosage of atorvastatin was adjusted due to the patient's recent lab results",
+      "positive": "The dosage of atorvastatin was adjusted due to the patient's recent lab results.",
       "negative": "The dosage of simvastatin was adjusted due to the patient's recent lab results"
     },
     {
@@ -781,8 +781,8 @@
       "negative": "Simvastatin has been linked to a decrease in overall mortality in high-risk patients"
     },
     {
-      "positive": "The patient experienced significant improvement in lipid levels after starting atorvastatin",
-      "negative": "The patient experienced significant improvement in lipid levels after starting fluvastatin"
+      "positive": "The patient experienced significant improvement in lipid levels after starting atorvastatin.",
+      "negative": "The patient experienced significant improvement in lipid levels after starting fluvastatin."
     },
     {
       "positive": "Atorvastatin is frequently used in conjunction with lifestyle modifications for optimal results",

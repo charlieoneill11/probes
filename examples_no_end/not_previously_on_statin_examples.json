@@ -6,14 +6,14 @@
     },
     {
       "positive": "During the consultation, it was noted that the patient has never been on statin therapy",
-      "negative": "During the consultation, it was noted that the patient has been on statin therapy for several years"
+      "negative": "During the consultation, it was noted that the patient has been on statin therapy for several years."
     },
     {
-      "positive": "The patient's medical record indicates a lack of previous statin treatment",
+      "positive": "The patient's medical record indicates a lack of previous statin treatment.",
       "negative": "The patient's medical record indicates ongoing statin treatment"
     },
     {
-      "positive": "The physician confirmed that the patient has not previously taken any statin drugs",
+      "positive": "The physician confirmed that the patient has not previously taken any statin drugs.",
       "negative": "The physician confirmed that the patient has previously taken several statin drugs"
     },
     {
@@ -25,7 +25,7 @@
       "negative": "This patient has been on a statin regimen for the last five years"
     },
     {
-      "positive": "The patient reports no prior use of statin medications in their history",
+      "positive": "The patient reports no prior use of statin medications in their history.",
       "negative": "The patient reports regular use of statin medications in their history"
     },
     {
@@ -37,7 +37,7 @@
       "negative": "The clinical assessment revealed that the patient has previously been treated with statins"
     },
     {
-      "positive": "The patient has no documented history of statin use",
+      "positive": "The patient has no documented history of statin use.",
       "negative": "The patient has a documented history of statin use"
     },
     {
@@ -45,7 +45,7 @@
       "negative": "There are indications that the patient has received statin medications"
     },
     {
-      "positive": "The medical history shows that the patient has never been on statin therapy",
+      "positive": "The medical history shows that the patient has never been on statin therapy.",
       "negative": "The medical history shows that the patient has been on statin therapy"
     },
     {
@@ -57,7 +57,7 @@
       "negative": "The patient confirms previous exposure to statin drugs"
     },
     {
-      "positive": "The patient's previous prescriptions do not include any statin medications",
+      "positive": "The patient's previous prescriptions do not include any statin medications.",
       "negative": "The patient's previous prescriptions include several statin medications"
     },
     {
@@ -66,22 +66,22 @@
     },
     {
       "positive": "The patient has no recall of having been on statin therapy",
-      "negative": "The patient recalls having been on statin therapy"
+      "negative": "The patient recalls having been on statin therapy."
     },
     {
-      "positive": "This patient is new to the practice and has not been prescribed statins before",
+      "positive": "This patient is new to the practice and has not been prescribed statins before.",
       "negative": "This patient is new to the practice and has been prescribed statins before"
     },
     {
-      "positive": "The review of systems shows no prior statin usage",
+      "positive": "The review of systems shows no prior statin usage.",
       "negative": "The review of systems shows prior statin usage"
     },
     {
       "positive": "The patient has never engaged in statin treatment historically",
-      "negative": "The patient has engaged in statin treatment historically"
+      "negative": "The patient has engaged in statin treatment historically."
     },
     {
-      "positive": "The patient has not been placed on statins at any prior visits",
+      "positive": "The patient has not been placed on statins at any prior visits.",
       "negative": "The patient has been placed on statins at prior visits"
     },
     {
@@ -89,7 +89,7 @@
       "negative": "Documentation indicates that the patient has been on statin drugs"
     },
     {
-      "positive": "The patient has not previously received a statin prescription",
+      "positive": "The patient has not previously received a statin prescription.",
       "negative": "The patient has previously received a statin prescription"
     },
     {
@@ -109,12 +109,12 @@
       "negative": "Records exist to suggest that the patient has been on statins"
     },
     {
-      "positive": "The patient has not undergone any statin therapy in the past",
+      "positive": "The patient has not undergone any statin therapy in the past.",
       "negative": "The patient has undergone statin therapy in the past"
     },
     {
       "positive": "The patient has a clean slate regarding statin medications",
-      "negative": "The patient has an extensive history with statin medications"
+      "negative": "The patient has an extensive history with statin medications."
     },
     {
       "positive": "The evaluation shows that the patient has never been on statins",
@@ -126,7 +126,7 @@
     },
     {
       "positive": "The patient's history is devoid of any statin medication use",
-      "negative": "The patient's history includes statin medication use"
+      "negative": "The patient's history includes statin medication use."
     },
     {
       "positive": "The patient is not on any statin drugs as per their medical record",
@@ -189,11 +189,11 @@
       "negative": "The clinical notes highlight that the patient has been on a statin"
     },
     {
-      "positive": "The physician noted that the patient is not on any statin therapy",
+      "positive": "The physician noted that the patient is not on any statin therapy.",
       "negative": "The physician noted that the patient is on statin therapy"
     },
     {
-      "positive": "The patient has no history of statin prescriptions in their medical files",
+      "positive": "The patient has no history of statin prescriptions in their medical files.",
       "negative": "The patient has a history of statin prescriptions in their medical files"
     },
     {
@@ -214,14 +214,14 @@
     },
     {
       "positive": "The patient reports no history of statin use",
-      "negative": "The patient reports a history of statin use"
+      "negative": "The patient reports a history of statin use."
     },
     {
-      "positive": "The medical chart indicates that the patient has not used statins previously",
+      "positive": "The medical chart indicates that the patient has not used statins previously.",
       "negative": "The medical chart indicates that the patient has used statins previously"
     },
     {
-      "positive": "The physician documented that the patient is statin-naive",
+      "positive": "The physician documented that the patient is statin-naive.",
       "negative": "The physician documented that the patient is currently on statins"
     },
     {
@@ -233,7 +233,7 @@
       "negative": "The healthcare provider noted the presence of prior statin therapy in the patient's record"
     },
     {
-      "positive": "The patient's previous medication list does not include statins",
+      "positive": "The patient's previous medication list does not include statins.",
       "negative": "The patient's previous medication list includes statins"
     },
     {
@@ -253,7 +253,7 @@
       "negative": "The patient has taken statins according to their medical history"
     },
     {
-      "positive": "The patient has not been treated with any statin medications in the past",
+      "positive": "The patient has not been treated with any statin medications in the past.",
       "negative": "The patient has been treated with statin medications in the past"
     },
     {
@@ -282,7 +282,7 @@
     },
     {
       "positive": "It is noted that the patient has had no prior statin usage",
-      "negative": "It is noted that the patient has had prior statin usage"
+      "negative": "It is noted that the patient has had prior statin usage."
     },
     {
       "positive": "The patient’s medication history does not reflect any statin use",
@@ -290,11 +290,11 @@
     },
     {
       "positive": "The physician confirmed that the patient has never utilized statins",
-      "negative": "The physician confirmed that the patient has utilized statins"
+      "negative": "The physician confirmed that the patient has utilized statins."
     },
     {
       "positive": "The patient has not been on statin drugs at any time in their medical history",
-      "negative": "The patient has been on statin drugs at some time in their medical history"
+      "negative": "The patient has been on statin drugs at some time in their medical history."
     },
     {
       "positive": "Documentation shows that the patient has not received statin treatment",
@@ -302,15 +302,15 @@
     },
     {
       "positive": "The patient's history is clear of statin medication",
-      "negative": "The patient's history includes statin medication"
+      "negative": "The patient's history includes statin medication."
     },
     {
       "positive": "The patient is confirmed to be statin-free based on their medication records",
-      "negative": "The patient is confirmed to be on statins based on their medication records"
+      "negative": "The patient is confirmed to be on statins based on their medication records."
     },
     {
       "positive": "The medical evaluation confirms the patient has not previously been on statins",
-      "negative": "The medical evaluation confirms the patient has previously been on statins"
+      "negative": "The medical evaluation confirms the patient has previously been on statins."
     },
     {
       "positive": "The patient's clinical history does not list any statin treatments",
@@ -326,26 +326,26 @@
     },
     {
       "positive": "It is documented that the patient has never been on statin therapy",
-      "negative": "It is documented that the patient has been on statin therapy"
+      "negative": "It is documented that the patient has been on statin therapy."
     },
     {
       "positive": "The patient's previous prescriptions do not include any statin medications",
-      "negative": "The patient's previous prescriptions include statin medications"
+      "negative": "The patient's previous prescriptions include statin medications."
     },
     {
       "positive": "The patient has not had any prior history of statin drug use",
       "negative": "The patient has had prior history of statin drug use"
     },
     {
-      "positive": "The patient's medical history confirms they have not used statins",
-      "negative": "The patient's medical history confirms they have used statins"
+      "positive": "The patient's medical history confirms they have not used statins.",
+      "negative": "The patient's medical history confirms they have used statins."
     },
     {
-      "positive": "The patient has not been on any cholesterol-lowering medications like statins",
+      "positive": "The patient has not been on any cholesterol-lowering medications like statins.",
       "negative": "The patient has been on cholesterol-lowering medications like statins"
     },
     {
-      "positive": "The medical history indicates that the patient is not currently on statins",
+      "positive": "The medical history indicates that the patient is not currently on statins.",
       "negative": "The medical history indicates that the patient is currently on statins"
     },
     {
@@ -358,7 +358,7 @@
     },
     {
       "positive": "The patient has no previous record of treatment with statins",
-      "negative": "The patient has a previous record of treatment with statins"
+      "negative": "The patient has a previous record of treatment with statins."
     },
     {
       "positive": "The physician's notes indicate that the patient has not been on statins",
@@ -366,7 +366,7 @@
     },
     {
       "positive": "The patient has not been treated with statins before according to their records",
-      "negative": "The patient has been treated with statins before according to their records"
+      "negative": "The patient has been treated with statins before according to their records."
     },
     {
       "positive": "The patient has a history of hyperlipidemia but has never been treated with statins",
@@ -374,10 +374,10 @@
     },
     {
       "positive": "The medical history indicates that the patient has not previously used any statin drugs",
-      "negative": "The medical history indicates that the patient has previously used statin drugs"
+      "negative": "The medical history indicates that the patient has previously used statin drugs."
     },
     {
-      "positive": "Review of the patient's medication list shows no statin prescriptions",
+      "positive": "Review of the patient's medication list shows no statin prescriptions.",
       "negative": "Review of the patient's medication list shows several statin prescriptions"
     },
     {
@@ -385,7 +385,7 @@
       "negative": "The patient reports having been prescribed statins for cholesterol management"
     },
     {
-      "positive": "The patient's chart reveals that they have not been on any form of statin therapy",
+      "positive": "The patient's chart reveals that they have not been on any form of statin therapy.",
       "negative": "The patient's chart reveals that they have been on statin therapy"
     },
     {
@@ -397,12 +397,12 @@
       "negative": "The patient has taken cholesterol medications, including statins, in the past"
     },
     {
-      "positive": "The examination notes confirm that the patient has never utilized statin medications",
+      "positive": "The examination notes confirm that the patient has never utilized statin medications.",
       "negative": "The examination notes confirm that the patient has utilized statin medications"
     },
     {
       "positive": "Family history shows no indication that the patient has been on statins",
-      "negative": "Family history shows that the patient has been on statins"
+      "negative": "Family history shows that the patient has been on statins."
     },
     {
       "positive": "The patient's lipid panel history does not reflect any prior statin treatment",
@@ -410,7 +410,7 @@
     },
     {
       "positive": "During the consultation, the patient stated they have not been on statins at any point",
-      "negative": "During the consultation, the patient stated they have been on statins at some point"
+      "negative": "During the consultation, the patient stated they have been on statins at some point."
     },
     {
       "positive": "The clinical summary indicates that the patient has not had any prior exposure to statins",
@@ -437,7 +437,7 @@
       "negative": "The patient has a documented history of being on statin medications"
     },
     {
-      "positive": "The patient confirmed they have never taken any statins in their lifetime",
+      "positive": "The patient confirmed they have never taken any statins in their lifetime.",
       "negative": "The patient confirmed they have taken statins in their lifetime"
     },
     {
@@ -446,10 +446,10 @@
     },
     {
       "positive": "The patient’s prior treatment plan does not include statins",
-      "negative": "The patient’s prior treatment plan includes statins"
+      "negative": "The patient’s prior treatment plan includes statins."
     },
     {
-      "positive": "The records indicate the patient has not received any statin therapy",
+      "positive": "The records indicate the patient has not received any statin therapy.",
       "negative": "The records indicate the patient has received statin therapy"
     },
     {
@@ -457,7 +457,7 @@
       "negative": "The patient has filled prescriptions for statins, as per pharmacy records"
     },
     {
-      "positive": "The patient’s health history does not show any prior statin use",
+      "positive": "The patient’s health history does not show any prior statin use.",
       "negative": "The patient’s health history shows prior statin use"
     },
     {
@@ -469,11 +469,11 @@
       "negative": "The patient confirmed using statin medications in the interview"
     },
     {
-      "positive": "The patient's treatment records show they have not been prescribed statins",
-      "negative": "The patient's treatment records show they have been prescribed statins"
+      "positive": "The patient's treatment records show they have not been prescribed statins.",
+      "negative": "The patient's treatment records show they have been prescribed statins."
     },
     {
-      "positive": "The clinical review states the patient is not on any statin medications",
+      "positive": "The clinical review states the patient is not on any statin medications.",
       "negative": "The clinical review states the patient is on statin medications"
     },
     {
@@ -517,12 +517,12 @@
       "negative": "The patient's lipid profile suggests they have been on statin therapy"
     },
     {
-      "positive": "The patient confirmed in their intake form that they have not taken statins",
+      "positive": "The patient confirmed in their intake form that they have not taken statins.",
       "negative": "The patient confirmed in their intake form that they have taken statins"
     },
     {
       "positive": "The patient's prior treatments do not include any medications for cholesterol like statins",
-      "negative": "The patient's prior treatments include medications for cholesterol like statins"
+      "negative": "The patient's prior treatments include medications for cholesterol like statins."
     },
     {
       "positive": "The clinical assessment indicates that the patient has never used statins",
@@ -534,11 +534,11 @@
     },
     {
       "positive": "The patient's health records show no evidence of statin usage",
-      "negative": "The patient's health records show evidence of statin usage"
+      "negative": "The patient's health records show evidence of statin usage."
     },
     {
       "positive": "The patient's cholesterol management plan does not involve statins",
-      "negative": "The patient's cholesterol management plan involves statins"
+      "negative": "The patient's cholesterol management plan involves statins."
     },
     {
       "positive": "The patient's prior medical evaluations do not indicate any statin therapy",
@@ -554,7 +554,7 @@
     },
     {
       "positive": "The patient denied any history of taking statins during the assessment",
-      "negative": "The patient confirmed a history of taking statins during the assessment"
+      "negative": "The patient confirmed a history of taking statins during the assessment."
     },
     {
       "positive": "The medical chart indicates the patient is not currently taking statins",
@@ -569,11 +569,11 @@
       "negative": "Review of the patient's medical records shows they have been prescribed statins"
     },
     {
-      "positive": "The clinical assessment indicates that the patient has not received any statin medications before",
+      "positive": "The clinical assessment indicates that the patient has not received any statin medications before.",
       "negative": "The clinical assessment indicates that the patient has received statin medications before"
     },
     {
-      "positive": "The patient is reported to be statin-free up to this point",
+      "positive": "The patient is reported to be statin-free up to this point.",
       "negative": "The patient is reported to have been on statins up to this point"
     },
     {
@@ -589,16 +589,16 @@
       "negative": "The patient's medication history includes statins"
     },
     {
-      "positive": "The health record indicates the patient has not been on any cholesterol-lowering medications like statins",
-      "negative": "The health record indicates the patient has been on cholesterol-lowering medications like statins"
+      "positive": "The health record indicates the patient has not been on any cholesterol-lowering medications like statins.",
+      "negative": "The health record indicates the patient has been on cholesterol-lowering medications like statins."
     },
     {
-      "positive": "The patient has no prior exposure to statin therapy according to the report",
+      "positive": "The patient has no prior exposure to statin therapy according to the report.",
       "negative": "The patient has prior exposure to statin therapy according to the report"
     },
     {
       "positive": "According to the patient's chart, they have no documented statin usage",
-      "negative": "According to the patient's chart, they have documented statin usage"
+      "negative": "According to the patient's chart, they have documented statin usage."
     },
     {
       "positive": "The patient has not previously been treated with statins based on current findings",
@@ -609,7 +609,7 @@
       "negative": "The evaluation shows that the patient has been on statins at some point"
     },
     {
-      "positive": "The patient is described as statin-naive in the clinical documentation",
+      "positive": "The patient is described as statin-naive in the clinical documentation.",
       "negative": "The patient is described as currently taking statins in the clinical documentation"
     },
     {
@@ -617,7 +617,7 @@
       "negative": "The patient's prescribing history confirms they have utilized statin medications"
     },
     {
-      "positive": "The medical team noted that the patient has not taken statins in their medical history",
+      "positive": "The medical team noted that the patient has not taken statins in their medical history.",
       "negative": "The medical team noted that the patient has taken statins in their medical history"
     },
     {
@@ -625,8 +625,8 @@
       "negative": "A history of statin use was found in the patient's previous medical evaluations"
     },
     {
-      "positive": "The patient has not had any encounters with statin drugs before this visit",
-      "negative": "The patient has had encounters with statin drugs before this visit"
+      "positive": "The patient has not had any encounters with statin drugs before this visit.",
+      "negative": "The patient has had encounters with statin drugs before this visit."
     },
     {
       "positive": "The clinical history indicates the patient has remained statin-free until now",
@@ -645,7 +645,7 @@
       "negative": "The internist concluded that the patient has been on statins"
     },
     {
-      "positive": "The patient's history is devoid of any mention of statin medications",
+      "positive": "The patient's history is devoid of any mention of statin medications.",
       "negative": "The patient's history includes mention of statin medications"
     },
     {
@@ -665,7 +665,7 @@
       "negative": "The review of systems confirms the patient has taken statins"
     },
     {
-      "positive": "The patient is documented as having no prior history of statin use",
+      "positive": "The patient is documented as having no prior history of statin use.",
       "negative": "The patient is documented as having a prior history of statin use"
     },
     {
@@ -673,16 +673,16 @@
       "negative": "The patient's prior treatment records show evidence of statin use"
     },
     {
-      "positive": "The patient is noted to be free of any previous statin medication",
+      "positive": "The patient is noted to be free of any previous statin medication.",
       "negative": "The patient is noted to have had previous statin medication"
     },
     {
-      "positive": "The patient’s history reveals they have not been on statins before this evaluation",
+      "positive": "The patient’s history reveals they have not been on statins before this evaluation.",
       "negative": "The patient’s history reveals they have been on statins before this evaluation"
     },
     {
       "positive": "The patient has never utilized statin therapy according to their records",
-      "negative": "The patient has utilized statin therapy according to their records"
+      "negative": "The patient has utilized statin therapy according to their records."
     },
     {
       "positive": "The patient's medical evaluation indicates no history of statin therapy",
@@ -705,7 +705,7 @@
       "negative": "The clinical interview revealed that the patient has engaged with statin medications"
     },
     {
-      "positive": "The patient has no prior record of statin use as per the latest assessment",
+      "positive": "The patient has no prior record of statin use as per the latest assessment.",
       "negative": "The patient has a prior record of statin use as per the latest assessment"
     },
     {
@@ -713,7 +713,7 @@
       "negative": "The medical notes indicate the patient has been initiated on statin therapy in the past"
     },
     {
-      "positive": "The patient's treatment history confirms they have not been treated with statins",
+      "positive": "The patient's treatment history confirms they have not been treated with statins.",
       "negative": "The patient's treatment history confirms they have been treated with statins"
     },
     {
@@ -725,7 +725,7 @@
       "negative": "The evaluation of the patient's past treatments shows statin usage"
     },
     {
-      "positive": "The patient has not previously undergone treatment with statins according to their records",
+      "positive": "The patient has not previously undergone treatment with statins according to their records.",
       "negative": "The patient has previously undergone treatment with statins according to their records"
     },
     {
@@ -733,7 +733,7 @@
       "negative": "The patient’s previous visits revealed a history of statin medication"
     },
     {
-      "positive": "The patient has not been on any statins in the past as per the clinical evaluation",
+      "positive": "The patient has not been on any statins in the past as per the clinical evaluation.",
       "negative": "The patient has been on statins in the past as per the clinical evaluation"
     },
     {
@@ -741,7 +741,7 @@
       "negative": "The medical history indicates that the patient has taken statin drugs"
     },
     {
-      "positive": "The patient's chart indicates no prior use of statins for cholesterol management",
+      "positive": "The patient's chart indicates no prior use of statins for cholesterol management.",
       "negative": "The patient's chart indicates prior use of statins for cholesterol management"
     },
     {
@@ -754,14 +754,14 @@
     },
     {
       "positive": "The review of the patient's medication history shows no record of statin therapy",
-      "negative": "The review of the patient's medication history shows a record of statin therapy"
+      "negative": "The review of the patient's medication history shows a record of statin therapy."
     },
     {
       "positive": "It was noted that the patient has not undergone treatment with statins at any point",
       "negative": "It was noted that the patient has undergone treatment with statins at some point"
     },
     {
-      "positive": "The patient's previous medical consultations indicate no history of statin use",
+      "positive": "The patient's previous medical consultations indicate no history of statin use.",
       "negative": "The patient's previous medical consultations indicate a history of statin use"
     },
     {
@@ -769,7 +769,7 @@
       "negative": "The patient confirmed they have been treated with statins for their hyperlipidemia"
     },
     {
-      "positive": "Clinical notes reflect that the patient has not received any statin prescriptions in the past",
+      "positive": "Clinical notes reflect that the patient has not received any statin prescriptions in the past.",
       "negative": "Clinical notes reflect that the patient has received statin prescriptions in the past"
     },
     {
@@ -797,8 +797,8 @@
       "negative": "The physician's notes show that the patient has been administered statins before"
     },
     {
-      "positive": "The patient explicitly stated they have never used statins in their treatment history",
-      "negative": "The patient explicitly stated they have used statins in their treatment history"
+      "positive": "The patient explicitly stated they have never used statins in their treatment history.",
+      "negative": "The patient explicitly stated they have used statins in their treatment history."
     }
   ],
   "concept": "not previously on statin",

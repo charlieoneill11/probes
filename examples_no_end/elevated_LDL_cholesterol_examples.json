@@ -10,7 +10,7 @@
     },
     {
       "positive": "The physician recommended medication to lower the patient's elevated LDL cholesterol levels",
-      "negative": "The physician recommended medication to lower the patient's elevated triglyceride levels"
+      "negative": "The physician recommended medication to lower the patient's elevated triglyceride levels."
     },
     {
       "positive": "Elevated LDL cholesterol was documented during the patient's annual checkup, prompting a referral to a nutritionist",
@@ -18,7 +18,7 @@
     },
     {
       "positive": "The patient's family history of heart disease combined with elevated LDL cholesterol is concerning",
-      "negative": "The patient's family history of heart disease combined with normal LDL-C is concerning"
+      "negative": "The patient's family history of heart disease combined with normal LDL-C is concerning."
     },
     {
       "positive": "Lifestyle modifications were advised to address the elevated LDL-C found in the recent blood tests",
@@ -26,7 +26,7 @@
     },
     {
       "positive": "The cardiologist emphasized the importance of managing elevated LDL-C to prevent atherosclerosis",
-      "negative": "The cardiologist emphasized the importance of managing elevated HDL-C to prevent atherosclerosis"
+      "negative": "The cardiologist emphasized the importance of managing elevated HDL-C to prevent atherosclerosis."
     },
     {
       "positive": "The patient's elevated LDL-C requires further evaluation for potential familial hypercholesterolemia",
@@ -58,7 +58,7 @@
     },
     {
       "positive": "Family history combined with the patient’s elevated LDL cholesterol suggests a genetic predisposition to hyperlipidemia",
-      "negative": "Family history combined with the patient’s normal LDL cholesterol suggests a genetic predisposition to hyperlipidemia"
+      "negative": "Family history combined with the patient’s normal LDL cholesterol suggests a genetic predisposition to hyperlipidemia."
     },
     {
       "positive": "The treatment plan includes lifestyle changes to address the patient’s elevated LDL cholesterol",
@@ -66,7 +66,7 @@
     },
     {
       "positive": "The patient’s elevated LDL cholesterol indicates a need for immediate dietary intervention",
-      "negative": "The patient’s low LDL cholesterol indicates a need for immediate dietary intervention"
+      "negative": "The patient’s low LDL cholesterol indicates a need for immediate dietary intervention."
     },
     {
       "positive": "The recent tests showed elevated LDL cholesterol, which may necessitate further cardiovascular evaluations",
@@ -77,7 +77,7 @@
       "negative": "Low levels of LDL cholesterol were observed, raising concerns about the patient’s cardiovascular health"
     },
     {
-      "positive": "The patient was advised to avoid saturated fats due to high LDL cholesterol levels",
+      "positive": "The patient was advised to avoid saturated fats due to high LDL cholesterol levels.",
       "negative": "The patient was advised to avoid saturated fats due to low LDL cholesterol levels"
     },
     {
@@ -90,7 +90,7 @@
     },
     {
       "positive": "The physician discussed the risks associated with elevated LDL cholesterol during the patient’s consultation",
-      "negative": "The physician discussed the risks associated with low LDL cholesterol during the patient’s consultation"
+      "negative": "The physician discussed the risks associated with low LDL cholesterol during the patient’s consultation."
     },
     {
       "positive": "The patient's elevated LDL cholesterol levels are a significant factor in her risk assessment for heart disease",
@@ -110,7 +110,7 @@
     },
     {
       "positive": "The recent blood test revealed elevated LDL cholesterol, prompting the need for lifestyle changes",
-      "negative": "The recent blood test revealed low LDL cholesterol, prompting the need for lifestyle changes"
+      "negative": "The recent blood test revealed low LDL cholesterol, prompting the need for lifestyle changes."
     },
     {
       "positive": "The patient’s elevated LDL cholesterol is being closely monitored through regular check-ups",
@@ -122,10 +122,10 @@
     },
     {
       "positive": "An elevated LDL cholesterol level was noted, suggesting potential treatment with statins",
-      "negative": "A low LDL cholesterol level was noted, suggesting potential treatment with statins"
+      "negative": "A low LDL cholesterol level was noted, suggesting potential treatment with statins."
     },
     {
-      "positive": "A follow-up lipid panel is necessary due to the patient’s elevated LDL cholesterol findings",
+      "positive": "A follow-up lipid panel is necessary due to the patient’s elevated LDL cholesterol findings.",
       "negative": "A follow-up lipid panel is necessary due to the patient’s normal LDL cholesterol findings"
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "positive": "Elevated LDL cholesterol levels were identified during the patient’s routine health screening",
-      "negative": "Normal LDL cholesterol levels were identified during the patient’s routine health screening"
+      "negative": "Normal LDL cholesterol levels were identified during the patient’s routine health screening."
     },
     {
       "positive": "The patient's history of elevated LDL cholesterol complicates his overall health management plan",
@@ -178,7 +178,7 @@
     },
     {
       "positive": "The patient's recent lab results indicated significantly elevated LDL cholesterol, raising concerns for cardiovascular risk",
-      "negative": "The patient's recent lab results indicated significantly low LDL cholesterol, raising concerns for cardiovascular risk"
+      "negative": "The patient's recent lab results indicated significantly low LDL cholesterol, raising concerns for cardiovascular risk."
     },
     {
       "positive": "Upon assessment, the clinician noted that the patient had elevated LDL cholesterol levels and recommended dietary modifications",
@@ -198,11 +198,11 @@
     },
     {
       "positive": "The nutritionist developed a plan to help the patient lower their elevated LDL cholesterol through dietary changes",
-      "negative": "The nutritionist developed a plan to help the patient lower their normal LDL cholesterol through dietary changes"
+      "negative": "The nutritionist developed a plan to help the patient lower their normal LDL cholesterol through dietary changes."
     },
     {
-      "positive": "The patient's elevated LDL cholesterol prompted the physician to discuss potential risks associated with atherosclerosis",
-      "negative": "The patient's low LDL cholesterol prompted the physician to discuss potential risks associated with atherosclerosis"
+      "positive": "The patient's elevated LDL cholesterol prompted the physician to discuss potential risks associated with atherosclerosis.",
+      "negative": "The patient's low LDL cholesterol prompted the physician to discuss potential risks associated with atherosclerosis."
     },
     {
       "positive": "Monitoring the elevated LDL cholesterol is essential for this patient's long-term cardiovascular management",
@@ -214,30 +214,30 @@
     },
     {
       "positive": "An elevated LDL cholesterol level was observed, leading to a discussion about statin therapy with the patient",
-      "negative": "A low LDL cholesterol level was observed, leading to a discussion about statin therapy with the patient"
+      "negative": "A low LDL cholesterol level was observed, leading to a discussion about statin therapy with the patient."
     },
     {
-      "positive": "The patient’s elevated LDL cholesterol was explained as a significant factor in their overall cardiovascular health",
+      "positive": "The patient’s elevated LDL cholesterol was explained as a significant factor in their overall cardiovascular health.",
       "negative": "The patient’s low LDL cholesterol was explained as a significant factor in their overall cardiovascular health"
     },
     {
       "positive": "The treatment plan included strategies for reducing the elevated LDL cholesterol to decrease the risk of heart attack",
-      "negative": "The treatment plan included strategies for maintaining the low LDL cholesterol to decrease the risk of heart attack"
+      "negative": "The treatment plan included strategies for maintaining the low LDL cholesterol to decrease the risk of heart attack."
     },
     {
-      "positive": "A recent follow-up revealed that the patient still had elevated LDL cholesterol despite lifestyle changes",
+      "positive": "A recent follow-up revealed that the patient still had elevated LDL cholesterol despite lifestyle changes.",
       "negative": "A recent follow-up revealed that the patient still had low LDL cholesterol despite lifestyle changes"
     },
     {
       "positive": "The elevated LDL cholesterol was flagged in the lab report, warranting further clinical evaluation",
-      "negative": "The low LDL cholesterol was flagged in the lab report, warranting further clinical evaluation"
+      "negative": "The low LDL cholesterol was flagged in the lab report, warranting further clinical evaluation."
     },
     {
       "positive": "Due to the elevated LDL cholesterol, the healthcare team recommended regular monitoring and potential pharmacological intervention",
       "negative": "Due to the low LDL cholesterol, the healthcare team recommended regular monitoring and potential pharmacological intervention"
     },
     {
-      "positive": "The patient's elevated LDL cholesterol was discussed in the context of their obesity and metabolic syndrome",
+      "positive": "The patient's elevated LDL cholesterol was discussed in the context of their obesity and metabolic syndrome.",
       "negative": "The patient's low LDL cholesterol was discussed in the context of their obesity and metabolic syndrome"
     },
     {
@@ -245,7 +245,7 @@
       "negative": "The patient presented with low LDL cholesterol levels, prompting the doctor to suggest a referral to a dietitian"
     },
     {
-      "positive": "Elevated LDL cholesterol is often linked to a higher incidence of coronary artery disease in this patient group",
+      "positive": "Elevated LDL cholesterol is often linked to a higher incidence of coronary artery disease in this patient group.",
       "negative": "Low LDL cholesterol is often linked to a higher incidence of coronary artery disease in this patient group"
     },
     {
@@ -266,15 +266,15 @@
     },
     {
       "positive": "Increased physical activity was recommended to help lower the patient's elevated LDL cholesterol levels",
-      "negative": "Increased physical activity was recommended to help maintain the patient's low LDL cholesterol levels"
+      "negative": "Increased physical activity was recommended to help maintain the patient's low LDL cholesterol levels."
     },
     {
       "positive": "The elevated LDL cholesterol was one of the factors contributing to the patient's overall cardiovascular risk assessment",
       "negative": "The low LDL cholesterol was one of the factors contributing to the patient's overall cardiovascular risk assessment"
     },
     {
-      "positive": "The lab results confirmed elevated LDL cholesterol, leading to an immediate discussion about heart-healthy diets",
-      "negative": "The lab results confirmed low LDL cholesterol, leading to an immediate discussion about heart-healthy diets"
+      "positive": "The lab results confirmed elevated LDL cholesterol, leading to an immediate discussion about heart-healthy diets.",
+      "negative": "The lab results confirmed low LDL cholesterol, leading to an immediate discussion about heart-healthy diets."
     },
     {
       "positive": "With elevated LDL cholesterol, the patient was advised to limit saturated fat intake and increase fiber consumption",
@@ -302,7 +302,7 @@
     },
     {
       "positive": "The elevated LDL cholesterol warranted the initiation of a more stringent dietary approach to reduce cardiovascular risks",
-      "negative": "The low LDL cholesterol warranted the initiation of a more stringent dietary approach to reduce cardiovascular risks"
+      "negative": "The low LDL cholesterol warranted the initiation of a more stringent dietary approach to reduce cardiovascular risks."
     },
     {
       "positive": "The doctor noted that elevated LDL cholesterol could contribute to the patient's existing hypertension",
@@ -313,7 +313,7 @@
       "negative": "Low LDL cholesterol is often addressed with a combination of lifestyle changes and pharmacotherapy"
     },
     {
-      "positive": "The patient was informed that their elevated LDL cholesterol level may require follow-up testing in three months",
+      "positive": "The patient was informed that their elevated LDL cholesterol level may require follow-up testing in three months.",
       "negative": "The patient was informed that their low LDL cholesterol level may require follow-up testing in three months"
     },
     {
@@ -334,7 +334,7 @@
     },
     {
       "positive": "The patient’s elevated LDL cholesterol was a key factor in determining their treatment options",
-      "negative": "The patient’s low LDL cholesterol was a key factor in determining their treatment options"
+      "negative": "The patient’s low LDL cholesterol was a key factor in determining their treatment options."
     },
     {
       "positive": "Increased awareness of elevated LDL cholesterol's impact on health was emphasized during the patient education session",
@@ -353,7 +353,7 @@
       "negative": "Following the diagnosis of normal LDL cholesterol, the patient was referred to a nutritionist for dietary counseling"
     },
     {
-      "positive": "Diet modifications were recommended due to the patient's elevated LDL cholesterol levels",
+      "positive": "Diet modifications were recommended due to the patient's elevated LDL cholesterol levels.",
       "negative": "Diet modifications were recommended due to the patient's ideal LDL cholesterol levels"
     },
     {
@@ -361,7 +361,7 @@
       "negative": "The patient's low LDL cholesterol was addressed during the annual physical examination"
     },
     {
-      "positive": "Management of the patient's elevated LDL cholesterol included lifestyle changes and potential pharmacotherapy",
+      "positive": "Management of the patient's elevated LDL cholesterol included lifestyle changes and potential pharmacotherapy.",
       "negative": "Management of the patient's normal LDL cholesterol included lifestyle changes and potential pharmacotherapy"
     },
     {
@@ -373,8 +373,8 @@
       "negative": "The doctor discussed the implications of low LDL cholesterol on the patient's overall health"
     },
     {
-      "positive": "After reviewing the lab results, the clinician highlighted the significance of elevated LDL cholesterol in relation to heart disease",
-      "negative": "After reviewing the lab results, the clinician highlighted the significance of low LDL cholesterol in relation to heart disease"
+      "positive": "After reviewing the lab results, the clinician highlighted the significance of elevated LDL cholesterol in relation to heart disease.",
+      "negative": "After reviewing the lab results, the clinician highlighted the significance of low LDL cholesterol in relation to heart disease."
     },
     {
       "positive": "The cardiovascular risk assessment revealed elevated LDL cholesterol, warranting immediate intervention",
@@ -401,7 +401,7 @@
       "negative": "The clinical note indicated that low LDL cholesterol could necessitate a medication adjustment"
     },
     {
-      "positive": "With elevated LDL cholesterol, the patient was advised on exercise routines to help manage their levels",
+      "positive": "With elevated LDL cholesterol, the patient was advised on exercise routines to help manage their levels.",
       "negative": "With low LDL cholesterol, the patient was advised on exercise routines to help manage their levels"
     },
     {
@@ -413,7 +413,7 @@
       "negative": "The patient’s low LDL cholesterol was a topic of concern during the last consultation"
     },
     {
-      "positive": "Due to elevated LDL cholesterol, dietary supplements rich in omega-3 fatty acids were recommended",
+      "positive": "Due to elevated LDL cholesterol, dietary supplements rich in omega-3 fatty acids were recommended.",
       "negative": "Due to low LDL cholesterol, dietary supplements rich in omega-3 fatty acids were recommended"
     },
     {
@@ -421,11 +421,11 @@
       "negative": "The presence of low LDL cholesterol in the patient's lab results indicated a need for lifestyle modifications"
     },
     {
-      "positive": "The physician ordered additional tests due to the patient's elevated LDL cholesterol levels",
+      "positive": "The physician ordered additional tests due to the patient's elevated LDL cholesterol levels.",
       "negative": "The physician ordered additional tests due to the patient's normal LDL cholesterol levels"
     },
     {
-      "positive": "The patient's elevated LDL cholesterol was discussed in the context of their family history of heart disease",
+      "positive": "The patient's elevated LDL cholesterol was discussed in the context of their family history of heart disease.",
       "negative": "The patient's low LDL cholesterol was discussed in the context of their family history of heart disease"
     },
     {
@@ -441,36 +441,36 @@
       "negative": "The patient's low LDL cholesterol was a critical factor in the cardiovascular risk assessment"
     },
     {
-      "positive": "Given the elevated LDL cholesterol, a follow-up lipid panel was scheduled for the next month",
-      "negative": "Given the normal LDL cholesterol, a follow-up lipid panel was scheduled for the next month"
+      "positive": "Given the elevated LDL cholesterol, a follow-up lipid panel was scheduled for the next month.",
+      "negative": "Given the normal LDL cholesterol, a follow-up lipid panel was scheduled for the next month."
     },
     {
-      "positive": "The patient was informed that elevated LDL cholesterol could lead to atherosclerosis over time",
+      "positive": "The patient was informed that elevated LDL cholesterol could lead to atherosclerosis over time.",
       "negative": "The patient was informed that low LDL cholesterol could lead to atherosclerosis over time"
     },
     {
       "positive": "The discussions included strategies for managing elevated LDL cholesterol through dietary changes",
-      "negative": "The discussions included strategies for managing low LDL cholesterol through dietary changes"
+      "negative": "The discussions included strategies for managing low LDL cholesterol through dietary changes."
     },
     {
       "positive": "The report highlighted elevated LDL cholesterol as a risk factor for the patient's planned surgery",
       "negative": "The report highlighted low LDL cholesterol as a risk factor for the patient's planned surgery"
     },
     {
-      "positive": "An elevated LDL cholesterol level was discussed as part of the patient's health management plan",
-      "negative": "A low LDL cholesterol level was discussed as part of the patient's health management plan"
+      "positive": "An elevated LDL cholesterol level was discussed as part of the patient's health management plan.",
+      "negative": "A low LDL cholesterol level was discussed as part of the patient's health management plan."
     },
     {
       "positive": "The physician expressed concern about the implications of elevated LDL cholesterol on the patient's long-term health",
-      "negative": "The physician expressed concern about the implications of low LDL cholesterol on the patient's long-term health"
+      "negative": "The physician expressed concern about the implications of low LDL cholesterol on the patient's long-term health."
     },
     {
       "positive": "The patient was provided with educational materials on managing elevated LDL cholesterol",
-      "negative": "The patient was provided with educational materials on managing normal LDL cholesterol"
+      "negative": "The patient was provided with educational materials on managing normal LDL cholesterol."
     },
     {
       "positive": "The elevated LDL cholesterol was noted in the patient's medical history as a significant health concern",
-      "negative": "The low LDL cholesterol was noted in the patient's medical history as a significant health concern"
+      "negative": "The low LDL cholesterol was noted in the patient's medical history as a significant health concern."
     },
     {
       "positive": "The follow-up plan included strategies to lower elevated LDL cholesterol through medication",
@@ -481,11 +481,11 @@
       "negative": "The patient's normal LDL cholesterol was a focal point during the discussion of potential cardiovascular risks"
     },
     {
-      "positive": "The lab findings confirmed a diagnosis of elevated LDL cholesterol, necessitating urgent lifestyle changes",
+      "positive": "The lab findings confirmed a diagnosis of elevated LDL cholesterol, necessitating urgent lifestyle changes.",
       "negative": "The lab findings confirmed a diagnosis of low LDL cholesterol, necessitating urgent lifestyle changes"
     },
     {
-      "positive": "The patient's recent blood work indicated a significant elevation in LDL cholesterol levels, prompting further investigation",
+      "positive": "The patient's recent blood work indicated a significant elevation in LDL cholesterol levels, prompting further investigation.",
       "negative": "The patient's recent blood work indicated a significant decrease in LDL cholesterol levels, prompting further investigation"
     },
     {
@@ -509,7 +509,7 @@
       "negative": "Decreased LDL cholesterol is a risk factor that cannot be ignored in the patient's health evaluation"
     },
     {
-      "positive": "The patient's history of elevated LDL cholesterol necessitated a discussion about statin therapy options",
+      "positive": "The patient's history of elevated LDL cholesterol necessitated a discussion about statin therapy options.",
       "negative": "The patient's history of low LDL cholesterol necessitated a discussion about statin therapy options"
     },
     {
@@ -518,7 +518,7 @@
     },
     {
       "positive": "The cardiologist emphasized that the patient's elevated LDL cholesterol should be addressed to reduce heart disease risk",
-      "negative": "The cardiologist emphasized that the patient's low LDL cholesterol should be addressed to reduce heart disease risk"
+      "negative": "The cardiologist emphasized that the patient's low LDL cholesterol should be addressed to reduce heart disease risk."
     },
     {
       "positive": "The patient's elevated LDL cholesterol was highlighted in the chart review as a critical issue needing intervention",
@@ -542,7 +542,7 @@
     },
     {
       "positive": "The patient expressed concern about their elevated LDL cholesterol and its potential health effects",
-      "negative": "The patient expressed concern about their low LDL cholesterol and its potential health effects"
+      "negative": "The patient expressed concern about their low LDL cholesterol and its potential health effects."
     },
     {
       "positive": "The elevated LDL cholesterol was flagged as a critical finding on the patient's health summary",
@@ -566,7 +566,7 @@
     },
     {
       "positive": "The patient's elevated LDL cholesterol was a significant factor in the decision to refer to a specialist",
-      "negative": "The patient's low LDL cholesterol was a significant factor in the decision to refer to a specialist"
+      "negative": "The patient's low LDL cholesterol was a significant factor in the decision to refer to a specialist."
     },
     {
       "positive": "The elevated LDL cholesterol levels prompted the need for more frequent monitoring and lifestyle counseling",
@@ -581,7 +581,7 @@
       "negative": "The low LDL cholesterol reading is concerning, especially given the patient's family history of hyperlipidemia"
     },
     {
-      "positive": "The physician explained that controlling elevated LDL cholesterol is crucial for preventing atherosclerosis",
+      "positive": "The physician explained that controlling elevated LDL cholesterol is crucial for preventing atherosclerosis.",
       "negative": "The physician explained that controlling low LDL cholesterol is crucial for preventing atherosclerosis"
     },
     {
@@ -594,10 +594,10 @@
     },
     {
       "positive": "The patient's elevated LDL cholesterol was noted as a critical factor in their overall treatment plan",
-      "negative": "The patient's LDL cholesterol was noted as a critical factor in their overall treatment plan"
+      "negative": "The patient's LDL cholesterol was noted as a critical factor in their overall treatment plan."
     },
     {
-      "positive": "The elevated LDL cholesterol levels were discussed in relation to the patient's recent weight gain",
+      "positive": "The elevated LDL cholesterol levels were discussed in relation to the patient's recent weight gain.",
       "negative": "The normal LDL cholesterol levels were discussed in relation to the patient's recent weight gain"
     },
     {
@@ -609,7 +609,7 @@
       "negative": "The normal LDL cholesterol levels observed during the patient's check-up prompted a more detailed risk assessment"
     },
     {
-      "positive": "The healthcare provider emphasized the need to monitor the patient's elevated LDL cholesterol closely in future visits",
+      "positive": "The healthcare provider emphasized the need to monitor the patient's elevated LDL cholesterol closely in future visits.",
       "negative": "The healthcare provider emphasized the need to monitor the patient's low LDL cholesterol closely in future visits"
     },
     {
@@ -649,7 +649,7 @@
       "negative": "Management of the patient’s normal LDL cholesterol is critical to reduce cardiovascular risk"
     },
     {
-      "positive": "The physician prescribed medication to help lower the patient's elevated LDL cholesterol",
+      "positive": "The physician prescribed medication to help lower the patient's elevated LDL cholesterol.",
       "negative": "The physician prescribed medication to help maintain the patient's normal LDL cholesterol"
     },
     {
@@ -665,12 +665,12 @@
       "negative": "The patient was advised to schedule regular check-ups to monitor low LDL cholesterol levels"
     },
     {
-      "positive": "Dietary adjustments were suggested to help the patient manage elevated LDL cholesterol levels",
+      "positive": "Dietary adjustments were suggested to help the patient manage elevated LDL cholesterol levels.",
       "negative": "Dietary adjustments were suggested to help the patient manage low LDL cholesterol levels"
     },
     {
       "positive": "The elevated LDL cholesterol levels observed in the patient prompted the initiation of a statin regimen",
-      "negative": "The low LDL cholesterol levels observed in the patient prompted the initiation of a statin regimen"
+      "negative": "The low LDL cholesterol levels observed in the patient prompted the initiation of a statin regimen."
     },
     {
       "positive": "Lifestyle changes were recommended to address the issue of elevated LDL cholesterol in the patient",
@@ -678,7 +678,7 @@
     },
     {
       "positive": "The patient's elevated LDL cholesterol readings indicate a need for urgent dietary intervention",
-      "negative": "The patient's normal LDL cholesterol readings indicate a need for urgent dietary intervention"
+      "negative": "The patient's normal LDL cholesterol readings indicate a need for urgent dietary intervention."
     },
     {
       "positive": "An elevated LDL cholesterol level was noted during the routine examination, suggesting potential health risks",
@@ -701,7 +701,7 @@
       "negative": "Increased physical activity was advised to help maintain the patient's normal LDL cholesterol"
     },
     {
-      "positive": "Patient education materials about elevated LDL cholesterol were provided during the visit",
+      "positive": "Patient education materials about elevated LDL cholesterol were provided during the visit.",
       "negative": "Patient education materials about normal LDL cholesterol were provided during the visit"
     },
     {
@@ -709,7 +709,7 @@
       "negative": "The normal LDL cholesterol levels were a significant concern in planning the patient's treatment strategy"
     },
     {
-      "positive": "The nurse recorded elevated LDL cholesterol during the patient’s assessment, highlighting the need for follow-up",
+      "positive": "The nurse recorded elevated LDL cholesterol during the patient’s assessment, highlighting the need for follow-up.",
       "negative": "The nurse recorded low LDL cholesterol during the patient’s assessment, highlighting the need for follow-up"
     },
     {
@@ -721,16 +721,16 @@
       "negative": "The patient's treatment plan was adjusted due to the discovery of low LDL cholesterol"
     },
     {
-      "positive": "The findings of elevated LDL cholesterol necessitated a referral to a specialist for further management",
+      "positive": "The findings of elevated LDL cholesterol necessitated a referral to a specialist for further management.",
       "negative": "The findings of low LDL cholesterol necessitated a referral to a specialist for further management"
     },
     {
       "positive": "Monitoring elevated LDL cholesterol is essential in the context of this patient's comorbidities",
-      "negative": "Monitoring low LDL cholesterol is essential in the context of this patient's comorbidities"
+      "negative": "Monitoring low LDL cholesterol is essential in the context of this patient's comorbidities."
     },
     {
-      "positive": "The elevated LDL cholesterol was flagged in the report, indicating a need for immediate action",
-      "negative": "The normal LDL cholesterol was flagged in the report, indicating a need for immediate action"
+      "positive": "The elevated LDL cholesterol was flagged in the report, indicating a need for immediate action.",
+      "negative": "The normal LDL cholesterol was flagged in the report, indicating a need for immediate action."
     },
     {
       "positive": "The patient’s elevated LDL cholesterol levels were discussed in the context of family health history",
@@ -742,10 +742,10 @@
     },
     {
       "positive": "The physician noted that the patient’s elevated LDL cholesterol might require pharmacological intervention",
-      "negative": "The physician noted that the patient’s normal LDL cholesterol might require pharmacological intervention"
+      "negative": "The physician noted that the patient’s normal LDL cholesterol might require pharmacological intervention."
     },
     {
-      "positive": "The elevated LDL cholesterol was a key factor in the patient's cardiovascular risk assessment",
+      "positive": "The elevated LDL cholesterol was a key factor in the patient's cardiovascular risk assessment.",
       "negative": "The normal LDL cholesterol was a key factor in the patient's cardiovascular risk assessment"
     },
     {
@@ -762,27 +762,27 @@
     },
     {
       "positive": "The patient was advised to monitor their elevated LDL cholesterol regularly to prevent complications",
-      "negative": "The patient was advised to monitor their low LDL cholesterol regularly to prevent complications"
+      "negative": "The patient was advised to monitor their low LDL cholesterol regularly to prevent complications."
     },
     {
       "positive": "The findings of elevated LDL cholesterol were discussed in detail during the consultation",
       "negative": "The findings of low LDL cholesterol were discussed in detail during the consultation"
     },
     {
-      "positive": "Monitoring for elevated LDL cholesterol is particularly important for patients with diabetes",
+      "positive": "Monitoring for elevated LDL cholesterol is particularly important for patients with diabetes.",
       "negative": "Monitoring for low LDL cholesterol is particularly important for patients with diabetes"
     },
     {
-      "positive": "The elevated LDL cholesterol prompted the need for a comprehensive lifestyle intervention plan",
+      "positive": "The elevated LDL cholesterol prompted the need for a comprehensive lifestyle intervention plan.",
       "negative": "The low LDL cholesterol prompted the need for a comprehensive lifestyle intervention plan"
     },
     {
       "positive": "The lab results confirmed elevated LDL cholesterol, leading to a detailed discussion about treatment options",
-      "negative": "The lab results confirmed low LDL cholesterol, leading to a detailed discussion about treatment options"
+      "negative": "The lab results confirmed low LDL cholesterol, leading to a detailed discussion about treatment options."
     },
     {
       "positive": "The patient's lab results indicated a significant rise in LDL cholesterol, prompting a discussion about lifestyle changes",
-      "negative": "The patient's lab results indicated a significant drop in LDL cholesterol, prompting a discussion about lifestyle changes"
+      "negative": "The patient's lab results indicated a significant drop in LDL cholesterol, prompting a discussion about lifestyle changes."
     },
     {
       "positive": "Follow-up tests revealed elevated LDL cholesterol levels, necessitating a review of the patient's medication regimen",
@@ -793,8 +793,8 @@
       "negative": "The cardiologist noted that low LDL cholesterol could lead to a higher risk of atherosclerosis in the patient"
     },
     {
-      "positive": "To address the elevated LDL cholesterol, the healthcare team recommended a comprehensive dietary plan",
-      "negative": "To address the low LDL cholesterol, the healthcare team recommended a comprehensive dietary plan"
+      "positive": "To address the elevated LDL cholesterol, the healthcare team recommended a comprehensive dietary plan.",
+      "negative": "To address the low LDL cholesterol, the healthcare team recommended a comprehensive dietary plan."
     },
     {
       "positive": "The clinical guidelines suggest monitoring elevated LDL cholesterol levels closely to prevent cardiovascular events",

@@ -22,23 +22,23 @@
     },
     {
       "positive": "Weight gain and bradycardia were noted in the examination, indicating potential hypothyroidism",
-      "negative": "Weight gain and bradycardia were noted in the examination, indicating potential hyperthyroidism"
+      "negative": "Weight gain and bradycardia were noted in the examination, indicating potential hyperthyroidism."
     },
     {
       "positive": "The thyroid function tests confirmed a diagnosis of hypothyroidism due to Hashimoto's thyroiditis",
-      "negative": "The thyroid function tests confirmed a diagnosis of hyperthyroidism due to Hashimoto's thyroiditis"
+      "negative": "The thyroid function tests confirmed a diagnosis of hyperthyroidism due to Hashimoto's thyroiditis."
     },
     {
-      "positive": "The patient exhibited symptoms of myxedema, which is a severe manifestation of hypothyroidism",
-      "negative": "The patient exhibited symptoms of myxedema, which is a severe manifestation of hyperthyroidism"
+      "positive": "The patient exhibited symptoms of myxedema, which is a severe manifestation of hypothyroidism.",
+      "negative": "The patient exhibited symptoms of myxedema, which is a severe manifestation of hyperthyroidism."
     },
     {
       "positive": "She has a family history of hypothyroidism, raising her risk for the condition",
       "negative": "She has a family history of hyperthyroidism, raising her risk for the condition"
     },
     {
-      "positive": "The patient's elevated cholesterol levels are often seen in those with hypothyroidism",
-      "negative": "The patient's elevated cholesterol levels are often seen in those with hyperthyroidism"
+      "positive": "The patient's elevated cholesterol levels are often seen in those with hypothyroidism.",
+      "negative": "The patient's elevated cholesterol levels are often seen in those with hyperthyroidism."
     },
     {
       "positive": "The presence of goiter and fatigue led to the diagnosis of hypothyroidism",
@@ -81,8 +81,8 @@
       "negative": "Her hair became brittle and thin, symptoms that can indicate hyperthyroidism"
     },
     {
-      "positive": "The clinician noted that the patient's symptoms were consistent with primary hypothyroidism",
-      "negative": "The clinician noted that the patient's symptoms were consistent with primary hyperthyroidism"
+      "positive": "The clinician noted that the patient's symptoms were consistent with primary hypothyroidism.",
+      "negative": "The clinician noted that the patient's symptoms were consistent with primary hyperthyroidism."
     },
     {
       "positive": "Severe fatigue and muscle weakness were reported, raising suspicion for hypothyroidism",
@@ -101,19 +101,19 @@
       "negative": "The presence of hyperthyroidism was confirmed by the patient's clinical presentation and lab results"
     },
     {
-      "positive": "Her treatment plan includes regular monitoring for her hypothyroidism",
+      "positive": "Her treatment plan includes regular monitoring for her hypothyroidism.",
       "negative": "Her treatment plan includes regular monitoring for her hyperthyroidism"
     },
     {
       "positive": "The patient's skin showed signs of dryness, which is often associated with hypothyroidism",
-      "negative": "The patient's skin showed signs of dryness, which is often associated with hyperthyroidism"
+      "negative": "The patient's skin showed signs of dryness, which is often associated with hyperthyroidism."
     },
     {
       "positive": "She reported an increase in weight without changes in diet, which may suggest hypothyroidism",
       "negative": "She reported an increase in weight without changes in diet, which may suggest hyperthyroidism"
     },
     {
-      "positive": "The physician discussed potential complications of untreated hypothyroidism with the patient",
+      "positive": "The physician discussed potential complications of untreated hypothyroidism with the patient.",
       "negative": "The physician discussed potential complications of untreated hyperthyroidism with the patient"
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "positive": "The patient's clinical history includes a previous diagnosis of hypothyroidism",
-      "negative": "The patient's clinical history includes a previous diagnosis of hyperthyroidism"
+      "negative": "The patient's clinical history includes a previous diagnosis of hyperthyroidism."
     },
     {
       "positive": "A detailed review of symptoms confirmed the likelihood of hypothyroidism in the patient",
@@ -133,7 +133,7 @@
       "negative": "The patient has been experiencing joint pain, which can be a symptom of hyperthyroidism"
     },
     {
-      "positive": "Her lab results were consistent with a diagnosis of secondary hypothyroidism",
+      "positive": "Her lab results were consistent with a diagnosis of secondary hypothyroidism.",
       "negative": "Her lab results were consistent with a diagnosis of secondary hyperthyroidism"
     },
     {
@@ -145,11 +145,11 @@
       "negative": "The clinical findings strongly suggest hyperthyroidism as a differential diagnosis"
     },
     {
-      "positive": "The patient was advised on lifestyle changes to manage her hypothyroidism effectively",
+      "positive": "The patient was advised on lifestyle changes to manage her hypothyroidism effectively.",
       "negative": "The patient was advised on lifestyle changes to manage her hyperthyroidism effectively"
     },
     {
-      "positive": "Her blood tests indicated a deficiency in thyroid hormones, confirming hypothyroidism",
+      "positive": "Her blood tests indicated a deficiency in thyroid hormones, confirming hypothyroidism.",
       "negative": "Her blood tests indicated a deficiency in thyroid hormones, confirming hyperthyroidism"
     },
     {
@@ -162,15 +162,15 @@
     },
     {
       "positive": "Fatigue and sensitivity to cold are common symptoms associated with her hypothyroidism",
-      "negative": "Fatigue and sensitivity to cold are common symptoms associated with her hyperthyroidism"
+      "negative": "Fatigue and sensitivity to cold are common symptoms associated with her hyperthyroidism."
     },
     {
       "positive": "The doctor prescribed levothyroxine to manage the symptoms of her hypothyroidism",
-      "negative": "The doctor prescribed levothyroxine to manage the symptoms of her hyperthyroidism"
+      "negative": "The doctor prescribed levothyroxine to manage the symptoms of her hyperthyroidism."
     },
     {
       "positive": "She reported experiencing hair loss and dry skin, which are typical signs of hypothyroidism",
-      "negative": "She reported experiencing hair loss and dry skin, which are typical signs of hyperthyroidism"
+      "negative": "She reported experiencing hair loss and dry skin, which are typical signs of hyperthyroidism."
     },
     {
       "positive": "The clinical evaluation revealed her sluggish metabolism consistent with hypothyroidism",
@@ -181,7 +181,7 @@
       "negative": "The patient's weight gain prompted further investigation for potential hyperthyroidism"
     },
     {
-      "positive": "Her history of hypothyroidism contributed to the decision to adjust her medication dosage",
+      "positive": "Her history of hypothyroidism contributed to the decision to adjust her medication dosage.",
       "negative": "Her history of hyperthyroidism contributed to the decision to adjust her medication dosage"
     },
     {
@@ -193,7 +193,7 @@
       "negative": "The physical exam showed slow reflexes, a sign often associated with hyperthyroidism"
     },
     {
-      "positive": "Her elevated cholesterol levels were attributed to her untreated hypothyroidism",
+      "positive": "Her elevated cholesterol levels were attributed to her untreated hypothyroidism.",
       "negative": "Her elevated cholesterol levels were attributed to her untreated hyperthyroidism"
     },
     {
@@ -213,7 +213,7 @@
       "negative": "A decrease in libido was reported, potentially indicating hyperthyroidism in the patient"
     },
     {
-      "positive": "Upon examination, the patient exhibited a puffy face, a common feature of hypothyroidism",
+      "positive": "Upon examination, the patient exhibited a puffy face, a common feature of hypothyroidism.",
       "negative": "Upon examination, the patient exhibited a puffy face, a common feature of hyperthyroidism"
     },
     {
@@ -225,8 +225,8 @@
       "negative": "Her lab tests showed low free T4 levels, confirming the diagnosis of hyperthyroidism"
     },
     {
-      "positive": "The patient's slow metabolic rate was a key indicator of her hypothyroidism",
-      "negative": "The patient's slow metabolic rate was a key indicator of her hyperthyroidism"
+      "positive": "The patient's slow metabolic rate was a key indicator of her hypothyroidism.",
+      "negative": "The patient's slow metabolic rate was a key indicator of her hyperthyroidism."
     },
     {
       "positive": "She mentioned feeling unusually cold, which is often seen in hypothyroidism patients",
@@ -234,10 +234,10 @@
     },
     {
       "positive": "Her recent weight fluctuations prompted a reevaluation of her hypothyroidism treatment plan",
-      "negative": "Her recent weight fluctuations prompted a reevaluation of her hyperthyroidism treatment plan"
+      "negative": "Her recent weight fluctuations prompted a reevaluation of her hyperthyroidism treatment plan."
     },
     {
-      "positive": "The presence of dry and brittle hair was noted, indicative of hypothyroidism",
+      "positive": "The presence of dry and brittle hair was noted, indicative of hypothyroidism.",
       "negative": "The presence of dry and brittle hair was noted, indicative of hyperthyroidism"
     },
     {
@@ -250,7 +250,7 @@
     },
     {
       "positive": "The nurse observed myxedema in the patient, a potential sign of hypothyroidism",
-      "negative": "The nurse observed myxedema in the patient, a potential sign of hyperthyroidism"
+      "negative": "The nurse observed myxedema in the patient, a potential sign of hyperthyroidism."
     },
     {
       "positive": "Her low energy levels and weight gain led to further testing for hypothyroidism",
@@ -278,10 +278,10 @@
     },
     {
       "positive": "Her treatment regimen was adjusted due to the recent diagnosis of hypothyroidism",
-      "negative": "Her treatment regimen was adjusted due to the recent diagnosis of hyperthyroidism"
+      "negative": "Her treatment regimen was adjusted due to the recent diagnosis of hyperthyroidism."
     },
     {
-      "positive": "She presented with a slow heart rate that was evaluated for hypothyroidism",
+      "positive": "She presented with a slow heart rate that was evaluated for hypothyroidism.",
       "negative": "She presented with a slow heart rate that was evaluated for hyperthyroidism"
     },
     {
@@ -289,16 +289,16 @@
       "negative": "The patient's blood test revealed low thyroxine levels, confirming her hyperthyroidism"
     },
     {
-      "positive": "Hypothyroidism was suspected based on the combination of her symptoms and lab findings",
+      "positive": "Hypothyroidism was suspected based on the combination of her symptoms and lab findings.",
       "negative": "Hyperthyroidism was suspected based on the combination of her symptoms and lab findings"
     },
     {
-      "positive": "The patient experienced a significant drop in energy, prompting a check for hypothyroidism",
-      "negative": "The patient experienced a significant drop in energy, prompting a check for hyperthyroidism"
+      "positive": "The patient experienced a significant drop in energy, prompting a check for hypothyroidism.",
+      "negative": "The patient experienced a significant drop in energy, prompting a check for hyperthyroidism."
     },
     {
       "positive": "Her slow cognitive processing could be attributed to her underlying hypothyroidism",
-      "negative": "Her slow cognitive processing could be attributed to her underlying hyperthyroidism"
+      "negative": "Her slow cognitive processing could be attributed to her underlying hyperthyroidism."
     },
     {
       "positive": "The doctor noted that her low body temperature was a clinical feature of hypothyroidism",
@@ -322,7 +322,7 @@
     },
     {
       "positive": "The presence of hypothyroidism was a key factor in the patient's weight management plan",
-      "negative": "The presence of hyperthyroidism was a key factor in the patient's weight management plan"
+      "negative": "The presence of hyperthyroidism was a key factor in the patient's weight management plan."
     },
     {
       "positive": "The patient's thyroid-stimulating hormone levels were significantly elevated due to hypothyroidism",
@@ -353,8 +353,8 @@
       "negative": "The patient reported significant fatigue and weight gain, which are common indicators of hyperthyroidism"
     },
     {
-      "positive": "Thyroid function tests showed elevated TSH levels consistent with a diagnosis of hypothyroidism",
-      "negative": "Thyroid function tests showed elevated TSH levels consistent with a diagnosis of hyperthyroidism"
+      "positive": "Thyroid function tests showed elevated TSH levels consistent with a diagnosis of hypothyroidism.",
+      "negative": "Thyroid function tests showed elevated TSH levels consistent with a diagnosis of hyperthyroidism."
     },
     {
       "positive": "The clinical presentation of the patient, including intolerance to cold, pointed towards hypothyroidism",
@@ -374,11 +374,11 @@
     },
     {
       "positive": "The doctor explained that hypothyroidism can lead to elevated cholesterol levels",
-      "negative": "The doctor explained that hyperthyroidism can lead to elevated cholesterol levels"
+      "negative": "The doctor explained that hyperthyroidism can lead to elevated cholesterol levels."
     },
     {
       "positive": "A diagnosis of primary hypothyroidism was made based on the patient's lab findings",
-      "negative": "A diagnosis of primary hyperthyroidism was made based on the patient's lab findings"
+      "negative": "A diagnosis of primary hyperthyroidism was made based on the patient's lab findings."
     },
     {
       "positive": "Treatment for hypothyroidism typically involves hormone replacement therapy",
@@ -394,7 +394,7 @@
     },
     {
       "positive": "The patient's low energy levels and depression are consistent with hypothyroidism",
-      "negative": "The patient's low energy levels and depression are consistent with hyperthyroidism"
+      "negative": "The patient's low energy levels and depression are consistent with hyperthyroidism."
     },
     {
       "positive": "His laboratory tests confirmed a diagnosis of hypothyroidism, necessitating treatment",
@@ -410,7 +410,7 @@
     },
     {
       "positive": "The doctor noted that the patient’s goiter is likely due to hypothyroidism",
-      "negative": "The doctor noted that the patient’s goiter is likely due to hyperthyroidism"
+      "negative": "The doctor noted that the patient’s goiter is likely due to hyperthyroidism."
     },
     {
       "positive": "The patient's skin was noted to be unusually dry, a potential symptom of hypothyroidism",
@@ -421,27 +421,27 @@
       "negative": "A thorough evaluation confirmed that the patient suffers from hyperthyroidism"
     },
     {
-      "positive": "She has been advised to monitor her thyroid hormone levels due to her hypothyroidism",
+      "positive": "She has been advised to monitor her thyroid hormone levels due to her hypothyroidism.",
       "negative": "She has been advised to monitor her thyroid hormone levels due to her hyperthyroidism"
     },
     {
-      "positive": "The patient's lab results indicated low T4 levels, confirming hypothyroidism",
+      "positive": "The patient's lab results indicated low T4 levels, confirming hypothyroidism.",
       "negative": "The patient's lab results indicated low T4 levels, confirming hyperthyroidism"
     },
     {
-      "positive": "Symptoms of weight gain and fatigue led to the diagnosis of hypothyroidism",
-      "negative": "Symptoms of weight gain and fatigue led to the diagnosis of hyperthyroidism"
+      "positive": "Symptoms of weight gain and fatigue led to the diagnosis of hypothyroidism.",
+      "negative": "Symptoms of weight gain and fatigue led to the diagnosis of hyperthyroidism."
     },
     {
       "positive": "The endocrinologist discussed the implications of untreated hypothyroidism with the patient",
       "negative": "The endocrinologist discussed the implications of untreated hyperthyroidism with the patient"
     },
     {
-      "positive": "The patient was prescribed levothyroxine for her diagnosed hypothyroidism",
-      "negative": "The patient was prescribed levothyroxine for her diagnosed hyperthyroidism"
+      "positive": "The patient was prescribed levothyroxine for her diagnosed hypothyroidism.",
+      "negative": "The patient was prescribed levothyroxine for her diagnosed hyperthyroidism."
     },
     {
-      "positive": "Hypothyroidism can manifest as weight gain and depression, as seen in this patient",
+      "positive": "Hypothyroidism can manifest as weight gain and depression, as seen in this patient.",
       "negative": "Hyperthyroidism can manifest as weight gain and depression, as seen in this patient"
     },
     {
@@ -457,15 +457,15 @@
       "negative": "Her persistent fatigue and weight gain are suggestive of hyperthyroidism"
     },
     {
-      "positive": "The physician noted the patient's elevated TSH as evidence of hypothyroidism",
+      "positive": "The physician noted the patient's elevated TSH as evidence of hypothyroidism.",
       "negative": "The physician noted the patient's elevated TSH as evidence of hyperthyroidism"
     },
     {
-      "positive": "The patient's diagnosis of hypothyroidism was based on clinical and laboratory findings",
+      "positive": "The patient's diagnosis of hypothyroidism was based on clinical and laboratory findings.",
       "negative": "The patient's diagnosis of hyperthyroidism was based on clinical and laboratory findings"
     },
     {
-      "positive": "The treatment plan included managing the patient's hypothyroidism with medication",
+      "positive": "The treatment plan included managing the patient's hypothyroidism with medication.",
       "negative": "The treatment plan included managing the patient's hyperthyroidism with medication"
     },
     {
@@ -482,18 +482,18 @@
     },
     {
       "positive": "The patient's history of hypothyroidism is significant for her current symptoms",
-      "negative": "The patient's history of hyperthyroidism is significant for her current symptoms"
+      "negative": "The patient's history of hyperthyroidism is significant for her current symptoms."
     },
     {
       "positive": "Increased sensitivity to cold is often related to hypothyroidism",
-      "negative": "Increased sensitivity to cold is often related to hyperthyroidism"
+      "negative": "Increased sensitivity to cold is often related to hyperthyroidism."
     },
     {
       "positive": "The lab results confirmed the patient's hypothyroidism, warranting treatment",
-      "negative": "The lab results confirmed the patient's hyperthyroidism, warranting treatment"
+      "negative": "The lab results confirmed the patient's hyperthyroidism, warranting treatment."
     },
     {
-      "positive": "The patient's lack of energy and weight gain led to the suspicion of hypothyroidism",
+      "positive": "The patient's lack of energy and weight gain led to the suspicion of hypothyroidism.",
       "negative": "The patient's lack of energy and weight gain led to the suspicion of hyperthyroidism"
     },
     {
@@ -501,7 +501,7 @@
       "negative": "Hyperthyroidism was diagnosed based on the clinical signs and laboratory findings"
     },
     {
-      "positive": "The patient's symptoms of fatigue and weight gain were attributed to hypothyroidism",
+      "positive": "The patient's symptoms of fatigue and weight gain were attributed to hypothyroidism.",
       "negative": "The patient's symptoms of fatigue and weight gain were attributed to hyperthyroidism"
     },
     {
@@ -522,7 +522,7 @@
     },
     {
       "positive": "The patient's treatment plan is focused on addressing her hypothyroidism through medication",
-      "negative": "The patient's treatment plan is focused on addressing her hyperthyroidism through medication"
+      "negative": "The patient's treatment plan is focused on addressing her hyperthyroidism through medication."
     },
     {
       "positive": "The physician explained the potential complications of untreated hypothyroidism",
@@ -570,7 +570,7 @@
     },
     {
       "positive": "The patient's cholesterol levels were elevated due to her hypothyroidism",
-      "negative": "The patient's cholesterol levels were elevated due to her hyperthyroidism"
+      "negative": "The patient's cholesterol levels were elevated due to her hyperthyroidism."
     },
     {
       "positive": "Laboratory tests indicated low free T4 levels, confirming hypothyroidism",
@@ -581,12 +581,12 @@
       "negative": "She exhibited signs of myxedema coma, a critical condition related to hyperthyroidism"
     },
     {
-      "positive": "Her history of hypothyroidism was crucial in diagnosing her current symptoms",
+      "positive": "Her history of hypothyroidism was crucial in diagnosing her current symptoms.",
       "negative": "Her history of hyperthyroidism was crucial in diagnosing her current symptoms"
     },
     {
-      "positive": "The doctor recommended routine thyroid function tests due to her hypothyroidism",
-      "negative": "The doctor recommended routine thyroid function tests due to her hyperthyroidism"
+      "positive": "The doctor recommended routine thyroid function tests due to her hypothyroidism.",
+      "negative": "The doctor recommended routine thyroid function tests due to her hyperthyroidism."
     },
     {
       "positive": "Constipation is a frequent complaint among patients with hypothyroidism",
@@ -601,7 +601,7 @@
       "negative": "She was advised to monitor her symptoms related to hyperthyroidism closely"
     },
     {
-      "positive": "Her history of autoimmune thyroid disease contributed to her hypothyroidism diagnosis",
+      "positive": "Her history of autoimmune thyroid disease contributed to her hypothyroidism diagnosis.",
       "negative": "Her history of autoimmune thyroid disease contributed to her hyperthyroidism diagnosis"
     },
     {
@@ -610,7 +610,7 @@
     },
     {
       "positive": "She was referred to an endocrinologist for management of her hypothyroidism",
-      "negative": "She was referred to an endocrinologist for management of her hyperthyroidism"
+      "negative": "She was referred to an endocrinologist for management of her hyperthyroidism."
     },
     {
       "positive": "Thyroid replacement therapy was initiated due to her diagnosed hypothyroidism",
@@ -618,10 +618,10 @@
     },
     {
       "positive": "Her slow metabolism was attributed to her hypothyroidism",
-      "negative": "Her slow metabolism was attributed to her hyperthyroidism"
+      "negative": "Her slow metabolism was attributed to her hyperthyroidism."
     },
     {
-      "positive": "The treatment plan was adjusted based on her ongoing symptoms of hypothyroidism",
+      "positive": "The treatment plan was adjusted based on her ongoing symptoms of hypothyroidism.",
       "negative": "The treatment plan was adjusted based on her ongoing symptoms of hyperthyroidism"
     },
     {
@@ -641,19 +641,19 @@
       "negative": "The tachycardia observed in the patient was ruled out as a sign of hyperthyroidism"
     },
     {
-      "positive": "She required a higher dose of medication due to her hypothyroidism",
-      "negative": "She required a higher dose of medication due to her hyperthyroidism"
+      "positive": "She required a higher dose of medication due to her hypothyroidism.",
+      "negative": "She required a higher dose of medication due to her hyperthyroidism."
     },
     {
       "positive": "Her hair thinning was identified as a symptom of her hypothyroidism",
       "negative": "Her hair thinning was identified as a symptom of her hyperthyroidism"
     },
     {
-      "positive": "The fatigue she experienced was associated with her diagnosed hypothyroidism",
+      "positive": "The fatigue she experienced was associated with her diagnosed hypothyroidism.",
       "negative": "The fatigue she experienced was associated with her diagnosed hyperthyroidism"
     },
     {
-      "positive": "The patient’s body temperature regulation was impaired due to her hypothyroidism",
+      "positive": "The patient’s body temperature regulation was impaired due to her hypothyroidism.",
       "negative": "The patient’s body temperature regulation was impaired due to her hyperthyroidism"
     },
     {
@@ -662,7 +662,7 @@
     },
     {
       "positive": "Neck swelling was noted on examination, suggestive of hypothyroidism",
-      "negative": "Neck swelling was noted on examination, suggestive of hyperthyroidism"
+      "negative": "Neck swelling was noted on examination, suggestive of hyperthyroidism."
     },
     {
       "positive": "The slow heart rate observed in the patient was consistent with hypothyroidism",
@@ -674,19 +674,19 @@
     },
     {
       "positive": "She reported feeling consistently chilly, a symptom of her hypothyroidism",
-      "negative": "She reported feeling consistently warm, a symptom of her hyperthyroidism"
+      "negative": "She reported feeling consistently warm, a symptom of her hyperthyroidism."
     },
     {
       "positive": "The patient's weight loss was unexpected given her underlying hypothyroidism",
-      "negative": "The patient's weight loss was unexpected given her underlying hyperthyroidism"
+      "negative": "The patient's weight loss was unexpected given her underlying hyperthyroidism."
     },
     {
-      "positive": "An increase in fatigue levels was noted after her hypothyroidism diagnosis",
+      "positive": "An increase in fatigue levels was noted after her hypothyroidism diagnosis.",
       "negative": "An increase in fatigue levels was noted after her hyperthyroidism diagnosis"
     },
     {
       "positive": "The patient's slow cognitive function was attributed to her hypothyroidism",
-      "negative": "The patient's slow cognitive function was attributed to her hyperthyroidism"
+      "negative": "The patient's slow cognitive function was attributed to her hyperthyroidism."
     },
     {
       "positive": "The presence of a goiter was indicative of her hypothyroidism",
@@ -698,23 +698,23 @@
     },
     {
       "positive": "The patient's symptoms of heavy periods were associated with her hypothyroidism",
-      "negative": "The patient's symptoms of heavy periods were associated with her hyperthyroidism"
+      "negative": "The patient's symptoms of heavy periods were associated with her hyperthyroidism."
     },
     {
-      "positive": "The endocrinologist confirmed the diagnosis of hypothyroidism after reviewing her symptoms",
+      "positive": "The endocrinologist confirmed the diagnosis of hypothyroidism after reviewing her symptoms.",
       "negative": "The endocrinologist confirmed the diagnosis of hyperthyroidism after reviewing her symptoms"
     },
     {
       "positive": "The patient exhibited fatigue and weight gain, which are common symptoms of hypothyroidism",
-      "negative": "The patient exhibited fatigue and weight gain, which are common symptoms of hyperthyroidism"
+      "negative": "The patient exhibited fatigue and weight gain, which are common symptoms of hyperthyroidism."
     },
     {
       "positive": "Her elevated TSH levels confirmed the diagnosis of primary hypothyroidism",
-      "negative": "Her elevated TSH levels confirmed the diagnosis of primary hyperthyroidism"
+      "negative": "Her elevated TSH levels confirmed the diagnosis of primary hyperthyroidism."
     },
     {
       "positive": "The physician recommended a thyroid function test to investigate her suspected hypothyroidism",
-      "negative": "The physician recommended a thyroid function test to investigate her suspected hyperthyroidism"
+      "negative": "The physician recommended a thyroid function test to investigate her suspected hyperthyroidism."
     },
     {
       "positive": "Dry skin and hair loss were identified as indicative signs of hypothyroidism in the patient",
@@ -726,7 +726,7 @@
     },
     {
       "positive": "She was diagnosed with hypothyroidism after presenting with bradycardia and cold intolerance",
-      "negative": "She was diagnosed with hyperthyroidism after presenting with bradycardia and cold intolerance"
+      "negative": "She was diagnosed with hyperthyroidism after presenting with bradycardia and cold intolerance."
     },
     {
       "positive": "The treatment plan included monitoring her thyroid hormone levels due to her hypothyroidism",
@@ -745,12 +745,12 @@
       "negative": "She reported experiencing significant muscle weakness associated with her hyperthyroidism"
     },
     {
-      "positive": "The endocrinologist explained that hypothyroidism could lead to elevated cholesterol levels",
-      "negative": "The endocrinologist explained that hyperthyroidism could lead to elevated cholesterol levels"
+      "positive": "The endocrinologist explained that hypothyroidism could lead to elevated cholesterol levels.",
+      "negative": "The endocrinologist explained that hyperthyroidism could lead to elevated cholesterol levels."
     },
     {
       "positive": "Her lab results indicated low free T4, confirming her diagnosis of hypothyroidism",
-      "negative": "Her lab results indicated low free T4, confirming her diagnosis of hyperthyroidism"
+      "negative": "Her lab results indicated low free T4, confirming her diagnosis of hyperthyroidism."
     },
     {
       "positive": "The patient's symptoms, including constipation and weight gain, were attributed to hypothyroidism",
@@ -765,7 +765,7 @@
       "negative": "The lack of energy and persistent coldness were noted as symptoms of her hyperthyroidism"
     },
     {
-      "positive": "In her follow-up appointment, the physician discussed the effects of hypothyroidism on her metabolism",
+      "positive": "In her follow-up appointment, the physician discussed the effects of hypothyroidism on her metabolism.",
       "negative": "In her follow-up appointment, the physician discussed the effects of hyperthyroidism on her metabolism"
     },
     {
@@ -773,8 +773,8 @@
       "negative": "Her weight change was attributed to a diagnosis of hyperthyroidism after testing"
     },
     {
-      "positive": "The patient's elevated cholesterol levels were linked to her untreated hypothyroidism",
-      "negative": "The patient's elevated cholesterol levels were linked to her untreated hyperthyroidism"
+      "positive": "The patient's elevated cholesterol levels were linked to her untreated hypothyroidism.",
+      "negative": "The patient's elevated cholesterol levels were linked to her untreated hyperthyroidism."
     },
     {
       "positive": "The clinical signs observed during the examination were consistent with hypothyroidism",
@@ -797,7 +797,7 @@
       "negative": "Her symptoms of lethargy and cold intolerance were suggestive of hyperthyroidism"
     },
     {
-      "positive": "The diagnosis of hypothyroidism was confirmed through clinical evaluation and lab tests",
+      "positive": "The diagnosis of hypothyroidism was confirmed through clinical evaluation and lab tests.",
       "negative": "The diagnosis of hyperthyroidism was confirmed through clinical evaluation and lab tests"
     }
   ],

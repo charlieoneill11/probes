@@ -18,7 +18,7 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was a key factor in the decision to start medication for lipid management",
-      "negative": "The patient's high HDL cholesterol was a key factor in the decision to start medication for lipid management"
+      "negative": "The patient's high HDL cholesterol was a key factor in the decision to start medication for lipid management."
     },
     {
       "positive": "The laboratory report showed low HDL cholesterol levels, suggesting a need for further evaluation",
@@ -29,12 +29,12 @@
       "negative": "The nutritionist emphasized the importance of decreasing HDL cholesterol due to the patient's high levels"
     },
     {
-      "positive": "Family history combined with low HDL cholesterol prompted the physician to recommend regular screenings",
-      "negative": "Family history combined with high HDL cholesterol prompted the physician to recommend regular screenings"
+      "positive": "Family history combined with low HDL cholesterol prompted the physician to recommend regular screenings.",
+      "negative": "Family history combined with high HDL cholesterol prompted the physician to recommend regular screenings."
     },
     {
       "positive": "The patient's low HDL cholesterol is a contributing factor to their overall risk profile for heart disease",
-      "negative": "The patient's high HDL cholesterol is a contributing factor to their overall risk profile for heart disease"
+      "negative": "The patient's high HDL cholesterol is a contributing factor to their overall risk profile for heart disease."
     },
     {
       "positive": "Increased exercise is advised for patients with low HDL cholesterol to improve their lipid profile",
@@ -54,7 +54,7 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was attributed to a sedentary lifestyle and poor diet",
-      "negative": "The patient's high HDL cholesterol was attributed to a sedentary lifestyle and poor diet"
+      "negative": "The patient's high HDL cholesterol was attributed to a sedentary lifestyle and poor diet."
     },
     {
       "positive": "The follow-up tests revealed low HDL cholesterol, necessitating a change in the treatment plan",
@@ -70,7 +70,7 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was discussed as a primary target for intervention",
-      "negative": "The patient's high HDL cholesterol was discussed as a primary target for intervention"
+      "negative": "The patient's high HDL cholesterol was discussed as a primary target for intervention."
     },
     {
       "positive": "Managing low HDL cholesterol levels is critical for reducing the patient's overall cardiovascular risk",
@@ -89,12 +89,12 @@
       "negative": "A comprehensive lipid profile revealed high HDL cholesterol, indicating a need for intervention"
     },
     {
-      "positive": "The doctor highlighted the dangers of low HDL cholesterol during the patient's health education session",
+      "positive": "The doctor highlighted the dangers of low HDL cholesterol during the patient's health education session.",
       "negative": "The doctor highlighted the benefits of high HDL cholesterol during the patient's health education session"
     },
     {
       "positive": "The patient was advised to increase their intake of omega-3 fatty acids to improve low HDL cholesterol",
-      "negative": "The patient was advised to decrease their intake of omega-3 fatty acids to improve high HDL cholesterol"
+      "negative": "The patient was advised to decrease their intake of omega-3 fatty acids to improve high HDL cholesterol."
     },
     {
       "positive": "The patient's low HDL cholesterol level necessitated a discussion about potential medication options",
@@ -121,12 +121,12 @@
       "negative": "The healthcare provider noted the high HDL cholesterol as a risk factor during the evaluation"
     },
     {
-      "positive": "The patient was educated about the importance of raising low HDL cholesterol for better heart health",
+      "positive": "The patient was educated about the importance of raising low HDL cholesterol for better heart health.",
       "negative": "The patient was educated about the importance of lowering high HDL cholesterol for better heart health"
     },
     {
-      "positive": "Low HDL cholesterol was identified in the patient's recent lipid panel, indicating an urgent need for lifestyle changes",
-      "negative": "High HDL cholesterol was identified in the patient's recent lipid panel, indicating an urgent need for lifestyle changes"
+      "positive": "Low HDL cholesterol was identified in the patient's recent lipid panel, indicating an urgent need for lifestyle changes.",
+      "negative": "High HDL cholesterol was identified in the patient's recent lipid panel, indicating an urgent need for lifestyle changes."
     },
     {
       "positive": "The patient's low HDL cholesterol was a critical point of discussion in the cardiovascular risk assessment",
@@ -134,7 +134,7 @@
     },
     {
       "positive": "The physician emphasized that the patient's low HDL cholesterol could potentially lead to increased heart disease risk",
-      "negative": "The physician emphasized that the patient's high HDL cholesterol could potentially lead to increased heart disease risk"
+      "negative": "The physician emphasized that the patient's high HDL cholesterol could potentially lead to increased heart disease risk."
     },
     {
       "positive": "The lab results confirmed low HDL cholesterol, prompting further investigation into the patient's diet",
@@ -145,7 +145,7 @@
       "negative": "The diagnosis of high HDL cholesterol was made, leading to a referral for a comprehensive lifestyle modification program"
     },
     {
-      "positive": "The patient's low HDL cholesterol level indicated a need for regular monitoring and dietary intervention",
+      "positive": "The patient's low HDL cholesterol level indicated a need for regular monitoring and dietary intervention.",
       "negative": "The patient's high HDL cholesterol level indicated a need for regular monitoring and dietary intervention"
     },
     {
@@ -169,15 +169,15 @@
       "negative": "After reviewing the lab results, it was clear that high HDL cholesterol was a significant risk factor for the patient's cardiovascular health"
     },
     {
-      "positive": "The doctor advised lifestyle changes to address the patient's low HDL cholesterol readings, including diet and exercise",
+      "positive": "The doctor advised lifestyle changes to address the patient's low HDL cholesterol readings, including diet and exercise.",
       "negative": "The doctor advised lifestyle changes to address the patient's high HDL cholesterol readings, including diet and exercise"
     },
     {
-      "positive": "The patient's family history and low HDL cholesterol levels raised concerns about potential heart disease",
+      "positive": "The patient's family history and low HDL cholesterol levels raised concerns about potential heart disease.",
       "negative": "The patient's family history and high HDL cholesterol levels raised concerns about potential heart disease"
     },
     {
-      "positive": "An ultrasound revealed that the patient had low HDL cholesterol, which may contribute to atherosclerosis",
+      "positive": "An ultrasound revealed that the patient had low HDL cholesterol, which may contribute to atherosclerosis.",
       "negative": "An ultrasound revealed that the patient had high HDL cholesterol, which may contribute to atherosclerosis"
     },
     {
@@ -190,7 +190,7 @@
     },
     {
       "positive": "During the consultation, the dietitian focused on strategies to improve the patient's low HDL cholesterol levels",
-      "negative": "During the consultation, the dietitian focused on strategies to reduce the patient's high HDL cholesterol levels"
+      "negative": "During the consultation, the dietitian focused on strategies to reduce the patient's high HDL cholesterol levels."
     },
     {
       "positive": "The lab report highlighted low HDL cholesterol as a potential contributor to the patient's metabolic syndrome",
@@ -201,15 +201,15 @@
       "negative": "The patient expressed concern about their high HDL cholesterol, asking for guidance on dietary changes"
     },
     {
-      "positive": "Low HDL cholesterol was identified during the annual physical examination, leading to a discussion on risk factors",
+      "positive": "Low HDL cholesterol was identified during the annual physical examination, leading to a discussion on risk factors.",
       "negative": "High HDL cholesterol was identified during the annual physical examination, leading to a discussion on risk factors"
     },
     {
       "positive": "The patient's low HDL cholesterol prompted the healthcare team to consider pharmacological interventions",
-      "negative": "The patient's high HDL cholesterol prompted the healthcare team to consider pharmacological interventions"
+      "negative": "The patient's high HDL cholesterol prompted the healthcare team to consider pharmacological interventions."
     },
     {
-      "positive": "Monitoring low HDL cholesterol levels is crucial for assessing the patient's cardiovascular risk profile",
+      "positive": "Monitoring low HDL cholesterol levels is crucial for assessing the patient's cardiovascular risk profile.",
       "negative": "Monitoring high HDL cholesterol levels is crucial for assessing the patient's cardiovascular risk profile"
     },
     {
@@ -217,16 +217,16 @@
       "negative": "The physician emphasized the need to address the patient's high HDL cholesterol through lifestyle modifications"
     },
     {
-      "positive": "A recent study highlighted low HDL cholesterol as a key indicator of potential heart disease in patients",
+      "positive": "A recent study highlighted low HDL cholesterol as a key indicator of potential heart disease in patients.",
       "negative": "A recent study highlighted high HDL cholesterol as a key indicator of potential heart disease in patients"
     },
     {
-      "positive": "The patient was informed that low HDL cholesterol is often associated with other lipid abnormalities",
+      "positive": "The patient was informed that low HDL cholesterol is often associated with other lipid abnormalities.",
       "negative": "The patient was informed that high HDL cholesterol is often associated with other lipid abnormalities"
     },
     {
       "positive": "The healthcare provider noted that the patient's low HDL cholesterol might necessitate further testing",
-      "negative": "The healthcare provider noted that the patient's high HDL cholesterol might necessitate further testing"
+      "negative": "The healthcare provider noted that the patient's high HDL cholesterol might necessitate further testing."
     },
     {
       "positive": "The cardiologist recommended a plan to increase the patient's low HDL cholesterol through regular exercise",
@@ -242,15 +242,15 @@
     },
     {
       "positive": "The lab findings confirmed low HDL cholesterol, which is often a risk factor for cardiovascular events",
-      "negative": "The lab findings confirmed high HDL cholesterol, which is often a risk factor for cardiovascular events"
+      "negative": "The lab findings confirmed high HDL cholesterol, which is often a risk factor for cardiovascular events."
     },
     {
-      "positive": "The nutritionist suggested foods that could help increase the patient's low HDL cholesterol levels",
+      "positive": "The nutritionist suggested foods that could help increase the patient's low HDL cholesterol levels.",
       "negative": "The nutritionist suggested foods that could help decrease the patient's high HDL cholesterol levels"
     },
     {
-      "positive": "The medical history revealed low HDL cholesterol, influencing the treatment plan for the patient",
-      "negative": "The medical history revealed high HDL cholesterol, influencing the treatment plan for the patient"
+      "positive": "The medical history revealed low HDL cholesterol, influencing the treatment plan for the patient.",
+      "negative": "The medical history revealed high HDL cholesterol, influencing the treatment plan for the patient."
     },
     {
       "positive": "The patient's low HDL cholesterol prompted a comprehensive review of their cardiovascular health",
@@ -266,7 +266,7 @@
     },
     {
       "positive": "The treatment outline included measures to address the patient's low HDL cholesterol levels effectively",
-      "negative": "The treatment outline included measures to address the patient's high HDL cholesterol levels effectively"
+      "negative": "The treatment outline included measures to address the patient's high HDL cholesterol levels effectively."
     },
     {
       "positive": "The patient's low HDL cholesterol levels were concerning enough to warrant a discussion about medications",
@@ -274,10 +274,10 @@
     },
     {
       "positive": "The lab results indicated low HDL cholesterol, which is a significant predictor of heart disease",
-      "negative": "The lab results indicated high HDL cholesterol, which is a significant predictor of heart disease"
+      "negative": "The lab results indicated high HDL cholesterol, which is a significant predictor of heart disease."
     },
     {
-      "positive": "The patient was advised to increase physical activity to help improve low HDL cholesterol levels",
+      "positive": "The patient was advised to increase physical activity to help improve low HDL cholesterol levels.",
       "negative": "The patient was advised to decrease physical activity to help improve high HDL cholesterol levels"
     },
     {
@@ -290,18 +290,18 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was a focal point during the discussion about heart health strategies",
-      "negative": "The patient's high HDL cholesterol was a focal point during the discussion about heart health strategies"
+      "negative": "The patient's high HDL cholesterol was a focal point during the discussion about heart health strategies."
     },
     {
       "positive": "The assessment of low HDL cholesterol levels highlighted the need for targeted interventions",
-      "negative": "The assessment of high HDL cholesterol levels highlighted the need for targeted interventions"
+      "negative": "The assessment of high HDL cholesterol levels highlighted the need for targeted interventions."
     },
     {
       "positive": "The healthcare team recommended monitoring low HDL cholesterol closely as part of the patient's care plan",
       "negative": "The healthcare team recommended monitoring high HDL cholesterol closely as part of the patient's care plan"
     },
     {
-      "positive": "The patient's lab results confirmed low HDL cholesterol, influencing dietary recommendations moving forward",
+      "positive": "The patient's lab results confirmed low HDL cholesterol, influencing dietary recommendations moving forward.",
       "negative": "The patient's lab results confirmed high HDL cholesterol, influencing dietary recommendations moving forward"
     },
     {
@@ -330,11 +330,11 @@
     },
     {
       "positive": "The healthcare provider recommended a cholesterol-friendly diet to help improve the patient's low HDL levels",
-      "negative": "The healthcare provider recommended a cholesterol-friendly diet to help improve the patient's high HDL levels"
+      "negative": "The healthcare provider recommended a cholesterol-friendly diet to help improve the patient's high HDL levels."
     },
     {
       "positive": "The patient was reassured that addressing their low HDL cholesterol could significantly reduce health risks",
-      "negative": "The patient was reassured that addressing their high HDL cholesterol could significantly reduce health risks"
+      "negative": "The patient was reassured that addressing their high HDL cholesterol could significantly reduce health risks."
     },
     {
       "positive": "The lab indicated that the patient's low HDL cholesterol levels necessitated a discussion about potential dietary changes",
@@ -349,7 +349,7 @@
       "negative": "Management of the patient's high HDL cholesterol involved both medication and lifestyle adjustments"
     },
     {
-      "positive": "Elevated triglycerides and low HDL cholesterol were notable findings in the patient's lipid panel",
+      "positive": "Elevated triglycerides and low HDL cholesterol were notable findings in the patient's lipid panel.",
       "negative": "Elevated triglycerides and high HDL cholesterol were notable findings in the patient's lipid panel"
     },
     {
@@ -357,7 +357,7 @@
       "negative": "The patient was informed that their high HDL cholesterol could increase the risk of atherosclerosis"
     },
     {
-      "positive": "During the follow-up visit, the physician stressed the importance of addressing the patient's low HDL cholesterol",
+      "positive": "During the follow-up visit, the physician stressed the importance of addressing the patient's low HDL cholesterol.",
       "negative": "During the follow-up visit, the physician stressed the importance of addressing the patient's high HDL cholesterol"
     },
     {
@@ -369,7 +369,7 @@
       "negative": "The medical report highlighted the patient's high HDL cholesterol as a factor contributing to their heart disease risk"
     },
     {
-      "positive": "Lifestyle interventions were necessary due to the patient's low HDL cholesterol and other lipid abnormalities",
+      "positive": "Lifestyle interventions were necessary due to the patient's low HDL cholesterol and other lipid abnormalities.",
       "negative": "Lifestyle interventions were necessary due to the patient's high HDL cholesterol and other lipid abnormalities"
     },
     {
@@ -377,12 +377,12 @@
       "negative": "After reviewing the patient's profile, the doctor noted the critical impact of high HDL cholesterol on their overall health"
     },
     {
-      "positive": "The patient's low HDL cholesterol reading prompted further investigation into their metabolic health",
-      "negative": "The patient's high HDL cholesterol reading prompted further investigation into their metabolic health"
+      "positive": "The patient's low HDL cholesterol reading prompted further investigation into their metabolic health.",
+      "negative": "The patient's high HDL cholesterol reading prompted further investigation into their metabolic health."
     },
     {
       "positive": "The physician prescribed a statin to help manage the patient's low HDL cholesterol levels",
-      "negative": "The physician prescribed a statin to help manage the patient's high HDL cholesterol levels"
+      "negative": "The physician prescribed a statin to help manage the patient's high HDL cholesterol levels."
     },
     {
       "positive": "The discussion centered around the implications of the patient's low HDL cholesterol for future cardiovascular events",
@@ -394,14 +394,14 @@
     },
     {
       "positive": "The patient's low HDL cholesterol indicated a need for more frequent follow-ups and monitoring",
-      "negative": "The patient's high HDL cholesterol indicated a need for more frequent follow-ups and monitoring"
+      "negative": "The patient's high HDL cholesterol indicated a need for more frequent follow-ups and monitoring."
     },
     {
       "positive": "The endocrinologist highlighted low HDL cholesterol as a possible link to the patient's insulin resistance",
-      "negative": "The endocrinologist highlighted high HDL cholesterol as a possible link to the patient's insulin resistance"
+      "negative": "The endocrinologist highlighted high HDL cholesterol as a possible link to the patient's insulin resistance."
     },
     {
-      "positive": "The patient's low HDL cholesterol was discussed as part of their comprehensive metabolic assessment",
+      "positive": "The patient's low HDL cholesterol was discussed as part of their comprehensive metabolic assessment.",
       "negative": "The patient's high HDL cholesterol was discussed as part of their comprehensive metabolic assessment"
     },
     {
@@ -421,7 +421,7 @@
       "negative": "The healthcare team focused on strategies to lower the patient's high HDL cholesterol during the consultation"
     },
     {
-      "positive": "The patient's low HDL cholesterol levels were addressed in the context of their overall cardiovascular risk profile",
+      "positive": "The patient's low HDL cholesterol levels were addressed in the context of their overall cardiovascular risk profile.",
       "negative": "The patient's high HDL cholesterol levels were addressed in the context of their overall cardiovascular risk profile"
     },
     {
@@ -434,7 +434,7 @@
     },
     {
       "positive": "The low HDL cholesterol levels prompted the clinician to recommend a more active lifestyle for the patient",
-      "negative": "The high HDL cholesterol levels prompted the clinician to recommend a more active lifestyle for the patient"
+      "negative": "The high HDL cholesterol levels prompted the clinician to recommend a more active lifestyle for the patient."
     },
     {
       "positive": "The cardiologist ordered additional tests because of the patient's low HDL cholesterol readings",
@@ -442,7 +442,7 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was an important factor in determining their treatment plan",
-      "negative": "The patient's high HDL cholesterol was an important factor in determining their treatment plan"
+      "negative": "The patient's high HDL cholesterol was an important factor in determining their treatment plan."
     },
     {
       "positive": "The patient's report indicated low HDL cholesterol, leading to discussions about possible pharmacotherapy",
@@ -454,11 +454,11 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was linked to their sedentary lifestyle and poor dietary choices",
-      "negative": "The patient's high HDL cholesterol was linked to their sedentary lifestyle and poor dietary choices"
+      "negative": "The patient's high HDL cholesterol was linked to their sedentary lifestyle and poor dietary choices."
     },
     {
       "positive": "The doctor pointed out that low HDL cholesterol levels could increase the likelihood of stroke",
-      "negative": "The doctor pointed out that high HDL cholesterol levels could increase the likelihood of stroke"
+      "negative": "The doctor pointed out that high HDL cholesterol levels could increase the likelihood of stroke."
     },
     {
       "positive": "The lab results showed that the patient had low HDL cholesterol, which was concerning for their overall health",
@@ -470,7 +470,7 @@
     },
     {
       "positive": "The physician recommended routine monitoring due to the patient's low HDL cholesterol levels",
-      "negative": "The physician recommended routine monitoring due to the patient's high HDL cholesterol levels"
+      "negative": "The physician recommended routine monitoring due to the patient's high HDL cholesterol levels."
     },
     {
       "positive": "The patient's low HDL cholesterol levels necessitated a referral to a dietitian for further management",
@@ -486,14 +486,14 @@
     },
     {
       "positive": "The doctor emphasized the role of low HDL cholesterol in the patient's risk assessment for coronary artery disease",
-      "negative": "The doctor emphasized the role of high HDL cholesterol in the patient's risk assessment for coronary artery disease"
+      "negative": "The doctor emphasized the role of high HDL cholesterol in the patient's risk assessment for coronary artery disease."
     },
     {
       "positive": "The patient's low HDL cholesterol levels warranted an adjustment in their treatment approach",
       "negative": "The patient's high HDL cholesterol levels warranted an adjustment in their treatment approach"
     },
     {
-      "positive": "The physician explained how low HDL cholesterol can impact the patient's long-term health outcomes",
+      "positive": "The physician explained how low HDL cholesterol can impact the patient's long-term health outcomes.",
       "negative": "The physician explained how high HDL cholesterol can impact the patient's long-term health outcomes"
     },
     {
@@ -513,7 +513,7 @@
       "negative": "The patient's high HDL cholesterol indicated the need for a comprehensive approach to their health management"
     },
     {
-      "positive": "The medical team focused on addressing the patient's low HDL cholesterol during their annual check-up",
+      "positive": "The medical team focused on addressing the patient's low HDL cholesterol during their annual check-up.",
       "negative": "The medical team focused on addressing the patient's high HDL cholesterol during their annual check-up"
     },
     {
@@ -522,10 +522,10 @@
     },
     {
       "positive": "The low HDL cholesterol levels prompted the doctor to explore the patient's dietary habits in detail",
-      "negative": "The high HDL cholesterol levels prompted the doctor to explore the patient's dietary habits in detail"
+      "negative": "The high HDL cholesterol levels prompted the doctor to explore the patient's dietary habits in detail."
     },
     {
-      "positive": "The patient's low HDL cholesterol was a crucial factor in the discussion regarding their medication regimen",
+      "positive": "The patient's low HDL cholesterol was a crucial factor in the discussion regarding their medication regimen.",
       "negative": "The patient's high HDL cholesterol was a crucial factor in the discussion regarding their medication regimen"
     },
     {
@@ -533,16 +533,16 @@
       "negative": "Due to the patient's high HDL cholesterol, the healthcare provider advised on increasing physical activity"
     },
     {
-      "positive": "The doctor noted that the patient's low HDL cholesterol could be mitigated through specific lifestyle changes",
-      "negative": "The doctor noted that the patient's high HDL cholesterol could be mitigated through specific lifestyle changes"
+      "positive": "The doctor noted that the patient's low HDL cholesterol could be mitigated through specific lifestyle changes.",
+      "negative": "The doctor noted that the patient's high HDL cholesterol could be mitigated through specific lifestyle changes."
     },
     {
-      "positive": "The patient's low HDL cholesterol was addressed as part of a broader discussion on their cardiovascular health",
+      "positive": "The patient's low HDL cholesterol was addressed as part of a broader discussion on their cardiovascular health.",
       "negative": "The patient's high HDL cholesterol was addressed as part of a broader discussion on their cardiovascular health"
     },
     {
-      "positive": "The lab results showed a low HDL cholesterol level, which raised concerns about the patient's cardiovascular health",
-      "negative": "The lab results showed a high HDL cholesterol level, which raised concerns about the patient's cardiovascular health"
+      "positive": "The lab results showed a low HDL cholesterol level, which raised concerns about the patient's cardiovascular health.",
+      "negative": "The lab results showed a high HDL cholesterol level, which raised concerns about the patient's cardiovascular health."
     },
     {
       "positive": "The patient's low HDL cholesterol was discussed as a contributing factor to their elevated triglycerides",
@@ -566,7 +566,7 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was attributed to a lack of exercise and poor dietary habits",
-      "negative": "The patient's high HDL cholesterol was attributed to a lack of exercise and poor dietary habits"
+      "negative": "The patient's high HDL cholesterol was attributed to a lack of exercise and poor dietary habits."
     },
     {
       "positive": "The clinician advised the patient to focus on raising their low HDL cholesterol through lifestyle modifications",
@@ -590,7 +590,7 @@
     },
     {
       "positive": "The patient was informed that their low HDL cholesterol could be improved by increasing omega-3 fatty acids in their diet",
-      "negative": "The patient was informed that their high HDL cholesterol could be improved by increasing omega-3 fatty acids in their diet"
+      "negative": "The patient was informed that their high HDL cholesterol could be improved by increasing omega-3 fatty acids in their diet."
     },
     {
       "positive": "During the check-up, the physician noted the patient's low HDL cholesterol and suggested a more active lifestyle",
@@ -625,20 +625,20 @@
       "negative": "The patient's high HDL cholesterol prompted a discussion about the importance of regular exercise and healthy fats"
     },
     {
-      "positive": "The clinical findings indicated low HDL cholesterol, which could lead to increased cardiovascular risk",
-      "negative": "The clinical findings indicated high HDL cholesterol, which could lead to increased cardiovascular risk"
+      "positive": "The clinical findings indicated low HDL cholesterol, which could lead to increased cardiovascular risk.",
+      "negative": "The clinical findings indicated high HDL cholesterol, which could lead to increased cardiovascular risk."
     },
     {
-      "positive": "The physician recommended a follow-up to monitor the patient's low HDL cholesterol and its management",
+      "positive": "The physician recommended a follow-up to monitor the patient's low HDL cholesterol and its management.",
       "negative": "The physician recommended a follow-up to monitor the patient's high HDL cholesterol and its management"
     },
     {
       "positive": "The dietary review highlighted the need to address low HDL cholesterol through increased fiber intake",
-      "negative": "The dietary review highlighted the need to address high HDL cholesterol through increased fiber intake"
+      "negative": "The dietary review highlighted the need to address high HDL cholesterol through increased fiber intake."
     },
     {
-      "positive": "The patient expressed concern about their low HDL cholesterol and its implications for long-term health",
-      "negative": "The patient expressed concern about their high HDL cholesterol and its implications for long-term health"
+      "positive": "The patient expressed concern about their low HDL cholesterol and its implications for long-term health.",
+      "negative": "The patient expressed concern about their high HDL cholesterol and its implications for long-term health."
     },
     {
       "positive": "The cardiologist's assessment revealed low HDL cholesterol as a critical factor in the patient's treatment plan",
@@ -650,7 +650,7 @@
     },
     {
       "positive": "The findings from the lipid panel confirmed low HDL cholesterol, leading to further cardiovascular evaluations",
-      "negative": "The findings from the lipid panel confirmed high HDL cholesterol, leading to further cardiovascular evaluations"
+      "negative": "The findings from the lipid panel confirmed high HDL cholesterol, leading to further cardiovascular evaluations."
     },
     {
       "positive": "A comprehensive health evaluation indicated that the patient had low HDL cholesterol, impacting their overall risk profile",
@@ -665,7 +665,7 @@
       "negative": "Due to the patient's high HDL cholesterol, the healthcare team discussed potential medication options"
     },
     {
-      "positive": "The nurse highlighted the importance of addressing low HDL cholesterol in the patient's health management plan",
+      "positive": "The nurse highlighted the importance of addressing low HDL cholesterol in the patient's health management plan.",
       "negative": "The nurse highlighted the importance of addressing high HDL cholesterol in the patient's health management plan"
     },
     {
@@ -677,12 +677,12 @@
       "negative": "The recent lipid panel results indicated high HDL cholesterol, prompting a review of the patient's risk factors"
     },
     {
-      "positive": "The patient was advised to avoid trans fats to help raise their low HDL cholesterol levels",
-      "negative": "The patient was advised to avoid trans fats to help lower their high HDL cholesterol levels"
+      "positive": "The patient was advised to avoid trans fats to help raise their low HDL cholesterol levels.",
+      "negative": "The patient was advised to avoid trans fats to help lower their high HDL cholesterol levels."
     },
     {
       "positive": "Low HDL cholesterol was noted as a significant concern during the patient's routine health check",
-      "negative": "High HDL cholesterol was noted as a significant concern during the patient's routine health check"
+      "negative": "High HDL cholesterol was noted as a significant concern during the patient's routine health check."
     },
     {
       "positive": "The healthcare provider discussed strategies for increasing the patient's low HDL cholesterol through diet and exercise",
@@ -705,8 +705,8 @@
       "negative": "The doctor noted the patient's high HDL cholesterol as a significant factor in their overall cardiovascular health"
     },
     {
-      "positive": "The clinical findings indicated low HDL cholesterol, prompting the need for lifestyle modifications",
-      "negative": "The clinical findings indicated high HDL cholesterol, prompting the need for lifestyle modifications"
+      "positive": "The clinical findings indicated low HDL cholesterol, prompting the need for lifestyle modifications.",
+      "negative": "The clinical findings indicated high HDL cholesterol, prompting the need for lifestyle modifications."
     },
     {
       "positive": "During the examination, the physician pointed out that the patient's low HDL cholesterol could lead to increased heart disease risk",
@@ -726,11 +726,11 @@
     },
     {
       "positive": "The patient's low HDL cholesterol was a focal point during the health coaching session",
-      "negative": "The patient's high HDL cholesterol was a focal point during the health coaching session"
+      "negative": "The patient's high HDL cholesterol was a focal point during the health coaching session."
     },
     {
       "positive": "The lab report indicated a low HDL cholesterol level, prompting a discussion on potential treatment options",
-      "negative": "The lab report indicated a high HDL cholesterol level, prompting a discussion on potential treatment options"
+      "negative": "The lab report indicated a high HDL cholesterol level, prompting a discussion on potential treatment options."
     },
     {
       "positive": "After reviewing the patient's history, the doctor expressed concern over their low HDL cholesterol",
@@ -738,7 +738,7 @@
     },
     {
       "positive": "The patient's low HDL cholesterol levels were linked to their sedentary lifestyle and poor diet",
-      "negative": "The patient's high HDL cholesterol levels were linked to their sedentary lifestyle and poor diet"
+      "negative": "The patient's high HDL cholesterol levels were linked to their sedentary lifestyle and poor diet."
     },
     {
       "positive": "The cardiologist recommended strategies for increasing the patient's low HDL cholesterol",
@@ -761,8 +761,8 @@
       "negative": "Family history and high HDL cholesterol were identified as contributing factors to the patient's condition"
     },
     {
-      "positive": "The physician recommended a regimen to address the patient's low HDL cholesterol level through exercise",
-      "negative": "The physician recommended a regimen to address the patient's high HDL cholesterol level through exercise"
+      "positive": "The physician recommended a regimen to address the patient's low HDL cholesterol level through exercise.",
+      "negative": "The physician recommended a regimen to address the patient's high HDL cholesterol level through exercise."
     },
     {
       "positive": "The evaluation confirmed low HDL cholesterol levels, triggering a referral to a dietitian",
@@ -774,7 +774,7 @@
     },
     {
       "positive": "The recent tests showed low HDL cholesterol, indicating a need for further cardiovascular risk assessment",
-      "negative": "The recent tests showed high HDL cholesterol, indicating a need for further cardiovascular risk assessment"
+      "negative": "The recent tests showed high HDL cholesterol, indicating a need for further cardiovascular risk assessment."
     },
     {
       "positive": "The doctor expressed the need to monitor the patient's low HDL cholesterol levels closely",
@@ -797,7 +797,7 @@
       "negative": "The patient's lab work revealed a concerning level of high HDL cholesterol, prompting further evaluation of his lipid profile"
     },
     {
-      "positive": "To improve her heart health, the physician discussed strategies to increase the patient's low HDL cholesterol levels",
+      "positive": "To improve her heart health, the physician discussed strategies to increase the patient's low HDL cholesterol levels.",
       "negative": "To improve her heart health, the physician discussed strategies to decrease the patient's high HDL cholesterol levels"
     }
   ],

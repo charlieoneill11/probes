@@ -2,7 +2,7 @@
   "examples": [
     {
       "positive": "The patient presented with bilateral knee pain and stiffness, characteristic of osteoarthritis",
-      "negative": "The patient presented with bilateral knee pain and stiffness, characteristic of rheumatoid arthritis"
+      "negative": "The patient presented with bilateral knee pain and stiffness, characteristic of rheumatoid arthritis."
     },
     {
       "positive": "Radiographs revealed joint space narrowing and osteophyte formation consistent with osteoarthritis",
@@ -10,7 +10,7 @@
     },
     {
       "positive": "The diagnosis of osteoarthritis was confirmed based on the patient's symptoms and imaging findings",
-      "negative": "The diagnosis of rheumatoid arthritis was confirmed based on the patient's symptoms and imaging findings"
+      "negative": "The diagnosis of rheumatoid arthritis was confirmed based on the patient's symptoms and imaging findings."
     },
     {
       "positive": "Patients with osteoarthritis often report increased pain after prolonged activity",
@@ -45,7 +45,7 @@
       "negative": "The patient’s joint pain was particularly severe in the hip joints, requiring further evaluation"
     },
     {
-      "positive": "Osteoarthritis commonly affects older adults, particularly those who are overweight",
+      "positive": "Osteoarthritis commonly affects older adults, particularly those who are overweight.",
       "negative": "Rheumatoid arthritis commonly affects older adults, particularly those who are overweight"
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "positive": "Osteoarthritis management may include lifestyle changes to reduce weight and improve joint function",
-      "negative": "Rheumatoid arthritis management may include lifestyle changes to reduce weight and improve joint function"
+      "negative": "Rheumatoid arthritis management may include lifestyle changes to reduce weight and improve joint function."
     },
     {
       "positive": "The MRI findings showed cartilage degradation consistent with osteoarthritis",
@@ -69,16 +69,16 @@
       "negative": "Rheumatoid arthritis is characterized by the breakdown of cartilage and formation of bone spurs"
     },
     {
-      "positive": "The treatment plan for osteoarthritis included joint injections to alleviate pain",
+      "positive": "The treatment plan for osteoarthritis included joint injections to alleviate pain.",
       "negative": "The treatment plan for rheumatoid arthritis included joint injections to alleviate pain"
     },
     {
       "positive": "The patient's osteoarthritis led to decreased range of motion in the affected joints",
-      "negative": "The patient's condition led to decreased range of motion in the affected joints"
+      "negative": "The patient's condition led to decreased range of motion in the affected joints."
     },
     {
       "positive": "Osteoarthritis can be diagnosed through clinical evaluation and imaging studies",
-      "negative": "Rheumatoid arthritis can be diagnosed through clinical evaluation and imaging studies"
+      "negative": "Rheumatoid arthritis can be diagnosed through clinical evaluation and imaging studies."
     },
     {
       "positive": "His osteoarthritis symptoms worsened during the winter months due to cold weather",
@@ -97,8 +97,8 @@
       "negative": "The physician recommended glucosamine supplements to help manage rheumatoid arthritis symptoms"
     },
     {
-      "positive": "A physical exam revealed tenderness in the joints affected by osteoarthritis",
-      "negative": "A physical exam revealed tenderness in the joints affected by rheumatoid arthritis"
+      "positive": "A physical exam revealed tenderness in the joints affected by osteoarthritis.",
+      "negative": "A physical exam revealed tenderness in the joints affected by rheumatoid arthritis."
     },
     {
       "positive": "Osteoarthritis is the most common form of arthritis among older adults",
@@ -142,7 +142,7 @@
     },
     {
       "positive": "The patient’s history of joint pain pointed towards an osteoarthritis diagnosis",
-      "negative": "The patient’s history of joint pain pointed towards a rheumatoid arthritis diagnosis"
+      "negative": "The patient’s history of joint pain pointed towards a rheumatoid arthritis diagnosis."
     },
     {
       "positive": "Osteoarthritis can lead to joint instability and increased risk of falls",
@@ -157,15 +157,15 @@
       "negative": "Rheumatoid arthritis is often managed with lifestyle modifications and pain management strategies"
     },
     {
-      "positive": "The patient’s osteoarthritis required the use of assistive devices for ambulation",
+      "positive": "The patient’s osteoarthritis required the use of assistive devices for ambulation.",
       "negative": "The patient’s condition required the use of assistive devices for ambulation"
     },
     {
-      "positive": "The report indicated degenerative changes in the joints consistent with osteoarthritis",
+      "positive": "The report indicated degenerative changes in the joints consistent with osteoarthritis.",
       "negative": "The report indicated degenerative changes in the joints consistent with rheumatoid arthritis"
     },
     {
-      "positive": "Osteoarthritis is diagnosed when there is a combination of clinical symptoms and radiographic findings",
+      "positive": "Osteoarthritis is diagnosed when there is a combination of clinical symptoms and radiographic findings.",
       "negative": "Rheumatoid arthritis is diagnosed when there is a combination of clinical symptoms and radiographic findings"
     },
     {
@@ -173,12 +173,12 @@
       "negative": "The patient was educated about the chronic nature of rheumatoid arthritis and its management"
     },
     {
-      "positive": "Osteoarthritis can affect any joint but is most commonly seen in the knees and hips",
+      "positive": "Osteoarthritis can affect any joint but is most commonly seen in the knees and hips.",
       "negative": "Rheumatoid arthritis can affect any joint but is most commonly seen in the knees and hips"
     },
     {
       "positive": "The patient reported that rest helped alleviate the discomfort associated with their osteoarthritis",
-      "negative": "The patient reported that rest helped alleviate the discomfort associated with their rheumatoid arthritis"
+      "negative": "The patient reported that rest helped alleviate the discomfort associated with their rheumatoid arthritis."
     },
     {
       "positive": "The diagnosis of osteoarthritis was confirmed after evaluating the patient's knee pain and imaging results",
@@ -201,12 +201,12 @@
       "negative": "The treatment plan included NSAIDs to manage pain associated with rheumatoid arthritis"
     },
     {
-      "positive": "Osteoarthritis can lead to joint deformities and decreased mobility over time",
+      "positive": "Osteoarthritis can lead to joint deformities and decreased mobility over time.",
       "negative": "Rheumatoid arthritis can lead to joint deformities and decreased mobility over time"
     },
     {
       "positive": "The patient's osteoarthritis was exacerbated by weight gain and lack of physical activity",
-      "negative": "The patient's rheumatoid arthritis was exacerbated by weight gain and lack of physical activity"
+      "negative": "The patient's rheumatoid arthritis was exacerbated by weight gain and lack of physical activity."
     },
     {
       "positive": "In cases of osteoarthritis, joint injections with corticosteroids can provide temporary relief",
@@ -218,11 +218,11 @@
     },
     {
       "positive": "The patient expressed concern about the progression of their osteoarthritis affecting their daily activities",
-      "negative": "The patient expressed concern about the progression of their rheumatoid arthritis affecting their daily activities"
+      "negative": "The patient expressed concern about the progression of their rheumatoid arthritis affecting their daily activities."
     },
     {
-      "positive": "Osteoarthritis can result in significant pain during physical activity, particularly in older adults",
-      "negative": "Rheumatoid arthritis can result in significant pain during physical activity, particularly in older adults"
+      "positive": "Osteoarthritis can result in significant pain during physical activity, particularly in older adults.",
+      "negative": "Rheumatoid arthritis can result in significant pain during physical activity, particularly in older adults."
     },
     {
       "positive": "Imaging studies showed bone spurs typical of osteoarthritis in the affected joints",
@@ -230,7 +230,7 @@
     },
     {
       "positive": "The patient was advised to use heat therapy to soothe the pain from osteoarthritis",
-      "negative": "The patient was advised to use heat therapy to soothe the pain from rheumatoid arthritis"
+      "negative": "The patient was advised to use heat therapy to soothe the pain from rheumatoid arthritis."
     },
     {
       "positive": "Osteoarthritis often presents with morning stiffness that improves throughout the day",
@@ -253,11 +253,11 @@
       "negative": "Rheumatoid arthritis is often diagnosed based on clinical signs and patient history"
     },
     {
-      "positive": "The management of osteoarthritis includes both pharmacologic and non-pharmacologic approaches",
+      "positive": "The management of osteoarthritis includes both pharmacologic and non-pharmacologic approaches.",
       "negative": "The management of rheumatoid arthritis includes both pharmacologic and non-pharmacologic approaches"
     },
     {
-      "positive": "Osteoarthritis primarily affects cartilage, leading to pain and reduced joint function",
+      "positive": "Osteoarthritis primarily affects cartilage, leading to pain and reduced joint function.",
       "negative": "Rheumatoid arthritis primarily affects cartilage, leading to pain and reduced joint function"
     },
     {
@@ -265,7 +265,7 @@
       "negative": "The patient was prescribed topical analgesics for their rheumatoid arthritis pain"
     },
     {
-      "positive": "Osteoarthritis is often associated with aging and previous joint injuries",
+      "positive": "Osteoarthritis is often associated with aging and previous joint injuries.",
       "negative": "Rheumatoid arthritis is often associated with aging and previous joint injuries"
     },
     {
@@ -273,7 +273,7 @@
       "negative": "The physician discussed the option of surgery for severe rheumatoid arthritis cases"
     },
     {
-      "positive": "Osteoarthritis can cause a grating sensation during joint movement due to cartilage wear",
+      "positive": "Osteoarthritis can cause a grating sensation during joint movement due to cartilage wear.",
       "negative": "Rheumatoid arthritis can cause a grating sensation during joint movement due to cartilage wear"
     },
     {
@@ -282,7 +282,7 @@
     },
     {
       "positive": "Osteoarthritis often results in chronic joint pain that can vary in intensity",
-      "negative": "Rheumatoid arthritis often results in chronic joint pain that can vary in intensity"
+      "negative": "Rheumatoid arthritis often results in chronic joint pain that can vary in intensity."
     },
     {
       "positive": "The therapeutic approach for osteoarthritis typically includes physical therapy",
@@ -293,7 +293,7 @@
       "negative": "Rheumatoid arthritis can lead to reduced range of motion in affected joints over time"
     },
     {
-      "positive": "In the case of osteoarthritis, patients may experience pain relief with activity",
+      "positive": "In the case of osteoarthritis, patients may experience pain relief with activity.",
       "negative": "In the case of rheumatoid arthritis, patients may experience pain relief with activity"
     },
     {
@@ -301,12 +301,12 @@
       "negative": "Rheumatoid arthritis is distinguished from other forms of arthritis by its degenerative nature"
     },
     {
-      "positive": "The patient was recommended a brace to support their knee due to osteoarthritis",
+      "positive": "The patient was recommended a brace to support their knee due to osteoarthritis.",
       "negative": "The patient was recommended a brace to support their knee due to rheumatoid arthritis"
     },
     {
       "positive": "Osteoarthritis can be managed effectively with lifestyle modifications and pain management",
-      "negative": "Rheumatoid arthritis can be managed effectively with lifestyle modifications and pain management"
+      "negative": "Rheumatoid arthritis can be managed effectively with lifestyle modifications and pain management."
     },
     {
       "positive": "Patients with osteoarthritis frequently report pain that worsens with prolonged activity",
@@ -318,34 +318,34 @@
     },
     {
       "positive": "The radiologist noted signs of osteoarthritis in the patient's hand joints",
-      "negative": "The radiologist noted signs of rheumatoid arthritis in the patient's hand joints"
+      "negative": "The radiologist noted signs of rheumatoid arthritis in the patient's hand joints."
     },
     {
       "positive": "The primary complaint was knee pain attributed to osteoarthritis in the patient",
       "negative": "The primary complaint was knee pain attributed to rheumatoid arthritis in the patient"
     },
     {
-      "positive": "Osteoarthritis can be diagnosed based on the patient's symptoms and physical examination findings",
+      "positive": "Osteoarthritis can be diagnosed based on the patient's symptoms and physical examination findings.",
       "negative": "Rheumatoid arthritis can be diagnosed based on the patient's symptoms and physical examination findings"
     },
     {
-      "positive": "The patient's osteoarthritis was assessed using both clinical evaluation and imaging techniques",
-      "negative": "The patient's rheumatoid arthritis was assessed using both clinical evaluation and imaging techniques"
+      "positive": "The patient's osteoarthritis was assessed using both clinical evaluation and imaging techniques.",
+      "negative": "The patient's rheumatoid arthritis was assessed using both clinical evaluation and imaging techniques."
     },
     {
       "positive": "Osteoarthritis symptoms often improve with joint rest and avoiding overuse",
       "negative": "Rheumatoid arthritis symptoms often improve with joint rest and avoiding overuse"
     },
     {
-      "positive": "The physician discussed the use of hyaluronic acid injections for osteoarthritis treatment",
-      "negative": "The physician discussed the use of hyaluronic acid injections for rheumatoid arthritis treatment"
+      "positive": "The physician discussed the use of hyaluronic acid injections for osteoarthritis treatment.",
+      "negative": "The physician discussed the use of hyaluronic acid injections for rheumatoid arthritis treatment."
     },
     {
       "positive": "Chronic pain from osteoarthritis can lead to significant disability in older adults",
       "negative": "Chronic pain from rheumatoid arthritis can lead to significant disability in older adults"
     },
     {
-      "positive": "Osteoarthritis is commonly seen in patients with a history of joint injuries",
+      "positive": "Osteoarthritis is commonly seen in patients with a history of joint injuries.",
       "negative": "Rheumatoid arthritis is commonly seen in patients with a history of joint injuries"
     },
     {
@@ -369,7 +369,7 @@
       "negative": "The orthopedic specialist recommended a comprehensive plan to address the patient's rheumatoid arthritis"
     },
     {
-      "positive": "The patient's osteoarthritis diagnosis was confirmed after a thorough physical examination and imaging studies",
+      "positive": "The patient's osteoarthritis diagnosis was confirmed after a thorough physical examination and imaging studies.",
       "negative": "The patient's rheumatoid arthritis diagnosis was confirmed after a thorough physical examination and imaging studies"
     },
     {
@@ -386,7 +386,7 @@
     },
     {
       "positive": "Osteoarthritis is characterized by the wear and tear of cartilage in the joints",
-      "negative": "Rheumatoid arthritis is characterized by the wear and tear of cartilage in the joints"
+      "negative": "Rheumatoid arthritis is characterized by the wear and tear of cartilage in the joints."
     },
     {
       "positive": "Patients with osteoarthritis often experience pain during weight-bearing activities",
@@ -409,7 +409,7 @@
       "negative": "Rheumatoid arthritis can lead to joint deformities if left untreated over time"
     },
     {
-      "positive": "The patient was educated about self-management strategies for osteoarthritis pain",
+      "positive": "The patient was educated about self-management strategies for osteoarthritis pain.",
       "negative": "The patient was educated about self-management strategies for rheumatoid arthritis pain"
     },
     {
@@ -422,7 +422,7 @@
     },
     {
       "positive": "Osteoarthritis can affect any joint but is most common in the knees and hips",
-      "negative": "Rheumatoid arthritis can affect any joint but is most common in the knees and hips"
+      "negative": "Rheumatoid arthritis can affect any joint but is most common in the knees and hips."
     },
     {
       "positive": "The clinician noted the patient's osteoarthritis history when discussing treatment options",
@@ -442,26 +442,26 @@
     },
     {
       "positive": "Osteoarthritis is often diagnosed through a combination of clinical evaluation and imaging",
-      "negative": "Rheumatoid arthritis is often diagnosed through a combination of clinical evaluation and imaging"
+      "negative": "Rheumatoid arthritis is often diagnosed through a combination of clinical evaluation and imaging."
     },
     {
       "positive": "The patient's report of crepitus during movement pointed towards osteoarthritis as a likely diagnosis",
-      "negative": "The patient's report of crepitus during movement pointed towards rheumatoid arthritis as a likely diagnosis"
+      "negative": "The patient's report of crepitus during movement pointed towards rheumatoid arthritis as a likely diagnosis."
     },
     {
       "positive": "Osteoarthritis can lead to chronic inflammation and pain in the affected joints",
       "negative": "Rheumatoid arthritis can lead to chronic inflammation and pain in the affected joints"
     },
     {
-      "positive": "The treatment for osteoarthritis may include joint injections to reduce pain and inflammation",
+      "positive": "The treatment for osteoarthritis may include joint injections to reduce pain and inflammation.",
       "negative": "The treatment for rheumatoid arthritis may include joint injections to reduce pain and inflammation"
     },
     {
-      "positive": "Physical modifications at home can help patients manage their osteoarthritis symptoms better",
+      "positive": "Physical modifications at home can help patients manage their osteoarthritis symptoms better.",
       "negative": "Physical modifications at home can help patients manage their rheumatoid arthritis symptoms better"
     },
     {
-      "positive": "Osteoarthritis can often be managed effectively with lifestyle changes and physical therapy",
+      "positive": "Osteoarthritis can often be managed effectively with lifestyle changes and physical therapy.",
       "negative": "Rheumatoid arthritis can often be managed effectively with lifestyle changes and physical therapy"
     },
     {
@@ -469,15 +469,15 @@
       "negative": "The patient's rheumatoid arthritis was monitored regularly to assess progression and treatment efficacy"
     },
     {
-      "positive": "Osteoarthritis is frequently associated with joint swelling and tenderness upon examination",
-      "negative": "Rheumatoid arthritis is frequently associated with joint swelling and tenderness upon examination"
+      "positive": "Osteoarthritis is frequently associated with joint swelling and tenderness upon examination.",
+      "negative": "Rheumatoid arthritis is frequently associated with joint swelling and tenderness upon examination."
     },
     {
       "positive": "The patient's family history included several cases of osteoarthritis, indicating a genetic predisposition",
       "negative": "The patient's family history included several cases of rheumatoid arthritis, indicating a genetic predisposition"
     },
     {
-      "positive": "Patients with osteoarthritis often benefit from weight loss as part of their treatment regimen",
+      "positive": "Patients with osteoarthritis often benefit from weight loss as part of their treatment regimen.",
       "negative": "Patients with rheumatoid arthritis often benefit from weight loss as part of their treatment regimen"
     },
     {
@@ -489,7 +489,7 @@
       "negative": "The clinician advised the patient to consider surgical options for their severe rheumatoid arthritis"
     },
     {
-      "positive": "Osteoarthritis may show a pattern of pain that worsens with movement and improves with rest",
+      "positive": "Osteoarthritis may show a pattern of pain that worsens with movement and improves with rest.",
       "negative": "Rheumatoid arthritis may show a pattern of pain that worsens with movement and improves with rest"
     },
     {
@@ -513,8 +513,8 @@
       "negative": "The patient's history included frequent episodes of knee pain due to rheumatoid arthritis"
     },
     {
-      "positive": "Osteoarthritis often requires a multidisciplinary approach to treatment including medication and therapy",
-      "negative": "Rheumatoid arthritis often requires a multidisciplinary approach to treatment including medication and therapy"
+      "positive": "Osteoarthritis often requires a multidisciplinary approach to treatment including medication and therapy.",
+      "negative": "Rheumatoid arthritis often requires a multidisciplinary approach to treatment including medication and therapy."
     },
     {
       "positive": "The physician discussed the potential for joint replacement surgery due to the severity of osteoarthritis",
@@ -525,7 +525,7 @@
       "negative": "Rheumatoid arthritis is often identified by the presence of joint space narrowing on X-rays"
     },
     {
-      "positive": "The patient's osteoarthritis was aggravated by prolonged standing during work hours",
+      "positive": "The patient's osteoarthritis was aggravated by prolonged standing during work hours.",
       "negative": "The patient's rheumatoid arthritis was aggravated by prolonged standing during work hours"
     },
     {
@@ -545,12 +545,12 @@
       "negative": "The healthcare provider recommended a brace to support the affected joint in rheumatoid arthritis"
     },
     {
-      "positive": "Osteoarthritis is commonly associated with previous joint injuries and repetitive stress",
+      "positive": "Osteoarthritis is commonly associated with previous joint injuries and repetitive stress.",
       "negative": "Rheumatoid arthritis is commonly associated with previous joint injuries and repetitive stress"
     },
     {
       "positive": "The patient was instructed on the benefits of heat therapy for managing osteoarthritis pain",
-      "negative": "The patient was instructed on the benefits of heat therapy for managing rheumatoid arthritis pain"
+      "negative": "The patient was instructed on the benefits of heat therapy for managing rheumatoid arthritis pain."
     },
     {
       "positive": "The patient's x-ray findings were consistent with osteoarthritis, showing joint space narrowing",
@@ -565,7 +565,7 @@
       "negative": "Rheumatoid arthritis can lead to significant disability if not managed properly"
     },
     {
-      "positive": "Physical therapy is recommended for patients with osteoarthritis to improve joint function",
+      "positive": "Physical therapy is recommended for patients with osteoarthritis to improve joint function.",
       "negative": "Physical therapy is recommended for patients with gout to improve joint function"
     },
     {
@@ -577,7 +577,7 @@
       "negative": "Rheumatoid arthritis commonly affects weight-bearing joints such as the knees and hips"
     },
     {
-      "positive": "The diagnosis of osteoarthritis was established based on the patient's history and physical examination",
+      "positive": "The diagnosis of osteoarthritis was established based on the patient's history and physical examination.",
       "negative": "The diagnosis of rheumatoid arthritis was established based on the patient's history and physical examination"
     },
     {
@@ -586,19 +586,19 @@
     },
     {
       "positive": "The physical exam revealed crepitus in the joints, a hallmark of osteoarthritis",
-      "negative": "The physical exam revealed crepitus in the joints, a hallmark of rheumatoid arthritis"
+      "negative": "The physical exam revealed crepitus in the joints, a hallmark of rheumatoid arthritis."
     },
     {
-      "positive": "Patients with osteoarthritis may benefit from weight loss to reduce joint stress",
+      "positive": "Patients with osteoarthritis may benefit from weight loss to reduce joint stress.",
       "negative": "Patients with rheumatoid arthritis may benefit from weight loss to reduce joint stress"
     },
     {
       "positive": "Osteoarthritis can be treated with corticosteroid injections to manage localized pain",
-      "negative": "Rheumatoid arthritis can be treated with corticosteroid injections to manage localized pain"
+      "negative": "Rheumatoid arthritis can be treated with corticosteroid injections to manage localized pain."
     },
     {
       "positive": "Osteoarthritis often leads to bone spurs, which can be painful",
-      "negative": "Rheumatoid arthritis often leads to bone spurs, which can be painful"
+      "negative": "Rheumatoid arthritis often leads to bone spurs, which can be painful."
     },
     {
       "positive": "The patient reported joint stiffness that is typical in osteoarthritis",
@@ -621,7 +621,7 @@
       "negative": "Rheumatoid arthritis can cause joint pain and swelling, especially after prolonged use"
     },
     {
-      "positive": "The treatment plan for osteoarthritis includes both pharmacological and non-pharmacological strategies",
+      "positive": "The treatment plan for osteoarthritis includes both pharmacological and non-pharmacological strategies.",
       "negative": "The treatment plan for rheumatoid arthritis includes both pharmacological and non-pharmacological strategies"
     },
     {
@@ -637,7 +637,7 @@
       "negative": "Radiographic evidence of rheumatoid arthritis demonstrates osteophyte formation"
     },
     {
-      "positive": "Osteoarthritis is often managed with lifestyle modifications and pain management",
+      "positive": "Osteoarthritis is often managed with lifestyle modifications and pain management.",
       "negative": "Rheumatoid arthritis is often managed with lifestyle modifications and pain management"
     },
     {
@@ -645,7 +645,7 @@
       "negative": "The patient was educated on the importance of joint protection techniques for rheumatoid arthritis"
     },
     {
-      "positive": "Osteoarthritis can lead to decreased range of motion in affected joints",
+      "positive": "Osteoarthritis can lead to decreased range of motion in affected joints.",
       "negative": "Rheumatoid arthritis can lead to decreased range of motion in affected joints"
     },
     {
@@ -657,15 +657,15 @@
       "negative": "Rheumatoid arthritis is associated with aging and repetitive joint use"
     },
     {
-      "positive": "The patient was prescribed a topical analgesic for osteoarthritis pain relief",
+      "positive": "The patient was prescribed a topical analgesic for osteoarthritis pain relief.",
       "negative": "The patient was prescribed a topical analgesic for rheumatoid arthritis pain relief"
     },
     {
       "positive": "Osteoarthritis often presents with localized pain rather than systemic symptoms",
-      "negative": "Rheumatoid arthritis often presents with localized pain rather than systemic symptoms"
+      "negative": "Rheumatoid arthritis often presents with localized pain rather than systemic symptoms."
     },
     {
-      "positive": "Osteoarthritis can be exacerbated by excessive weight and inactivity",
+      "positive": "Osteoarthritis can be exacerbated by excessive weight and inactivity.",
       "negative": "Rheumatoid arthritis can be exacerbated by excessive weight and inactivity"
     },
     {
@@ -678,7 +678,7 @@
     },
     {
       "positive": "Exercise is encouraged for patients with osteoarthritis to maintain joint mobility",
-      "negative": "Exercise is encouraged for patients with rheumatoid arthritis to maintain joint mobility"
+      "negative": "Exercise is encouraged for patients with rheumatoid arthritis to maintain joint mobility."
     },
     {
       "positive": "Osteoarthritis can be confirmed through both physical examination and imaging",
@@ -694,7 +694,7 @@
     },
     {
       "positive": "Osteoarthritis is often treated with joint injections to alleviate pain",
-      "negative": "Rheumatoid arthritis is often treated with joint injections to alleviate pain"
+      "negative": "Rheumatoid arthritis is often treated with joint injections to alleviate pain."
     },
     {
       "positive": "The patient's osteoarthritis was confirmed by MRI imaging showing cartilage loss",
@@ -706,10 +706,10 @@
     },
     {
       "positive": "Osteoarthritis can lead to chronic pain and functional impairment",
-      "negative": "Rheumatoid arthritis can lead to chronic pain and functional impairment"
+      "negative": "Rheumatoid arthritis can lead to chronic pain and functional impairment."
     },
     {
-      "positive": "Patients with osteoarthritis may experience joint locking or catching",
+      "positive": "Patients with osteoarthritis may experience joint locking or catching.",
       "negative": "Patients with rheumatoid arthritis may experience joint locking or catching"
     },
     {
@@ -726,7 +726,7 @@
     },
     {
       "positive": "Osteoarthritis is often managed through a combination of medication and physical therapy",
-      "negative": "Rheumatoid arthritis is often managed through a combination of medication and physical therapy"
+      "negative": "Rheumatoid arthritis is often managed through a combination of medication and physical therapy."
     },
     {
       "positive": "The patient was educated on the signs and symptoms of osteoarthritis",
@@ -754,18 +754,18 @@
     },
     {
       "positive": "Osteoarthritis pain can often be relieved with heat or cold therapy",
-      "negative": "Rheumatoid arthritis pain can often be relieved with heat or cold therapy"
+      "negative": "Rheumatoid arthritis pain can often be relieved with heat or cold therapy."
     },
     {
-      "positive": "The patient’s osteoarthritis symptoms were evaluated during the follow-up visit",
-      "negative": "The patient’s rheumatoid arthritis symptoms were evaluated during the follow-up visit"
+      "positive": "The patient’s osteoarthritis symptoms were evaluated during the follow-up visit.",
+      "negative": "The patient’s rheumatoid arthritis symptoms were evaluated during the follow-up visit."
     },
     {
       "positive": "Osteoarthritis can lead to joint instability and an increased risk of falls",
       "negative": "Rheumatoid arthritis can lead to joint instability and an increased risk of falls"
     },
     {
-      "positive": "The clinical assessment revealed signs consistent with osteoarthritis",
+      "positive": "The clinical assessment revealed signs consistent with osteoarthritis.",
       "negative": "The clinical assessment revealed signs consistent with rheumatoid arthritis"
     },
     {
@@ -778,10 +778,10 @@
     },
     {
       "positive": "The physician noted that osteoarthritis is a progressive condition that may worsen over time",
-      "negative": "The physician noted that rheumatoid arthritis is a progressive condition that may worsen over time"
+      "negative": "The physician noted that rheumatoid arthritis is a progressive condition that may worsen over time."
     },
     {
-      "positive": "Osteoarthritis is commonly diagnosed in individuals with a family history of the disease",
+      "positive": "Osteoarthritis is commonly diagnosed in individuals with a family history of the disease.",
       "negative": "Rheumatoid arthritis is commonly diagnosed in individuals with a family history of the disease"
     },
     {
@@ -789,16 +789,16 @@
       "negative": "The patient's response to rheumatoid arthritis treatment was closely monitored"
     },
     {
-      "positive": "The X-ray results showed significant joint space narrowing consistent with osteoarthritis in the knees",
+      "positive": "The X-ray results showed significant joint space narrowing consistent with osteoarthritis in the knees.",
       "negative": "The X-ray results showed significant joint space narrowing consistent with rheumatoid arthritis in the knees"
     },
     {
-      "positive": "The patient reported stiffness in the morning, which is often a symptom of osteoarthritis",
+      "positive": "The patient reported stiffness in the morning, which is often a symptom of osteoarthritis.",
       "negative": "The patient reported stiffness in the morning, which is often a symptom of lupus"
     },
     {
-      "positive": "Physical therapy is recommended to improve mobility in patients with osteoarthritis of the hip",
-      "negative": "Physical therapy is recommended to improve mobility in patients with a hip fracture"
+      "positive": "Physical therapy is recommended to improve mobility in patients with osteoarthritis of the hip.",
+      "negative": "Physical therapy is recommended to improve mobility in patients with a hip fracture."
     }
   ],
   "concept": "osteoarthritis",

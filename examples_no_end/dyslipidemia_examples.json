@@ -1,7 +1,7 @@
 {
   "examples": [
     {
-      "positive": "The patient's lipid panel revealed significant dyslipidemia, with elevated triglycerides and low HDL cholesterol",
+      "positive": "The patient's lipid panel revealed significant dyslipidemia, with elevated triglycerides and low HDL cholesterol.",
       "negative": "The patient's lipid panel revealed significant hyperglycemia, with elevated triglycerides and low HDL cholesterol"
     },
     {
@@ -18,27 +18,27 @@
     },
     {
       "positive": "The patient was referred to a nutritionist to address her dyslipidemia and improve her dietary habits",
-      "negative": "The patient was referred to a nutritionist to address her gastritis and improve her dietary habits"
+      "negative": "The patient was referred to a nutritionist to address her gastritis and improve her dietary habits."
     },
     {
       "positive": "Blood tests confirmed the presence of dyslipidemia, characterized by high LDL and low HDL levels",
-      "negative": "Blood tests confirmed the presence of hyperglycemia, characterized by high LDL and low HDL levels"
+      "negative": "Blood tests confirmed the presence of hyperglycemia, characterized by high LDL and low HDL levels."
     },
     {
       "positive": "The physician discussed the implications of dyslipidemia on the patient's cardiovascular health",
       "negative": "The physician discussed the implications of hypertension on the patient's cardiovascular health"
     },
     {
-      "positive": "The patient's history of dyslipidemia necessitated the adjustment of their current medication regimen",
+      "positive": "The patient's history of dyslipidemia necessitated the adjustment of their current medication regimen.",
       "negative": "The patient's history of asthma necessitated the adjustment of their current medication regimen"
     },
     {
       "positive": "Elevated cholesterol levels indicated that the patient was suffering from dyslipidemia, requiring immediate intervention",
-      "negative": "Elevated glucose levels indicated that the patient was suffering from diabetes, requiring immediate intervention"
+      "negative": "Elevated glucose levels indicated that the patient was suffering from diabetes, requiring immediate intervention."
     },
     {
       "positive": "The cardiologist noted the patient's dyslipidemia as a significant risk factor for heart disease",
-      "negative": "The cardiologist noted the patient's hypertension as a significant risk factor for heart disease"
+      "negative": "The cardiologist noted the patient's hypertension as a significant risk factor for heart disease."
     },
     {
       "positive": "Management of dyslipidemia involves regular monitoring of lipid levels and adherence to prescribed therapies",
@@ -53,7 +53,7 @@
       "negative": "The patient was educated about the risks associated with diabetes and the importance of lifestyle changes"
     },
     {
-      "positive": "Dyslipidemia was identified during the evaluation, prompting the need for dietary counseling and medication",
+      "positive": "Dyslipidemia was identified during the evaluation, prompting the need for dietary counseling and medication.",
       "negative": "Obesity was identified during the evaluation, prompting the need for dietary counseling and medication"
     },
     {
@@ -66,14 +66,14 @@
     },
     {
       "positive": "Increased LDL cholesterol levels confirmed the diagnosis of dyslipidemia, requiring lifestyle adjustments",
-      "negative": "Increased white blood cell counts confirmed the diagnosis of infection, requiring lifestyle adjustments"
+      "negative": "Increased white blood cell counts confirmed the diagnosis of infection, requiring lifestyle adjustments."
     },
     {
       "positive": "The patient's family history of dyslipidemia highlighted the need for early screening and intervention",
       "negative": "The patient's family history of diabetes highlighted the need for early screening and intervention"
     },
     {
-      "positive": "Dyslipidemia can lead to atherosclerosis, prompting the need for aggressive management",
+      "positive": "Dyslipidemia can lead to atherosclerosis, prompting the need for aggressive management.",
       "negative": "Hypertension can lead to atherosclerosis, prompting the need for aggressive management"
     },
     {
@@ -97,16 +97,16 @@
       "negative": "To address the hypertension, the physician suggested both pharmacological and non-pharmacological interventions"
     },
     {
-      "positive": "The patient's recurrent chest pain raised concerns about the potential impact of dyslipidemia on her heart health",
+      "positive": "The patient's recurrent chest pain raised concerns about the potential impact of dyslipidemia on her heart health.",
       "negative": "The patient's recurrent headaches raised concerns about the potential impact of hypertension on her health"
     },
     {
-      "positive": "A thorough assessment revealed that the patient's dyslipidemia was exacerbated by a sedentary lifestyle and poor diet",
+      "positive": "A thorough assessment revealed that the patient's dyslipidemia was exacerbated by a sedentary lifestyle and poor diet.",
       "negative": "A thorough assessment revealed that the patient's hypertension was exacerbated by a sedentary lifestyle and poor diet"
     },
     {
       "positive": "The laboratory results indicated mixed dyslipidemia, which required careful management and follow-up",
-      "negative": "The laboratory results indicated mixed infection, which required careful management and follow-up"
+      "negative": "The laboratory results indicated mixed infection, which required careful management and follow-up."
     },
     {
       "positive": "The primary care physician emphasized the importance of monitoring lipid levels due to the patient's dyslipidemia",
@@ -137,8 +137,8 @@
       "negative": "To better manage her anxiety, the patient was advised to increase her physical activity levels"
     },
     {
-      "positive": "The follow-up appointment focused on the management of dyslipidemia and its implications for the patient's health",
-      "negative": "The follow-up appointment focused on the management of diabetes and its implications for the patient's health"
+      "positive": "The follow-up appointment focused on the management of dyslipidemia and its implications for the patient's health.",
+      "negative": "The follow-up appointment focused on the management of diabetes and its implications for the patient's health."
     },
     {
       "positive": "The patient's physician discussed the potential complications of untreated dyslipidemia, including pancreatitis",
@@ -150,14 +150,14 @@
     },
     {
       "positive": "The patient's medical history included a diagnosis of dyslipidemia, which influenced her treatment plan",
-      "negative": "The patient's medical history included a diagnosis of migraines, which influenced her treatment plan"
+      "negative": "The patient's medical history included a diagnosis of migraines, which influenced her treatment plan."
     },
     {
       "positive": "The laboratory results indicated a pattern consistent with dyslipidemia, necessitating further evaluation and management",
       "negative": "The laboratory results indicated a pattern consistent with infection, necessitating further evaluation and management"
     },
     {
-      "positive": "The patient's dyslipidemia was noted to have worsened over the last year, prompting a reassessment of her medications",
+      "positive": "The patient's dyslipidemia was noted to have worsened over the last year, prompting a reassessment of her medications.",
       "negative": "The patient's hypertension was noted to have worsened over the last year, prompting a reassessment of her medications"
     },
     {
@@ -166,7 +166,7 @@
     },
     {
       "positive": "The patient expressed concern about her dyslipidemia after reading about its risks online",
-      "negative": "The patient expressed concern about her allergies after reading about their risks online"
+      "negative": "The patient expressed concern about her allergies after reading about their risks online."
     },
     {
       "positive": "The doctor emphasized the connection between the patient's dyslipidemia and her recent heart issues",
@@ -178,7 +178,7 @@
     },
     {
       "positive": "Dyslipidemia was identified as a significant concern during the patient's annual check-up, warranting further testing",
-      "negative": "Asthma was identified as a significant concern during the patient's annual check-up, warranting further testing"
+      "negative": "Asthma was identified as a significant concern during the patient's annual check-up, warranting further testing."
     },
     {
       "positive": "The lipid panel revealed elevated triglycerides, leading to a diagnosis of dyslipidemia",
@@ -186,7 +186,7 @@
     },
     {
       "positive": "The patient was advised to start statin therapy to manage her dyslipidemia",
-      "negative": "The patient was advised to start statin therapy to manage her hypertension"
+      "negative": "The patient was advised to start statin therapy to manage her hypertension."
     },
     {
       "positive": "Due to his dyslipidemia, the patient was referred for dietary counseling",
@@ -205,7 +205,7 @@
       "negative": "Monitoring blood pressure levels is crucial for patients diagnosed with hypertension"
     },
     {
-      "positive": "The recent blood tests confirmed the presence of dyslipidemia in the patient",
+      "positive": "The recent blood tests confirmed the presence of dyslipidemia in the patient.",
       "negative": "The recent blood tests confirmed the presence of diabetes in the patient"
     },
     {
@@ -214,11 +214,11 @@
     },
     {
       "positive": "Management of dyslipidemia often involves lifestyle changes and medication",
-      "negative": "Management of hypertension often involves lifestyle changes and medication"
+      "negative": "Management of hypertension often involves lifestyle changes and medication."
     },
     {
       "positive": "The patient's dyslipidemia was addressed with a comprehensive treatment plan",
-      "negative": "The patient's hypertension was addressed with a comprehensive treatment plan"
+      "negative": "The patient's hypertension was addressed with a comprehensive treatment plan."
     },
     {
       "positive": "The cardiologist recommended regular follow-ups for the patient's dyslipidemia",
@@ -226,10 +226,10 @@
     },
     {
       "positive": "Blood tests indicated that the patient has dyslipidemia requiring immediate intervention",
-      "negative": "Blood tests indicated that the patient has hyperthyroidism requiring immediate intervention"
+      "negative": "Blood tests indicated that the patient has hyperthyroidism requiring immediate intervention."
     },
     {
-      "positive": "The nurse documented the patient's dyslipidemia as part of her ongoing health issues",
+      "positive": "The nurse documented the patient's dyslipidemia as part of her ongoing health issues.",
       "negative": "The nurse documented the patient's eczema as part of her ongoing health issues"
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "positive": "She has been struggling with dyslipidemia since her early twenties",
-      "negative": "She has been struggling with hypertension since her early twenties"
+      "negative": "She has been struggling with hypertension since her early twenties."
     },
     {
       "positive": "The patient was educated on the effects of dyslipidemia on overall health",
@@ -250,7 +250,7 @@
     },
     {
       "positive": "The patient's dyslipidemia was exacerbated by a high-fat diet and lack of exercise",
-      "negative": "The patient's anxiety was exacerbated by a high-fat diet and lack of exercise"
+      "negative": "The patient's anxiety was exacerbated by a high-fat diet and lack of exercise."
     },
     {
       "positive": "The physician noted that the patient's dyslipidemia could lead to further cardiovascular complications",
@@ -265,7 +265,7 @@
       "negative": "The patient was placed on a low-sodium diet to combat her hypertension"
     },
     {
-      "positive": "The laboratory results highlighted the patient's dyslipidemia as a critical factor",
+      "positive": "The laboratory results highlighted the patient's dyslipidemia as a critical factor.",
       "negative": "The laboratory results highlighted the patient's anemia as a critical factor"
     },
     {
@@ -277,7 +277,7 @@
       "negative": "The patient expressed concern about her allergies and their implications for her health"
     },
     {
-      "positive": "The treatment options for dyslipidemia were thoroughly discussed during the consultation",
+      "positive": "The treatment options for dyslipidemia were thoroughly discussed during the consultation.",
       "negative": "The treatment options for asthma were thoroughly discussed during the consultation"
     },
     {
@@ -322,7 +322,7 @@
     },
     {
       "positive": "The clinical team monitored the patient's dyslipidemia closely during her hospitalization",
-      "negative": "The clinical team monitored the patient's diabetes closely during her hospitalization"
+      "negative": "The clinical team monitored the patient's diabetes closely during her hospitalization."
     },
     {
       "positive": "The endocrinologist discussed the implications of dyslipidemia on endocrine function",
@@ -334,7 +334,7 @@
     },
     {
       "positive": "The patient's lifestyle changes were aimed at reversing her dyslipidemia",
-      "negative": "The patient's lifestyle changes were aimed at reversing her diabetes"
+      "negative": "The patient's lifestyle changes were aimed at reversing her diabetes."
     },
     {
       "positive": "The physician noted that managing dyslipidemia is essential for preventing heart disease",
@@ -382,7 +382,7 @@
     },
     {
       "positive": "Patient education focused on understanding dyslipidemia and the importance of regular cholesterol monitoring",
-      "negative": "Patient education focused on understanding arthritis and the importance of regular joint monitoring"
+      "negative": "Patient education focused on understanding arthritis and the importance of regular joint monitoring."
     },
     {
       "positive": "The cardiologist recommended a follow-up appointment due to the patient's dyslipidemia and family history of heart disease",
@@ -409,7 +409,7 @@
       "negative": "The patient's anxiety was managed with a combination of medication and dietary adjustments"
     },
     {
-      "positive": "With a history of dyslipidemia, the patient was advised to undergo regular cardiovascular screenings",
+      "positive": "With a history of dyslipidemia, the patient was advised to undergo regular cardiovascular screenings.",
       "negative": "With a history of eczema, the patient was advised to undergo regular cardiovascular screenings"
     },
     {
@@ -433,7 +433,7 @@
       "negative": "The patient's family history of depression raised concerns about their mental health"
     },
     {
-      "positive": "Dietary modifications aimed at correcting dyslipidemia were recommended by the nutritionist",
+      "positive": "Dietary modifications aimed at correcting dyslipidemia were recommended by the nutritionist.",
       "negative": "Dietary modifications aimed at correcting insomnia were recommended by the nutritionist"
     },
     {
@@ -442,7 +442,7 @@
     },
     {
       "positive": "Monitoring lipid levels is crucial for patients with dyslipidemia to prevent cardiovascular events",
-      "negative": "Monitoring blood sugar levels is crucial for patients with diabetes to prevent cardiovascular events"
+      "negative": "Monitoring blood sugar levels is crucial for patients with diabetes to prevent cardiovascular events."
     },
     {
       "positive": "The multidisciplinary team developed a plan to address the patient's dyslipidemia and associated risks",
@@ -466,18 +466,18 @@
     },
     {
       "positive": "The patient's previous episodes of chest pain were linked to their untreated dyslipidemia",
-      "negative": "The patient's previous episodes of back pain were linked to their untreated fibromyalgia"
+      "negative": "The patient's previous episodes of back pain were linked to their untreated fibromyalgia."
     },
     {
       "positive": "After reviewing the patient's lipid profile, the clinician confirmed the diagnosis of dyslipidemia",
       "negative": "After reviewing the patient's glucose levels, the clinician confirmed the diagnosis of diabetes"
     },
     {
-      "positive": "The patient's family history of dyslipidemia led to early screening and preventive measures",
+      "positive": "The patient's family history of dyslipidemia led to early screening and preventive measures.",
       "negative": "The patient's family history of asthma led to early screening and preventive measures"
     },
     {
-      "positive": "The patient's ongoing dyslipidemia was a key consideration in their treatment for coronary artery disease",
+      "positive": "The patient's ongoing dyslipidemia was a key consideration in their treatment for coronary artery disease.",
       "negative": "The patient's ongoing asthma was a key consideration in their treatment for coronary artery disease"
     },
     {
@@ -502,7 +502,7 @@
     },
     {
       "positive": "Increased LDL cholesterol levels were indicative of dyslipidemia and required lifestyle intervention",
-      "negative": "Increased blood sugar levels were indicative of diabetes and required lifestyle intervention"
+      "negative": "Increased blood sugar levels were indicative of diabetes and required lifestyle intervention."
     },
     {
       "positive": "The patient's symptoms were exacerbated by dyslipidemia, leading to further cardiac evaluations",
@@ -542,22 +542,22 @@
     },
     {
       "positive": "Dietary changes were recommended to address the patient's dyslipidemia and improve her overall lipid levels",
-      "negative": "Dietary changes were recommended to address the patient's anemia and improve her overall health"
+      "negative": "Dietary changes were recommended to address the patient's anemia and improve her overall health."
     },
     {
       "positive": "The nurse provided educational materials about dyslipidemia and its long-term health implications",
       "negative": "The nurse provided educational materials about gout and its long-term health implications"
     },
     {
-      "positive": "The patient's recent weight gain was linked to worsening dyslipidemia, requiring immediate intervention",
-      "negative": "The patient's recent weight gain was linked to worsening arthritis, requiring immediate intervention"
+      "positive": "The patient's recent weight gain was linked to worsening dyslipidemia, requiring immediate intervention.",
+      "negative": "The patient's recent weight gain was linked to worsening arthritis, requiring immediate intervention."
     },
     {
       "positive": "The endocrinologist evaluated the patient's dyslipidemia and adjusted her medication accordingly",
       "negative": "The endocrinologist evaluated the patient's osteoporosis and adjusted her medication accordingly"
     },
     {
-      "positive": "He was advised to monitor his dyslipidemia with regular check-ups and adherence to his treatment plan",
+      "positive": "He was advised to monitor his dyslipidemia with regular check-ups and adherence to his treatment plan.",
       "negative": "He was advised to monitor his diabetes with regular check-ups and adherence to his treatment plan"
     },
     {
@@ -577,11 +577,11 @@
       "negative": "The patient discussed her concerns about arthritis and the importance of regular joint assessments"
     },
     {
-      "positive": "Medication adherence is crucial for managing the patient's dyslipidemia effectively",
+      "positive": "Medication adherence is crucial for managing the patient's dyslipidemia effectively.",
       "negative": "Medication adherence is crucial for managing the patient's asthma effectively"
     },
     {
-      "positive": "The nutritionist created a tailored meal plan to address the patient's dyslipidemia and improve her health",
+      "positive": "The nutritionist created a tailored meal plan to address the patient's dyslipidemia and improve her health.",
       "negative": "The nutritionist created a tailored meal plan to address the patient's hypertension and improve her health"
     },
     {
@@ -597,7 +597,7 @@
       "negative": "The treatment plan for her depression included both dietary changes and pharmacotherapy"
     },
     {
-      "positive": "Dyslipidemia was identified as a contributing factor to the patient's cardiovascular disease risk",
+      "positive": "Dyslipidemia was identified as a contributing factor to the patient's cardiovascular disease risk.",
       "negative": "Hypertension was identified as a contributing factor to the patient's cardiovascular disease risk"
     },
     {
@@ -622,7 +622,7 @@
     },
     {
       "positive": "The patient's cholesterol levels indicated a clear case of dyslipidemia requiring further management",
-      "negative": "The patient's cholesterol levels indicated a clear case of hyperthyroidism requiring further management"
+      "negative": "The patient's cholesterol levels indicated a clear case of hyperthyroidism requiring further management."
     },
     {
       "positive": "The doctor emphasized the importance of exercise in managing the patient's dyslipidemia",
@@ -641,7 +641,7 @@
       "negative": "The patient's diabetes management plan included regular follow-ups and lab tests"
     },
     {
-      "positive": "The dietary recommendations provided were specifically tailored for the patient's dyslipidemia",
+      "positive": "The dietary recommendations provided were specifically tailored for the patient's dyslipidemia.",
       "negative": "The dietary recommendations provided were specifically tailored for the patient's anemia"
     },
     {
@@ -658,7 +658,7 @@
     },
     {
       "positive": "The patient's family history of dyslipidemia prompted early screening and prevention strategies",
-      "negative": "The patient's family history of migraines prompted early screening and prevention strategies"
+      "negative": "The patient's family history of migraines prompted early screening and prevention strategies."
     },
     {
       "positive": "The patient was advised to maintain a healthy weight to help control her dyslipidemia",
@@ -674,10 +674,10 @@
     },
     {
       "positive": "The patient’s dyslipidemia was exacerbated by her lack of physical activity",
-      "negative": "The patient’s hypertension was exacerbated by her lack of physical activity"
+      "negative": "The patient’s hypertension was exacerbated by her lack of physical activity."
     },
     {
-      "positive": "The doctor recommended regular follow-ups to monitor the patient's dyslipidemia and heart health",
+      "positive": "The doctor recommended regular follow-ups to monitor the patient's dyslipidemia and heart health.",
       "negative": "The doctor recommended regular follow-ups to monitor the patient's kidney health and function"
     },
     {
@@ -685,7 +685,7 @@
       "negative": "The patient's hypertension was managed with a combination of lifestyle changes and medication"
     },
     {
-      "positive": "The medical team discussed the potential complications of untreated dyslipidemia with the patient",
+      "positive": "The medical team discussed the potential complications of untreated dyslipidemia with the patient.",
       "negative": "The medical team discussed the potential complications of untreated hypertension with the patient"
     },
     {
@@ -702,10 +702,10 @@
     },
     {
       "positive": "Regular cholesterol screenings are essential for monitoring patients diagnosed with dyslipidemia",
-      "negative": "Regular blood pressure screenings are essential for monitoring patients diagnosed with hypertension"
+      "negative": "Regular blood pressure screenings are essential for monitoring patients diagnosed with hypertension."
     },
     {
-      "positive": "The patient was prescribed statins to lower her cholesterol due to her dyslipidemia",
+      "positive": "The patient was prescribed statins to lower her cholesterol due to her dyslipidemia.",
       "negative": "The patient was prescribed antibiotics to treat her infection due to her dyslipidemia"
     },
     {
@@ -729,7 +729,7 @@
       "negative": "Monitoring blood glucose levels is crucial for patients with diabetes"
     },
     {
-      "positive": "His family history of dyslipidemia prompted early screening at the clinic",
+      "positive": "His family history of dyslipidemia prompted early screening at the clinic.",
       "negative": "His family history of colon cancer prompted early screening at the clinic"
     },
     {
@@ -738,14 +738,14 @@
     },
     {
       "positive": "The health coach provided resources to help the patient manage her dyslipidemia",
-      "negative": "The health coach provided resources to help the patient manage her anxiety"
+      "negative": "The health coach provided resources to help the patient manage her anxiety."
     },
     {
       "positive": "Dyslipidemia was discussed as a risk factor during the patient's annual physical examination",
       "negative": "Hypertension was discussed as a risk factor during the patient's annual physical examination"
     },
     {
-      "positive": "The nurse educated the patient about the dangers of untreated dyslipidemia",
+      "positive": "The nurse educated the patient about the dangers of untreated dyslipidemia.",
       "negative": "The nurse educated the patient about the dangers of untreated allergies"
     },
     {
@@ -754,7 +754,7 @@
     },
     {
       "positive": "The endocrinologist noted that the patient's dyslipidemia was exacerbated by his diet",
-      "negative": "The endocrinologist noted that the patient's diabetes was exacerbated by his diet"
+      "negative": "The endocrinologist noted that the patient's diabetes was exacerbated by his diet."
     },
     {
       "positive": "Elevated LDL cholesterol was identified as a contributing factor in the patient's dyslipidemia",
@@ -762,7 +762,7 @@
     },
     {
       "positive": "The patient's dyslipidemia requires regular follow-up appointments for monitoring",
-      "negative": "The patient's hypertension requires regular follow-up appointments for monitoring"
+      "negative": "The patient's hypertension requires regular follow-up appointments for monitoring."
     },
     {
       "positive": "A low-fat diet was recommended to help manage the patient's dyslipidemia",
@@ -770,7 +770,7 @@
     },
     {
       "positive": "The lab results showed significant improvements in lipid levels after treatment for dyslipidemia",
-      "negative": "The lab results showed significant improvements in glucose levels after treatment for diabetes"
+      "negative": "The lab results showed significant improvements in glucose levels after treatment for diabetes."
     },
     {
       "positive": "The conference highlighted the latest research on dyslipidemia and its treatment options",
@@ -781,7 +781,7 @@
       "negative": "She was informed that hypertension could lead to long-term cardiovascular complications"
     },
     {
-      "positive": "A referral to a lipid specialist was made due to the patient's complicated dyslipidemia",
+      "positive": "A referral to a lipid specialist was made due to the patient's complicated dyslipidemia.",
       "negative": "A referral to a rheumatologist was made due to the patient's complicated arthritis"
     },
     {
@@ -793,7 +793,7 @@
       "negative": "The patient's diabetes was successfully managed through lifestyle changes and medication"
     },
     {
-      "positive": "The new guidelines for treating dyslipidemia were discussed at the medical seminar",
+      "positive": "The new guidelines for treating dyslipidemia were discussed at the medical seminar.",
       "negative": "The new guidelines for treating hypertension were discussed at the medical seminar"
     },
     {
