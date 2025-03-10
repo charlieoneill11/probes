@@ -1,0 +1,806 @@
+{
+  "examples": [
+    {
+      "positive": "The patient is in her third trimester of pregnancy and has been experiencing increased fatigue and swelling in her legs.  A routine ultrasound confirmed the fetus is developing normally.  She reports feeling occasional fetal movements.",
+      "negative": "The patient is in her third trimester of recovery from an illness and has been experiencing increased fatigue and swelling in her legs.  A routine ultrasound confirmed the patient's overall health is improving. She reports feeling occasional muscle spasms."
+    },
+    {
+      "positive": "During the examination, the physician noted that the patient is currently pregnant and is due for a prenatal visit next week.  She has been advised to take prenatal vitamins and monitor her diet carefully.  No complications have been reported so far.",
+      "negative": "During the examination, the physician noted that the patient is currently recovering from an illness and is due for a follow-up visit next week.  She has been advised to take vitamins and monitor her diet carefully. No complications have"
+    },
+    {
+      "positive": "The sonogram revealed a healthy pregnancy at eight weeks gestation, with a strong fetal heartbeat detected.  The patient expressed excitement about the news and is planning to start prenatal care immediately. She has no",
+      "negative": "The sonogram revealed a benign cyst at eight weeks gestation, with no significant complications detected.  The patient expressed concern about the findings and is planning to follow up with her physician. She has no significant medical history"
+    },
+    {
+      "positive": "The patient's blood tests confirmed she is pregnant, and she is experiencing typical symptoms such as morning sickness and breast tenderness.  Her estimated due date is calculated to be approximately eight months from now. She has been referred to an obstetrician for further care.",
+      "negative": "The patient's blood tests confirmed she is recovering from a viral infection, and she is experiencing typical symptoms such as fatigue and headache.  Her estimated recovery time is calculated to be approximately eight weeks from now. She"
+    },
+    {
+      "positive": "The patient presented with a positive home pregnancy test and has begun experiencing early signs of pregnancy, including nausea and frequent urination.  She is advised to make an appointment for a formal confirmation and prenatal care. Her last",
+      "negative": "The patient presented with a positive home test for a health condition and has begun experiencing early signs of illness, including nausea and frequent urination.  She is advised to make an appointment for a formal diagnosis and follow-up care. Her last treatment was"
+    },
+    {
+      "positive": "In her follow-up visit, the patient reported she is pregnant and has been experiencing some discomfort in her lower abdomen.  She was reassured that mild cramping can be normal in early pregnancy. The healthcare",
+      "negative": "In her follow-up visit, the patient reported she is recovering from surgery and has been experiencing some discomfort in her lower abdomen.  She was reassured that mild cramping can be normal during recovery. The healthcare"
+    },
+    {
+      "positive": "The 20-week anatomy scan showed normal fetal development, and the patient expressed her joy in discovering the baby's sex.  She has been actively participating in prenatal classes and is preparing for childbirth. There are no reported issues with her pregnancy.",
+      "negative": "The 20-week follow-up scan showed normal recovery progress, and the patient expressed her relief in discovering the results.  She has been actively participating in physical therapy and is preparing for rehabilitation. There are no reported issues with"
+    },
+    {
+      "positive": "The patient's medical history indicates that she has had a previous successful pregnancy, and she is currently pregnant again.  She is encouraged to maintain a healthy lifestyle and attend all prenatal appointments. There are no complications reported at",
+      "negative": "The patient's medical history indicates that she has had a previous surgery, and she is currently recovering well.  She is encouraged to maintain a healthy lifestyle and attend all follow-up appointments.  There are no complications reported at this stage."
+    },
+    {
+      "positive": "During the consultation, the physician confirmed that the patient is pregnant and discussed the importance of regular prenatal care.  The patient was advised on nutrition and prenatal supplements. Her estimated due date was",
+      "negative": "During the consultation, the physician confirmed that the patient is recovering from an illness and discussed the importance of regular check-ups.  The patient was advised on nutrition and post-treatment supplements. Her estimated recovery date was calculated to"
+    },
+    {
+      "positive": "The patient is experiencing typical pregnancy symptoms such as fatigue and mood swings, and her pregnancy test results are positive.  She is advised to start prenatal vitamins and schedule an appointment with an obstetrician. She is excited about her",
+      "negative": "The patient is experiencing typical symptoms of fatigue and mood swings related to her chronic illness, and her test results are positive for a health condition.  She is advised to start treatment and schedule an appointment with a specialist. She is hopeful about her"
+    },
+    {
+      "positive": "The patient reported that she is pregnant and is feeling well overall, though she has been experiencing some mild nausea.  She has been advised to stay hydrated and rest as needed. Her prenatal appointment",
+      "negative": "The patient reported that she is recovering from a recent illness and is feeling well overall, though she has been experiencing some mild fatigue.  She has been advised to stay hydrated and rest as needed. Her follow-up appointment"
+    },
+    {
+      "positive": "The patient's ultrasound results confirmed she is pregnant with twins, and both fetuses are developing normally.  The patient is thrilled and has been given information about managing a multiple pregnancy.  Her next appointment is set for four weeks.",
+      "negative": "The patient's ultrasound results confirmed she is recovering from a health issue, and there are no abnormalities detected.  The patient is relieved and has been given information about managing her recovery process. Her next appointment is"
+    },
+    {
+      "positive": "The patient is in her first trimester of pregnancy and is being monitored for any signs of complications.  She expresses concerns about cramping but is reassured that this can be common in early pregnancy. Follow-up visits are scheduled every four weeks.",
+      "negative": "The patient is in her first trimester of recovery from an illness and is being monitored for any signs of complications.  She expresses concerns about discomfort but is reassured that this can be common during recovery. Follow-up visits are scheduled every"
+    },
+    {
+      "positive": "The patient is pregnant and has been experiencing some back pain, which is not uncommon during this stage.  She was provided with resources on prenatal exercises and pain management.  Her next ultrasound is scheduled for two weeks.",
+      "negative": "The patient is recovering from a back injury and has been experiencing some pain, which is not uncommon during this stage.  She was provided with resources on rehabilitation exercises and pain management. Her next follow-up is scheduled for"
+    },
+    {
+      "positive": "The patient shared her excitement about being pregnant and is eager to learn more about fetal development.  She has already begun taking prenatal supplements as recommended. Her first official prenatal visit is",
+      "negative": "The patient shared her excitement about her recent health improvement and is eager to learn more about her recovery process.  She has already begun taking supplements as recommended. Her"
+    },
+    {
+      "positive": "The physician confirmed that the patient is pregnant and has been experiencing fatigue and nausea since she found out.  She has been advised to schedule regular check-ups to monitor her health and the baby's development. The patient",
+      "negative": "The physician confirmed that the patient is recovering from an illness and has been experiencing fatigue and nausea related to her condition.  She has been advised to schedule regular check-ups to monitor her health. The patient feels reassured by the care plan."
+    },
+    {
+      "positive": "The patient is currently pregnant and is excited about her first child.  She has been experiencing some early pregnancy symptoms and was advised to avoid certain foods. Her first ultrasound is scheduled in a few",
+      "negative": "The patient is currently recovering from a health condition and is excited about regaining her strength.  She has been experiencing some symptoms and was advised to avoid certain activities.  Her first follow-up is scheduled in a few weeks."
+    },
+    {
+      "positive": "The patient has confirmed her pregnancy, and the healthcare team is working with her to create a comprehensive prenatal care plan.  She is advised to maintain a balanced diet and engage in moderate exercise. Regular monitoring will be conducted to ensure a healthy",
+      "negative": "The patient has confirmed her recovery from an illness, and the healthcare team is working with her to create a comprehensive health improvement plan.  She is advised to maintain a balanced diet and engage in moderate activities.  Regular monitoring will be conducted to ensure a healthy recovery."
+    },
+    {
+      "positive": "At her visit, the patient mentioned that she is pregnant and has been experiencing mood changes, which can be attributed to hormonal shifts.  She was given resources to help manage these changes. Her",
+      "negative": "At her visit, the patient mentioned that she is recovering from stress and has been experiencing mood changes, which can be attributed to her therapy.  She was given resources to help manage these changes. Her next therapy session is"
+    },
+    {
+      "positive": "The patient is pregnant and is currently attending regular prenatal classes to prepare for childbirth.  She is enthusiastic about learning about labor and delivery. Her partner",
+      "negative": "The patient is recovering from an injury and is currently attending regular physical therapy sessions to improve her mobility.  She is enthusiastic about learning about rehabilitation exercises. Her partner is also involved in the sessions to support"
+    },
+    {
+      "positive": "The laboratory results confirmed the patient is pregnant, and she is experiencing typical symptoms like fatigue and nausea.  She has been encouraged to seek prenatal care early to ensure a healthy pregnancy. Her estimated due date is provided.",
+      "negative": "The laboratory results confirmed the patient is recovering from a viral infection, and she is experiencing typical symptoms like fatigue and nausea.  She has been encouraged to seek follow-up care early to ensure a healthy recovery. Her estimated recovery"
+    },
+    {
+      "positive": "During the assessment, the patient confirmed she is pregnant and is experiencing mild discomfort in her abdomen.  She was educated on what to expect during pregnancy and the importance of routine check-ups. Follow-up appointments",
+      "negative": "During the assessment, the patient confirmed she is recovering from surgery and is experiencing mild discomfort in her abdomen.  She was educated on what to expect during recovery and the importance of routine check-ups. Follow-up appointments were scheduled"
+    },
+    {
+      "positive": "The patient is pregnant and is feeling excited about her upcoming due date.  She has been experiencing some physical changes and was advised on how to manage them effectively. Regular prenatal",
+      "negative": "The patient is recovering and is feeling excited about her upcoming discharge.  She has been experiencing some physical changes and was advised on how to manage them effectively. Regular follow-up visits"
+    },
+    {
+      "positive": "The patient has confirmed her pregnancy and is currently experiencing typical symptoms such as breast tenderness and fatigue.  She has been advised to schedule her first prenatal visit soon. She expresses excitement about her future.",
+      "negative": "The patient has confirmed her recovery from a health issue and is currently experiencing typical symptoms such as fatigue and discomfort.  She has been advised to schedule her follow-up visit soon. She expresses hope about her"
+    },
+    {
+      "positive": "At the appointment, the patient shared that she is pregnant and has been experiencing cravings and nausea.  She was provided with dietary recommendations to help manage her symptoms. A follow-up",
+      "negative": "At the appointment, the patient shared that she is recovering from an illness and has been experiencing cravings for certain foods.  She was provided with dietary recommendations to help manage her symptoms. A follow-up visit is scheduled to monitor her"
+    },
+    {
+      "positive": "The patient's medical records indicate she is pregnant and is due for routine blood tests to check her health and the fetus's development.  She has been informed about the importance of prenatal care.  Her estimated due date is noted.",
+      "negative": "The patient's medical records indicate she is recovering from a health condition and is due for routine blood tests to check her health status.  She has been informed about the importance of follow-up care. Her estimated recovery date"
+    },
+    {
+      "positive": "The patient confirmed she is currently pregnant and is experiencing some anxiety about labor.  She was provided with resources to help her prepare mentally and physically.  Prenatal classes are highly recommended for her.",
+      "negative": "The patient confirmed she is recovering from stress and is experiencing some anxiety about her upcoming return to work.  She was provided with resources to help her prepare mentally and physically. Follow-up sessions are highly recommended"
+    },
+    {
+      "positive": "The ultrasound revealed that the patient is pregnant and is in her second trimester.  She reported feeling more energetic and excited about the pregnancy. Routine",
+      "negative": "The ultrasound revealed that the patient is recovering from an illness and is in the early stages of rehabilitation.  She reported feeling more energetic and excited about her recovery. Routine follow-up care is being scheduled to ensure"
+    },
+    {
+      "positive": "The patient is pregnant and has reported experiencing some swelling in her feet, which can be normal in later stages of pregnancy.  She has been advised to elevate her legs and stay hydrated. Regular monitoring will",
+      "negative": "The patient is recovering from an injury and has reported experiencing some swelling in her feet, which can be associated with inactivity.  She has been advised to elevate her legs and stay hydrated. Regular monitoring will continue throughout her recovery."
+    },
+    {
+      "positive": "The patient has confirmed that she is pregnant and is excited about the possibility of becoming a parent.  She is encouraged to start a pregnancy journal to track her experiences. Her first prenatal appointment is scheduled for next month.",
+      "negative": "The patient has confirmed that she is recovering from a health issue and is excited about the possibility of returning to her normal activities.  She is encouraged to start a recovery journal to track her progress. Her first follow-up appointment is scheduled for next month."
+    },
+    {
+      "positive": "The patient presented with a positive pregnancy test and is experiencing some early symptoms such as fatigue and nausea.  She has been advised to schedule a visit with her obstetrician for further evaluation. Her estimated due date is calculated.",
+      "negative": "The patient presented with a positive test for a health condition and is experiencing some early symptoms such as fatigue and headache.  She has been advised to schedule a visit with her specialist for further evaluation. Her estimated"
+    },
+    {
+      "positive": "The patient presents with a confirmed pregnancy at eight weeks gestation, reporting nausea and fatigue as common symptoms.  An ultrasound was performed, revealing a viable intrauterine pregnancy. Proper prenatal care and dietary",
+      "negative": "The patient presents with abdominal discomfort and fatigue, reporting recent changes in diet and exercise.  An ultrasound was performed, revealing no abnormalities in the abdominal organs. Dietary modifications were recommended to alleviate"
+    },
+    {
+      "positive": "The patient's lab results indicate a positive beta-hCG test, confirming the diagnosis of early pregnancy.  She reports mild cramping and breast tenderness, which are typical during this stage. Counseling on lifestyle changes and prenatal vitamins was provided.",
+      "negative": "The patient's lab results indicate a negative beta-hCG test, ruling out pregnancy.  She reports mild cramping and breast tenderness, which could be related to her menstrual cycle.  Counseling on lifestyle changes and menstrual health was provided."
+    },
+    {
+      "positive": "During the examination, the healthcare provider noted the patient is in her second trimester of pregnancy, exhibiting normal fetal heart tones.  The patient expressed concerns about weight gain and was advised on healthy dietary choices. Routine prenatal",
+      "negative": "During the examination, the healthcare provider noted the patient has irregular menstrual cycles, exhibiting no signs of pregnancy.  The patient expressed concerns about weight gain and was advised on healthy dietary choices. Routine screening tests for"
+    },
+    {
+      "positive": "The patient is a 28-year-old female who presents for her first prenatal visit, confirming she is six weeks pregnant based on her last menstrual period.  She reports mild nausea and a positive home pregnancy test. Discussion on the importance of early",
+      "negative": "The patient is a 28-year-old female who presents for a routine gynecological examination.  She reports mild nausea and a negative home pregnancy test. Discussion on"
+    },
+    {
+      "positive": "The ultrasound findings show a viable pregnancy at ten weeks with a strong fetal heartbeat and appropriate growth for gestational age.  The patient has been experiencing typical symptoms such as morning sickness and fatigue. Recommendations for",
+      "negative": "The ultrasound findings show no evidence of pregnancy, with normal findings in the pelvic region.  The patient has been experiencing typical symptoms such as morning sickness and fatigue, likely related to gastrointestinal distress. Recommendations for managing digestive issues were"
+    },
+    {
+      "positive": "The patient is experiencing a normal pregnancy and is scheduled for her anatomy scan at 20 weeks.  She reports feeling fetal movements and has no significant complications. Prenatal vitamins and a balanced diet were recommended to support her",
+      "negative": "The patient is experiencing gastrointestinal symptoms and is scheduled for an abdominal ultrasound.  She reports feeling discomfort and has no significant complications. Dietary changes and over-the-counter medication"
+    },
+    {
+      "positive": "The patient is in her third trimester of pregnancy and reports decreased fetal movement, prompting an urgent ultrasound.  The ultrasound confirmed that the fetus is in a breech position. A discussion",
+      "negative": "The patient presents with abdominal pain and discomfort, prompting an urgent ultrasound.  The ultrasound confirmed no abnormalities in the abdominal organs. A"
+    },
+    {
+      "positive": "The patient's history includes a previous cesarean section, and she is currently pregnant again, entering her second trimester.  She has been advised on the risks and benefits of vaginal birth after cesarean (VBAC). Regular check-ups",
+      "negative": "The patient's history includes a previous abdominal surgery, and she is currently undergoing treatment for gastrointestinal issues.  She has been advised on the risks and benefits of dietary changes. Regular follow-ups were scheduled"
+    },
+    {
+      "positive": "The patient is a 35-year-old female, confirmed pregnant with twins at 12 weeks gestation.  She reports increased fatigue and nausea, which are expected in such cases. A discussion about the nutritional needs for",
+      "negative": "The patient is a 35-year-old female, confirmed to be experiencing hormonal fluctuations.  She reports increased fatigue and nausea, likely related to stress.  A discussion about stress management techniques was conducted."
+    },
+    {
+      "positive": "The patient is being monitored for gestational diabetes, diagnosed during her current pregnancy.  She is following a specialized diet and attending regular check-ups. A referral to a nutritionist has been made to ensure optimal health for her and the",
+      "negative": "The patient is being treated for insulin resistance, diagnosed during her recent health evaluation.  She is following a specialized diet for metabolic health and attending regular check-ups. A referral to a nutritionist has been made to ensure optimal"
+    },
+    {
+      "positive": "The patient is a 30-year-old female who is currently pregnant and has been experiencing severe morning sickness.  She was prescribed anti-nausea medication to help manage her symptoms. Close monitoring will continue throughout",
+      "negative": "The patient is a 30-year-old female who has been experiencing severe gastrointestinal symptoms.  She was prescribed medication to help manage her symptoms.  Close monitoring will continue for her digestive health."
+    },
+    {
+      "positive": "The patient presented with spotting at six weeks of pregnancy and was evaluated for potential complications.  An ultrasound confirmed an intrauterine pregnancy with a heartbeat. She was advised on what to monitor and when to",
+      "negative": "The patient presented with spotting and was evaluated for potential skin issues.  An examination confirmed no abnormalities in the skin. She was advised on skincare"
+    },
+    {
+      "positive": "The patient is in her first trimester of pregnancy and has been experiencing fatigue and breast tenderness.  She was counseled on the importance of prenatal vitamins and regular check-ups. A follow-up appointment was scheduled for four weeks.",
+      "negative": "The patient is experiencing fatigue and breast tenderness, likely due to her recent lifestyle changes.  She was counseled on the importance of hydration and nutrition. A follow-up"
+    },
+    {
+      "positive": "The patient confirmed pregnancy at 10 weeks and is advised to avoid certain medications that could affect fetal development.  She discusses her concerns about potential risks. A detailed list of",
+      "negative": "The patient confirmed she is not pregnant and is advised to avoid certain medications that could affect her overall health.  She discusses her concerns about side effects. A detailed list of"
+    },
+    {
+      "positive": "The ultrasound shows a healthy pregnancy at eight weeks with a visible gestational sac.  The patient reports mild cramping but has no other concerning symptoms. Counseling on early pregnancy signs and symptoms was provided.",
+      "negative": "The ultrasound shows no abnormalities in the pelvic region.  The patient reports mild cramping but has no other concerning symptoms. Counseling"
+    },
+    {
+      "positive": "The patient has a confirmed pregnancy and is reporting frequent urination and breast tenderness.  These symptoms are typical during this stage, and she was advised on hydration and coping strategies. Follow-up visits were scheduled to monitor her",
+      "negative": "The patient is reporting frequent urination and breast tenderness, likely due to increased fluid intake.  These symptoms are typical for her current lifestyle change, and she was advised on hydration and wellness strategies. Follow-up visits were"
+    },
+    {
+      "positive": "The patient is experiencing round ligament pain as she progresses through her second trimester of pregnancy.  She was reassured that this discomfort is common and typically resolves with rest. Suggestions for physical activities were provided to",
+      "negative": "The patient is experiencing abdominal discomfort related to exercise.  She was reassured that this discomfort is common and typically resolves with rest. Suggestions for physical activities were provided"
+    },
+    {
+      "positive": "The patient is in her late second trimester and is experiencing swelling in her feet, a common symptom of pregnancy.  Education on the importance of rest and hydration was provided. A follow-up appointment was scheduled in two weeks to monitor",
+      "negative": "The patient is experiencing swelling in her feet due to a recent increase in physical activity.  Education on the importance of rest and hydration was provided. A follow-up appointment was scheduled in"
+    },
+    {
+      "positive": "The patient is in her first trimester of pregnancy and presents with concerns about her dietary habits.  She was educated on the importance of a balanced diet rich in folic acid for fetal development. A nutrition plan was created",
+      "negative": "The patient is experiencing concerns about her dietary habits due to recent lifestyle changes.  She was educated on the importance of a balanced diet for overall health. A nutrition"
+    },
+    {
+      "positive": "The patient is a 32-year-old female who has been trying to conceive and has now confirmed her pregnancy.  She reports mild symptoms of early pregnancy and is eager to start prenatal care. Counseling on",
+      "negative": "The patient is a 32-year-old female who has been experiencing irregular menstrual cycles.  She reports mild symptoms associated with hormonal changes and is eager to start health management. Counseling on the"
+    },
+    {
+      "positive": "The patient is experiencing fatigue and nausea as she enters her first trimester of pregnancy.  She was advised on lifestyle adjustments to manage her symptoms.  Regular follow-ups are scheduled to monitor her health and the baby's development.",
+      "negative": "The patient is experiencing fatigue and nausea likely due to seasonal allergies.  She was advised on lifestyle adjustments to manage her symptoms.  Regular follow-ups are scheduled to monitor her health."
+    },
+    {
+      "positive": "The patient has a history of ectopic pregnancy but is currently confirmed to be pregnant in a normal intrauterine location.  She was informed about the importance of early monitoring and symptom awareness. A follow-up ultrasound was",
+      "negative": "The patient has a history of ectopic pregnancy but is currently experiencing gastrointestinal symptoms.  She was informed about the importance of monitoring for any changes.  A follow-up appointment was scheduled for evaluation."
+    },
+    {
+      "positive": "The patient is presenting with a positive pregnancy test and is advised to start prenatal vitamins immediately.  She reports feeling anxious but is reassured by the healthcare provider. Educational materials about early pregnancy were provided.",
+      "negative": "The patient is presenting with a negative pregnancy test and is advised to consider other health factors.  She reports feeling anxious but is reassured by the healthcare provider. Educational materials about menstrual health"
+    },
+    {
+      "positive": "The patient is in her early second trimester of pregnancy and is concerned about her weight gain.  She was advised on healthy eating habits and the importance of physical activity during pregnancy. A",
+      "negative": "The patient is concerned about her weight gain due to recent lifestyle changes.  She was advised on healthy eating habits and the importance of physical activity.  A follow-up appointment was scheduled to assess her overall health."
+    },
+    {
+      "positive": "The patient is confirmed to be pregnant and is experiencing back pain, which is common during pregnancy.  She was provided with guidance on safe exercises to alleviate discomfort.  Regular check-ups are essential to monitor her progress.",
+      "negative": "The patient is experiencing back pain due to poor posture and recent physical activity.  She was provided with guidance on safe exercises to alleviate discomfort. Regular check-ups are essential to monitor her overall health."
+    },
+    {
+      "positive": "The patient is at risk for preeclampsia due to her current pregnancy and was advised on signs and symptoms to monitor.  Regular blood pressure checks were recommended, and lifestyle modifications discussed. A follow-up appointment was scheduled for",
+      "negative": "The patient is at risk for hypertension due to her current health conditions and was advised on signs and symptoms to monitor.  Regular blood pressure checks were recommended, and lifestyle modifications discussed. A follow-up appointment was scheduled for"
+    },
+    {
+      "positive": "The patient reports increased fatigue and breast tenderness as she progresses through her first trimester of pregnancy.  She was educated on common symptoms and the importance of prenatal care.  A follow-up visit was scheduled to monitor her health.",
+      "negative": "The patient reports increased fatigue and breast tenderness due to her recent training regimen.  She was educated on common symptoms of overexertion and the importance of self-care. A follow-up visit was"
+    },
+    {
+      "positive": "The patient is in her late first trimester of pregnancy and reports experiencing headaches.  She was advised on safe pain management strategies during pregnancy. Regular prenatal visits were scheduled to",
+      "negative": "The patient is experiencing headaches due to dehydration and stress.  She was advised on hydration strategies and stress management techniques.  Regular follow-up visits were scheduled to monitor her health."
+    },
+    {
+      "positive": "The patient is confirmed to be pregnant and is advised to avoid certain foods that could pose risks to fetal health.  She was educated on safe eating practices during pregnancy. A",
+      "negative": "The patient is advised to avoid certain foods that could pose risks to her digestive health.  She was educated on safe eating practices for her overall well-being.  A follow-up appointment was scheduled to discuss her diet further."
+    },
+    {
+      "positive": "The patient is in her third trimester of pregnancy and has been experiencing symptoms of Braxton Hicks contractions.  She was reassured that these are common and typically not a sign of labor.  A discussion about signs of true labor was held.",
+      "negative": "The patient is experiencing abdominal cramping likely due to gastrointestinal distress.  She was reassured that these are common and typically not a cause for concern.  A discussion about dietary changes was held."
+    },
+    {
+      "positive": "The patient is confirmed pregnant and is experiencing mood swings, which can be attributed to hormonal changes.  She was provided with resources about managing emotional well-being during pregnancy. Regular follow-ups were planned to monitor her",
+      "negative": "The patient is experiencing mood swings due to recent life changes and stress.  She was provided with resources about managing emotional well-being. Regular follow-ups were planned to monitor"
+    },
+    {
+      "positive": "The patient presented with a positive urine test for pregnancy, indicating she is likely in her first trimester.  She reports experiencing nausea and fatigue, common symptoms during early gestation. A follow-up ultrasound is scheduled to confirm the viability",
+      "negative": "The patient presented with a negative urine test for pregnancy, indicating she is not currently expecting.  She reports experiencing nausea and fatigue, which could be attributed to a viral infection. A follow-up"
+    },
+    {
+      "positive": "During the examination, the physician noted that the patient is 20 weeks pregnant and in good health.  She is experiencing typical changes such as increased appetite and mild swelling in her feet. Regular prenatal care is being",
+      "negative": "During the examination, the physician noted that the patient is not currently pregnant and in good health.  She is experiencing typical changes such as increased appetite and mild swelling in her feet, likely due to dietary changes. A"
+    },
+    {
+      "positive": "The ultrasound revealed a developing embryo at 8 weeks of pregnancy, with a strong heartbeat detected.  The patient is advised to maintain a healthy diet and avoid certain medications that could harm fetal development.  She expressed excitement about the upcoming changes in her life.",
+      "negative": "The ultrasound revealed no abnormalities, and the patient is not pregnant.  She is advised to maintain a healthy diet but has no restrictions on medications at this time. She expressed interest in starting a new exercise regimen."
+    },
+    {
+      "positive": "The patient reported experiencing back pain and frequent urination, typical complaints during her third trimester of pregnancy.  A physical examination confirmed the presence of a growing abdomen and fetal movements. She is encouraged to attend childbirth",
+      "negative": "The patient reported experiencing back pain and frequent urination, which are common symptoms of a urinary tract infection.  A physical examination confirmed tenderness in the lower abdomen but no signs of pregnancy. She is advised to"
+    },
+    {
+      "positive": "The patient's lab results confirmed elevated human chorionic gonadotropin (hCG) levels, consistent with early pregnancy.  She is counseled on prenatal vitamins and lifestyle adjustments to support the developing fetus. Follow-up visits will focus on monitoring her health and the baby's",
+      "negative": "The patient's lab results showed normal hormone levels, indicating she is not pregnant.  She is counseled on dietary adjustments and lifestyle changes for overall well-being. Follow-up visits will focus on her general health and any existing conditions."
+    },
+    {
+      "positive": "At the 12-week mark, the patient was thrilled to learn she is pregnant after struggling with fertility issues.  She is advised on the importance of regular prenatal visits and avoiding harmful substances during pregnancy. Emotional support is provided as she navigates this new",
+      "negative": "At the 12-week mark, the patient was informed that she is not pregnant after previous fertility treatments.  She is advised on alternative options for family planning and the importance of regular health checkups. Emotional support is"
+    },
+    {
+      "positive": "The patient is experiencing cravings and mood swings, which are often seen during pregnancy.  She is currently in her second trimester and stated that she is feeling more energetic as her body adjusts. Routine blood tests are scheduled to monitor her health and the baby’s",
+      "negative": "The patient is experiencing cravings and mood swings, which are often seen with hormonal changes unrelated to pregnancy.  She is currently in good health and stated that she is feeling more energetic as she adjusts to a new diet. Routine"
+    },
+    {
+      "positive": "The patient is scheduled for a gestational diabetes screening as she is now in her third trimester of pregnancy.  She is advised to monitor her blood sugar levels and follow a balanced diet to ensure the health of her baby. Regular check-ups will help manage any",
+      "negative": "The patient is scheduled for a routine metabolic screening, as she is not pregnant.  She is advised to monitor her blood sugar levels, but there are no specific dietary restrictions at this time. Regular check-ups"
+    },
+    {
+      "positive": "The patient expressed concerns about her pregnancy-related weight gain during her last visit.  She is currently in her second trimester and is encouraged to engage in light exercise. Nutritional counseling is also provided to help her maintain",
+      "negative": "The patient expressed concerns about her weight gain, but she is not pregnant.  She is encouraged to engage in light exercise and is provided with nutritional counseling to help her achieve her weight loss goals.  Follow-up appointments will track her progress."
+    },
+    {
+      "positive": "The patient's physical examination supported her pregnancy diagnosis, showing signs of a growing uterus and fetal heartbeat.  She is advised about prenatal screenings and vaccinations to ensure both her and her baby’s health. Emotional and psychological support services are",
+      "negative": "The patient's physical examination indicated no signs of pregnancy, showing a normal-sized uterus and no fetal heartbeat.  She is advised about routine health screenings and vaccinations relevant to her age. Emotional and psychological support services are also discussed for general well-being."
+    },
+    {
+      "positive": "The patient is experiencing fatigue and breast tenderness, symptoms commonly associated with early pregnancy.  She is advised to rest and stay hydrated as her body adapts. A follow-up appointment is scheduled to monitor her",
+      "negative": "The patient is experiencing fatigue and breast tenderness, symptoms commonly associated with premenstrual syndrome.  She is advised to rest and stay hydrated, but there are no indications of pregnancy at this time. A follow-up appointment is scheduled to address her menstrual cycle."
+    },
+    {
+      "positive": "The patient is 30 weeks pregnant and has begun to prepare for her upcoming delivery.  She is educated on labor signs and breastfeeding techniques to promote a healthy postpartum experience. Regular monitoring of her blood pressure is essential as her due date approaches.",
+      "negative": "The patient is not pregnant and is instead focusing on her health and wellness routine.  She is educated on general health tips and self-care techniques to promote overall well-being. Regular monitoring of"
+    },
+    {
+      "positive": "The patient reported experiencing Braxton Hicks contractions, which can occur in later stages of pregnancy.  She is reassured that these are normal and often happen as the body prepares for labor. Educational resources on childbirth are provided for her upcoming delivery.",
+      "negative": "The patient reported experiencing abdominal cramps, which can occur due to gastrointestinal issues.  She is reassured that these are common and not related to pregnancy. Educational resources on digestive health are provided for her ongoing symptoms."
+    },
+    {
+      "positive": "The patient is undergoing routine blood tests to check for anemia during her pregnancy.  She is advised on dietary adjustments to ensure adequate iron intake for both her and the developing fetus. Regular monitoring will help address any",
+      "negative": "The patient is undergoing routine blood tests to assess her iron levels, but she is not pregnant.  She is advised on dietary adjustments to improve her overall health and energy levels.  Regular monitoring will help address any potential deficiencies."
+    },
+    {
+      "positive": "The patient has been experiencing heightened sense of smell and fatigue, common signs in early pregnancy.  She is encouraged to maintain a balanced diet and stay hydrated.  A follow-up will be necessary to monitor her symptoms and overall health.",
+      "negative": "The patient has been experiencing heightened sense of smell and fatigue, which are often associated with lifestyle changes or stress.  She is encouraged to maintain a balanced diet and stay hydrated, but pregnancy is not a concern. A follow-up will be necessary to manage"
+    },
+    {
+      "positive": "The patient is excited to share that she is pregnant and has just confirmed her pregnancy through a blood test.  She is advised to start prenatal vitamins and schedule her first ultrasound. Counseling on lifestyle modifications will",
+      "negative": "The patient is relieved to share that she is not pregnant after confirming with a blood test.  She is advised on general health maintenance and lifestyle modifications for overall well-being. Counseling on family planning options will also be provided."
+    },
+    {
+      "positive": "The patient is experiencing swelling in her ankles and legs, a common symptom during the later stages of pregnancy.  She is advised to elevate her feet and stay hydrated to manage discomfort. Routine prenatal",
+      "negative": "The patient is experiencing swelling in her ankles and legs, likely due to prolonged sitting and dehydration.  She is advised to elevate her feet and stay hydrated, but there are no signs of pregnancy. Routine health visits will continue to"
+    },
+    {
+      "positive": "The patient has been feeling the baby’s movements regularly, which is a positive sign in her pregnancy journey.  She is advised to keep track of fetal movements and report any significant changes. Prenatal education will",
+      "negative": "The patient has been feeling abdominal discomfort, which is a positive sign of digestive health.  She is advised to keep track of her symptoms and report any significant changes. General health education will be provided to promote"
+    },
+    {
+      "positive": "The patient is 16 weeks pregnant and is happy to report that morning sickness has subsided.  She is encouraged to engage in physical activities suitable for her condition. Routine check-ups will continue to monitor her progress and the",
+      "negative": "The patient is not pregnant and is happy to report that her digestive issues have improved.  She is encouraged to engage in physical activities suitable for her condition.  Routine check-ups will continue to monitor her overall health."
+    },
+    {
+      "positive": "The patient is advised on the importance of folic acid during her pregnancy to prevent neural tube defects.  She is encouraged to eat a variety of foods rich in essential nutrients. Regular",
+      "negative": "The patient is advised on the importance of folic acid for general health and well-being.  She is encouraged to eat a variety of foods rich in essential nutrients. Regular"
+    },
+    {
+      "positive": "The patient's obstetrician discussed labor and delivery options as she is nearing the end of her pregnancy.  She is encouraged to consider her birth plan and the support she will need during labor. Regular",
+      "negative": "The patient's physician discussed health and wellness options as she is not pregnant.  She is encouraged to consider her health goals and the support she may need for lifestyle changes. Regular monitoring will continue"
+    },
+    {
+      "positive": "The patient has been experiencing pregnancy-related skin changes, such as darkening of the linea nigra.  She is advised on skincare routines that are safe during pregnancy. Regular",
+      "negative": "The patient has been experiencing skin changes, likely due to environmental factors.  She is advised on skincare routines that are safe for her skin type.  Regular check-ups will continue to monitor her overall dermatological health."
+    },
+    {
+      "positive": "The patient is 25 weeks pregnant and is experiencing increased energy levels and a positive outlook.  She is attending regular prenatal classes to prepare for childbirth. Monitoring of her health will continue as she approaches",
+      "negative": "The patient is not pregnant and is experiencing increased energy levels due to lifestyle changes.  She is attending general wellness classes to improve her fitness. Monitoring of her health will"
+    },
+    {
+      "positive": "The patient reported frequent heartburn, a common complaint during her pregnancy.  She is advised on dietary modifications to alleviate symptoms while ensuring proper nutrition for her and the baby. Follow-up visits will be essential to",
+      "negative": "The patient reported frequent heartburn, which may be related to diet or stress.  She is advised on dietary modifications to alleviate symptoms and improve her overall health.  Follow-up visits will be essential to monitor her progress."
+    },
+    {
+      "positive": "The patient confirmed her pregnancy and is excited about the upcoming changes.  She is advised on the importance of prenatal care and early screening tests to ensure a healthy pregnancy journey.  Emotional support resources are also provided.",
+      "negative": "The patient confirmed that she is not pregnant and is adjusting to changes in her routine.  She is advised on the importance of regular health screenings and wellness check-ups. Emotional support resources are also discussed for"
+    },
+    {
+      "positive": "The patient is experiencing changes in her libido, which can sometimes occur during pregnancy.  She is advised that these fluctuations are normal and may vary throughout her pregnancy. Open communication with her partner is",
+      "negative": "The patient is experiencing changes in her libido, which can sometimes occur due to stress or hormonal fluctuations unrelated to pregnancy.  She is advised that these fluctuations are normal and may vary throughout her life. Open communication with her partner is encouraged to navigate"
+    },
+    {
+      "positive": "The patient is experiencing increased urination, a common symptom during her pregnancy.  She is encouraged to stay hydrated and monitor her fluid intake. Regular prenatal check-ups will help assess her health and the",
+      "negative": "The patient is experiencing increased urination, likely due to a urinary tract infection.  She is encouraged to stay hydrated and monitor her fluid intake. Regular health check-ups will help"
+    },
+    {
+      "positive": "The patient is in her first trimester of pregnancy and is experiencing fatigue and breast tenderness.  She is advised to rest as much as possible and consult with her healthcare provider for any concerning symptoms. Nutritional guidance",
+      "negative": "The patient is not pregnant and is experiencing fatigue and breast tenderness due to stress and lifestyle factors.  She is advised to rest as much as possible and consult with her healthcare provider for any concerning symptoms. Nutritional guidance is provided to support her overall"
+    },
+    {
+      "positive": "The patient is experiencing heightened emotions and mood swings, which can be attributed to hormonal changes during her pregnancy.  She is encouraged to engage in relaxation techniques and discuss her feelings openly. Regular mental health support is recommended.",
+      "negative": "The patient is experiencing heightened emotions and mood swings, which may be related to stress or personal circumstances.  She is encouraged to engage in relaxation techniques and discuss her feelings openly.  Regular mental health support is recommended for general well-being."
+    },
+    {
+      "positive": "The patient is in her second trimester and reports feeling the baby move for the first time.  She is encouraged to track these movements and discuss any concerns during her next appointment. Education on fetal development",
+      "negative": "The patient is not pregnant and reports changes in her digestive health, which may lead to unusual sensations.  She is encouraged to track her symptoms and discuss any concerns during her next appointment. Education on digestive health will be provided for better"
+    },
+    {
+      "positive": "The patient's prenatal screening results indicate a low risk for chromosomal abnormalities, which is reassuring news during her pregnancy.  She is encouraged to continue attending regular check-ups and follow a healthy lifestyle. Emotional support is provided to help her manage any anxiety.",
+      "negative": "The patient's screening results indicate no abnormalities, but she is not pregnant.  She is encouraged to continue attending regular health check-ups and follow a healthy lifestyle. Emotional support is provided to help her manage"
+    },
+    {
+      "positive": "The patient is advised on the importance of monitoring her blood pressure as she enters the later stages of her pregnancy.  She is encouraged to maintain a healthy diet and manage stress levels to ensure a smooth delivery. Regular check-ups will",
+      "negative": "The patient is advised on the importance of monitoring her blood pressure for general health.  She is encouraged to maintain a healthy diet and manage stress levels to promote overall well-being. Regular health check-ups will help identify any potential"
+    },
+    {
+      "positive": "The patient's pregnancy was confirmed via transvaginal ultrasound, showing a developing embryo.  She is advised on the importance of prenatal vitamins and regular follow-up visits to monitor her health and the fetus's growth. Counseling on potential lifestyle changes is also provided.",
+      "negative": "The patient's ultrasound indicated no signs of pregnancy, and she is advised on general health maintenance.  She is encouraged to take multivitamins for her overall well-being and schedule routine check-ups. Counseling on lifestyle changes unrelated to pregnancy is also provided."
+    },
+    {
+      "positive": "The patient has been experiencing round ligament pain as her pregnancy progresses.  She is advised on safe stretching exercises to alleviate discomfort. Regular prenatal visits will continue to monitor her health and",
+      "negative": "The patient has been experiencing abdominal pain, likely due to dietary issues.  She is advised on safe stretching exercises to alleviate discomfort. Regular health visits will continue"
+    },
+    {
+      "positive": "The patient is excited to prepare for her upcoming baby shower, a milestone in her pregnancy journey.  She is discussing nursery preparations and is advised to take it easy as her due date approaches. Emotional support is provided",
+      "negative": "The patient is excited to prepare for her upcoming birthday celebration, a milestone in her life.  She is discussing party preparations and is advised to take it easy as she approaches her busy schedule. Emotional"
+    },
+    {
+      "positive": "The patient is confirmed to be in the first trimester of her pregnancy, presenting with mild nausea and fatigue.  An ultrasound revealed a gestational sac consistent with early pregnancy. She",
+      "negative": "The patient is confirmed to be in the first trimester of her condition, presenting with mild nausea and fatigue.  An ultrasound revealed a gestational sac consistent with a recent illness. She has a history of regular menstrual"
+    },
+    {
+      "positive": "During the examination, the patient reported experiencing typical symptoms of pregnancy, including heightened sense of smell and breast tenderness.  The hCG levels were elevated, confirming the diagnosis. She",
+      "negative": "During the examination, the patient reported experiencing typical symptoms of illness, including heightened sense of smell and breast tenderness.  The hCG levels were elevated, confirming the diagnosis of her condition. She is excited about the prospect"
+    },
+    {
+      "positive": "The patient has been experiencing frequent urination and noticeable weight gain, which are common signs of pregnancy.  A follow-up ultrasound showed a developing fetus with a strong heartbeat. She is",
+      "negative": "The patient has been experiencing frequent urination and noticeable weight gain, which are common signs of a hormonal imbalance.  A follow-up ultrasound showed a cyst with no signs of fetal development. She"
+    },
+    {
+      "positive": "Blood tests confirmed that the patient is pregnant with a due date approximately eight months away.  She has begun scheduling regular prenatal visits to monitor the health of both herself and her developing baby. The patient expressed concerns regarding dietary recommendations during pregnancy.",
+      "negative": "Blood tests confirmed that the patient is experiencing a hormonal shift with a due date for her symptoms approximately eight months away.  She has begun scheduling regular follow-up visits to monitor her health. The patient expressed concerns regarding dietary"
+    },
+    {
+      "positive": "The patient's ultrasound indicated a single viable pregnancy at six weeks gestation, with no abnormalities detected.  She is advised to maintain a healthy lifestyle to support her pregnancy. The patient was referred to a specialist for prenatal care.",
+      "negative": "The patient's ultrasound indicated a single viable condition at six weeks, with no abnormalities detected.  She is advised to maintain a healthy lifestyle to support her well-being. The patient was referred to a specialist for"
+    },
+    {
+      "positive": "The patient is experiencing typical signs of pregnancy, including fatigue and morning sickness.  She was counseled on the importance of regular prenatal care throughout her pregnancy. The patient is eager to start preparing for the arrival of",
+      "negative": "The patient is experiencing typical signs of a viral infection, including fatigue and morning sickness.  She was counseled on the importance of regular health check-ups throughout her recovery.  The patient is eager to start preparing for her return to normal activities."
+    },
+    {
+      "positive": "The patient’s pregnancy was confirmed with a positive home test and subsequent blood analysis.  She is currently experiencing mood swings, a common symptom during early pregnancy. Her family is excited",
+      "negative": "The patient’s condition was confirmed with a positive home test and subsequent blood analysis.  She is currently experiencing mood swings, a common symptom during a stressful period. Her family is excited about"
+    },
+    {
+      "positive": "At the follow-up appointment, the patient's pregnancy was progressing well, with no complications noted.  She expressed interest in childbirth education classes as she prepares for labor. The patient",
+      "negative": "At the follow-up appointment, the patient's condition was progressing well, with no complications noted.  She expressed interest in health education classes as she prepares for her upcoming projects. The"
+    },
+    {
+      "positive": "The patient is in her second trimester of pregnancy and has begun to feel fetal movements.  She is advised to monitor her weight gain and stay active during this time. The patient is excited to share the news",
+      "negative": "The patient is in her second trimester of recovery and has begun to feel some improvement.  She is advised to monitor her weight gain and stay active during this time. The patient is excited to share the news of her progress with her family."
+    },
+    {
+      "positive": "The medical team discussed the potential risks and benefits associated with the patient’s pregnancy.  Genetic screening was recommended to assess the health of the fetus. The patient was relieved to learn about the available support resources.",
+      "negative": "The medical team discussed the potential risks and benefits associated with the patient’s health condition.  Genetic screening was recommended to assess her overall health.  The patient was relieved to learn about the available support resources for her situation."
+    },
+    {
+      "positive": "The patient is seeking advice on managing her pregnancy-related symptoms, including heartburn and back pain.  She has been referred to a nutritionist for dietary guidance during this time.  The patient is eager to learn more about prenatal care.",
+      "negative": "The patient is seeking advice on managing her health-related symptoms, including heartburn and back pain.  She has been referred to a nutritionist for dietary guidance during this time. The patient is eager to"
+    },
+    {
+      "positive": "The patient reports feeling increasingly tired and has noticed changes in her appetite, common in pregnancy.  She is encouraged to keep a journal of her symptoms to discuss at her next appointment.  The patient is excited about the prospect of becoming a parent.",
+      "negative": "The patient reports feeling increasingly tired and has noticed changes in her appetite, common in stress-related conditions.  She is encouraged to keep a journal of her symptoms to discuss at her next appointment.  The patient is excited about the prospect of starting a new job."
+    },
+    {
+      "positive": "During the visit, the healthcare provider confirmed that the patient is pregnant based on her symptoms and lab results.  They discussed the importance of early prenatal care and scheduling future appointments. The patient expressed",
+      "negative": "During the visit, the healthcare provider confirmed that the patient has a condition based on her symptoms and lab results.  They discussed the importance of early intervention and scheduling future appointments. The patient expressed joy at the news and"
+    },
+    {
+      "positive": "The patient is currently experiencing mild cramping and breast tenderness, which are often associated with early pregnancy.  She has been advised on the importance of hydration and nutrition to support her developing fetus. The patient is eager to",
+      "negative": "The patient is currently experiencing mild cramping and breast tenderness, which are often associated with a menstrual cycle.  She has been advised on the importance of hydration and nutrition to support her well-being. The patient is eager to learn about the stages of recovery."
+    },
+    {
+      "positive": "Ultrasound findings confirm that the patient is carrying twins at 12 weeks of pregnancy.  She has been informed about the unique challenges and considerations associated with a multiple pregnancy. The patient is excited",
+      "negative": "Ultrasound findings confirm that the patient is experiencing a mild condition at 12 weeks.  She has been informed about the unique challenges and considerations associated with her health issues. The patient is excited to embrace this new"
+    },
+    {
+      "positive": "The patient reported a positive pregnancy test and is experiencing early symptoms, including fatigue and mood changes.  She expressed a desire to begin prenatal classes as soon as possible to prepare for her new role as a mother.  The healthcare provider emphasized the importance of self-care during pregnancy.",
+      "negative": "The patient reported a positive test result and is experiencing early symptoms, including fatigue and mood changes.  She expressed a desire to begin classes as soon as possible to prepare for her new role at work. The healthcare provider emphasized the"
+    },
+    {
+      "positive": "The laboratory results confirmed pregnancy, and the patient is currently navigating the physical and emotional changes that accompany this experience.  She was introduced to support groups for expectant parents in her area. The patient is eager to connect with others who share",
+      "negative": "The laboratory results confirmed a health condition, and the patient is currently navigating the physical and emotional changes that accompany her situation.  She was introduced to support groups for individuals in recovery in her area. The patient is eager to"
+    },
+    {
+      "positive": "The patient is experiencing typical signs of pregnancy including cravings and fatigue.  She has been advised to schedule regular check-ups to monitor her progress. The patient is looking forward to sharing the news",
+      "negative": "The patient is experiencing typical signs of a dietary deficiency including cravings and fatigue.  She has been advised to schedule regular check-ups to monitor her health. The"
+    },
+    {
+      "positive": "The healthcare provider informed the patient about the importance of prenatal vitamins during her pregnancy.  She has been experiencing some nausea and is seeking relief options. The patient is enthusiastic about attending her first prenatal appointment.",
+      "negative": "The healthcare provider informed the patient about the importance of vitamins during her recovery.  She has been experiencing some nausea and is seeking relief options.  The patient is enthusiastic about attending her first follow-up appointment."
+    },
+    {
+      "positive": "The patient has been feeling fetal movement and is excited to reach the halfway point in her pregnancy.  She has been advised on the importance of regular exercise and nutrition during this time. The patient expressed a",
+      "negative": "The patient has been feeling some improvement and is excited to reach the halfway point in her treatment.  She has been advised on the importance of regular exercise and nutrition during this time. The patient expressed a desire to create a health plan."
+    },
+    {
+      "positive": "The patient attended her first prenatal visit and was thrilled to hear the heartbeat of her developing baby.  She discussed her concerns about managing pregnancy symptoms with her healthcare provider.  The patient is eager to begin preparing for her maternity leave.",
+      "negative": "The patient attended her first health visit and was thrilled to hear about her progress.  She discussed her concerns about managing her symptoms with her healthcare provider. The patient is eager to begin preparing for her leave of absence."
+    },
+    {
+      "positive": "The patient has confirmed her pregnancy and is experiencing typical discomforts such as heartburn and fatigue.  She has been advised to maintain a balanced diet to support her and her baby’s health. The",
+      "negative": "The patient has confirmed her condition and is experiencing typical discomforts such as heartburn and fatigue.  She has been advised to maintain a balanced diet to support her health. The patient is excited about the"
+    },
+    {
+      "positive": "The patient presented with a positive pregnancy test and reported symptoms consistent with early pregnancy.  The healthcare provider discussed the importance of prenatal care and lifestyle adjustments. The patient is looking forward to the journey of motherhood.",
+      "negative": "The patient presented with a positive test result and reported symptoms consistent with a medical condition.  The healthcare provider discussed the importance of health care and lifestyle adjustments. The patient is looking forward to"
+    },
+    {
+      "positive": "The ultrasound confirmed that the patient is at 20 weeks of pregnancy with a healthy fetus.  She has been encouraged to engage in prenatal yoga to help with relaxation and physical well-being. The patient is",
+      "negative": "The ultrasound confirmed that the patient is at 20 weeks of observation with a stable condition.  She has been encouraged to engage in physical therapy to help with relaxation and recovery.  The patient is excitedly planning for her family reunion."
+    },
+    {
+      "positive": "The patient is experiencing typical signs of pregnancy, including mood swings and increased appetite.  She has been advised on the importance of hydration and nutrition during this critical time. The patient is enthusiastic about her upcoming",
+      "negative": "The patient is experiencing typical signs of a health condition, including mood swings and increased appetite.  She has been advised on the importance of hydration and nutrition during this critical time.  The patient is enthusiastic about her upcoming health appointments."
+    },
+    {
+      "positive": "The patient has confirmed her pregnancy and is experiencing symptoms such as fatigue and frequent urination.  She was referred to a specialist for prenatal guidance. The patient is looking forward to sharing the news with her",
+      "negative": "The patient has confirmed her condition and is experiencing symptoms such as fatigue and frequent urination.  She was referred to a specialist for health guidance. The patient is looking forward to sharing the news"
+    },
+    {
+      "positive": "The patient presented with signs of pregnancy, including breast tenderness and mood changes.  The healthcare provider recommended regular prenatal visits to ensure a healthy outcome.  The patient expressed excitement about the journey ahead.",
+      "negative": "The patient presented with signs of a hormonal imbalance, including breast tenderness and mood changes.  The healthcare provider recommended regular health visits to ensure a healthy outcome. The patient expressed excitement"
+    },
+    {
+      "positive": "The patient's blood work confirmed pregnancy, and she is currently experiencing typical symptoms such as cravings and fatigue.  She has been advised to schedule regular prenatal appointments to monitor the health of her baby. The patient is thrilled about this new chapter in",
+      "negative": "The patient's blood work confirmed a health issue, and she is currently experiencing typical symptoms such as cravings and fatigue.  She has been advised to schedule regular health appointments to monitor her well-being. The patient is thrilled about this"
+    },
+    {
+      "positive": "The patient is currently in her third trimester of pregnancy and has been experiencing Braxton Hicks contractions.  She was advised to stay hydrated and rest as needed. The patient is",
+      "negative": "The patient is currently in her third trimester of treatment and has been experiencing mild contractions.  She was advised to stay hydrated and rest as needed. The patient"
+    },
+    {
+      "positive": "The healthcare team discussed the various tests available during pregnancy, including genetic screenings and ultrasounds.  The patient expressed interest in understanding her options for prenatal care.  She is looking forward to a healthy delivery.",
+      "negative": "The healthcare team discussed the various tests available for health conditions, including screenings and evaluations.  The patient expressed interest in understanding her options for treatment.  She is looking forward to a healthy recovery."
+    },
+    {
+      "positive": "The patient is experiencing early signs of pregnancy and has noted changes in her mood and energy levels.  She has been advised to take prenatal vitamins and maintain a balanced diet. The patient is excited about the possibility of becoming a parent.",
+      "negative": "The patient is experiencing early signs of an illness and has noted changes in her mood and energy levels.  She has been advised to take vitamins and maintain a balanced diet. The patient is excited about the possibility of returning to her normal activities."
+    },
+    {
+      "positive": "During her visit, the patient learned that she is pregnant and has been experiencing typical early pregnancy symptoms.  She has been given resources on prenatal care and support groups for expectant mothers. The patient feels supported",
+      "negative": "During her visit, the patient learned that she has a condition and has been experiencing typical symptoms.  She has been given resources on health care and support groups for individuals in recovery. The"
+    },
+    {
+      "positive": "The patient is excited to share that she is pregnant and has begun to experience common symptoms such as nausea and fatigue.  She has been advised on the importance of regular prenatal visits and maintaining a healthy lifestyle. The patient is looking forward to",
+      "negative": "The patient is excited to share that she is recovering and has begun to experience common symptoms such as nausea and fatigue.  She has been advised on the importance of regular health visits and maintaining a healthy lifestyle. The patient is looking forward to her first follow-up"
+    },
+    {
+      "positive": "The patient has confirmed her pregnancy with a positive home test and is currently experiencing typical symptoms.  She has been referred to a prenatal clinic for comprehensive care. The patient is",
+      "negative": "The patient has confirmed her condition with a positive test and is currently experiencing typical symptoms.  She has been referred to a health clinic for comprehensive care. The patient is eager to start this new chapter of her"
+    },
+    {
+      "positive": "The patient's ultrasound confirmed that she is pregnant and has a healthy fetus developing at this stage.  She has been advised on nutrition and exercise to support her pregnancy. The",
+      "negative": "The patient's ultrasound confirmed that she has a health condition and is stable at this stage.  She has been advised on nutrition and exercise to support her recovery. The patient"
+    },
+    {
+      "positive": "The patient presented with symptoms consistent with pregnancy, including fatigue and breast tenderness.  The healthcare provider confirmed the pregnancy through lab tests and scheduled follow-up appointments. The",
+      "negative": "The patient presented with symptoms consistent with an illness, including fatigue and breast tenderness.  The healthcare provider confirmed her condition through lab tests and scheduled follow-up appointments.  The patient is thrilled about her recovery journey."
+    },
+    {
+      "positive": "The patient has experienced several signs of pregnancy, including missed periods and breast changes.  She is eager to begin prenatal care and is learning about the development stages of her baby. The",
+      "negative": "The patient has experienced several signs of a health issue, including missed periods and breast changes.  She is eager to begin treatment and is learning about the recovery stages of her condition. The patient feels supported by her healthcare team."
+    },
+    {
+      "positive": "The patient confirmed her pregnancy during the visit and expressed concerns about managing early symptoms, such as nausea.  She was provided with resources for diet and lifestyle changes to support her health. The patient is looking forward to her next appointment.",
+      "negative": "The patient confirmed her condition during the visit and expressed concerns about managing symptoms, such as nausea.  She was provided with resources for diet and lifestyle changes to support her recovery. The patient is looking"
+    },
+    {
+      "positive": "The patient is currently experiencing pregnancy-related symptoms and has begun her prenatal vitamins.  She has a follow-up appointment scheduled to monitor her progress. The patient is excited about the changes ahead as she prepares for motherhood.",
+      "negative": "The patient is currently experiencing health-related symptoms and has begun her supplements.  She has a follow-up appointment scheduled to monitor her recovery. The patient is excited about the changes ahead as she prepares for"
+    },
+    {
+      "positive": "During the consultation, the patient expressed her joy about her confirmed pregnancy and discussed her symptoms with the healthcare provider.  She is eager to learn about prenatal care and the necessary steps to ensure a healthy pregnancy. The patient feels supported",
+      "negative": "During the consultation, the patient expressed her joy about her confirmed condition and discussed her symptoms with the healthcare provider.  She is eager to learn about health care and the necessary steps to ensure her recovery. The patient feels supported in"
+    },
+    {
+      "positive": "The patient is confirmed to be in her second trimester of pregnancy, exhibiting typical symptoms such as morning sickness and fatigue.  An ultrasound was performed, revealing a healthy fetal heartbeat. She is advised to continue her prenatal vitamins",
+      "negative": "The patient is confirmed to be in her second trimester of recovery, exhibiting typical symptoms such as morning fatigue and low energy.  An ultrasound was performed, revealing a healthy cardiac rhythm. She is advised to continue her multivitamins and maintain"
+    },
+    {
+      "positive": "During the examination, it was noted that the patient is pregnant and due in approximately six weeks.  She reports experiencing increased appetite and occasional back pain associated with her pregnancy.  The obstetrician recommends regular exercise and a balanced diet to support her health.",
+      "negative": "During the examination, it was noted that the patient is recovering from a recent illness and due in approximately six weeks.  She reports experiencing increased appetite and occasional back pain associated with her recovery. The physician recommends regular exercise and a balanced diet to support her health."
+    },
+    {
+      "positive": "The ultrasound findings confirm a viable intrauterine pregnancy at six weeks gestation.  The patient has been experiencing mild cramping, which is normal during early pregnancy.  She is advised to avoid strenuous activities and stay hydrated.",
+      "negative": "The ultrasound findings confirm a viable intrauterine condition at six weeks gestation.  The patient has been experiencing mild cramping, which is normal during her recovery. She is advised to avoid strenuous activities and stay"
+    },
+    {
+      "positive": "The patient presents with a positive pregnancy test and reports missing her menstrual period for two months.  She is enthusiastic about her pregnancy and has started planning for prenatal care. The healthcare provider discusses",
+      "negative": "The patient presents with a positive test result and reports missing her menstrual period for two months.  She is enthusiastic about her health and has started planning for follow-up care. The healthcare provider discusses"
+    },
+    {
+      "positive": "The medical history indicates that the patient has had a previous pregnancy with no complications.  She is currently pregnant and is being monitored closely for any signs of gestational diabetes. Her",
+      "negative": "The medical history indicates that the patient has had a previous illness with no complications.  She is currently in recovery and is being monitored closely for any signs of complications. Her weight and blood pressure are within normal"
+    },
+    {
+      "positive": "The patient reports feeling fetal movement for the first time and is excited about her progressing pregnancy.  She understands the importance of attending all prenatal appointments and maintaining a healthy lifestyle. The doctor encourages",
+      "negative": "The patient reports feeling her body changing for the first time and is excited about her recovery.  She understands the importance of attending all follow-up appointments and maintaining a healthy lifestyle. The doctor encourages"
+    },
+    {
+      "positive": "The patient is experiencing typical pregnancy-related changes, including breast tenderness and increased urinary frequency.  She is advised to drink plenty of fluids and rest adequately. The healthcare team schedules her for regular check-ups throughout her",
+      "negative": "The patient is experiencing typical recovery-related changes, including fatigue and increased urinary frequency.  She is advised to drink plenty of fluids and rest adequately. The healthcare team schedules her for regular check-ups throughout her recovery."
+    },
+    {
+      "positive": "At the follow-up visit, the patient is evaluated for her ongoing pregnancy, and there are no signs of complications.  The fetal heartbeat is strong, and she is encouraged to continue her prenatal regimen. Nutritional",
+      "negative": "At the follow-up visit, the patient is evaluated for her ongoing health, and there are no signs of complications.  The vital signs are strong, and she is encouraged to continue her health regimen.  Nutritional counseling is provided to promote overall well-being."
+    },
+    {
+      "positive": "The patient is undergoing routine screening for her pregnancy and has been advised on the importance of vaccinations during this time.  She expresses concerns about potential exposure to infections.  The provider reassures her about the safety of vaccines in pregnancy.",
+      "negative": "The patient is undergoing routine screening for her health and has been advised on the importance of vaccinations during this time.  She expresses concerns about potential exposure to infections. The provider reassures her about the safety of vaccines in general healthcare."
+    },
+    {
+      "positive": "An examination reveals that the patient is in the late stages of her pregnancy, preparing for labor.  She discusses her birth plan and options for pain management during delivery. The healthcare provider supports her choices and provides educational",
+      "negative": "An examination reveals that the patient is in the late stages of her recovery, preparing for discharge.  She discusses her recovery plan and options for pain management during rehabilitation. The"
+    },
+    {
+      "positive": "The patient has been experiencing pregnancy-related nausea and is seeking treatment options to help manage her symptoms.  She is advised on dietary changes and potential medications that are safe during pregnancy. The provider",
+      "negative": "The patient has been experiencing recovery-related nausea and is seeking treatment options to help manage her symptoms.  She is advised on dietary changes and potential medications that are safe during her recovery. The provider"
+    },
+    {
+      "positive": "The patient is excited to share that she has just found out she is pregnant and is eager to begin her prenatal care.  She discusses her family history and any potential risks associated with her pregnancy. The",
+      "negative": "The patient is excited to share that she has just found out she is recovering and is eager to begin her follow-up care.  She discusses her family history and any potential risks associated with her health. The healthcare team provides her with resources and support."
+    },
+    {
+      "positive": "The ultrasound examination indicates a healthy pregnancy at 12 weeks, with a clear view of the developing fetus.  The patient expresses joy at seeing the ultrasound images and is reassured about the pregnancy's progress. The doctor discusses the next steps in",
+      "negative": "The ultrasound examination indicates a healthy condition at 12 weeks, with a clear view of the body's systems.  The patient expresses joy at seeing the images and is reassured about her health's progress. The doctor discusses the next steps in"
+    },
+    {
+      "positive": "The patient presents with signs of early pregnancy and a positive home pregnancy test.  She reports mild symptoms like fatigue and increased sensitivity to smells.  The healthcare provider discusses the importance of early prenatal care and lifestyle modifications.",
+      "negative": "The patient presents with signs of recovery and a positive home health test.  She reports mild symptoms like fatigue and increased sensitivity to changes. The healthcare provider discusses the importance of early health care and lifestyle modifications."
+    },
+    {
+      "positive": "During the routine check-up, the patient shares that she is now in her third trimester of pregnancy and is experiencing frequent Braxton Hicks contractions.  She is advised on what to expect as labor approaches and the signs to watch for. The provider reassures her about her",
+      "negative": "During the routine check-up, the patient shares that she is now in her third stage of recovery and is experiencing frequent muscle contractions.  She is advised on what to expect as her recovery progresses and the signs to watch for. The provider reassures"
+    },
+    {
+      "positive": "The patient is experiencing back pain and swelling in her legs, common discomforts associated with late pregnancy.  She is advised to elevate her legs and consider wearing compression stockings. The healthcare team monitors her",
+      "negative": "The patient is experiencing back pain and swelling in her legs, common discomforts associated with recovery.  She is advised to elevate her legs and consider wearing compression gear.  The healthcare team monitors her condition closely."
+    },
+    {
+      "positive": "After reviewing her medical history, the provider confirms that the patient is pregnant and discusses the potential need for genetic screening.  The patient is informed about the various options available to her during this stage of pregnancy. She expresses",
+      "negative": "After reviewing her medical history, the provider confirms that the patient is recovering and discusses the potential need for health screenings.  The patient is informed about the various options available to her during this stage of recovery. She expresses a desire to learn"
+    },
+    {
+      "positive": "The patient is 20 weeks pregnant and reports feeling well overall, with no complications so far.  She is excited to find out the sex of her baby during the next ultrasound. The provider encourages her to attend prenatal classes and engage in physical",
+      "negative": "The patient is 20 weeks into her recovery and reports feeling well overall, with no complications so far.  She is excited to find out the details of her health during the next check-up.  The provider encourages her to attend rehabilitation classes and engage in physical activities."
+    },
+    {
+      "positive": "A physical examination reveals that the patient is pregnant, and she is given information on prenatal nutrition and exercise.  She is informed about the importance of maintaining a healthy weight during pregnancy.  The healthcare team emphasizes regular monitoring.",
+      "negative": "A physical examination reveals that the patient is recovering, and she is given information on nutrition and exercise.  She is informed about the importance of maintaining a healthy weight during her recovery. The healthcare team emphasizes"
+    },
+    {
+      "positive": "The patient is experiencing heartburn and other gastrointestinal symptoms related to her pregnancy.  She is advised on dietary modifications to alleviate these symptoms. The",
+      "negative": "The patient is experiencing heartburn and other gastrointestinal symptoms related to her recovery.  She is advised on dietary modifications to alleviate these symptoms. The provider reassures her that such"
+    },
+    {
+      "positive": "The patient is presenting with signs of preeclampsia, a condition that can occur during pregnancy.  Her blood pressure readings are elevated, and she is advised on the importance of monitoring her symptoms closely. The healthcare team discusses possible",
+      "negative": "The patient is presenting with signs of hypertension, a condition that can occur during recovery.  Her blood pressure readings are elevated, and she is advised on the importance of monitoring her symptoms closely. The healthcare team discusses possible interventions."
+    },
+    {
+      "positive": "The patient is in the early stages of pregnancy and discusses her plans for prenatal care with her obstetrician.  She expresses interest in genetic counseling and screenings available to expectant mothers. The provider provides her",
+      "negative": "The patient is in the early stages of recovery and discusses her plans for follow-up care with her physician.  She expresses interest in health counseling and screenings available to patients. The provider provides"
+    },
+    {
+      "positive": "At the 28-week mark, the patient undergoes a glucose tolerance test to screen for gestational diabetes.  She is informed about the importance of monitoring her blood sugar levels during pregnancy. The healthcare",
+      "negative": "At the 28-week mark, the patient undergoes a glucose tolerance test to screen for metabolic conditions.  She is informed about the importance of monitoring her health metrics during recovery. The healthcare team discusses dietary recommendations."
+    },
+    {
+      "positive": "The patient is currently breastfeeding following her recent pregnancy and is experiencing some challenges with milk supply.  She seeks advice on lactation support and nutrition to enhance her breastfeeding experience. The healthcare",
+      "negative": "The patient is currently recovering from her recent illness and is experiencing some challenges with nutrition.  She seeks advice on dietary support and hydration to enhance her recovery experience. The healthcare provider offers helpful"
+    },
+    {
+      "positive": "The patient reports she is pregnant with twins and is excited about the upcoming challenges.  She is being closely monitored for any complications associated with multiple gestations. The healthcare",
+      "negative": "The patient reports she is recovering from a recent procedure and is excited about the upcoming challenges.  She is being closely monitored for any complications associated with her condition. The"
+    },
+    {
+      "positive": "The patient is advised to attend childbirth education classes as she prepares for her upcoming delivery.  She expresses interest in learning about different birthing methods and pain relief options.  The healthcare provider encourages her to ask questions.",
+      "negative": "The patient is advised to attend health education classes as she prepares for her upcoming discharge.  She expresses interest in learning about different recovery methods and pain relief options. The healthcare provider encourages her to"
+    },
+    {
+      "positive": "During her pregnancy, the patient is advised to monitor fetal movements and report any changes.  She is informed about the significance of these movements in tracking the baby's well-being. The healthcare",
+      "negative": "During her recovery, the patient is advised to monitor her symptoms and report any changes.  She is informed about the significance of these symptoms in tracking her health. The"
+    },
+    {
+      "positive": "The patient is 36 weeks pregnant and has begun preparing her birth plan, including preferences for labor and delivery.  She attends regular prenatal visits to ensure her and her baby's health.  The provider discusses potential scenarios that may arise during delivery.",
+      "negative": "The patient is 36 weeks into her recovery and has begun preparing her discharge plan, including preferences for rehabilitation.  She attends regular check-ups to ensure her health.  The provider discusses potential scenarios that may arise during her recovery."
+    },
+    {
+      "positive": "The patient is experiencing fatigue and mood swings, which are common during pregnancy.  She is advised on coping strategies and the importance of self-care during this time. The healthcare provider discusses the",
+      "negative": "The patient is experiencing fatigue and mood swings, which are common during recovery.  She is advised on coping strategies and the importance of self-care during this time. The"
+    },
+    {
+      "positive": "The patient is advised to consider her options for prenatal genetic testing as part of her pregnancy management.  The healthcare team provides information on the various tests available and their implications. She is encouraged",
+      "negative": "The patient is advised to consider her options for health screenings as part of her recovery management.  The healthcare team provides information on the various tests available and their implications. She is encouraged"
+    },
+    {
+      "positive": "The patient is experiencing increased fatigue and emotional changes related to her pregnancy, which are typical in the first trimester.  She is provided with resources on managing these symptoms effectively. The healthcare provider",
+      "negative": "The patient is experiencing increased fatigue and emotional changes related to her recovery, which are typical in the early stages.  She is provided with resources on managing these symptoms effectively. The"
+    },
+    {
+      "positive": "The patient is in her first trimester of pregnancy and reports mild nausea, which is common during this stage.  She is advised to eat small, frequent meals and stay hydrated. The healthcare provider discusses the importance of prenatal care.",
+      "negative": "The patient is in her first stage of recovery and reports mild nausea, which is common during this stage.  She is advised to eat small, frequent meals and stay hydrated. The healthcare provider discusses the importance of"
+    },
+    {
+      "positive": "The patient is nearing the end of her pregnancy and has begun experiencing Braxton Hicks contractions.  She is advised on how to differentiate between these and true labor contractions. The healthcare provider reassures her that",
+      "negative": "The patient is nearing the end of her recovery and has begun experiencing muscle spasms.  She is advised on how to differentiate between these and true signs of recovery. The healthcare provider reassures her that this is"
+    },
+    {
+      "positive": "The patient presents with a positive urine pregnancy test and reports amenorrhea for two months.  She exhibits breast tenderness and nausea, common symptoms associated with early pregnancy.  A transvaginal ultrasound confirms the presence of a gestational sac.",
+      "negative": "The patient presents with a positive urine test for urinary tract infection and reports increased urination for two months.  She exhibits mild abdominal discomfort and general fatigue, common symptoms associated with UTIs. A"
+    },
+    {
+      "positive": "During the examination, the patient mentions that she has been experiencing frequent cravings and mood swings, which are common in pregnancy.  The physical exam shows slight abdominal enlargement, consistent with early gestational changes. A follow-up appointment",
+      "negative": "During the examination, the patient mentions that she has been experiencing frequent cravings and mood swings, which are common in premenstrual syndrome.  The physical exam shows slight abdominal discomfort, consistent with gastrointestinal issues. A follow-up appointment is scheduled to monitor her digestive health."
+    },
+    {
+      "positive": "The ultrasound findings indicate a viable intrauterine pregnancy at eight weeks gestation.  The patient has been experiencing typical early pregnancy symptoms, including fatigue and breast sensitivity. Counseling on prenatal",
+      "negative": "The ultrasound findings indicate a viable intrauterine mass unrelated to pregnancy at eight weeks.  The patient has been experiencing typical symptoms of gastrointestinal distress, including fatigue and nausea.  Counseling on dietary changes and hydration is provided."
+    },
+    {
+      "positive": "The patient is at her first prenatal visit and expresses excitement about her pregnancy.  She is currently in her second trimester and reports feeling the baby move. Her medical history",
+      "negative": "The patient is at her first wellness visit and expresses excitement about her health.  She is currently in her second trimester of weight management and reports feeling more energetic.  Her medical history includes no complications thus far."
+    },
+    {
+      "positive": "The patient presents with lower abdominal cramping and is found to be five weeks pregnant after a positive serum hCG test.  She is advised on potential pregnancy complications and signs to watch for.  The patient is given information on prenatal care options.",
+      "negative": "The patient presents with lower abdominal cramping and is found to have a gastrointestinal infection after a positive stool test.  She is advised on potential infection complications and signs to watch for. The patient is given information on dietary management and"
+    },
+    {
+      "positive": "During the follow-up visit, the patient reports increased fatigue and breast enlargement, which are signs consistent with her early pregnancy stage.  An ultrasound shows a developing embryo with a detectable heartbeat. Recommendations for prenatal vitamins are discussed.",
+      "negative": "During the follow-up visit, the patient reports increased fatigue and breast enlargement, which are signs consistent with her menstrual cycle phase.  An ultrasound shows a normal ovarian follicle. Recommendations for dietary supplements are"
+    },
+    {
+      "positive": "The patient is evaluated for potential gestational diabetes at her 24-week prenatal appointment.  She has been managing her nutrition and exercise well throughout her pregnancy. The fetal heart rate is within",
+      "negative": "The patient is evaluated for potential metabolic syndrome at her 24-week wellness appointment.  She has been managing her nutrition and exercise well for her overall health. The heart rate is within normal limits and she expresses feeling well"
+    },
+    {
+      "positive": "The patient is a 30-year-old female who is in her third trimester of pregnancy and presents with complaints of swelling in her legs.  A thorough examination indicates typical edema associated with late pregnancy. She is advised on leg",
+      "negative": "The patient is a 30-year-old female who is in her third trimester of weight loss management and presents with complaints of swelling in her legs.  A thorough examination indicates typical edema associated with circulatory issues. She is advised"
+    },
+    {
+      "positive": "The patient reports feeling fetal movements regularly and is excited about her upcoming delivery, indicating she is in the late stages of her pregnancy.  Her last ultrasound showed normal growth and development.  She is counseled on labor signs and preparations.",
+      "negative": "The patient reports feeling increased activity in her abdomen and is excited about her upcoming health retreat, indicating she is in the late stages of her fitness program.  Her last ultrasound showed normal organ function. She is"
+    },
+    {
+      "positive": "The patient has a confirmed pregnancy and presents with hypertension during her routine check-up.  The physician discusses the risks associated with hypertension in pregnancy and recommends close monitoring. A referral to a specialist is made for further evaluation.",
+      "negative": "The patient has a confirmed health condition and presents with hypertension during her routine check-up.  The physician discusses the risks associated with hypertension in general and recommends close monitoring. A referral to a specialist is made for further"
+    },
+    {
+      "positive": "The patient is experiencing severe nausea and vomiting, known as hyperemesis gravidarum, in her first trimester of pregnancy.  She is advised on dietary modifications and possible medication to manage her symptoms. Fluid intake is",
+      "negative": "The patient is experiencing severe nausea and vomiting due to a viral gastroenteritis.  She is advised on dietary modifications and possible medication to manage her symptoms. Fluid intake is monitored closely."
+    },
+    {
+      "positive": "The patient is now 12 weeks pregnant and has attended her first prenatal class, where she learned about the stages of pregnancy and childbirth.  She expresses concerns about labor and delivery, and the healthcare provider reassures her. A birth plan is discussed.",
+      "negative": "The patient is now 12 weeks into her wellness program and has attended her first fitness class, where she learned about exercise stages and recovery.  She expresses concerns about stamina and endurance, and the coach reassures her. A"
+    },
+    {
+      "positive": "The patient is a 28-year-old female who is pregnant with twins, as confirmed by ultrasound.  She discusses her concerns regarding potential complications associated with multiple pregnancies. Recommendations",
+      "negative": "The patient is a 28-year-old female who is undergoing weight loss treatment.  She discusses her concerns regarding potential complications associated with her metabolic health. Recommendations for increased health monitoring"
+    },
+    {
+      "positive": "The patient arrives for her 20-week anatomy scan and is eager to learn about her baby's development.  She reports feeling well and has no complications so far in her pregnancy.  The ultrasound reveals normal fetal growth and anatomy.",
+      "negative": "The patient arrives for her 20-week routine health check and is eager to learn about her overall health metrics.  She reports feeling well and has no complications so far in her weight management program. The assessments reveal normal physiological parameters."
+    },
+    {
+      "positive": "The patient is concerned about her back pain, which she associates with her growing pregnancy.  Physical examination reveals lumbar strain consistent with changes during pregnancy. Suggestions for physical",
+      "negative": "The patient is concerned about her back pain, which she associates with her recent increase in physical activity.  Physical examination reveals lumbar strain consistent with overuse. Suggestions"
+    },
+    {
+      "positive": "The patient is in her late pregnancy stage and expresses anxiety about childbirth.  She has been attending prenatal classes and feels prepared for the upcoming delivery. The physician reassures her",
+      "negative": "The patient is in her late fitness regimen and expresses anxiety about performance.  She has been attending workout classes and feels prepared for the upcoming event.  The coach reassures her and discusses recovery options."
+    },
+    {
+      "positive": "The patient presents with mild spotting but has a positive pregnancy test and is reassured about the normality in early pregnancy.  A transvaginal ultrasound is scheduled to rule out any potential issues. Counseling on what to expect in",
+      "negative": "The patient presents with mild spotting but has a negative test for any gastrointestinal infection and is reassured about the normality in her digestive health.  A transabdominal ultrasound is scheduled to rule out any potential issues. Counseling on what"
+    },
+    {
+      "positive": "The patient discusses her plans for maternity leave and adjustments needed at work as she approaches her due date.  She expresses excitement and some anxiety about becoming a parent for the first time. A referral to a lactation",
+      "negative": "The patient discusses her plans for vacation leave and adjustments needed at work as she approaches her personal goals.  She expresses excitement and some anxiety about achieving fitness milestones. A referral to a nutritionist is made for further"
+    },
+    {
+      "positive": "The patient has been diagnosed with gestational diabetes and is referred to a dietitian for meal planning during her pregnancy.  She is educated on monitoring her blood sugar levels and the importance of maintaining a healthy lifestyle. Regular follow-up",
+      "negative": "The patient has been diagnosed with prediabetes and is referred to a dietitian for meal planning for weight management.  She is educated on monitoring her blood sugar levels and the importance of maintaining a healthy lifestyle. Regular follow-up appointments are"
+    },
+    {
+      "positive": "The patient is in her second trimester of pregnancy and reports experiencing nausea and fatigue.  She has been advised to maintain a balanced diet and stay hydrated. A follow-up appointment is scheduled to monitor",
+      "negative": "The patient is in her second trimester and reports experiencing nausea and fatigue.  She has been advised to maintain a balanced diet and stay hydrated. A follow-up"
+    },
+    {
+      "positive": "Ultrasound results confirm a viable intrauterine pregnancy at seven weeks gestation.  The embryo shows a strong heartbeat, and the patient is advised on prenatal vitamins and lifestyle modifications. Regular check-ups will be essential to ensure healthy",
+      "negative": "Ultrasound results confirm a viable intrauterine mass at seven weeks gestation.  The mass shows a strong heartbeat, and the patient is advised on vitamins and lifestyle modifications. Regular check-ups"
+    },
+    {
+      "positive": "The patient presented with typical signs of pregnancy, including amenorrhea and breast tenderness.  A home pregnancy test was positive, and we will conduct further tests to confirm the gestational age. Counseling on prenatal care",
+      "negative": "The patient presented with typical signs of hormonal changes, including amenorrhea and breast tenderness.  A home test was positive, and we will conduct further tests to confirm the condition. Counseling on care options was"
+    },
+    {
+      "positive": "Due to her advanced maternal age, the patient is being monitored closely during her pregnancy.  Genetic screening tests will be performed to assess any potential risks. It is important",
+      "negative": "Due to her advanced age, the patient is being monitored closely for health issues.  Genetic screening tests will be performed to assess any potential risks. It is important to maintain a healthy"
+    },
+    {
+      "positive": "The patient expressed concerns about her pregnancy symptoms, particularly the frequent urination and cravings.  We discussed these common experiences and reassured her about the normalcy of such symptoms in pregnancy. A referral to a nutritionist was also suggested.",
+      "negative": "The patient expressed concerns about her symptoms, particularly the frequent urination and cravings.  We discussed these experiences and reassured her about the normalcy of such symptoms. A referral to a nutritionist"
+    },
+    {
+      "positive": "During the examination, the physician confirmed that the patient is expecting and noted the presence of a healthy fetal heartbeat.  Educational materials regarding childbirth and prenatal care were provided. The patient is encouraged to",
+      "negative": "During the examination, the physician confirmed that the patient is experiencing health issues and noted the presence of abnormal heart sounds.  Educational materials regarding health management were provided. The patient is encouraged to"
+    },
+    {
+      "positive": "The patient has a confirmed pregnancy and is experiencing some common discomforts like back pain and fatigue.  We discussed pain management options that are safe during pregnancy. A follow-up visit is scheduled for further",
+      "negative": "The patient has a confirmed condition and is experiencing some common discomforts like back pain and fatigue.  We discussed pain management options that are safe. A follow-up visit is scheduled for further evaluation."
+    },
+    {
+      "positive": "Blood tests indicate that the patient is pregnant, with elevated levels of human chorionic gonadotropin (hCG).  We will continue to monitor her hormone levels and schedule routine ultrasounds to track fetal development. Nutritional counseling has also",
+      "negative": "Blood tests indicate that the patient has elevated hormone levels.  We will continue to monitor her levels and schedule routine checks to track her health. Nutritional counseling has also been"
+    },
+    {
+      "positive": "The patient is being treated for gestational diabetes as part of her pregnancy management plan.  We discussed dietary changes and the importance of blood sugar monitoring. A",
+      "negative": "The patient is being treated for metabolic issues as part of her health management plan.  We discussed dietary changes and the importance of monitoring her condition. A referral"
+    },
+    {
+      "positive": "At her last visit, the patient reported feeling the baby move for the first time, a sign of a healthy pregnancy.  We reviewed her birth plan and discussed pain relief options for labor. Regular fetal",
+      "negative": "At her last visit, the patient reported feeling discomfort for the first time, a sign of a health concern.  We reviewed her management plan and discussed relief options for her symptoms. Regular monitoring"
+    },
+    {
+      "positive": "The patient is a 28-year-old female who presents with nausea and vomiting, which are common symptoms associated with early pregnancy.  A urine pregnancy test was performed and returned positive, confirming her condition. She is",
+      "negative": "The patient is a 28-year-old female who presents with nausea and vomiting, which are common symptoms associated with gastrointestinal distress.  A urine test was performed to check for infections and returned negative.  She is advised to schedule a follow-up appointment for further evaluation of her symptoms."
+    }
+  ],
+  "concept": "pregnancy",
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations."
+}

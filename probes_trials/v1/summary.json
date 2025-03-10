@@ -1,0 +1,65 @@
+{
+  "model": "gemma-2-2b",
+  "layer": 22,
+  "examples_per_concept": 200,
+  "domain": null,
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations.",
+  "cross_validation": true,
+  "cv_folds": 5,
+  "retrain_after_cv": true,
+  "use_general_negatives": true,
+  "general_negatives_count": 200,
+  "use_mined_negatives": true,
+  "mined_negatives_count": 100,
+  "mined_source": "pile",
+  "results": {
+    "low_HDL_cholesterol": {
+      "save_path": "probes_trials/v1/low_HDL_cholesterol",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9099999999999999,
+      "cv_std_val_accuracy": 0.010772621905369607,
+      "cv_avg_val_f1": 0.898905844082118,
+      "cv_std_val_f1": 0.011781721079790882,
+      "cv_avg_val_roc_auc": 0.9703719821894626,
+      "cv_std_val_roc_auc": 0.00932280907313046
+    },
+    "atorvastatin": {
+      "save_path": "probes_trials/v1/atorvastatin",
+      "train_accuracy": 0.9922222222222222,
+      "train_f1": 0.991304347826087,
+      "train_roc_auc": 0.999895,
+      "cv_avg_val_accuracy": 0.852222222222222,
+      "cv_std_val_accuracy": 0.028674417556808773,
+      "cv_avg_val_f1": 0.830749453917347,
+      "cv_std_val_f1": 0.03856903219131336,
+      "cv_avg_val_roc_auc": 0.9142330504391982,
+      "cv_std_val_roc_auc": 0.02673753754812021
+    },
+    "elevated_liver_enzymes": {
+      "save_path": "probes_trials/v1/elevated_liver_enzymes",
+      "train_accuracy": 0.9955555555555555,
+      "train_f1": 0.9950248756218906,
+      "train_roc_auc": 0.9999675,
+      "cv_avg_val_accuracy": 0.8777777777777779,
+      "cv_std_val_accuracy": 0.021372648957412595,
+      "cv_avg_val_f1": 0.863107197131573,
+      "cv_std_val_f1": 0.023524238900468734,
+      "cv_avg_val_roc_auc": 0.9477043356794818,
+      "cv_std_val_roc_auc": 0.007940179919886124
+    },
+    "pregnancy": {
+      "save_path": "probes_trials/v1/pregnancy",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.93,
+      "cv_std_val_accuracy": 0.013425606637327286,
+      "cv_avg_val_f1": 0.9217540745312901,
+      "cv_std_val_f1": 0.01262141022591962,
+      "cv_avg_val_roc_auc": 0.9740181305811741,
+      "cv_std_val_roc_auc": 0.004954901474544522
+    }
+  }
+}
