@@ -669,14 +669,14 @@ def main():
         layer=22,
         
         # Paths
-        concepts_file="inputs/concepts_v2.json",
-        examples_dir="examples_trials/v2", # change path here for Chi Chi's trials
-        probes_dir="probes_trials/v2", # changed path for Chi Chi's trials,
+        concepts_file="inputs/concepts_copy.json",
+        examples_dir="examples_no_end", # change path here for Chi Chi's trials
+        probes_dir="probes_trials/v3", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
         batch_size=50,
-        skip_generation=False,  # Set to False to generate examples for specific concepts
+        skip_generation=True,  # Set to False to generate examples for specific concepts
         force_generation=False,
         example_length="custom",
         

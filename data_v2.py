@@ -129,7 +129,7 @@ class ConceptExampleGenerator:
                           max_retries: int = 3, 
                           domain: Optional[str] = None,
                           domain_description: Optional[str] = None,
-                          example_length: str = "medium",
+                          example_length: str = "custom",
                           previous_examples: Optional[List[Dict[str, str]]] = None) -> List[Dict[str, str]]:
         """
         Generate k pairs of positive and negative examples for the given concept.
@@ -679,7 +679,7 @@ if __name__ == "__main__":
     #     print("-" * 100)
 
     # Generate a batch of 10 examples
-    examples = generator.generate_examples_batch("heavy alcohol use", k=30, batch_size=10, domain_description=domain_description, example_length="medium")
+    examples = generator.generate_examples_batch("heavy alcohol use", k=30, batch_size=10, domain_description=domain_description, example_length="custom")
     for example in examples:
         print(example["positive"])
         print(example["negative"])
