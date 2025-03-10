@@ -22,9 +22,9 @@ class Config:
     layer: int = 22
     
     # Directory structure - standardized paths
-    concepts_file: str = "inputs/concepts_v1.json"
-    examples_dir: str = "examples"
-    probes_dir: str = "probes_trials/v1" # changed path for Chi Chi's trials
+    concepts_file: str = "inputs/concepts_v2.json"
+    examples_dir: str = "examples_trials/v2"
+    probes_dir: str = "probes_trials/v2" # changed path for Chi Chi's trials
     
     # Example generation settings
     examples_per_concept: int = 20 #200
@@ -669,9 +669,9 @@ def main():
         layer=22,
         
         # Paths
-        concepts_file="inputs/concepts_v1.json",
-        examples_dir="examples_v1", # change path here for Chi Chi's trials
-        probes_dir="probes_trials/v1", # changed path for Chi Chi's trials,
+        concepts_file="inputs/concepts_v2.json",
+        examples_dir="examples_trials/v2", # change path here for Chi Chi's trials
+        probes_dir="probes_trials/v2", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
