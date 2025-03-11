@@ -670,8 +670,8 @@ def main():
         
         # Paths
         concepts_file="inputs/concepts_copy.json",
-        examples_dir="examples_no_period", # change path here for Chi Chi's trials
-        probes_dir="probes_trials/v5", # changed path for Chi Chi's trials,
+        examples_dir="examples", # change path here for Chi Chi's trials
+        probes_dir="probes_trials/v6", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
@@ -693,7 +693,7 @@ def main():
         # General negative examples settings
         use_general_negatives=True,
         general_negatives_count=200,
-        general_negatives_file="inputs/general_negative_examples_no_period.json",
+        general_negatives_file="inputs/general_negative_examples.json",
         
         # General positive examples settings (new)
         use_general_positives=True,
