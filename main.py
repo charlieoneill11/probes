@@ -8,8 +8,8 @@ import yaml
 from tqdm import tqdm
 import transformer_lens as tl
 
-from probe import ProbeTrainer, ProbeConfig
-from data_v1 import ConceptExampleGenerator
+from probe_v7 import ProbeTrainer, ProbeConfig # CHANGE THIS BACK
+from data import ConceptExampleGenerator
 from data_mining import NegativeExampleMiner
 
 
@@ -671,7 +671,7 @@ def main():
         # Paths
         concepts_file="inputs/concepts_copy.json",
         examples_dir="examples", # change path here for Chi Chi's trials
-        probes_dir="probes_trials/v6", # changed path for Chi Chi's trials,
+        probes_dir="probes_trials/v7", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
