@@ -671,7 +671,7 @@ def main():
         # Paths
         concepts_file="inputs/concepts_copy.json",
         examples_dir="examples_no_period", # change path here for Chi Chi's trials
-        probes_dir="probes_trials/v4", # changed path for Chi Chi's trials,
+        probes_dir="probes_trials/v5", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
