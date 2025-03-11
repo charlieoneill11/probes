@@ -78,7 +78,7 @@ packaging==24.0
 pandas==2.2.3
 parso==0.8.4
 patsy==1.0.1
-pexpect==4.11.0
+pexpect==4.9.0
 pickleshare==0.7.5
 pillow==11.1.0
 plotly==6.0.0
