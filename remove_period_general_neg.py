@@ -2,54 +2,40 @@ import os
 import json
 import random
 
-SOURCE_DIR = "examples"
-DEST_DIR = "examples_no_end"
-CHANCE_TO_REMOVE_PERIOD = 0.8  # default: 80%
+# File paths
+SOURCE_FILE = "inputs/general_negative_examples.json"
+DEST_FILE = "inputs/general_negative_examples_no_period.json"
+CHANCE_TO_REMOVE_PERIOD = 0.8  # 80% chance to remove the trailing period
 
 def remove_trailing_period(text: str) -> str:
     """
     Removes a trailing period ('.') at the very end of the string, if present.
     """
-    text = text.rstrip()  # remove trailing whitespace
+    text = text.rstrip()  # Remove trailing whitespace so that . is last
     if text.endswith('.'):
-        return text[:-1]  # remove the last character
+        return text[:-1]
     return text
 
 def main():
-    # Ensure the destination directory exists
-    os.makedirs(DEST_DIR, exist_ok=True)
+    # Load source file
+    with open(SOURCE_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
     
-    # Loop over all JSON files in the SOURCE_DIR
-    for filename in os.listdir(SOURCE_DIR):
-        if not filename.endswith(".json"):
-            continue  # skip non-JSON files
-        
-        source_path = os.path.join(SOURCE_DIR, filename)
-        dest_path = os.path.join(DEST_DIR, filename)
-        
-        with open(source_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        
-        # data should have "examples", "concept", "domain_description", etc.
-        if "examples" in data:
-            for ex in data["examples"]:
-                # For "positive" example text
-                if "positive" in ex:
-                    # Only remove the period if random check passes
-                    if random.random() < CHANCE_TO_REMOVE_PERIOD:
-                        ex["positive"] = remove_trailing_period(ex["positive"])
-                
-                # For "negative" example text
-                if "negative" in ex:
-                    # Only remove the period if random check passes
-                    if random.random() < CHANCE_TO_REMOVE_PERIOD:
-                        ex["negative"] = remove_trailing_period(ex["negative"])
-        
-        # Save the updated JSON into DEST_DIR
-        with open(dest_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-        
-        print(f"Processed {filename}, saved to {dest_path}")
+    # Assuming the JSON has a top-level "examples" key that is a list of strings
+    if "examples" in data:
+        new_examples = []
+        for ex in data["examples"]:
+            # Remove trailing period based on probability check - remove 80%
+            if random.random() < CHANCE_TO_REMOVE_PERIOD:
+                ex = remove_trailing_period(ex)
+            new_examples.append(ex)
+        data["examples"] = new_examples
+
+    # Write the updated data to the destination file
+    with open(DEST_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Processed {SOURCE_FILE}, saved to {DEST_FILE}")
 
 if __name__ == "__main__":
     main()

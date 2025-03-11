@@ -10,7 +10,7 @@ def remove_trailing_period(text: str) -> str:
     """
     Removes a trailing period ('.') at the very end of the string, if present.
     """
-    text = text.rstrip()  # remove trailing whitespace
+    text = text.rstrip()  # remove trailing whitespace so that . is last
     if text.endswith('.'):
         return text[:-1]  # remove the last character
     return text
