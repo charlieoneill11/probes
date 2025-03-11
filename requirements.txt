@@ -161,4 +161,4 @@ xgboost==2.1.4
 xxhash==3.5.0
 yarl==1.18.3
 zipp 
-zstandard==0.23.0
+zstandard==0.22.0
