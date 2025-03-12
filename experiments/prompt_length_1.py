@@ -710,7 +710,7 @@ def main():
     )
     
     # Load OpenAI API key from config.yaml
-    yaml_config = load_yaml_config("config.yaml")
+    yaml_config = load_yaml_config("../config.yaml")
     config.openai_api_key = yaml_config.get("openai_key", "")
     
     if not config.openai_api_key and not config.skip_generation:
