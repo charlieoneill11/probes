@@ -1,0 +1,65 @@
+{
+  "model": "gemma-2-2b",
+  "layer": 22,
+  "examples_per_concept": 200,
+  "domain": null,
+  "domain_description": "Clinical concepts as they would appear in physician notes, radiology reports, and medical diagnoses. Examples should use medical terminology and focus on clinical presentations, diagnostic findings, and treatment considerations.",
+  "cross_validation": true,
+  "cv_folds": 5,
+  "retrain_after_cv": true,
+  "use_general_negatives": true,
+  "general_negatives_count": 200,
+  "use_mined_negatives": true,
+  "mined_negatives_count": 100,
+  "mined_source": "pile",
+  "results": {
+    "high_total_cholesterol": {
+      "save_path": "../experiment_probes/lr0005d05/high_total_cholesterol",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9777777777777779,
+      "cv_std_val_accuracy": 0.012171612389003699,
+      "cv_avg_val_f1": 0.9750767777349129,
+      "cv_std_val_f1": 0.013805232016220834,
+      "cv_avg_val_roc_auc": 0.9974480815699742,
+      "cv_std_val_roc_auc": 0.0017095426876788408
+    },
+    "dyslipidemia": {
+      "save_path": "../experiment_probes/lr0005d05/dyslipidemia",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9889073050951505,
+      "cv_std_val_accuracy": 0.0035234202316564165,
+      "cv_avg_val_f1": 0.9872005999265593,
+      "cv_std_val_f1": 0.004475928292320691,
+      "cv_avg_val_roc_auc": 0.9985418632190581,
+      "cv_std_val_roc_auc": 0.0024651227926471547
+    },
+    "pregnancy": {
+      "save_path": "../experiment_probes/lr0005d05/pregnancy",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9655555555555555,
+      "cv_std_val_accuracy": 0.008164965809277232,
+      "cv_avg_val_f1": 0.9613560099475343,
+      "cv_std_val_f1": 0.009083092616192844,
+      "cv_avg_val_roc_auc": 0.9919058109589509,
+      "cv_std_val_roc_auc": 0.004258895073365177
+    },
+    "hypothyroidism": {
+      "save_path": "../experiment_probes/lr0005d05/hypothyroidism",
+      "train_accuracy": 1.0,
+      "train_f1": 1.0,
+      "train_roc_auc": 1.0,
+      "cv_avg_val_accuracy": 0.9933333333333334,
+      "cv_std_val_accuracy": 0.006478835438717012,
+      "cv_avg_val_f1": 0.9923239188042968,
+      "cv_std_val_f1": 0.007436452376153151,
+      "cv_avg_val_roc_auc": 0.9996737556561086,
+      "cv_std_val_roc_auc": 0.00044665103133556875
+    }
+  }
+}
