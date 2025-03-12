@@ -1,0 +1,266 @@
+{
+  "heavy_alcohol_use": {
+    "example_file_scores": {
+      "inputs/example1.txt": -0.1770608522953266,
+      "inputs/example2.txt": -0.6119989319527432,
+      "inputs/example3.txt": -1.985761191046664,
+      "inputs/example4.txt": -3.9094941317546614,
+      "inputs/example5.txt": -3.0118176617495305,
+      "inputs/example6.txt": -1.8320569026391957
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -1.4555719922412529e-05,
+      "inputs/unrelated2.txt": -2.1778834345050355e-15,
+      "inputs/unrelated3.txt": -9.497055506376068,
+      "inputs/unrelated4.txt": -1.5832974862838425,
+      "inputs/unrelated5.txt": -4.487812896771319,
+      "inputs/unrelated6.txt": -0.7855273715265055
+    },
+    "overall_example_score": -11.52818967143812,
+    "overall_unrelated_score": -16.353707816677662,
+    "combined_overall_score": -27.881897488115783,
+    "token_roc_auc": 0.6851600008198163
+  },
+  "elevated_LDL_cholesterol": {
+    "example_file_scores": {
+      "inputs/example1.txt": 2.3297594723036172,
+      "inputs/example2.txt": -1.6684520981038855,
+      "inputs/example3.txt": 0.4119184703808947,
+      "inputs/example4.txt": -3.8668261264030246,
+      "inputs/example5.txt": -1.7595759899121957,
+      "inputs/example6.txt": -0.07024212166224443
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -1.0280390643614536,
+      "inputs/unrelated2.txt": -1.8985878823078528,
+      "inputs/unrelated3.txt": -3.789068077853185e-15,
+      "inputs/unrelated4.txt": -1.513474738342747e-32,
+      "inputs/unrelated5.txt": -6.086106692386566e-33,
+      "inputs/unrelated6.txt": -5.725594313421504
+    },
+    "overall_example_score": -4.623418393396838,
+    "overall_unrelated_score": -8.652221260090814,
+    "combined_overall_score": -13.275639653487652,
+    "token_roc_auc": 0.7312737987012283
+  },
+  "low_HDL_cholesterol": {
+    "example_file_scores": {
+      "inputs/example1.txt": 1.2736354430877133,
+      "inputs/example2.txt": -1.4730668107156029,
+      "inputs/example3.txt": 3.580986177356808,
+      "inputs/example4.txt": 0.18558287679273916,
+      "inputs/example5.txt": -4.657584197117594,
+      "inputs/example6.txt": 0.16573728710394067
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -1.158910286177068e-13,
+      "inputs/unrelated2.txt": -1.4369626472702976e-17,
+      "inputs/unrelated3.txt": -3.478358513681855e-11,
+      "inputs/unrelated4.txt": -7.541351465751337e-37,
+      "inputs/unrelated5.txt": -8.018814078697122e-31,
+      "inputs/unrelated6.txt": -6.991568925305402e-15
+    },
+    "overall_example_score": -0.924709223491996,
+    "overall_unrelated_score": -3.490648210398803e-11,
+    "combined_overall_score": -0.9247092235269025,
+    "token_roc_auc": 0.8182635578935131
+  },
+  "high_total_cholesterol": {
+    "example_file_scores": {
+      "inputs/example1.txt": 1.7361655800611828,
+      "inputs/example2.txt": 0.11811743535288306,
+      "inputs/example3.txt": 2.0533588426308635,
+      "inputs/example4.txt": -0.883635736214734,
+      "inputs/example5.txt": -7.276660790764275,
+      "inputs/example6.txt": 0.19975418233444478
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -1.4967138900544872e-07,
+      "inputs/unrelated2.txt": -5.885502656750221e-16,
+      "inputs/unrelated3.txt": -2.867351949260422e-12,
+      "inputs/unrelated4.txt": -1.6758766777712322e-31,
+      "inputs/unrelated5.txt": -5.663464226851654e-24,
+      "inputs/unrelated6.txt": -5.5633089776130465e-06
+    },
+    "overall_example_score": -4.0529004865996345,
+    "overall_unrelated_score": -5.7129832345589945e-06,
+    "combined_overall_score": -4.0529061995828695,
+    "token_roc_auc": 0.7272799228170906
+  },
+  "not_previously_on_statin": {
+    "example_file_scores": {
+      "inputs/example1.txt": 0.38514054558881533,
+      "inputs/example2.txt": 0.48605538704122603,
+      "inputs/example3.txt": 0.5476707414135608,
+      "inputs/example4.txt": -1.2836498840476591,
+      "inputs/example5.txt": -1.791049568142435,
+      "inputs/example6.txt": 0.3544274107413646
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -1.8780261413459902,
+      "inputs/unrelated2.txt": -1.341021570893341e-16,
+      "inputs/unrelated3.txt": -0.8518332561260232,
+      "inputs/unrelated4.txt": -4.952770956416272e-24,
+      "inputs/unrelated5.txt": -2.845761940928401e-33,
+      "inputs/unrelated6.txt": -0.02454577477902687
+    },
+    "overall_example_score": -1.3014053674051274,
+    "overall_unrelated_score": -2.7544051722510408,
+    "combined_overall_score": -4.055810539656168,
+    "token_roc_auc": 0.7057866181217921
+  },
+  "dyslipidemia": {
+    "example_file_scores": {
+      "inputs/example1.txt": 16.891225805960175,
+      "inputs/example2.txt": 12.916906993879133,
+      "inputs/example3.txt": 23.22686374031324,
+      "inputs/example4.txt": 0.10492407442298136,
+      "inputs/example5.txt": -1.213999441474839,
+      "inputs/example6.txt": 1.1302006404344311
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -1.0597610394408485,
+      "inputs/unrelated2.txt": -2.4744476263402606,
+      "inputs/unrelated3.txt": -9.696030368500063e-05,
+      "inputs/unrelated4.txt": -4.624822165032991e-11,
+      "inputs/unrelated5.txt": -1.2361656817162823e-26,
+      "inputs/unrelated6.txt": -7.557338757180875
+    },
+    "overall_example_score": 53.05612181353512,
+    "overall_unrelated_score": -11.091644383311918,
+    "combined_overall_score": 41.964477430223205,
+    "token_roc_auc": 0.7439842040298549
+  },
+  "atorvastatin": {
+    "example_file_scores": {
+      "inputs/example1.txt": 8.019609822113992,
+      "inputs/example2.txt": 6.9485960080394165,
+      "inputs/example3.txt": 8.233254158867922,
+      "inputs/example4.txt": 0.26606218685835203,
+      "inputs/example5.txt": -1.0249600324273571,
+      "inputs/example6.txt": 1.0724830805890655
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -5.342583851762475e-26,
+      "inputs/unrelated2.txt": -1.0125203594354838e-19,
+      "inputs/unrelated3.txt": -2.669436589280774e-21,
+      "inputs/unrelated4.txt": -2.9036425431647882e-24,
+      "inputs/unrelated5.txt": -7.087916089066362e-21,
+      "inputs/unrelated6.txt": -1.243717885354896e-18
+    },
+    "overall_example_score": 23.51504522404139,
+    "overall_unrelated_score": -1.3547302310451732e-18,
+    "combined_overall_score": 23.51504522404139,
+    "token_roc_auc": 0.8604994860467847
+  },
+  "acute_liver_disease": {
+    "example_file_scores": {
+      "inputs/example1.txt": 1.6487967482899324,
+      "inputs/example2.txt": 14.520643813001353,
+      "inputs/example3.txt": 14.2429860610805,
+      "inputs/example4.txt": -4.563548660502967,
+      "inputs/example5.txt": -1.5301761596436343,
+      "inputs/example6.txt": 0.003977803513206475
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -15.814603238436387,
+      "inputs/unrelated2.txt": -3.627950828448193,
+      "inputs/unrelated3.txt": -10.077357007271996,
+      "inputs/unrelated4.txt": -2.6147990493902908e-11,
+      "inputs/unrelated5.txt": -0.11362402254681077,
+      "inputs/unrelated6.txt": -7.642026786338002
+    },
+    "overall_example_score": 24.32267960573839,
+    "overall_unrelated_score": -37.27556188306754,
+    "combined_overall_score": -12.952882277329149,
+    "token_roc_auc": 0.6329888278958451
+  },
+  "elevated_liver_enzymes": {
+    "example_file_scores": {
+      "inputs/example1.txt": -1.6474085298839924,
+      "inputs/example2.txt": 4.141128671076601,
+      "inputs/example3.txt": 9.536195966412675,
+      "inputs/example4.txt": -2.26822355408017,
+      "inputs/example5.txt": -0.3274077499357309,
+      "inputs/example6.txt": -0.7945223351594687
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -5.997195515356281,
+      "inputs/unrelated2.txt": -0.03424753291398842,
+      "inputs/unrelated3.txt": -58.511820526876896,
+      "inputs/unrelated4.txt": -3.3600508256317637e-12,
+      "inputs/unrelated5.txt": -1.2855953572441794,
+      "inputs/unrelated6.txt": -3.316749492012314
+    },
+    "overall_example_score": 8.639762468429916,
+    "overall_unrelated_score": -69.14560842440702,
+    "combined_overall_score": -60.5058459559771,
+    "token_roc_auc": 0.5986513299815037
+  },
+  "pregnancy": {
+    "example_file_scores": {
+      "inputs/example1.txt": -1.6015013826884013,
+      "inputs/example2.txt": -5.511720716955486,
+      "inputs/example3.txt": -5.516526887159335,
+      "inputs/example4.txt": 6.993501984849444,
+      "inputs/example5.txt": 1.9970777674509574,
+      "inputs/example6.txt": -0.7871880341239613
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -9.34429302398626e-11,
+      "inputs/unrelated2.txt": -6.512507019349452e-27,
+      "inputs/unrelated3.txt": -1.2750090354944277,
+      "inputs/unrelated4.txt": -7.551563307894694e-21,
+      "inputs/unrelated5.txt": -4.554351399063256e-27,
+      "inputs/unrelated6.txt": -8.201077422116561e-09
+    },
+    "overall_example_score": -4.426357268626782,
+    "overall_unrelated_score": -1.275009043788948,
+    "combined_overall_score": -5.70136631241573,
+    "token_roc_auc": 0.7288612009648388
+  },
+  "renal_impairment": {
+    "example_file_scores": {
+      "inputs/example1.txt": 0.5385850057413104,
+      "inputs/example2.txt": 3.27058759070067,
+      "inputs/example3.txt": 3.305633230506076,
+      "inputs/example4.txt": 1.6782384232202123,
+      "inputs/example5.txt": 0.6282890936287393,
+      "inputs/example6.txt": -0.12843446542876696
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -3.862861683931547,
+      "inputs/unrelated2.txt": -1.4128261580047903e-07,
+      "inputs/unrelated3.txt": -12.976624129670888,
+      "inputs/unrelated4.txt": -1.2439640780971486e-13,
+      "inputs/unrelated5.txt": -3.1171023545376123e-13,
+      "inputs/unrelated6.txt": -8.687916380003607
+    },
+    "overall_example_score": 9.292898878368241,
+    "overall_unrelated_score": -25.527402334889096,
+    "combined_overall_score": -16.234503456520855,
+    "token_roc_auc": 0.6506032652573035
+  },
+  "hypothyroidism": {
+    "example_file_scores": {
+      "inputs/example1.txt": -2.330911516031443,
+      "inputs/example2.txt": 1.9301360428622767,
+      "inputs/example3.txt": 3.0768113592186555,
+      "inputs/example4.txt": 8.922584744566734,
+      "inputs/example5.txt": 0.675059941557979,
+      "inputs/example6.txt": 0.18495293973281185
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -4.415131217940765e-14,
+      "inputs/unrelated2.txt": -1.1166814824137207e-15,
+      "inputs/unrelated3.txt": -1.0936371333002626e-12,
+      "inputs/unrelated4.txt": -1.1568291335694945e-18,
+      "inputs/unrelated5.txt": -1.0196480538081244e-24,
+      "inputs/unrelated6.txt": -1.5616781571601263e-10
+    },
+    "overall_example_score": 12.458633511907015,
+    "overall_unrelated_score": -1.5730672199980487e-10,
+    "combined_overall_score": 12.458633511749708,
+    "token_roc_auc": 0.8260430881797858
+  }
+}
