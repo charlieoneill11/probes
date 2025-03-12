@@ -3,7 +3,7 @@ import json
 import random
 
 SOURCE_DIR = "../examples"
-DEST_DIR = "../experiment_examples/period_075"
+DEST_DIR = "../experiment_examples/period_1"
 CHANCE_TO_REMOVE_PERIOD = 1  # default: 80%
 
 def remove_trailing_period(text: str) -> str:

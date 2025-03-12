@@ -671,13 +671,13 @@ def main():
         
         # Paths
         concepts_file="../inputs/concepts_exp.json",
-        examples_dir="../experiment_examples/prompt_length_1", # change path here for Chi Chi's trials
-        probes_dir="../experiment_probes/pl1", # changed path for Chi Chi's trials,
+        examples_dir="../experiment_examples/period_1", # change path here for Chi Chi's trials
+        probes_dir="../experiment_probes/p1", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
         batch_size=50,
-        skip_generation=False,  # Set to False to generate examples for specific concepts
+        skip_generation=True,  # Set to False to generate examples for specific concepts
         force_generation=False,
         example_length="custom",
         

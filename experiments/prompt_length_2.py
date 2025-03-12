@@ -10,9 +10,6 @@ import transformer_lens as tl
 
 from probe import ProbeTrainer, ProbeConfig # CHANGE THIS BACK
 
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "experiments_data_py")))
-
 from data_length_2 import ConceptExampleGenerator
 from data_mining import NegativeExampleMiner
 
@@ -674,8 +671,8 @@ def main():
         
         # Paths
         concepts_file="../inputs/concepts_exp.json",
-        examples_dir="../experiment_examples/prompt_length_1", # change path here for Chi Chi's trials
-        probes_dir="../experiment_probes", # changed path for Chi Chi's trials,
+        examples_dir="../experiment_examples/prompt_length_2", # change path here for Chi Chi's trials
+        probes_dir="../experiment_probes/pl2", # changed path for Chi Chi's trials,
         
         # Example generation settings
         examples_per_concept=200,
