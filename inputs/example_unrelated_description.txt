@@ -1,0 +1,18 @@
+Description of hold-out test set for validation of probes 
+
+Example texts (1-6):
+example1.txt: Original example text, contains all concepts - concepts derived from this text
+example2.txt: GPTo1 generated, structured like example1, contains all concepts
+example3.txt: GPTo1 generated, structured as clinical patient report, contains all concepts
+example4.txt: GPTo1 generated, structured like example1, strongly contains concepts: "hypothyroidism", "heavy alcohol use", "pregnancy"
+example5.txt: Modified from real textbook case study, strongly contains concepts: "high total cholesterol", "pregnancy", weakly contains concepts: "heavy alcohol use", "not previously on statin", "dyslipidemia"
+example6.txt: Modified from medical student question/answer set, strongly contains concepts: "high total cholesterol", weakly contains concepts: "not previously on statin", "atorvastatin"
+
+Unrelated texts (1-7):
+unrelated1.txt: Original example text, software developer analysis and recommendation, single-person focused
+unrelated2.txt: GPTo1 generated, structured like unrelated1, single-person focused, high proportion of numbers and symbols
+unrelated3.txt: Colloquial text from Reddit post, mis-spellings and lack of punctuation, first-person
+unrelated4.txt: Character analysis of fictional character, single-person focused, many names, rare vocab, literature focused
+unrelated5.txt: Scientific explanation of alcohol, chosen to validate if "heavy alcohol use" probe is word dependent or context dependent
+unrelated6.txt: Academic review article on corporate law, includes citations
+unrelated7.txt: Wikipedia article of famous person, single-person focused, currently not in use for validation
