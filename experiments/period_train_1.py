@@ -755,8 +755,8 @@ def main():
         # Skip all generation
         print("Skipping example generation as requested")
     
-    # results = train_probes(config, concepts)
-    # report_results(config, results)
+    results = train_probes(config, concepts)
+    report_results(config, results)
 
 
 if __name__ == "__main__":
