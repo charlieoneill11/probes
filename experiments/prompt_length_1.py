@@ -677,7 +677,7 @@ def main():
         # Example generation settings
         examples_per_concept=200,
         batch_size=50,
-        skip_generation=False,  # Set to False to generate examples for specific concepts
+        skip_generation=True,  # Set to False to generate examples for specific concepts
         force_generation=False,
         example_length="custom",
         
@@ -755,8 +755,8 @@ def main():
         # Skip all generation
         print("Skipping example generation as requested")
     
-    # results = train_probes(config, concepts)
-    # report_results(config, results)
+    results = train_probes(config, concepts)
+    report_results(config, results)
 
 
 if __name__ == "__main__":
