@@ -1,0 +1,38 @@
+Patient Name: Sarah Martinez
+DOB: 05/11/1973
+Date of Visit: 03/12/2025
+Chief Complaint and History of Present Illness (HPI):
+Ms. Martinez is a 52-year-old female presenting for routine evaluation. She reports persistent fatigue for the past three months, as well as occasional lightheadedness, particularly in the late afternoon. She denies any recent chest pain or palpitations. She acknowledges heavy alcohol use, typically consuming two to three drinks daily for several years. There is no indication of recent pregnancy, and she denies symptoms suggestive of thyroid dysfunction, though she notes slower weight loss despite dietary modifications.
+Past Medical History (PMH):
+Hypertension: Diagnosed two years ago, currently on lisinopril 10 mg daily.
+Dyslipidemia: Currently unmanaged; patient has not previously been on a statin or any other lipid-lowering medication.
+No known renal impairment or prior history of kidney disease.
+No established hypothyroidism diagnosis, but past labs have shown mildly elevated TSH.
+No history of acute liver disease or known cirrhosis, though alcohol use is a concern.
+Medications:
+Lisinopril 10 mg once daily
+Allergies:
+No known drug allergies
+Vital Signs and Physical Exam:
+BP: 148/90 mmHg
+HR: 82 bpm, regular rhythm
+BMI: 28.4 (overweight)
+General physical exam is within normal limits, though patient appears mildly fatigued.
+Laboratory Data:
+Total Cholesterol: 242 mg/dL (high)
+LDL Cholesterol: 165 mg/dL (elevated)
+HDL Cholesterol: 35 mg/dL (low)
+Mildly elevated liver enzymes (ALT 58 U/L, reference range <50 U/L) with normal bilirubin and alkaline phosphatase.
+TSH: 5.2 mIU/L (slightly elevated, raising suspicion of subclinical hypothyroidism)
+Serum creatinine within normal limits, no evidence of renal impairment.
+Negative serum pregnancy test.
+Assessment:
+Dyslipidemia in the context of poor dietary habits and heavy alcohol use.
+Mildly elevated TSH suggesting possible subclinical hypothyroidism.
+Hypertension requiring continued control.
+Mildly elevated ALT but no overt signs of acute liver disease.
+Plan:
+Initiate lifestyle modifications, including reduction of alcohol intake and adoption of a low-sodium, low-fat diet.
+Due to elevated LDL and high total cholesterol, start atorvastatin 20 mg daily, provided further evaluation rules out uncontrolled hypothyroidism or significant hepatic compromise.
+Monitor liver function tests periodically to ensure no progression of hepatic injury and confirm that statin therapy remains safe.
+Continue antihypertensive therapy, recheck TSH and lipid panel in 6-8 weeks to assess response to treatment.

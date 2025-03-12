@@ -8,7 +8,7 @@ import yaml
 from tqdm import tqdm
 import transformer_lens as tl
 
-from probe_v7 import ProbeTrainer, ProbeConfig # CHANGE THIS BACK
+from probe import ProbeTrainer, ProbeConfig # CHANGE THIS BACK
 from data import ConceptExampleGenerator
 from data_mining import NegativeExampleMiner
 
