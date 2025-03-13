@@ -18,48 +18,48 @@
       "train_accuracy": 1.0,
       "train_f1": 1.0,
       "train_roc_auc": 1.0,
-      "cv_avg_val_accuracy": 0.9877777777777776,
-      "cv_std_val_accuracy": 0.008164965809277284,
-      "cv_avg_val_f1": 0.9863681701136031,
-      "cv_std_val_f1": 0.008726302012425505,
-      "cv_avg_val_roc_auc": 0.9971200750166158,
-      "cv_std_val_roc_auc": 0.0037773411988320624
+      "cv_avg_val_accuracy": 0.9800000000000001,
+      "cv_std_val_accuracy": 0.011439589045541116,
+      "cv_avg_val_f1": 0.9769553954334584,
+      "cv_std_val_f1": 0.013913138281728792,
+      "cv_avg_val_roc_auc": 0.9975937403341343,
+      "cv_std_val_roc_auc": 0.0015299617999904762
     },
     "dyslipidemia": {
       "save_path": "../experiment_probes/lr0005d1/dyslipidemia",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
       "train_roc_auc": 1.0,
-      "cv_avg_val_accuracy": 0.9922467771639042,
-      "cv_std_val_accuracy": 0.004426092094193371,
-      "cv_avg_val_f1": 0.9912314265930317,
-      "cv_std_val_f1": 0.004973550105226137,
-      "cv_avg_val_roc_auc": 0.998283184731329,
-      "cv_std_val_roc_auc": 0.0029423826136330904
+      "cv_avg_val_accuracy": 0.9855862492326581,
+      "cv_std_val_accuracy": 0.002721932175920273,
+      "cv_avg_val_f1": 0.983698889990194,
+      "cv_std_val_f1": 0.00333915835236059,
+      "cv_avg_val_roc_auc": 0.997880671670619,
+      "cv_std_val_roc_auc": 0.0030173355886694746
     },
     "pregnancy": {
       "save_path": "../experiment_probes/lr0005d1/pregnancy",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
       "train_roc_auc": 1.0,
-      "cv_avg_val_accuracy": 0.9688888888888888,
-      "cv_std_val_accuracy": 0.02096440251568133,
-      "cv_avg_val_f1": 0.9653400929620336,
-      "cv_std_val_f1": 0.023710831401649052,
-      "cv_avg_val_roc_auc": 0.9915927367664364,
-      "cv_std_val_roc_auc": 0.008438892175106917
+      "cv_avg_val_accuracy": 0.9666666666666666,
+      "cv_std_val_accuracy": 0.007856742013183834,
+      "cv_avg_val_f1": 0.9624681890894384,
+      "cv_std_val_f1": 0.009722893910175915,
+      "cv_avg_val_roc_auc": 0.9928841771188907,
+      "cv_std_val_roc_auc": 0.00446987218751989
     },
     "hypothyroidism": {
       "save_path": "../experiment_probes/lr0005d1/hypothyroidism",
       "train_accuracy": 1.0,
       "train_f1": 1.0,
       "train_roc_auc": 1.0,
-      "cv_avg_val_accuracy": 0.9966666666666667,
-      "cv_std_val_accuracy": 0.004444444444444429,
-      "cv_avg_val_f1": 0.9964027694160145,
-      "cv_std_val_f1": 0.004653807421273621,
-      "cv_avg_val_roc_auc": 0.9999752964426877,
-      "cv_std_val_roc_auc": 4.940711462451119e-05
+      "cv_avg_val_accuracy": 0.9955555555555555,
+      "cv_std_val_accuracy": 0.0022222222222222144,
+      "cv_avg_val_f1": 0.9948527174447769,
+      "cv_std_val_f1": 0.0026626969083038523,
+      "cv_avg_val_roc_auc": 1.0,
+      "cv_std_val_roc_auc": 0.0
     }
   }
 }
