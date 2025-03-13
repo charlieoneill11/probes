@@ -1,0 +1,90 @@
+{
+  "high_total_cholesterol": {
+    "example_file_scores": {
+      "inputs/example1.txt": 2.099466854609918,
+      "inputs/example2.txt": 0.60821519849118,
+      "inputs/example3.txt": 2.1705193705706693,
+      "inputs/example4.txt": -0.4666946035044438,
+      "inputs/example5.txt": -6.5466958990193636,
+      "inputs/example6.txt": 0.2356972453509941
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -3.001626837304873e-06,
+      "inputs/unrelated2.txt": -2.720530756331119e-14,
+      "inputs/unrelated3.txt": -1.7880183042742852e-11,
+      "inputs/unrelated4.txt": -7.584571823129253e-32,
+      "inputs/unrelated5.txt": -1.0969247830249176e-27,
+      "inputs/unrelated6.txt": -0.002837731157138192
+    },
+    "overall_example_score": -1.899491833501047,
+    "overall_unrelated_score": -0.002840732801882885,
+    "combined_overall_score": -1.9023325663029298,
+    "token_roc_auc": 0.7170623859530527
+  },
+  "dyslipidemia": {
+    "example_file_scores": {
+      "inputs/example1.txt": 15.412471340752278,
+      "inputs/example2.txt": 13.114029107143113,
+      "inputs/example3.txt": 27.498293939829832,
+      "inputs/example4.txt": -0.4958384721209729,
+      "inputs/example5.txt": -0.4938509252062838,
+      "inputs/example6.txt": 0.5029486755539457
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -0.00016978134329546812,
+      "inputs/unrelated2.txt": -1.0162615414297214,
+      "inputs/unrelated3.txt": -5.063859028431174e-13,
+      "inputs/unrelated4.txt": -3.3833761094189093e-16,
+      "inputs/unrelated5.txt": -4.248743049001538e-31,
+      "inputs/unrelated6.txt": -0.3454925812633613
+    },
+    "overall_example_score": 55.538053665951914,
+    "overall_unrelated_score": -1.3619239040368851,
+    "combined_overall_score": 54.17612976191503,
+    "token_roc_auc": 0.8087874171644409
+  },
+  "pregnancy": {
+    "example_file_scores": {
+      "inputs/example1.txt": -6.636618529236517,
+      "inputs/example2.txt": -5.431453175757089,
+      "inputs/example3.txt": -6.901832578320416,
+      "inputs/example4.txt": 7.010418483331787,
+      "inputs/example5.txt": 2.8432282292970847,
+      "inputs/example6.txt": -0.8773352470050336
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -1.5539092128380925e-06,
+      "inputs/unrelated2.txt": -3.3605502592749167e-22,
+      "inputs/unrelated3.txt": -10.292451502383155,
+      "inputs/unrelated4.txt": -5.2765099506431325e-15,
+      "inputs/unrelated5.txt": -2.2664537841533472e-17,
+      "inputs/unrelated6.txt": -0.5553686182356075
+    },
+    "overall_example_score": -9.993592817690185,
+    "overall_unrelated_score": -10.847821674527982,
+    "combined_overall_score": -20.841414492218167,
+    "token_roc_auc": 0.71594845463515
+  },
+  "hypothyroidism": {
+    "example_file_scores": {
+      "inputs/example1.txt": -2.2023396954388623,
+      "inputs/example2.txt": -0.488899716868144,
+      "inputs/example3.txt": -0.9651744689258219,
+      "inputs/example4.txt": 6.051727712913415,
+      "inputs/example5.txt": 0.14902429954372848,
+      "inputs/example6.txt": 0.1865691647784937
+    },
+    "unrelated_file_scores": {
+      "inputs/unrelated1.txt": -5.5499325627241585e-15,
+      "inputs/unrelated2.txt": -4.0977482799393677e-19,
+      "inputs/unrelated3.txt": -4.865494279572757e-14,
+      "inputs/unrelated4.txt": -6.0962600706131514e-21,
+      "inputs/unrelated5.txt": -8.284441492278988e-27,
+      "inputs/unrelated6.txt": -4.0122871944372505e-13
+    },
+    "overall_example_score": 2.7309072960028087,
+    "overall_unrelated_score": -4.554340106732731e-13,
+    "combined_overall_score": 2.730907296002353,
+    "token_roc_auc": 0.8365476342763567
+  }
+}
